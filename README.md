@@ -2,6 +2,7 @@
   <img width="300px" src=".github/assets/corteza_logo.svg" />
   <br />
   <p>Corteza translations and locales</p>
+  <p>Work in progress!</p>
 
   <div align="center">
 
@@ -83,14 +84,6 @@ Quick references:
 Refer to the [Developer Guide/Corteza Server](https://docs.cortezaproject.org/corteza-docs/2021.6/developer-guide/corteza-server/index.html) document for details regarding the [development setup](https://docs.cortezaproject.org/corteza-docs/2021.6/developer-guide/corteza-server/index.html#_development_setup), the [project structure](https://docs.cortezaproject.org/corteza-docs/2021.6/developer-guide/corteza-server/structure.html), and the feature insight documents.
 
 Refer to the [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and code of conduct.
-
-Quick command reference:
-
-* run server: `make watch` or `make realize`
-* run unit tests: `make test.unit`
-* run integration tests: `make test.integration`
-* run all tests `make test.all`
-* run MailHog (local SMTP server): `make mailhog.up` (requires Docker)
 
 ## Community
 
