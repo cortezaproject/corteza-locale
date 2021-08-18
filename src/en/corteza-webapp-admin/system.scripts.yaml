@@ -1,0 +1,14 @@
+list:
+  columns:
+    actions: ""
+    createdAt: Created
+    email: Email
+    enabled: Enabled
+    name: Name
+  filterForm:
+    query:
+      label: Filter scripts list
+      placeholder: Filter scripts by name
+  title: Scripts
+navItem:
+  label: Scripts

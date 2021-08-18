@@ -1,0 +1,38 @@
+list:
+  columns:
+    action: Action
+    actor: User
+    description: Description
+    requestOrigin: Origin
+    resource: Resource
+    severity: Severity
+    timestamp: Timestamp
+  details:
+    action: Action
+    actor: User
+    actorID: User ID
+    actorIPAddr: Actor/User
+    description: Description
+    error: Error
+    header: Details
+    headerAdditional: Additional information
+    id: ID
+    requestID: Request ID
+    requestOrigin: Request Origin
+    resource: Resource
+    severity: Severity
+    timestamp: Timestamp
+  filter:
+    action: Action
+    actor: User ID
+    choose-date: Choose a date
+    from: Starting from
+    no-time: No time selected
+    resource: Resource
+    search: Search
+    to: Ending at
+    today: Today
+  loadOlder: Load older actions
+  title: Action log
+navItem:
+  label: Action log
