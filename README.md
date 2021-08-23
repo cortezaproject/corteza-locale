@@ -17,7 +17,11 @@
   </div>
 </h1>
 
-<br />
+**Corteza Locale** provides the centralized repository for all corteza translations.
+
+These files are automatically pulled and bundled into corteza-server when it is built.
+
+Please follow the [developer's guide](DEV.md) to configure in your local development environment with translations.
 
 ## What is Corteza?
 
