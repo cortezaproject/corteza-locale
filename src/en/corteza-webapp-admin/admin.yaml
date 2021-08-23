@@ -71,6 +71,7 @@ automation:
     warning: ""
   title: List of automation script
 general:
+  notFound: 'Not found'
   label:
     "no": "No"
     submit: Submit

@@ -8,20 +8,29 @@ list:
     severity: Severity
     timestamp: Timestamp
   details:
-    action: Action
-    actor: User
-    actorID: User ID
-    actorIPAddr: Actor/User
-    description: Description
-    error: Error
-    header: Details
-    headerAdditional: Additional information
-    id: ID
-    requestID: Request ID
-    requestOrigin: Request Origin
-    resource: Resource
-    severity: Severity
-    timestamp: Timestamp
+    id: 'ID'
+    header: 'Details'
+    timestamp: 'Timestamp'
+    requestOrigin: 'Request Origin'
+    requestID: 'Request ID'
+    actorIPAddr: 'Actor/User'
+    actor: 'User'
+    actorID: 'User ID'
+    severity: 'Severity'
+    resource: 'Resource'
+    action: 'Action'
+    headerAdditional: 'Additional information'
+    description: 'Description'
+    error: 'Error'
+  severity:
+    emergency: 'Emergency'
+    alert: 'Alert'
+    critical: 'Critical'
+    error: 'Error'
+    warning: 'Warning'
+    notice: 'Notice'
+    info: 'Info'
+    debug: 'Debug'
   filter:
     action: Action
     actor: User ID

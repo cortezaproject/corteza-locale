@@ -26,6 +26,11 @@ list:
         applicationsSearch: List and search applications
         authClientCreate: Create new auth client
         authClientsSearch: List and search auth clients
+        apigwRouteCreate: Create new route
+        apigwRoutesSearch: List and search routes
+        apigwFunctionCreate: Create new function
+        apigwFunctionsSearch: List and search functions
+
         grant: Grant permission on system service
         queueCreate: Create new messaging queue
         queuesSearch: List and search messaging queues
@@ -61,6 +66,22 @@ list:
       type:
         label: Roles
     submit: Submit
+    apigwRoute:
+      type:
+        label: 'API gateway Routes'
+
+      operations:
+        read: 'Read any route'
+        update: 'Update any route'
+        delete: 'Delete any route'
+    apigwFunction:
+      type:
+        label: 'API gateway functions'
+
+      operations:
+        read: 'Read any function'
+        update: 'Update any function'
+        delete: 'Delete any function'
     template:
       operations:
         delete: Delete any template

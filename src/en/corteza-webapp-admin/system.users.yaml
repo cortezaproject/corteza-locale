@@ -48,6 +48,7 @@ editor:
     missmatch: The passwords must match!
     new: New password
     title: Password
+    removePassword: Remove password
   permissions: Permissions
   roles:
     add: Add
