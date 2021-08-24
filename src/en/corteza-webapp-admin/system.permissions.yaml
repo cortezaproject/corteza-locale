@@ -105,6 +105,14 @@ list:
         update: Update any user
       type:
         label: Users
+    report:
+      operations:
+        read: Read any report
+        update: Update any report
+        delete: Delete any report
+        run: Run any report
+      type:
+        label: Reports
   title: System permissions
 navItem:
   label: Permissions
