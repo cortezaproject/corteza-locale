@@ -157,6 +157,22 @@ permission:
         specific: Update {{target}}
         title: Update any application
     specific: application "{{target}}"
+  systemApigwRoute:
+    all: all routes
+    operations:
+      delete:
+        description: 'Default: deny'
+        specific: Delete {{target}}
+        title: Delete any route
+      read:
+        description: 'Default: deny'
+        specific: Read {{target}}
+        title: Read any route
+      update:
+        description: 'Default: deny'
+        specific: Update {{target}}
+        title: Update any route
+    specific: route "{{target}}"
   systemAuthClient:
     all: all auth clients
     operations:

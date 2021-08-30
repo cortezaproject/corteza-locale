@@ -28,8 +28,8 @@ list:
         authClientsSearch: List and search auth clients
         apigwRouteCreate: Create new route
         apigwRoutesSearch: List and search routes
-        apigwFunctionCreate: Create new function
-        apigwFunctionsSearch: List and search functions
+        apigwFilterCreate: Create new filter
+        apigwFiltersSearch: List and search filters
 
         grant: Grant permission on system service
         queueCreate: Create new messaging queue
@@ -74,14 +74,14 @@ list:
         read: 'Read any route'
         update: 'Update any route'
         delete: 'Delete any route'
-    apigwFunction:
+    apigwFilter:
       type:
-        label: 'API gateway functions'
+        label: 'API gateway filters'
 
       operations:
-        read: 'Read any function'
-        update: 'Update any function'
-        delete: 'Delete any function'
+        read: 'Read any filters'
+        update: 'Update any filters'
+        delete: 'Delete any filters'
     template:
       operations:
         delete: Delete any template
