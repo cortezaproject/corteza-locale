@@ -4,17 +4,12 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "object",
-      "properties": {
-        "short": {
-          "type": "string",
-          "title": "Short representation of the language"
-        },
-        "long": {
-          "type": "string",
-          "title": "Long representation of the language"
-        }
-      }
+      "type": "string",
+      "title": "Language name"
+    },
+    "extends": {
+      "type": "string",
+      "title": "Language to extend"
     }
   },
   "additionalProperties": false
