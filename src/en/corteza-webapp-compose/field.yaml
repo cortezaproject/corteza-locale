@@ -75,7 +75,6 @@ kind:
     optionValuePlaceholder: Value
     optionsLabel: Options to select from
     placeholder: Select an option by clicking here
-    userRoleLabel: 'User roles',
   string:
     label: String
     multiLine: Multi line
@@ -92,6 +91,7 @@ kind:
     na: N/A
     presetWithCurrentUser: Preset with current user
     suggestionPlaceholder: Start typing to search for users by email or name
+    rolesLabel: User roles
 noPermission: No permission to read field value
 options:
   description:
