@@ -91,7 +91,9 @@ kind:
     na: N/A
     presetWithCurrentUser: Preset with current user
     suggestionPlaceholder: Start typing to search for users by email or name
-    rolesLabel: User roles
+    roles:
+      label: User roles
+      placeholder: Filter by user roles
 noPermission: No permission to read field value
 options:
   description:
