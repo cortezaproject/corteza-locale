@@ -22,6 +22,7 @@ label:
   enabled: Enabled
   export: Export
   fileTypeNotAllowed: File type not allowed
+  uploadError: 'Issue with file upload: "{{message}}"'
   general: General
   handle: Handle
   here: here
