@@ -2,7 +2,6 @@
   <img width="300px" src=".github/assets/corteza_logo.svg" />
   <br />
   <p>Corteza translations and locales</p>
-  <p>Work in progress!</p>
 
   <div align="center">
 
