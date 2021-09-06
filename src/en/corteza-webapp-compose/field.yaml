@@ -131,10 +131,9 @@ sanitizers:
     placeholder: trim(value)
   label: Value sanitization
 selector:
-  available: Columns available
-  footnote: Add fields by dragging or double-clicking on them. Selected fields can also be reordered
+  available: Fields available
   selectAll: Select all
-  selected: Columns selected
+  selected: Fields selected
   systemField: (system field)
   unselectAll: Unselect all
 system:
