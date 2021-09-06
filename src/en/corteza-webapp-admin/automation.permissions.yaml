@@ -30,5 +30,3 @@ list:
       type:
         label: Workflow
   title: Automation permissions
-navItem:
-  label: Permissions

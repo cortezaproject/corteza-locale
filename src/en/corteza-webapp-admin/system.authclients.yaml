@@ -81,5 +81,3 @@ list:
   permissions: Permissions
   title: Auth Clients
   yaml: YAML
-navItem:
-  label: Auth Clients

@@ -114,5 +114,3 @@ list:
       type:
         label: Reports
   title: System permissions
-navItem:
-  label: Permissions

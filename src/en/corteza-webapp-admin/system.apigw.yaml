@@ -1,6 +1,3 @@
-navItem:
-  label: 'API Gateway'
-
 list:
   title: 'API Gateway'
   new: 'New'

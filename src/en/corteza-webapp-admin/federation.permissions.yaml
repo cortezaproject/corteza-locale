@@ -40,5 +40,3 @@ list:
     tip2: Use Alt-Click to set explicit deny on operation
     title: List of rules
   title: Federation permissions
-navItem:
-  label: Permissions
