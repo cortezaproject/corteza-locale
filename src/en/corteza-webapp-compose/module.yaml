@@ -6,8 +6,9 @@ allRecords:
   label: All records
   list:
     title: All records for module "{{name}}"
-  selectFields:
+  columns:
     title: Configure columns
+    description: The columns picked won't be saved after you refresh the page
   view:
     title: View record for module "{{name}}"
 block:
