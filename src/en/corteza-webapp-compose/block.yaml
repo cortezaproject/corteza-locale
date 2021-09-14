@@ -266,7 +266,7 @@ recordList:
     dropzoneLabel: Click or drop file here to upload (.csv or JSON)
     failed: 'Something went wrong during the import. Please try again: {{failReason}}'
     fileColumns: File columns
-    hasRequiredFileFields: This module has required file upload fields that are not yet supported via the importer
+    hasRequiredFileFields: 'This module has required file upload fields'
     matchFields: 'Match imported columns with existing ones:'
     moduleFields: Module fields
     onError: 'If any record fails to import:'
