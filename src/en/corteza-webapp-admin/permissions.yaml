@@ -1,0 +1,3 @@
+resetBack: Reset back to "{{current}}"
+saveChanges: Save changes
+setFor: Set permissions for {{target}}
