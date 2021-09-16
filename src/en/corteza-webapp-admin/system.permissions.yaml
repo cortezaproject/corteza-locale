@@ -31,7 +31,7 @@ list:
         apigwFilterCreate: Create new filter
         apigwFiltersSearch: List and search filters
 
-        grant: Grant permission on system service
+        grant: Grant permission on system component
         queueCreate: Create new messaging queue
         queuesSearch: List and search messaging queues
         reminderAssign: Allow reminder assignment
@@ -44,7 +44,7 @@ list:
         userCreate: Create new user
         usersSearch: List and search users
       type:
-        label: System service
+        label: System component
     loading: Loading permissions
     noRole: No role selected
     notAllowed: Not allowed to set permissions

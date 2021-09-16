@@ -4,14 +4,14 @@ list:
     addRole: Add new role
     component:
       operations:
-        grant: Grant permissions on federation service
+        grant: Grant permissions on federation component
         nodeCreate: Create nodes
         nodesSearch: List or create nodes
         pair: Pair nodes
         settingsManage: Manage all settings
         settingsRead: Access all settings
       type:
-        label: Federation service
+        label: Federation component
     exposedModule:
       operations:
         manage: Manage any module

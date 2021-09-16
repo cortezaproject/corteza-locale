@@ -11,13 +11,13 @@ list:
         label: Charts
     component:
       operations:
-        grant: Grant permissions on compose service
+        grant: Grant permissions on compose component
         namespaceCreate: Create namespaces
         namespacesSearch: List and search namespaces
         settingsManage: Manage all settings
         settingsRead: Access all settings
       type:
-        label: Compose service
+        label: Compose component
     loading: Loading permissions
     module:
       operations:
