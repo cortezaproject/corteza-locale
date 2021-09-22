@@ -17,6 +17,7 @@ label:
 logo:
   label: Logo
   placeholder: Choose an image for namespace logo or drop it here...
+  show: Show logo
 name:
   label: Full namespace name *
   placeholder: Enter namespace name
