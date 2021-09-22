@@ -18,6 +18,8 @@ logo:
   label: Logo
   placeholder: Choose an image for namespace logo or drop it here...
   show: Show logo
+  preview: Preview
+  reset: Reset
 name:
   label: Full namespace name *
   placeholder: Enter namespace name
