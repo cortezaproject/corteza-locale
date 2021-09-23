@@ -1,5 +1,5 @@
 list:
-  title: 'API Gateway'
+  title: 'Horizon (API Gateway)'
   new: 'New'
   permissions: 'Permissions'
   yaml: 'YAML'
@@ -9,7 +9,7 @@ list:
 
   filterForm:
     query:
-      label: 'Filter API Gateway list'
+      label: 'Filter route list'
       placeholder: 'Filter routes by name'
 
 

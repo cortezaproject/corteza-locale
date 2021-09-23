@@ -5,7 +5,7 @@ system:
   items:
     users: Users
     actionlog: Action log
-    apigw: API Gateway
+    apigw: Horizon (API Gateway)
     applications: Applications
     authclients: Auth Clients
     permissions: Permissions
