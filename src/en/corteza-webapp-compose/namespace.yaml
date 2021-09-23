@@ -2,11 +2,17 @@ application:
   label: Enable on application list
 clickOpen: Click to open
 create: Create new namespace
+import: Import namespace
 description:
   label: Namespace description
   placeholder: Enter namespace description
 disabled: Namespace is disabled
 edit: Edit namespace
+clone: Clone namespace
+cloneSuffix: copy
+cloneWarning:
+  wfInclusion: Workflows and other automation are not cloned. Use the workflow editor interface to clone the ones you need.
+export: Export namespace
 enabled:
   label: Enable on namespace list
 icon:
@@ -34,7 +40,9 @@ notification:
   deleteFailed: Could not delete this namespace
   disabled: Namespace disabled - redirecting
   saveFailed: Could not save this namespace
+  cloneFailed: Could not clone this namespace
   saved: Namespace saved
+  imported: Namespace imported
 searchPlaceholder: Type here to search among all namespaces...
 setPermissions: Set namespace permissions
 slug:
