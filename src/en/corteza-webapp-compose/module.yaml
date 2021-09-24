@@ -64,6 +64,7 @@ forModule:
   recordListPage: Record List page for module
   recordPage: Record page for module
 general:
+  fields: Module fields
   label:
     attributes: Attributes
     handle: Handle

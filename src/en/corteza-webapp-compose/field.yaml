@@ -132,6 +132,7 @@ sanitizers:
     placeholder: trim(value)
   label: Value sanitization
 selector:
+  search: Type here to search among all module fields
   available: Available fields
   selectAll: Select all
   selected: Selected fields
