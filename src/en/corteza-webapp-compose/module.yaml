@@ -82,6 +82,7 @@ navigation:
 newLabel: Module Name *
 newPlaceholder: Name used on the list of modules
 noModule: No modules
+noModuleFilter: No module matches your search
 notification:
   deleteFailed: Could not delete this module
   deleted: Module deleted
