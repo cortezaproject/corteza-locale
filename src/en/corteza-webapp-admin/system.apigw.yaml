@@ -81,7 +81,7 @@ editor:
       location: 'Location'
       workflow: 'Workflow'
       status: 'HTTP Status'
-
+      jsfunc: 'Function'
 
     add: 'Add'
     addFilter: 'Add filter'
