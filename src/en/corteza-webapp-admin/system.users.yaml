@@ -37,11 +37,6 @@ editor:
           User will receive email with the security code on each login.
     title: Multi-factor authentication
   new: New
-  notifications:
-    membershipOK: Membership successfully  updated
-    passwordOK: Password successfully  changed
-    title: User updated
-    userInfoOK: User info successfully updated
   password:
     confirm: Confirm password
     length: The passwords must be at least {{length}} characters long!
