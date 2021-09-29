@@ -74,7 +74,7 @@ editor:
       status: 'Status'
       actions: 'Actions'
       active: 'Active'
-      noFiltersMsg: 'Please add a filter!'
+      noFilters: 'No filters'
 
     labels:
       expr: 'Expression'
@@ -82,6 +82,9 @@ editor:
       workflow: 'Workflow'
       status: 'HTTP Status'
       jsfunc: 'Function'
+    
+    placeholders:
+      workflow: 'Select a workflow'
 
     add: 'Add'
     addFilter: 'Add filter'
