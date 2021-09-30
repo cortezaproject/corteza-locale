@@ -40,7 +40,7 @@ editor:
   password:
     confirm: Confirm password
     length: The passwords must be at least {{length}} characters long!
-    missmatch: The passwords must match!
+    missmatch: The passwords must match
     new: New password
     title: Password
     removePassword: Remove password
