@@ -27,7 +27,7 @@ editor:
       description: Name used in the application selector
       label: Name
     pinned: Pinned
-    title: Unify app selector
+    title: App selector
     url:
       description: Application URL
       label: URL
