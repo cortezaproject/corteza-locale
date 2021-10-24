@@ -89,6 +89,13 @@ editor:
       status: 'HTTP Status'
       jsfunc: 'Function'
 
+    headers:
+      add: 'Add'
+      name: 'Name'
+      value: 'Value'
+      custom: "Custom"
+      customPlaceholder: "Custom header..."
+
     httpStatus:
       none: No Status
       '300': 300 - Multiple Choices
