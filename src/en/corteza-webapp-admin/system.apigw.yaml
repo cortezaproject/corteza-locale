@@ -106,3 +106,8 @@ editor:
     addFilter: 'Add filter'
     params: 'Params'
     filterListEmpty: 'Filter list is empty!'
+
+    headerExamples:
+      first: Connection == "keep-alive"
+      second: (Content-Type == "application/x-www-form-urlencoded") AND (Accept-Encoding == "gzip, deflate, br")
+      more:  More examples..
