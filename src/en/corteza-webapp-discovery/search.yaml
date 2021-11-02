@@ -8,3 +8,7 @@ card:
   handle: Handle
   namespace: Namespace
   module: Module
+  user: User
+  email: Email
+  record: Record
+
