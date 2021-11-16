@@ -18,3 +18,5 @@ permissions: Permissions
 'search-workflows': Type here to search all workflows...
 'unnamed-workflow': Unnamed Workflow
 'workflow-list': List of Workflows
+save: Save
+cancel: Cancel

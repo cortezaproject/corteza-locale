@@ -28,3 +28,4 @@ spinning: Spinning
 'test-in-progress': "Testing in progress. If your workflow includes Prompt or Delay steps, it may be waiting for them to complete"
 'unsupported-browser': Browser is not supported!
 'workflow-configuration': Workflow Configuration
+'editor': Editor
