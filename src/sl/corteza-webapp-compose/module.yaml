@@ -76,6 +76,8 @@ fieldKinds:
     label: URL input
   User:
     label: User selector
+  Geometry:
+    label: Geometry
 forModule:
   recordList: Record List for module
   recordListPage: Record List page for module

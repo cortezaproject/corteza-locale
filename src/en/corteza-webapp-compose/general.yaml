@@ -110,6 +110,8 @@ fieldKinds:
     label: URL input
   User:
     label: User selector
+  Geometry:
+    label: Geometry
 field:
   selectAll: Select all
   unselectAll: Unselect all
