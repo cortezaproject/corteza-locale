@@ -1,0 +1,60 @@
+---
+editor:
+  info:
+    createdAt: crwdns63417:0crwdne63417:0
+    delete: crwdns63419:0crwdne63419:0
+    deletedAt: crwdns63421:0crwdne63421:0
+    enabled: crwdns63423:0crwdne63423:0
+    id: crwdns63425:0crwdne63425:0
+    name: crwdns63427:0crwdne63427:0
+    title: crwdns63429:0crwdne63429:0
+    undelete: crwdns63431:0crwdne63431:0
+    updatedAt: crwdns63433:0crwdne63433:0
+  new: crwdns63435:0crwdne63435:0
+  permissions: crwdns63437:0crwdne63437:0
+  title:
+    create: crwdns63439:0crwdne63439:0
+    edit: crwdns63441:0crwdne63441:0
+  unify:
+    config:
+      description: crwdns63443:0crwdne63443:0
+      label: crwdns63445:0crwdne63445:0
+    listed: crwdns63447:0crwdne63447:0
+    logo:
+      description: crwdns63449:0crwdne63449:0
+      label: crwdns63451:0crwdne63451:0
+      placeholder: crwdns63453:0crwdne63453:0
+    name:
+      description: crwdns63455:0crwdne63455:0
+      label: crwdns63457:0crwdne63457:0
+    pinned: crwdns63459:0crwdne63459:0
+    title: crwdns67443:0crwdne67443:0
+    url:
+      description: crwdns63463:0crwdne63463:0
+      label: crwdns63465:0crwdne63465:0
+list:
+  columns:
+    actions: "crwdns63467:0crwdne63467:0"
+    createdAt: crwdns63469:0crwdne63469:0
+    enabled: crwdns63471:0crwdne63471:0
+    name: crwdns63473:0crwdne63473:0
+    appListName: crwdns67445:0crwdne67445:0
+  filterForm:
+    deleted:
+      label: crwdns63475:0crwdne63475:0
+    excluded:
+      label: crwdns63477:0crwdne63477:0
+    exclusive:
+      label: crwdns63479:0crwdne63479:0
+    inclusive:
+      label: crwdns63481:0crwdne63481:0
+    query:
+      label: crwdns63483:0crwdne63483:0
+      placeholder: crwdns63485:0crwdne63485:0
+  loading: crwdns63487:0crwdne63487:0
+  new: crwdns63489:0crwdne63489:0
+  numFound: 'crwdns63491:0{{count}}crwdne63491:0'
+  numFound_plural: 'crwdns63493:0{{count}}crwdne63493:0'
+  permissions: crwdns63495:0crwdne63495:0
+  title: crwdns63497:0crwdne63497:0
+  yaml: crwdns63499:0crwdne63499:0
