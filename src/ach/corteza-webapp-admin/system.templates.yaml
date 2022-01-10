@@ -1,0 +1,71 @@
+---
+editor:
+  content:
+    editor:
+      unsupported: crwdns64039:0crwdne64039:0
+    partial: crwdns64041:0crwdne64041:0
+    preview:
+      html: crwdns64043:0crwdne64043:0
+      pdf: crwdns64045:0crwdne64045:0
+      title: crwdns64047:0crwdne64047:0
+    title: crwdns64049:0crwdne64049:0
+    toolbox:
+      partials: crwdns64051:0crwdne64051:0
+      samples:
+        defaultHTML: crwdns64053:0crwdne64053:0
+        label: crwdns64055:0crwdne64055:0
+      snippets:
+        funcCall: crwdns64057:0crwdne64057:0
+        interpolate: crwdns64059:0crwdne64059:0
+        iterator: crwdns64061:0crwdne64061:0
+        label: crwdns64063:0crwdne64063:0
+      title: crwdns64065:0crwdne64065:0
+  info:
+    contentType:
+      text_html: crwdns64067:0crwdne64067:0
+      text_plain: crwdns64069:0crwdne64069:0
+    createdAt: crwdns64071:0crwdne64071:0
+    delete: crwdns64073:0crwdne64073:0
+    deletedAt: crwdns64075:0crwdne64075:0
+    handle: crwdns64077:0crwdne64077:0
+    meta:
+      description: crwdns64079:0crwdne64079:0
+      short: crwdns64081:0crwdne64081:0
+    partial: crwdns64083:0crwdne64083:0
+    partialDescription: crwdns64085:0crwdne64085:0
+    title: crwdns64087:0crwdne64087:0
+    type: crwdns64089:0crwdne64089:0
+    undelete: crwdns64091:0crwdne64091:0
+    updatedAt: crwdns64093:0crwdne64093:0
+  new: crwdns64095:0crwdne64095:0
+  permissions: crwdns64097:0crwdne64097:0
+  title:
+    create: crwdns64099:0crwdne64099:0
+    edit: crwdns64101:0crwdne64101:0
+list:
+  columns:
+    actions: "crwdns64103:0crwdne64103:0"
+    createdAt: crwdns64105:0crwdne64105:0
+    handle: crwdns64107:0crwdne64107:0
+    language: crwdns64109:0crwdne64109:0
+    meta:
+      short: crwdns64111:0crwdne64111:0
+  filterForm:
+    deleted:
+      label: crwdns64113:0crwdne64113:0
+    excluded:
+      label: crwdns64115:0crwdne64115:0
+    exclusive:
+      label: crwdns64117:0crwdne64117:0
+    handle:
+      label: crwdns64119:0crwdne64119:0
+      placeholder: crwdns64121:0crwdne64121:0
+    inclusive:
+      label: crwdns64123:0crwdne64123:0
+  loading: crwdns64125:0crwdne64125:0
+  new: crwdns64127:0crwdne64127:0
+  numFound: 'crwdns64129:0{{count}}crwdne64129:0'
+  numFound_plural: 'crwdns64131:0{{count}}crwdne64131:0'
+  permissions: crwdns64133:0crwdne64133:0
+  title: crwdns64135:0crwdne64135:0
+  yaml: crwdns64137:0crwdne64137:0
