@@ -1,0 +1,25 @@
+---
+message:
+  noPages: crwdns66037:0crwdne66037:0
+  notifyAdministrator: crwdns66039:0crwdne66039:0
+  startBuilding: crwdns66041:0crwdne66041:0
+label:
+  pageBuilder: crwdns67811:0crwdne67811:0
+  welcome: crwdns67813:0crwdne67813:0
+navigation:
+  noPageTitle: crwdns67815:0crwdne67815:0
+notification:
+  module:
+    createFailed: crwdns67817:0crwdne67817:0
+    saveFailed: crwdns67819:0crwdne67819:0
+step:
+  chart:
+    create: crwdns66043:0crwdne66043:0
+    view: crwdns66045:0crwdne66045:0
+  module:
+    create: crwdns66047:0crwdne66047:0
+    view: crwdns66049:0crwdne66049:0
+  optional: crwdns66051:0crwdne66051:0
+  page:
+    create: crwdns66053:0crwdne66053:0
+    view: crwdns66055:0crwdne66055:0
