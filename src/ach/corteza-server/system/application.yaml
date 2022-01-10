@@ -1,0 +1,12 @@
+---
+errors:
+  invalidID: crwdns61997:0crwdne61997:0
+  notAllowedToCreate: crwdns61999:0crwdne61999:0
+  notAllowedToDelete: crwdns62001:0crwdne62001:0
+  notAllowedToManageFlag: crwdns62003:0crwdne62003:0
+  notAllowedToManageFlagGlobal: crwdns62005:0crwdne62005:0
+  notAllowedToRead: crwdns62007:0crwdne62007:0
+  notAllowedToSearch: crwdns62009:0crwdne62009:0
+  notAllowedToUndelete: crwdns62011:0crwdne62011:0
+  notAllowedToUpdate: crwdns62013:0crwdne62013:0
+  notFound: crwdns62015:0crwdne62015:0
