@@ -1,0 +1,13 @@
+---
+errors:
+  invalidID: crwdns62081:0crwdne62081:0
+  notAllowedToCreate: crwdns62083:0crwdne62083:0
+  notAllowedToDelete: crwdns62085:0crwdne62085:0
+  notAllowedToRead: crwdns62087:0crwdne62087:0
+  notAllowedToSearch: crwdns62089:0crwdne62089:0
+  notAllowedToUndelete: crwdns62091:0crwdne62091:0
+  notAllowedToUpdate: crwdns62093:0crwdne62093:0
+  notFound: crwdns62095:0crwdne62095:0
+  unableToChangeDefaultClientHandle: crwdns62097:0crwdne62097:0
+  unableToDeleteDefaultClient: crwdns62099:0crwdne62099:0
+  unableToDisableDefaultClient: crwdns62101:0crwdne62101:0
