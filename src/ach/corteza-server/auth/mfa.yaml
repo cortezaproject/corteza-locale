@@ -1,0 +1,19 @@
+---
+template:
+  title: crwdns61399:0crwdne61399:0
+  email:
+    instructions: crwdns61401:0crwdne61401:0
+    code: crwdns61403:0crwdne61403:0
+    verify: crwdns61405:0crwdne61405:0
+    resend: crwdns61407:0crwdne61407:0
+    confirmed: crwdns61409:0crwdne61409:0
+  totp:
+    instructions: crwdns61411:0crwdne61411:0
+    code: crwdns61413:0crwdne61413:0
+    confirmed: crwdns61415:0crwdne61415:0
+    verify: crwdns61417:0crwdne61417:0
+alerts:
+  email:
+    resent: crwdns61419:0crwdne61419:0
+  topt:
+    valid: crwdns61421:0crwdne61421:0
