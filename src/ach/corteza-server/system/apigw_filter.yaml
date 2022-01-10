@@ -1,0 +1,10 @@
+---
+errors:
+  invalidID: crwdns61959:0crwdne61959:0
+  invalidRoute: crwdns61961:0crwdne61961:0
+  notAllowedToCreate: crwdns61963:0crwdne61963:0
+  notAllowedToDelete: crwdns61965:0crwdne61965:0
+  notAllowedToRead: crwdns61967:0crwdne61967:0
+  notAllowedToUndelete: crwdns61969:0crwdne61969:0
+  notAllowedToUpdate: crwdns61971:0crwdne61971:0
+  notFound: crwdns61973:0crwdne61973:0
