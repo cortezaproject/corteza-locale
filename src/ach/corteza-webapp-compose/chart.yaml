@@ -1,0 +1,119 @@
+---
+colorLabel: 'crwdns64881:0{{count}}crwdne64881:0'
+colorScheme:
+  label: crwdns67607:0crwdne67607:0
+  placeholder: crwdns67609:0crwdne67609:0
+configure:
+  reportsLabel: crwdns67611:0crwdne67611:0
+general:
+  label:
+    title: crwdns67613:0crwdne67613:0
+    add: crwdns67615:0crwdne67615:0
+  value: crwdns67617:0crwdne67617:0
+  placeholder:
+    handle: crwdns67619:0crwdne67619:0
+  invalid-handle-characters: crwdns67621:0crwdne67621:0
+edit:
+  dimension:
+    calculateLabelCount: crwdns64885:0crwdne64885:0
+    defaultValueFootnote: crwdns64887:0crwdne64887:0
+    defaultValueLabel: crwdns64889:0crwdne64889:0
+    fieldLabel: crwdns64891:0crwdne64891:0
+    fieldPlaceholder: crwdns64893:0crwdne64893:0
+    function:
+      date: crwdns64895:0crwdne64895:0
+      label: crwdns64897:0crwdne64897:0
+      month: crwdns64899:0crwdne64899:0
+      none: crwdns64901:0crwdne64901:0
+      placeholder: crwdns64903:0crwdne64903:0
+      quarter: crwdns64905:0crwdne64905:0
+      week: crwdns64907:0crwdne64907:0
+      year: crwdns64909:0crwdne64909:0
+    gaugeSteps: crwdns64911:0crwdne64911:0
+    label: crwdns67623:0crwdne67623:0
+    skipMissingValues: crwdns64915:0crwdne64915:0
+  filter:
+    customize: crwdns64917:0crwdne64917:0
+    label: crwdns64919:0crwdne64919:0
+    noFilter: crwdns64921:0crwdne64921:0
+    recordsCreatedLastMonth: crwdns64923:0crwdne64923:0
+    recordsCreatedLastQuarter: crwdns64925:0crwdne64925:0
+    recordsCreatedLastYear: crwdns64927:0crwdne64927:0
+    recordsCreatedThisMonth: crwdns64929:0crwdne64929:0
+    recordsCreatedThisQuarter: crwdns64931:0crwdne64931:0
+    recordsCreatedThisYear: crwdns64933:0crwdne64933:0
+  loadData: crwdns64935:0crwdne64935:0
+  metric:
+    add: crwdns64937:0crwdne64937:0
+    fieldLabel: crwdns64939:0crwdne64939:0
+    fieldPlaceholder: crwdns64941:0crwdne64941:0
+    fillArea: crwdns64943:0crwdne64943:0
+    fixTooltips: crwdns64945:0crwdne64945:0
+    function:
+      avg: crwdns64947:0crwdne64947:0
+      countd: crwdns64949:0crwdne64949:0
+      label: crwdns64951:0crwdne64951:0
+      max: crwdns64953:0crwdne64953:0
+      min: crwdns64955:0crwdne64955:0
+      placeholder: crwdns64957:0crwdne64957:0
+      std: crwdns64959:0crwdne64959:0
+      sum: crwdns64961:0crwdne64961:0
+    fx:
+      description: crwdns64963:0crwdne64963:0
+      label: crwdns64965:0crwdne64965:0
+    gaugeColor: crwdns64967:0crwdne64967:0
+    label: crwdns64969:0crwdne64969:0
+    labelColor: crwdns64971:0crwdne64971:0
+    labelLabel: crwdns64973:0crwdne64973:0
+    labelPlaceholder: crwdns64975:0crwdne64975:0
+    legend:
+      bottom: crwdns64977:0crwdne64977:0
+      left: crwdns64979:0crwdne64979:0
+      positionPlaceholder: crwdns64981:0crwdne64981:0
+      right: crwdns64983:0crwdne64983:0
+      top: crwdns64985:0crwdne64985:0
+    lineTension:
+      curvy: crwdns64987:0crwdne64987:0
+      label: crwdns64989:0crwdne64989:0
+      medium: crwdns64991:0crwdne64991:0
+      placeholder: crwdns64993:0crwdne64993:0
+      slight: crwdns64995:0crwdne64995:0
+      straight: crwdns64997:0crwdne64997:0
+    output:
+      bar: crwdns64999:0crwdne64999:0
+      doughnut: crwdns65001:0crwdne65001:0
+      label: crwdns65003:0crwdne65003:0
+      line: crwdns65005:0crwdne65005:0
+      pie: crwdns65007:0crwdne65007:0
+      placeholder: crwdns65009:0crwdne65009:0
+    relative: crwdns65011:0crwdne65011:0
+    relativePrecision: 'crwdns65013:0crwdne65013:0'
+    title: crwdns67625:0crwdne67625:0
+  module:
+    label: crwdns67627:0crwdne67627:0
+    placeholder: crwdns67629:0crwdne67629:0
+  title: crwdns65019:0crwdne65019:0
+  unconfiguredReport: crwdns65021:0crwdne65021:0
+  yAxis:
+    axisOnRight: crwdns65023:0crwdne65023:0
+    axisScaleFromZero: crwdns65025:0crwdne65025:0
+    label: crwdns65027:0crwdne65027:0
+    labelLabel: crwdns65029:0crwdne65029:0
+    labelPlaceholder: crwdns65031:0crwdne65031:0
+    logarithmicScale: crwdns65033:0crwdne65033:0
+    maxLabel: crwdns65035:0crwdne65035:0
+    maxPlaceholder: crwdns65037:0crwdne65037:0
+    minLabel: crwdns65039:0crwdne65039:0
+    minPlaceholder: crwdns65041:0crwdne65041:0
+import: 'crwdns65043:0crwdne65043:0'
+newLabel: 'crwdns65045:0crwdne65045:0'
+name: crwdns67631:0crwdne67631:0
+handle: crwdns67633:0crwdne67633:0
+notification:
+  loadFailed: crwdns67635:0crwdne67635:0
+  saveFailed: crwdns67637:0crwdne67637:0
+  saved: crwdns67639:0crwdne67639:0
+  deleteFailed: crwdns67641:0crwdne67641:0
+  deleted: crwdns67643:0crwdne67643:0
+searchPlaceholder: crwdns65049:0crwdne65049:0
+title: crwdns65051:0crwdne65051:0
