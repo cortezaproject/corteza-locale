@@ -1,0 +1,11 @@
+---
+errors:
+  invalidID: crwdns61607:0crwdne61607:0
+  notAllowedToCreate: crwdns61609:0crwdne61609:0
+  notAllowedToDelete: crwdns61611:0crwdne61611:0
+  notAllowedToRead: crwdns61613:0crwdne61613:0
+  notAllowedToSearch: crwdns61615:0crwdne61615:0
+  notAllowedToUndelete: crwdns61617:0crwdne61617:0
+  notAllowedToUpdate: crwdns61619:0crwdne61619:0
+  notFound: crwdns61621:0crwdne61621:0
+  staleData: crwdns61623:0crwdne61623:0
