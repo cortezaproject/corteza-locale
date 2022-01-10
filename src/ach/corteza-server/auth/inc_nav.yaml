@@ -1,0 +1,8 @@
+---
+template:
+  authorize-client: crwdns61331:0crwdne61331:0
+  class:
+    your-profile: crwdns61333:0crwdne61333:0
+    security: crwdns61335:0crwdne61335:0
+    login-session: crwdns61337:0crwdne61337:0
+    authorized-clients: crwdns61339:0crwdne61339:0
