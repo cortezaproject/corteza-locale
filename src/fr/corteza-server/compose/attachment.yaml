@@ -1,0 +1,27 @@
+---
+errors:
+  failedToExtractMimeType: n'a pas pu extraire le type mime
+  failedToProcessImage: n'a pas pu traiter l'image
+  failedToStoreFile: n'a pas pu extraire le fichier
+  invalidID: ID invalide
+  invalidModuleID: ID du module invalide
+  invalidNamespaceID: ID du namespace invalide
+  invalidPageID: ID de la page invalide
+  invalidRecordID: ID de l'enregistrement invalide
+  moduleNotFound: module introuvable
+  namespaceNotFound: namespace introuvable
+  notAllowedToCreate: non autorisé à créer des pièces jointes
+  notAllowedToCreateEmptyAttachment: non autorisé à créer des pièces jointes vides
+  notAllowedToCreateRecords: non autorisé à créer des enregistrements
+  notAllowedToListAttachments: non autorisé à lister des pièces jointes
+  notAllowedToRead: not allowed to read this module
+  notAllowedToReadNamespace: not allowed to read this namespace
+  notAllowedToReadPage: not allowed to read this page
+  notAllowedToReadRecord: not allowed to read this record
+  notAllowedToSearch: not allowed to search or list modules
+  notAllowedToUpdateNamespace: not allowed to update this namespace
+  notAllowedToUpdatePage: not allowed to update this page
+  notAllowedToUpdateRecord: not allowed to update this record
+  notFound: attachment not found
+  pageNotFound: page not found
+  recordNotFound: record not found
