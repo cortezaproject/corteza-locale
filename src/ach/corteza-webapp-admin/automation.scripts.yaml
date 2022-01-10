@@ -1,0 +1,17 @@
+---
+list:
+  columns:
+    updatedAt: crwdns62739:0crwdne62739:0
+  filter:
+    absoluteTime: crwdns62741:0crwdne62741:0
+    incScriptsWithErrors: crwdns62743:0{{ count }}crwdne62743:0
+    incScriptsWithIterator: crwdns62745:0{{ count }}crwdne62745:0
+    incScriptsWithSecurity: crwdns62747:0{{ count }}crwdne62747:0
+    incScriptsWithTriggers: crwdns62749:0{{ count }}crwdne62749:0
+    searchQuery: crwdns62751:0crwdne62751:0
+  flags:
+    iterator: crwdns62753:0crwdne62753:0
+    security: crwdns62755:0crwdne62755:0
+    triggers: crwdns62757:0crwdne62757:0
+  labelMissing: crwdns62759:0crwdne62759:0
+  title: crwdns62761:0crwdne62761:0
