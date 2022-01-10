@@ -1,0 +1,30 @@
+---
+start:
+  welcome: crwdns68131:0crwdne68131:0
+  instructions: crwdns68133:0crwdne68133:0
+  skip: crwdns68135:0crwdne68135:0
+  show: crwdns68137:0crwdne68137:0
+buttons:
+  skip: crwdns68139:0crwdne68139:0
+  previous: crwdns68141:0crwdne68141:0
+  next: crwdns68143:0crwdne68143:0
+  end: crwdns68145:0crwdne68145:0
+steps:
+  app-list:
+    title: crwdns68147:0crwdne68147:0
+    content: crwdns68149:0crwdne68149:0
+  crm:
+    title: crwdns68151:0crwdne68151:0
+    content: crwdns68153:0crwdne68153:0
+  low-code:
+    title: crwdns68155:0crwdne68155:0
+    content: crwdns68157:0crwdne68157:0
+  reporter:
+    title: crwdns68159:0crwdne68159:0
+    content: crwdns68161:0crwdne68161:0
+  profile:
+    title: crwdns68163:0crwdne68163:0
+    content: crwdns68165:0crwdne68165:0
+  workflow:
+    title: crwdns68167:0crwdne68167:0
+    content: crwdns68169:0crwdne68169:0
