@@ -1,0 +1,31 @@
+---
+ui:
+  reset-back: crwdns68177:0{{current}}crwdne68177:0
+  save-changes: crwdns68179:0crwdne68179:0
+  set-for: crwdns68181:0{{target}}crwdne68181:0
+  access:
+    allow: crwdns68183:0crwdne68183:0
+    inherit: crwdns68185:0crwdne68185:0
+    deny: crwdns68187:0crwdne68187:0
+resources:
+  system:
+    report:
+      all: crwdns68189:0crwdne68189:0
+      specific: crwdns68191:0{{target}}crwdne68191:0
+      operations:
+        delete:
+          description: "crwdns68193:0crwdne68193:0"
+          specific: crwdns68195:0{{target}}crwdne68195:0
+          title: crwdns68197:0crwdne68197:0
+        read:
+          description: "crwdns68199:0crwdne68199:0"
+          specific: crwdns68201:0{{target}}crwdne68201:0
+          title: crwdns68203:0crwdne68203:0
+        run:
+          description: "crwdns68205:0crwdne68205:0"
+          specific: crwdns68207:0{{target}}crwdne68207:0
+          title: crwdns68209:0crwdne68209:0
+        update:
+          description: "crwdns68211:0crwdne68211:0"
+          specific: crwdns68213:0{{target}}crwdne68213:0
+          title: crwdns68215:0crwdne68215:0
