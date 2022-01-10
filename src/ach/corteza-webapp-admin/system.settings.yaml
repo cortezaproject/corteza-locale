@@ -1,0 +1,73 @@
+---
+editor:
+  title: crwdns64033:0crwdne64033:0
+  auth:
+    title: crwdns63971:0crwdne63971:0
+    url: crwdns63973:0crwdne63973:0
+    internal:
+      title: crwdns63943:0crwdne63943:0
+      enabled: crwdns63931:0crwdne63931:0
+      password-reset:
+        enabled: crwdns63933:0crwdne63933:0
+      signup:
+        email-confirmation-required: crwdns63935:0crwdne63935:0
+        enabled: crwdns63937:0crwdne63937:0
+        split-credentials-check:
+          description: 'crwdns63939:0crwdne63939:0'
+          label: crwdns63941:0crwdne63941:0
+    mail:
+      title: crwdns63949:0crwdne63949:0
+      from-address: crwdns63945:0crwdne63945:0
+      from-name: crwdns63947:0crwdne63947:0
+      validate-email: crwdns63951:0crwdne63951:0
+    mfa:
+      title: crwdns63969:0crwdne63969:0
+      TOTP:
+        enabled: crwdns63953:0crwdne63953:0
+        enforced: crwdns63955:0crwdne63955:0
+        issuer:
+          description: crwdns63957:0crwdne63957:0
+          label: crwdns63959:0crwdne63959:0
+      emailOTP:
+        enabled: crwdns63961:0crwdne63961:0
+        enforced: crwdns63963:0crwdne63963:0
+        expires:
+          description: crwdns63965:0crwdne63965:0
+          label: crwdns63967:0crwdne63967:0
+  external:
+    title: crwdns64031:0crwdne64031:0
+    addOidcProvider: crwdns63975:0crwdne63975:0
+    certificate: crwdns63977:0crwdne63977:0
+    clientKey: crwdns63979:0crwdne63979:0
+    clientSecret: crwdns63981:0crwdne63981:0
+    enabled: crwdns63983:0crwdne63983:0
+    facebook: crwdns63985:0crwdne63985:0
+    github: crwdns63987:0crwdne63987:0
+    google: crwdns63989:0crwdne63989:0
+    handle: crwdns63991:0crwdne63991:0
+    issuer: crwdns63993:0crwdne63993:0
+    issuerHint: crwdns63995:0crwdne63995:0
+    issuerPlaceholder: crwdns63997:0crwdne63997:0
+    linkedin: crwdns63999:0crwdne63999:0
+    oidc: crwdns64001:0crwdne64001:0
+    providerEnabled: crwdns64003:0crwdne64003:0
+    saml:
+      title: crwdns64029:0crwdne64029:0
+      cert: crwdns67455:0crwdne67455:0
+      cert-key: crwdns67457:0crwdne67457:0
+      name: crwdns67459:0crwdne67459:0
+      desc:
+        name: crwdns67461:0crwdne67461:0
+        cert: crwdns64009:0crwdne64009:0
+        cert-key: crwdns64011:0crwdne64011:0
+        idp:
+          url: crwdns67463:0crwdne67463:0
+          ident-handle: crwdns67465:0crwdne67465:0
+          ident-identifier: crwdns67467:0crwdne67467:0
+          ident-name: crwdns67469:0crwdne67469:0
+      idp:
+        title: crwdns64025:0crwdne64025:0
+        ident-handle: crwdns67471:0crwdne67471:0
+        ident-identifier: crwdns67473:0crwdne67473:0
+        ident-name: crwdns67475:0crwdne67475:0
+        url: crwdns64027:0crwdne64027:0
