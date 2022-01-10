@@ -1,0 +1,19 @@
+---
+template:
+  title: Autenticação de múltiplos fatores
+  email:
+    instructions: Verifique sua caixa de entrada e informe o código recebido
+    code: Código
+    verify: Verificar
+    resend: Reenviar
+    confirmed: Token por e-mail confirmado
+  totp:
+    instructions: Verifique seu aplicativo de geração de token e informe o código recebido
+    code: Código
+    confirmed: Validação por token confirmada
+    verify: Verificar
+alerts:
+  email:
+    resent: E-mail de geração de token reenviado
+  topt:
+    valid: Token válido
