@@ -1,0 +1,16 @@
+---
+errors:
+  handleNotUnique: crwdns61769:0crwdne61769:0
+  invalidHandle: crwdns61771:0crwdne61771:0
+  invalidID: crwdns61773:0crwdne61773:0
+  notAllowedToCreate: crwdns61775:0crwdne61775:0
+  notAllowedToDelete: crwdns61777:0crwdne61777:0
+  notAllowedToRead: crwdns61779:0crwdne61779:0
+  notAllowedToSearch: crwdns61781:0crwdne61781:0
+  notAllowedToUndelete: crwdns61783:0crwdne61783:0
+  notAllowedToUpdate: crwdns61785:0crwdne61785:0
+  notFound: crwdns61787:0crwdne61787:0
+  staleData: crwdns61789:0crwdne61789:0
+  unsupportedExportFormat: crwdns66615:0crwdne66615:0
+  unsupportedImportFormat: crwdns66617:0crwdne66617:0
+  cloneMultiple: crwdns66619:0crwdne66619:0
