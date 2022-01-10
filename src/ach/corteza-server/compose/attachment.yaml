@@ -1,0 +1,27 @@
+---
+errors:
+  failedToExtractMimeType: crwdns61657:0crwdne61657:0
+  failedToProcessImage: crwdns61659:0crwdne61659:0
+  failedToStoreFile: crwdns61661:0crwdne61661:0
+  invalidID: crwdns61663:0crwdne61663:0
+  invalidModuleID: crwdns61665:0crwdne61665:0
+  invalidNamespaceID: crwdns61667:0crwdne61667:0
+  invalidPageID: crwdns61669:0crwdne61669:0
+  invalidRecordID: crwdns61671:0crwdne61671:0
+  moduleNotFound: crwdns61673:0crwdne61673:0
+  namespaceNotFound: crwdns61675:0crwdne61675:0
+  notAllowedToCreate: crwdns61677:0crwdne61677:0
+  notAllowedToCreateEmptyAttachment: crwdns61679:0crwdne61679:0
+  notAllowedToCreateRecords: crwdns61681:0crwdne61681:0
+  notAllowedToListAttachments: crwdns61683:0crwdne61683:0
+  notAllowedToRead: crwdns61685:0crwdne61685:0
+  notAllowedToReadNamespace: crwdns61687:0crwdne61687:0
+  notAllowedToReadPage: crwdns61689:0crwdne61689:0
+  notAllowedToReadRecord: crwdns61691:0crwdne61691:0
+  notAllowedToSearch: crwdns61693:0crwdne61693:0
+  notAllowedToUpdateNamespace: crwdns61695:0crwdne61695:0
+  notAllowedToUpdatePage: crwdns61697:0crwdne61697:0
+  notAllowedToUpdateRecord: crwdns61699:0crwdne61699:0
+  notFound: crwdns61701:0crwdne61701:0
+  pageNotFound: crwdns61703:0crwdne61703:0
+  recordNotFound: crwdns61705:0crwdne61705:0
