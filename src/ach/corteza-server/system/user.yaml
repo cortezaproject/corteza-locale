@@ -1,0 +1,21 @@
+---
+errors:
+  emailNotUnique: crwdns62241:0crwdne62241:0
+  handleNotUnique: crwdns62243:0crwdne62243:0
+  invalidEmail: crwdns62245:0{{resource}}crwdne62245:0
+  invalidHandle: crwdns62247:0crwdne62247:0
+  invalidID: crwdns62249:0crwdne62249:0
+  notAllowedToCreate: crwdns62251:0crwdne62251:0
+  notAllowedToCreateSystem: crwdns62253:0crwdne62253:0
+  notAllowedToDelete: crwdns62255:0crwdne62255:0
+  notAllowedToListUsers: crwdns62257:0crwdne62257:0
+  notAllowedToRead: crwdns62259:0crwdne62259:0
+  notAllowedToSearch: crwdns62261:0crwdne62261:0
+  notAllowedToSuspend: crwdns62263:0crwdne62263:0
+  notAllowedToUndelete: crwdns62265:0crwdne62265:0
+  notAllowedToUnsuspend: crwdns62267:0crwdne62267:0
+  notAllowedToUpdate: crwdns62269:0crwdne62269:0
+  notAllowedToUpdateSystem: crwdns62271:0crwdne62271:0
+  notFound: crwdns62273:0crwdne62273:0
+  passwordNotSecure: crwdns62275:0crwdne62275:0
+  usernameNotUnique: crwdns62277:0crwdne62277:0
