@@ -1,0 +1,23 @@
+---
+template:
+  title: crwdns61501:0crwdne61501:0
+  password:
+    title: crwdns61503:0crwdne61503:0
+    change-link: crwdns61505:0crwdne61505:0
+  mfa:
+    title: crwdns61507:0crwdne61507:0
+    totp:
+      title: crwdns61509:0crwdne61509:0
+      enforced: crwdns61511:0crwdne61511:0
+      disabled: crwdns61513:0crwdne61513:0
+      configure: crwdns61515:0crwdne61515:0
+      disable: crwdns61517:0crwdne61517:0
+    email:
+      title: crwdns61519:0crwdne61519:0
+      enforced: crwdns61521:0crwdne61521:0
+      disabled: crwdns61523:0crwdne61523:0
+      enable: crwdns61525:0crwdne61525:0
+      disable: crwdns61527:0crwdne61527:0
+    all-disabled: crwdns61529:0crwdne61529:0
+alerts:
+  topt-disabled: crwdns61531:0crwdne61531:0
