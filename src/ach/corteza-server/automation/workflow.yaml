@@ -1,0 +1,17 @@
+---
+errors:
+  disabled: crwdns61625:0crwdne61625:0
+  handleNotUnique: crwdns61627:0crwdne61627:0
+  invalidHandle: crwdns61629:0crwdne61629:0
+  invalidID: crwdns61631:0crwdne61631:0
+  notAllowedToCreate: crwdns61633:0crwdne61633:0
+  notAllowedToDelete: crwdns61635:0crwdne61635:0
+  notAllowedToExecute: crwdns61637:0crwdne61637:0
+  notAllowedToExecuteCorredorStep: crwdns61639:0crwdne61639:0
+  notAllowedToRead: crwdns61641:0crwdne61641:0
+  notAllowedToSearch: crwdns61643:0crwdne61643:0
+  notAllowedToUndelete: crwdns61645:0crwdne61645:0
+  notAllowedToUpdate: crwdns61647:0crwdne61647:0
+  notFound: crwdns61649:0crwdne61649:0
+  staleData: crwdns61651:0crwdne61651:0
+  unknownWorkflowStep: crwdns61653:0crwdne61653:0
