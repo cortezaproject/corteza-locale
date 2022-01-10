@@ -1,0 +1,12 @@
+---
+errors:
+  composeModuleNotFound: crwdns61879:0crwdne61879:0
+  composeNamespaceNotFound: crwdns61881:0crwdne61881:0
+  invalidID: crwdns61883:0crwdne61883:0
+  nodeNotFound: crwdns61885:0crwdne61885:0
+  notAllowedToCreate: crwdns61887:0crwdne61887:0
+  notAllowedToManage: crwdns61889:0crwdne61889:0
+  notFound: crwdns61891:0crwdne61891:0
+  notUnique: crwdns61893:0crwdne61893:0
+  requestParametersInvalid: crwdns61895:0crwdne61895:0
+  staleData: crwdns61897:0crwdne61897:0
