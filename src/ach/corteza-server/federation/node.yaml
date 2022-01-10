@@ -1,0 +1,11 @@
+---
+errors:
+  notAllowedToCreate: crwdns61913:0crwdne61913:0
+  notAllowedToManage: crwdns61915:0crwdne61915:0
+  notAllowedToPair: crwdns61917:0crwdne61917:0
+  notAllowedToSearch: crwdns61919:0crwdne61919:0
+  notFound: crwdns61921:0crwdne61921:0
+  pairingTokenInvalid: crwdns61923:0crwdne61923:0
+  pairingURIInvalid: 'crwdns61925:0{err}crwdne61925:0'
+  pairingURISourceIDInvalid: crwdns61927:0crwdne61927:0
+  pairingURITokenInvalid: crwdns61929:0crwdne61929:0
