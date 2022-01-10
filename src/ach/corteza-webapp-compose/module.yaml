@@ -1,0 +1,99 @@
+---
+allRecords:
+  create:
+    title: crwdns65691:0{{name}}crwdne65691:0
+  edit:
+    title: crwdns65693:0{{name}}crwdne65693:0
+  label: crwdns65695:0crwdne65695:0
+  list:
+    title: crwdns65697:0{{name}}crwdne65697:0
+  columns:
+    title: crwdns67709:0crwdne67709:0
+    description: crwdns67711:0crwdne67711:0
+  view:
+    title: crwdns65701:0{{name}}crwdne65701:0
+block:
+  record:
+    recordDeleted: crwdns67713:0crwdne67713:0
+    loadFailed: crwdns67715:0crwdne67715:0
+createLabel: crwdns65703:0crwdne65703:0
+edit:
+  create: crwdns65705:0crwdne65705:0
+  edit: crwdns65707:0crwdne65707:0
+  federationSettings:
+    downstream:
+      allFields: crwdns65709:0crwdne65709:0
+      description: 'crwdns65711:0crwdne65711:0'
+      title: crwdns65713:0crwdne65713:0
+    errorFetchingData: crwdns65715:0crwdne65715:0
+    general:
+      receive: crwdns65717:0crwdne65717:0
+      send: crwdns65719:0crwdne65719:0
+      title: crwdns65721:0crwdne65721:0
+    noNodes: crwdns65723:0crwdne65723:0
+    noPermission: crwdns65725:0crwdne65725:0
+    pickModule: crwdns65727:0crwdne65727:0
+    pickModuleField: crwdns65729:0crwdne65729:0
+    pickServer: crwdns65731:0crwdne65731:0
+    specificTitle: crwdns65733:0{{handle}}crwdne65733:0
+    title: crwdns65735:0crwdne65735:0
+    upstream:
+      allFields: crwdns65737:0crwdne65737:0
+      description: crwdns65739:0crwdne65739:0
+      title: crwdns65741:0crwdne65741:0
+  fieldPermissions: crwdns65743:0crwdne65743:0
+  manageRecordFields: crwdns65745:0crwdne65745:0
+  moduleFieldSettings: crwdns65747:0crwdne65747:0
+  moduleInfo: crwdns65749:0crwdne65749:0
+  newField: crwdns65751:0crwdne65751:0
+  recordPermissions: crwdns65753:0crwdne65753:0
+  reorderFields: crwdns65755:0crwdne65755:0
+  specificFieldSettings: crwdns65757:0{{name}}crwdne65757:0
+  steps:
+    recordList: crwdns65759:0crwdne65759:0
+    recordPage: crwdns65761:0crwdne65761:0
+  systemFields: 'crwdns65763:0crwdne65763:0'
+  tooltip:
+    attributes: crwdns65765:0crwdne65765:0
+    name: crwdns65767:0crwdne65767:0
+    private: crwdns65769:0crwdne65769:0
+    required: crwdns65771:0crwdne65771:0
+    title: crwdns65773:0crwdne65773:0
+federated: crwdns65775:0crwdne65775:0
+forModule:
+  recordList: crwdns65797:0crwdne65797:0
+  recordListPage: crwdns65799:0crwdne65799:0
+  recordPage: crwdns65801:0crwdne65801:0
+general:
+  fields: crwdns67717:0crwdne67717:0
+  label:
+    attributes: crwdns67719:0crwdne67719:0
+    handle: crwdns67721:0crwdne67721:0
+    name: crwdns67723:0crwdne67723:0
+    permissions: crwdns67725:0crwdne67725:0
+    title: crwdns67727:0crwdne67727:0
+    type: crwdns67729:0crwdne67729:0
+    saveAndClose: crwdns67731:0crwdne67731:0
+  placeholder:
+    handle: crwdns67733:0crwdne67733:0
+    sample: crwdns67735:0crwdne67735:0
+  invalid-handle-characters: crwdns67737:0crwdne67737:0
+import: crwdns65803:0crwdne65803:0
+navigation:
+  module: crwdns67739:0crwdne67739:0
+newLabel: crwdns65805:0crwdne65805:0
+newPlaceholder: crwdns65807:0crwdne65807:0
+noModule: crwdns67741:0crwdne67741:0
+noModuleFilter: crwdns67743:0crwdne67743:0
+notification:
+  deleteFailed: crwdns67745:0crwdne67745:0
+  deleted: crwdns67747:0crwdne67747:0
+  saveFailed: crwdns67749:0crwdne67749:0
+  saved: crwdns67751:0crwdne67751:0
+  page:
+    createFailed: crwdns67753:0crwdne67753:0
+recordPage:
+  create: crwdns65809:0crwdne65809:0
+  edit: crwdns65811:0crwdne65811:0
+searchPlaceholder: crwdns65813:0crwdne65813:0
+title: crwdns65815:0crwdne65815:0
