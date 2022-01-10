@@ -1,0 +1,21 @@
+---
+adminPanel: crwdns66313:0crwdne66313:0
+automation: crwdns66315:0crwdne66315:0
+chart: crwdns66317:0crwdne66317:0
+configuration: crwdns66319:0crwdne66319:0
+help:
+  documentation: crwdns66321:0crwdne66321:0
+  feedback: crwdns66323:0crwdne66323:0
+  forum: crwdns66325:0crwdne66325:0
+  version: 'crwdns66327:0crwdne66327:0'
+module: crwdns66329:0crwdne66329:0
+more: crwdns66331:0crwdne66331:0
+namespace: crwdns66333:0crwdne66333:0
+noPageTitle: crwdns66335:0crwdne66335:0
+page: crwdns66337:0crwdne66337:0
+publicPages: crwdns66339:0crwdne66339:0
+userSettings:
+  changePassword: crwdns66341:0crwdne66341:0
+  loggedInAs: crwdns66343:0{{user}}crwdne66343:0
+  logout: crwdns66345:0crwdne66345:0
+  profile: crwdns66347:0crwdne66347:0
