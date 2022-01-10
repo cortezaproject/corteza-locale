@@ -1,0 +1,21 @@
+---
+automation: Automation
+chart: Graphen
+configuration: Configuration
+editPage: Seite Bearbeiten
+help:
+  documentation: Documentation
+  feedback: Send feedback
+  forum: Help
+  version: 'Version:'
+module: Module
+more: Mehr
+namespace: Namespaces
+noPageTitle: No page title
+page: Pages
+userSettings:
+  changePassword: Change password
+  loggedInAs: Logged in as {{user}}
+  logout: Logout
+  profile: Profile
+viewPage: View Page
