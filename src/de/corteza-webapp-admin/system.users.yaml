@@ -1,0 +1,87 @@
+---
+editor:
+  info:
+    confirmEmail: Confirm email address
+    createdAt: Erstellt am
+    delete: Delete
+    deletedAt: Gelöscht am
+    email: E-Mail
+    handle: Alias
+    name: Full name
+    revokeAllSession: Revoke all active sessions
+    suspend: Suspend
+    suspendedAt: Suspended at
+    title: Grundlegende Informationen
+    undelete: Undelete
+    unsuspend: Unsuspend
+    updatedAt: Updated at
+  mfa:
+    TOTP:
+      disabled:
+        text: User did not configure TOTP protection.
+      enabled:
+        text: User configured TOTP protection auth mobile app.
+      remove:
+        label: Remove
+    emailOTP:
+      disable:
+        label: Disable
+      disabled:
+        text: |-
+          Email OTP protection is disabled for this user.
+          Email with the security code on each login will not be sent.
+      enable:
+        label: Enable
+      enabled:
+        text: |-
+          Email OTP protection is enabled for this user.
+          User will receive email with the security code on each login.
+    title: Multi-factor authentication
+  new: Neu
+  password:
+    confirm: Confirm password
+    length: The passwords must be at least {{length}} characters long!
+    missmatch: The passwords must match
+    new: Neues Passwort
+    title: Password
+    removePassword: Remove password
+  permissions: Permissions
+  roles:
+    add: Hinzufügen
+    count: Roles ({{count}})
+    remove: Remove
+    searchRoles: Search roles
+    title: Role membership
+    unnamed: Unnamed role
+  title:
+    create: Create user
+    edit: Edit user
+list:
+  columns:
+    actions: ""
+    createdAt: Erstellt
+    email: E-Mail
+    enabled: Aktiviert
+    handle: Alias
+    name: Name
+  filterForm:
+    deleted:
+      label: deleted users
+    excluded:
+      label: Without
+    exclusive:
+      label: Only
+    inclusive:
+      label: Including
+    query:
+      label: Filter users list
+      placeholder: Filter users by name, email
+    suspended:
+      label: suspended users
+  loading: Loading users
+  new: Neu
+  numFound: '{{count}} user found'
+  numFound_plural: '{{count}} users found'
+  permissions: Permissions
+  title: Users
+  yaml: YAML
