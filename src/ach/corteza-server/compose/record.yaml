@@ -1,0 +1,25 @@
+---
+errors:
+  fieldNotFound: crwdns61831:0{field}crwdne61831:0
+  importSessionAlreadActive: crwdns61833:0crwdne61833:0
+  invalidID: crwdns61835:0crwdne61835:0
+  invalidModuleID: crwdns61837:0crwdne61837:0
+  invalidNamespaceID: crwdns61839:0crwdne61839:0
+  invalidReferenceFormat: crwdns61841:0crwdne61841:0
+  invalidValueStructure: crwdns61843:0{field}crwdne61843:0
+  moduleNotFoundModule: crwdns61845:0crwdne61845:0
+  namespaceNotFound: crwdns61847:0crwdne61847:0
+  notAllowedToChangeFieldValue: crwdns61849:0{field}crwdne61849:0
+  notAllowedToCreate: crwdns61851:0crwdne61851:0
+  notAllowedToDelete: crwdns61853:0crwdne61853:0
+  notAllowedToListRecords: crwdns61855:0crwdne61855:0
+  notAllowedToRead: crwdns61857:0crwdne61857:0
+  notAllowedToReadModule: crwdns61859:0crwdne61859:0
+  notAllowedToReadNamespace: crwdns61861:0crwdne61861:0
+  notAllowedToSearch: crwdns61863:0crwdne61863:0
+  notAllowedToUndelete: crwdns61865:0crwdne61865:0
+  notAllowedToUpdate: crwdns61867:0crwdne61867:0
+  notFound: crwdns61869:0crwdne61869:0
+  staleData: crwdns61871:0crwdne61871:0
+  unknownBulkOperation: crwdns61873:0{bulkOperation}crwdne61873:0
+  valueInput: crwdns61875:0crwdne61875:0
