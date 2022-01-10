@@ -1,0 +1,51 @@
+---
+editor:
+  info:
+    createdAt: crwdns62837:0crwdne62837:0
+    delete: crwdns62839:0crwdne62839:0
+    deletedAt: crwdns62841:0crwdne62841:0
+    enabled: crwdns62843:0crwdne62843:0
+    handle: crwdns62845:0crwdne62845:0
+    id: crwdns62847:0crwdne62847:0
+    name: crwdns62849:0crwdne62849:0
+    openBuilder: crwdns62851:0crwdne62851:0
+    title: crwdns62853:0crwdne62853:0
+    undelete: crwdns62855:0crwdne62855:0
+    updatedAt: crwdns62857:0crwdne62857:0
+  new: crwdns62859:0crwdne62859:0
+  permissions: crwdns62861:0crwdne62861:0
+  title:
+    create: crwdns62863:0crwdne62863:0
+    edit: crwdns62865:0crwdne62865:0
+  triggers:
+    and: crwdns62867:0crwdne62867:0
+    columns:
+      constraints: crwdns62869:0crwdne62869:0
+      eventType: crwdns62871:0crwdne62871:0
+      resourceType: crwdns62873:0crwdne62873:0
+    title: crwdns62875:0crwdne62875:0
+list:
+  columns:
+    actions: "crwdns62877:0crwdne62877:0"
+    createdAt: crwdns62879:0crwdne62879:0
+    enabled: crwdns62881:0crwdne62881:0
+    handle: crwdns62883:0crwdne62883:0
+  filterForm:
+    deleted:
+      label: crwdns62885:0crwdne62885:0
+    excluded:
+      label: crwdns62887:0crwdne62887:0
+    exclusive:
+      label: crwdns62889:0crwdne62889:0
+    inclusive:
+      label: crwdns62891:0crwdne62891:0
+    query:
+      label: crwdns62893:0crwdne62893:0
+      placeholder: crwdns62895:0crwdne62895:0
+  loading: crwdns62897:0crwdne62897:0
+  new: crwdns62899:0crwdne62899:0
+  numFound: 'crwdns62901:0{{count}}crwdne62901:0'
+  numFound_plural: 'crwdns62903:0{{count}}crwdne62903:0'
+  permissions: crwdns62905:0crwdne62905:0
+  title: crwdns62907:0crwdne62907:0
+  yaml: crwdns62909:0crwdne62909:0
