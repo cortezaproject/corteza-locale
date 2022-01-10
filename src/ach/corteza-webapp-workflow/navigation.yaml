@@ -1,0 +1,11 @@
+---
+help:
+  documentation: crwdns66439:0crwdne66439:0
+  feedback: crwdns66441:0crwdne66441:0
+  forum: crwdns66443:0crwdne66443:0
+  version: 'crwdns66445:0crwdne66445:0'
+userSettings:
+  changePassword: crwdns66447:0crwdne66447:0
+  loggedInAs: crwdns66449:0{{user}}crwdne66449:0
+  logout: crwdns66451:0crwdne66451:0
+  profile: crwdns66453:0crwdne66453:0
