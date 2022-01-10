@@ -1,0 +1,23 @@
+---
+template:
+  title: Segurança
+  password:
+    title: Senha
+    change-link: Alterar sua senha
+  mfa:
+    title: Autenticação de múltiplos fatores
+    totp:
+      title: Segurança adicional com aplicativo móvel (geração de senha temporária)
+      enforced: Configurado e obrigatório ao logar-se.
+      disabled: Atualmente desativado.
+      configure: Configurar
+      disable: Desabilitar
+    email:
+      title: Segurança adicional com geração de senha temporária por e-mail
+      enforced: Habilitado e obrigatório ao logar-se.
+      disabled: Atualmente desabilitado.
+      enable: Configurar
+      disable: Desabilitar
+    all-disabled: Todos métodos de autenticação de múltiplos fatores estão desabilitados. Contate o administrador para habilitá-los.
+alerts:
+  topt-disabled: Autenticação de 2 fatores com senha temporária desabilitado
