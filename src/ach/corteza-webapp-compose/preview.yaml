@@ -1,0 +1,15 @@
+---
+general:
+  label:
+    attachmentFileInfo: 'crwdns68081:0{{0}}crwdnd68081:0{{1}}crwdne68081:0'
+    download: crwdns68083:0crwdne68083:0
+  tooltip:
+    dragAndDrop: crwdns68085:0crwdne68085:0
+pdf:
+  clickToRetry: crwdns68087:0crwdne68087:0
+  downloadForAll: crwdns68089:0crwdne68089:0
+  firstPagePreview: crwdns68091:0crwdne68091:0
+  loading: crwdns68093:0crwdne68093:0
+  noPages: crwdns68095:0crwdne68095:0
+  pageLoadFailed: crwdns68097:0crwdne68097:0
+  pageLoading: crwdns68099:0crwdne68099:0
