@@ -1,0 +1,21 @@
+---
+template:
+  title: crwdns61457:0crwdne61457:0
+  form:
+    email:
+      label: crwdns61459:0crwdne61459:0
+      placeholder: crwdns61461:0crwdne61461:0
+      resend-confirmation-link: crwdns61463:0{{link}}crwdne61463:0
+    name:
+      label: crwdns61465:0crwdne61465:0
+      placeholder: crwdns61467:0crwdne61467:0
+    handle:
+      label: crwdns61469:0crwdne61469:0
+      placeholder: crwdns61471:0crwdne61471:0
+    preferred-language:
+      label: crwdns66609:0crwdne66609:0
+    buttons:
+      submit: crwdns61473:0crwdne61473:0
+alerts:
+  profile-updated: crwdns61475:0crwdne61475:0
+  profile-update-fail: crwdns61477:0crwdne61477:0
