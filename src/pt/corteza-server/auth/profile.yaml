@@ -1,0 +1,21 @@
+---
+template:
+  title: Seu perfil
+  form:
+    email:
+      label: E-mail
+      placeholder: email@dominio.tld
+      resend-confirmation-link: E-mail não verificado, <a href="{{link}}?resend">reenviar link de confirmação.</a>
+    name:
+      label: Nome completo
+      placeholder: Seu nome completo
+    handle:
+      label: Tratamento
+      placeholder: Nome, apelido ou tratamento
+    preferred-language:
+      label: Idioma preferencial
+    buttons:
+      submit: Atualizar perfil
+alerts:
+  profile-updated: Perfil atualizado com sucesso.
+  profile-update-fail: Não foi possível atualizar o perfil devido a erros no preenchimento
