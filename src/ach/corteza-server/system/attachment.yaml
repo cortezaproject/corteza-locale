@@ -1,0 +1,10 @@
+---
+errors:
+  failedToExtractMimeType: crwdns62017:0crwdne62017:0
+  failedToProcessImage: crwdns62019:0crwdne62019:0
+  failedToStoreFile: crwdns62021:0crwdne62021:0
+  invalidID: crwdns62023:0crwdne62023:0
+  notAllowedToCreate: crwdns62025:0crwdne62025:0
+  notAllowedToCreateEmptyAttachment: crwdns62027:0crwdne62027:0
+  notAllowedToListAttachments: crwdns62029:0crwdne62029:0
+  notFound: crwdns62031:0crwdne62031:0
