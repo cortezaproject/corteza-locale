@@ -1,0 +1,41 @@
+---
+editor:
+  info:
+    consumer: crwdns63789:0crwdne63789:0
+    createdAt: crwdns63791:0crwdne63791:0
+    delete: crwdns63793:0crwdne63793:0
+    deletedAt: crwdns63795:0crwdne63795:0
+    dispatch_events: crwdns63797:0crwdne63797:0
+    dispatch_events_desc: crwdns63799:0crwdne63799:0
+    name: crwdns63801:0crwdne63801:0
+    poll_delay: crwdns63803:0crwdne63803:0
+    poll_delay_empty: 'crwdns63805:0crwdne63805:0'
+    poll_delay_set: crwdns63807:0crwdne63807:0
+    title: crwdns63809:0crwdne63809:0
+    undelete: crwdns63811:0crwdne63811:0
+    updatedAt: crwdns63813:0crwdne63813:0
+  new: crwdns63815:0crwdne63815:0
+  title:
+    edit: crwdns63817:0crwdne63817:0
+    new: crwdns63819:0crwdne63819:0
+list:
+  columns:
+    actions: crwdns63821:0crwdne63821:0
+    consumer: crwdns63823:0crwdne63823:0
+    createdAt: crwdns63825:0crwdne63825:0
+    queue: crwdns63827:0crwdne63827:0
+  filterForm:
+    deleted:
+      label: crwdns63829:0crwdne63829:0
+    excluded:
+      label: crwdns63831:0crwdne63831:0
+    exclusive:
+      label: crwdns63833:0crwdne63833:0
+    handle:
+      label: crwdns63835:0crwdne63835:0
+      placeholder: crwdns63837:0crwdne63837:0
+    inclusive:
+      label: crwdns63839:0crwdne63839:0
+  loading: crwdns63841:0crwdne63841:0
+  new: crwdns63843:0crwdne63843:0
+  title: crwdns63845:0crwdne63845:0
