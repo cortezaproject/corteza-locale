@@ -1,0 +1,85 @@
+---
+list:
+  title: 'crwdns67403:0crwdne67403:0'
+  new: 'crwdns63313:0crwdne63313:0'
+  permissions: 'crwdns63315:0crwdne63315:0'
+  yaml: 'crwdns63317:0crwdne63317:0'
+  loading: 'crwdns63319:0crwdne63319:0'
+  numFound: 'crwdns63321:0{{count}}crwdne63321:0'
+  numFound_plural: 'crwdns63323:0{{count}}crwdne63323:0'
+  filterForm:
+    query:
+      label: 'crwdns67405:0crwdne67405:0'
+      placeholder: 'crwdns63327:0crwdne63327:0'
+    excluded:
+      label: 'crwdns63329:0crwdne63329:0'
+    inclusive:
+      label: 'crwdns63331:0crwdne63331:0'
+    exclusive:
+      label: 'crwdns63333:0crwdne63333:0'
+    deleted:
+      label: 'crwdns63335:0crwdne63335:0'
+  columns:
+    endpoint: 'crwdns63337:0crwdne63337:0'
+    createdAt: 'crwdns63339:0crwdne63339:0'
+    enabled: 'crwdns63341:0crwdne63341:0'
+    actions: 'crwdns63343:0crwdne63343:0'
+editor:
+  title: 'crwdns63345:0crwdne63345:0'
+  new: 'crwdns63347:0crwdne63347:0'
+  permissions: 'crwdns63349:0crwdne63349:0'
+  info:
+    title: 'crwdns63351:0crwdne63351:0'
+    id: 'crwdns63353:0crwdne63353:0'
+    endpoint: 'crwdns63355:0crwdne63355:0'
+    method: 'crwdns63357:0crwdne63357:0'
+    enabled: 'crwdns63359:0crwdne63359:0'
+    delete: 'crwdns63361:0crwdne63361:0'
+    undelete: 'crwdns63363:0crwdne63363:0'
+    deletedAt: 'crwdns63365:0crwdne63365:0'
+    updatedAt: 'crwdns63367:0crwdne63367:0'
+    createdAt: 'crwdns63369:0crwdne63369:0'
+    tooltip: 'crwdns67407:0crwdne67407:0'
+    validation:
+      slash: 'crwdns67409:0crwdne67409:0'
+      minLength: 'crwdns67411:0crwdne67411:0'
+      invalidCharacters: 'crwdns67413:0crwdne67413:0'
+  filters:
+    title: 'crwdns63373:0crwdne63373:0'
+    enabled: 'crwdns67415:0crwdne67415:0'
+    disabled: 'crwdns67417:0crwdne67417:0'
+    modal:
+      title: 'crwdns63375:0crwdne63375:0'
+      ok: 'crwdns63377:0crwdne63377:0'
+    step_title:
+      prefilter: 'crwdns63383:0crwdne63383:0'
+      processer: 'crwdns63385:0crwdne63385:0'
+      postfilter: 'crwdns63387:0crwdne63387:0'
+    list:
+      remove: 'crwdns63389:0crwdne63389:0'
+      filters: 'crwdns63391:0crwdne63391:0'
+      status: 'crwdns63393:0crwdne63393:0'
+      actions: 'crwdns63395:0crwdne63395:0'
+      active: 'crwdns63397:0crwdne63397:0'
+      noFilters: 'crwdns67419:0crwdne67419:0'
+    labels:
+      expr: 'crwdns63401:0crwdne63401:0'
+      location: 'crwdns67421:0crwdne67421:0'
+      workflow: 'crwdns63405:0crwdne63405:0'
+      status: 'crwdns63407:0crwdne63407:0'
+      jsfunc: 'crwdns67423:0crwdne67423:0'
+    httpStatus:
+      none: crwdns67425:0crwdne67425:0
+      '300': crwdns67427:0crwdne67427:0
+      '301': crwdns67429:0crwdne67429:0
+      '302': crwdns67431:0crwdne67431:0
+      '303': crwdns67433:0crwdne67433:0
+      '304': crwdns67435:0crwdne67435:0
+      '307': crwdns67437:0crwdne67437:0
+      '308': crwdns67439:0crwdne67439:0
+    placeholders:
+      workflow: 'crwdns67441:0crwdne67441:0'
+    add: 'crwdns63409:0crwdne63409:0'
+    addFilter: 'crwdns63411:0crwdne63411:0'
+    params: 'crwdns63413:0crwdne63413:0'
+    filterListEmpty: 'crwdns63415:0crwdne63415:0'
