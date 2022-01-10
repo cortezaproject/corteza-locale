@@ -1,0 +1,59 @@
+---
+editor:
+  info:
+    archive: crwdns63849:0crwdne63849:0
+    archivedAt: crwdns63851:0crwdne63851:0
+    createdAt: crwdns63853:0crwdne63853:0
+    delete: crwdns63855:0crwdne63855:0
+    deletedAt: crwdns63857:0crwdne63857:0
+    handle: crwdns63859:0crwdne63859:0
+    name: crwdns63861:0crwdne63861:0
+    title: crwdns63863:0crwdne63863:0
+    unarchive: crwdns63865:0crwdne63865:0
+    undelete: crwdns63867:0crwdne63867:0
+    updatedAt: crwdns63869:0crwdne63869:0
+    description: crwdns67447:0crwdne67447:0
+    context:
+      label: crwdns67449:0crwdne67449:0
+      expression-label: crwdns67451:0crwdne67451:0
+      resource-types-label: crwdns67453:0crwdne67453:0
+  members:
+    add: crwdns63871:0crwdne63871:0
+    count: crwdns63873:0{{count}}crwdne63873:0
+    remove: crwdns63875:0crwdne63875:0
+    searchUsers: crwdns63877:0crwdne63877:0
+    title: crwdns63879:0crwdne63879:0
+    unnamed: crwdns63881:0crwdne63881:0
+  new: crwdns63883:0crwdne63883:0
+  permissions: crwdns63885:0crwdne63885:0
+  title:
+    create: crwdns63887:0crwdne63887:0
+    edit: crwdns63889:0crwdne63889:0
+list:
+  columns:
+    actions: "crwdns63891:0crwdne63891:0"
+    createdAt: crwdns63893:0crwdne63893:0
+    enabled: crwdns63895:0crwdne63895:0
+    handle: crwdns63897:0crwdne63897:0
+    name: crwdns63899:0crwdne63899:0
+  filterForm:
+    archived:
+      label: crwdns63901:0crwdne63901:0
+    deleted:
+      label: crwdns63903:0crwdne63903:0
+    excluded:
+      label: crwdns63905:0crwdne63905:0
+    exclusive:
+      label: crwdns63907:0crwdne63907:0
+    inclusive:
+      label: crwdns63909:0crwdne63909:0
+    query:
+      label: crwdns63911:0crwdne63911:0
+      placeholder: crwdns63913:0crwdne63913:0
+  loading: crwdns63915:0crwdne63915:0
+  new: crwdns63917:0crwdne63917:0
+  numFound: 'crwdns63919:0{{count}}crwdne63919:0'
+  numFound_plural: 'crwdns63921:0{{count}}crwdne63921:0'
+  permissions: crwdns63923:0crwdne63923:0
+  title: crwdns63925:0crwdne63925:0
+  yaml: crwdns63927:0crwdne63927:0
