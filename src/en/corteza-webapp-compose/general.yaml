@@ -31,7 +31,6 @@ label:
   makeDefault: Make default
   module: Module
   moduleName: Module name
-
   multi: Multi value
   name: Name
   next: Next
