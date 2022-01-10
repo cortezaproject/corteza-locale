@@ -1,0 +1,6 @@
+---
+template:
+  title: Desativar autenticação de 2 fatores com token temporário
+  instructions: Desativado por informar um código existente.
+  button:
+    remove: Remover
