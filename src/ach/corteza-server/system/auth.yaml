@@ -1,0 +1,26 @@
+---
+errors:
+  credentialsLinkedToInvalidUser: crwdns62033:0{credentials.kind}crwdnd62033:0{user}crwdne62033:0
+  disabledMFAWithEmailOTP: crwdns62035:0crwdne62035:0
+  disabledMFAWithTOTP: crwdns62037:0crwdne62037:0
+  enforcedMFAWithEmailOTP: crwdns62039:0crwdne62039:0
+  enforcedMFAWithTOTP: crwdns62041:0crwdne62041:0
+  externalDisabledByConfig: crwdns62043:0crwdne62043:0
+  failedUnconfirmedEmail: crwdns62045:0crwdne62045:0
+  internalLoginDisabledByConfig: crwdns62047:0crwdne62047:0
+  internalSignupDisabledByConfig: crwdns62049:0crwdne62049:0
+  invalidCredentials: crwdns62051:0crwdne62051:0
+  invalidEmailFormat: crwdns62053:0crwdne62053:0
+  invalidEmailOTP: crwdns62055:0crwdne62055:0
+  invalidHandle: crwdns62057:0crwdne62057:0
+  invalidTOTP: crwdns62059:0crwdne62059:0
+  invalidToken: crwdns62061:0crwdne62061:0
+  notAllowedToConfigureTOTP: crwdns62063:0crwdne62063:0
+  notAllowedToImpersonate: crwdns62065:0crwdne62065:0
+  notAllowedToRemoveTOTP: crwdns62067:0crwdne62067:0
+  passwodResetFailedOldPasswordCheckFailed: crwdns62069:0crwdne62069:0
+  passwordChangeFailedForUnknownUser: crwdns62071:0crwdne62071:0
+  passwordNotSecure: crwdns62073:0crwdne62073:0
+  passwordResetDisabledByConfig: crwdns62075:0crwdne62075:0
+  profileWithoutValidEmail: crwdns62077:0crwdne62077:0
+  unconfiguredTOTP: crwdns62079:0crwdne62079:0
