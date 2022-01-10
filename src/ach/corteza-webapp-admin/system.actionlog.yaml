@@ -1,0 +1,46 @@
+---
+list:
+  columns:
+    action: crwdns63227:0crwdne63227:0
+    actor: crwdns63229:0crwdne63229:0
+    description: crwdns63231:0crwdne63231:0
+    requestOrigin: crwdns63233:0crwdne63233:0
+    resource: crwdns63235:0crwdne63235:0
+    severity: crwdns63237:0crwdne63237:0
+    timestamp: crwdns63239:0crwdne63239:0
+  details:
+    id: 'crwdns63241:0crwdne63241:0'
+    header: 'crwdns63243:0crwdne63243:0'
+    timestamp: 'crwdns63245:0crwdne63245:0'
+    requestOrigin: 'crwdns63247:0crwdne63247:0'
+    requestID: 'crwdns63249:0crwdne63249:0'
+    actorIPAddr: 'crwdns63251:0crwdne63251:0'
+    actor: 'crwdns63253:0crwdne63253:0'
+    actorID: 'crwdns63255:0crwdne63255:0'
+    severity: 'crwdns63257:0crwdne63257:0'
+    resource: 'crwdns63259:0crwdne63259:0'
+    action: 'crwdns63261:0crwdne63261:0'
+    headerAdditional: 'crwdns63263:0crwdne63263:0'
+    description: 'crwdns63265:0crwdne63265:0'
+    error: 'crwdns63267:0crwdne63267:0'
+  severity:
+    emergency: 'crwdns63269:0crwdne63269:0'
+    alert: 'crwdns63271:0crwdne63271:0'
+    critical: 'crwdns63273:0crwdne63273:0'
+    error: 'crwdns63275:0crwdne63275:0'
+    warning: 'crwdns63277:0crwdne63277:0'
+    notice: 'crwdns63279:0crwdne63279:0'
+    info: 'crwdns63281:0crwdne63281:0'
+    debug: 'crwdns63283:0crwdne63283:0'
+  filter:
+    action: crwdns63285:0crwdne63285:0
+    actor: crwdns63287:0crwdne63287:0
+    choose-date: crwdns63289:0crwdne63289:0
+    from: crwdns63291:0crwdne63291:0
+    no-time: crwdns63293:0crwdne63293:0
+    resource: crwdns63295:0crwdne63295:0
+    search: crwdns63297:0crwdne63297:0
+    to: crwdns63299:0crwdne63299:0
+    today: crwdns63301:0crwdne63301:0
+  loadOlder: crwdns63303:0crwdne63303:0
+  title: crwdns63305:0crwdne63305:0
