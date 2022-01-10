@@ -1,0 +1,74 @@
+---
+automation:
+  scriptFailed: crwdns65905:0crwdne65905:0
+chart:
+  createFailed: crwdns65907:0crwdne65907:0
+  deleteFailed: crwdns65909:0crwdne65909:0
+  deleted: crwdns65911:0crwdne65911:0
+  invalidConfig:
+    missingDimensionsField: crwdns65913:0crwdne65913:0
+    missingDimensionsModifier: crwdns65915:0crwdne65915:0
+    missingMetricsAggregate: crwdns65917:0crwdne65917:0
+    missingMetricsField: crwdns65919:0crwdne65919:0
+    missingMetricsType: crwdns65921:0crwdne65921:0
+    missingModuleID: crwdns65923:0crwdne65923:0
+    missingReports: crwdns65925:0crwdne65925:0
+  loadFailed: crwdns65927:0crwdne65927:0
+  optionsBuildFailed: crwdns65929:0crwdne65929:0
+  saveFailed: crwdns65931:0crwdne65931:0
+  saved: crwdns65933:0crwdne65933:0
+  unsupportedRenderer: crwdns65935:0crwdne65935:0
+color:
+  RGBA:
+    invalid: crwdns65937:0crwdne65937:0
+field:
+  missingRequired: crwdns65939:0crwdne65939:0
+  unknownFieldKind: 'crwdns65941:0{{kind}}crwdne65941:0'
+  unsupportedKind: crwdns65943:0{{kind}}crwdne65943:0
+field-datetime:
+  valueNotFuture: crwdns65945:0crwdne65945:0
+  valueNotPast: crwdns65947:0crwdne65947:0
+general:
+  composeAccessNotAllowed: crwdns65949:0crwdne65949:0
+  error: crwdns65951:0crwdne65951:0
+  success: crwdns65953:0crwdne65953:0
+  warning: crwdns65955:0crwdne65955:0
+module:
+  createFailed: crwdns65965:0crwdne65965:0
+  deleteFailed: crwdns65967:0crwdne65967:0
+  deleted: crwdns65969:0crwdne65969:0
+  saveFailed: crwdns65971:0crwdne65971:0
+  saved: crwdns65973:0crwdne65973:0
+namespace:
+  application:
+    createFailed: crwdns65975:0crwdne65975:0
+    fetchFailed: crwdns65977:0crwdne65977:0
+    saveFailed: crwdns65979:0crwdne65979:0
+  assetUploadFailed: crwdns65981:0crwdne65981:0
+  createFailed: crwdns65983:0crwdne65983:0
+  deleteFailed: crwdns65985:0crwdne65985:0
+  disabled: crwdns65987:0crwdne65987:0
+  saveFailed: crwdns65989:0crwdne65989:0
+  saved: crwdns65991:0crwdne65991:0
+page:
+  createFailed: crwdns65993:0crwdne65993:0
+  deleteFailed: crwdns65995:0crwdne65995:0
+  loadFailed: crwdns65997:0crwdne65997:0
+  noPages: crwdns65999:0crwdne65999:0
+  saveFailed: crwdns66005:0crwdne66005:0
+  saveFailedRequired: crwdns66007:0crwdne66007:0
+  saved: crwdns66009:0crwdne66009:0
+record:
+  createFailed: crwdns66011:0crwdne66011:0
+  deleteFailed: crwdns66013:0crwdne66013:0
+  invalidOwnerVar: crwdns66015:0${ownerID}crwdne66015:0
+  invalidRecordVar: crwdns66017:0${record...}crwdne66017:0
+  listLoadFailed: crwdns66019:0crwdne66019:0
+  loadFailed: crwdns66021:0crwdne66021:0
+  moduleMismatch: crwdns66023:0crwdne66023:0
+  moduleNotDefined: crwdns66025:0crwdne66025:0
+  moduleOrPageNotSet: 'crwdns66027:0crwdne66027:0'
+  unexpectedInput: crwdns66029:0crwdne66029:0
+  unexpectedValue: crwdns66031:0{{type}}crwdne66031:0
+  updateFailed: crwdns66033:0crwdne66033:0
+  validationErrors: crwdns66035:0crwdne66035:0
