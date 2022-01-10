@@ -1,0 +1,18 @@
+---
+errors:
+  handleNotUnique: crwdns61737:0crwdne61737:0
+  invalidHandle: crwdns61739:0crwdne61739:0
+  invalidID: crwdns61741:0crwdne61741:0
+  invalidNamespaceID: crwdns61743:0crwdne61743:0
+  nameNotUnique: crwdns61745:0crwdne61745:0
+  namespaceNotFound: crwdns61747:0crwdne61747:0
+  notAllowedToCreate: crwdns61749:0crwdne61749:0
+  notAllowedToDelete: crwdns61751:0crwdne61751:0
+  notAllowedToListModules: crwdns61753:0crwdne61753:0
+  notAllowedToRead: crwdns61755:0crwdne61755:0
+  notAllowedToReadNamespace: crwdns61757:0crwdne61757:0
+  notAllowedToSearch: crwdns61759:0crwdne61759:0
+  notAllowedToUndelete: crwdns61761:0crwdne61761:0
+  notAllowedToUpdate: crwdns61763:0crwdne61763:0
+  notFound: crwdns61765:0crwdne61765:0
+  staleData: crwdns61767:0crwdne61767:0
