@@ -1,0 +1,88 @@
+---
+editor:
+  info:
+    add: crwdns63503:0crwdne63503:0
+    api: crwdns63505:0crwdne63505:0
+    choose-date: crwdns63507:0crwdne63507:0
+    createdAt: crwdns63509:0crwdne63509:0
+    delete: crwdns63511:0crwdne63511:0
+    deletedAt: crwdns63513:0crwdne63513:0
+    enabled:
+      disabledFootnote: crwdns63515:0crwdne63515:0
+      label: crwdns63517:0crwdne63517:0
+    expiresAt:
+      description: crwdns63519:0crwdne63519:0
+      label: crwdns63521:0crwdne63521:0
+    grant:
+      authorization_code: crwdns63523:0crwdne63523:0
+      client_credentials: crwdns63525:0crwdne63525:0
+    handle:
+      disabledFootnote: crwdns63527:0crwdne63527:0
+      label: crwdns63529:0crwdne63529:0
+    name: crwdns63531:0crwdne63531:0
+    no-time: crwdns63533:0crwdne63533:0
+    profile: crwdns63535:0crwdne63535:0
+    redirectURI: crwdns63537:0crwdne63537:0
+    remove: crwdns63539:0crwdne63539:0
+    searchRoles: crwdns63541:0crwdne63541:0
+    secret: crwdns63543:0crwdne63543:0
+    security:
+      forbiddenRoles:
+        description: crwdns63545:0crwdne63545:0
+        label: crwdns63547:0{{count}}crwdne63547:0
+      forcedRoles:
+        description: crwdns63549:0crwdne63549:0
+        label: crwdns63551:0{{count}}crwdne63551:0
+      impersonateUser:
+        description: crwdns63553:0crwdne63553:0
+        label: crwdns63555:0crwdne63555:0
+      permittedRoles:
+        description: crwdns63557:0crwdne63557:0
+        label: crwdns63559:0{{count}}crwdne63559:0
+    title: crwdns63561:0crwdne63561:0
+    trusted:
+      description: crwdns63563:0crwdne63563:0
+      label: crwdns63565:0crwdne63565:0
+    undelete: crwdns63567:0crwdne63567:0
+    unnamed: crwdns63569:0crwdne63569:0
+    updatedAt: crwdns63571:0crwdne63571:0
+    uri: crwdns63573:0crwdne63573:0
+    validFrom:
+      description: crwdns63575:0crwdne63575:0
+      label: crwdns63577:0crwdne63577:0
+    generateCurl: crwdns66561:0crwdne66561:0
+    hideCurl: crwdns66563:0crwdne66563:0
+    cUrl: crwdns66565:0crwdne66565:0
+    testCurl: crwdns66567:0crwdne66567:0
+  new: crwdns63579:0crwdne63579:0
+  permissions: crwdns63581:0crwdne63581:0
+  title:
+    create: crwdns63583:0crwdne63583:0
+    edit: crwdns63585:0crwdne63585:0
+list:
+  columns:
+    actions: "crwdns63587:0crwdne63587:0"
+    createdAt: crwdns63589:0crwdne63589:0
+    enabled: crwdns63591:0crwdne63591:0
+    handle: crwdns63593:0crwdne63593:0
+    meta:
+      name: crwdns63595:0crwdne63595:0
+  filterForm:
+    deleted:
+      label: crwdns63597:0crwdne63597:0
+    excluded:
+      label: crwdns63599:0crwdne63599:0
+    exclusive:
+      label: crwdns63601:0crwdne63601:0
+    inclusive:
+      label: crwdns63603:0crwdne63603:0
+    query:
+      label: crwdns63605:0crwdne63605:0
+      placeholder: crwdns63607:0crwdne63607:0
+  loading: crwdns63609:0crwdne63609:0
+  new: crwdns63611:0crwdne63611:0
+  numFound: 'crwdns63613:0{{count}}crwdne63613:0'
+  numFound_plural: 'crwdns63615:0{{count}}crwdne63615:0'
+  permissions: crwdns63617:0crwdne63617:0
+  title: crwdns63619:0crwdne63619:0
+  yaml: crwdns63621:0crwdne63621:0
