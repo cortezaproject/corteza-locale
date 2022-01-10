@@ -1,0 +1,6 @@
+---
+errors:
+  failedToDownloadAttachment: 'crwdns61791:0{attachmentURL}crwdnd61791:0{err}crwdne61791:0'
+  failedToLoadUser: crwdns61793:0{recipient}crwdne61793:0
+  invalidReceipientFormat: crwdns61795:0{recipient}crwdne61795:0
+  noRecipients: crwdns61797:0crwdne61797:0
