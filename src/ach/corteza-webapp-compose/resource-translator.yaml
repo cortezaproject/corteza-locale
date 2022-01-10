@@ -1,0 +1,16 @@
+---
+translator:
+  save-changes: crwdns68101:0crwdne68101:0
+  add-language: crwdns68103:0crwdne68103:0
+  missing-translation: crwdns68105:0crwdne68105:0
+resources:
+  namespace:
+    title: crwdns68107:0{{ handle }}crwdne68107:0
+  module:
+    title: crwdns68109:0{{ handle }}crwdne68109:0
+    field:
+      title: crwdns68111:0{{ name }}crwdne68111:0
+  page:
+    title: crwdns68113:0{{ handle }}crwdne68113:0
+    block:
+      title: "crwdns68115:0{{ blockID }}crwdne68115:0"
