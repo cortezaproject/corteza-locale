@@ -1,0 +1,63 @@
+---
+editor:
+  generate:
+    body: 'crwdns63073:0{{ userLabel }}crwdne63073:0'
+    description: crwdns63075:0crwdne63075:0
+    hello: crwdns63077:0crwdne63077:0
+    invitation: crwdns63079:0crwdne63079:0
+    kindRegards: crwdns63081:0crwdne63081:0
+    notGenerated: crwdns63083:0crwdne63083:0
+    sendEmail: crwdns63085:0crwdne63085:0
+    subject: 'crwdns63087:0crwdne63087:0'
+  generateUri: crwdns63089:0crwdne63089:0
+  info:
+    createdAt: crwdns63091:0crwdne63091:0
+    delete: crwdns63093:0crwdne63093:0
+    deletedAt: crwdns63095:0crwdne63095:0
+    email: crwdns63097:0crwdne63097:0
+    enabled: crwdns63099:0crwdne63099:0
+    name: crwdns63101:0crwdne63101:0
+    status: crwdns63103:0crwdne63103:0
+    tags:
+      label: crwdns63105:0crwdne63105:0
+      placeholder: crwdns63107:0crwdne63107:0
+    title: crwdns63109:0crwdne63109:0
+    undelete: crwdns63111:0crwdne63111:0
+    updatedAt: crwdns63113:0crwdne63113:0
+    url: crwdns63115:0crwdne63115:0
+  title:
+    create: crwdns63117:0crwdne63117:0
+    edit: crwdns63119:0crwdne63119:0
+list:
+  columns:
+    actions: "crwdns63121:0crwdne63121:0"
+    createdAt: crwdns63123:0crwdne63123:0
+    enabled: crwdns63125:0crwdne63125:0
+    name: crwdns63127:0crwdne63127:0
+    status: crwdns63129:0crwdne63129:0
+    tags: "crwdns63131:0crwdne63131:0"
+  filterForm:
+    query:
+      label: crwdns63133:0crwdne63133:0
+      placeholder: crwdns63135:0crwdne63135:0
+  loading: crwdns63137:0crwdne63137:0
+  new: crwdns63139:0crwdne63139:0
+  numFound: 'crwdns63141:0{{count}}crwdne63141:0'
+  numFound_plural: 'crwdns63143:0{{count}}crwdne63143:0'
+  pair:
+    confirm: crwdns63145:0crwdne63145:0
+    label: crwdns63147:0crwdne63147:0
+    networkEstablished: crwdns63149:0crwdne63149:0
+    note: 'crwdns63151:0crwdne63151:0'
+    status:
+      confirmPending:
+        description: |-
+          crwdns63153:0{{ email }}crwdnd63153:0{{ name }}crwdne63153:0
+        descriptionNoMail: |-
+          crwdns63155:0{{ name }}crwdne63155:0
+      none:
+        description: crwdns63157:0crwdne63157:0
+      pending:
+        description: crwdns63159:0crwdne63159:0
+  title: crwdns63161:0crwdne63161:0
+  yaml: crwdns63163:0crwdne63163:0
