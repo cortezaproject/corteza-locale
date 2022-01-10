@@ -1,0 +1,85 @@
+---
+editor:
+  info:
+    confirmEmail: crwdns64141:0crwdne64141:0
+    createdAt: crwdns64143:0crwdne64143:0
+    delete: crwdns64145:0crwdne64145:0
+    deletedAt: crwdns64147:0crwdne64147:0
+    email: crwdns64149:0crwdne64149:0
+    handle: crwdns64151:0crwdne64151:0
+    name: crwdns64153:0crwdne64153:0
+    revokeAllSession: crwdns67477:0crwdne67477:0
+    suspend: crwdns64157:0crwdne64157:0
+    suspendedAt: crwdns64159:0crwdne64159:0
+    title: crwdns64161:0crwdne64161:0
+    undelete: crwdns64163:0crwdne64163:0
+    unsuspend: crwdns64165:0crwdne64165:0
+    updatedAt: crwdns64167:0crwdne64167:0
+  mfa:
+    TOTP:
+      disabled:
+        text: crwdns64169:0crwdne64169:0
+      enabled:
+        text: crwdns64171:0crwdne64171:0
+      remove:
+        label: crwdns64173:0crwdne64173:0
+    emailOTP:
+      disable:
+        label: crwdns64175:0crwdne64175:0
+      disabled:
+        text: |-
+          crwdns64177:0crwdne64177:0
+      enable:
+        label: crwdns64179:0crwdne64179:0
+      enabled:
+        text: |-
+          crwdns64181:0crwdne64181:0
+    title: crwdns64183:0crwdne64183:0
+  new: crwdns64185:0crwdne64185:0
+  password:
+    confirm: crwdns64195:0crwdne64195:0
+    length: crwdns64197:0{{length}}crwdne64197:0
+    missmatch: crwdns67479:0crwdne67479:0
+    new: crwdns64201:0crwdne64201:0
+    title: crwdns64203:0crwdne64203:0
+    removePassword: crwdns64205:0crwdne64205:0
+  permissions: crwdns64207:0crwdne64207:0
+  roles:
+    add: crwdns64209:0crwdne64209:0
+    count: crwdns64211:0{{count}}crwdne64211:0
+    remove: crwdns64213:0crwdne64213:0
+    searchRoles: crwdns64215:0crwdne64215:0
+    title: crwdns64217:0crwdne64217:0
+    unnamed: crwdns64219:0crwdne64219:0
+  title:
+    create: crwdns64221:0crwdne64221:0
+    edit: crwdns64223:0crwdne64223:0
+list:
+  columns:
+    actions: "crwdns64225:0crwdne64225:0"
+    createdAt: crwdns64227:0crwdne64227:0
+    email: crwdns64229:0crwdne64229:0
+    enabled: crwdns64231:0crwdne64231:0
+    handle: crwdns64233:0crwdne64233:0
+    name: crwdns64235:0crwdne64235:0
+  filterForm:
+    deleted:
+      label: crwdns64237:0crwdne64237:0
+    excluded:
+      label: crwdns64239:0crwdne64239:0
+    exclusive:
+      label: crwdns64241:0crwdne64241:0
+    inclusive:
+      label: crwdns64243:0crwdne64243:0
+    query:
+      label: crwdns64245:0crwdne64245:0
+      placeholder: crwdns64247:0crwdne64247:0
+    suspended:
+      label: crwdns64249:0crwdne64249:0
+  loading: crwdns64251:0crwdne64251:0
+  new: crwdns64253:0crwdne64253:0
+  numFound: 'crwdns64255:0{{count}}crwdne64255:0'
+  numFound_plural: 'crwdns64257:0{{count}}crwdne64257:0'
+  permissions: crwdns64259:0crwdne64259:0
+  title: crwdns64261:0crwdne64261:0
+  yaml: crwdns64263:0crwdne64263:0
