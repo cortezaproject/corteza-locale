@@ -1,0 +1,16 @@
+---
+general:
+  error: crwdns66383:0crwdne66383:0
+  success: crwdns66385:0crwdne66385:0
+  warning: crwdns66387:0crwdne66387:0
+report:
+  createFailed: crwdns66389:0crwdne66389:0
+  created: crwdns66391:0crwdne66391:0
+  delete: crwdns66393:0crwdne66393:0
+  deleteFailed: crwdns66395:0crwdne66395:0
+  fetchFailed: crwdns66397:0crwdne66397:0
+  listFetchFailed: crwdns66399:0crwdne66399:0
+  updateFailed: crwdns66401:0crwdne66401:0
+  updated: crwdns66403:0crwdne66403:0
+  notAllowed:
+    read: crwdns68175:0crwdne68175:0
