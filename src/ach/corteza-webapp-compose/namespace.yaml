@@ -1,0 +1,65 @@
+---
+application:
+  label: crwdns65817:0crwdne65817:0
+clickOpen: crwdns65819:0crwdne65819:0
+create: crwdns65821:0crwdne65821:0
+import:
+  buttonLabel: crwdns67755:0crwdne67755:0
+  title: crwdns67757:0crwdne67757:0
+  uploadFileLabel: crwdns67759:0crwdne67759:0
+  uploadFilePlaceholder: crwdns67761:0crwdne67761:0
+  back: crwdns67763:0crwdne67763:0
+  import: crwdns67765:0crwdne67765:0
+description:
+  label: crwdns65823:0crwdne65823:0
+  placeholder: crwdns65825:0crwdne65825:0
+disabled: crwdns65827:0crwdne65827:0
+edit: crwdns65829:0crwdne65829:0
+clone: crwdns67767:0crwdne67767:0
+cloneSuffix: crwdns67769:0crwdne67769:0
+cloneWarning:
+  wfInclusion: crwdns67771:0crwdne67771:0
+export: crwdns67773:0crwdne67773:0
+enabled:
+  label: crwdns67775:0crwdne67775:0
+icon:
+  label: crwdns65833:0crwdne65833:0
+  placeholder: crwdns65835:0crwdne65835:0
+label:
+  permissions: crwdns67777:0crwdne67777:0
+logo:
+  label: crwdns65837:0crwdne65837:0
+  placeholder: crwdns65839:0crwdne65839:0
+  show: crwdns67779:0crwdne67779:0
+  preview: crwdns67781:0crwdne67781:0
+  reset: crwdns67783:0crwdne67783:0
+name:
+  label: crwdns65841:0crwdne65841:0
+  placeholder: crwdns65843:0crwdne65843:0
+noResults: crwdns65845:0crwdne65845:0
+notification:
+  application:
+    createFailed: crwdns67785:0crwdne67785:0
+    fetchFailed: crwdns67787:0crwdne67787:0
+    saveFailed: crwdns67789:0crwdne67789:0
+  assetUploadFailed: crwdns67791:0crwdne67791:0
+  createFailed: crwdns67793:0crwdne67793:0
+  deleteFailed: crwdns67795:0crwdne67795:0
+  disabled: crwdns67797:0crwdne67797:0
+  saveFailed: crwdns67799:0crwdne67799:0
+  cloneFailed: crwdns67801:0crwdne67801:0
+  saved: crwdns67803:0crwdne67803:0
+  imported: crwdns67805:0crwdne67805:0
+  importFailed: crwdns67807:0crwdne67807:0
+searchPlaceholder: crwdns65847:0crwdne65847:0
+setPermissions: crwdns65849:0crwdne65849:0
+slug:
+  description: crwdns65851:0crwdne65851:0
+  label: crwdns65853:0crwdne65853:0
+  placeholder: crwdns65855:0crwdne65855:0
+  invalid-handle-characters: crwdns67809:0crwdne67809:0
+subtitle:
+  label: crwdns65857:0crwdne65857:0
+  placeholder: crwdns65859:0crwdne65859:0
+title: crwdns65861:0crwdne65861:0
+visit: crwdns65863:0crwdne65863:0
