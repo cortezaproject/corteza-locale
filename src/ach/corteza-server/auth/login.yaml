@@ -1,0 +1,22 @@
+---
+template:
+  title: crwdns61341:0crwdne61341:0
+  form:
+    email:
+      label: crwdns61343:0crwdne61343:0
+      placeholder: crwdns61345:0crwdne61345:0
+    password:
+      label: crwdns61347:0crwdne61347:0
+      placeholder: crwdns61349:0crwdne61349:0
+    button:
+      login-and-remember: crwdns61351:0crwdne61351:0
+      login: crwdns61353:0crwdne61353:0
+      continue: crwdns61355:0crwdne61355:0
+  links:
+    request-password-reset: crwdns61357:0crwdne61357:0
+    signup: crwdns61359:0crwdne61359:0
+    external:
+      login-with: crwdns66607:0{{idp}}crwdne66607:0
+alerts:
+  logged-in: crwdns61365:0crwdne61365:0
+  local-disabled: crwdns61367:0crwdne61367:0
