@@ -1,0 +1,9 @@
+---
+errors:
+  invalidID: ID invalide
+  notAllowedToDelete: non autorisé pour supprimer cette session
+  notAllowedToManage: non autorisé pour gérer les workflows de la session
+  notAllowedToRead: non autorisé pour lire cette session
+  notAllowedToSearch: non autorisé pour rechercher ou lister des sessions
+  notFound: session non trouvée
+  staleData: données corrompues
