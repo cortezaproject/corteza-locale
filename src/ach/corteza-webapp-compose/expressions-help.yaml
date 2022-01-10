@@ -1,0 +1,123 @@
+---
+calculate: crwdns65053:0crwdne65053:0
+categories:
+  dateTime:
+    earliest: crwdns65055:0crwdne65055:0
+    label: crwdns65057:0crwdne65057:0
+    latest: crwdns65059:0crwdne65059:0
+    modTime: crwdns65061:0crwdne65061:0
+    parseDuration: crwdns65063:0crwdne65063:0
+    parseISOTime: crwdns65065:0crwdne65065:0
+    strftime: crwdns65067:0crwdne65067:0
+  general:
+    description: crwdns65069:0crwdne65069:0
+    label: crwdns65071:0crwdne65071:0
+  number:
+    ceil: crwdns65073:0crwdne65073:0
+    floor: crwdns65075:0crwdne65075:0
+    label: crwdns65077:0crwdne65077:0
+    max: crwdns65079:0crwdne65079:0
+    min: crwdns65081:0crwdne65081:0
+    rounds: crwdns65083:0crwdne65083:0
+  string:
+    format: crwdns65085:0crwdne65085:0
+    label: crwdns65087:0crwdne65087:0
+    longest: crwdns65089:0crwdne65089:0
+    shortest: crwdns65091:0crwdne65091:0
+    toLower: crwdns65093:0crwdne65093:0
+    toUpper: crwdns65095:0crwdne65095:0
+    trim: crwdns65097:0crwdne65097:0
+    trimLeft: crwdns65099:0crwdne65099:0
+    trimRight: crwdns65101:0crwdne65101:0
+example-description: crwdns65103:0crwdne65103:0
+examples: crwdns65105:0crwdne65105:0
+field: crwdns65107:0crwdne65107:0
+formatCategories:
+  dateTime:
+    A: crwdns65109:0crwdne65109:0
+    B: crwdns65111:0crwdne65111:0
+    C: crwdns65113:0crwdne65113:0
+    D: crwdns65115:0%mcrwdnd65115:0%dcrwdnd65115:0%ycrwdne65115:0
+    F: crwdns65117:0%Y-%m-%dcrwdne65117:0
+    H: crwdns65119:0crwdne65119:0
+    I: crwdns65121:0crwdne65121:0
+    M: crwdns65123:0crwdne65123:0
+    R: crwdns65125:0%H:%Mcrwdne65125:0
+    S-middle: crwdns65127:0crwdne65127:0
+    S-second: crwdns65129:0crwdne65129:0
+    T: crwdns65131:0%H:%M:%Scrwdne65131:0
+    U: crwdns65133:0crwdne65133:0
+    V: crwdns65135:0crwdne65135:0
+    W: crwdns65137:0crwdne65137:0
+    X: crwdns65139:0crwdne65139:0
+    "Y": crwdns65141:0crwdne65141:0
+    Z: crwdns65143:0crwdne65143:0
+    a: crwdns65145:0crwdne65145:0
+    b: crwdns65147:0crwdne65147:0
+    c: crwdns65149:0crwdne65149:0
+    d: crwdns65151:0crwdne65151:0
+    e: crwdns65153:0crwdne65153:0
+    j: crwdns65155:0crwdne65155:0
+    k: crwdns65157:0crwdne65157:0
+    l: crwdns65159:0crwdne65159:0
+    label: crwdns65161:0crwdne65161:0
+    m: crwdns65163:0crwdne65163:0
+    "n": |-
+      crwdns65165:0crwdne65165:0
+    p: crwdns65167:0crwdne65167:0
+    percent: crwdns65169:0crwdne65169:0
+    r: crwdns65171:0%I:%M:%Scrwdnd65171:0%pcrwdne65171:0
+    t: crwdns65173:0crwdne65173:0
+    u: crwdns65175:0crwdne65175:0
+    v: crwdns65177:0%ecrwdnd65177:0%bcrwdnd65177:0%Ycrwdne65177:0
+    w: crwdns65179:0crwdne65179:0
+    x: crwdns65181:0crwdne65181:0
+    "y": crwdns65183:0crwdne65183:0
+    z: crwdns65185:0crwdne65185:0
+  string:
+    E: crwdns65187:0crwdne65187:0
+    O: crwdns65189:0crwdne65189:0
+    X: crwdns65191:0crwdne65191:0
+    b: crwdns65193:0crwdne65193:0
+    binary: crwdns65195:0crwdne65195:0
+    d: crwdns65197:0crwdne65197:0
+    e: crwdns65199:0crwdne65199:0
+    f: crwdns65201:0crwdne65201:0
+    label: crwdns65203:0crwdne65203:0
+    o: crwdns65205:0crwdne65205:0
+    t: crwdns65207:0crwdne65207:0
+    v: crwdns65209:0crwdne65209:0
+    x: crwdns65211:0crwdne65211:0
+formatting-parameters:
+  description: crwdns65213:0crwdne65213:0
+  label: crwdns65215:0crwdne65215:0
+helper-functions:
+  description: crwdns65217:0crwdne65217:0
+  label: crwdns65219:0crwdne65219:0
+  note: 'crwdns65221:0crwdne65221:0'
+instructions: 'crwdns65223:0crwdne65223:0'
+operators:
+  all-new-values: crwdns65225:0crwdne65225:0
+  comparators: 'crwdns65227:0crwdne65227:0'
+  control-order: 'crwdns65229:0crwdne65229:0'
+  field-name: crwdns65231:0crwdne65231:0
+  location: 'crwdns65233:0crwdne65233:0'
+  logical: 'crwdns65235:0crwdne65235:0'
+  modifiers: 'crwdns65237:0crwdne65237:0'
+  more: 'crwdns65239:0crwdne65239:0'
+  new: crwdns65241:0crwdne65241:0
+  new-value: crwdns65243:0crwdne65243:0
+  new-value-with-comma: 'crwdns65245:0crwdne65245:0'
+  old: crwdns65247:0crwdne65247:0
+  old-value: crwdns65249:0crwdne65249:0
+  old-value-brackets: 'crwdns65251:0crwdne65251:0'
+  record: 'crwdns65253:0crwdne65253:0'
+  sanitizer: crwdns65255:0crwdne65255:0
+  sanitizers: 'crwdns65257:0crwdne65257:0'
+  validator: crwdns65259:0crwdne65259:0
+  validators: 'crwdns65261:0crwdne65261:0'
+  value: crwdns65263:0crwdne65263:0
+  value-expression: crwdns65265:0crwdne65265:0
+  value-expressions: 'crwdns65267:0crwdne65267:0'
+  values: crwdns65269:0crwdne65269:0
+write: crwdns65271:0crwdne65271:0
