@@ -1,0 +1,105 @@
+---
+automation:
+  add: crwdns62279:0crwdne62279:0
+  edit:
+    asyncHelp: crwdns62281:0crwdne62281:0
+    asyncLabel: crwdns62283:0crwdne62283:0
+    codeTabLabel: crwdns62285:0crwdne62285:0
+    criticalHelp: crwdns62287:0crwdne62287:0
+    criticalLabel: crwdns62289:0crwdne62289:0
+    delete: crwdns62291:0crwdne62291:0
+    enabledHelp: crwdns62293:0crwdne62293:0
+    enabledLabel: crwdns62295:0crwdne62295:0
+    mailAutomationTriggers:
+      addMatcher: crwdns62297:0crwdne62297:0
+      addTrigger: crwdns62299:0crwdne62299:0
+      delete: crwdns62301:0crwdne62301:0
+      deleteTrigger: crwdns62303:0crwdne62303:0
+      enable: crwdns62305:0crwdne62305:0
+      matchAll: crwdns62307:0crwdne62307:0
+      matcher:
+        fields:
+          bcc: crwdns62309:0crwdne62309:0
+          cc: crwdns62311:0crwdne62311:0
+          from: crwdns62313:0crwdne62313:0
+          placeholder: crwdns62315:0crwdne62315:0
+          replyTo: crwdns62317:0crwdne62317:0
+          subject: crwdns62319:0crwdne62319:0
+          to: crwdns62321:0crwdne62321:0
+        match: crwdns62323:0crwdne62323:0
+        operators:
+          equal-ci: crwdns62325:0crwdne62325:0
+          placeholder: crwdns62327:0crwdne62327:0
+          prefix-ci: crwdns62329:0crwdne62329:0
+          regex: crwdns62331:0crwdne62331:0
+          suffix-ci: crwdns62333:0crwdne62333:0
+          user: crwdns62335:0crwdne62335:0
+      tabLabel: crwdns62337:0crwdne62337:0
+    nameLabel: crwdns62339:0crwdne62339:0
+    namePlaceholder: crwdns62341:0crwdne62341:0
+    runAsCurrentUser: crwdns62343:0{{ user }}crwdne62343:0
+    runAsHelp: crwdns62345:0crwdne62345:0
+    scheduledTriggers:
+      tabLabel: crwdns62347:0crwdne62347:0
+    securityLabel: crwdns62349:0crwdne62349:0
+    settingsTabLabel: crwdns62351:0crwdne62351:0
+    timeoutHelp: crwdns62353:0crwdne62353:0
+    timeoutLabel: crwdns62355:0crwdne62355:0
+    timeoutPlaceholder: "crwdns62357:0crwdne62357:0"
+    title: crwdns62359:0crwdne62359:0
+    userPickerPlaceholder: crwdns62361:0crwdne62361:0
+  import: crwdns62363:0crwdne62363:0
+  list:
+    column:
+      label:
+        async: crwdns62365:0crwdne62365:0
+        critical: crwdns62367:0crwdne62367:0
+        enabled: crwdns62369:0crwdne62369:0
+        runAs: crwdns62371:0crwdne62371:0
+        runInUA: crwdns62373:0crwdne62373:0
+    unnamed: crwdns62375:0crwdne62375:0
+  manage: crwdns62377:0{{count}}crwdne62377:0
+  manage-id-permissions: crwdns62379:0crwdne62379:0
+  manage-wc-permissions: crwdns62381:0crwdne62381:0
+  newLabel: crwdns62383:0crwdne62383:0
+  newPlaceholder: crwdns62385:0crwdne62385:0
+  testing:
+    load: crwdns62387:0crwdne62387:0
+    parametersHeadline: 'crwdns62389:0crwdne62389:0'
+    resultsHeadline: 'crwdns62391:0crwdne62391:0'
+    testInBrowser: crwdns62393:0crwdne62393:0
+    testInCorredor: crwdns62395:0crwdne62395:0
+    warning: "crwdns62397:0crwdne62397:0"
+  title: crwdns62399:0crwdne62399:0
+general:
+  notFound: 'crwdns62401:0crwdne62401:0'
+  label:
+    "no": "crwdns62403:0crwdne62403:0"
+    submit: crwdns62405:0crwdne62405:0
+    "yes": "crwdns62407:0crwdne62407:0"
+  logout: crwdns62409:0crwdne62409:0
+  noAccess: crwdns62411:0crwdne62411:0
+  pagination:
+    next: crwdns62413:0crwdne62413:0
+    prev: crwdns62415:0crwdne62415:0
+navigation:
+  adminPanel: crwdns62417:0crwdne62417:0
+  automation: crwdns62419:0crwdne62419:0
+  chart: crwdns62421:0crwdne62421:0
+  configuration: crwdns62423:0crwdne62423:0
+  help:
+    documentation: crwdns62425:0crwdne62425:0
+    feedback: crwdns62427:0crwdne62427:0
+    forum: crwdns62429:0crwdne62429:0
+    version: 'crwdns62431:0crwdne62431:0'
+  module: crwdns62433:0crwdne62433:0
+  more: crwdns62435:0crwdne62435:0
+  namespace: crwdns62437:0crwdne62437:0
+  noPageTitle: crwdns62439:0crwdne62439:0
+  page: crwdns62441:0crwdne62441:0
+  publicPages: crwdns62443:0crwdne62443:0
+  userSettings:
+    changePassword: crwdns62445:0crwdne62445:0
+    loggedInAs: crwdns62447:0{{user}}crwdne62447:0
+    logout: crwdns62449:0crwdne62449:0
+    profile: crwdns62451:0crwdne62451:0
