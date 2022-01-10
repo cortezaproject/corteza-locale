@@ -1,0 +1,43 @@
+---
+ui:
+  reset-back: crwdns68217:0{{current}}crwdne68217:0
+  save-changes: crwdns68219:0crwdne68219:0
+  set-for: crwdns68221:0{{target}}crwdne68221:0
+  access:
+    allow: crwdns68223:0crwdne68223:0
+    inherit: crwdns68225:0crwdne68225:0
+    deny: crwdns68227:0crwdne68227:0
+resources:
+  automation:
+    workflow:
+      all: crwdns68229:0crwdne68229:0
+      specific: crwdns68231:0{{target}}crwdne68231:0
+      operations:
+        delete:
+          description: 'crwdns68233:0crwdne68233:0'
+          specific: crwdns68235:0crwdne68235:0
+          title: crwdns68237:0crwdne68237:0
+        execute:
+          description: 'crwdns68239:0crwdne68239:0'
+          specific: crwdns68241:0crwdne68241:0
+          title: crwdns68243:0crwdne68243:0
+        read:
+          description: 'crwdns68245:0crwdne68245:0'
+          specific: crwdns68247:0crwdne68247:0
+          title: crwdns68249:0crwdne68249:0
+        sessions.manage:
+          description: 'crwdns68251:0crwdne68251:0'
+          specific: crwdns68253:0crwdne68253:0
+          title: crwdns68255:0crwdne68255:0
+        triggers.manage:
+          description: 'crwdns68257:0crwdne68257:0'
+          specific: crwdns68259:0crwdne68259:0
+          title: crwdns68261:0crwdne68261:0
+        undelete:
+          description: 'crwdns68263:0crwdne68263:0'
+          specific: crwdns68265:0crwdne68265:0
+          title: crwdns68267:0crwdne68267:0
+        update:
+          description: 'crwdns68269:0crwdne68269:0'
+          specific: crwdns68271:0crwdne68271:0
+          title: crwdns68273:0crwdne68273:0
