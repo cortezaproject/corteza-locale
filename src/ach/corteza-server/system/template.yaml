@@ -1,0 +1,13 @@
+---
+errors:
+  cannotRenderPartial: crwdns62219:0crwdne62219:0
+  invalidHandle: crwdns62221:0crwdne62221:0
+  invalidID: crwdns62223:0crwdne62223:0
+  notAllowedToCreate: crwdns62225:0crwdne62225:0
+  notAllowedToDelete: crwdns62227:0crwdne62227:0
+  notAllowedToRead: crwdns62229:0crwdne62229:0
+  notAllowedToRender: crwdns62231:0crwdne62231:0
+  notAllowedToSearch: crwdns62233:0crwdne62233:0
+  notAllowedToUndelete: crwdns62235:0crwdne62235:0
+  notAllowedToUpdate: crwdns62237:0crwdne62237:0
+  notFound: crwdns62239:0crwdne62239:0
