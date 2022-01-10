@@ -1,0 +1,53 @@
+---
+block:
+  general:
+    changeBlock: crwdns67821:0crwdne67821:0
+    label:
+      cancel: crwdns67823:0crwdne67823:0
+      noHandle: crwdns67825:0crwdne67825:0
+      pageBuilder: crwdns67827:0crwdne67827:0
+      saveAndClose: crwdns67829:0crwdne67829:0
+    placeholder:
+      handle: crwdns67831:0crwdne67831:0
+      sample: crwdns67833:0crwdne67833:0
+    title: crwdns67835:0crwdne67835:0
+    invalid-handle-characters: crwdns67837:0crwdne67837:0
+changeBlock: crwdns67839:0crwdne67839:0
+build:
+  addBlock: crwdns66057:0crwdne66057:0
+  selectBlockTitle: crwdns66061:0crwdne66061:0
+createLabel: crwdns66063:0crwdne66063:0
+edit:
+  create: crwdns66065:0crwdne66065:0
+  edit: crwdns66067:0crwdne66067:0
+  pageDescription: crwdns66069:0crwdne66069:0
+  visible: crwdns66071:0crwdne66071:0
+import: 'crwdns66073:0crwdne66073:0'
+instructions: crwdns66075:0crwdne66075:0
+invalid: crwdns66077:0crwdne66077:0
+label:
+  cancel: crwdns67841:0crwdne67841:0
+  description: crwdns67843:0crwdne67843:0
+  handle: crwdns67845:0crwdne67845:0
+  pageBuilder: crwdns67847:0crwdne67847:0
+  permissions: crwdns67849:0crwdne67849:0
+  saveAndClose: crwdns67851:0crwdne67851:0
+moduleEdit: crwdns67853:0crwdne67853:0
+navigation:
+  page: crwdns67855:0crwdne67855:0
+  viewPage: crwdns67857:0crwdne67857:0
+newPlaceholder: crwdns66079:0crwdne66079:0
+noBlock: crwdns66081:0crwdne66081:0
+noPages: crwdns67859:0crwdne67859:0
+notification:
+  deleteFailed: crwdns67861:0crwdne67861:0
+  loadFailed: crwdns67863:0crwdne67863:0
+  saved: crwdns67865:0crwdne67865:0
+  saveFailed: crwdns67867:0crwdne67867:0
+  saveFailedRequired: crwdns67869:0crwdne67869:0
+notVisible: crwdns66083:0crwdne66083:0
+pageMoveFailed: crwdns67871:0crwdne67871:0
+reordered: crwdns67873:0crwdne67873:0
+title: crwdns66085:0crwdne66085:0
+view: crwdns66087:0crwdne66087:0
+visible: crwdns66089:0crwdne66089:0
