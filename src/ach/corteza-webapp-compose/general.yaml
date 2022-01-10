@@ -1,0 +1,125 @@
+---
+label:
+  actions: crwdns65529:0crwdne65529:0
+  active: crwdns65531:0crwdne65531:0
+  add: crwdns65533:0crwdne65533:0
+  addNew: crwdns65535:0crwdne65535:0
+  addValue: crwdns65537:0crwdne65537:0
+  attachmentFileInfo: 'crwdns65539:0{{0}}crwdnd65539:0{{1}}crwdne65539:0'
+  attributes: crwdns65541:0crwdne65541:0
+  back: crwdns65543:0crwdne65543:0
+  backWithoutSave: crwdns65545:0crwdne65545:0
+  browse: crwdns65547:0crwdne65547:0
+  buttons: crwdns65549:0crwdne65549:0
+  cancel: crwdns65551:0crwdne65551:0
+  clone: crwdns65553:0crwdne65553:0
+  close: crwdns65555:0crwdne65555:0
+  create: crwdns65557:0crwdne65557:0
+  delete: crwdns65559:0crwdne65559:0
+  description: crwdns65561:0crwdne65561:0
+  download: crwdns65563:0crwdne65563:0
+  dropFiles: crwdns65565:0crwdne65565:0
+  edit: crwdns65567:0crwdne65567:0
+  enabled: crwdns65569:0crwdne65569:0
+  export: crwdns65571:0crwdne65571:0
+  fileTypeNotAllowed: crwdns65573:0crwdne65573:0
+  general: crwdns65577:0crwdne65577:0
+  handle: crwdns65579:0crwdne65579:0
+  here: crwdns65581:0crwdne65581:0
+  import: crwdns65583:0crwdne65583:0
+  importPlaceholder: crwdns65585:0crwdne65585:0
+  loading: crwdns65589:0crwdne65589:0
+  makeDefault: crwdns65591:0crwdne65591:0
+  module: crwdns67657:0crwdne67657:0
+  moduleName: crwdns65593:0crwdne65593:0
+  multi: crwdns65595:0crwdne65595:0
+  name: crwdns65597:0crwdne65597:0
+  next: crwdns65599:0crwdne65599:0
+  "no": "crwdns65601:0crwdne65601:0"
+  noHandle: crwdns65603:0crwdne65603:0
+  none: crwdns65605:0crwdne65605:0
+  ok: crwdns65607:0crwdne65607:0
+  openBookmarks: crwdns65609:0crwdne65609:0
+  pageBuilder: crwdns65611:0crwdne65611:0
+  permissions: crwdns65613:0crwdne65613:0
+  private: crwdns65615:0crwdne65615:0
+  processing: crwdns65617:0crwdne65617:0
+  record: crwdns67659:0crwdne67659:0
+  recordPage: crwdns65619:0crwdne65619:0
+  field: crwdns67661:0crwdne67661:0
+  remove: crwdns65621:0crwdne65621:0
+  removeDefault: crwdns65623:0crwdne65623:0
+  required: crwdns65625:0crwdne65625:0
+  save: crwdns65627:0crwdne65627:0
+  saveAndClose: crwdns65629:0crwdne65629:0
+  status: crwdns65633:0crwdne65633:0
+  timeHour: 'crwdns65635:0{{t}}crwdne65635:0'
+  timeMinute: 'crwdns65637:0{{t}}crwdne65637:0'
+  title: crwdns65639:0crwdne65639:0
+  type: crwdns65641:0crwdne65641:0
+  updatedAt: crwdns67663:0crwdne67663:0
+  uploadError: 'crwdns65575:0{{message}}crwdne65575:0'
+  uploading: crwdns65645:0crwdne65645:0
+  urlPlaceholder: crwdns65647:0crwdne65647:0
+  validation: crwdns65649:0crwdne65649:0
+  view: crwdns65653:0crwdne65653:0
+  "yes": "crwdns65657:0crwdne65657:0"
+navigation:
+  chart: crwdns67665:0crwdne67665:0
+  namespace: crwdns67667:0crwdne67667:0
+  module: crwdns67669:0crwdne67669:0
+  page: crwdns67671:0crwdne67671:0
+placeholder:
+  handle: crwdns65659:0crwdne65659:0
+  sample: crwdns65661:0crwdne65661:0
+reminder:
+  add: crwdns65663:0crwdne65663:0
+  dismiss: crwdns65665:0crwdne65665:0
+  edit:
+    assigneeLabel: crwdns65667:0crwdne65667:0
+    assigneePlaceholder: crwdns65669:0crwdne65669:0
+    notesLabel: crwdns65671:0crwdne65671:0
+    notesPlaceholder: crwdns65673:0crwdne65673:0
+    remindAtLabel: crwdns65675:0crwdne65675:0
+    remindAtNone: crwdns65677:0crwdne65677:0
+    titleLabel: crwdns65679:0crwdne65679:0
+    titlePlaceholder: crwdns65681:0crwdne65681:0
+  listLabel: crwdns65683:0crwdne65683:0
+  routesTo: 'crwdns65685:0crwdne65685:0'
+  snooze: crwdns65687:0crwdne65687:0
+tooltip:
+  dragAndDrop: crwdns65689:0crwdne65689:0
+fieldKinds:
+  Bool:
+    label: crwdns67673:0crwdne67673:0
+  DateTime:
+    label: crwdns67675:0crwdne67675:0
+  Email:
+    label: crwdns67677:0crwdne67677:0
+  File:
+    label: crwdns67679:0crwdne67679:0
+  Number:
+    label: crwdns67681:0crwdne67681:0
+  Record:
+    label: crwdns67683:0crwdne67683:0
+  Select:
+    label: crwdns67685:0crwdne67685:0
+  String:
+    label: crwdns67687:0crwdne67687:0
+  Url:
+    label: crwdns67689:0crwdne67689:0
+  User:
+    label: crwdns67691:0crwdne67691:0
+field:
+  selectAll: crwdns67693:0crwdne67693:0
+  unselectAll: crwdns67695:0crwdne67695:0
+  kind:
+    user:
+      suggestionPlaceholder: crwdns67697:0crwdne67697:0
+notification:
+  composeAccessNotAllowed: crwdns67699:0crwdne67699:0
+  import:
+    failed: crwdns67701:0crwdne67701:0
+    readingError: crwdns67703:0crwdne67703:0
+    successful: crwdns67705:0crwdne67705:0
+    typeMissmatch: 'crwdns67707:0{{type1}}crwdnd67707:0{{type2}}crwdne67707:0'
