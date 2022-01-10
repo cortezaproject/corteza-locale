@@ -1,0 +1,31 @@
+---
+ui:
+  reset-back: Zurücksetzen auf"{{current}}"
+  save-changes: Änderungen speichern
+  set-for: Berechtigungen festlegen für {{target}}
+  access:
+    allow: Erlauben
+    inherit: Erben
+    deny: Ablehnen
+resources:
+  system:
+    report:
+      all: Alle Berichte
+      specific: '"{{target}}" melden'
+      operations:
+        delete:
+          description: ""
+          specific: Bericht "{{target}}" löschen
+          title: Jeden Bericht löschen
+        read:
+          description: ""
+          specific: Bericht "{{target}}" lesen
+          title: Jeden Bericht lesen
+        run:
+          description: ""
+          specific: Bericht "{{target}}" ausführen
+          title: Jeden Bericht ausführen
+        update:
+          description: ""
+          specific: Bericht "{{target}}" aktualisieren
+          title: Jeden Bericht aktualisieren
