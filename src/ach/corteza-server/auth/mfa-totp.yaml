@@ -1,0 +1,16 @@
+---
+template:
+  title: crwdns61379:0crwdne61379:0
+  enforced: |
+    crwdns61381:0crwdne61381:0
+  instructions: |
+    crwdns61383:0crwdne61383:0
+  lastpass: crwdns61385:0{{ link }}crwdne61385:0
+  gauth: crwdns61387:0{{ android }}crwdnd61387:0{{ iphone }}crwdne61387:0
+  authy: crwdns61389:0{{ link }}crwdne61389:0
+  form:
+    title: "crwdns61391:0crwdne61391:0"
+    button: crwdns61393:0crwdne61393:0
+alerts:
+  text-2FA-enabled: crwdns61395:0crwdne61395:0
+  text-2FA-disabled: crwdns61397:0crwdne61397:0
