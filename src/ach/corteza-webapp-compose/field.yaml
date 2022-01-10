@@ -1,0 +1,164 @@
+---
+defaultFieldValue: crwdns65273:0crwdne65273:0
+defaultValue: crwdns65275:0crwdne65275:0
+kind:
+  bool:
+    checkedValueLabel: crwdns65277:0crwdne65277:0
+    checkedValuePlaceholder: crwdns65279:0crwdne65279:0
+    label: crwdns65281:0crwdne65281:0
+    uncheckedValueLabel: crwdns65283:0crwdne65283:0
+    uncheckedValuePlaceholder: crwdns65285:0crwdne65285:0
+  dateTime:
+    dateOnly: crwdns65287:0crwdne65287:0
+    futureValuesOnly: crwdns65289:0crwdne65289:0
+    label: crwdns65291:0crwdne65291:0
+    outputFormat: 'crwdns65293:0crwdne65293:0'
+    outputFormatFootnote: crwdns65295:0{{0}}crwdne65295:0
+    pastValuesOnly: crwdns65297:0crwdne65297:0
+    relativeOutput: 'crwdns65299:0crwdne65299:0'
+    timeOnly: crwdns65301:0crwdne65301:0
+    warning:
+      futureValuesOnly: crwdns65303:0crwdne65303:0
+      pastValuesOnly: crwdns65305:0crwdne65305:0
+  email:
+    label: crwdns65307:0crwdne65307:0
+    preventToLink: crwdns65309:0crwdne65309:0
+  file:
+    label: crwdns65311:0crwdne65311:0
+    view:
+      gallery: crwdns65313:0crwdne65313:0
+      grid: crwdns65315:0crwdne65315:0
+      list: crwdns65317:0crwdne65317:0
+      maxSizeLabel: crwdns65319:0crwdne65319:0
+      mimetypesFootnote: 'crwdns65321:0crwdne65321:0'
+      mimetypesLabel: crwdns65323:0crwdne65323:0
+      modeFootnote: crwdns65325:0crwdne65325:0
+      modeLabel: crwdns65327:0crwdne65327:0
+      showName: crwdns65329:0crwdne65329:0
+      single: crwdns65331:0crwdne65331:0
+  number:
+    exampleFormat: crwdns65333:0crwdne65333:0
+    exampleInput: crwdns65335:0crwdne65335:0
+    exampleResult: crwdns65337:0crwdne65337:0
+    examplesLabel: 'crwdns65339:0crwdne65339:0'
+    formatLabel: crwdns65341:0crwdne65341:0
+    formatPlaceholder: crwdns65343:0crwdne65343:0
+    label: crwdns65345:0crwdne65345:0
+    liveExample: 'crwdns67645:0crwdne67645:0'
+    precisionLabel: crwdns65347:0crwdne65347:0
+    precisionPlaceholder: crwdns65349:0crwdne65349:0
+    prefixLabel: crwdns65351:0crwdne65351:0
+    prefixPlaceholder: crwdns65353:0crwdne65353:0
+    suffixLabel: crwdns65355:0crwdne65355:0
+    suffixPlaceholder: crwdns65357:0crwdne65357:0
+  record:
+    currentUnnamedModule: crwdns65359:0crwdne65359:0
+    label: crwdns65361:0crwdne65361:0
+    moduleLabel: crwdns65363:0crwdne65363:0
+    modulePlaceholder: crwdns65365:0crwdne65365:0
+    prefilterFootnote: crwdns65367:0{{0}}crwdnd65367:0{{1}}crwdnd65367:0{{2}}crwdne65367:0
+    prefilterLabel: crwdns65369:0crwdne65369:0
+    prefilterPlaceholder: crwdns65371:0crwdne65371:0
+    queryFieldsLabel: crwdns65373:0crwdne65373:0
+    recordFieldLabel: crwdns65375:0crwdne65375:0
+    recordFieldPlaceholder: crwdns65377:0crwdne65377:0
+    suggestionPlaceholder: crwdns65379:0crwdne65379:0
+  select:
+    label: crwdns65381:0crwdne65381:0
+    optionAdd: crwdns65383:0crwdne65383:0
+    optionLabelPlaceholder: crwdns65385:0crwdne65385:0
+    optionNotSelected: crwdns65387:0crwdne65387:0
+    optionRemove: crwdns65389:0crwdne65389:0
+    optionType:
+      default: crwdns65391:0crwdne65391:0
+      each: crwdns65393:0crwdne65393:0
+      label: crwdns65395:0crwdne65395:0
+      multiple: crwdns65397:0crwdne65397:0
+    optionValuePlaceholder: crwdns65399:0crwdne65399:0
+    optionsLabel: crwdns65401:0crwdne65401:0
+    placeholder: crwdns65403:0crwdne65403:0
+  string:
+    label: crwdns65405:0crwdne65405:0
+    multiLine: crwdns65407:0crwdne65407:0
+    richText: crwdns65409:0crwdne65409:0
+  url:
+    label: crwdns65411:0crwdne65411:0
+    preventToLink: crwdns65413:0crwdne65413:0
+    sshOnly: crwdns65415:0crwdne65415:0
+    trimHash: crwdns65417:0crwdne65417:0
+    trimQuestionMark: crwdns65419:0crwdne65419:0
+    trimToDomain: crwdns65421:0crwdne65421:0
+  user:
+    label: crwdns65423:0crwdne65423:0
+    na: crwdns65425:0crwdne65425:0
+    presetWithCurrentUser: crwdns65427:0crwdne65427:0
+    suggestionPlaceholder: crwdns65429:0crwdne65429:0
+    roles:
+      label: crwdns65431:0crwdne65431:0
+      placeholder: crwdns65433:0crwdne65433:0
+noPermission: crwdns65435:0crwdne65435:0
+options:
+  description:
+    label:
+      default: crwdns65437:0crwdne65437:0
+      edit: crwdns65439:0crwdne65439:0
+      view: crwdns65441:0crwdne65441:0
+    placeholder:
+      default: crwdns65443:0crwdne65443:0
+      edit: crwdns65445:0crwdne65445:0
+      view: crwdns65447:0crwdne65447:0
+    same: crwdns65449:0crwdne65449:0
+  hint:
+    label:
+      default: crwdns65451:0crwdne65451:0
+      edit: crwdns65453:0crwdne65453:0
+      view: crwdns65455:0crwdne65455:0
+    placeholder:
+      default: crwdns65457:0crwdne65457:0
+      edit: crwdns65459:0crwdne65459:0
+      view: crwdns65461:0crwdne65461:0
+    same: crwdns65463:0crwdne65463:0
+  multiDelimiter:
+    comma: crwdns65465:0crwdne65465:0
+    custom: crwdns65467:0crwdne65467:0
+    customLabel: crwdns65469:0crwdne65469:0
+    customPlaceholder: crwdns65471:0crwdne65471:0
+    label: crwdns65473:0crwdne65473:0
+    newline: crwdns65475:0crwdne65475:0
+sanitizers:
+  add: crwdns65477:0crwdne65477:0
+  description: crwdns65479:0crwdne65479:0
+  examples: crwdns65481:0crwdne65481:0
+  expression:
+    placeholder: crwdns65483:0crwdne65483:0
+  label: crwdns65485:0crwdne65485:0
+selector:
+  search: crwdns67647:0crwdne67647:0
+  available: crwdns67649:0crwdne67649:0
+  selectAll: crwdns65491:0crwdne65491:0
+  selected: crwdns67651:0crwdne67651:0
+  systemField: crwdns65495:0crwdne65495:0
+  unselectAll: crwdns65497:0crwdne65497:0
+system:
+  createdAt: crwdns65499:0crwdne65499:0
+  createdBy: crwdns65501:0crwdne65501:0
+  deletedAt: crwdns65503:0crwdne65503:0
+  deletedBy: crwdns65505:0crwdne65505:0
+  ownedBy: crwdns65507:0crwdne65507:0
+  updatedAt: crwdns65509:0crwdne65509:0
+  updatedBy: crwdns65511:0crwdne65511:0
+validators:
+  description: crwdns65513:0crwdne65513:0
+  disableBuiltIn: crwdns65515:0crwdne65515:0
+  error:
+    placeholder: crwdns65517:0crwdne65517:0
+  expression:
+    placeholder: crwdns65519:0crwdne65519:0
+  label: crwdns65521:0crwdne65521:0
+valueExpr:
+  description: crwdns65523:0crwdne65523:0
+  label: crwdns65525:0crwdne65525:0
+  placeholder: crwdns65527:0crwdne65527:0
+label:
+  required: crwdns67653:0crwdne67653:0
+  multi: crwdns67655:0crwdne67655:0
