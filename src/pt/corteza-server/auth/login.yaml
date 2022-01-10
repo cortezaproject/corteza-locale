@@ -1,0 +1,22 @@
+---
+template:
+  title: Entrar
+  form:
+    email:
+      label: E-mail
+      placeholder: email@dominio.tld
+    password:
+      label: Senha
+      placeholder: senha
+    button:
+      login-and-remember: Entrar e lembrar-se de mim
+      login: Entrar
+      continue: Continuar
+  links:
+    request-password-reset: Esqueceu sua senha?
+    signup: Criar nova conta
+    external:
+      login-with: Entrar com {{idp}}
+alerts:
+  logged-in: Você está logado.
+  local-disabled: Contas locais desabilitadas
