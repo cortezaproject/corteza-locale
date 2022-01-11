@@ -68,7 +68,8 @@ editor:
       clientKey: Client key
       clientSecret: Secret
       scope: Scope
-      scopePlaceholder: List out supported OAuth scope values, use space delimited string
+      scopePlaceholder: List out supported OAuth scope values
+      scopeHint: Use space delimited string
 
     saml:
       enabled: Enabled
