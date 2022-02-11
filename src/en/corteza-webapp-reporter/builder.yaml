@@ -54,6 +54,7 @@ scenarios:
 title: Title
 available-columns: Available columns
 selected-columns: Selected columns
+no-columns-found: No columns found
 type-to-search: Type here to search among columns
 selected: Selected
 select-all: Select all
