@@ -60,3 +60,4 @@ selected: Selected
 select-all: Select all
 unselect-all: Unselect all
 value: Value
+name: Name
