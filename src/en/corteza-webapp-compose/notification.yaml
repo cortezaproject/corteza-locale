@@ -90,3 +90,6 @@ report:
   listFetchFailed: Failed to fetch reports
   fetchFailed: Failed to fetch report
   runFailed: Failed to run report
+translations:
+  saved: Translations saved
+  saveFailed: Could not save translations
