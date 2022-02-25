@@ -373,6 +373,7 @@ recordOrganizer:
   preview:
     label: 'Record Organizer block for module {{0}}. Label field {{1}}, Description field {{2}}. Value setting field: {{3}}, Sorted by position field: {{4}}.'
     moduleNotSelected: Record Organizer module not selected.
+  addNewRecord: + Add new record
 socialFeed:
   label: Twitter feed
   noInput: No input for displaying social feed...
