@@ -95,8 +95,9 @@ chart:
     chartId: Chart preview (ID {{0}})
   searchPlaceholder: Type here to search all charts in this namespace
 content:
-  label: Content
   ok: Ok
+  label: Content
+  openLinkInNewTab: Open link in a new tab
   urlPlaceholder: https://example.tld
 file:
   label: File
