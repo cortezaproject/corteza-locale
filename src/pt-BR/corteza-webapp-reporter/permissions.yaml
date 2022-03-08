@@ -1,0 +1,32 @@
+ui:
+  reset-back: Redefinir para "{{current}}"
+  save-changes: Salvar alterações
+  set-for: Definir permissões para {{target}}
+
+  access:
+    allow: Permitir
+    inherit: Herdar
+    deny: Negar
+
+resources:
+  system:
+    report:
+      all: todos os relatórios
+      specific: relatório "{{target}}"
+      operations:
+        delete:
+          description: ""
+          specific: Excluir relatório "{{target}}"
+          title: Excluir qualquer relatório
+        read:
+          description: ""
+          specific: Leia o relatório "{{target}}"
+          title: Leia qualquer relatório
+        run:
+          description: ""
+          specific: Executar relatório "{{target}}"
+          title: Execute qualquer relatório
+        update:
+          description: ""
+          specific: Atualizar relatório "{{target}}"
+          title: Atualizar qualquer relatório

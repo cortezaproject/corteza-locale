@@ -1,0 +1,67 @@
+add:
+  label: Adicionar
+  with-plus: '+ Adicionar'
+  datasource: Adicionar fonte de dados
+  display-element: Adicionar elemento de exibição
+ascending: Crescente
+available: Disponível
+block:
+  description: Descrição do bloco
+  save: Salvar bloco
+  title: Título do bloco
+  configuration: Configuração do bloco
+datasource:
+  label: Fonte de dados
+  types:
+    load:
+      label: Carga
+      loads-data-from-specified-resource-such-as-compose-records: Carrega dados de um recurso especificado, como Compor registros
+    join:
+      label: Junte-se
+      joins-two-load-datasources-such-as-compose-record-selector: Une duas fontes de dados de carga com uma coluna exclusiva que as vincula, como um seletor de registro de composição
+    group:
+      label: Grupo
+      groups-data-from-load-datasource-like-counting-number-of-accounts-with-same-status: Agrupa dados de uma fonte de dados de carregamento com base em um valor de coluna e os agrega, como contar o número de contas com o mesmo status
+datasources:
+  label: Fontes de dados
+  save: Salvar fontes de dados
+descending: Decrescente
+description: Descrição
+display-elements:
+  types:
+    text: Texto
+    metric: Métrica
+    table: Mesa
+    chart: Gráfico
+element: Elemento
+elements: Elementos
+filter-expression: Expressão de filtro
+general: Em geral
+grab: '.grab'
+joined-datasource-handling: Manipulação de fonte de dados associada
+layout: Esquema
+layout-options:
+  horizontal: Horizontal
+  vertical: Vertical
+limit: Limite
+no-blocks-added: Nenhum bloco adicionado ainda
+none: Nenhum
+or: Ou
+pick-scenario: Escolha um cenário
+prefilter: Pré-filtro
+presort-order: Pré-ordenar
+report:
+  builder: Criador de relatórios
+  view: Ver relatório
+save-button: Salvar
+scenarios:
+  label: Cenários
+  save: Salvar cenários
+title: Título
+available-columns: Colunas disponíveis
+selected-columns: Colunas selecionadas
+type-to-search: Digite aqui para pesquisar entre as colunas
+selected: Selecionado
+select-all: Selecionar tudo
+unselect-all: Desmarque todos
+value: Valor

@@ -1,0 +1,8 @@
+configuration: Configuração
+edge: Borda
+target: Alvo
+workflow:
+  'run-as': Correr como
+  'not-setup-properly': Quando não definido explicitamente, o fluxo de trabalho será executado pelo usuário que o invocou
+  invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+  placeholder-handle: identificador (a - z, 0 - 9, sublinhado, traço)

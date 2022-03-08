@@ -1,0 +1,14 @@
+description: Descrição
+handle-with-star: 'Lidar*'
+invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+name: Nome
+name-with-star: 'Nome*'
+new-report: Novo relatório
+permissions: Permissões
+report:
+  create: Criar relatório
+  builder: Criador de relatórios
+  description: Descrição do relatório...
+  edit: Editar relatório
+placeholder-handle: identificador (a - z, 0 - 9, sublinhado, traço)
+title: Editar relatório

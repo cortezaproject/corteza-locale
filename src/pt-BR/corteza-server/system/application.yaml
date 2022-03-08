@@ -1,0 +1,11 @@
+errors:
+  invalidID: ID Inválido
+  notAllowedToCreate: não tem permissão para criar aplicativos
+  notAllowedToDelete: não tem permissão para excluir este aplicativo
+  notAllowedToManageFlag: não tem permissão para gerenciar sinalizadores para aplicativos
+  notAllowedToManageFlagGlobal: não tem permissão para gerenciar sinalizadores globais para aplicativos
+  notAllowedToRead: não tem permissão para ler este aplicativo
+  notAllowedToSearch: não tem permissão para pesquisar ou listar aplicativos
+  notAllowedToUndelete: não é permitido recuperar este aplicativo
+  notAllowedToUpdate: não tem permissão para atualizar este aplicativo
+  notFound: aplicação não encontrada

@@ -1,0 +1,6 @@
+list:
+  columns:
+    events: Acionado em eventos
+    label: Rótulo
+    name: Nome
+  title: Automação de composição

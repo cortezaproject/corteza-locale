@@ -1,0 +1,22 @@
+template:
+  title: Conecte-se
+  form:
+    email:
+      label: E-mail
+      placeholder: email@domínio.ltd
+    password:
+      label: Senha
+      placeholder: senha
+    button:
+       login-and-remember: Faça login e lembre-se de mim
+       login: Conecte-se
+       continue: Continuar
+  links:
+    request-password-reset: Esqueceu sua senha?
+    signup: Criar uma nova conta
+    external:
+      login-with: Faça login com {{idp}}
+
+alerts:
+  logged-in: Agora você está logado.
+  local-disabled: Contas locais desativadas

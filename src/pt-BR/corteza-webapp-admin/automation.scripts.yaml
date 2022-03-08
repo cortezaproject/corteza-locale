@@ -1,0 +1,16 @@
+list:
+  columns:
+    updatedAt: Última atualização
+  filter:
+    absoluteTime: Mostrar tempo absoluto
+    incScriptsWithErrors: Errors ({{ count }})
+    incScriptsWithIterator: Iterator ({{ count }})
+    incScriptsWithSecurity: Security ({{ count }})
+    incScriptsWithTriggers: Triggers ({{ count }})
+    searchQuery: Consulta de pesquisa
+  flags:
+    iterator: Iterador
+    security: Segurança
+    triggers: Gatilhos
+  labelMissing: <label missing>
+  title: Scripts Corredor

@@ -1,0 +1,12 @@
+errors:
+  invalidID: ID Inválido
+  notAllowedToCreate: não tem permissão para criar clientes de autenticação
+  notAllowedToDelete: não tem permissão para excluir este cliente de autenticação
+  notAllowedToRead: não tem permissão para ler este cliente de autenticação
+  notAllowedToSearch: não tem permissão para pesquisar ou listar clientes de autenticação
+  notAllowedToUndelete: não é permitido recuperar este cliente de autenticação
+  notAllowedToUpdate: não tem permissão para atualizar este cliente de autenticação
+  notFound: cliente de autenticação não encontrado
+  unableToChangeDefaultClientHandle: incapaz de alterar o identificador do cliente de autenticação padrão
+  unableToDeleteDefaultClient: incapaz de excluir o cliente de autenticação padrão
+  unableToDisableDefaultClient: incapaz de desabilitar o cliente de autenticação padrão

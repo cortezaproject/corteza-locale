@@ -1,0 +1,18 @@
+template:
+  title: Autenticação de múltiplos fatores
+  email:
+    instructions: Verifique a sua caixa de entrada e informe por favor o código recebido
+    code: Código
+    verify: Verificar
+    resend: Reenviar
+    confirmed: OTP por e-mail confirmado
+  totp:
+    instructions: Verifique seu aplicativo de TOTP e informe por favor o código recebido
+    code: Código
+    confirmed: TOTP confirmado
+    verify: Verificar
+alerts:
+  email:
+    resent: O e-mail com o OTP foi reenviado
+  topt:
+    valid: TOTP válido

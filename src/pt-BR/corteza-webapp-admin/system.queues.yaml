@@ -1,0 +1,40 @@
+editor:
+  info:
+    consumer: Consumidor
+    createdAt: Criado em
+    delete: Excluir
+    deletedAt: Excluído em
+    dispatch_events: Eventos de despacho
+    dispatch_events_desc: Os eventos de despacho notificam o eventbus sobre as alterações nas mensagens da fila (novas, processadas, ...)
+    name: Nome da fila
+    poll_delay: Atraso nas alterações de sondagem
+    poll_delay_empty: 'O atraso da votação não será usado; para ativar, use o formato de duração (ou seja, 1h / 1m15s / 1h90s)'
+    poll_delay_set: O atraso da votação será usado; se estiver vazio, não será usado.
+    title: Informação básica
+    undelete: Recuperar
+    updatedAt: Atualizado em
+  new: Novo
+  title:
+    edit: Editar fila
+    new: Adicionar uma fila
+list:
+  columns:
+    actions: Ações
+    consumer: Consumidor
+    createdAt: Criado em
+    queue: Fila
+  filterForm:
+    deleted:
+      label: filas excluídas
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    handle:
+      label: Filtrar lista de filas
+      placeholder: Filtrar filas por nome
+    inclusive:
+      label: Incluindo
+  loading: Carregando filas de mensagens
+  new: Novo
+  title: Filas de mensagens

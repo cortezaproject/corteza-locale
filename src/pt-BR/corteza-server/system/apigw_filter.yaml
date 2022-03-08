@@ -1,0 +1,9 @@
+errors:
+  invalidID: ID Inválido
+  invalidRoute: rota inválida
+  notAllowedToCreate: não é permitido criar um filtro
+  notAllowedToDelete: não tem permissão para excluir este filtro
+  notAllowedToRead: não é permitido ler este filtro
+  notAllowedToUndelete: não é permitido recuperar este filtro
+  notAllowedToUpdate: não é permitido atualizar este filtro
+  notFound: filtro não encontrado

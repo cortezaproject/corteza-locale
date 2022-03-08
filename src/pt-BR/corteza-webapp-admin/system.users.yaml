@@ -1,0 +1,87 @@
+editor:
+  info:
+    confirmEmail: Confirme o endereço de e-mail
+    createdAt: Criado em
+    delete: Excluir
+    deletedAt: Excluído em
+    email: E-mail
+    handle: Lidar
+    placeholder-handle: identificador (a - z, 0 - 9, sublinhado, traço)
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+    name: Nome completo
+    revokeAllSession: Revogar todas as sessões ativas
+    suspend: Suspender
+    suspendedAt: Suspenso em
+    title: Informação básica
+    undelete: Recuperar
+    unsuspend: Cancelar suspensão
+    updatedAt: Atualizado em
+  mfa:
+    TOTP:
+      disabled:
+        text: O usuário não configurou a proteção TOTP.
+      enabled:
+        text: Usuário configurou a proteção TOTP em aplicativo autenticador móvel.
+      remove:
+        label: Remover
+    emailOTP:
+      disable:
+        label: Desabilitar
+      disabled:
+        text: |-
+          OTP por email está desabilitado para este usuário.
+          Email com código de segurança para cada login não será enviado.
+      enable:
+        label: Habilitar
+      enabled:
+        text: |-
+          OTP por email está ativado para este usuário.
+          Usuário receberá um email com código de segurança para cada login realizado.
+    title: Autenticação multifator
+  new: Novo
+  password:
+    confirm: Confirme a Senha
+    length: As senhas devem ter pelo menos {{length}} caracteres!
+    missmatch: As senhas devem corresponder
+    new: Nova Senha
+    title: Senha
+    removePassword: Remover senha
+  permissions: Permissões
+  roles:
+    add: Adicionar
+    count: papéis
+    remove: Remover
+    title: Associação da função
+    unnamed: Função sem nome
+  title:
+    create: Criar usuário
+    edit: Editar usuário
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    email: E-mail
+    enabled: Habilitado
+    handle: Lidar
+    name: Nome
+  filterForm:
+    deleted:
+      label: usuários excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+    query:
+      label: Filtrar lista de usuários
+      placeholder: Filtrar usuários por nome, e-mail
+    suspended:
+      label: usuários suspensos
+  loading: Carregando usuários
+  new: Novo
+  numFound: '{{count}} usuário encontrado'
+  numFound_plural: '{{count}} usuários encontrados'
+  permissions: Permissões
+  title: Comercial
+  yaml: YAML

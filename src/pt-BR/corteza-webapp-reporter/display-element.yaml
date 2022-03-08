@@ -1,0 +1,91 @@
+chart:
+  configurator:
+    begin-axis-at-zero: Sempre comece a escala do eixo em zero
+    chart-title: Título do gráfico
+    color-scheme: Esquema de cores
+    data: Dados
+    data-columns: Colunas de dados
+    default: Predefinição
+    default-value: Valor padrão
+    general: Em geral
+    label-column: Coluna de rótulo
+    logarithmic-scale: Escala logarítmica
+    none: Nenhum
+    place-axis-on-right-side: Coloque o eixo no lado direito
+    show:
+      tooltips: Mostrar dicas de ferramentas
+      legend: Mostrar legenda
+    skip-missing-values: Pular valores ausentes
+    step-size: Tamanho do passo
+    time:
+      label: Tempo
+      unit:
+        label: Unidade de tempo
+        types:
+          date: Data
+          month: Mês
+          quarter: Trimestre
+          week: Semana
+          year: Ano
+    type: Tipo
+    types:
+      bar: Barra
+      doughnut: Rosquinha
+      funnel: Funil
+      line: Linha
+      pie: Torta
+    value:
+      max: Máx.
+      min: Valor mínimo
+    x-axis:
+      name: Eixo X
+      label: Etiqueta do eixo
+      type: Tipo de eixo
+    y-axis:
+      name: Eixo Y
+      label: Etiqueta do eixo
+metric:
+  configurator:
+    color:
+      background: Cor de fundo
+      text: Cor do texto
+    format: Formato
+    label-column: Coluna de rótulo
+    none: Nenhum
+    prefix: Prefixo
+    suffix: Sufixo
+table:
+  configurator:
+    general: Em geral
+    data: Dados
+    columns: Colunas
+    dark: Escuro
+    head-variant: Variante principal
+    joined-datasource-handling: Manipulação de fonte de dados associada
+    light: Luz
+    none: Nenhum
+    table:
+      options:
+        bordered: Delimitado
+        borderless: Sem fronteiras
+        dark: Escuro
+        fixed: Fixo
+        hover: Flutuar
+        label: Opções de tabela
+        no-collapse: Sem colapso de fronteira
+        responsive: Responsivo
+        small: Pequeno
+        striped: Listrado
+      variant: Variante de tabela
+      variants:
+        danger: Perigo
+        dark: Escuro
+        info: Informações
+        light: Luz
+        primary: Primário
+        secondary: Secundário
+        success: Sucesso
+        warning: Aviso
+  view:
+    next: Próximo
+    previous: Anterior

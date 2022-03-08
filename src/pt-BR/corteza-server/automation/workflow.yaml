@@ -1,0 +1,16 @@
+errors:
+  disabled: fluxo de trabalho ou gatilho desabilitado
+  handleNotUnique: identificador de fluxo de trabalho não exclusivo
+  invalidHandle: identificador inválido
+  invalidID: ID Inválido
+  notAllowedToCreate: não tem permissão para criar fluxos de trabalho
+  notAllowedToDelete: não tem permissão para excluir este fluxo de trabalho
+  notAllowedToExecute: não tem permissão para executar este fluxo de trabalho
+  notAllowedToExecuteCorredorStep: não é permitido executar a função corredorExec, corredor está desabilitado
+  notAllowedToRead: não tem permissão para ler este fluxo de trabalho
+  notAllowedToSearch: não tem permissão para pesquisar ou listar fluxos de trabalho
+  notAllowedToUndelete: não tem permissão para recuperar este fluxo de trabalho
+  notAllowedToUpdate: não tem permissão para atualizar este fluxo de trabalho
+  notFound: fluxo de trabalho não encontrado
+  staleData: dados obsoletos
+  unknownWorkflowStep: etapa de fluxo de trabalho desconhecida

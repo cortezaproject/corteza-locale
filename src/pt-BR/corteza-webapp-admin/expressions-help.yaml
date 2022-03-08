@@ -1,0 +1,123 @@
+calculate: As expressões de campo fornecem uma maneira de calcular valores de campo com base na expressão definida.
+categories:
+  dateTime:
+    earliest: Retorna o DateTime mais antigo
+    label: Data e hora
+    latest: Retorna o último DateTime
+    modTime: Retorna a string DateTime modificada
+    parseDuration: Retorna a duração analisada
+    parseISOTime: Retorna a string ISO DateTime analisada
+    strftime: Retorna a string DateTime para a data e o formato especificados
+  general:
+    description: Retorna o primeiro valor não nulo
+    label: Em geral
+  number:
+    ceil: Arredonda o número para o inteiro mais próximo
+    floor: Arredonda o número para baixo para o inteiro mais próximo
+    label: Número
+    max: Retorna o item com o valor mais alto
+    min: Retorna o item com o menor valor
+    rounds: Arredonda um número de ponto flutuante para o número especificado de dígitos
+  string:
+    format: Retorna a string formatada
+    label: Corda
+    longest: Retorna a string mais longa
+    shortest: Retorna a string mais curta
+    toLower: Converte todos os caracteres para minúsculas
+    toUpper: Converte todos os caracteres para maiúsculas
+    trim: Remove espaços no início e no final da string
+    trimLeft: Remove o caractere do início da string
+    trimRight: Remove o caractere do final da string
+example-description: Abaixo estão alguns exemplos de diferentes casos de uso de expressões de campo.
+examples: Exemplos
+field: Expressões de campo
+formatCategories:
+  dateTime:
+    A: Retorna o nome completo do dia da semana nacional
+    B: Retorna o nome completo do mês nacional
+    C: Retorna ano / 100 como um número decimal; dígitos simples são precedidos por um zero
+    D: Equivalente a %m/%d/%y
+    F: Equivalente a %Y-%m-%d
+    H: Retorna a hora (relógio de 24 horas) como um número decimal (00-23)
+    I: Retorna a hora (relógio de 12 horas) como um número decimal (01-12)
+    M: Retorna o minuto como um número decimal (00-59)
+    R: Equivalente a %H:%M
+    S-middle: Retorna o milissegundo como um número decimal (000-999)
+    S-second: Retorna o segundo como um número decimal (00-60)
+    T: Equivalente a %H:%M:%S
+    U: Retorna o número da semana do ano (domingo como o primeiro dia da semana) como um número decimal (00-53)
+    V: Retorna o número da semana do ano (segunda-feira como o primeiro dia da semana) como um número decimal (01-53)
+    W: Retorna o número da semana do ano (segunda-feira como o primeiro dia da semana) como um número decimal (00-53)
+    X: Retorna a representação nacional do tempo
+    "Y": Retorna o ano com o século como um número decimal
+    Z: Retorna o nome do fuso horário
+    a: Retorna o nome do dia da semana nacional abreviado
+    b: Retorna o nome do mês nacional abreviado
+    c: Retorna a representação nacional de hora e data
+    d: Retorna o dia do mês como um número decimal (01-31)
+    e: Retorna o dia do mês como um número decimal (1-31)
+    j: Retorna o dia do ano como um número decimal (001-366)
+    k: Retorna a hora (relógio de 24 horas) como um número decimal (0-23)
+    l: Retorna a hora (relógio de 12 horas) como um número decimal (1-12)
+    label: Formatação de data e hora
+    m: Retorna o mês como um número decimal (01-12)
+    "n": |-
+      Retorne uma nova linha (
+      )
+    p: Retorna a representação nacional de "ante meridiem" (a.m.) ou "post meridiem" (p.m.)
+    percent: Retorna um %
+    r: Equivalente a %I:%M:%S %p
+    t: Retorna uma guia
+    u: Retorna o dia da semana (segunda-feira como o primeiro dia da semana) como um número decimal (1-7)
+    v: Equivalente a %e-%b-%Y
+    w: Retorna o dia da semana (domingo como o primeiro dia da semana) como um número decimal (0-6)
+    x: Retorna a representação nacional da data
+    "y": Retorna o ano sem século como um número decimal (00-99)
+    z: Retorna o deslocamento do fuso horário do UTC
+  string:
+    E: Retorna o número de ponto flutuante em notação científica; E maiúsculo
+    O: Retorna o número na base 8 com prefixo 0o
+    X: Retorna o número na base 16; maiúsculo A-F
+    b: Retorna o número na base 2 (no formato binário)
+    binary: Retorna o número de ponto flutuante em notação científica com expoente binário
+    d: Retorna o número na base 10
+    e: Retorna o número de ponto flutuante em notação científica; e minúsculo
+    f: Retorna o número de ponto flutuante com um ponto decimal
+    label: Formatação de string
+    o: Retorna o número na base 8
+    t: Retorna o valor booleano como verdadeiro/falso
+    v: Retorna o valor bruto
+    x: Retorna o número na base 16; a-f minúsculo
+formatting-parameters:
+  description: Aqui está uma lista completa de opções de formatação disponíveis.
+  label: Parâmetros de formatação
+helper-functions:
+  description: Fornecemos um conjunto de funções auxiliares que estendem os recursos das expressões de campo.
+  label: Funções auxiliares
+  note: 'NOTA Somente as funções "Geral" podem ser usadas em todos os tipos de campos. As outras funções estão limitadas ao respectivo tipo de campo.'
+instructions: 'Para escrever a expressão você pode usar os seguintes operadores:'
+operators:
+  all-new-values: (todos os novos valores)
+  comparators: 'Comparadores: '
+  control-order: 'Ordem de controle de avaliação: '
+  field-name: nome do campo
+  location: 'Dependendo de onde a expressão de campo é usada ela tem acesso a diferentes variáveis:'
+  logical: 'Lógico: '
+  modifiers: 'Modificadores'
+  more: 'Mais '
+  new: novo
+  new-value: (novo valor)
+  new-value-with-comma: '(novo valor), '
+  old: velho
+  old-value: valor antigo
+  old-value-brackets: '(valor antigo), '
+  record: '(registro), '
+  sanitizer: Desinfetante
+  sanitizers: 'Sanitizadores: '
+  validator: Validador
+  validators: 'Validadores: '
+  value: valor
+  value-expression: Expressão de valor
+  value-expressions: 'Expressões de valor: '
+  values: valores
+write: Escrever expressões de campo é como escrever uma equação. Em vez de usar apenas constantes, você pode passar o nome do campo e ele será avaliado como o valor do campo para esse registro.

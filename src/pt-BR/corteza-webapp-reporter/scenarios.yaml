@@ -1,0 +1,5 @@
+datasource: Fonte de dados
+label: Rótulo
+none: Nenhum
+prefilter: Pré-filtro
+scenario-name: 'Nome do cenário...'

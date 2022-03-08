@@ -1,0 +1,119 @@
+label:
+  actions: Ações
+  active: Ativo
+  add: Adicionar
+  addNew: Adicionar novo
+  addValue: Adicionar novo valor
+  attachmentFileInfo: '(Tamanho do arquivo {{0}}, enviado {{1}})'
+  attributes: Atributos
+  back: Voltar
+  backWithoutSave: Voltar (sem salvar as alterações)
+  browse: Navegar
+  buttons: Botões
+  cancel: Cancelar
+  clone: Clonar
+  close: Fechar
+  create: Crio
+  delete: Excluir
+  description: Descrição
+  download: Download
+  dropFiles: Clique ou solte os arquivos aqui para fazer upload
+  edit: Editar
+  enabled: Habilitado
+  export: Exportar
+  fileTypeNotAllowed: Tipo de arquivo não permitido
+  general: Em geral
+  handle: Lidar
+  here: aqui
+  import: Importar
+  importPlaceholder: Carregar arquivos para importar
+  loading: Carregando
+  makeDefault: Tornar padrão
+  module: Módulo
+  moduleName: Nome do módulo
+  multi: Vários valores
+  name: Nome
+  next: Próximo
+  "no": "Não"
+  noHandle: Sem alça
+  none: Nenhum
+  ok: OK
+  openBookmarks: Abrir favoritos
+  pageBuilder: Criador de páginas
+  permissions: Permissões
+  private: Privado
+  processing: Em processamento...
+  record: Registro
+  recordPage: Página de registro
+  field: Campo
+  remove: Remover
+  removeDefault: Remover padrão
+  required: Requeridos
+  save: Salvar
+  saveAndClose: Salvar e fechar
+  status: Status
+  timeHour: '{{t}}h'
+  timeMinute: '{{t}}min'
+  title: Título
+  type: Tipo
+  updatedAt: Atualizado em
+  uploadError: 'Problema com upload de arquivo "{{message}}"'
+  uploading: Enviando
+  urlPlaceholder: https://exemplo.tld
+  validation: Validação
+  view: Visualizar
+  "yes": "Sim"
+navigation:
+  chart: Gráficos
+  namespace: Namespaces
+  module: Módulos
+  page: Páginas
+placeholder:
+  handle: identificador (a - z, 0 - 9, sublinhado, traço)
+  sample: Amostra
+reminder:
+  add: Adicionar um novo lembrete
+  dismiss: Dispensar
+  edit:
+    assigneeLabel: Cessionário
+    assigneePlaceholder: Eu mesmo (padrão)
+    notesLabel: Notas
+    notesPlaceholder: Notas
+    remindAtLabel: Me avise
+    remindAtNone: Nunca
+    titleLabel: Título
+    titlePlaceholder: Título
+  listLabel: Lembretes
+  routesTo: 'Inclui link para:'
+  snooze: Soneca
+tooltip:
+  dragAndDrop: Arraste e solte para alterar a ordem
+fieldKinds:
+  Bool:
+    label: Caixa de seleção (S/N)
+  DateTime:
+    label: Data e hora
+  Email:
+    label: Entrada de e-mail
+  File:
+    label: Upload de arquivo
+  Number:
+    label: Entrada de número
+  Record:
+    label: Seletor de registro
+  Select:
+    label: Selecione / menu suspenso
+  String:
+    label: Entrada de texto (string)
+  Url:
+    label: entrada de URL
+  User:
+    label: Seletor de usuário
+  Geometry:
+    label: Geometria
+field:
+  selectAll: Selecionar tudo
+  unselectAll: Desmarque todos
+  kind:
+    user:
+      suggestionPlaceholder: Comece a digitar para pesquisar usuários por e-mail ou nome

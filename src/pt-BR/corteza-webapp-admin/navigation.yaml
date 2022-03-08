@@ -1,0 +1,44 @@
+dashboard: Painel
+
+system:
+  group: Sistema
+  items:
+    users: Comercial
+    actionlog: Registro de ações
+    apigw: Gateway de integração
+    applications: Formulários
+    authclients: Clientes de autenticação
+    permissions: Permissões
+    queues: Filas de mensagens
+    roles: Funções
+    settings: Configurações
+    email: Configurações de e-mail
+    stats: Estatísticas
+    templates: Modelos
+
+compose:
+  group: Compor
+  items:
+    automation: Automação
+    permissions: Permissões
+    settings: Configurações
+
+automation:
+  group: Automação
+  items:
+    permissions: Permissões
+    scripts: Scripts Corredor
+    sessions: Sessões
+    workflows: Fluxos de trabalho
+
+federation:
+  group: Federação
+  items:
+    nodes: Nós
+    permissions: Permissões
+
+ui:
+  group: Interface de usuário
+  items:
+    settings: Configurações
+

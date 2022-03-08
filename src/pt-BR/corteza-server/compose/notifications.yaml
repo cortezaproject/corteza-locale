@@ -1,0 +1,5 @@
+errors:
+  failedToDownloadAttachment: 'não foi possível baixar o anexo de {attachmentURL} {err}'
+  failedToLoadUser: não foi possível carregar o usuário para {recipient}
+  invalidReceipientFormat: formato de destinatário inválido ({recipient})
+  noRecipients: não pode enviar mensagem de e-mail sem destinatários

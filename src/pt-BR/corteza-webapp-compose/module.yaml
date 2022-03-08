@@ -1,0 +1,102 @@
+allRecords:
+  create:
+    title: Criar registro para o módulo "{{name}}"
+  edit:
+    title: Editar registro para o módulo "{{name}}"
+  label: Todos os registros
+  list:
+    title: Todos os registros para o módulo "{{name}}"
+  columns:
+    title: Configurar colunas
+    description: As colunas escolhidas não serão salvas depois que você atualizar a página
+  view:
+    title: Ver registro para o módulo "{{name}}"
+block:
+  record:
+    recordDeleted: Este registro foi excluído
+    loadFailed: Não foi possível carregar o registro
+createLabel: Novo módulo
+edit:
+  create: Criar módulo
+  edit: Editar módulo
+  federationSettings:
+    downstream:
+      allFields: Todos os campos
+      description: 'Combinar campos federados com os existentes'
+      title: Mapa
+    error:
+      fetch:
+        data: Erro ao buscar dados do servidor
+        exposed: Erro ao buscar informações do módulo exposto
+        shared: Erro ao buscar informações do módulo compartilhado
+        mmap: Erro ao buscar informações de mapeamento do módulo
+        node: Erro ao buscar informações de nós
+      persist:
+        exposed: Erro ao persistir as informações do módulo exposto
+        shared: Erro ao persistir as informações do módulo compartilhado
+        mmap: Erro ao persistir nas informações de mapeamento do módulo
+    general:
+      receive: Receba novos registros de outra organização (downstream)
+      send: Enviar novos registros para a rede federada (upstream)
+      title: Em geral
+    noNodes: Nenhum servidor federado disponível
+    noPermission: Sem permissão para gerenciar o módulo exposto
+    pickModule: Escolha um módulo federado
+    pickModuleField: Escolha um campo de módulo
+    pickServer: Escolha um servidor federado
+    specificTitle: Configurações de federação ({{handle}})
+    title: Configurações de Federação
+    upstream:
+      copyFrom: Copiar configurações de
+      allFields: Todos os campos
+      description: Selecione os campos que deseja compartilhar com a rede selecionada
+      title: Expor
+  fieldPermissions: Permissões de campo
+  manageRecordFields: Gerenciar campos de registro
+  moduleFieldSettings: Configurações de campo do módulo
+  moduleInfo: Informações do módulo
+  newField: Adicionar novo campo
+  recordPermissions: Permissões de gravação
+  reorderFields: Reordenar campos
+  specificFieldSettings: Configurações de campo ({{name}})
+  steps:
+    recordList: Página com lista de registros
+    recordPage: Página de registro
+  systemFields: 'Campos do sistema'
+  tooltip:
+    attributes: Selecione se o campo pode conter vários valores, se for um campo obrigatório ou se contiver dados confidenciais
+    name: Deve ser a-z/A-Z, 0-9 ou sublinhado
+    private: Dados sensíveis
+    required: Campo obrigatório
+    title: O nome exibido nas listas de entrada/dados do formulário
+federated: Federado
+forModule:
+  recordList: Lista de registros para módulo
+  recordListPage: Página de lista de registros para o módulo
+  recordPage: Página de registro para o módulo
+general:
+  fields: Campos do módulo
+  label:
+    attributes: Atributos
+    handle: Lidar
+    name: Nome
+    permissions: Permissões
+    title: Título
+    type: Tipo
+    saveAndClose: Salvar e fechar
+  placeholder:
+    handle: identificador (a - z, 0 - 9, sublinhado, traço)
+    sample: Amostra
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+import: Importação de módulo
+navigation:
+  module: Módulos
+newLabel: Nome do módulo *
+newPlaceholder: Nome usado na lista de módulos
+noModule: Sem módulos
+noModuleFilter: Nenhum módulo corresponde à sua pesquisa
+recordPage:
+  create: Criar página de registro
+  edit: Criador de páginas
+searchPlaceholder: Digite aqui para pesquisar todos os módulos neste namespace
+title: Lista de Módulos

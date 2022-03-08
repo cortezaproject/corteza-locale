@@ -1,0 +1,23 @@
+template:
+  title: Registrar
+  form:
+    email:
+      label: E-mail
+      placeholder: email@dominio.tld
+    password:
+      label: Senha
+      placeholder: Senha
+    name:
+      label: Nome completo
+      placeholder: Seu nome completo
+    nickname:
+      label: Nome, apelido ou tratamento
+      placeholder: Nome, apelido ou tratamento
+    button:
+      sign-up: Enviar
+  log-in: Já possui uma conta? <a href="{{link}}">Entrar</a>
+alerts:
+  signup-successful: Registro efetuado com sucesso.
+  email-confirmed-logged-in: Endereço de email confirmado, você agora está logado.
+  invalid-expired-token: Código de confirmação de email expirado ou inválido. Por favor, solicite o envio de uma nova confirmação.
+  signup-disabled: Registro desabilitado

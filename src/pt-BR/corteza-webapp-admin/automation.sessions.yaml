@@ -1,0 +1,51 @@
+editor:
+  info:
+    completedAt: Concluído em
+    createdAt: Criado em
+    createdByUserID: Criado por - ID
+    createdByUserName: Criado por - Nome
+    delete: Excluir
+    deletedAt: Excluído em
+    error: Erro
+    eventType: Tipo de evento
+    id: identificação
+    resourceType: Tipo de recurso
+    status: Status
+    title: Informação básica
+    workflowID: Código do fluxo de trabalho
+  title: Sessão
+list:
+  columns:
+    actions: ""
+    createdAt: Criado em
+    eventType: Tipo de evento
+    sessionID: Identificação de sessão
+    status: Status
+    workflowID: Código do fluxo de trabalho
+  filterForm:
+    all:
+      label: Todo
+    completed:
+      label: Concluído
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    failed:
+      label: Fracassado
+    inProgress:
+      label: sessões concluídas
+    inclusive:
+      label: Incluindo
+    prompted:
+      label: Solicitado
+    sessions:
+      label: sessões
+    started:
+      label: Iniciado
+    suspended:
+      label: Suspenso
+  loading: Carregando sessões
+  numFound: '{{count}} sessão encontrada'
+  numFound_plural: '{{count}} sessões encontradas'
+  title: Sessões

@@ -1,0 +1,145 @@
+ui:
+  reset-back: Redefinir para "{{current}}"
+  save-changes: Salvar alterações
+  set-for: Definir permissões para {{target}}
+  access:
+    allow: Permitir
+    inherit: Herdar
+    deny: Negar
+resources:
+  compose:
+    chart:
+      all: todos os gráficos
+      specific: gráfico "{{target}}"
+      operations:
+        delete:
+          description: 'Negação padrão'
+          specific: Excluir gráfico "{{target}}"
+          title: Excluir qualquer gráfico
+        read:
+          description: 'Negação padrão'
+          specific: Leia o gráfico "{{target}}"
+          title: Leia qualquer gráfico
+        update:
+          description: 'Negação padrão'
+          specific: Atualizar gráfico "{{target}}"
+          title: Atualizar qualquer gráfico
+    module:
+      all: todos os módulos
+      specific: módulo "{{target}}"
+      operations:
+        delete:
+          description: 'Negação padrão'
+          specific: Excluir módulo "{{target}}"
+          title: Excluir qualquer módulo
+        read:
+          description: 'Negação padrão'
+          specific: Leia o módulo "{{target}}"
+          title: Leia qualquer módulo
+        record.create:
+          description: 'Negação padrão'
+          specific: Criar registro do módulo "{{target}}"
+          title: Criar registro de qualquer módulo
+        records.search:
+          description: 'Negação padrão'
+          specific: Listar e pesquisar registros do módulo "{{target}}"
+          title: Liste e pesquise registros de qualquer módulo
+        update:
+          description: 'Negação padrão'
+          specific: Atualizar módulo "{{target}}"
+          title: Atualize qualquer módulo
+    module-field:
+      all: todos os campos do módulo
+      specific: campo "{{target}}"
+      all-specific: todos os campos de módulo do módulo "{{ target }}"
+      operations:
+        record.value.read:
+          description: 'Negação padrão'
+          specific: 'Ler campos de registro "{{target}}" '
+          title: Ler campos de registro de qualquer módulo
+          all-specific: Ler campos de registro do módulo "{{ target }}"
+        record.value.update:
+          description: 'Negação padrão'
+          specific: 'Atualizar campos de registro "{{target}}" '
+          title: Atualizar campos de registro de qualquer módulo
+          all-specific: Atualizar campos de registro do módulo "{{ target }}"
+    namespace:
+      all: todos os namespaces
+      specific: namespace "{{target}}"
+      operations:
+        chart.create:
+          description: ""
+          specific: Crie gráficos no namespace "{{target}}"
+          title: Crie gráficos em qualquer namespace
+        charts.search:
+          description: ""
+          specific: Liste e pesquise gráficos no namespace "{{target}}"
+          title: Liste e pesquise gráficos em qualquer namespace
+        delete:
+          description: ""
+          specific: Excluir namespace "{{target}}"
+          title: Excluir qualquer namespace
+        manage:
+          description: Permitir acesso às páginas de administração do namespace
+          specific: Gerenciar namespace "{{target}}"
+          title: Gerencie qualquer namespace
+        module.create:
+          description: ""
+          specific: Crie módulos no namespace "{{target}}"
+          title: Crie módulos em qualquer namespace
+        modules.search:
+          description: ""
+          specific: Listar e pesquisar módulos no namespace "{{target}}"
+          title: Listar e pesquisar módulos em qualquer namespace
+        page.create:
+          description: ""
+          specific: Crie páginas no namespace "{{target}}"
+          title: Crie páginas em qualquer namespace
+        pages.search:
+          description: ""
+          specific: Listar e pesquisar páginas no namespace "{{target}}"
+          title: Listar e pesquisar páginas em qualquer namespace
+        read:
+          description: ""
+          specific: Leia o namespace "{{target}}"
+          title: Leia qualquer namespace
+        update:
+          description: ""
+          specific: Atualizar namespace "{{target}}"
+          title: Atualizar qualquer namespace
+    page:
+      all: todas as páginas
+      specific: página "{{target}}"
+      operations:
+        delete:
+          description: 'Negação padrão'
+          specific: Excluir página "{{target}}"
+          title: Excluir qualquer página
+        read:
+          description: 'Negação padrão'
+          specific: Leia a página "{{target}}"
+          title: Leia qualquer página
+        update:
+          description: 'Negação padrão'
+          specific: Atualizar página "{{target}}"
+          title: Atualizar qualquer página
+    record:
+      all: todos os registros
+      specific: registro "{{target}}"
+      all-specific: todos os registros do módulo "{{ target }}"
+      operations:
+        delete:
+          description: 'Negação padrão'
+          specific: Excluir registro "{{target}}"
+          title: Excluir registros de qualquer módulo
+          all-specific: Excluir registros do módulo "{{ target }}"
+        read:
+          description: 'Negação padrão'
+          specific: Ler registro "{{target}}"
+          title: Ler registros de qualquer módulo
+          all-specific: Ler registros do módulo "{{ target }}"
+        update:
+          description: 'Negação padrão'
+          specific: Atualizar registro "{{target}}"
+          title: Atualizar registros de qualquer módulo
+          all-specific: Atualizar registros do módulo "{{ target }}"

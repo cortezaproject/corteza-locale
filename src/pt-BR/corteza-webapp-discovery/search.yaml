@@ -1,0 +1,15 @@
+notification:
+  search-error: Ocorreu um problema ao obter o resultado da pesquisa
+input-placeholder: Digite o texto de pesquisa
+search-results: Procurar Resultados
+card:
+  button-text: Mostre mais
+  type: Tipo
+  handle: Lidar
+  namespace: Namespace
+  module: Módulo
+  user: Do utilizador
+  email: E-mail
+  record: Registro
+  fields: Campos
+

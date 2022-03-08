@@ -1,0 +1,90 @@
+editor:
+  info:
+    add: Adicionar
+    api: Permitir acesso do cliente à API do Corteza em nome do usuário
+    choose-date: Escolha uma data
+    createdAt: Criado em
+    delete: Excluir
+    deletedAt: Excluído em
+    enabled:
+      disabledFootnote: Não foi possível desabilitar o cliente padrão
+      label: Habilitado
+    expiresAt:
+      description: Se não for definido o cliente não tem data de validade
+      label: Expira em
+    grant:
+      authorization_code: Será usado para autenticar usuários (grant type = authorization_code)
+      client_credentials: Será usado para autenticar máquinas (grant type = client_credentials)
+    handle:
+      disabledFootnote: Não é possível alterar o identificador do cliente de autenticação padrão
+      label: Lidar
+      placeholder-handle: identificador (a - z, 0 - 9, sublinhado, traço)
+      invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+    name: Nome
+    no-time: Nenhum horário selecionado
+    profile: Permitir acesso do cliente ao perfil do usuário
+    redirectURI: URIs de redirecionamento
+    remove: Remover
+    secret: Segredo
+    security:
+      forbiddenRoles:
+        description: As funções desta lista serão removidas do contexto de segurança quando o usuário autorizar este cliente
+        label: Funções proibidas
+      forcedRoles:
+        description: As funções desta lista serão sempre adicionadas ao contexto de segurança quando o usuário autorizar este cliente
+        label: Funções forçadas
+      impersonateUser:
+        description: Ao autenticar com credenciais do cliente, aja em nome do usuário representado
+        label: Personificar usuário
+      permittedRoles:
+        description: Somente funções nesta lista serão adicionadas ao contexto de segurança quando o usuário autorizar este cliente
+        label: Funções permitidas
+    title: Informação básica
+    trusted:
+      description: Quando o cliente é confiável, os usuários não veem a etapa de autorização
+      label: Confiável
+    undelete: Recuperar
+    unnamed: Função sem nome
+    updatedAt: Atualizado em
+    uri: URI
+    validFrom:
+      description: Se não for definido o cliente é válido até a expiração
+      label: Válido de
+    generateCurl: Gerar snippet cURL
+    hideCurl: Ocultar snippet cURL
+    cUrl: cURL gerado
+    testCurl: Autenticação de teste
+    discovery: Permitir acesso do cliente à API do Corteza Discovery em nome do usuário
+    openid: Permitir que o cliente use o OIDC e verifique a identidade do usuário
+  new: Novo
+  permissions: Permissões
+  title:
+    create: Criar cliente
+    edit: Editar cliente
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    enabled: Habilitado
+    handle: Lidar
+    meta:
+      name: Nome
+  filterForm:
+    deleted:
+      label: clientes excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+    query:
+      label: Filtrar lista de clientes
+      placeholder: Filtrar clientes
+  loading: Carregando clientes
+  new: Novo
+  numFound: '{{count}} clientes encontrados'
+  numFound_plural: '{{count}} clientes encontrados'
+  permissions: Permissões
+  title: Clientes de autenticação
+  yaml: YAML

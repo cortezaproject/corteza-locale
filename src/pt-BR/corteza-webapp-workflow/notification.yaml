@@ -1,0 +1,35 @@
+'configure-triggers': Certifique-se de que todas as etapas do gatilho estejam configuradas corretamente
+'confirm-unsaved-changes': Você tem alterações não salvas. Tem certeza de que deseja sair?
+'delete-failed': Falha ao excluir fluxo de trabalho
+'deleted-workflow': Fluxo de trabalho excluído
+error: " - ERRO "
+'event-type-not-found': Tipo de evento não encontrado
+'event-type-fetch-failed': Falha ao buscar tipos de eventos
+'failed-fetch-functions': Falha ao buscar funções
+'failed-fetch-triggers': Falha ao buscar acionadores
+'failed-fetch-workflow': Falha ao buscar fluxo de trabalho
+'failed-fetch-workflows': Falha ao buscar fluxos de trabalho
+'failed-load-file': Falha ao carregar o arquivo
+'failed-save': Falha ao salvar
+'failed-test': Teste falhou
+'fetch-types-failed': Falha ao buscar tipos
+general:
+  error: Erro
+  success: Sucesso
+  warning: Aviso
+import:
+  'failed-import': Falha ao importar
+  'imported-workflows': Fluxos de trabalho importados
+  'skipped-workflows': Fluxos de trabalho ignorados
+'imported-workflow': Fluxo de trabalho importado
+'import-failed': Falha na importação
+'initial-scope-load-failed': Falha ao carregar o escopo inicial
+'resolve-issues': Resolver problemas para testar o fluxo de trabalho
+'save-workflow': Salve o fluxo de trabalho primeiro para testá-lo
+'started-test': Teste de fluxo de trabalho iniciado
+'test-completed': Teste concluído
+'test-in-progress': Teste em andamento
+'trace-unavailable': Rastreamento não disponível
+'trigger-paths-changed': Caminhos de gatilho alterados
+'updated-workflow': Fluxo de trabalho atualizado
+'workflow-test-completed': Teste de fluxo de trabalho concluído

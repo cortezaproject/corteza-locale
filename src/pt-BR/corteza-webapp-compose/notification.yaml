@@ -1,0 +1,88 @@
+automation:
+  scriptFailed: Não foi possível executar a automação
+chart:
+  createFailed: Não foi possível criar um gráfico
+  deleteFailed: Não foi possível excluir este gráfico
+  deleted: Gráfico excluído
+  invalidConfig:
+    missingDimensionsField: Campo de dimensões não definido
+    missingDimensionsModifier: Modificador de dimensões não definido
+    missingMetricsAggregate: Agregado de métricas não definido
+    missingMetricsField: Campo de métricas não definido
+    missingMetricsType: Tipo de gráfico de métricas não definido
+    missingModuleID: Módulo não definido
+    missingReports: Relatórios não definidos
+  loadFailed: Não foi possível carregar o gráfico
+  optionsBuildFailed: Não foi possível criar opções de gráfico
+  saveFailed: Não foi possível salvar este gráfico
+  saved: Gráfico salvo
+  unsupportedRenderer: Renderizador não compatível
+color:
+  RGBA:
+    invalid: Formato de cor RGBA inválido
+field:
+  missingRequired: Valor ausente no campo obrigatório
+  unknownFieldKind: 'Erro tipo de campo desconhecido "{{kind}}", nenhum componente visualizador encontrado.'
+  unsupportedKind: Tipo de campo não suportado {{kind}}
+field-datetime:
+  valueNotFuture: Valor passado no campo somente futuro
+  valueNotPast: Valor futuro no campo somente passado
+general:
+  composeAccessNotAllowed: Não tem permissão para acessar o Compose
+  error: Erro
+  success: Sucesso
+  warning: Aviso
+  import:
+    failed: Falha na importação
+    readingError: Erro ao ler o arquivo
+    successful: Importação bem-sucedida
+    typeMissmatch: 'Erro de importação ao tentar importar objeto do tipo "{{type1}}" para uma lista de objetos do tipo "{{type2}}"'
+module:
+  createFailed: Não foi possível criar um módulo
+  deleteFailed: Não foi possível excluir este módulo
+  deleted: Módulo excluído
+  saveFailed: Não foi possível salvar este módulo
+  saved: Módulo salvo
+  columns:
+    saved: Colunas salvas
+    saveFailed: Não foi possível salvar as colunas
+  recordPage:
+    createFailed: Não foi possível criar a página de registro do módulo
+namespace:
+  application:
+    createFailed: Não foi possível criar o aplicativo de namespace
+    fetchFailed: Não foi possível buscar o aplicativo de namespace
+    saveFailed: Não foi possível salvar o aplicativo de namespace
+  assetUploadFailed: Não foi possível fazer upload de recursos anexados
+  createFailed: Não foi possível criar namespace
+  deleteFailed: Não foi possível excluir este namespace
+  disabled: Namespace desabilitado - redirecionando
+  saveFailed: Não foi possível salvar este namespace
+  saved: Namespace salvo
+  cloneFailed: Não foi possível clonar este namespace
+  imported: Namespace importado
+  importFailed: Falha ao importar namespace
+page:
+  createFailed: Não foi possível criar uma página
+  deleteFailed: Não foi possível excluir esta página
+  loadFailed: Não foi possível carregar a árvore de páginas
+  noPages: Nenhuma página encontrada
+  saveFailed: Não foi possível salvar esta página
+  saveFailedRequired: Não foi possível salvar esta página, todos os campos obrigatórios do módulo devem estar presentes
+  saved: Página salva
+record:
+  createFailed: Não foi possível criar registro
+  deleteFailed: Não foi possível excluir o registro
+  deleteBulkFailed: Não foi possível excluir os registros selecionados
+  deleteBulkSuccess: Registros selecionados excluídos com sucesso
+  invalidOwnerVar: Não é possível usar a variável ${ownerID} em páginas não registradas
+  invalidRecordVar: Não é possível usar a variável ${record...} em páginas sem registro
+  listLoadFailed: Não foi possível carregar a lista de registros
+  loadFailed: Não foi possível carregar o registro
+  moduleMismatch: Módulo incompatível, incompatibilidade de módulo
+  moduleNotDefined: Módulo de registro não definido
+  moduleOrPageNotSet: 'Módulo de erro do bloco RecordList ou opção de página não definida'
+  unexpectedInput: Entrada inesperada para a propriedade de valores, deve ser uma matriz com pares de objetos nome-valor
+  unexpectedValue: Valor não experado para registro de módulo ({{type}})
+  updateFailed: Não foi possível atualizar o registro
+  validationErrors: verifique as mensagens de erro no formulário

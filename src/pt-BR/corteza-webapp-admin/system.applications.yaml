@@ -1,0 +1,59 @@
+editor:
+  info:
+    createdAt: Criado em
+    delete: Excluir
+    deletedAt: Excluído em
+    enabled: Habilitado
+    id: identificação
+    name: Nome
+    title: Informação básica
+    undelete: Recuperar
+    updatedAt: Atualizado em
+  new: Novo
+  permissions: Permissões
+  title:
+    create: Criar aplicativo
+    edit: Editar aplicativo
+  unify:
+    config:
+      description: Configuração do aplicativo (JSON)
+      label: Configuração
+    listed: Listado
+    logo:
+      description: Logo usado no seletor de aplicativos
+      label: Logotipo
+      placeholder: Escolha um logotipo ou solte-o aqui...
+    name:
+      description: Nome usado no seletor de aplicativos
+      label: Nome
+    pinned: Fixado
+    title: Seletor de aplicativos
+    url:
+      description: URL do aplicativo
+      label: URL
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    enabled: Habilitado
+    name: Nome
+    appListName: Nome do seletor de aplicativos
+  filterForm:
+    deleted:
+      label: aplicativos excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+    query:
+      label: Filtrar lista de aplicativos
+      placeholder: Filtrar aplicativos por nome
+  loading: Carregando aplicativos
+  new: Novo
+  numFound: '{{count}} aplicativo encontrado'
+  numFound_plural: '{{count}} aplicativos encontrados'
+  permissions: Permissões
+  title: Formulários
+  yaml: YAML

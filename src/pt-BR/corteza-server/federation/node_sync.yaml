@@ -1,0 +1,3 @@
+errors:
+  nodeNotFound: o nó não existe
+  notFound: node_sync não existe

@@ -1,0 +1,50 @@
+application:
+  label: Ativar na lista de aplicativos
+clickOpen: Clique para abrir
+create: Criar novo namespace
+import:
+  buttonLabel: Importar namespace
+  title: Importar namespace
+  uploadFileLabel: Carregue o arquivo que deseja importar (formato .zip)
+  uploadFilePlaceholder: Clique ou solte o arquivo aqui para fazer upload (formato .zip)
+  back: Voltar
+  import: Importar
+description:
+  label: Descrição do namespace
+  placeholder: Insira a descrição do namespace
+disabled: O namespace está desabilitado
+edit: Editar namespace
+clone: Clonar namespace
+cloneSuffix: cópia de
+cloneWarning:
+  wfInclusion: Fluxos de trabalho e outras automatizações não são clonados. Use a interface do editor de fluxo de trabalho para clonar os que você precisa.
+export: Exportar namespace
+enabled:
+  label: Ativar namespace
+icon:
+  label: Ícone
+  placeholder: Escolha uma imagem para o ícone do namespace ou solte-a aqui...
+label:
+  permissions: Permissões
+logo:
+  label: Logotipo
+  placeholder: Escolha uma imagem para o logotipo do namespace ou solte-a aqui...
+  show: Mostrar logotipo
+  preview: Visualizar
+  reset: Redefinir
+name:
+  label: Nome completo do namespace *
+  placeholder: Digite o nome do namespace
+noResults: Nenhum namespace encontrado
+searchPlaceholder: Digite aqui para pesquisar entre todos os namespaces...
+setPermissions: Definir permissões de namespace
+slug:
+  description: O nome curto será usado no URL
+  label: Nome curto *
+  placeholder: Insira um nome curto para o namespace
+  invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+subtitle:
+  label: Legenda
+  placeholder: Insira a legenda do namespace
+title: Namespaces de código baixo
+visit: Visite o namespace

@@ -1,0 +1,8 @@
+errors:
+  invalidID: ID Inválido
+  notAllowedToDelete: não tem permissão para excluir esta sessão
+  notAllowedToManage: não tem permissão para gerenciar o fluxo de trabalho da sessão
+  notAllowedToRead: não é permitido ler esta sessão
+  notAllowedToSearch: não tem permissão para pesquisar ou listar sessões
+  notFound: sessão não encontrada
+  staleData: dados obsoletos

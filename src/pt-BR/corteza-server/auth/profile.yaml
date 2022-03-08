@@ -1,0 +1,20 @@
+template:
+  title: Seu perfil
+  form:
+    email:
+      label: E-mail
+      placeholder: email@domínio.ltd
+      resend-confirmation-link: Email não está verificado, <a href="{{link}}?resend">reenvie o link de confirmação.</a
+    name:
+      label: Nome completo
+      placeholder: Seu nome completo
+    handle:
+      label: Lidar
+      placeholder: Nome curto, apelido ou apelido
+    preferred-language:
+      label: Língua preferida
+    buttons:
+      submit: Atualizar perfil
+alerts:
+  profile-updated: Perfil atualizado com sucesso.
+  profile-update-fail: Não foi possível atualizar o perfil devido a erros de entrada

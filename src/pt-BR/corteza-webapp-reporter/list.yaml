@@ -1,0 +1,9 @@
+permissions: Permissões
+report:
+  builder: Criador de relatórios
+  edit: Editar
+  list: Lista de relatórios
+  new: Novo relatório
+searchPlaceholder: Digite aqui para pesquisar relatórios
+title: Relatórios
+untitledTitle: Relatório sem título

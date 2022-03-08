@@ -1,0 +1,10 @@
+errors:
+  federationSyncStructureChanged: estrutura do módulo alterada
+  invalidID: ID Inválido
+  nodeNotFound: o nó não existe
+  notAllowedToCreate: não é permitido criar módulos
+  notAllowedToManage: não tem permissão para gerenciar este módulo
+  notAllowedToMap: não permitido mapear este módulo
+  notFound: módulo não existe
+  notUnique: nó não único
+  staleData: dados obsoletos

@@ -1,0 +1,47 @@
+block:
+  general:
+    changeBlock: Alterar bloco existente
+    label:
+      cancel: Cancelar
+      noHandle: Sem alça
+      pageBuilder: Criador de páginas
+      saveAndClose: Salvar e fechar
+    placeholder:
+      handle: identificador (a - z, 0 - 9, sublinhado, traço)
+      sample: Amostra
+    title: Adicionar novo bloco
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+changeBlock: Alterar bloco existente
+build:
+  addBlock: Adicionar bloco
+  selectBlockTitle: Selecione o tipo do novo bloco
+createLabel: Criar página
+edit:
+  create: Criar página
+  edit: Editar Página
+  pageDescription: Descrição da página
+  visible: Visibilidade da Página
+import: 'Importar página(s)'
+instructions: Arraste e solte páginas para ajustar a ordem e a hierarquia.
+invalid: Configuração inválida
+label:
+  cancel: Cancelar
+  description: Descrição
+  handle: Lidar
+  pageBuilder: Criador de páginas
+  permissions: Permissões
+  saveAndClose: Salvar e fechar
+moduleEdit: Editar módulo
+navigation:
+  page: Páginas
+  viewPage: Ver pagina
+newPlaceholder: Título da página
+noBlock: Nenhum bloco adicionado ainda
+noPages: Nenhuma página
+notVisible: Escondido
+pageMoveFailed: Não foi possível mover esta página
+reordered: Página reordenada
+title: Lista de páginas
+view: Visualizar
+visible: Visível
+deleteDisabled: Remova as subpáginas para excluir esta página

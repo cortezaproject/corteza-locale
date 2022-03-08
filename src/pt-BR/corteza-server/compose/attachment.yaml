@@ -1,0 +1,26 @@
+errors:
+  failedToExtractMimeType: não foi possível extrair o tipo mime
+  failedToProcessImage: não foi possível processar a imagem
+  failedToStoreFile: não foi possível extrair o arquivo de armazenamento
+  invalidID: ID Inválido
+  invalidModuleID: ID do módulo inválido
+  invalidNamespaceID: ID de namespace inválido
+  invalidPageID: ID de página inválido
+  invalidRecordID: ID de registro inválido
+  moduleNotFound: módulo não encontrado
+  namespaceNotFound: namespace não encontrado
+  notAllowedToCreate: não tem permissão para criar anexos
+  notAllowedToCreateEmptyAttachment: não é permitido criar anexos vazios
+  notAllowedToCreateRecords: não tem permissão para criar registros
+  notAllowedToListAttachments: não tem permissão para listar anexos
+  notAllowedToRead: não é permitido ler este módulo
+  notAllowedToReadNamespace: não tem permissão para ler este namespace
+  notAllowedToReadPage: não permitido ler esta página
+  notAllowedToReadRecord: não é permitido ler este registro
+  notAllowedToSearch: não é permitido pesquisar ou listar módulos
+  notAllowedToUpdateNamespace: não tem permissão para atualizar este namespace
+  notAllowedToUpdatePage: não é permitido atualizar esta página
+  notAllowedToUpdateRecord: não é permitido atualizar este registro
+  notFound: anexo não encontrado
+  pageNotFound: página não encontrada
+  recordNotFound: registro não encontrado

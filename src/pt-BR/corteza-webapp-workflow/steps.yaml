@@ -1,0 +1,82 @@
+break:
+  label: Pausa
+  tooltip: Interrompa a execução do iterador e continue com o fluxo de trabalho
+continue:
+  label: Continuar
+  tooltip: Parar a iteração atual e continuar com a próxima
+debug:
+  label: Depurar
+  tooltip: Registra o escopo do fluxo de trabalho atual nos logs do servidor. Se a depuração do fluxo de trabalho estiver habilitada
+delay:
+  label: Atraso
+  tooltip: Atrasa a execução do fluxo de trabalho
+error:
+  label: Erro
+  tooltip: Lança erro e interrompe a execução do fluxo de trabalho, também impede o salvamento de registros acionados com antes do acionador
+'error-handler':
+  label: Manipulador de erros
+  tooltip: Continue o fluxo de trabalho desta etapa se um erro for acionado
+expressions:
+  configurator:
+    'add-expression': + Adicionar expressão
+    expression: Expressão
+    'expression-placeholder': Expressão...
+  label: Expressões
+  tooltip: Definir e alterar variáveis ​​de escopo
+function:
+  configurator:
+    arguments: Argumentos
+    constant: Constante
+    expression: Expressão
+    name: Nome
+    'option-select': Selecione uma opção
+    result: Resultado
+    results: Resultados
+    'select-function': Selecionar função
+    type: Tipo
+    'type*': 'Tipo*'
+  label: Função
+  tooltip: Execute a função predefinida escolhida
+gatewayExclusive:
+  label: Portão (Exclusivo)
+  tooltip: A execução do fluxo de trabalho pode continuar no primeiro caminho que se encaixa na condição
+gatewayInclusive:
+  label: Portão (Incluso)
+  tooltip: A execução do fluxo de trabalho pode continuar em todos os caminhos que se ajustem à condição
+gatewayParallel:
+  label: Gateway (Fork/Join)
+  tooltip: Divide a execução do fluxo de trabalho em dois caminhos paralelos ou mescla vários caminhos em um
+gateway:
+  configurator:
+    condition: Doença
+    'two-paths': O gateway deve ser a origem de pelo menos dois caminhos
+iterator:
+  label: Iterador
+  tooltip: Iterar sobre os itens
+prompt:
+  label: Pronto
+  tooltip: Solicita o usuário e aguarda a entrada
+swimlane:
+  label: Pista
+  tooltip: Etapas de grupo visualmente
+termination:
+  label: Rescisão (Fim)
+  tooltip: Encerrar a execução do fluxo de trabalho
+trigger:
+  configurator:
+    add: acrescentar
+    'add-constraints': + Adicionar restrições
+    constraints: Restrições
+    'event*': 'Evento*'
+    'failed-fetch-event-types': Falha ao buscar tipos de eventos
+    'initial-scope': Escopo inicial
+    like: Como
+    'not-like': Não parece
+    operator: Operador
+    resource: Recurso
+    'resource*': 'Recurso*'
+    'select-constraint-type': Selecione o tipo de restrição
+    'select-event-type': Selecione o tipo de evento
+    'select-resource-type': Selecione o tipo de recurso
+  label: Acionador (Iniciar)
+  tooltip: Acionar a execução do fluxo de trabalho com base na configuração

@@ -1,0 +1,18 @@
+applications:
+  applications: Formulários)
+  deleted: Excluído
+  title: Aplicativo(s) ativo(s)
+  total: Total
+roles:
+  archived: Arquivado
+  deleted: Excluído
+  roles: Funções
+  title: Funções ativas
+  total: Total
+title: Painel
+users:
+  deleted: Excluído
+  suspended: Suspenso
+  title: Usuários ativos
+  total: Total
+  users: Comercial)

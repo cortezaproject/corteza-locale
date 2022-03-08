@@ -1,0 +1,51 @@
+editor:
+  info:
+    createdAt: Criado em
+    delete: Excluir
+    deletedAt: Excluído em
+    enabled: Habilitado
+    handle: Lidar
+    id: identificação
+    name: Nome
+    openBuilder: Abrir construtor
+    title: Informação básica
+    undelete: Recuperar
+    updatedAt: Atualizado em
+  new: Novo
+  permissions: Permissões
+  title:
+    create: Criar fluxo de trabalho
+    edit: Editar fluxo de trabalho
+  triggers:
+    and: e
+    columns:
+      constraints: Restrições
+      eventType: Evento
+      resourceType: Recurso
+    title: Gatilhos
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    enabled: Habilitado
+    handle: Lidar
+    name: Nome
+  filterForm:
+    deleted:
+      label: fluxos de trabalho excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+    query:
+      label: Filtrar lista de fluxos de trabalho
+      placeholder: Filtrar fluxos de trabalho por nome
+  loading: Carregando fluxos de trabalho
+  new: Novo
+  numFound: '{{count}} fluxo de trabalho encontrado'
+  numFound_plural: '{{count}} fluxos de trabalho encontrados'
+  permissions: Permissões
+  title: Fluxos de trabalho
+  yaml: YAML

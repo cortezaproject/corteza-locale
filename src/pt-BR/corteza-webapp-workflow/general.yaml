@@ -1,0 +1,22 @@
+description: Descrição
+enabled: Habilitado
+error: Erro
+'error-expression': Mensagem de erro (expressão)
+export: Exportar
+general: Em geral
+handle: Lidar
+import:
+  json: Importar JSON
+  label: Importar
+  'reassign-run-as': "OBSERVE que a propriedade Executar como fluxo de trabalho não será importada e deverá ser reatribuída"
+  'upload-files': Procure ou solte arquivos para fazer upload...
+label: Rótulo
+name: Nome
+'new-workflow': Novo fluxo de trabalho
+offset: Desvio
+permissions: Permissões
+'search-workflows': Digite aqui para pesquisar todos os fluxos de trabalho...
+'unnamed-workflow': Fluxo de trabalho sem nome
+'workflow-list': Lista de fluxos de trabalho
+save: Salvar
+cancel: Cancelar

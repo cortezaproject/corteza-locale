@@ -1,0 +1,12 @@
+errors:
+  cannotRenderPartial: não pode renderizar modelos parciais
+  invalidHandle: identificador inválido
+  invalidID: ID Inválido
+  notAllowedToCreate: não é permitido criar modelos
+  notAllowedToDelete: não tem permissão para excluir este modelo
+  notAllowedToRead: não é permitido ler este modelo
+  notAllowedToRender: não é permitido renderizar este modelo
+  notAllowedToSearch: não é permitido pesquisar ou listar modelos
+  notAllowedToUndelete: não é permitido recuperar este modelo
+  notAllowedToUpdate: não é permitido atualizar este modelo
+  notFound: modelo não encontrado

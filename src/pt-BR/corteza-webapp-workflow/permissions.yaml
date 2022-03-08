@@ -1,0 +1,44 @@
+ui:
+  reset-back: Redefinir para "{{current}}"
+  save-changes: Salvar alterações
+  set-for: Definir permissões para {{target}}
+
+  access:
+    allow: Permitir
+    inherit: Herdar
+    deny: Negar
+
+resources:
+  automation:
+    workflow:
+      all: todos os fluxos de trabalho
+      specific: fluxo de trabalho "{{target}}"
+      operations:
+        delete:
+          description: 'Negação padrão'
+          specific: Excluir este fluxo de trabalho
+          title: Excluir qualquer fluxo de trabalho
+        execute:
+          description: 'Negação padrão'
+          specific: Execute este fluxo de trabalho
+          title: Execute qualquer fluxo de trabalho
+        read:
+          description: 'Negação padrão'
+          specific: Leia este fluxo de trabalho
+          title: Leia qualquer fluxo de trabalho
+        sessions.manage:
+          description: 'Negação padrão'
+          specific: Gerenciar sessões para este fluxo de trabalho
+          title: Gerencie todas as sessões
+        triggers.manage:
+          description: 'Negação padrão'
+          specific: Gerenciar gatilhos para este fluxo de trabalho
+          title: Gerencie todos os gatilhos
+        undelete:
+          description: 'Negação padrão'
+          specific: Recuperar este fluxo de trabalho
+          title: Recupere qualquer fluxo de trabalho
+        update:
+          description: 'Negação padrão'
+          specific: Atualizar este fluxo de trabalho
+          title: Atualize qualquer fluxo de trabalho

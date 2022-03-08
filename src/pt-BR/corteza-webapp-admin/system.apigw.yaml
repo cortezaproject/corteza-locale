@@ -1,0 +1,88 @@
+list:
+  title: 'Porta de Integração'
+  new: 'Novo'
+  permissions: 'Permissões'
+  yaml: 'YAML'
+  loading: 'Carregando rotas'
+  numFound: '{{count}} rota encontrada'
+  numFound_plural: '{{count}} rotas encontradas'
+  filterForm:
+    query:
+      label: 'Filtrar lista de rotas'
+      placeholder: 'Filtrar rotas por nome'
+    excluded:
+      label: 'Sem'
+    inclusive:
+      label: 'Incluindo'
+    exclusive:
+      label: 'Apenas'
+    deleted:
+      label: 'Rotas excluídas'
+  columns:
+    endpoint: 'Ponto de extremidade'
+    createdAt: 'Criado'
+    enabled: 'Habilitado'
+    actions: ''
+editor:
+  title: 'Editar rota'
+  new: 'Novo'
+  permissions: 'Permissões'
+  info:
+    title: 'Informação básica'
+    id: 'IDENTIFICAÇÃO'
+    endpoint: 'Ponto de extremidade'
+    method: 'Método'
+    enabled: 'Habilitado'
+    delete: 'Excluir'
+    undelete: 'Recuperar'
+    deletedAt: 'Excluído em'
+    updatedAt: 'Atualizado em'
+    createdAt: 'Criado em'
+    tooltip: 'O endpoint deve começar com uma barra "/" e não pode conter nenhum caractere especial, exceto o sublinhado "_" e o hífen "-"'
+    validation:
+      slash: 'O endpoint deve começar com uma barra "/"'
+      minLength: 'O endpoint deve conter pelo menos um caractere'
+      invalidCharacters: 'O terminal contém caracteres inválidos'
+  filters:
+    title: 'Lista de filtros'
+    enabled: 'Habilitado'
+    disabled: 'Desabilitado'
+    modal:
+      title: 'Verificador de parâmetros de consulta'
+      ok: 'Salvar fechar'
+    step_title:
+      prefilter: 'Pré-filtragem'
+      processer: 'Em processamento'
+      postfilter: 'Pós-filtragem'
+    list:
+      remove: 'Remover'
+      filters: 'Filtros'
+      status: 'Status'
+      actions: 'Ações'
+      active: 'Ativo'
+      noFilters: 'Sem filtros'
+    labels:
+      expr: 'Expressão'
+      location: 'URL'
+      workflow: 'Fluxo de trabalho'
+      status: 'Estado HTTP'
+      jsfunc: 'Função'
+    httpStatus:
+      none: Sem status
+      '300': 300 - Múltiplas Escolhas
+      '301': 301 mudou-se permanentemente
+      '302': 302 - Encontrado
+      '303': 303 - Ver Outros
+      '304': 304 - Não Modificado
+      '307': 307 - Redirecionamento Temporário
+      '308': 308 - Redirecionamento Permanente
+    placeholders:
+      workflow: 'Selecione um fluxo de trabalho'
+    add: 'Adicionar'
+    addFilter: 'Adicionar filtro'
+    params: 'Param'
+    filterListEmpty: 'A lista de filtros está vazia!'
+    help:
+      expression:
+        example: Exemplo == "match string" && match(SecondParam, "^foo\\s.*$")
+        link: Documentação

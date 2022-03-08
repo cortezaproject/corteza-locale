@@ -1,0 +1,6 @@
+jitsi:
+  create: Crio
+  defaultLocalDisplayName: Anônimo
+  defaultRemoteDisplayName: Companheiro Cortezer
+  roomName: Nome da sala
+  toStart: Para iniciar uma videochamada, crie uma nova sala

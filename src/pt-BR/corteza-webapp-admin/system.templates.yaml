@@ -1,0 +1,72 @@
+editor:
+  content:
+    editor:
+      unsupported: Editor não compatível
+    partial: Modelo parcial
+    preview:
+      html: Visualizar HTML
+      pdf: Pré-visualização PDF
+      title: Saída de visualização
+    title: Conteúdo do modelo
+    toolbox:
+      partials: Parciais
+      samples:
+        defaultHTML: HTML padrão
+        label: Amostras
+      snippets:
+        funcCall: Chamar uma função
+        interpolate: Interpolar valor
+        iterator: Iterar sobre um conjunto
+        label: Trechos
+      title: Caixa de ferramentas
+  info:
+    contentType:
+      text_html: HTML
+      text_plain: Texto simples
+    createdAt: Criado em
+    delete: Excluir
+    deletedAt: Excluído em
+    handle: Lidar
+    placeholder-handle: identificador (a - z, 0 - 9, sublinhado, traço)
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+    meta:
+      description: Descrição
+      short: Nome curto
+    partial: Modelo parcial
+    partialDescription: Modelos parciais podem ser usados ​​dentro de outros modelos, como cabeçalhos e rodapés. Os modelos parciais não podem ser usados ​​sozinhos.
+    title: Informação básica
+    type: Tipo de modelo
+    undelete: Recuperar
+    updatedAt: Atualizado em
+  new: Novo
+  permissions: Permissões
+  title:
+    create: Criar modelo
+    edit: Editar modelo
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    handle: Lidar
+    language: Linguagem
+    meta:
+      short: Nome curto
+  filterForm:
+    deleted:
+      label: modelos excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    handle:
+      label: Lista de modelos de filtro
+      placeholder: Filtrar modelos por identificador
+    inclusive:
+      label: Incluindo
+  loading: Carregando modelos
+  new: Novo
+  numFound: '{{count}} modelo encontrado'
+  numFound_plural: '{{count}} modelos encontrados'
+  permissions: Permissões
+  title: Modelos
+  yaml: YAML

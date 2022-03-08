@@ -1,0 +1,22 @@
+datasource:
+  describe-failed: Falha ao descrever a fonte de dados
+general:
+  error: Erro
+  success: Sucesso
+  warning: Aviso
+module:
+  fetch-failed: Falha ao buscar módulos
+namespace:
+  fetch-failed: Falha ao buscar namespaces
+report:
+  createFailed: Falha ao criar relatório
+  created: Relatório criado
+  delete: Relatório excluído
+  deleteFailed: Falha ao excluir relatório
+  fetchFailed: Falha ao buscar relatório
+  listFetchFailed: Falha ao buscar relatórios
+  run-failed: Falha ao gerar relatório
+  updateFailed: Falha ao atualizar o relatório
+  updated: Relatório atualizado
+  notAllowed:
+    read: Não é permitido ler o relatório

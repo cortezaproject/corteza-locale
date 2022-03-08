@@ -1,0 +1,12 @@
+title: Filtro
+
+types:
+  title: Tipos
+  namespace: Namespace
+  module: Módulo
+  user: Do utilizador
+  record: Registro
+
+aggregation-groups:
+  modules: Módulos
+  namespaces: Namespaces

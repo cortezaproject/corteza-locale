@@ -1,0 +1,45 @@
+list:
+  columns:
+    action: Açao
+    actor: Do utilizador
+    description: Descrição
+    requestOrigin: Origem
+    resource: Recurso
+    severity: Gravidade
+    timestamp: Carimbo de data e hora
+  details:
+    id: 'IDENTIFICAÇÃO'
+    header: 'Detalhes'
+    timestamp: 'Carimbo de data e hora'
+    requestOrigin: 'Solicitar Origem'
+    requestID: 'Identificação do Pedido'
+    actorIPAddr: 'Ator/Usuário'
+    actor: 'Do utilizador'
+    actorID: 'ID do usuário'
+    severity: 'Gravidade'
+    resource: 'Recurso'
+    action: 'Açao'
+    headerAdditional: 'Informações adicionais'
+    description: 'Descrição'
+    error: 'Erro'
+  severity:
+    emergency: 'Emergência'
+    alert: 'Alerta'
+    critical: 'Crítico'
+    error: 'Erro'
+    warning: 'Aviso'
+    notice: 'Perceber'
+    info: 'Informações'
+    debug: 'Depurar'
+  filter:
+    action: Açao
+    actor: ID do usuário
+    choose-date: Escolha uma data
+    from: Começando de
+    no-time: Nenhum horário selecionado
+    resource: Recurso
+    search: Procurar
+    to: Terminando em
+    today: Hoje
+  loadOlder: Carregar ações mais antigas
+  title: Registro de ações

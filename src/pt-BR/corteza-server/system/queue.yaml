@@ -1,0 +1,13 @@
+errors:
+  alreadyExists: fila com esse nome já existe
+  invalidConsumer: consumidor inválido
+  invalidID: ID Inválido
+  notAllowedToCreate: não tem permissão para criar uma fila
+  notAllowedToDelete: não tem permissão para excluir esta fila
+  notAllowedToRead: não tem permissão para ler esta fila
+  notAllowedToReadFrom: não tem permissão para ler mensagens desta fila
+  notAllowedToSearch: não tem permissão para pesquisar ou listar filas
+  notAllowedToUndelete: não é permitido recuperar esta fila
+  notAllowedToUpdate: não tem permissão para atualizar esta fila
+  notAllowedToWriteTo: não tem permissão para adicionar mensagens a esta fila
+  notFound: fila não encontrada

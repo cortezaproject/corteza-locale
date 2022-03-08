@@ -1,0 +1,18 @@
+editor:
+  title: 'Configurações da interface do usuário'
+  mainLogo:
+    title: 'Logotipo principal'
+    uploader:
+      instructions: 'Clique ou solte o logotipo principal aqui para fazer o upload'
+      uploading: 'Enviando logotipo principal'
+  iconLogo:
+    title: 'Logotipo do ícone'
+    uploader:
+      instructions: 'Clique ou solte a imagem do logotipo do ícone aqui para fazer o upload'
+      uploading: 'Enviando o logotipo do ícone'
+  favicon:
+    title: 'Favicon'
+    uploader:
+      instructions: 'Clique ou solte o arquivo favicon aqui para fazer o upload'
+      uploading: 'Enviando favicon'
+

@@ -1,0 +1,112 @@
+editor:
+  title: Configurações de sistema
+  auth:
+    title: Autenticação
+    url: URL
+    internal:
+      title: interno
+      enabled: Autenticação interna ativada
+      password-reset:
+        enabled: Redefinição de senha ativada
+      password-constraints:
+        title: Restrições de senha
+        ignored-security: O sistema está configurado para ignorar as restrições de segurança de senha que são inseguras em implementações de produção. Se esta for uma implantação de produção, entre em contato com seu administrador para atualizar a configuração do sistema (a variável AUTH_PASSWORD_SECURITY .env).
+        min-length: Comprimento mínimo
+        min-length-description: Deve ter pelo menos 8 caracteres
+        min-num-count: Número mínimo de números
+        min-num-count-description: A senha deve incluir a quantidade de números especificado (desativado se definido como 0)
+        min-special-count: Número mínimo de caracteres especiais
+        min-special-count-description: A senha deve incluir a quantidade de caracteres especiais especificado (desativado se definido como 0)
+      signup:
+        email-confirmation-required: Confirmação de e-mail de inscrição obrigatória
+        enabled: Inscrição ativada
+        split-credentials-check:
+          description: 'Divida o login em duas etapas, colete a entrada de e-mail primeiro e mostre a entrada para a senha na segunda tela. Encaminhe automaticamente o usuário para o provedor de identidade externo quando o usuário não tiver sua senha definida e houver apenas um IdP presente'
+          label: Ativar verificação de credenciais divididas
+    mail:
+      title: Email do remetente do e-mail de autenticação
+      from-address: Endereço do remetente
+      from-name: Nome do remetente
+      validate-email: Por favor insira o endereço de e-mail válido.
+    mfa:
+      title: Autenticação multifator
+      TOTP:
+        enabled: Permitir que os usuários usem uma senha de uso único com base no tempo (usando o aplicativo móvel)
+        enforced: Forçar os usuários a usar uma senha única baseada em tempo (usando aplicativo móvel)
+        issuer:
+          description: O nome do emissor será enviado ao aplicativo autenticador quando o usuário o configurar.
+          label: Emissor
+      emailOTP:
+        enabled: Permitir que os usuários usem uma senha de uso único por e-mail
+        enforced: Forçar os usuários a usar uma senha de uso único por e-mail
+        expires:
+          description: Por quanto tempo a senha será válida antes de expirar.
+          label: Valido para
+  external:
+    title: Provedores de autenticação externa
+    enabled: Ativar autenticação externa
+    table:
+      header:
+        provider: Fornecedor
+        info: Emissor, ID do cliente
+    standard:
+      enabled: Habilitado
+      clientKey: Chave do cliente
+      clientSecret: Segredo
+    oidc:
+      add: Adicionar um provedor OIDC
+      enabled: Habilitado
+      handle: Lidar
+      title: Conexão com OpenID
+      issuer: URL do emissor OIDC
+      issuerHint: Onde encontrar a /.well-known/openid-configuration (sem a parte /.well-known/openid-configuration)
+      clientKey: Chave do cliente
+      clientSecret: Segredo
+      scope: Alcance
+      scopePlaceholder: Listar os valores de escopo OAuth compatíveis
+      scopeHint: Usar string delimitada por espaço
+    saml:
+      enabled: Habilitado
+      title: SAML
+      requests:
+        title: Requisições
+        sign-requests: Solicitações de assinatura
+        sign-method: Método de assinatura
+        binding: Vinculativo
+        binding-redirect: Redirecionamento HTTP
+        binding-post: HTTP POST
+      cert:
+        public: Chave pública
+        private: Chave privada
+      name: Nome
+      certificate: Certificado
+      idp:
+        title: Provedor de identidade
+        ident-handle: Manipular campo
+        ident-identifier: Campo identificador
+        ident-name: Campo de nome
+        url: URL
+      desc:
+        name: Nome IdP utilizado na tela de login (Entrar como <name>)
+        cert:
+          public: O conteúdo será minimizado
+          private: O conteúdo será minimizado
+        requests:
+          sign-requests: Assinar AuthNRequest e afirmação
+          sign-method: Método a ser usado em solicitações assinadas
+          binding: O tipo de ligação HTTP a ser usado em AuthNRequest, o padrão é HTTP Redirect (GET)
+        idp:
+          url: Localização dos metadados do IdP
+          ident-handle: Nome do campo IdP usado para preencher o identificador de usuário ou apelido do Corteza
+          ident-identifier: Nome do campo IdP usado para preencher e corresponder o e-mail do usuário do Corteza
+          ident-name: Nome do campo IdP usado para preencher o nome completo do usuário Corteza
+    security:
+      forbidden-roles:
+        description: As funções desta lista serão removidas do contexto de segurança ao autenticar com este provedor
+        label: Funções proibidas
+      forced-roles:
+        description: As funções desta lista serão sempre adicionadas ao contexto de segurança ao autenticar com este provedor
+        label: Funções forçadas
+      permitted-roles:
+        description: Somente as funções nesta lista serão adicionadas ao contexto de segurança quando autenticadas com este provedor
+        label: Funções permitidas

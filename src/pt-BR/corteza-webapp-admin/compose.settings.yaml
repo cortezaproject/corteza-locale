@@ -1,0 +1,11 @@
+editor:
+  basic:
+    attachments:
+      max-size: Tamanho máximo (MB)
+      page: Anexos de página
+      record: Gravar anexos
+      type:
+        description: 'Tipos MIME, separados por ",". Exemplo "texto/simples, texto/csv"'
+        whitelist: Lista de permissões de tipo de arquivo
+    title: Básico
+  title: Compor configurações

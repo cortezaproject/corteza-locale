@@ -1,0 +1,60 @@
+editor:
+  info:
+    archive: Arquivo
+    archivedAt: Arquivado em
+    createdAt: Criado em
+    delete: Excluir
+    deletedAt: Excluído em
+    handle: Lidar
+    placeholder-handle: identificador (a - z, 0 - 9, sublinhado, traço)
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+    name: Nome do papel
+    title: Informação básica
+    unarchive: Desarquivar
+    undelete: Recuperar
+    updatedAt: Atualizado em
+    description: Descrição
+    context:
+      label: Papel contextual
+      expression-label: Expressão
+      resource-types-label: Tipo de recurso
+  members:
+    add: Adicionar
+    count: Membros ({{count}})
+    remove: Remover
+    searchUsers: Pesquisar usuários
+    title: Membros da função
+    unnamed: Usuário sem nome
+  new: Novo
+  permissions: Permissões
+  title:
+    create: Criar função
+    edit: Editar função
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    enabled: Habilitado
+    handle: Lidar
+    name: Nome
+  filterForm:
+    archived:
+      label: funções arquivadas
+    deleted:
+      label: funções excluídas
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+    query:
+      label: Filtrar lista de funções
+      placeholder: Filtrar funções por nome
+  loading: Carregando papéis
+  new: Novo
+  numFound: '{{count}} função encontrada'
+  numFound_plural: '{{count}} funções encontradas'
+  permissions: Permissões
+  title: Funções
+  yaml: YAML

@@ -1,0 +1,22 @@
+template:
+  title: Configure a autenticação de 2 fatores com TOTP
+  enforced: |
+    TOTP é obrigatório pela política do administrador do Corteza.
+    Por favor, configure imediatamente.
+  instructions: |
+    Corteza utiliza códigos temporários baseados em tempo (TOTP) como uma de suas tecnologias de autenticação de 2 fatores. Utilize uma das aplicações listadas abaixo e informe o código ou escaneie o QR Code.
+    <br />
+    <br />
+    Isto irá habilitar uma segurança adicional à sua conta.
+    <br />
+    <br />
+    Você pode utilizar uma das seguintes aplicações:
+  lastpass: <a target="_blank" href="{{ link }}">LastPass Authenticator</a>
+  gauth: Google Authenticator para <a target="_blank" href="{{ android }}">Android</a> ou <a target="_blank" href="{{ iphone }}">iPhone</a>
+  authy: <a target="_blank" href="{{ link }}">Authy</a>
+  form:
+    title: "Complete a configuração informando o código exibido no aplicativo de autenticação:"
+    button: Enviar
+alerts:
+  text-2FA-enabled: Autenticação de 2 fatores com TOTP ativado
+  text-2FA-disabled: Autenticação de 2 fatores com TOTP desabilitada

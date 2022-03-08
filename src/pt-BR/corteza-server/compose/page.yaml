@@ -1,0 +1,17 @@
+errors:
+  handleNotUnique: lidar não é único
+  invalidHandle: identificador inválido
+  invalidID: ID Inválido
+  invalidNamespaceID: ID de namespace inválido ou ausente
+  moduleNotFound: módulo não existe
+  namespaceNotFound: namespace não existe
+  notAllowedToCreate: não tem permissão para criar páginas
+  notAllowedToDelete: não tem permissão para excluir esta página
+  notAllowedToListPages: não tem permissão para listar páginas
+  notAllowedToRead: não permitido ler esta página
+  notAllowedToReadNamespace: não tem permissão para ler este namespace
+  notAllowedToSearch: não tem permissão para pesquisar ou listar páginas
+  notAllowedToUndelete: não é permitido recuperar esta página
+  notAllowedToUpdate: não é permitido atualizar esta página
+  notFound: a página não existe
+  staleData: dados obsoletos

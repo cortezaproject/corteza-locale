@@ -1,0 +1,16 @@
+errors:
+  handleNotUnique: lidar não é único
+  invalidHandle: identificador inválido
+  invalidID: ID Inválido
+  invalidNamespaceID: ID de namespace inválido ou ausente
+  moduleNotFound: módulo não existe
+  namespaceNotFound: namespace não existe
+  notAllowedToCreate: não é permitido criar gráficos
+  notAllowedToDelete: não tem permissão para excluir este gráfico
+  notAllowedToRead: não é permitido ler este gráfico
+  notAllowedToReadNamespace: não tem permissão para ler este namespace
+  notAllowedToSearch: não é permitido pesquisar ou listar gráficos
+  notAllowedToUndelete: não é permitido recuperar este gráfico
+  notAllowedToUpdate: não é permitido atualizar este gráfico
+  notFound: gráfico não existe
+  staleData: dados obsoletos

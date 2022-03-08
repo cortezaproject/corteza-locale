@@ -1,0 +1,118 @@
+colorLabel: '{{count}} cores'
+colorScheme:
+  label: Esquema de cores
+  placeholder: Escolha um esquema de cores
+configure:
+  reportsLabel: Relatórios
+general:
+  label:
+    title: Rótulo
+    add: Adicionar
+  value: Valor
+  placeholder:
+    handle: identificador (a - z, 0 - 9, underline, traço)
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres e começar com uma letra. Pode conter apenas letras, números, traço, sublinhado e ponto
+edit:
+  dimension:
+    calculateLabelCount: Calcular quantos rótulos podem ser mostrados
+    defaultValueFootnote: Use este valor para valores de dimensão ausentes
+    defaultValueLabel: Valor padrão
+    fieldLabel: Campo
+    fieldPlaceholder: Selecione um campo de dimensão
+    function:
+      date: DATA
+      label: Função
+      month: MÊS
+      none: (sem agrupamento / buckets)
+      placeholder: Selecione o modificador de dimensão (tamanho do bucket)
+      quarter: TRIMESTRE
+      week: SEMANA
+      year: ANO
+    gaugeSteps: Degraus
+    label: Dimensões
+    skipMissingValues: Pular valores ausentes
+  filter:
+    customize: Personalizar filtro
+    label: Filtros
+    noFilter: (Sem filtro)
+    recordsCreatedLastMonth: Registros criados no mês passado
+    recordsCreatedLastQuarter: Registros criados no último trimestre
+    recordsCreatedLastYear: Registros criados no ano passado
+    recordsCreatedThisMonth: Registros criados este mês
+    recordsCreatedThisQuarter: Registros criados neste trimestre
+    recordsCreatedThisYear: Registros criados este ano
+  loadData: Carregar dados
+  metric:
+    add: Adicionar métrica
+    fieldLabel: Campo
+    fieldPlaceholder: Selecionar campo de métrica
+    fillArea: Preencha a área abaixo da linha
+    fixTooltips: Sempre mostrar dicas de ferramentas
+    function:
+      avg: MED
+      label: Função
+      max: MÁX.
+      min: MIN
+      placeholder: Selecionar função de agregação de métrica
+      std: DST
+      sum: SOMA
+    fx:
+      description: n - valor do conjunto de dados atual, m - valor do conjunto de dados anterior
+      label: Função de pós-processamento
+    gaugeColor: Cor
+    label: Métrica
+    labelColor: Cor do rótulo
+    labelLabel: Rótulo
+    labelPlaceholder: Total
+    legend:
+      bottom: Inferior
+      left: Deixou
+      positionPlaceholder: Posição da legenda
+      right: Certo
+      top: Topo
+    lineTension:
+      curvy: Grandes curvaturas
+      label: Tensão da linha
+      medium: Curvaturas médias
+      placeholder: Tensão da linha
+      slight: Pequenas curvaturas
+      straight: Linhas retas
+    output:
+      bar: Barra
+      doughnut: Rosquinha
+      label: Saída
+      line: Linha
+      pie: Torta
+      placeholder: Selecionar saída de métrica
+    relative: Mostrar valor relativo
+    relativePrecision: 'Precisão:'
+    title: Métricas
+  module:
+    label: Módulo
+    placeholder: Escolha um módulo
+  title: Criador de gráficos
+  unconfiguredReport: Relatório não configurado
+  yAxis:
+    axisOnRight: Coloque o eixo no lado direito
+    axisScaleFromZero: Sempre comece a escala do eixo em zero
+    label: Eixo Y
+    labelLabel: Etiqueta do eixo
+    labelPlaceholder: Etiqueta do eixo
+    logarithmicScale: Escala logarítmica
+    maxLabel: Valor máximo
+    maxPlaceholder: Valor máximo
+    minLabel: Valor mínimo
+    minPlaceholder: Valor mínimo
+import: 'Importar gráfico(s):'
+newLabel: 'Criar um novo gráfico:'
+name: Nome do gráfico *
+handle: Lidar *
+notification:
+  loadFailed: Não foi possível carregar o gráfico
+  saveFailed: Não foi possível salvar este gráfico
+  saved: Gráfico salvo
+  deleteFailed: Não foi possível excluir este gráfico
+  deleted: Gráfico excluído
+searchPlaceholder: Digite aqui para pesquisar todos os gráficos neste namespace
+title: Lista de gráficos
+undefined: indefinido

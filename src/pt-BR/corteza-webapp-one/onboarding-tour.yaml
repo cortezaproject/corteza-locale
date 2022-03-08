@@ -1,0 +1,31 @@
+start:
+  welcome: Bem vindo a Corteza
+  instructions: Olá! Você criou sua conta Corteza com sucesso. Você está pronto para começar? Clique no botão "Mostre-me" abaixo para obter um guia rápido das funcionalidades básicas.
+  skip: Pular passeio
+  show: Mostre-me
+
+buttons:
+  skip: Pular passeio
+  previous: Voltar
+  next: Próximo
+  end: Fim
+
+steps:
+  app-list:
+    title: Menu do aplicativo
+    content: É aqui que você pode ver a lista de aplicativos disponíveis. Quando estiver em um aplicativo, você sempre pode retornar a esta lista clicando no ícone de 6 pontos no canto superior direito.
+  crm:
+    title: Namespace de exemplo - CRM
+    content: Aqui você pode acessar o CRM, um exemplo de configuração low-code. Você pode navegar pelo aplicativo na barra lateral à esquerda, onde verá uma lista de páginas disponíveis. Para inserir dados de exemplo, clique no botão "+ Adicionar" em qualquer lista de registros.
+  low-code:
+    title: Lista de aplicativos Low-Code (espaços de nomes)
+    content: Aqui você pode criar um novo aplicativo Low-Code (namespace) ou começar a trabalhar em alguns aplicativos pré-configurados (por exemplo, CRM). Esses aplicativos não aparecem no menu de aplicativos por padrão.
+  reporter:
+    title: Lista de relatórios
+    content: Para fazer visualizações de painel avançadas com dados agregados de vários módulos, tabelas e gráficos diferentes, comece a criar um novo relatório.
+  profile:
+    title: Configurações de perfil
+    content: Para atualizar as configurações do seu perfil, definir o idioma, alterar a senha ou configurar a autenticação de 2 fatores, siga o link abaixo do ícone do usuário.
+  workflow:
+    title: Lista de fluxos de trabalho
+    content: Leve seus aplicativos Low-Code para o próximo nível com o construtor de fluxo de trabalho visual, onde você pode automatizar qualquer processo para atender às necessidades de sua organização. Comece a criar um novo fluxo de trabalho ou revise os existentes.
