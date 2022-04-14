@@ -100,6 +100,12 @@ newLabel: Module Name *
 newPlaceholder: Name used on the list of modules
 noModule: No modules
 noModuleFilter: No module matches your search
+privacy:
+  title: Privacy Settings
+  data-source: Data Source
+  select-data-source: Select a Data Source
+  location: Location
+  ownership: Ownership
 recordPage:
   create: Create record page
   edit: Edit record page
