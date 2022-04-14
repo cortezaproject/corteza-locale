@@ -58,6 +58,7 @@ label:
   removeDefault: Remove default
   required: Required
   reset: Reset
+  sensitive: Sensitive
   save: Save
   saveAndClose: Save and close
   status: Status
