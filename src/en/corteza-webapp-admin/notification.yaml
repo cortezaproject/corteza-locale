@@ -229,4 +229,22 @@ permissions:
     error: Permissions clone failed
   role:
     error: Failed to add role
+datasource:
+  fetch:
+    error: Datasource fetch failed
+  update:
+    success: Datasource updated
+    error: Datasource update failed
+  create:
+    success: Datasource created
+    error: Datasource create failed
+  delete:
+    success: Datasource deleted
+    error: Datasource delete failed
+  undelete:
+    success: Datasource restored
+    error: Datasource restore failed
+  update-capabilities:
+    success: Datasource capabilities updated
+    error: Datasource capability update failed
 
