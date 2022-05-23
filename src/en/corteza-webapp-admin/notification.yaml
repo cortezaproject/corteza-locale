@@ -232,22 +232,22 @@ permissions:
     error: Permissions clone failed
   role:
     error: Failed to add role
-datasource:
+connection:
   fetch:
-    error: Datasource fetch failed
+    error: Connection fetch failed
   update:
-    success: Datasource updated
-    error: Datasource update failed
+    success: Connection updated
+    error: Connection update failed
   create:
-    success: Datasource created
-    error: Datasource create failed
+    success: Connection created
+    error: Connection create failed
   delete:
-    success: Datasource deleted
-    error: Datasource delete failed
+    success: Connection deleted
+    error: Connection delete failed
   undelete:
-    success: Datasource restored
-    error: Datasource restore failed
+    success: Connection restored
+    error: Connection restore failed
   update-capabilities:
-    success: Datasource capabilities updated
-    error: Datasource capability update failed
+    success: Connection capabilities updated
+    error: Connection capability update failed
 
