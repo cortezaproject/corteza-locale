@@ -6,4 +6,4 @@ search:
   failed: Search failed
 list:
   load:
-    error: 'Failed to load resource list'
+    error: Failed to load resource list

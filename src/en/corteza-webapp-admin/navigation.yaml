@@ -8,7 +8,7 @@ system:
     apigw: Integration Gateway
     applications: Applications
     authclients: Auth Clients
-    datasources: Data Sources
+    connections: Connections
     permissions: Permissions
     queues: Messaging Queues
     roles: Roles
