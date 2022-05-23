@@ -244,7 +244,7 @@ connection:
   undelete:
     success: Connection restored
     error: Connection restore failed
-  update-capabilities:
+  capabilities:
     success: Connection capabilities updated
     error: Connection capability update failed
 
