@@ -2,7 +2,7 @@ list:
   columns:
     moduleName: Name
     moduleHandle: Handle
-    datasource: Data source
+    connection: Connection
     location: Location
     ownership:  Ownership
   title: Sensitive Data
