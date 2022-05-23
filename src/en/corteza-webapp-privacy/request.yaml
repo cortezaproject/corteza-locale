@@ -1,3 +1,14 @@
+kind:
+  correct: Correction Request
+  delete: Deletion Request
+  export: Export Request
+
+status:
+  canceled: Canceled
+  pending: Pending
+  rejected: Rejected
+  approved: Approved
+
 list:
   title: Privacy Requests
   export: Export
@@ -9,23 +20,15 @@ list:
   request:
     approve: Approve Requests
     reject: Reject Requests
-  status:
-    pending: Pending
-    rejected: Rejected
-    approved: Approved
-  request-kind:
-    correction: Correction Request
-    deletion: Deletion Request
-    export: Export Request
 
 edit:
-  correction:
+  correct:
     private-fields: Private Fields
     submit: Submit Correction Request
     data-source:
       label: Data Source
       placeholder: Select a Data Source
-  deletion:
+  delete:
     private-fields: Private Fields
     submit: Delete Selected Data
     data-source:
@@ -44,10 +47,6 @@ edit:
       label: File Format
       json: JSON
       csv: CSV
-  request-kind:
-    correction: New Data Correction Request
-    deletion: New Data Deletion Request
-    export: New Data Export Request
 
 view:
   approve: Approve request
@@ -64,7 +63,3 @@ view:
       label: File Format
       json: JSON
       csv: CSV
-  request-kind:
-    correction: Data Correction Request
-    deletion: Data Deletion Request
-    export: Data Export Request

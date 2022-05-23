@@ -16,7 +16,7 @@ user-options:
     title: Data Export
     description: Morbi quis diam fermentum, luctus marius nnec, fringilla urnna. Nullam quis risus sit amet neque sodales
     button-label: Request data export
-  deletion:
+  delete:
     title: Data Deletion
     description: Morbi quis diam fermentum, luctus marius nnec, fringilla urnna. Nullam quis risus sit amet neque sodales
     button-label: Request data deletion
