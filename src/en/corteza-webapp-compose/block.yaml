@@ -108,6 +108,7 @@ general:
   descriptionLabel: Description
   descriptionPlaceholder: Block description
   headerStyle: Block header style (color)
+  wrap: Display block as a card
   label:
     add: Add
     back: Back
