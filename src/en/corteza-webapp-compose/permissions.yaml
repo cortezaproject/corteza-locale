@@ -51,6 +51,11 @@ resources:
           description: 'Default: deny'
           specific: Update module "{{target}}"
           title: Update any module
+        'owned-record.create':
+          description: 'Default: deny'
+          specific: Manage owner when creating record "{{target}}"
+          title: Manage owner when creating record of any module
+          all-specific: Manage owner when creating record of module "{{ target }}"
 
     module-field:
       all: all module fields
