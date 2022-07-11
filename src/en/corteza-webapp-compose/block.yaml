@@ -135,6 +135,7 @@ general:
   titlePlaceholder: Block title
   tooltip:
     dragAndDrop: Drag and drop to change order
+    translations: Field translations
 iframe:
   label: IFrame
   pickURLField: Pick an URL field
@@ -349,12 +350,20 @@ recordList:
     showTotalCount: Show total record count
     openInNewTab: Open records in a new tab
     linkToParent: Link to parent record
+    tooltip:
+      clone: Clone record
+      edit: Edit record
+      undelete: Undelete record
+      reminder: Reminder
+      view: View record
   recordPage: record page
   refField:
     footnote: Field that links records with the parent record
     label: Parent field
   selectable: Enable record selection
   selected: '{{count}} of {{total}} records selected'
+  sort:
+    tooltip: Sort column
 recordOrganizer:
   descriptionField:
     footnote: Field value will be used as record description
