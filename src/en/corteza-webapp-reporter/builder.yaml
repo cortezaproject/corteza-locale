@@ -52,6 +52,11 @@ scenarios:
   label: Scenarios
   save: Save Scenarios
 title: Title
+tooltip:
+  edit:
+    report: Edit report
+    block: Edit block
+  configure-scenarios: Configure scenarios
 available-columns: Available columns
 selected-columns: Selected columns
 no-columns-found: No columns found

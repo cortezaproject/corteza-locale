@@ -9,12 +9,19 @@ resources:
 
   namespace:
     title: Namespace "{{ handle }}"
+    tooltip: Namespace translations
   module:
     title: Module "{{ handle }}"
+    tooltip: Module translations
+    
     field:
       title: Module field "{{ name }}"
+      tooltip:
+        translations: Field translations
 
   page:
     title: Page "{{ handle }}"
+    tooltip: List of page translations
+
     block:
       title: "Page block #{{ blockID }}"

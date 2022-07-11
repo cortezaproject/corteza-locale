@@ -114,3 +114,5 @@ recordListPage:
   edit: Edit record list page
 searchPlaceholder: Type here to search all modules in this namespace
 title: List of Modules
+tooltip:
+  permissions: Module permissions

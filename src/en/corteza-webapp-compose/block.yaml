@@ -135,6 +135,7 @@ general:
   titlePlaceholder: Block title
   tooltip:
     dragAndDrop: Drag and drop to change order
+    translations: Field translations
 iframe:
   label: IFrame
   pickURLField: Pick an URL field
@@ -347,12 +348,21 @@ recordList:
     presortLabel: Presort records
     presortPlaceholder: field1 DESC, field2 ASC
     showTotalCount: Show total record count
+    tooltip:
+      clone: Clone record
+      edit: Edit record
+      undelete: Undelete record
+      reminder: Reminder
+      view: View record
+      permissions: Record permissions
   recordPage: record page
   refField:
     footnote: Field that links records with the parent record
     label: Parent field
   selectable: Enable record selection
   selected: '{{count}} of {{total}} records selected'
+  sort:
+    tooltip: Sort column
 recordOrganizer:
   descriptionField:
     footnote: Field value will be used as record description
