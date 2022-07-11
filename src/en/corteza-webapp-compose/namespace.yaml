@@ -47,4 +47,6 @@ subtitle:
   label: Subtitle
   placeholder: Enter namespace subtitle
 title: Low Code Namespaces
+tooltip:
+  translations: Namespace translations
 visit: Visit namespace
