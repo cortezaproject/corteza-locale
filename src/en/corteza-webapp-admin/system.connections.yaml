@@ -22,9 +22,9 @@ external:
     location: Location
     ownership: Ownership
     url: Url
-    sensitiveData:
-      label: Sensitive Data
-      text: Check if it may contain sensitive data
+    sensitivityLevel:
+      label: Sensitivity Level
+      placeholder: Select a sensitivity level
   loading: Loading Connections
   title:
     create: Create External Connection
