@@ -347,6 +347,7 @@ recordList:
     presortPlaceholder: field1 DESC, field2 ASC
     showTotalCount: Show total record count
     openInNewTab: Open records in a new tab
+    linkToParent: Link to parent record
   recordPage: record page
   refField:
     footnote: Field that links records with the parent record
