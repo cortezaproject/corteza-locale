@@ -526,3 +526,5 @@ resources:
           title: Update any record
         owner.manage:
           title: Manage ownership of any record
+        revisions.search:
+          title: Access revisions of any record

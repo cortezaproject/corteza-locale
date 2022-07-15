@@ -189,3 +189,8 @@ resources:
           specific: Manage owner of record "{{target}}"
           title: Manage record owners of any module
           all-specific: Manage record owners of module "{{ target }}"
+        'revisions.search':
+          description: 'Default: deny'
+          specific: Access revisions of record "{{target}}"
+          title: Access record revisions
+          all-specific: Access record revisions
