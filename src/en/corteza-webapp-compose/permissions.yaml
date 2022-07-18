@@ -1,7 +1,26 @@
 ui:
-  reset-back: Reset back to "{{current}}"
-  save-changes: Save changes
+  save: Save changes
+  cancel: Cancel
   set-for: Set permissions for {{target}}
+  loading: Loading permissions
+
+  edit:
+    label: User roles
+    description: Select role to set permissions
+
+  evaluate:
+    description: Evaluate applied permissions
+
+  add:
+    label: Add
+    title: Evaluate permissions
+    save: Save & Close
+    role:
+      label: Roles
+      placeholder: Select role(s)
+    user:
+      label: Users
+      placeholder: Search or select a user
 
   access:
     allow: Allow
