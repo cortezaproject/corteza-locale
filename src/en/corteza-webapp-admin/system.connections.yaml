@@ -1,8 +1,12 @@
 editor:
   info:
+    title: Basic Information
+    handle: Handle
+    name: Name
     location: Location
     ownership: Ownership
-    title: Basic Information
+    url: Url
+    sensitivityLevel: Maximum Sensitivity Level
 external:
   add: Add New Connection
   add-button: Add New Connection
@@ -23,7 +27,7 @@ external:
     ownership: Ownership
     url: Url
     sensitivityLevel:
-      label: Sensitivity Level
+      label: Maximum Sensitivity Level
       placeholder: Select a sensitivity level
   loading: Loading Connections
   title:
