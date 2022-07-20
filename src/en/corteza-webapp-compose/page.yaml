@@ -46,8 +46,6 @@ tooltip:
   edit:
     page-configuration: Edit page
     block-configuration: Edit block
-  list-page-translations: Page translations
-  tree: Page permissions
   view-record-page: View record page
 view: View
 visible: Visible

@@ -125,8 +125,6 @@ fieldKinds:
     label: Geometry
 field:
   selectAll: Select all
-  tooltip:
-    permissions: Field permissions
   unselectAll: Unselect all
   kind:
     user:
