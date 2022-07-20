@@ -43,10 +43,10 @@ pageMoveFailed: Could not move this page
 reordered: Page reordered
 title: List of Pages
 tooltip:
+  view: View page
   edit:
-    page-configuration: Edit page
-    block-configuration: Edit block
-  view-record-page: View record page
+    page: Edit page
+    block: Edit block
 view: View
 visible: Visible
 delete:
