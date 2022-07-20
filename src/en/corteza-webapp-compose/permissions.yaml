@@ -49,6 +49,7 @@ resources:
     module:
       all: all modules
       specific: module "{{target}}"
+      tooltip: Module permissions
       operations:
         delete:
           description: 'Default: deny'
@@ -80,6 +81,7 @@ resources:
       all: all module fields
       specific: field "{{target}}"
       all-specific: all module fields of module "{{ target }}"
+      tooltip: Module field permissions
       operations:
         record.value.read:
           description: 'Default: deny'
@@ -95,6 +97,7 @@ resources:
     namespace:
       all: all namespaces
       specific: namespace "{{target}}"
+      tooltip: Namespace permissions
       operations:
         chart.create:
           description: ""
@@ -140,6 +143,7 @@ resources:
     page:
       all: all pages
       specific: page "{{target}}"
+      tooltip: Page permissions
       operations:
         delete:
           description: 'Default: deny'
@@ -158,6 +162,7 @@ resources:
       all: all records
       specific: record "{{target}}"
       all-specific: all records of module "{{ target }}"
+      tooltip: Record permissions
       operations:
         delete:
           description: 'Default: deny'
