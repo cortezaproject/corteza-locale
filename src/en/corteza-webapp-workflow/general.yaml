@@ -26,6 +26,3 @@ workflow-list: List of Workflows
 save: Save
 today: Today
 cancel: Cancel
-
-tooltip:
-  permissions: Workflow permissions

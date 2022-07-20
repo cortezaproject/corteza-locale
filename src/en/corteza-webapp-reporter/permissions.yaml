@@ -32,6 +32,7 @@ resources:
     report:
       all: all reports
       specific: report "{{target}}"
+      tooltip: Report permissions
       operations:
         delete:
           description: ""

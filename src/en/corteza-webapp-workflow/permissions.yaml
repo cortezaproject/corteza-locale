@@ -32,6 +32,7 @@ resources:
     workflow:
       all: all workflows
       specific: workflow "{{target}}"
+      tooltip: Workflow permissions
       operations:
         delete:
           description: 'Default: deny'
