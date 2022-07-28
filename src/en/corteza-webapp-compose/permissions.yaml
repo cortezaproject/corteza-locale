@@ -22,6 +22,11 @@ ui:
       label: Users
       placeholder: Search or select a user
 
+  tooltip:
+    unknown-context:
+      user: Can not evaluate permission for a user with contextual role on a non-specific resource
+      role: Can not evaluate permission for contextual role on a non-specific resource
+
   access:
     allow: Allow
     inherit: Inherit
