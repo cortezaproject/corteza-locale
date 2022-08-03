@@ -1,4 +1,8 @@
 editor:
+  external-auth-providers:
+    label: Label
+    title: Manage external auth providers
+    type: Type
   info:
     confirmEmail: Confirm email address
     createdAt: Created at
