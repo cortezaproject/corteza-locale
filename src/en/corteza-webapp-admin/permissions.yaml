@@ -355,6 +355,9 @@ resources:
       all: all users
       specific: user "{{target}}"
       operations:
+        credentials:
+          manage:
+            specific: Manage {{target}}'s credentials
         delete:
           description: 'Default: deny'
           specific: Delete {{target}}

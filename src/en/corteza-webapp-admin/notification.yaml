@@ -7,6 +7,9 @@ list:
   load:
     error: 'Failed to load resource list'
 user:
+  external-auth-providers:
+    error: External auth providers fetch failed
+    success: External auth providers updated
   fetch:
     error: User fetch failed
   roles:
