@@ -21,6 +21,10 @@ list:
     'meta.name': Name
     level: Level
     createdAt: Created
+    state: State
+  rows:
+    filters:
+      deleted: Deleted
   filterForm:
     deleted:
       label: deleted sensitivity levels

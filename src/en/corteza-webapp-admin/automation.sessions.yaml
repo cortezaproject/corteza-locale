@@ -22,6 +22,7 @@ list:
     createdAt: Created At
     eventType: Event type
     sessionID: SessionID
+    state: State
     status: Status
     workflowID: WorkflowID
   filterForm:

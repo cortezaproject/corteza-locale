@@ -68,6 +68,11 @@ list:
     enabled: Enabled
     handle: Handle
     name: Name
+    state: State
+  rows:
+    filters:
+      deleted: Deleted
+      suspended: Suspended
   filterForm:
     deleted:
       label: deleted users

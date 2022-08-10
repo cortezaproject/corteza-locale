@@ -72,6 +72,10 @@ list:
     handle: Handle
     meta:
       name: Name
+    state: State
+  rows:
+    filters:
+      deleted: Deleted
   filterForm:
     deleted:
       label: deleted clients
