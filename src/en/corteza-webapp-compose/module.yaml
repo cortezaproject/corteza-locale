@@ -80,7 +80,7 @@ edit:
       title: Data store
       connection: Connection
       ident: Identifier
-      ident-placeholder: compose_records
+      ident-placeholder: compose_record
       ident-description: "Name of the database table or collection where records can be accessed and stored. Supports partitioning placeholders: {{module}} for module handle and {{namespace}} for namespace handle"
 
       connections:
@@ -88,9 +88,10 @@ edit:
 
     privacy:
       title: Privacy Settings
-      sensitivity-level: Maximum sensitivity level
+      sensitivity-level: Maximum allowed sensitivity level
       sensitivity-level-description: Maximum sensitivity level for fields on this module
       usage-disclosure: Sensitive data usage disclosure (visible on data-privacy console)
+      usage-disclosure-placeholder:
 
       data-source: Data Source
       select-data-source: Select a Data Source
