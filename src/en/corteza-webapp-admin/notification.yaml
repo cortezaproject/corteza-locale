@@ -3,7 +3,7 @@ general:
   success: Success
   warning: Warning
 notAllowed: Not allowed to access Admin Area. Redirecting
-list: 
+list:
   load:
     error: 'Failed to load resource list'
 user:
@@ -250,7 +250,4 @@ connection:
   undelete:
     success: Connection restored
     error: Connection restore failed
-  capabilities:
-    success: Connection capabilities updated
-    error: Connection capability update failed
 
