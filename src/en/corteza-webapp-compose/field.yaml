@@ -32,7 +32,7 @@ kind:
       grid: Grid
       list: List
       maxSizeLabel: Maximum file size
-      mimetypesFootnote: 'MIME types, sepparated with ",". Example: "text/plain,text/csv"'
+      mimetypesFootnote: 'MIME types, separated with ",". Example: "text/plain,text/csv"'
       mimetypesLabel: File type allow list
       modeFootnote: How files are represented in record page blocks
       modeLabel: View mode
