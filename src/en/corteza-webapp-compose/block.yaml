@@ -387,6 +387,53 @@ recordOrganizer:
     label: 'Record Organizer block for module {{0}}. Label field {{1}}, Description field {{2}}. Value setting field: {{3}}, Sorted by position field: {{4}}.'
     moduleNotSelected: Record Organizer module not selected.
   addNewRecord: + Add new record
+
+recordRevisions:
+  label: Record revisions
+
+  viewer:
+    errors:
+      no-record: No record found to display revisions for.
+      disabled-on-module: Record revisions are disabled on this module.
+
+    show-revisions: Show record revisions ({{ revision }}).
+    show-changes: "{{ count }} change(s)"
+    revisions:
+      columns:
+        timestamp:
+          label: Timestamp
+        operation:
+          label: Operation
+        user:
+          label: User
+    changes:
+      columns:
+        field:
+          label: Field
+        old-value:
+          label: Old value
+        new-value:
+          label: New value
+
+  configurator:
+    label: Record revisions
+    preload: Preload record revisions
+    errors:
+      invalid-module-id: Field does not contain a valid module ID.
+    fields:
+      label: Configure fields to display in record revisions changes
+      show-all:
+        label: Show changes for all fields
+      columns:
+        label:
+          label: Label
+        kind:
+          label: Type
+        displayed-fields:
+          label: Show
+        expanded-references:
+          label: Expand references
+
 socialFeed:
   label: Twitter feed
   noInput: No input for displaying social feed...
