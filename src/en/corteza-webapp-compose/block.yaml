@@ -475,3 +475,6 @@ report:
   element:
     label: Display element
     description: Display elements are grouped by their respective block
+
+progress:
+  label: Progress bar

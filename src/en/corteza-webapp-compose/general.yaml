@@ -5,6 +5,7 @@ label:
   actions: Actions
   active: Active
   add: Add
+  add-with-plus: + Add
   addNew: Add new
   addValue: Add new value
   ascending: Ascending
