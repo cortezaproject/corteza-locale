@@ -39,7 +39,7 @@ editor:
         placeholder: Name of the location where the data is stored
         description: Name of the city, country, continent, etc.
       location-geometry:
-        label: Some Place, Some Country
+        label: Location coordinates
         description: Coordinates of the location where the data is stored
         placeholder:
       ownership:
