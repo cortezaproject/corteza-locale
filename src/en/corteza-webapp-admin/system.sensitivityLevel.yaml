@@ -1,4 +1,5 @@
 editor:
+  new: New
   title:
     create: Create sensitivity level
     edit: Edit sensitivity level
@@ -11,6 +12,11 @@ editor:
     name: Name
     description: Description
     level: Level
+    createdAt: Created at
+    delete: Delete
+    deletedAt: Deleted at
+    undelete: Undelete
+    updatedAt: Updated at
 
 list:
   title: Sensitivity Levels

@@ -253,6 +253,9 @@ resources:
           description: 'Default: deny'
           specific: Delete connection "{{target}}
           title: Delete any connection
+        dal-config:
+          manage:
+            title: Manage any connections
     role:
       label: Roles
       all: all roles
@@ -471,6 +474,8 @@ resources:
       operations:
         delete:
           title: Delete any module
+        owned-record.create:
+          title: Manage owner when creating record of any module
         read:
           title: Read any module
         record.create:
