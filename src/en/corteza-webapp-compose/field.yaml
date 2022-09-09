@@ -176,8 +176,9 @@ selector:
   systemField: (system field)
   unselectAll: Unselect all
 privacy:
-  sensitivityLevel:
-    label: Sensitivity Levels
+  sensitivity-level:
+    label: Sensitivity level
+    placeholder: Select a sensitivity level
 system:
   recordID: Record ID
   createdAt: Created at
