@@ -361,6 +361,7 @@ resources:
         credentials:
           manage:
             specific: Manage {{target}}'s credentials
+            title: Manage any user
         delete:
           description: 'Default: deny'
           specific: Delete {{target}}
