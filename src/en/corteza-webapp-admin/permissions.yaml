@@ -12,6 +12,7 @@ ui:
     title: Edit permissions
     label: User roles
     description: Select role to set permissions
+  edit-or-eval: Edit or evaluate permissions
 
   evaluate:
     title: Evaluated permissions
@@ -56,6 +57,7 @@ ui:
   clone:
     clone: Clone
     label: Clone permissions
+    pick-role: Pick a role
     title: Clone permissions to
     description: This will clone all the permissions of the current role and apply them  to the selected
 
