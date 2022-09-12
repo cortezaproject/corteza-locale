@@ -19,6 +19,8 @@ createLabel: New Module
 edit:
   create: Create module
   edit: Edit module
+  fields:
+    label: Fields
   federationSettings:
     downstream:
       allFields: All Fields
