@@ -180,6 +180,8 @@ privacy:
   sensitivity-level:
     label: Sensitivity level
     placeholder: Select a sensitivity level
+  usage-disclosure:
+    label: Sensitive field usage disclosure (visible on data-privacy console)
 system:
   recordID: Record ID
   createdAt: Created at

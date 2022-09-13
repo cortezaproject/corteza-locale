@@ -83,6 +83,7 @@ edit:
       connection:
         label: Connection
         placeholder: Select a connection
+        description: Changing the connection will reset the sensitivity level configuration on the module and fields, if the sensitivity level is incompatible with the new connection
       ident:
         label: Identifier
         placeholder: compose_record
@@ -96,7 +97,7 @@ edit:
       sensitivity-level:
         label: Highest allowed allowed sensitivity level
         placeholder: Select a sensitivity level
-        description: Highest allowed level of sensitivity for fields on this module
+        description: Highest allowed level of sensitivity for fields on this module, changing this value will reset the sensitivity level of fields if they are incompatible.
       usage-disclosure:
         label: Sensitive data usage disclosure (visible on data-privacy console)
 

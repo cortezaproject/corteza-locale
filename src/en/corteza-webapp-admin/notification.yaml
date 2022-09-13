@@ -254,4 +254,6 @@ connection:
   undelete:
     success: Connection restored
     error: Connection restore failed
-
+sensitivity-level:
+  fetch:
+    error: Sensitivity level fetch failed
