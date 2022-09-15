@@ -77,6 +77,10 @@ edit:
     required: Required field
     title: The name displayed in form input / data lists
 
+  issues:
+    label: Issues ({{count}})
+
+
   config:
     dal:
       title: Data store
@@ -92,6 +96,23 @@ edit:
       connections:
         fetch-failed: Could not fetch available connections
 
+      system-fields:
+        label: System field mapping and encoding
+        description: |
+          System fields are used to store metadata about the record. Configure to skip or store them into a different column or encode them into JSON document.
+
+        editor:
+          strategies:
+            default:
+              label: Default
+            json:
+              label: JSON
+            alias:
+              label: Alias
+
+          ident:
+            placeholder: Field or database table column name
+
     privacy:
       title: Privacy Settings
       sensitivity-level:
@@ -106,7 +127,6 @@ edit:
 
       sensitivity-levels:
         fetch-failed: Could not fetch sensitivity levels
-
 
     record-revisions:
       title: Record Revisions
