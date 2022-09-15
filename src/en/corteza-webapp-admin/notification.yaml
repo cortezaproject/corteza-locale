@@ -206,6 +206,9 @@ sensitivityLevel:
   create:
     success: Sensitivity level created
     error: Sensitivity level create failed
+  delete:
+    success: Sensitivity level deleted
+    error: Sensitivity level delete failed
 settings:
   system:
     fetch:

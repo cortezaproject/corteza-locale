@@ -39,7 +39,7 @@ function:
     option-select: Select an option
     result: Result
     results: Results
-    add-results: +Add result
+    add-result: + Add result
     select-function: Select function
     type: Type
     type*: Type*
