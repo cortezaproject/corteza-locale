@@ -77,7 +77,7 @@ kind:
         warning: Warning
       thresholds:
         label: Thresholds
-        description: Set which variant to show if value exceeds the threshold
+        description: Set which variant to show if value is equal or larger than the threshold
   record:
     currentUnnamedModule: (Current unnamed module)
     label: Record

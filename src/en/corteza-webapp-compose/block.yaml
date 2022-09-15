@@ -484,6 +484,7 @@ progress:
   animated: Animated
   default-variant: Default variant
   display-options: Display options
+  fetch-failed: Failed to fetch progress bar report
   field:
     label: Field
     select: Select field
@@ -501,7 +502,7 @@ progress:
   thresholds: Thresholds
   threshold:
     label: Threshold
-    variant: Set which variant to show if value exceeds the threshold
+    variant: Set which variant to show if value is equal or larger than the threshold
   value:
     label: Value
     max: Maximum value
