@@ -396,7 +396,7 @@ recordRevisions:
       no-record: No record found to display revisions for.
       disabled-on-module: Record revisions are disabled on this module.
 
-    show-revisions: Show record revisions ({{ revision }}).
+    show-revisions: Show record revisions ({{ revision }})
     show-changes: "{{ count }} change(s)"
     revisions:
       columns:
