@@ -148,6 +148,19 @@ edit:
         placeholder: compose_record_revisions
         description: 'Name of the database table or collection where revisions records can be accessed and stored. Supports partitioning placeholders: {{module}} for module handle and {{namespace}} for namespace handle'
 
+    validation:
+      title: Validation
+
+      record-duplication:
+        title: Record duplication detection
+        strict-fields:
+          label: Strict fields
+          description: These fields will raise a validation error when duplicate value is detected
+        non-strict-fields:
+          label: Non strict fields
+          description: These fields will display a warning under the field when duplicate value is detected
+
+
 federated: Federated
 forModule:
   recordList: Record List for module
