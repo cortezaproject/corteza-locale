@@ -134,9 +134,6 @@ edit:
       usage-disclosure:
         label: Sensitive data usage disclosure (visible on data-privacy console)
 
-      data-source: Data Source
-      select-data-source: Select a Data Source
-
       sensitivity-levels:
         fetch-failed: Could not fetch sensitivity levels
 
