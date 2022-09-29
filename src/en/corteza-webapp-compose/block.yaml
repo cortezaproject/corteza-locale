@@ -89,7 +89,6 @@ chart:
         week: WEEK
         year: YEAR
   label: Chart
-  noChart: No charts
   pick: Pick a chart
   preview:
     chartId: Chart preview (ID {{0}})

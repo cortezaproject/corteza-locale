@@ -133,3 +133,12 @@ field:
   kind:
     user:
       suggestionPlaceholder: Start typing to search for users by email or name
+resourceList:
+  notFound: Not found
+  noItems: No items to show
+  pagination:
+    next: Next
+    prev: Previous
+    showing: '{{from}} - {{to}} of {{count}} items'
+    single: One item
+    single_plural: '{{count}} items'

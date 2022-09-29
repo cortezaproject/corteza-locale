@@ -4,6 +4,9 @@ general:
   error: Error
   success: Success
   warning: Warning
+list:
+  load:
+    error: Failed to load resource list
 module:
   fetch-failed: Failed to fetch modules
 namespace:

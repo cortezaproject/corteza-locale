@@ -38,6 +38,9 @@ general:
     readingError: Error reading file
     successful: Import successful
     typeMissmatch: 'Import error: trying to import object of type "{{type1}}" into a list of objects of type "{{type2}}"'
+list:
+  load:
+    error: Failed to load resource list
 module:
   createFailed: Could not create a module
   deleteFailed: Could not delete this module
