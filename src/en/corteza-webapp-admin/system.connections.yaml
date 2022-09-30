@@ -10,9 +10,15 @@ list:
   title: List of database connections
   add-button: Add connection
   loading: Loading connections
-  filter-form:
-    query:
-      placeholder: Search by name
+  filterForm:
+    deleted:
+      label: deleted connections
+    excluded:
+      label: Without
+    exclusive:
+      label: Only
+    inclusive:
+      label: Including
   columns:
     name: Name
     location: Location
