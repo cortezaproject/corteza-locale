@@ -9,6 +9,7 @@ primary:
 list:
   title: List of database connections
   add-button: Add connection
+  loading: Loading connections
   filter-form:
     query:
       placeholder: Search by name
