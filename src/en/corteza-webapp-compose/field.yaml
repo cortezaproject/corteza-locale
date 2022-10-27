@@ -38,7 +38,7 @@ kind:
       modeLabel: View mode
       showName: Hide file name
       single: Single image
-      style: Style
+      previewStyle: Preview style
       height: Height
       width: Width
       maxHeight: Max height
