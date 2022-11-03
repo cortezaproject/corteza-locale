@@ -25,7 +25,7 @@ editor:
         email-confirmation-required: Signup email confirmation required
         enabled: Signup enabled
         split-credentials-check:
-          description: 'Split login into two steps: collect the email input first and show the input for the password on the 2nd screen. Automatically forward user to external identity provider when user does not have his password set and there is only one IdP present'
+          description: "Split login into two steps: collect the email input first and show the input for the password on the 2nd screen. Automatically forward user to external identity provider when user does not have his password set and there is only one IdP present"
           label: Enable split-credentials check
     mail:
       title: Authentication email sender mail
@@ -55,7 +55,6 @@ editor:
       header:
         provider: Provider
         info: Issuer, client ID
-
 
     standard:
       enabled: Enabled
@@ -111,7 +110,6 @@ editor:
           ident-identifier: Name of the IdP field used for filling and matching Corteza user email
           ident-name: Name of the IdP field used for filling Corteza user full name
 
-
     security:
       prohibited-roles:
         description: Roles from this list will be removed from security context when authenticates with this provider
@@ -122,3 +120,15 @@ editor:
       permitted-roles:
         description: Only roles in this list will be added into security context when authenticates with this provider
         label: Permitted roles
+
+  bgScreen:
+    title: Auth Background Screen
+
+    image:
+      uploader:
+        title: Background Image
+        instructions: Click or drop background image here to upload
+        uploading: Uploading auth background image
+
+      editor:
+        title: Styles editor
