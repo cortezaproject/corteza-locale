@@ -534,6 +534,7 @@ geometry:
     titleLabel: Title
     titlePlaceholder: Title
     geometryFieldPlaceholder: Geometry field
+    displayMarker: Display marker
   centerLabel: Center
   zoom:
     zoomLabel: Zoom
