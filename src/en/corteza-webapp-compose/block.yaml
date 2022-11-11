@@ -535,6 +535,7 @@ geometry:
     titlePlaceholder: Title
     geometryFieldPlaceholder: Geometry field
     displayMarker: Display marker
+    displayPolygon: Display polygon
   centerLabel: Center
   zoom:
     zoomLabel: Zoom
@@ -543,5 +544,6 @@ geometry:
     zoomStartingLabel: Zoom Starting
   bounds:
     boundsLabel: Bounds
+    lockBounds: Lock bounds
     topLeft: Bounds top left
     lowerRight: Bounds lower right
