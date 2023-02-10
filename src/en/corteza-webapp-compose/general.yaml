@@ -1,4 +1,7 @@
 label:
+  app-name:
+    public: Low Code
+    private: Low Code - Admin
   actions: Actions
   active: Active
   add: Add
@@ -9,9 +12,11 @@ label:
   attributes: Attributes
   back: Back
   backWithoutSave: Back (without saving changes)
+  block: Block
   browse: Browse
   buttons: Buttons
   cancel: Cancel
+  clear: Clear
   clone: Clone
   close: Close
   create: Create
@@ -36,9 +41,10 @@ label:
   multi: Multi value
   name: Name
   next: Next
-  "no": "No"
+  no: No
   noHandle: No handle
   none: None
+  now: Now
   ok: Ok
   openBookmarks: Open bookmarks
   pageBuilder: Page builder
@@ -51,11 +57,13 @@ label:
   remove: Remove
   removeDefault: Remove default
   required: Required
+  reset: Reset
   save: Save
   saveAndClose: Save and close
   status: Status
   timeHour: '{{t}}h'
   timeMinute: '{{t}}min'
+  today: Today
   title: Title
   type: Type
   updatedAt: Updated at
@@ -64,7 +72,7 @@ label:
   urlPlaceholder: https://example.tld
   validation: Validation
   view: View
-  "yes": "Yes"
+  yes: Yes
 navigation:
   chart: Charts
   namespace: Namespaces

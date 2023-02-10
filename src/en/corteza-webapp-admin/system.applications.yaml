@@ -5,7 +5,7 @@ editor:
     deletedAt: Deleted at
     enabled: Enabled
     id: ID
-    name: Name
+    name: Name *
     title: Basic information
     undelete: Undelete
     updatedAt: Updated at
@@ -20,9 +20,10 @@ editor:
       label: Configuration
     listed: Listed
     logo:
-      description: Logo used in the application selector
       label: Logo
+      description: Logo used in the application selector
       placeholder: Choose a logo or drop it here...
+      reset: Reset
     name:
       description: Name used in the application selector
       label: Name
@@ -38,6 +39,7 @@ list:
     enabled: Enabled
     name: Name
     appListName: App selector name
+  export: Export
   filterForm:
     deleted:
       label: deleted applications

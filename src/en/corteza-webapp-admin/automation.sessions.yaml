@@ -13,6 +13,8 @@ editor:
     status: Status
     title: Basic information
     workflowID: WorkflowID
+    openWorkflow: Open workflow
+    cancel: Cancel session
   title: Session
 list:
   columns:
