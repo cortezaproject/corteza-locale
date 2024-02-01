@@ -51,7 +51,7 @@ automation:
   list:
     column:
       label:
-        async: Async.
+        async: Async
         critical: Critical
         enabled: Enabled
         runAs: Run As
@@ -84,10 +84,10 @@ general:
   noAccess: You do not have permissions to access Admin panel
   pagination:
     next: Next
-    prev: Prev
-    showing: '{{from}} - {{to}} of {{count}} items'
-    single: One item
-    single_plural: '{{count}} items'
+    prev: Previous
+    showing: '{{from}} - {{to}} of {{count}} {{data}}'
+    single: 'One {{data}}'
+    single_plural: '{{count}} {{data}}'
 navigation:
   adminPanel: Admin panel
   automation: Automation
@@ -109,3 +109,8 @@ navigation:
     loggedInAs: Logged in as {{user}}
     logout: Logout
     profile: Profile
+picker:
+  role:
+    placeholder: Start typing to search for roles
+  member:
+    placeholder: Start typing to search for users

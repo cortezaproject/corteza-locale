@@ -28,10 +28,10 @@ editor:
     deletedAt: Deleted at
     handle: Handle
     placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long and start with a letter. Can contain only letters, numbers, dashes, underscores and dots
+    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, dashes, underscores and dots. Must end with letter or number
     meta:
       description: Description
-      short: Short name
+      short: Short name *
     partial: Partial template
     partialDescription: Partial templates may be used inside other templates such as headers and footers. Partial templates may not be used on their own.
     title: Basic information
@@ -52,6 +52,8 @@ list:
     meta:
       short: Short name
     state: State
+  delete: Delete
+  undelete: Undelete
   export: Export
   rows:
     filters:

@@ -3,6 +3,7 @@ ui:
   cancel: Cancel
   set-for: Set permissions for {{target}}
   loading: Loading permissions
+  label: Permissions
 
   edit:
     label: User roles
@@ -38,6 +39,7 @@ resources:
     chart:
       all: all charts
       specific: chart "{{target}}"
+      tooltip: Chart permissions
       operations:
         delete:
           description: 'Default: deny'
@@ -163,6 +165,36 @@ resources:
           description: 'Default: deny'
           specific: Update page "{{target}}"
           title: Update any page
+        page-layout.create:
+          description: 'Default: deny'
+          specific: Create page layouts for page "{{target}}"
+          title: Create page layout
+        page-layouts.search:
+          description: 'Default: deny'
+          specific: List page layouts for page "{{target}}"
+          title: List page layout
+
+    page-layout:
+      all: all page layouts
+      specific: page layout "{{target}}"
+      tooltip: Page layout permissions
+      all-specific: all page layouts of page "{{ target }}"
+      operations:
+        read:
+          description: 'Default: deny'
+          specific: Read page layout "{{target}}"
+          title: Read any page layout
+          all-specific: Read page layouts of page "{{ target }}"
+        update:
+          description: 'Default: deny'
+          specific: Update page layout "{{target}}"
+          title: Update any page layout
+          all-specific: Update page layouts of page "{{ target }}"
+        delete:
+          description: 'Default: deny'
+          specific: Delete page layout "{{target}}"
+          title: Delete any page layout
+          all-specific: Delete page layouts of page "{{ target }}"
 
     record:
       all: all records
@@ -175,6 +207,11 @@ resources:
           specific: Delete record "{{target}}"
           title: Delete records of any module
           all-specific: Delete records of module "{{ target }}"
+        undelete:
+          description: 'Default: deny'
+          specific: Restore record "{{target}}"
+          title: Restore records of any module
+          all-specific: Restore records of module "{{ target }}"
         read:
           description: 'Default: deny'
           specific: Read record "{{target}}"

@@ -43,6 +43,15 @@ user:
     error: User suspension failed
   import:
     success: Users imported successfully
+  avatarUpload:
+    success: Avatar updated
+    error: Avatar upload failed
+  avatarSettings:
+    success: Avatar settings updated
+    error: Avatar settings update failed
+  avatarDelete:
+    success: Avatar deleted
+    error: Avatar delete failed
 role:
   fetch:
     error: Role fetch failed
@@ -156,6 +165,12 @@ gateway:
   undelete:
     success: Route restored
     error: Route restore failed
+  profiler:
+    fetch:
+      error: Requests fetch failed
+    purge:
+      success: Requests purged
+      error: Requests purge failed
 workflow:
   fetch:
     error: Workflow fetch failed
@@ -231,6 +246,16 @@ settings:
     external:
       success: External settings updated
       error: External settings update failed
+    bgScreen:
+      style:
+        success: Auth background styles updated
+        error: Auth background styles update failed
+    smtpCheck:
+      success: SMTP configuration check  passed
+      error: SMTP configuration check failed
+    apigw:
+      success: Integration gateway settings saved
+      error: Integration gateway settings update failed
   compose:
     fetch:
       error: Compose settings fetch failed

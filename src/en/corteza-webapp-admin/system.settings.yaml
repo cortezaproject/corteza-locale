@@ -27,24 +27,33 @@ editor:
         split-credentials-check:
           description: 'Split login into two steps: collect the email input first and show the input for the password on the 2nd screen. Automatically forward user to external identity provider when user does not have his password set and there is only one IdP present'
           label: Enable split-credentials check
+      profile-avatar:
+        enabled: Profile avatar enabled
+      send-user-invite-email:
+        title: Invite email
+        enabled: Send invite email on user creation
+        description: When enabled, this configuration sends an invite email to a newly created user via the CLI
+        expires:
+          label: Valid for
+          description: How long will the invite token be valid before it expires
     mail:
       title: Authentication email sender mail
       from-address: Sender's address
       from-name: Sender's name
-      validate-email: Please enter valid email address.
+      validate-email: Please enter valid email address
     mfa:
       title: Multi-factor authentication
       TOTP:
         enabled: Allow users to use time based one-time-password (using mobile application)
         enforced: Force users to use time based one-time-password (using mobile application)
         issuer:
-          description: Issuer name will be send to authenticator app when user configures it.
+          description: Issuer name will be send to authenticator app when user configures it
           label: Issuer
       emailOTP:
         enabled: Allow users to use one-time-password over email
         enforced: Force users to use one-time-password over email
         expires:
-          description: How long will password be valid before it expires.
+          description: How long will password be valid before it expires
           label: Valid for
 
   external:
@@ -56,9 +65,9 @@ editor:
         provider: Provider
         info: Issuer, client ID
 
-
     standard:
       enabled: Enabled
+      apiAccess: Api access
       clientKey: Client key
       clientSecret: Secret
 
@@ -122,3 +131,15 @@ editor:
       permitted-roles:
         description: Only roles in this list will be added into security context when authenticates with this provider
         label: Permitted roles
+
+  bgScreen:
+    title: Auth background screen
+
+    image:
+      uploader:
+        title: Background image
+        instructions: Click or drop background image here to upload
+        uploading: Uploading auth background image
+
+      editor:
+        title: Styles editor

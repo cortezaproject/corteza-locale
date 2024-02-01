@@ -7,7 +7,7 @@ block:
   save: Save Block
   title: Block title
   configuration: Block configuration
-datasource: 
+datasource:
   label: Datasource
   types:
     load:
@@ -59,6 +59,10 @@ tooltip:
   edit:
     report: Edit report
     block: Edit block
+  add:
+    displayElement: Add display element
+  delete:
+    block: Delete block
   configure-scenarios: Configure scenarios
 available-columns: Available columns
 selected-columns: Selected columns
@@ -69,3 +73,16 @@ select-all: Select all
 unselect-all: Unselect all
 value: Value
 name: Name
+unsaved-changes: Unsaved changes will be lost. Do you wish to leave the page?
+filter:
+  operators:
+    like: Like
+    notLike: Not Like
+    contains: Contains
+    notContains: Not contains
+    equal: Equal
+    greaterThan: Greater than
+    greaterThanEqualTo: Greater than or equal to
+    lessThanEqualTo: Less than or equal to
+    lessThan: Less than
+    notEqual: Not equal

@@ -11,7 +11,7 @@ editor:
     email: Email *
     handle: Handle
     placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long and start with a letter. Can contain only letters, numbers, dashes, underscores and dots
+    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, dashes, underscores and dots. Must end with letter or number
     name: Full name
     revokeAllSession: Revoke all active sessions
     suspend: Suspend
@@ -20,12 +20,24 @@ editor:
     undelete: Undelete
     unsuspend: Unsuspend
     updatedAt: Updated at
+  avatar:
+    title: Profile avatar
+    preview:
+      label: Avatar
+      title: Avatar
+    initial:
+      color: Text color
+      backgroundColor: Background color
+    uploader:
+      instructions: Upload avatar
+      uploading: Uploading user avatar
+    colorPicker: Choose a color
   mfa:
     TOTP:
       disabled:
-        text: User did not configure TOTP protection.
+        text: User did not configure TOTP protection
       enabled:
-        text: User configured TOTP protection auth mobile app.
+        text: User configured TOTP protection auth mobile app
       remove:
         label: Remove
     emailOTP:
@@ -33,14 +45,14 @@ editor:
         label: Disable
       disabled:
         text: |-
-          Email OTP protection is disabled for this user.
-          Email with the security code on each login will not be sent.
+          Email OTP protection is disabled for this user
+          Email with the security code on each login will not be sent
       enable:
         label: Enable
       enabled:
         text: |-
-          Email OTP protection is enabled for this user.
-          User will receive email with the security code on each login.
+          Email OTP protection is enabled for this user
+          User will receive email with the security code on each login
     title: Multi-factor authentication
   new: New
   password:
@@ -69,6 +81,11 @@ list:
     handle: Handle
     name: Name
     state: State
+  suspend: Suspend
+  unsuspend: Unsuspend
+  delete: Delete
+  undelete: Undelete
+  revokeActiveSession: Revoke Session
   export: Export
   rows:
     filters:

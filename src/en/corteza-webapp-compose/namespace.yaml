@@ -19,6 +19,7 @@ clone: Clone namespace
 cloneSuffix: copy
 cloneWarning:
   wfInclusion: Workflows and other automation are not cloned. Use the workflow editor interface to clone the ones you need.
+create: Create namespace
 export: Export namespace
 enabled:
   label: Enable namespace
@@ -37,24 +38,27 @@ name:
   label: Full namespace name *
   placeholder: Enter namespace name
 noResults: No namespaces found
+searchPlaceholder: Type here to search among all namespaces...
 setPermissions: Set namespace permissions
 slug:
   description: The short name will be used in the URL
-  label: Short name *
+  label: Short name
   placeholder: Enter a short name for the namespace
-  invalid-handle-characters: Should be at least 2 characters long and start with a letter. Can contain only letters, numbers, dashes, underscores and dots
+  invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, dashes, underscores and dots. Must end with letter or number
 subtitle:
   label: Subtitle
   placeholder: Enter namespace subtitle
-title: Low Code Namespaces
+title: Namespaces
 tooltip:
   translations: Namespace translations
-visit: Visit namespace
-
+visit: View namespace
+configure: Configure namespace
 
 manage:
   title: Manage namespaces
   list-view: Back to namespace list
+  delete: Delete
+  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
 
   disabled: Disabled
 
@@ -62,11 +66,14 @@ manage:
     buttons:
       create: Create new namespace
       permissions: Permissions
-    search:
-      placeholder: Type here to search among all namespaces...
 
   table:
     columns:
+      enabled: Enabled
       name: Name
-      handle: Handle
-      last-change: Last change
+      slug: Short name
+      changedAt: Last change
+
+sidebar:
+  configure: Namespace pages
+  hide: Hide sidebar on namespace public pages

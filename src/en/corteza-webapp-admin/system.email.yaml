@@ -18,7 +18,7 @@ editor:
 
     from:
       label: Sender address
-      description: Options, a default sender address (FROM header) used when sending emails.
+      description: Default sender address (FROM header) used when sending emails.
 
     tlsInsecure:
       label: Allow use of invalid certificates
@@ -27,3 +27,6 @@ editor:
     tlsServerName:
       label: TLS Server name
       description: Optional, If SMTP server uses a different value than used for the server name.
+    
+    testSmtpConfigs:
+      button: Test SMTP Server

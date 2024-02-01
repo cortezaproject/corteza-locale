@@ -28,11 +28,21 @@ field:
 field-datetime:
   valueNotFuture: Past value on future only field
   valueNotPast: Future value on past only field
+field-geometry:
+  geolocationErrors:
+    permissionDenied: User denied the request for geolocation
+    positionUnavailable: Location information is unavailable
+    timeout: The request to get user location timed out
+    unknownError: An unknown error occurred
+    notSupported: Geolocation is not supported by this browser
+    errorOccurred: An error occurred while getting user location
+    locationSearchFailed: Location search failed
 general:
   composeAccessNotAllowed: Not allowed to access Compose
   error: Error
   success: Success
   warning: Warning
+  info: Notice
   import:
     failed: Import failed
     readingError: Error reading file
@@ -42,6 +52,7 @@ list:
   load:
     error: Failed to load resource list
 module:
+  created: Module created
   createFailed: Could not create a module
   deleteFailed: Could not delete this module
   deleted: Module deleted
@@ -59,6 +70,7 @@ namespace:
     saveFailed: Could not save namespace application
   assetUploadFailed: Could not upload attached assets
   createFailed: Could not create namespace
+  deleted: Namespace deleted
   deleteFailed: Could not delete this namespace
   disabled: Namespace disabled - redirecting
   saveFailed: Could not save this namespace
@@ -67,31 +79,68 @@ namespace:
   imported: Namespace imported
   importFailed: Namespace failed to import
 page:
+  block:
+    calendar:
+      eventFetchFailed: Could not fetch  list of events
   createFailed: Could not create a page
+  cloneFailed: Could not clone this page
   deleteFailed: Could not delete this page
+  iconFetchFailed: Could not fetch list of icons
   loadFailed: Could not load the page tree
   noPages: No pages found
   saveFailed: Could not save this page
   saveFailedRequired: Could not save this page, all required module fields must be present
   saved: Page saved
+  copySuccess: Block has been copied successfully
+  cloneSuccess: Block has been cloned to the bottom of the page
+  pasteSuccess: Block has been pasted to the bottom of the page
+  duplicateFailed: Could not duplicate block
+  blockWaiting: There is a page block awaiting
+  copyFailed: Could not copy page block {{reason}}
+  invalidBlock: Not a valid page block
+  page-layout:
+    notFound:
+      edit: No page layout, create one to edit it
+      view: No page layout found, create one to view the page
+    save:
+      success: Layout saved
+      failed: Failed to save layout
+    clone:
+      success: Layout cloned and selected
+      failed: Failed to clone layout
+    delete:
+      success: Layout deleted
+      failed: Failed to delete layout
 record:
   createFailed: Could not create record
+  createSuccess: Record created
+  updateFailed: Could not update record
+  updateSuccess: Record updated
   deleteFailed: Could not delete record
+  deleteSuccess: Record deleted
+  restoreFailed: Could not restore record
+  restoreSuccess: Record restored
   deleteBulkFailed: Could not delete selected records
+  deleteBulkRecordUpdateFailed: Could not update selected records
   deleteBulkSuccess: Successfully deleted selected records
+  bulkRecordUpdateSuccess: Successfully updated selected records
+  restoreBulkFailed: Could not restore selected records
+  restoreBulkSuccess: Successfully restored selected records
   invalidOwnerVar: Can not use ${ownerID} variable in non-record pages
   invalidRecordVar: Can not use ${record...} variable in non-record pages
   listLoadFailed: Could not load record list
   loadFailed: Could not load record
+  countFailed: Failed to fetch number of avaiable records
   moduleMismatch: Module incompatible, module mismatch
   moduleNotDefined: Record module not defined
   moduleOrPageNotSet: 'RecordList block error: module or page option not set'
   unexpectedInput: Unexpected input for values property, should be an array with name-value object pairs
   unexpectedValue: Unexpected value for record module ({{type}})
-  updateFailed: Could not update record
   validationErrors: check error messages on the form
   validationWarnings: Record saved successfully, check warning messages on the form
   staleDataRefresh: Stale record data, all unsaved changes will be lost. Do you wish to refresh the data now?
+  fieldConditions:
+    failed: Failed to evaluate record block field conditions
 record-list:
   corrupted-filter: Corrupted filter
   incorrect-filter-structure: Incorrect structure of filter {{filterID}}
@@ -106,4 +155,5 @@ connection:
   read-failed: Failed to read connection
 sensitivity-level:
   fetch-failed: Failed to fetch sensitivity levels
-
+evaluate:
+  failed: Failed to evaluate expression
