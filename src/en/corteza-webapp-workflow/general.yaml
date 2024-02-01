@@ -1,6 +1,8 @@
 clear: Clear
 description: Description
 enabled: Enabled
+enable: Enable
+disable: Disable
 error: Error
 error-expression: Error message (expression)
 export: Export
@@ -11,10 +13,12 @@ import:
   label: Import
   reassign-run-as: "NOTE: the Run as workflow property won't be imported and should be reassigned"
   upload-files: Browse or drop files to upload...
-label: Label
+label:
+  all: All
+  label: Label
 loading: Loading
 name: Name
-new-workflow: New Workflow 
+new-workflow: New Workflow
 none: None
 now: Now
 
@@ -46,6 +50,7 @@ resourceList:
     showing: '{{from}} - {{to}} of {{count}} {{data}}'
     single: 'One {{data}}'
     single_plural: '{{count}} {{data}}'
+    recordsPerPage: Records per page
 
 tooltip:
   permissions: Workflow permissions
@@ -54,3 +59,8 @@ columns:
   enabled: Enabled
   steps: Steps
   changedAt: Last change
+
+themes:
+  labels:
+    light: Light
+    dark: Dark

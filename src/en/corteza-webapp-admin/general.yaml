@@ -1,4 +1,7 @@
 label:
+  general:
+    yes: Yes
+    no: No
   template:
     single: Template
     plural: Templates
@@ -34,6 +37,7 @@ label:
     plural: Workflows
   plus-add: + Add
   clear: Clear
+  all: All
   none: None
   now: Now
   today: Today
@@ -50,3 +54,11 @@ label:
   fileTypeNotAllowed: File type not allowed
 editor:
   unsavedChanges:  Unsaved changes will be lost. Do you wish to leave the page?
+resourceList:
+  pagination:
+    recordsPerPage: Records per page
+    
+themes:
+  labels:
+    light: Light
+    dark: Dark

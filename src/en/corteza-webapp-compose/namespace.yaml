@@ -4,12 +4,14 @@ application:
   label: Enable on application list
 clickOpen: Click to open
 import:
-  buttonLabel: Import namespace
+  buttonLabel: Import
   title: Import namespace
   uploadFileLabel: Upload the file you want to import (.zip format)
   uploadFilePlaceholder: Click or drop file here to upload (.zip format)
   back: Back
   import: Import
+  slug:
+    label: Short name *
 description:
   label: Namespace description
   placeholder: Enter namespace description
@@ -20,7 +22,7 @@ cloneSuffix: copy
 cloneWarning:
   wfInclusion: Workflows and other automation are not cloned. Use the workflow editor interface to clone the ones you need.
 create: Create namespace
-export: Export namespace
+export: Export
 enabled:
   label: Enable namespace
 icon:
@@ -64,7 +66,7 @@ manage:
 
   toolbar:
     buttons:
-      create: Create new namespace
+      create: New Namespace
       permissions: Permissions
 
   table:

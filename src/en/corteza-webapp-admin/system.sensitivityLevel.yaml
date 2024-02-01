@@ -1,5 +1,5 @@
 editor:
-  new: New
+  new: New Sensitivity Level
   title:
     create: Create sensitivity level
     edit: Edit sensitivity level
@@ -13,6 +13,7 @@ editor:
     description: Description
     level: Level {{level}}
     createdAt: Created at
+    createdBy: Created by
     delete: Delete
     deletedAt: Deleted at
     undelete: Undelete
@@ -21,7 +22,7 @@ editor:
 list:
   title: Sensitivity Levels
   loading: Loading sensitivity levels
-  new: New
+  new: New Sensitivity Level
   columns:
     actions: ''
     'meta.name': Name

@@ -1,4 +1,5 @@
 page-layout:
+  layouts: Layouts
   title: Title *
   handle: Handle
   add: Add layout
@@ -10,6 +11,8 @@ page-layout:
     title: Use the layout title instead of the record page default. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
     configure: Configure layout
     builder: Open layout in builder
+    performance:
+      condition: Using visibility conditions will impact performance
   condition:
     label: Condition
     placeholder: When will the layout be shown
@@ -35,18 +38,28 @@ page-layout:
       buttonLabel: Label
       variant: Variant
       visible: Visible
+      kind:
+        label: Type
+        toLayout: Redirect to layout
+        toURL: Redirect to URL
       placement:
         label: Placement
         start: Start
         center: Center
         end: End
-      layout:
+      openIn:
+        label: Open in
+        sameTab: Same tab
+        newTab: New tab
+      toLayout:
         label: Redirect to layout
         placeholder: No layout selected
+      toURL:
+        label: Redirect to URL
+        placeholder: No URL specified
 
 block:
   general:
-    changeBlock: Change existing block
     label:
       cancel: Cancel
       noHandle: No handle
@@ -58,6 +71,7 @@ block:
     title: Add new block
     invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, dashes, underscores and dots. Must end with letter or number
 changeBlock: Change existing block
+referencedBlock: This block is used in other layouts
 copyOf: "Copy of {{title}}"
 build:
   addBlock: Add block
@@ -79,6 +93,7 @@ icon:
   page: Page icon
   upload: Upload icon
   list: Uploaded icons
+  delete: Delete selected icon
 url:
   label: Or add URL to icon
 import: 'Import page(s):'

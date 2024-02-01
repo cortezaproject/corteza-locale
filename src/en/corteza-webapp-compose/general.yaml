@@ -36,6 +36,7 @@ label:
   here: here
   home: Home
   import: Import
+  all: All
   importPlaceholder: Upload files to import
   loading: Loading
   makeDefault: Make default
@@ -93,6 +94,7 @@ navigation:
   namespace: Namespaces
   module: Modules
   page: Pages
+  pageLayout: Page Layouts
 placeholder:
   handle: handle (a - z, 0 - 9, underscore, dash)
   sample: Sample
@@ -162,6 +164,7 @@ resourceList:
     showing: '{{from}} - {{to}} of {{count}} {{data}}'
     single: 'One {{data}}'
     single_plural: '{{count}} {{data}}'
+    recordsPerPage: Records per page
 recordNavigation:
   next: Next record
   prev: Previous record
@@ -174,3 +177,10 @@ variants:
   success: Success
   danger: Danger
   warning: Warning
+editor:
+  unsavedChanges:  Unsaved changes will be lost. Do you wish to leave the page?
+
+themes:
+  labels:
+    light: Light
+    dark: Dark

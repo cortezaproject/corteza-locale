@@ -2,6 +2,7 @@ editor:
   info:
     consumer: Consumer
     createdAt: Created at
+    createdBy: Created by
     delete: Delete
     deletedAt: Deleted at
     dispatch_events: Dispatch events
@@ -14,7 +15,7 @@ editor:
     title: Basic information
     undelete: Undelete
     updatedAt: Updated at
-  new: New
+  new: New Queue
   title:
     edit: Edit queue
     new: Add a queue
@@ -23,6 +24,7 @@ list:
     actions: ''
     consumer: Consumer
     createdAt: Created At
+    createdBy: Created by
     state: State
     queue: Queue
   export: Export
@@ -44,5 +46,5 @@ list:
     inclusive:
       label: Including
   loading: Loading messaging queues
-  new: New
+  new: New Queue
   title: Messaging queues

@@ -39,7 +39,8 @@ calendar:
   addEventsSource: Add events source
   calendarHeader: Calendar header
   feedLabel: Configure events source
-  feedPlaceholder: Select a feed source
+  feedPlaceholder: Select an event source
+  eventSource: Event source
   hideHeader: Hide calendar header
   hideNavigation: Hide prev/next button
   hideTitle: Hide title text
@@ -127,7 +128,6 @@ file:
   preview:
     label: File block
 general:
-  changeBlock: Change existing block
   descriptionLabel: Description
   descriptionPlaceholder: Block description
   headerStyle: Block header style (color)
@@ -186,6 +186,7 @@ iframe:
   srcFieldLabel: Field (URL) from record to use for the iframe
   srcLabel: URL to show in the iframe
 metric:
+  metricDrillDown: Metric drill down
   defaultMetricLabel: Unnamed metric
   drillDown:
     label: Drill down
@@ -198,8 +199,9 @@ metric:
     dimensionFieldLabel: Field
     dimensionFieldPlaceholder: Dimension field
     dimensionLabel: Dimension
-    filterFootnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
     filterLabel: Filter
+    filterFootnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
+    transformFootnote: Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available). Make sure to wrap the variables with quotes ("")
     labelLabel: Label
     labelPlaceholder: Label
     metricFieldLabel: Field
@@ -258,13 +260,15 @@ record:
   openInNewTab: Open record in a new tab
   openInModal: Open record in a modal
   fieldConditions:
-    label: Field conditions
+    label: Conditional fields
     action: + Add
     placeholder: When should this field be displayed?
     selectPlaceholder: Select field
     help: Example
     field: Field
     condition: Condition
+    tooltip:
+      performance: Using conditional fields will impact performance
 recordList:
   addRecord: Add
   cancelSelection: Cancel
@@ -287,9 +291,13 @@ recordList:
     reset: Reset
   drillDown:
     filter:
-      label: 'Chart drill down'
+      label: Drill down filter
   tooltip:
     deleteSelected: Delete selected records
+    performance:
+      impact: Using this feature will impact performance
+      moduleFields: Selecting a large number of fields or displaying record/user fields will impact performance
+      perPage: Displaying a large amount of records per page will impact performance, especially if you are displaying record/user fields
     restoreSelected: Restore selected records
   editFields: Editable module fields
   export:
@@ -373,6 +381,7 @@ recordList:
   hideRecordPermissionsButton: Hide record permissions button
   hideRecordReminderButton: Hide record reminder button
   hideRecordViewButton: Hide view record button
+  hideConfigureFieldsButton: Users will be able to configure which fields to display
   enableRecordPageNavigation: Users will be able to navigate to previous/next record
   import:
     dropzoneFileAdded: '{{name}} was uploaded and is ready for import ({{count}} record)'
@@ -414,6 +423,8 @@ recordList:
     showing: '{{from}} - {{to}} of {{count}} records'
     single: One record
     single_plural: '{{count}} records'
+    recordsPerPage: Records per page
+    selectLabel: Select an option
   positionField:
     footnote: Records will be sorted based on this field
     label: Record sort field
@@ -464,6 +475,7 @@ recordList:
     presortInputLabel: Presort
     presortPlaceholder: field1 DESC, field2 ASC
     showTotalCount: Show total record count
+    showRecordPerPageOption: Allow users to select records per page
     showDeletedRecordsOption: Show option to see deleted records
     setCustomFilterPresets: User will be able to set custom filter presets
     openInSameTab: Open record in the same tab
@@ -591,24 +603,24 @@ field:
     modal:
       title: Update record values
 comment:
-  label: 'Comments'
+  label: Comments
   titleField:
-    label: 'Title field'
-    footnote: 'Field value will be used as record title'
+    label: Title field
+    footnote: Field value will be used as record title
   contentField:
-    label: 'Content field'
-    footnote: 'Field value will be used as record content'
-  titleInput: 'Enter comment title'
-  contentInput: 'Enter comment content'
-  submit: 'Submit'
+    label: Content field *
+    footnote: Field value will be used as record content
+  titleInput: Enter comment title
+  contentInput: Enter comment content
+  submit: Submit
   sortDirection:
-    label: 'Sort direction'
-    footnote: 'Field value will be used as sorting direction reference'
-    asc: 'ASC'
-    desc: 'DESC'
+    label: Sort direction
+    footnote: Field value will be used as sorting direction reference
+    asc: ASC
+    desc: DESC
   referenceField:
-    label: 'Reference field'
-    footnote: 'Field value will be used as reference'
+    label: Reference field
+    footnote: Field value will be used as reference
 navigation:
   chart: Charts
   colorPicker: Choose a color
@@ -785,6 +797,7 @@ geometry:
       goToCurrentLocation: Go to current location
 
 tabs:
+  label: Tabs
   alertTitle: Set a title for your block
   title: Tabs
   addTab: + Add
@@ -795,6 +808,7 @@ tabs:
   displayTitle: Display Options
   preview: Live example
   newBlockModal: Add new block
+  unsavedChanges: Unsaved Changes
   placeholder:
     block: Select a block to tab
   style:
@@ -828,8 +842,11 @@ tabs:
         label: Block
   tooltip:
     edit: Edit block
-    editDisabled: Editing tabbed blocks is disabled until you save this block
-    addTab: Add tab
-    addBlock: Add new block
+    clone: Clone block & tab
+    copy: Copy block
     delete: Delete tab
-  label: Tabs
+    editDisabled: Editing tabbed blocks is disabled until you save this block
+    addBlock: Add new block
+
+noConfiguration: Block not configured correctly
+interpolationFootnote: Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)

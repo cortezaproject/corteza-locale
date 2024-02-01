@@ -21,11 +21,33 @@ editor:
     uploader:
       instructions: 'Click or drop favicon file here to upload'
       uploading: 'Uploading favicon'
-  
-  custom-css:
-    title: Custom CSS
-    modal:
-     editor: Custom CSS editor
+
+  corteza-studio:
+    title: Theming
+    colorPicker: Choose a color
+    sassNotInstalled: No dart-sass binaries were detected. For guidance on how to set it up, refer to
+    installSassDocs: docs here
+    custom-css: Custom CSS
+    label:
+      default: Default
+    tabs:
+      general: General
+      light: Light
+      dark: Dark
+    theme:
+      variables:
+        white: White
+        black: Black
+        primary: Primary
+        secondary: Secondary
+        success: Success
+        warning: Warning
+        danger: Danger
+        light: Light
+        extra-light: Extra light
+        body-bg: Body background
+        sidebar-bg: Sidebar background
+        topbar-bg: Topbar background
 
   topbar:
     title: Topbar
@@ -52,4 +74,3 @@ editor:
       invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, dashes, underscores and dots. Must end with letter or number
       url: URL
       new-tab: New tab
-
