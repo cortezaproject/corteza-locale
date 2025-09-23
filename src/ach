@@ -1,25 +1,2 @@
 errors:
-  fieldNotFound: crwdns135447:0{field}crwdne135447:0
-  importSessionAlreadActive: crwdns135449:0crwdne135449:0
-  invalidID: crwdns135451:0crwdne135451:0
-  invalidModuleID: crwdns135453:0crwdne135453:0
-  invalidNamespaceID: crwdns135455:0crwdne135455:0
-  invalidReferenceFormat: crwdns135457:0crwdne135457:0
-  invalidValueStructure: crwdns135459:0{field}crwdne135459:0
-  moduleNotFoundModule: crwdns135461:0crwdne135461:0
-  namespaceNotFound: crwdns135463:0crwdne135463:0
-  notAllowedToChangeFieldValue: crwdns135465:0{field}crwdne135465:0
-  notAllowedToCreate: crwdns135467:0crwdne135467:0
-  notAllowedToDelete: crwdns135469:0crwdne135469:0
-  notAllowedToListRecords: crwdns135471:0crwdne135471:0
-  notAllowedToRead: crwdns135473:0crwdne135473:0
-  notAllowedToReadModule: crwdns135475:0crwdne135475:0
-  notAllowedToReadNamespace: crwdns135477:0crwdne135477:0
-  notAllowedToSearch: crwdns135479:0crwdne135479:0
-  notAllowedToUndelete: crwdns135481:0crwdne135481:0
-  notAllowedToUpdate: crwdns135483:0crwdne135483:0
-  notFound: crwdns135485:0crwdne135485:0
-  staleData: crwdns135487:0crwdne135487:0
-  unknownBulkOperation: crwdns135489:0{bulkOperation}crwdne135489:0
-  valueInput: crwdns135491:0crwdne135491:0
-  maxRecordsReached: crwdns135493:0crwdne135493:0
+  notAllowedToSetPermissions: crwdns135495:0crwdne135495:0
