@@ -1,140 +1,17 @@
-chart:
-  configurator:
-    begin-axis-at-zero: crwdns144699:0crwdne144699:0
-    chart-title: crwdns144701:0crwdne144701:0
-    color-scheme: crwdns144703:0crwdne144703:0
-    data: crwdns144705:0crwdne144705:0
-    data-columns: crwdns144707:0crwdne144707:0
-    default: crwdns144709:0crwdne144709:0
-    default-value: crwdns144711:0crwdne144711:0
-    general: crwdns144713:0crwdne144713:0
-    label-column: crwdns144715:0crwdne144715:0
-    logarithmic-scale: crwdns144717:0crwdne144717:0
-    position-description: crwdns144719:0crwdne144719:0
-    none: crwdns144721:0crwdne144721:0
-    place-axis-on-right-side: crwdns144723:0crwdne144723:0
-    skip-missing-values: crwdns144725:0crwdne144725:0
-    step-size: crwdns144727:0crwdne144727:0
-    animation:
-      enabled: crwdns144729:0crwdne144729:0
-    metrics:
-      label: crwdns144731:0crwdne144731:0
-      field: crwdns144733:0crwdne144733:0
-      stack:
-        label: crwdns144735:0crwdne144735:0
-        description: crwdns144737:0crwdne144737:0
-      label-field:
-        label: crwdns144739:0crwdne144739:0
-    time:
-      label: crwdns144741:0crwdne144741:0
-      unit:
-        label: crwdns144743:0crwdne144743:0
-        types:
-          date: crwdns144745:0crwdne144745:0
-          month: crwdns144747:0crwdne144747:0
-          quarter: crwdns144749:0crwdne144749:0
-          week: crwdns144751:0crwdne144751:0
-          year: crwdns144753:0crwdne144753:0
-    type: crwdns144755:0crwdne144755:0
-    types:
-      bar: crwdns144757:0crwdne144757:0
-      doughnut: crwdns144759:0crwdne144759:0
-      funnel: crwdns144761:0crwdne144761:0
-      line: crwdns144763:0crwdne144763:0
-      pie: crwdns144765:0crwdne144765:0
-    value:
-      max: crwdns144767:0crwdne144767:0
-      min: crwdns144769:0crwdne144769:0
-    x-axis:
-      name: crwdns144771:0crwdne144771:0
-      label: crwdns144773:0crwdne144773:0
-      type: crwdns144775:0crwdne144775:0
-      labelRotation:
-        label: crwdns144777:0crwdne144777:0
-    y-axis:
-      name: crwdns144779:0crwdne144779:0
-      label: crwdns144781:0crwdne144781:0
-      labelPosition:
-        label: crwdns144783:0crwdne144783:0
-        top: crwdns144785:0crwdne144785:0
-        center: crwdns144787:0crwdne144787:0
-        bottom: crwdns144789:0crwdne144789:0
-      labelRotation:
-        label: crwdns144791:0crwdne144791:0
-    legend:
-      name: crwdns144793:0crwdne144793:0
-      hide: crwdns144795:0crwdne144795:0
-      scrollable: crwdns144797:0crwdne144797:0
-      orientation:
-        label: crwdns144799:0crwdne144799:0
-        horizontal: crwdns144801:0crwdne144801:0
-        vertical: crwdns144803:0crwdne144803:0
-      align:
-        label: crwdns144805:0crwdne144805:0
-        left: crwdns144807:0crwdne144807:0
-        right: crwdns144809:0crwdne144809:0
-        center: crwdns144811:0crwdne144811:0
-      position:
-        description: crwdns144813:0crwdne144813:0
-        default: crwdns144815:0crwdne144815:0
-        top: crwdns144817:0crwdne144817:0
-        right: crwdns144819:0crwdne144819:0
-        bottom: crwdns144821:0crwdne144821:0
-        left: crwdns144823:0crwdne144823:0
-    tooltips:
-      name: crwdns144825:0crwdne144825:0
-      show:
-        always: crwdns144827:0crwdne144827:0
-    offset:
-      name: crwdns144829:0crwdne144829:0
-      default: crwdns144831:0crwdne144831:0
-      top: crwdns144833:0crwdne144833:0
-      right: crwdns144835:0crwdne144835:0
-      bottom: crwdns144837:0crwdne144837:0
-      left: crwdns144839:0crwdne144839:0
-metric:
-  configurator:
-    color:
-      background: crwdns144841:0crwdne144841:0
-      text: crwdns144843:0crwdne144843:0
-      picker: crwdns144845:0crwdne144845:0
-    format: crwdns144847:0crwdne144847:0
-    label-column: crwdns144849:0crwdne144849:0
-    none: crwdns144851:0crwdne144851:0
-    prefix: crwdns144853:0crwdne144853:0
-    suffix: crwdns144855:0crwdne144855:0
-table:
-  configurator:
-    general: crwdns144857:0crwdne144857:0
-    data: crwdns144859:0crwdne144859:0
-    columns: crwdns144861:0crwdne144861:0
-    dark: crwdns144863:0crwdne144863:0
-    head-variant: crwdns144865:0crwdne144865:0
-    joined-datasource-handling: crwdns144867:0crwdne144867:0
-    light: crwdns144869:0crwdne144869:0
-    none: crwdns144871:0crwdne144871:0
-    table:
-      options:
-        bordered: crwdns144873:0crwdne144873:0
-        borderless: crwdns144875:0crwdne144875:0
-        dark: crwdns144877:0crwdne144877:0
-        fixed: crwdns144879:0crwdne144879:0
-        hover: crwdns144881:0crwdne144881:0
-        label: crwdns144883:0crwdne144883:0
-        no-collapse: crwdns144885:0crwdne144885:0
-        responsive: crwdns144887:0crwdne144887:0
-        small: crwdns144889:0crwdne144889:0
-        striped: crwdns144891:0crwdne144891:0
-      variant: crwdns144893:0crwdne144893:0
-      variants:
-        danger: crwdns144895:0crwdne144895:0
-        dark: crwdns144897:0crwdne144897:0
-        info: crwdns144899:0crwdne144899:0
-        light: crwdns144901:0crwdne144901:0
-        primary: crwdns144903:0crwdne144903:0
-        secondary: crwdns144905:0crwdne144905:0
-        success: crwdns144907:0crwdne144907:0
-        warning: crwdns144909:0crwdne144909:0
-  view:
-    next: crwdns144911:0crwdne144911:0
-    previous: crwdns144913:0crwdne144913:0
+description: crwdns144915:0crwdne144915:0
+handle-with-star: crwdns144917:0crwdne144917:0
+invalid-handle-characters: crwdns144919:0crwdne144919:0
+name: crwdns144921:0crwdne144921:0
+name-with-star: 'crwdns144923:0crwdne144923:0'
+new-report: crwdns144925:0crwdne144925:0
+permissions: crwdns144927:0crwdne144927:0
+unsavedChanges: crwdns144929:0crwdne144929:0
+report:
+  create: crwdns144931:0crwdne144931:0
+  builder: crwdns144933:0crwdne144933:0
+  description: crwdns144935:0crwdne144935:0
+  edit: crwdns144937:0crwdne144937:0
+placeholder-handle: crwdns144939:0crwdne144939:0
+title: crwdns144941:0crwdne144941:0
+tooltip:
+  view-report: crwdns144943:0crwdne144943:0
