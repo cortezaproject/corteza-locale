@@ -1,238 +1,75 @@
-allRecords:
-  create:
-    title: crwdns142405:0{{name}}crwdne142405:0
-  edit:
-    title: crwdns142407:0{{name}}crwdne142407:0
-  label: crwdns142409:0crwdne142409:0
-  list:
-    title: crwdns142411:0{{name}}crwdne142411:0
-  columns:
-    title: crwdns142413:0crwdne142413:0
-    description: crwdns142415:0crwdne142415:0
-  tooltip:
-    configureColumns: crwdns142417:0crwdne142417:0
-  view:
-    title: crwdns142419:0{{name}}crwdne142419:0
-block:
-  record:
-    recordDeleted: crwdns142421:0crwdne142421:0
-    loadFailed: crwdns142423:0crwdne142423:0
-createLabel: crwdns142425:0crwdne142425:0
-edit:
-  create: crwdns142427:0crwdne142427:0
-  edit: crwdns142429:0crwdne142429:0
-  fields:
-    label: crwdns142431:0crwdne142431:0
-    columns:
-      name:
-        label: crwdns142433:0crwdne142433:0
-      title:
-        label: crwdns142435:0crwdne142435:0
-      type:
-        label: crwdns142437:0crwdne142437:0
-  federationSettings:
-    downstream:
-      allFields: crwdns142439:0crwdne142439:0
-      description: 'crwdns142441:0crwdne142441:0'
-      title: crwdns142443:0crwdne142443:0
-    error:
-      fetch:
-        data: crwdns142445:0crwdne142445:0
-        exposed: crwdns142447:0crwdne142447:0
-        shared: crwdns142449:0crwdne142449:0
-        mmap: crwdns142451:0crwdne142451:0
-        node: crwdns142453:0crwdne142453:0
-      persist:
-        exposed: crwdns142455:0crwdne142455:0
-        shared: crwdns142457:0crwdne142457:0
-        mmap: crwdns142459:0crwdne142459:0
-    general:
-      receive: crwdns142461:0crwdne142461:0
-      send: crwdns142463:0crwdne142463:0
-      title: crwdns142465:0crwdne142465:0
-    noNodes: crwdns142467:0crwdne142467:0
-    noPermission: crwdns142469:0crwdne142469:0
-    pickModule: crwdns142471:0crwdne142471:0
-    pickModuleField: crwdns142473:0crwdne142473:0
-    pickServer: crwdns142475:0crwdne142475:0
-    specificTitle: crwdns142477:0{{handle}}crwdne142477:0
-    title: crwdns142479:0crwdne142479:0
-    upstream:
-      copyFrom: crwdns142481:0crwdne142481:0
-      allFields: crwdns142483:0crwdne142483:0
-      description: crwdns142485:0crwdne142485:0
-      title: crwdns142487:0crwdne142487:0
-  discoverySettings:
-    title: crwdns142489:0crwdne142489:0
-    public: crwdns142491:0crwdne142491:0
-    private: crwdns142493:0crwdne142493:0
-    protected: crwdns142495:0crwdne142495:0
-  fieldPermissions: crwdns142497:0crwdne142497:0
-  manageRecordFields: crwdns142499:0crwdne142499:0
-  moduleFieldSettings: crwdns142501:0crwdne142501:0
-  moduleInfo: crwdns142503:0crwdne142503:0
-  newField: crwdns142505:0crwdne142505:0
-  recordPermissions: crwdns142507:0crwdne142507:0
-  reorderFields: crwdns142509:0crwdne142509:0
-  specificFieldSettings: crwdns142511:0{{name}}crwdne142511:0
-  steps:
-    recordList: crwdns142513:0crwdne142513:0
-    recordPage: crwdns142515:0crwdne142515:0
-  systemFields: 'crwdns142517:0crwdne142517:0'
-  tooltip:
-    attributes: crwdns142519:0crwdne142519:0
-    name: crwdns142521:0crwdne142521:0
-    private: crwdns142523:0crwdne142523:0
-    required: crwdns142525:0crwdne142525:0
-    title: crwdns142527:0crwdne142527:0
-  issues:
-    label: crwdns142529:0{{count}}crwdne142529:0
-  schemaAlterations:
-    title: crwdns142531:0crwdne142531:0
-    resolve: crwdns142533:0crwdne142533:0
-    resolveAuto: crwdns142535:0crwdne142535:0
-    resolved: crwdns142537:0crwdne142537:0
-    dismiss: crwdns142539:0crwdne142539:0
-    waitingFor: 'crwdns142541:0{{id}}crwdne142541:0'
-    noAlterations: crwdns142543:0crwdne142543:0
-    columns:
-      alteration: crwdns142545:0crwdne142545:0
-      change: crwdns142547:0crwdne142547:0
-      status: crwdns142549:0crwdne142549:0
-    params:
-      attribute:
-        add: crwdns142551:0{{ident}}crwdnd142551:0{{storeType}}crwdnd142551:0{{attrType}}crwdne142551:0
-        delete: crwdns142553:0{{ident}}crwdnd142553:0{{storeType}}crwdne142553:0
-        reType: crwdns142555:0{{ident}}crwdnd142555:0{{toType}}crwdne142555:0
-        reEncode: crwdns142557:0{{ident}}crwdnd142557:0{{toType}}crwdne142557:0
-      model:
-        add: crwdns142559:0{{ident}}crwdne142559:0
-        delete: crwdns142561:0{{ident}}crwdne142561:0
-  config:
-    dal:
-      title: crwdns142563:0crwdne142563:0
-      connection:
-        label: crwdns142565:0crwdne142565:0
-        placeholder: crwdns142567:0crwdne142567:0
-        description: crwdns142569:0crwdne142569:0
-      ident:
-        label: crwdns142571:0crwdne142571:0
-        placeholder: crwdns142573:0crwdne142573:0
-        description: "crwdns142575:0{{module}}crwdnd142575:0{{namespace}}crwdne142575:0"
-      connections:
-        fetch-failed: crwdns142577:0crwdne142577:0
-      module-fields:
-        label: crwdns142579:0crwdne142579:0
-        description: |
-          crwdns142581:0crwdne142581:0
-      system-fields:
-        label: crwdns142583:0crwdne142583:0
-        description: |
-          crwdns142585:0crwdne142585:0
-        grouptypes:
-          all: crwdns142587:0crwdne142587:0
-          partition: crwdns142589:0crwdne142589:0
-          userReference: crwdns142591:0crwdne142591:0
-          timestamps: crwdns142593:0crwdne142593:0
-          extras: crwdns142595:0crwdne142595:0
-      encoding-strategy:
-        unavailable: crwdns142597:0crwdne142597:0
-        ident:
-          placeholder: crwdns142599:0crwdne142599:0
-        strategies:
-          plain:
-            label: crwdns142601:0crwdne142601:0
-          alias:
-            label: crwdns142603:0crwdne142603:0
-          json:
-            label: crwdns142605:0crwdne142605:0
-    privacy:
-      title: crwdns142607:0crwdne142607:0
-      sensitivity-level:
-        label: crwdns142609:0crwdne142609:0
-        placeholder: crwdns142611:0crwdne142611:0
-        description: crwdns142613:0crwdne142613:0
-      usage-disclosure:
-        label: crwdns142615:0crwdne142615:0
-      sensitivity-levels:
-        fetch-failed: crwdns142617:0crwdne142617:0
-    record-revisions:
-      title: crwdns142619:0crwdne142619:0
-      enabled: crwdns142621:0crwdne142621:0
-      ident:
-        label: crwdns142623:0crwdne142623:0
-        placeholder: crwdns142625:0crwdne142625:0
-        description: 'crwdns142627:0{{module}}crwdnd142627:0{{namespace}}crwdne142627:0'
-    validation:
-      title: crwdns142629:0crwdne142629:0
-      record-duplication:
-        title: crwdns142631:0crwdne142631:0
-        strict-fields:
-          label: crwdns142633:0crwdne142633:0
-          description: crwdns142635:0crwdne142635:0
-        non-strict-fields:
-          label: crwdns142637:0crwdne142637:0
-          description: crwdns142639:0crwdne142639:0
-    uniqueValues:
-      title: crwdns142641:0crwdne142641:0
-      duplicationDetection: crwdns142643:0crwdne142643:0
-      preventRecordsSave: crwdns142645:0crwdne142645:0
-      warningLabel: crwdns142647:0crwdne142647:0
-      valueModifiers: crwdns142649:0crwdne142649:0
-      multiValues: crwdns142651:0crwdne142651:0
-      add: crwdns142653:0crwdne142653:0
-      searchFields: crwdns142655:0crwdne142655:0
-      ignoreCase: crwdns142657:0crwdne142657:0
-      fuzzyMatch: crwdns142659:0crwdne142659:0
-      soundsLike: crwdns142661:0crwdne142661:0
-      caseSensitive: crwdns142663:0crwdne142663:0
-      oneOf: crwdns142665:0crwdne142665:0
-      equal: crwdns142667:0crwdne142667:0
-      warningMessage: crwdns142669:0crwdne142669:0
-      field: crwdns142671:0crwdne142671:0
-      type: crwdns142673:0crwdne142673:0
-      none: crwdns142675:0crwdne142675:0
-      addNewConstraint: crwdns142677:0crwdne142677:0
-      uniqueValueConstraint: "crwdns142679:0{{index}}crwdne142679:0"
-      tooltip:
-        performance: crwdns142681:0crwdne142681:0
-federated: crwdns142683:0crwdne142683:0
-forModule:
-  recordPage: 'crwdns142685:0{{name}}crwdne142685:0'
-general:
-  fields: crwdns142687:0crwdne142687:0
-  label:
-    attributes: crwdns142689:0crwdne142689:0
-    handle: crwdns142691:0crwdne142691:0
-    name: crwdns142693:0crwdne142693:0
-    permissions: crwdns142695:0crwdne142695:0
-    title: crwdns142697:0crwdne142697:0
-    type: crwdns142699:0crwdne142699:0
-    saveAndClose: crwdns142701:0crwdne142701:0
-  placeholder:
-    name: crwdns142703:0crwdne142703:0
-    handle: crwdns142705:0crwdne142705:0
-    sample: crwdns142707:0crwdne142707:0
-    invalid-handle-characters: crwdns142709:0crwdne142709:0
-import: crwdns142711:0crwdne142711:0
-navigation:
-  module: crwdns142713:0crwdne142713:0
-noModule: crwdns142715:0crwdne142715:0
-noModuleFilter: crwdns142717:0crwdne142717:0
-list:
-  columns:
-    name: crwdns142719:0crwdne142719:0
-    handle: crwdns142721:0crwdne142721:0
-    changedAt: crwdns142723:0crwdne142723:0
-  delete: crwdns142725:0crwdne142725:0
-recordPage:
-  create: crwdns142727:0crwdne142727:0
-  edit: crwdns142729:0crwdne142729:0
-recordListPage:
-  create: crwdns142731:0crwdne142731:0
-  edit: crwdns142733:0crwdne142733:0
-related-pages: crwdns142735:0crwdne142735:0
-searchPlaceholder: crwdns142737:0crwdne142737:0
-title: crwdns142739:0crwdne142739:0
+manage-view:
+  label: crwdns142743:0crwdne142743:0
+application:
+  label: crwdns142745:0crwdne142745:0
+clickOpen: crwdns142747:0crwdne142747:0
+import:
+  buttonLabel: crwdns142749:0crwdne142749:0
+  title: crwdns142751:0crwdne142751:0
+  uploadFileLabel: crwdns142753:0crwdne142753:0
+  uploadFilePlaceholder: crwdns142755:0crwdne142755:0
+  back: crwdns142757:0crwdne142757:0
+  import: crwdns142759:0crwdne142759:0
+  slug:
+    label: crwdns142761:0crwdne142761:0
+description:
+  label: crwdns142763:0crwdne142763:0
+  placeholder: crwdns142765:0crwdne142765:0
+disabled: crwdns142767:0crwdne142767:0
+edit: crwdns142769:0crwdne142769:0
+clone: crwdns142771:0crwdne142771:0
+cloneSuffix: crwdns142773:0crwdne142773:0
+cloneWarning:
+  wfInclusion: crwdns142775:0crwdne142775:0
+create: crwdns142777:0crwdne142777:0
+export: crwdns142779:0crwdne142779:0
+enabled:
+  label: crwdns142781:0crwdne142781:0
+icon:
+  label: crwdns142783:0crwdne142783:0
+  placeholder: crwdns142785:0crwdne142785:0
+label:
+  permissions: crwdns142787:0crwdne142787:0
+logo:
+  label: crwdns142789:0crwdne142789:0
+  placeholder: crwdns142791:0crwdne142791:0
+  show: crwdns142793:0crwdne142793:0
+  preview: crwdns142795:0crwdne142795:0
+  reset: crwdns142797:0crwdne142797:0
+name:
+  label: crwdns142799:0crwdne142799:0
+  placeholder: crwdns142801:0crwdne142801:0
+noResults: crwdns142803:0crwdne142803:0
+searchPlaceholder: crwdns142805:0crwdne142805:0
+setPermissions: crwdns142807:0crwdne142807:0
+slug:
+  description: crwdns142809:0crwdne142809:0
+  label: crwdns142811:0crwdne142811:0
+  placeholder: crwdns142813:0crwdne142813:0
+  invalid-handle-characters: crwdns142815:0crwdne142815:0
+subtitle:
+  label: crwdns142817:0crwdne142817:0
+  placeholder: crwdns142819:0crwdne142819:0
+title: crwdns142821:0crwdne142821:0
 tooltip:
-  permissions: crwdns142741:0crwdne142741:0
+  translations: crwdns142823:0crwdne142823:0
+visit: crwdns142825:0crwdne142825:0
+configure: crwdns142827:0crwdne142827:0
+manage:
+  title: crwdns142829:0crwdne142829:0
+  list-view: crwdns142831:0crwdne142831:0
+  delete: crwdns142833:0crwdne142833:0
+  disabled: crwdns142835:0crwdne142835:0
+  toolbar:
+    buttons:
+      create: crwdns142837:0crwdne142837:0
+      permissions: crwdns142839:0crwdne142839:0
+  table:
+    columns:
+      enabled: crwdns142841:0crwdne142841:0
+      name: crwdns142843:0crwdne142843:0
+      slug: crwdns142845:0crwdne142845:0
+      changedAt: crwdns142847:0crwdne142847:0
+sidebar:
+  configure: crwdns142849:0crwdne142849:0
+  hide: crwdns142851:0crwdne142851:0
