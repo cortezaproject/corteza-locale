@@ -1,2 +1,12 @@
-delete: crwdns145519:0crwdne145519:0
-undelete: crwdns145521:0crwdne145521:0
+appMenu: crwdns145523:0crwdne145523:0
+help:
+  documentation: crwdns145525:0crwdne145525:0
+  feedback: crwdns145527:0crwdne145527:0
+  forum: crwdns145529:0crwdne145529:0
+  version: 'crwdns145531:0crwdne145531:0'
+userSettings:
+  changePassword: crwdns145533:0crwdne145533:0
+  loggedInAs: crwdns145535:0{{user}}crwdne145535:0
+  logout: crwdns145537:0crwdne145537:0
+  profile: crwdns145539:0crwdne145539:0
+  theme: crwdns145541:0crwdne145541:0
