@@ -1,17 +1,105 @@
+primary:
+  title: crwdns138601:0crwdne138601:0
+  name: crwdns138603:0crwdne138603:0
+  handle: crwdns138605:0crwdne138605:0
+  location: crwdns138607:0crwdne138607:0
+  ownership: crwdns138609:0crwdne138609:0
+  sensitivity-level: crwdns138611:0crwdne138611:0
+list:
+  title: crwdns138613:0crwdne138613:0
+  add-button: crwdns138615:0crwdne138615:0
+  loading: crwdns138617:0crwdne138617:0
+  filterForm:
+    deleted:
+      label: crwdns138619:0crwdne138619:0
+    excluded:
+      label: crwdns138621:0crwdne138621:0
+    exclusive:
+      label: crwdns138623:0crwdne138623:0
+    inclusive:
+      label: crwdns138625:0crwdne138625:0
+  columns:
+    name: crwdns138627:0crwdne138627:0
+    location: crwdns138629:0crwdne138629:0
+    ownership: crwdns138631:0crwdne138631:0
+    createdAt: crwdns138633:0crwdne138633:0
+    actions: 'crwdns138635:0crwdne138635:0'
+  delete: crwdns138637:0crwdne138637:0
+  undelete: crwdns138639:0crwdne138639:0
 editor:
-  title: crwdns138579:0crwdne138579:0
-  code-snippets:
-    add: crwdns138581:0crwdne138581:0
-    empty: crwdns138583:0crwdne138583:0
-    enabled: crwdns138585:0crwdne138585:0
-    table-headers:
-      name: crwdns138587:0crwdne138587:0
-      enabled: crwdns138589:0crwdne138589:0
-      script: crwdns138591:0crwdne138591:0
+  title:
+    edit: crwdns138641:0crwdne138641:0
+    create: crwdns138643:0crwdne138643:0
+  basic:
+    title: crwdns138645:0crwdne138645:0
     form:
-      title: crwdns138593:0crwdne138593:0
       name:
-        label: crwdns138595:0crwdne138595:0
-      code:
-        label: crwdns138597:0crwdne138597:0
-        description: crwdns138599:0crwdne138599:0
+        label: crwdns138647:0crwdne138647:0
+        placeholder: crwdns138649:0crwdne138649:0
+        description: 'crwdns138651:0crwdne138651:0'
+      handle:
+        label: crwdns138653:0crwdne138653:0
+        placeholder: crwdns138655:0crwdne138655:0
+        description: crwdns138657:0crwdne138657:0
+        invalid-characters: crwdns138659:0crwdne138659:0
+      location-name:
+        label: crwdns138661:0crwdne138661:0
+        placeholder: crwdns138663:0crwdne138663:0
+        description: crwdns138665:0crwdne138665:0
+      location-geometry:
+        label: crwdns138667:0crwdne138667:0
+        description: crwdns138669:0crwdne138669:0
+        placeholder: crwdns138671:0crwdne138671:0
+      ownership:
+        label: crwdns138673:0crwdne138673:0
+        placeholder: crwdns138675:0crwdne138675:0
+        description: crwdns138677:0crwdne138677:0
+      sensitivity-level:
+        label: crwdns138679:0crwdne138679:0
+        placeholder: crwdns138681:0crwdne138681:0
+        description: crwdns138683:0crwdne138683:0
+  properties:
+    title: crwdns138685:0crwdne138685:0
+    form:
+      data-at-rest-encryption:
+        checkbox:
+          label: crwdns138687:0crwdne138687:0
+        notes:
+          label: crwdns138689:0crwdne138689:0
+          description: crwdns138691:0crwdne138691:0
+      data-at-rest-protection:
+        checkbox:
+          label: crwdns138693:0crwdne138693:0
+        notes:
+          label: crwdns138695:0crwdne138695:0
+          description: crwdns138697:0crwdne138697:0
+      data-at-transit-encryption:
+        checkbox:
+          label: crwdns138699:0crwdne138699:0
+        notes:
+          label: crwdns138701:0crwdne138701:0
+          description: crwdns138703:0crwdne138703:0
+      data-restoration:
+        checkbox:
+          label: crwdns138705:0crwdne138705:0
+        notes:
+          label: crwdns138707:0crwdne138707:0
+          description: crwdns138709:0crwdne138709:0
+  dal:
+    title: crwdns138711:0crwdne138711:0
+    form:
+      model-ident:
+        label: crwdns138713:0crwdne138713:0
+        placeholder: crwdns138715:0crwdne138715:0
+        description: |
+          crwdns138717:0{{module}}crwdnd138717:0{{namespace}}crwdne138717:0
+      type:
+        label: crwdns138719:0crwdne138719:0
+        placeholder: crwdns138721:0crwdne138721:0
+        description: crwdns138723:0crwdne138723:0
+      params:
+        label: crwdns138725:0crwdne138725:0
+        placeholder: crwdns138727:0crwdne138727:0
+        description: 'crwdns138729:0crwdne138729:0'
+    connectivity-issues: crwdns138731:0crwdne138731:0
+    no-access-warning: crwdns138733:0crwdne138733:0
