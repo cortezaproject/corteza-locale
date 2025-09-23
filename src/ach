@@ -1,31 +1,17 @@
-title: crwdns144195:0crwdne144195:0
-connection-location: crwdns144197:0crwdne144197:0
-description:
-  first: crwdns144199:0crwdne144199:0
-  second: crwdns144201:0crwdne144201:0
-user-options:
-  data-overview:
-    title: crwdns144203:0crwdne144203:0
-    description: crwdns144205:0crwdne144205:0
-    button-label: crwdns144207:0crwdne144207:0
-  privacy-requests:
-    title: crwdns144209:0crwdne144209:0
-    description: crwdns144211:0crwdne144211:0
-    button-label: crwdns144213:0crwdne144213:0
-  export:
-    title: crwdns144215:0crwdne144215:0
-    description: crwdns144217:0crwdne144217:0
-    button-label: crwdns144219:0crwdne144219:0
-  delete:
-    title: crwdns144221:0crwdne144221:0
-    description: crwdns144223:0crwdne144223:0
-    button-label: crwdns144225:0crwdne144225:0
-dc-options:
-  privacy-requests:
-    title: crwdns144227:0crwdne144227:0
-    description: crwdns144229:0crwdne144229:0
-    button-label: crwdns144231:0crwdne144231:0
-  sensitive-data:
-    title: crwdns144233:0crwdne144233:0
-    description: crwdns144235:0crwdne144235:0
-    button-label: crwdns144237:0crwdne144237:0
+title: crwdns144239:0crwdne144239:0
+data-types:
+  profile-information:
+    title: crwdns144241:0crwdne144241:0
+    description: crwdns144243:0crwdne144243:0
+  application-data:
+    title: crwdns144245:0crwdne144245:0
+    description: crwdns144247:0crwdne144247:0
+application:
+  title: crwdns144249:0crwdne144249:0
+  connection:
+    label: crwdns144251:0crwdne144251:0
+    placeholder: crwdns144253:0crwdne144253:0
+  no-data-available: crwdns144255:0crwdne144255:0
+  private-fields: crwdns144257:0crwdne144257:0
+  request-correction: crwdns144259:0crwdne144259:0
+  request-deletion: crwdns144261:0crwdne144261:0
