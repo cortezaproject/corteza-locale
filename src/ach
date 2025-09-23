@@ -1,13 +1,6 @@
 errors:
-  alreadyExists: crwdns135807:0crwdne135807:0
-  invalidConsumer: crwdns135809:0crwdne135809:0
-  invalidID: crwdns135811:0crwdne135811:0
-  notAllowedToCreate: crwdns135813:0crwdne135813:0
-  notAllowedToDelete: crwdns135815:0crwdne135815:0
-  notAllowedToRead: crwdns135817:0crwdne135817:0
-  notAllowedToReadFrom: crwdns135819:0crwdne135819:0
-  notAllowedToSearch: crwdns135821:0crwdne135821:0
-  notAllowedToUndelete: crwdns135823:0crwdne135823:0
-  notAllowedToUpdate: crwdns135825:0crwdne135825:0
-  notAllowedToWriteTo: crwdns135827:0crwdne135827:0
-  notFound: crwdns135829:0crwdne135829:0
+  invalidID: crwdns135831:0crwdne135831:0
+  notAllowedToAssign: crwdns135833:0crwdne135833:0
+  notAllowedToDismiss: crwdns135835:0crwdne135835:0
+  notAllowedToRead: crwdns135837:0crwdne135837:0
+  notFound: crwdns135839:0crwdne135839:0
