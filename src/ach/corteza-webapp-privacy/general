@@ -1,0 +1,30 @@
+label:
+  back: crwdns119509:0crwdne119509:0
+  all: crwdns119511:0crwdne119511:0
+  privacy_request:
+    single: crwdns119513:0crwdne119513:0
+    plural: crwdns119515:0crwdne119515:0
+  sensitive_module:
+    single: crwdns119517:0crwdne119517:0
+    plural: crwdns119519:0crwdne119519:0
+resourceList:
+  loading: crwdns119521:0crwdne119521:0
+  noItems: crwdns119523:0crwdne119523:0
+  notFound: crwdns119525:0crwdne119525:0
+  search:
+    placeholder: crwdns119527:0crwdne119527:0
+  pagination:
+    next: crwdns119529:0crwdne119529:0
+    prev: crwdns119531:0crwdne119531:0
+    showing: 'crwdns119533:0{{from}}crwdnd119533:0{{to}}crwdnd119533:0{{count}}crwdnd119533:0{{data}}crwdne119533:0'
+    single_one: 'crwdns119535:0{{data}}crwdne119535:0'
+    single_plural: 'crwdns119537:0{{count}}crwdnd119537:0{{data}}crwdne119537:0'
+    recordsPerPage: crwdns119539:0crwdne119539:0
+themes:
+  labels:
+    light: crwdns119541:0crwdne119541:0
+    dark: crwdns119543:0crwdne119543:0
+extendSession:
+  labels:
+    extend: crwdns119545:0crwdne119545:0
+    warning: crwdns119547:0{{ countdownTime }}crwdne119547:0
