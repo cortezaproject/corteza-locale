@@ -1,17 +1,30 @@
-title: Data Overview
-data-types:
-  profile-information:
-    title: Profile Information
-    description: Your contact information, names, surname, nickname, profile picture
-  application-data:
-    title: Application Data
-    description: Your personal data stored in Corteza
-application:
-  title: Application Data
-  connection:
-    label: Connection
-    placeholder: Select a Connection
-  no-data-available: No data available
-  private-fields: Private Fields
-  request-correction: Request Correction
-  request-deletion: Request Deletion
+label:
+  back: Back
+  all: All
+  privacy_request:
+    single: Privacy Request
+    plural: Privacy Requests
+  sensitive_module:
+    single: Sensitive Module
+    plural: Sensitive Modules
+resourceList:
+  loading: Loading
+  noItems: No items
+  notFound: Not found
+  search:
+    placeholder: Search
+  pagination:
+    next: Next
+    prev: Previous
+    showing: '{{from}} - {{to}} of {{count}} {{data}}'
+    single_one: 'One {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Per Page
+themes:
+  labels:
+    light: Light
+    dark: Dark
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds
