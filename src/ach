@@ -1,26 +1,19 @@
-editor:
-  title: crwdns136397:0crwdne136397:0
-  basic:
-    attachments:
-      max-size: crwdns136399:0crwdne136399:0
-      page: crwdns136401:0crwdne136401:0
-      record: crwdns136403:0crwdne136403:0
-      icon: crwdns136405:0crwdne136405:0
-      type:
-        description: 'crwdns136407:0crwdne136407:0'
-        whitelist: crwdns136409:0crwdne136409:0
-    title: crwdns136411:0crwdne136411:0
-  ui:
-    title: crwdns136413:0crwdne136413:0
-    sidebar:
-      title: crwdns136415:0crwdne136415:0
-      hide-namespace-list: crwdns136417:0crwdne136417:0
-      hide-namespace-list-link: crwdns136419:0crwdne136419:0
-    record-toolbar:
-      title: crwdns136421:0crwdne136421:0
-      hide-submit: crwdns136423:0crwdne136423:0
-      hide-delete: crwdns136425:0crwdne136425:0
-      hide-edit: crwdns136427:0crwdne136427:0
-      hide-new: crwdns136429:0crwdne136429:0
-      hide-clone: crwdns136431:0crwdne136431:0
-      hide-back: crwdns136433:0crwdne136433:0
+applications:
+  applications: crwdns136435:0crwdne136435:0
+  deleted: crwdns136437:0crwdne136437:0
+  title: crwdns136439:0crwdne136439:0
+  total: crwdns136441:0crwdne136441:0
+roles:
+  archived: crwdns136443:0crwdne136443:0
+  deleted: crwdns136445:0crwdne136445:0
+  roles: crwdns136447:0crwdne136447:0
+  title: crwdns136449:0crwdne136449:0
+  total: crwdns136451:0crwdne136451:0
+title: crwdns136453:0crwdne136453:0
+users:
+  created: crwdns136455:0crwdne136455:0
+  deleted: crwdns136457:0crwdne136457:0
+  suspended: crwdns136459:0crwdne136459:0
+  title: crwdns136461:0crwdne136461:0
+  total: crwdns136463:0crwdne136463:0
+  users: crwdns136465:0crwdne136465:0
