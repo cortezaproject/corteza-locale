@@ -1,22 +1,18 @@
 template:
-  title: crwdns135061:0crwdne135061:0
-  password:
-    title: crwdns135063:0crwdne135063:0
-    change-link: crwdns135065:0crwdne135065:0
-  mfa:
-    title: crwdns135067:0crwdne135067:0
-    totp:
-      title: crwdns135069:0crwdne135069:0
-      enforced: crwdns135071:0crwdne135071:0
-      disabled: crwdns135073:0crwdne135073:0
-      configure: crwdns135075:0crwdne135075:0
-      disable: crwdns135077:0crwdne135077:0
-    email:
-      title: crwdns135079:0crwdne135079:0
-      enforced: crwdns135081:0crwdne135081:0
-      disabled: crwdns135083:0crwdne135083:0
-      enable: crwdns135085:0crwdne135085:0
-      disable: crwdns135087:0crwdne135087:0
-    all-disabled: crwdns135089:0crwdne135089:0
+  title: crwdns135093:0crwdne135093:0
+  list:
+    current: crwdns135095:0crwdne135095:0
+    authorized-on: crwdns135097:0crwdne135097:0
+    same-machine: crwdns135099:0crwdne135099:0
+    ip-address: crwdns135101:0crwdne135101:0
+    same-browser: crwdns135103:0crwdne135103:0
+    browser: crwdns135105:0crwdne135105:0
+    expires: crwdns135107:0crwdne135107:0
+    expired: crwdns135109:0crwdne135109:0
+    today: crwdns135111:0crwdne135111:0
+    tomorrow: crwdns135113:0crwdne135113:0
+    soon: crwdns135115:0{{days}}crwdne135115:0
+  delete-all: crwdns135117:0crwdne135117:0
 alerts:
-  topt-disabled: crwdns135091:0crwdne135091:0
+  session-deleted: crwdns135119:0crwdne135119:0
+  delete-sessions-but-current: crwdns135121:0crwdne135121:0
