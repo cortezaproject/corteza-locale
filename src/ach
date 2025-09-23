@@ -1,24 +1,50 @@
 editor:
-  title: crwdns138735:0crwdne138735:0
-  server:
-    title: crwdns138737:0crwdne138737:0
-    host:
-      label: crwdns138739:0crwdne138739:0
-      description: crwdns138741:0crwdne138741:0
-    user:
-      label: crwdns138743:0crwdne138743:0
-      description: crwdns138745:0crwdne138745:0
-    password:
-      label: crwdns138747:0crwdne138747:0
-      description: crwdns138749:0crwdne138749:0
-    from:
-      label: crwdns138751:0crwdne138751:0
-      description: crwdns138753:0crwdne138753:0
-    tlsInsecure:
-      label: crwdns138755:0crwdne138755:0
-      description: crwdns138757:0crwdne138757:0
-    tlsServerName:
-      label: crwdns138759:0crwdne138759:0
-      description: crwdns138761:0crwdne138761:0
-    testSmtpConfigs:
-      button: crwdns138763:0crwdne138763:0
+  info:
+    consumer: crwdns138765:0crwdne138765:0
+    createdAt: crwdns138767:0crwdne138767:0
+    createdBy: crwdns138769:0crwdne138769:0
+    delete: crwdns138771:0crwdne138771:0
+    deletedAt: crwdns138773:0crwdne138773:0
+    dispatch_events: crwdns138775:0crwdne138775:0
+    dispatch_events_desc: crwdns138777:0crwdne138777:0
+    name: crwdns138779:0crwdne138779:0
+    invalid-handle-characters: crwdns138781:0crwdne138781:0
+    poll_delay: crwdns138783:0crwdne138783:0
+    poll_delay_empty: 'crwdns138785:0crwdne138785:0'
+    poll_delay_set: crwdns138787:0crwdne138787:0
+    title: crwdns138789:0crwdne138789:0
+    undelete: crwdns138791:0crwdne138791:0
+    updatedAt: crwdns138793:0crwdne138793:0
+  new: crwdns138795:0crwdne138795:0
+  title:
+    edit: crwdns138797:0crwdne138797:0
+    new: crwdns138799:0crwdne138799:0
+list:
+  columns:
+    actions: 'crwdns138801:0crwdne138801:0'
+    consumer: crwdns138803:0crwdne138803:0
+    createdAt: crwdns138805:0crwdne138805:0
+    createdBy: crwdns138807:0crwdne138807:0
+    state: crwdns138809:0crwdne138809:0
+    queue: crwdns138811:0crwdne138811:0
+  export: crwdns138813:0crwdne138813:0
+  delete: crwdns138815:0crwdne138815:0
+  undelete: crwdns138817:0crwdne138817:0
+  rows:
+    filters:
+      deleted: crwdns138819:0crwdne138819:0
+  filterForm:
+    deleted:
+      label: crwdns138821:0crwdne138821:0
+    excluded:
+      label: crwdns138823:0crwdne138823:0
+    exclusive:
+      label: crwdns138825:0crwdne138825:0
+    handle:
+      label: crwdns138827:0crwdne138827:0
+      placeholder: crwdns138829:0crwdne138829:0
+    inclusive:
+      label: crwdns138831:0crwdne138831:0
+  loading: crwdns138833:0crwdne138833:0
+  new: crwdns138835:0crwdne138835:0
+  title: crwdns138837:0crwdne138837:0
