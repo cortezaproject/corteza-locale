@@ -1,12 +1,11 @@
-adminPanel: Admin panel
-chart: Charts
-manageNamespaces: Manage namespaces
-module: Modules
-noResults: No results
-page: Pages
-pickNamespace: Select a namespace
-publicPages: Public pages
-editNamespace: Edit namespace
-searchPlaceholder:
-  admin: Search resources...
-  public: Search pages...
+title: Filter
+types:
+  title: Types
+  namespace: Namespace
+  module: Module
+  user: User
+  record: Record
+aggregation-groups:
+  modules: Modules
+  namespaces: Namespaces
+reset: Reset
