@@ -1,0 +1,68 @@
+ui:
+  save: crwdns120919:0crwdne120919:0
+  cancel: crwdns120921:0crwdne120921:0
+  set-for: crwdns120923:0{{target}}crwdne120923:0
+  loading: crwdns120925:0crwdne120925:0
+  label: crwdns120927:0crwdne120927:0
+  notification:
+    save:
+      success: crwdns120929:0crwdne120929:0
+      failed: crwdns120931:0crwdne120931:0
+  edit:
+    label: crwdns120933:0crwdne120933:0
+    description: crwdns120935:0crwdne120935:0
+  evaluate:
+    description: crwdns120937:0crwdne120937:0
+  add:
+    label: crwdns120939:0crwdne120939:0
+    title: crwdns120941:0crwdne120941:0
+    save: crwdns120943:0crwdne120943:0
+    role:
+      label: crwdns120945:0crwdne120945:0
+      placeholder: crwdns120947:0crwdne120947:0
+    user:
+      label: crwdns120949:0crwdne120949:0
+      placeholder: crwdns120951:0crwdne120951:0
+  tooltip:
+    unknown-context:
+      user: crwdns120953:0crwdne120953:0
+      role: crwdns120955:0crwdne120955:0
+  access:
+    allow: crwdns120957:0crwdne120957:0
+    inherit: crwdns120959:0crwdne120959:0
+    deny: crwdns120961:0crwdne120961:0
+resources:
+  automation:
+    workflow:
+      all: crwdns120963:0crwdne120963:0
+      specific: crwdns120965:0{{target}}crwdne120965:0
+      tooltip: crwdns120967:0crwdne120967:0
+      operations:
+        delete:
+          description: 'crwdns120969:0crwdne120969:0'
+          specific: crwdns120971:0crwdne120971:0
+          title: crwdns120973:0crwdne120973:0
+        execute:
+          description: 'crwdns120975:0crwdne120975:0'
+          specific: crwdns120977:0crwdne120977:0
+          title: crwdns120979:0crwdne120979:0
+        read:
+          description: 'crwdns120981:0crwdne120981:0'
+          specific: crwdns120983:0crwdne120983:0
+          title: crwdns120985:0crwdne120985:0
+        sessions.manage:
+          description: 'crwdns120987:0crwdne120987:0'
+          specific: crwdns120989:0crwdne120989:0
+          title: crwdns120991:0crwdne120991:0
+        triggers.manage:
+          description: 'crwdns120993:0crwdne120993:0'
+          specific: crwdns120995:0crwdne120995:0
+          title: crwdns120997:0crwdne120997:0
+        undelete:
+          description: 'crwdns120999:0crwdne120999:0'
+          specific: crwdns121001:0crwdne121001:0
+          title: crwdns121003:0crwdne121003:0
+        update:
+          description: 'crwdns121005:0crwdne121005:0'
+          specific: crwdns121007:0crwdne121007:0
+          title: crwdns121009:0crwdne121009:0
