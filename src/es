@@ -1,4 +1,3 @@
-location: Location
-name: Name
-server-details: Server Details
-unnamed-location: Unnamed location
+module: Module
+namespace: Namespace
+no-records: No records
