@@ -1,145 +1,80 @@
 editor:
-  title: crwdns139009:0crwdne139009:0
-  auth:
-    title: crwdns139011:0crwdne139011:0
-    url: crwdns139013:0crwdne139013:0
-    internal:
-      title: crwdns139015:0crwdne139015:0
-      enabled: crwdns139017:0crwdne139017:0
-      password-reset:
-        enabled: crwdns139019:0crwdne139019:0
-      password-constraints:
-        title: crwdns139021:0crwdne139021:0
-        ignored-security: crwdns139023:0crwdne139023:0
-        min-length: crwdns139025:0crwdne139025:0
-        min-length-description: crwdns139027:0crwdne139027:0
-        min-num-count: crwdns139029:0crwdne139029:0
-        min-num-count-description: crwdns139031:0crwdne139031:0
-        min-special-count: crwdns139033:0crwdne139033:0
-        min-special-count-description: crwdns139035:0crwdne139035:0
-        min-upper-case-length: crwdns139037:0crwdne139037:0
-        min-upper-case-description: crwdns139039:0crwdne139039:0
-        min-lower-case-length: crwdns139041:0crwdne139041:0
-        min-lower-case-description: crwdns139043:0crwdne139043:0
-      signup:
-        email-confirmation-required: crwdns139045:0crwdne139045:0
-        enabled: crwdns139047:0crwdne139047:0
-        split-credentials-check:
-          description: 'crwdns139049:0crwdne139049:0'
-          label: crwdns139051:0crwdne139051:0
-      profile-avatar:
-        enabled: crwdns139053:0crwdne139053:0
-      send-user-invite-email:
-        title: crwdns139055:0crwdne139055:0
-        enabled: crwdns139057:0crwdne139057:0
-        description: crwdns139059:0crwdne139059:0
-        expires:
-          label: crwdns139061:0crwdne139061:0
-          description: crwdns139063:0crwdne139063:0
-    mail:
-      title: crwdns139065:0crwdne139065:0
-      from-address: crwdns139067:0crwdne139067:0
-      from-name: crwdns139069:0crwdne139069:0
-      validate-email: crwdns139071:0crwdne139071:0
-    mfa:
-      title: crwdns139073:0crwdne139073:0
-      TOTP:
-        enabled: crwdns139075:0crwdne139075:0
-        enforced: crwdns139077:0crwdne139077:0
-        issuer:
-          description: crwdns139079:0crwdne139079:0
-          label: crwdns139081:0crwdne139081:0
-      emailOTP:
-        enabled: crwdns139083:0crwdne139083:0
-        enforced: crwdns139085:0crwdne139085:0
-        expires:
-          description: crwdns139087:0crwdne139087:0
-          label: crwdns139089:0crwdne139089:0
-    auto-logout:
-      title: crwdns139091:0crwdne139091:0
-      enabled:
-        label: crwdns139093:0crwdne139093:0
-        description: crwdns139095:0crwdne139095:0
-      timeout:
-        label: crwdns139097:0crwdne139097:0
-        description: crwdns139099:0crwdne139099:0
-  external:
-    title: crwdns139101:0crwdne139101:0
-    enabled: crwdns139103:0crwdne139103:0
-    table:
-      header:
-        enabled: crwdns139105:0crwdne139105:0
-        provider: crwdns139107:0crwdne139107:0
-        info: crwdns139109:0crwdne139109:0
-    standard:
-      enabled: crwdns139111:0crwdne139111:0
-      apiAccess: crwdns139113:0crwdne139113:0
-      clientKey: crwdns139115:0crwdne139115:0
-      clientSecret: crwdns139117:0crwdne139117:0
-    oidc:
-      add: crwdns139119:0crwdne139119:0
-      enabled: crwdns139121:0crwdne139121:0
-      handle: crwdns139123:0crwdne139123:0
-      title: crwdns139125:0crwdne139125:0
-      issuer: crwdns139127:0crwdne139127:0
-      issuerHint: crwdns139129:0crwdne139129:0
-      clientKey: crwdns139131:0crwdne139131:0
-      clientSecret: crwdns139133:0crwdne139133:0
-      scope: crwdns139135:0crwdne139135:0
-      scopePlaceholder: crwdns139137:0crwdne139137:0
-      scopeHint: crwdns139139:0crwdne139139:0
-    saml:
-      enabled: crwdns139141:0crwdne139141:0
-      title: crwdns139143:0crwdne139143:0
-      requests:
-        title: crwdns139145:0crwdne139145:0
-        sign-requests: crwdns139147:0crwdne139147:0
-        sign-method: crwdns139149:0crwdne139149:0
-        binding: crwdns139151:0crwdne139151:0
-        binding-redirect: crwdns139153:0crwdne139153:0
-        binding-post: crwdns139155:0crwdne139155:0
-      cert:
-        public: crwdns139157:0crwdne139157:0
-        private: crwdns139159:0crwdne139159:0
-      name: crwdns139161:0crwdne139161:0
-      certificate: crwdns139163:0crwdne139163:0
-      idp:
-        title: crwdns139165:0crwdne139165:0
-        ident-handle: crwdns139167:0crwdne139167:0
-        ident-identifier: crwdns139169:0crwdne139169:0
-        ident-name: crwdns139171:0crwdne139171:0
-        url: crwdns139173:0crwdne139173:0
-      desc:
-        name: crwdns139175:0crwdne139175:0
-        cert:
-          public: crwdns139177:0crwdne139177:0
-          private: crwdns139179:0crwdne139179:0
-        requests:
-          sign-requests: crwdns139181:0crwdne139181:0
-          sign-method: crwdns139183:0crwdne139183:0
-          binding: crwdns139185:0crwdne139185:0
-        idp:
-          url: crwdns139187:0crwdne139187:0
-          ident-handle: crwdns139189:0crwdne139189:0
-          ident-identifier: crwdns139191:0crwdne139191:0
-          ident-name: crwdns139193:0crwdne139193:0
-    security:
-      title: crwdns139195:0crwdne139195:0
-      prohibited-roles:
-        description: crwdns139197:0crwdne139197:0
-        label: crwdns139199:0crwdne139199:0
-      forced-roles:
-        description: crwdns139201:0crwdne139201:0
-        label: crwdns139203:0crwdne139203:0
-      permitted-roles:
-        description: crwdns139205:0crwdne139205:0
-        label: crwdns139207:0crwdne139207:0
-  bgScreen:
-    title: crwdns139209:0crwdne139209:0
-    image:
-      uploader:
-        label: crwdns139211:0crwdne139211:0
-        instructions: crwdns139213:0crwdne139213:0
-        uploading: crwdns139215:0crwdne139215:0
-      editor:
-        label: crwdns139217:0crwdne139217:0
+  content:
+    editor:
+      unsupported: crwdns139219:0crwdne139219:0
+    partial: crwdns139221:0crwdne139221:0
+    preview:
+      html: crwdns139223:0crwdne139223:0
+      pdf: crwdns139225:0crwdne139225:0
+      title: crwdns139227:0crwdne139227:0
+    title: crwdns139229:0crwdne139229:0
+    toolbox:
+      partials: crwdns139231:0crwdne139231:0
+      samples:
+        defaultHTML: crwdns139233:0crwdne139233:0
+        label: crwdns139235:0crwdne139235:0
+      snippets:
+        funcCall: crwdns139237:0crwdne139237:0
+        interpolate: crwdns139239:0crwdne139239:0
+        iterator: crwdns139241:0crwdne139241:0
+        label: crwdns139243:0crwdne139243:0
+      title: crwdns139245:0crwdne139245:0
+  info:
+    contentType:
+      text_html: crwdns139247:0crwdne139247:0
+      text_plain: crwdns139249:0crwdne139249:0
+    createdAt: crwdns139251:0crwdne139251:0
+    createdBy: crwdns139253:0crwdne139253:0
+    delete: crwdns139255:0crwdne139255:0
+    deletedAt: crwdns139257:0crwdne139257:0
+    handle: crwdns139259:0crwdne139259:0
+    placeholder-handle: crwdns139261:0crwdne139261:0
+    invalid-handle-characters: crwdns139263:0crwdne139263:0
+    meta:
+      description: crwdns139265:0crwdne139265:0
+      short: crwdns139267:0crwdne139267:0
+    partial: crwdns139269:0crwdne139269:0
+    partialDescription: crwdns139271:0crwdne139271:0
+    title: crwdns139273:0crwdne139273:0
+    type: crwdns139275:0crwdne139275:0
+    undelete: crwdns139277:0crwdne139277:0
+    updatedAt: crwdns139279:0crwdne139279:0
+  new: crwdns139281:0crwdne139281:0
+  permissions: crwdns139283:0crwdne139283:0
+  title:
+    create: crwdns139285:0crwdne139285:0
+    edit: crwdns139287:0crwdne139287:0
+list:
+  columns:
+    actions: "crwdns139289:0crwdne139289:0"
+    createdAt: crwdns139291:0crwdne139291:0
+    handle: crwdns139293:0crwdne139293:0
+    language: crwdns139295:0crwdne139295:0
+    meta:
+      short: crwdns139297:0crwdne139297:0
+    state: crwdns139299:0crwdne139299:0
+  delete: crwdns139301:0crwdne139301:0
+  undelete: crwdns139303:0crwdne139303:0
+  export: crwdns139305:0crwdne139305:0
+  rows:
+    filters:
+      deleted: crwdns139307:0crwdne139307:0
+  filterForm:
+    deleted:
+      label: crwdns139309:0crwdne139309:0
+    excluded:
+      label: crwdns139311:0crwdne139311:0
+    exclusive:
+      label: crwdns139313:0crwdne139313:0
+    handle:
+      label: crwdns139315:0crwdne139315:0
+      placeholder: crwdns139317:0crwdne139317:0
+    inclusive:
+      label: crwdns139319:0crwdne139319:0
+  loading: crwdns139321:0crwdne139321:0
+  new: crwdns139323:0crwdne139323:0
+  numFound: 'crwdns139325:0{{count}}crwdne139325:0'
+  numFound_plural: 'crwdns139327:0{{count}}crwdne139327:0'
+  permissions: crwdns139329:0crwdne139329:0
+  title: crwdns139331:0crwdne139331:0
+  yaml: crwdns139333:0crwdne139333:0
