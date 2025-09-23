@@ -1,5 +1,18 @@
 template:
-  title: crwdns134911:0crwdne134911:0
-  instructions: crwdns134913:0crwdne134913:0
-  button:
-    remove: crwdns134915:0crwdne134915:0
+  title: crwdns134917:0crwdne134917:0
+  enforced: |
+    crwdns134919:0crwdne134919:0
+  instructions: |
+    crwdns134921:0crwdne134921:0
+  lastpass: crwdns134923:0{{ link }}crwdne134923:0
+  gauth: crwdns134925:0{{ android }}crwdnd134925:0{{ iphone }}crwdne134925:0
+  authy: crwdns134927:0{{ link }}crwdne134927:0
+  form:
+    title: "crwdns134929:0crwdne134929:0"
+    button: crwdns134931:0crwdne134931:0
+alerts:
+  text-MFA-enabled: crwdns134933:0crwdne134933:0
+  text-MFA-disabled: crwdns134935:0crwdne134935:0
+errors:
+  invalid-code-format: "crwdns134937:0crwdne134937:0"
+  invalid-code: "crwdns134939:0crwdne134939:0"
