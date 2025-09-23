@@ -1,0 +1,44 @@
+editor:
+  new: crwdns114193:0crwdne114193:0
+  title:
+    create: crwdns114195:0crwdne114195:0
+    edit: crwdns114197:0crwdne114197:0
+  info:
+    title: crwdns114199:0crwdne114199:0
+    handle:
+      label: crwdns114201:0crwdne114201:0
+      placeholder: crwdns114203:0crwdne114203:0
+      invalid-characters: crwdns114205:0crwdne114205:0
+    name: crwdns114207:0crwdne114207:0
+    description: crwdns114209:0crwdne114209:0
+    level: crwdns114211:0{{level}}crwdne114211:0
+    createdAt: crwdns114213:0crwdne114213:0
+    createdBy: crwdns114215:0crwdne114215:0
+    delete: crwdns114217:0crwdne114217:0
+    deletedAt: crwdns114219:0crwdne114219:0
+    undelete: crwdns114221:0crwdne114221:0
+    updatedAt: crwdns114223:0crwdne114223:0
+list:
+  title: crwdns114225:0crwdne114225:0
+  loading: crwdns114227:0crwdne114227:0
+  new: crwdns114229:0crwdne114229:0
+  columns:
+    actions: 'crwdns114231:0crwdne114231:0'
+    'meta.name': crwdns114233:0crwdne114233:0
+    level: crwdns114235:0crwdne114235:0
+    createdAt: crwdns114237:0crwdne114237:0
+    state: crwdns114239:0crwdne114239:0
+  delete: crwdns114241:0crwdne114241:0
+  undelete: crwdns114243:0crwdne114243:0
+  rows:
+    filters:
+      deleted: crwdns114245:0crwdne114245:0
+  filterForm:
+    deleted:
+      label: crwdns114247:0crwdne114247:0
+    excluded:
+      label: crwdns114249:0crwdne114249:0
+    exclusive:
+      label: crwdns114251:0crwdne114251:0
+    inclusive:
+      label: crwdns114253:0crwdne114253:0
