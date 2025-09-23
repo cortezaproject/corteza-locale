@@ -1,3 +1,7 @@
-report-list: Report List
-no-reports: No Reports
-search-reports: Search reports
+pick-scenario: Pick a scenario
+report:
+  builder: Report Builder
+  view: Report View
+tooltip:
+  edit:
+    report: Edit report
