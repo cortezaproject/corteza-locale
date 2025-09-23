@@ -1,10 +1,10 @@
 errors:
-  notAllowedToCreate: crwdns135535:0crwdne135535:0
-  notAllowedToManage: crwdns135537:0crwdne135537:0
-  notAllowedToPair: crwdns135539:0crwdne135539:0
-  notAllowedToSearch: crwdns135541:0crwdne135541:0
-  notFound: crwdns135543:0crwdne135543:0
-  pairingTokenInvalid: crwdns135545:0crwdne135545:0
-  pairingURIInvalid: 'crwdns135547:0{err}crwdne135547:0'
-  pairingURISourceIDInvalid: crwdns135549:0crwdne135549:0
-  pairingURITokenInvalid: crwdns135551:0crwdne135551:0
+  federationSyncStructureChanged: crwdns135553:0crwdne135553:0
+  invalidID: crwdns135555:0crwdne135555:0
+  nodeNotFound: crwdns135557:0crwdne135557:0
+  notAllowedToCreate: crwdns135559:0crwdne135559:0
+  notAllowedToManage: crwdns135561:0crwdne135561:0
+  notAllowedToMap: crwdns135563:0crwdne135563:0
+  notFound: crwdns135565:0crwdne135565:0
+  notUnique: crwdns135567:0crwdne135567:0
+  staleData: crwdns135569:0crwdne135569:0
