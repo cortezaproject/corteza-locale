@@ -1,0 +1,152 @@
+page-layout:
+  layouts: crwdns118515:0crwdne118515:0
+  title: crwdns118517:0crwdne118517:0
+  handle: crwdns118519:0crwdne118519:0
+  add: crwdns118521:0crwdne118521:0
+  configure: 'crwdns118523:0{{title}}crwdne118523:0'
+  visibility: crwdns118525:0crwdne118525:0
+  general: crwdns118527:0crwdne118527:0
+  useTitle: crwdns118529:0crwdne118529:0
+  tooltip:
+    title: crwdns118531:0{{0}}crwdnd118531:0{{1}}crwdnd118531:0{{2}}crwdnd118531:0{{3}}crwdne118531:0
+    configure: crwdns118533:0crwdne118533:0
+    builder: crwdns118535:0crwdne118535:0
+    performance:
+      condition: crwdns118537:0crwdne118537:0
+  condition:
+    label: crwdns118539:0crwdne118539:0
+    placeholder: crwdns118541:0crwdne118541:0
+    description:
+      record-page: "crwdns118543:0{{0}}crwdnd118543:0{{1}}crwdnd118543:0{{2}}crwdnd118543:0{{3}}crwdnd118543:0{{4}}crwdnd118543:0{{5}}crwdne118543:0"
+      non-record-page: "crwdns118545:0{{0}}crwdnd118545:0{{1}}crwdnd118545:0{{2}}crwdnd118545:0{{3}}crwdne118545:0"
+  roles:
+    label: crwdns118547:0crwdne118547:0
+    placeholder: crwdns118549:0crwdne118549:0
+  recordToolbar:
+    label: crwdns118551:0crwdne118551:0
+    buttons:
+      label: crwdns118553:0crwdne118553:0
+      showBack: crwdns118555:0crwdne118555:0
+      showDelete: crwdns118557:0crwdne118557:0
+      showClone: crwdns118559:0crwdne118559:0
+      showNew: crwdns118561:0crwdne118561:0
+      showEdit: crwdns118563:0crwdne118563:0
+      showSave: crwdns118565:0crwdne118565:0
+    actions:
+      label: crwdns118567:0crwdne118567:0
+      add: crwdns118569:0crwdne118569:0
+      buttonLabel: crwdns118571:0crwdne118571:0
+      variant: crwdns118573:0crwdne118573:0
+      visible: crwdns118575:0crwdne118575:0
+      kind:
+        label: crwdns118577:0crwdne118577:0
+        toLayout: crwdns118579:0crwdne118579:0
+        toURL: crwdns118581:0crwdne118581:0
+      placement:
+        label: crwdns118583:0crwdne118583:0
+        start: crwdns118585:0crwdne118585:0
+        center: crwdns118587:0crwdne118587:0
+        end: crwdns118589:0crwdne118589:0
+      openIn:
+        label: crwdns118591:0crwdne118591:0
+        sameTab: crwdns118593:0crwdne118593:0
+        newTab: crwdns118595:0crwdne118595:0
+      toLayout:
+        label: crwdns118597:0crwdne118597:0
+        placeholder: crwdns118599:0crwdne118599:0
+      toURL:
+        label: crwdns118601:0crwdne118601:0
+        placeholder: crwdns118603:0crwdne118603:0
+block:
+  general:
+    label:
+      cancel: crwdns118605:0crwdne118605:0
+      noHandle: crwdns118607:0crwdne118607:0
+      pageBuilder: crwdns118609:0crwdne118609:0
+      saveAndClose: crwdns118611:0crwdne118611:0
+    placeholder:
+      handle: crwdns118613:0crwdne118613:0
+      sample: crwdns118615:0crwdne118615:0
+    title: crwdns118617:0crwdne118617:0
+    invalid-handle-characters: crwdns118619:0crwdne118619:0
+changeBlock: crwdns118621:0crwdne118621:0
+referencedBlock: crwdns118623:0crwdne118623:0
+copyOf: "crwdns118625:0{{title}}crwdne118625:0"
+build:
+  addBlock: crwdns118627:0crwdne118627:0
+  selectBlockTitle: crwdns118629:0crwdne118629:0
+  saveAsCopy:
+    ref: crwdns118631:0crwdne118631:0
+    noRef: crwdns118633:0crwdne118633:0
+edit:
+  create: crwdns118635:0crwdne118635:0
+  edit: crwdns118637:0crwdne118637:0
+  otherOptions: crwdns118639:0crwdne118639:0
+  pageDescription: crwdns118641:0crwdne118641:0
+  visible: crwdns118643:0crwdne118643:0
+  notifications:
+    enabled: crwdns118645:0crwdne118645:0
+icon:
+  configure: crwdns118647:0crwdne118647:0
+  noIcon: crwdns118649:0crwdne118649:0
+  page: crwdns118651:0crwdne118651:0
+  upload: crwdns118653:0crwdne118653:0
+  list: crwdns118655:0crwdne118655:0
+  delete: crwdns118657:0crwdne118657:0
+url:
+  label: crwdns118659:0crwdne118659:0
+import: 'crwdns118661:0crwdne118661:0'
+instructions: crwdns118663:0crwdne118663:0
+invalid: crwdns118665:0crwdne118665:0
+label:
+  title: crwdns118667:0crwdne118667:0
+  cancel: crwdns118669:0crwdne118669:0
+  description: crwdns118671:0crwdne118671:0
+  handle: crwdns118673:0crwdne118673:0
+  pageBuilder: crwdns118675:0crwdne118675:0
+  permissions: crwdns118677:0crwdne118677:0
+  saveAndClose: crwdns118679:0crwdne118679:0
+  delete: crwdns118681:0crwdne118681:0
+  createPage: crwdns118683:0crwdne118683:0
+placeholder:
+  title: crwdns118685:0crwdne118685:0
+loading: crwdns118687:0crwdne118687:0
+moduleEdit: crwdns118689:0crwdne118689:0
+navigation:
+  page: crwdns118691:0crwdne118691:0
+  viewPage: crwdns118693:0crwdne118693:0
+  editModule: crwdns118695:0crwdne118695:0
+noBlock: crwdns118697:0crwdne118697:0
+noPages: crwdns118699:0crwdne118699:0
+notVisible: crwdns118701:0crwdne118701:0
+pageMoveFailed: crwdns118703:0crwdne118703:0
+reordered: crwdns118705:0crwdne118705:0
+showSubPages: crwdns118707:0crwdne118707:0
+customTitle: crwdns118709:0crwdne118709:0
+title: crwdns118711:0crwdne118711:0
+tooltip:
+  view: crwdns118713:0crwdne118713:0
+  edit:
+    page: crwdns118715:0crwdne118715:0
+    block: crwdns118717:0crwdne118717:0
+  copy:
+    block: crwdns118719:0crwdne118719:0
+  clone:
+    block: crwdns118721:0crwdne118721:0
+  delete:
+    block: crwdns118723:0crwdne118723:0
+  preview-link: crwdns118725:0crwdne118725:0
+  saveAsCopy: crwdns118727:0crwdne118727:0
+view: crwdns118729:0crwdne118729:0
+visible: crwdns118731:0crwdne118731:0
+delete:
+  rebase: crwdns118733:0crwdne118733:0
+  cascade: crwdns118735:0crwdne118735:0
+public:
+  record:
+    create:
+      title: 'crwdns118737:0{{name}}crwdne118737:0'
+    edit:
+      title: 'crwdns118739:0{{name}}crwdne118739:0'
+    view:
+      title: 'crwdns118741:0{{name}}crwdne118741:0'
