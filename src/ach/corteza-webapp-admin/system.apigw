@@ -1,0 +1,161 @@
+title: crwdns113315:0crwdne113315:0
+list:
+  export: crwdns113317:0crwdne113317:0
+  title: crwdns113319:0crwdne113319:0
+  new: crwdns113321:0crwdne113321:0
+  permissions: crwdns113323:0crwdne113323:0
+  profiler: crwdns113325:0crwdne113325:0
+  yaml: crwdns113327:0crwdne113327:0
+  loading: crwdns113329:0crwdne113329:0
+  numFound: 'crwdns113331:0{{count}}crwdne113331:0'
+  numFound_plural: 'crwdns113333:0{{count}}crwdne113333:0'
+  filterForm:
+    query:
+      label: crwdns113335:0crwdne113335:0
+      placeholder: crwdns113337:0crwdne113337:0
+    excluded:
+      label: crwdns113339:0crwdne113339:0
+    inclusive:
+      label: crwdns113341:0crwdne113341:0
+    exclusive:
+      label: crwdns113343:0crwdne113343:0
+    deleted:
+      label: crwdns113345:0crwdne113345:0
+    handle:
+      placeholder: crwdns113347:0crwdne113347:0
+  delete: crwdns113349:0crwdne113349:0
+  undelete: crwdns113351:0crwdne113351:0
+  columns:
+    endpoint: crwdns113353:0crwdne113353:0
+    createdAt: crwdns113355:0crwdne113355:0
+    enabled: crwdns113357:0crwdne113357:0
+    method: crwdns113359:0crwdne113359:0
+    actions: 'crwdns113361:0crwdne113361:0'
+    state: crwdns113363:0crwdne113363:0
+  rows:
+    filters:
+      deleted: crwdns113365:0crwdne113365:0
+settings:
+  title: crwdns113367:0crwdne113367:0
+  profiler:
+    label: crwdns113369:0crwdne113369:0
+    enabled: crwdns113371:0crwdne113371:0
+    global: crwdns113373:0crwdne113373:0
+  proxy:
+    label: crwdns113375:0crwdne113375:0
+    follow: crwdns113377:0crwdne113377:0
+editor:
+  title: crwdns113379:0crwdne113379:0
+  new: crwdns113381:0crwdne113381:0
+  permissions: crwdns113383:0crwdne113383:0
+  info:
+    title: crwdns113385:0crwdne113385:0
+    id: crwdns113387:0crwdne113387:0
+    endpoint: crwdns113389:0crwdne113389:0
+    method: crwdns113391:0crwdne113391:0
+    description: crwdns113393:0crwdne113393:0
+    enabled: crwdns113395:0crwdne113395:0
+    delete: crwdns113397:0crwdne113397:0
+    undelete: crwdns113399:0crwdne113399:0
+    deletedAt: crwdns113401:0crwdne113401:0
+    updatedAt: crwdns113403:0crwdne113403:0
+    createdAt: crwdns113405:0crwdne113405:0
+    createdBy: crwdns113407:0crwdne113407:0
+    tooltip: crwdns113409:0crwdne113409:0
+    validation:
+      slash: crwdns113411:0crwdne113411:0
+      minLength: crwdns113413:0crwdne113413:0
+      invalidCharacters: crwdns113415:0crwdne113415:0
+  filters:
+    title: crwdns113417:0crwdne113417:0
+    enabled: crwdns113419:0crwdne113419:0
+    disabled: crwdns113421:0crwdne113421:0
+    add: crwdns113423:0crwdne113423:0
+    addFilter: crwdns113425:0crwdne113425:0
+    addHeader: crwdns113427:0crwdne113427:0
+    params: crwdns113429:0crwdne113429:0
+    filterListEmpty: crwdns113431:0crwdne113431:0
+    modal:
+      title: crwdns113433:0crwdne113433:0
+      ok: crwdns113435:0crwdne113435:0
+    step_title:
+      prefilter: crwdns113437:0crwdne113437:0
+      processer: crwdns113439:0crwdne113439:0
+      postfilter: crwdns113441:0crwdne113441:0
+    list:
+      remove: crwdns113443:0crwdne113443:0
+      filters: crwdns113445:0crwdne113445:0
+      status: crwdns113447:0crwdne113447:0
+      actions: crwdns113449:0crwdne113449:0
+      active: crwdns113451:0crwdne113451:0
+      noFilters: crwdns113453:0crwdne113453:0
+    labels:
+      expr: crwdns113455:0crwdne113455:0
+      location: crwdns113457:0crwdne113457:0
+      workflow: crwdns113459:0crwdne113459:0
+      status: crwdns113461:0crwdne113461:0
+      jsfunc: crwdns113463:0crwdne113463:0
+      input: crwdns113465:0crwdne113465:0
+      header: crwdns113467:0crwdne113467:0
+      name: crwdns113469:0crwdne113469:0
+      value: crwdns113471:0crwdne113471:0
+    httpStatus:
+      none: crwdns113473:0crwdne113473:0
+      '300': crwdns113475:0crwdne113475:0
+      '301': crwdns113477:0crwdne113477:0
+      '302': crwdns113479:0crwdne113479:0
+      '303': crwdns113481:0crwdne113481:0
+      '304': crwdns113483:0crwdne113483:0
+      '307': crwdns113485:0crwdne113485:0
+      '308': crwdns113487:0crwdne113487:0
+    placeholders:
+      workflow: crwdns113489:0crwdne113489:0
+    help:
+      expression:
+        example: crwdns113491:0crwdne113491:0
+        link: crwdns113493:0crwdne113493:0
+profiler:
+  label: crwdns113495:0crwdne113495:0
+  title: crwdns113497:0crwdne113497:0
+  refreshingIn: crwdns113499:0{{seconds}}crwdne113499:0
+  description:
+    globalEnabled: crwdns113501:0crwdne113501:0
+    globalDisabled: crwdns113503:0crwdne113503:0
+  purge:
+    all: crwdns113505:0crwdne113505:0
+    this: crwdns113507:0crwdne113507:0
+  hit:
+    title: crwdns113509:0crwdne113509:0
+    general:
+      label: crwdns113511:0crwdne113511:0
+      id: crwdns113513:0crwdne113513:0
+      route: crwdns113515:0crwdne113515:0
+      URL: crwdns113517:0crwdne113517:0
+      method: crwdns113519:0crwdne113519:0
+      statusCode: crwdns113521:0crwdne113521:0
+      headers: crwdns113523:0crwdne113523:0
+      remoteAddress: crwdns113525:0crwdne113525:0
+      duration: crwdns113527:0crwdne113527:0
+      start: crwdns113529:0crwdne113529:0
+      end: crwdns113531:0crwdne113531:0
+      openRoute: crwdns113533:0crwdne113533:0
+    headers:
+      label: crwdns113535:0crwdne113535:0
+    body:
+      label: crwdns113537:0crwdne113537:0
+  columns:
+    actions: 'crwdns113539:0crwdne113539:0'
+    path: crwdns113541:0crwdne113541:0
+    count: crwdns113543:0crwdne113543:0
+    content_length: crwdns113545:0crwdne113545:0
+    http_method: crwdns113547:0crwdne113547:0
+    http_status_code: crwdns113549:0crwdne113549:0
+    size_min: crwdns113551:0crwdne113551:0
+    size_max: crwdns113553:0crwdne113553:0
+    size_avg: crwdns113555:0crwdne113555:0
+    time_min: crwdns113557:0crwdne113557:0
+    time_max: crwdns113559:0crwdne113559:0
+    time_avg: crwdns113561:0crwdne113561:0
+    time_start: crwdns113563:0crwdne113563:0
+    time_finish: crwdns113565:0crwdne113565:0
+    time_duration: crwdns113567:0crwdne113567:0
