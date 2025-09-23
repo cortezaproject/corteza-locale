@@ -1,0 +1,24 @@
+editor:
+  title: crwdns113981:0crwdne113981:0
+  server:
+    title: crwdns113983:0crwdne113983:0
+    host:
+      label: crwdns113985:0crwdne113985:0
+      description: crwdns113987:0crwdne113987:0
+    user:
+      label: crwdns113989:0crwdne113989:0
+      description: crwdns113991:0crwdne113991:0
+    password:
+      label: crwdns113993:0crwdne113993:0
+      description: crwdns113995:0crwdne113995:0
+    from:
+      label: crwdns113997:0crwdne113997:0
+      description: crwdns113999:0crwdne113999:0
+    tlsInsecure:
+      label: crwdns114001:0crwdne114001:0
+      description: crwdns114003:0crwdne114003:0
+    tlsServerName:
+      label: crwdns114005:0crwdne114005:0
+      description: crwdns114007:0crwdne114007:0
+    testSmtpConfigs:
+      button: crwdns114009:0crwdne114009:0
