@@ -1,14 +1,8 @@
 template:
-  title: crwdns134965:0crwdne134965:0
-  form:
-    greeting-paragraph: crwdns134967:0crwdne134967:0
-    question-for-client: crwdns134969:0crwdne134969:0
-    buttons:
-      allow: crwdns134971:0crwdne134971:0
-      deny: crwdns134973:0crwdne134973:0
-  links:
-    mistake: crwdns134975:0{{link}}crwdne134975:0
-  errors:
-    invalid-user: crwdns134977:0{{link}}crwdne134977:0
-alerts:
-  denied: 'crwdns134979:0{{client}}crwdne134979:0'
+  title: crwdns134981:0crwdne134981:0
+  instructions: crwdns134983:0crwdne134983:0
+  links: crwdns134985:0{{login}}crwdne134985:0
+alert:
+  invalid-expired-password-token: crwdns134987:0crwdne134987:0
+  password-reset-success: crwdns134989:0crwdne134989:0
+  password-reset-disabled: crwdns134991:0crwdne134991:0
