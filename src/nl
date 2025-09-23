@@ -1,2 +1,2 @@
-template:
-  title: Internal error
+version: version {{version}}
+code-link: Access source code on
