@@ -1,0 +1,23 @@
+configuration: crwdns120497:0crwdne120497:0
+edge: crwdns120499:0crwdne120499:0
+name:
+  label: crwdns120501:0crwdne120501:0
+  placeholder: crwdns120503:0crwdne120503:0
+handle:
+  label: crwdns120505:0crwdne120505:0
+  placeholder: crwdns120507:0crwdne120507:0
+  invalid-handle-characters: crwdns120509:0crwdne120509:0
+description:
+  label: crwdns120511:0crwdne120511:0
+  placeholder: crwdns120513:0crwdne120513:0
+target: crwdns120515:0crwdne120515:0
+tooltip:
+  run-workflow: crwdns120517:0crwdne120517:0
+  configure-step: crwdns120519:0crwdne120519:0
+run-as:
+  label: crwdns120521:0crwdne120521:0
+  placeholder: crwdns120523:0crwdne120523:0
+  description: crwdns120525:0crwdne120525:0
+sub-workflow:
+  label: crwdns120527:0crwdne120527:0
+  description: crwdns120529:0crwdne120529:0
