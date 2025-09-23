@@ -1,2 +1,11 @@
 errors:
-  notAllowedToSetPermissions: crwdns135575:0crwdne135575:0
+  asyncRouteTooManyProcessers: crwdns135577:0crwdne135577:0
+  asyncRouteTooManyAfterFilters: crwdns135579:0crwdne135579:0
+  invalidID: crwdns135581:0crwdne135581:0
+  invalidRoute: crwdns135583:0crwdne135583:0
+  notAllowedToCreate: crwdns135585:0crwdne135585:0
+  notAllowedToDelete: crwdns135587:0crwdne135587:0
+  notAllowedToRead: crwdns135589:0crwdne135589:0
+  notAllowedToUndelete: crwdns135591:0crwdne135591:0
+  notAllowedToUpdate: crwdns135593:0crwdne135593:0
+  notFound: crwdns135595:0crwdne135595:0
