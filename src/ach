@@ -1,12 +1,11 @@
-adminPanel: crwdns143903:0crwdne143903:0
-chart: crwdns143905:0crwdne143905:0
-manageNamespaces: crwdns143907:0crwdne143907:0
-module: crwdns143909:0crwdne143909:0
-noResults: crwdns143911:0crwdne143911:0
-page: crwdns143913:0crwdne143913:0
-pickNamespace: crwdns143915:0crwdne143915:0
-publicPages: crwdns143917:0crwdne143917:0
-editNamespace: crwdns143919:0crwdne143919:0
-searchPlaceholder:
-  admin: crwdns143921:0crwdne143921:0
-  public: crwdns143923:0crwdne143923:0
+title: crwdns143925:0crwdne143925:0
+types:
+  title: crwdns143927:0crwdne143927:0
+  namespace: crwdns143929:0crwdne143929:0
+  module: crwdns143931:0crwdne143931:0
+  user: crwdns143933:0crwdne143933:0
+  record: crwdns143935:0crwdne143935:0
+aggregation-groups:
+  modules: crwdns143937:0crwdne143937:0
+  namespaces: crwdns143939:0crwdne143939:0
+reset: crwdns143941:0crwdne143941:0
