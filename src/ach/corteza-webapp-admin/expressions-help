@@ -1,0 +1,122 @@
+calculate: crwdns125309:0crwdne125309:0
+categories:
+  dateTime:
+    earliest: crwdns125311:0crwdne125311:0
+    label: crwdns125313:0crwdne125313:0
+    latest: crwdns125315:0crwdne125315:0
+    modTime: crwdns125317:0crwdne125317:0
+    parseDuration: crwdns125319:0crwdne125319:0
+    parseISOTime: crwdns125321:0crwdne125321:0
+    strftime: crwdns125323:0crwdne125323:0
+  general:
+    description: crwdns125325:0crwdne125325:0
+    label: crwdns125327:0crwdne125327:0
+  number:
+    ceil: crwdns125329:0crwdne125329:0
+    floor: crwdns125331:0crwdne125331:0
+    label: crwdns125333:0crwdne125333:0
+    max: crwdns125335:0crwdne125335:0
+    min: crwdns125337:0crwdne125337:0
+    rounds: crwdns125339:0crwdne125339:0
+  string:
+    format: crwdns125341:0crwdne125341:0
+    label: crwdns125343:0crwdne125343:0
+    longest: crwdns125345:0crwdne125345:0
+    shortest: crwdns125347:0crwdne125347:0
+    toLower: crwdns125349:0crwdne125349:0
+    toUpper: crwdns125351:0crwdne125351:0
+    trim: crwdns125353:0crwdne125353:0
+    trimLeft: crwdns125355:0crwdne125355:0
+    trimRight: crwdns125357:0crwdne125357:0
+example-description: crwdns125359:0crwdne125359:0
+examples: crwdns125361:0crwdne125361:0
+field: crwdns125363:0crwdne125363:0
+formatCategories:
+  dateTime:
+    A: crwdns125365:0crwdne125365:0
+    B: crwdns125367:0crwdne125367:0
+    C: crwdns125369:0crwdne125369:0
+    D: crwdns125371:0%mcrwdnd125371:0%dcrwdnd125371:0%ycrwdne125371:0
+    F: crwdns125373:0%Y-%m-%dcrwdne125373:0
+    H: crwdns125375:0crwdne125375:0
+    I: crwdns125377:0crwdne125377:0
+    M: crwdns125379:0crwdne125379:0
+    R: crwdns125381:0%H:%Mcrwdne125381:0
+    S-middle: crwdns125383:0crwdne125383:0
+    S-second: crwdns125385:0crwdne125385:0
+    T: crwdns125387:0%H:%M:%Scrwdne125387:0
+    U: crwdns125389:0crwdne125389:0
+    V: crwdns125391:0crwdne125391:0
+    W: crwdns125393:0crwdne125393:0
+    X: crwdns125395:0crwdne125395:0
+    "Y": crwdns125397:0crwdne125397:0
+    Z: crwdns125399:0crwdne125399:0
+    a: crwdns125401:0crwdne125401:0
+    b: crwdns125403:0crwdne125403:0
+    c: crwdns125405:0crwdne125405:0
+    d: crwdns125407:0crwdne125407:0
+    e: crwdns125409:0crwdne125409:0
+    j: crwdns125411:0crwdne125411:0
+    k: crwdns125413:0crwdne125413:0
+    l: crwdns125415:0crwdne125415:0
+    label: crwdns125417:0crwdne125417:0
+    m: crwdns125419:0crwdne125419:0
+    "n": |-
+      crwdns125421:0crwdne125421:0
+    p: crwdns125423:0crwdne125423:0
+    percent: crwdns125425:0crwdne125425:0
+    r: crwdns125427:0%I:%M:%Scrwdnd125427:0%pcrwdne125427:0
+    t: crwdns125429:0crwdne125429:0
+    u: crwdns125431:0crwdne125431:0
+    v: crwdns125433:0%ecrwdnd125433:0%bcrwdnd125433:0%Ycrwdne125433:0
+    w: crwdns125435:0crwdne125435:0
+    x: crwdns125437:0crwdne125437:0
+    "y": crwdns125439:0crwdne125439:0
+    z: crwdns125441:0crwdne125441:0
+  string:
+    E: crwdns125443:0crwdne125443:0
+    O: crwdns125445:0crwdne125445:0
+    X: crwdns125447:0crwdne125447:0
+    b: crwdns125449:0crwdne125449:0
+    binary: crwdns125451:0crwdne125451:0
+    d: crwdns125453:0crwdne125453:0
+    e: crwdns125455:0crwdne125455:0
+    f: crwdns125457:0crwdne125457:0
+    label: crwdns125459:0crwdne125459:0
+    o: crwdns125461:0crwdne125461:0
+    t: crwdns125463:0crwdne125463:0
+    v: crwdns125465:0crwdne125465:0
+    x: crwdns125467:0crwdne125467:0
+formatting-parameters:
+  description: crwdns125469:0crwdne125469:0
+  label: crwdns125471:0crwdne125471:0
+helper-functions:
+  description: crwdns125473:0crwdne125473:0
+  label: crwdns125475:0crwdne125475:0
+  note: 'crwdns125477:0crwdne125477:0'
+instructions: 'crwdns125479:0crwdne125479:0'
+operators:
+  all-new-values: crwdns125481:0crwdne125481:0
+  comparators: 'crwdns125483:0crwdne125483:0'
+  control-order: 'crwdns125485:0crwdne125485:0'
+  field-name: crwdns125487:0crwdne125487:0
+  location: 'crwdns125489:0crwdne125489:0'
+  logical: 'crwdns125491:0crwdne125491:0'
+  modifiers: 'crwdns125493:0crwdne125493:0'
+  more: 'crwdns125495:0crwdne125495:0'
+  new: crwdns125497:0crwdne125497:0
+  new-value: crwdns125499:0crwdne125499:0
+  new-value-with-comma: 'crwdns125501:0crwdne125501:0'
+  old: crwdns125503:0crwdne125503:0
+  old-value: crwdns125505:0crwdne125505:0
+  old-value-brackets: 'crwdns125507:0crwdne125507:0'
+  record: 'crwdns125509:0crwdne125509:0'
+  sanitizer: crwdns125511:0crwdne125511:0
+  sanitizers: 'crwdns125513:0crwdne125513:0'
+  validator: crwdns125515:0crwdne125515:0
+  validators: 'crwdns125517:0crwdne125517:0'
+  value: crwdns125519:0crwdne125519:0
+  value-expression: crwdns125521:0crwdne125521:0
+  value-expressions: 'crwdns125523:0crwdne125523:0'
+  values: crwdns125525:0crwdne125525:0
+write: crwdns125527:0crwdne125527:0
