@@ -3,7 +3,7 @@ api_token_env: CROWDIN_PERSONAL_TOKEN
 
 files:
   - source: /src/en/**
-    translation: /src/%two_letters_code%/%original_path%
+    translation: /src/%two_letters_code%/**
     update_option: update_as_unapproved
     skip_untranslated_files: false
     skip_untranslated_strings: false
