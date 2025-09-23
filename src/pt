@@ -1,6 +1,3 @@
-jitsi:
-  create: Create
-  defaultLocalDisplayName: Anonymous
-  defaultRemoteDisplayName: Fellow Cortezer
-  roomName: Room name
-  toStart: To start a video call create a new room
+no-applications: No applications
+no-applications-found: No applications found
+search: Type here to search
