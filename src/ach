@@ -1,3 +1,2 @@
 errors:
-  unauthorized: crwdns135571:0crwdne135571:0
-  unauthorizedScope: crwdns135573:0crwdne135573:0
+  notAllowedToSetPermissions: crwdns135575:0crwdne135575:0
