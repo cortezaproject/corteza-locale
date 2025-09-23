@@ -1,0 +1,26 @@
+editor:
+  title: crwdns125239:0crwdne125239:0
+  basic:
+    attachments:
+      max-size: crwdns125241:0crwdne125241:0
+      page: crwdns125243:0crwdne125243:0
+      record: crwdns125245:0crwdne125245:0
+      icon: crwdns125247:0crwdne125247:0
+      type:
+        description: 'crwdns125249:0crwdne125249:0'
+        whitelist: crwdns125251:0crwdne125251:0
+    title: crwdns125253:0crwdne125253:0
+  ui:
+    title: crwdns125255:0crwdne125255:0
+    sidebar:
+      title: crwdns125257:0crwdne125257:0
+      hide-namespace-list: crwdns125259:0crwdne125259:0
+      hide-namespace-list-link: crwdns125261:0crwdne125261:0
+    record-toolbar:
+      title: crwdns125263:0crwdne125263:0
+      hide-submit: crwdns125265:0crwdne125265:0
+      hide-delete: crwdns125267:0crwdne125267:0
+      hide-edit: crwdns125269:0crwdne125269:0
+      hide-new: crwdns125271:0crwdne125271:0
+      hide-clone: crwdns125273:0crwdne125273:0
+      hide-back: crwdns125275:0crwdne125275:0
