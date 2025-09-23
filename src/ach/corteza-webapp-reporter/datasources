@@ -1,0 +1,23 @@
+add: crwdns119905:0crwdne119905:0
+aggregate: crwdns119907:0crwdne119907:0
+compose-records: crwdns119909:0crwdne119909:0
+datasource-name: 'crwdns119911:0crwdne119911:0'
+expression: crwdns119913:0crwdne119913:0
+group-by: crwdns119915:0crwdne119915:0
+label: crwdns119917:0crwdne119917:0
+module: crwdns119919:0crwdne119919:0
+name-required: crwdns119921:0crwdne119921:0
+name: crwdns119923:0crwdne119923:0
+namespace: crwdns119925:0crwdne119925:0
+new:
+  label: crwdns119927:0crwdne119927:0
+  name: crwdns119929:0crwdne119929:0
+none: crwdns119931:0crwdne119931:0
+prefilter: crwdns119933:0crwdne119933:0
+primary:
+  column: crwdns119935:0crwdne119935:0
+  source: crwdns119937:0crwdne119937:0
+secondary:
+  column: crwdns119939:0crwdne119939:0
+  source: crwdns119941:0crwdne119941:0
+source: crwdns119943:0crwdne119943:0
