@@ -1,13 +1,9 @@
 errors:
-  notFound: connection not found
-  invalidID: invalid ID
+  alreadyExists: sensitivity level by that DNS already exists
+  existsEndpoint: sensitivity level with this DNS already exists
+  generic: failed to complete request due to internal error
   invalidEndpoint: invalid endpoint
-  existsEndpoint: connection with this DNS already exists
-  alreadyExists: connection by that DNS already exists
-  notAllowedToCreate: not allowed to create a connection
-  notAllowedToRead: not allowed to read this connection
-  notAllowedToSearch: not allowed to list or search connections
-  notAllowedToUpdate: not allowed to update this connection
-  notAllowedToDelete: not allowed to delete this connection
-  notAllowedToUndelete: not allowed to undelete this connection
-  notAllowedToExec: not allowed to execute this connection
+  invalidID: invalid ID
+  notAllowedToManage: not allowed to manage sensitivity level
+  notFound: sensitivity level not found
+  deleteInUse: cannot delete in use sensitivity levels
