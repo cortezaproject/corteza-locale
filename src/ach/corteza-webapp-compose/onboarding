@@ -1,0 +1,28 @@
+message:
+  noPages: crwdns118481:0crwdne118481:0
+  notifyAdministrator: crwdns118483:0crwdne118483:0
+  startBuilding: crwdns118485:0crwdne118485:0
+label:
+  pageBuilder: crwdns118487:0crwdne118487:0
+  welcome: crwdns118489:0crwdne118489:0
+navigation:
+  noPageTitle: crwdns118491:0crwdne118491:0
+notification:
+  module:
+    createFailed: crwdns118493:0crwdne118493:0
+    saveFailed: crwdns118495:0crwdne118495:0
+step:
+  chart:
+    create: crwdns118497:0crwdne118497:0
+    view: crwdns118499:0crwdne118499:0
+  module:
+    create: crwdns118501:0crwdne118501:0
+    view: crwdns118503:0crwdne118503:0
+  optional: crwdns118505:0crwdne118505:0
+  page:
+    create: crwdns118507:0crwdne118507:0
+    view: crwdns118509:0crwdne118509:0
+tooltip:
+  page-configuration:
+    edit: crwdns118511:0crwdne118511:0
+    list: crwdns118513:0crwdne118513:0
