@@ -2,18 +2,15 @@ errors:
   handleNotUnique: handle not unique
   invalidHandle: invalid handle
   invalidID: invalid ID
-  invalidNamespaceID: invalid or missing namespace ID
-  nameNotUnique: name not unique
-  fieldNameReserved: field name reserved
-  namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create modules
-  notAllowedToDelete: not allowed to delete this module
-  notAllowedToListModules: not allowed to list modules
-  notAllowedToRead: not allowed to read this module
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list modules
-  notAllowedToUndelete: not allowed to undelete this module
-  notAllowedToUpdate: not allowed to update this module
-  notFound: module does not exist
+  notAllowedToCreate: not allowed to create namespaces
+  notAllowedToDelete: not allowed to delete this namespace
+  notAllowedToRead: not allowed to read this namespace
+  notAllowedToSearch: not allowed to search or list namespaces
+  notAllowedToUndelete: not allowed to undelete this namespace
+  notAllowedToUpdate: not allowed to update this namespace
+  notFound: namespace does not exist
   staleData: stale data
-  dedupConfigurationInvalidMissingConstraint: missing constraints on deduplication configuration
+  unsupportedExportFormat: unsupported export format
+  unsupportedImportFormat: unsupported import format
+  importMissingNamespace: the import source does not contain a namespace definition
+  cloneMultiple: not allowed to clone multiple namespaces at once
