@@ -1,11 +1,9 @@
 errors:
-  invalidID: crwdns135621:0crwdne135621:0
-  notAllowedToCreate: crwdns135623:0crwdne135623:0
-  notAllowedToDelete: crwdns135625:0crwdne135625:0
-  notAllowedToManageFlag: crwdns135627:0crwdne135627:0
-  notAllowedToManageFlagGlobal: crwdns135629:0crwdne135629:0
-  notAllowedToRead: crwdns135631:0crwdne135631:0
-  notAllowedToSearch: crwdns135633:0crwdne135633:0
-  notAllowedToUndelete: crwdns135635:0crwdne135635:0
-  notAllowedToUpdate: crwdns135637:0crwdne135637:0
-  notFound: crwdns135639:0crwdne135639:0
+  failedToExtractMimeType: crwdns135641:0crwdne135641:0
+  failedToProcessImage: crwdns135643:0crwdne135643:0
+  failedToStoreFile: crwdns135645:0crwdne135645:0
+  invalidID: crwdns135647:0crwdne135647:0
+  notAllowedToCreate: crwdns135649:0crwdne135649:0
+  notAllowedToCreateEmptyAttachment: crwdns135651:0crwdne135651:0
+  notAllowedToListAttachments: crwdns135653:0crwdne135653:0
+  notFound: crwdns135655:0crwdne135655:0
