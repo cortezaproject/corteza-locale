@@ -1,0 +1,125 @@
+editor:
+  external-auth-providers:
+    label: crwdns114581:0crwdne114581:0
+    title: crwdns114583:0crwdne114583:0
+    type: crwdns114585:0crwdne114585:0
+  info:
+    confirmEmail: crwdns114587:0crwdne114587:0
+    id: crwdns114589:0crwdne114589:0
+    createdAt: crwdns114591:0crwdne114591:0
+    createdBy: crwdns114593:0crwdne114593:0
+    delete: crwdns114595:0crwdne114595:0
+    deletedAt: crwdns114597:0crwdne114597:0
+    email: crwdns114599:0crwdne114599:0
+    handle: crwdns114601:0crwdne114601:0
+    placeholder-handle: crwdns114603:0crwdne114603:0
+    invalid-handle-characters: crwdns114605:0crwdne114605:0
+    name: crwdns114607:0crwdne114607:0
+    revokeAllSession: crwdns114609:0crwdne114609:0
+    suspend: crwdns114611:0crwdne114611:0
+    suspendedAt: crwdns114613:0crwdne114613:0
+    title: crwdns114615:0crwdne114615:0
+    undelete: crwdns114617:0crwdne114617:0
+    unsuspend: crwdns114619:0crwdne114619:0
+    updatedAt: crwdns114621:0crwdne114621:0
+  avatar:
+    title: crwdns114623:0crwdne114623:0
+    preview:
+      label: crwdns114625:0crwdne114625:0
+      title: crwdns114627:0crwdne114627:0
+    initial:
+      color: crwdns114629:0crwdne114629:0
+      backgroundColor: crwdns114631:0crwdne114631:0
+    uploader:
+      instructions: crwdns114633:0crwdne114633:0
+      uploading: crwdns114635:0crwdne114635:0
+    colorPicker: crwdns114637:0crwdne114637:0
+  mfa:
+    TOTP:
+      disabled:
+        text: crwdns114639:0crwdne114639:0
+      enabled:
+        text: crwdns114641:0crwdne114641:0
+      remove:
+        label: crwdns114643:0crwdne114643:0
+    emailOTP:
+      disable:
+        label: crwdns114645:0crwdne114645:0
+      disabled:
+        text: |-
+          crwdns114647:0crwdne114647:0
+      enable:
+        label: crwdns114649:0crwdne114649:0
+      enabled:
+        text: |-
+          crwdns114651:0crwdne114651:0
+    title: crwdns114653:0crwdne114653:0
+  new: crwdns114655:0crwdne114655:0
+  password:
+    confirm: crwdns114657:0crwdne114657:0
+    length: crwdns114659:0{{length}}crwdne114659:0
+    missmatch: crwdns114661:0crwdne114661:0
+    new: crwdns114663:0crwdne114663:0
+    title: crwdns114665:0crwdne114665:0
+    removePassword: crwdns114667:0crwdne114667:0
+  permissions: crwdns114669:0crwdne114669:0
+  roles:
+    add: crwdns114671:0crwdne114671:0
+    count: crwdns114673:0crwdne114673:0
+    remove: crwdns114675:0crwdne114675:0
+    title: crwdns114677:0crwdne114677:0
+    unnamed: crwdns114679:0crwdne114679:0
+  title:
+    create: crwdns114681:0crwdne114681:0
+    edit: crwdns114683:0crwdne114683:0
+list:
+  columns:
+    actions: "crwdns114685:0crwdne114685:0"
+    createdAt: crwdns114687:0crwdne114687:0
+    email: crwdns114689:0crwdne114689:0
+    enabled: crwdns114691:0crwdne114691:0
+    handle: crwdns114693:0crwdne114693:0
+    name: crwdns114695:0crwdne114695:0
+    state: crwdns114697:0crwdne114697:0
+  suspend: crwdns114699:0crwdne114699:0
+  unsuspend: crwdns114701:0crwdne114701:0
+  delete: crwdns114703:0crwdne114703:0
+  undelete: crwdns114705:0crwdne114705:0
+  revokeActiveSession: crwdns114707:0crwdne114707:0
+  export: crwdns114709:0crwdne114709:0
+  rows:
+    filters:
+      deleted: crwdns114711:0crwdne114711:0
+      suspended: crwdns114713:0crwdne114713:0
+  filterForm:
+    deleted:
+      label: crwdns114715:0crwdne114715:0
+    excluded:
+      label: crwdns114717:0crwdne114717:0
+    exclusive:
+      label: crwdns114719:0crwdne114719:0
+    inclusive:
+      label: crwdns114721:0crwdne114721:0
+    query:
+      label: crwdns114723:0crwdne114723:0
+      placeholder: crwdns114725:0crwdne114725:0
+    suspended:
+      label: crwdns114727:0crwdne114727:0
+  loading: crwdns114729:0crwdne114729:0
+  new: crwdns114731:0crwdne114731:0
+  numFound: 'crwdns114733:0{{count}}crwdne114733:0'
+  numFound_plural: 'crwdns114735:0{{count}}crwdne114735:0'
+  permissions: crwdns114737:0crwdne114737:0
+  title: crwdns114739:0crwdne114739:0
+  yaml: crwdns114741:0crwdne114741:0
+export:
+  buttonLabel: crwdns114743:0crwdne114743:0
+  title: crwdns114745:0crwdne114745:0
+  inclRoleMembership: crwdns114747:0crwdne114747:0
+  inclRoles: crwdns114749:0crwdne114749:0
+  membershipRequiredLabel: crwdns114751:0crwdne114751:0
+  export: crwdns114753:0crwdne114753:0
+import:
+  buttonLabel: crwdns114755:0crwdne114755:0
+  title: crwdns114757:0crwdne114757:0
+  uploadFilePlaceholder: crwdns114759:0crwdne114759:0
