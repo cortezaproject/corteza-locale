@@ -1,18 +1,14 @@
 template:
-  title: Multi-factor authentication
-  email:
-    instructions: Check your inbox and enter the received code
-    code: Code
-    verify: Verify
-    resend: Resend
-    confirmed: Email OTP confirmed
-  totp:
-    instructions: Check your TOTP application and enter the code you received
-    code: Code
-    confirmed: TOTP confirmed
-    verify: Verify
+  title: Authorize
+  form:
+    greeting-paragraph: Hello
+    question-for-client: would like to perform actions on this Corteza server on your behalf.
+    buttons:
+      allow: Allow
+      deny: Deny
+  links:
+    mistake: If this is a mistake, please <a data-test-id="link-logout" href="{{link}}">log out</a>.
+  errors:
+    invalid-user: Cannot continue with unauthorized email, visit <a data-test-id="link-redirect-to-profile" href="{{link}}">your profile</a> and resolve the issue.
 alerts:
-  email:
-    resent: Email OTP resent
-  topt:
-    valid: TOTP valid
+  denied: 'Failed to authorize {{client}}: insufficient permissions'
