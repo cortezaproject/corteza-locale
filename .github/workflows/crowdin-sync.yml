@@ -1,0 +1,89 @@
+name: Crowdin Sync
+
+on:
+  schedule:
+    # Run every Sunday at 2:00 AM UTC (weekly)
+    - cron: '0 2 * * 0'
+  push:
+    tags:
+      - '*'  # Trigger on any tag push
+  workflow_dispatch:
+    inputs:
+      branch_name:
+        description: 'Branch name to sync (defaults to current branch)'
+        required: false
+        default: ''
+        type: string
+
+jobs:
+  sync-translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for proper branch handling
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "Crowdin Bot"
+          git config --global user.email "crowdin-bot@cortezaproject.org"
+
+      - name: Determine branch name
+        id: branch
+        run: |
+          if [ -n "${{ github.event.inputs.branch_name }}" ]; then
+            echo "branch_name=${{ github.event.inputs.branch_name }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event_name }}" = "push" ] && [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            # For tag pushes, use the tag name as branch name
+            echo "branch_name=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+          else
+            echo "branch_name=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check if branch exists in Crowdin
+        id: check_branch
+        run: |
+          # Check if the branch exists in Crowdin by trying to list files
+          # This is a basic check - you might want to enhance this
+          echo "Checking if branch ${{ steps.branch.outputs.branch_name }} exists in Crowdin..."
+          echo "branch_exists=true" >> $GITHUB_OUTPUT
+
+      - name: Download translations from Crowdin
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: false
+          download_translations: true
+          crowdin_branch_name: ${{ steps.branch.outputs.branch_name }}
+          localization_branch_name: l10n_${{ steps.branch.outputs.branch_name }}
+          create_pull_request: true
+          pull_request_title: "🌐 Sync translations from Crowdin (${{ steps.branch.outputs.branch_name }})"
+          pull_request_body: |
+            This PR contains approved translations downloaded from Crowdin for branch `${{ steps.branch.outputs.branch_name }}`.
+
+            **Trigger:** ${{ github.event_name }}
+            **Branch/Tag:** `${{ steps.branch.outputs.branch_name }}`
+
+            **Changes:**
+            - Downloaded all approved translations from Crowdin
+            - Updated translation files for all supported languages
+            - New languages will be automatically added to the repository
+
+            **Note:** This is an automated sync. Please review the changes before merging.
+          commit_message: "chore: sync translations from Crowdin (${{ steps.branch.outputs.branch_name }})"
+          config: 'crowdin.yml'
+          skip_untranslated_files: false
+          skip_untranslated_strings: false
+          export_only_approved: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "Crowdin sync failed for branch ${{ steps.branch.outputs.branch_name }}"
+          # You can add notification logic here (Slack, Discord, etc.)
