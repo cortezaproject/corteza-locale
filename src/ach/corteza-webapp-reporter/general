@@ -1,0 +1,46 @@
+label:
+  add: crwdns120191:0crwdne120191:0
+  and: crwdns120193:0crwdne120193:0
+  all: crwdns120195:0crwdne120195:0
+  ascending: crwdns120197:0crwdne120197:0
+  back: crwdns120199:0crwdne120199:0
+  clear: crwdns120201:0crwdne120201:0
+  cancel: crwdns120203:0crwdne120203:0
+  delete: crwdns120205:0crwdne120205:0
+  descending: crwdns120207:0crwdne120207:0
+  loading: crwdns120209:0crwdne120209:0
+  name: crwdns120211:0crwdne120211:0
+  none: crwdns120213:0crwdne120213:0
+  now: crwdns120215:0crwdne120215:0
+  ok: crwdns120217:0crwdne120217:0
+  or: crwdns120219:0crwdne120219:0
+  openLinkInNewTab: crwdns120221:0crwdne120221:0
+  save: crwdns120223:0crwdne120223:0
+  saveAndClose: crwdns120225:0crwdne120225:0
+  clone: crwdns120227:0crwdne120227:0
+  today: crwdns120229:0crwdne120229:0
+  urlPlaceholder: crwdns120231:0crwdne120231:0
+  default: crwdns120233:0crwdne120233:0
+  report:
+    single: crwdns120235:0crwdne120235:0
+    plural: crwdns120237:0crwdne120237:0
+resourceList:
+  notFound: crwdns120239:0crwdne120239:0
+  noItems: crwdns120241:0crwdne120241:0
+  pagination:
+    next: crwdns120243:0crwdne120243:0
+    prev: crwdns120245:0crwdne120245:0
+    showing: 'crwdns120247:0{{from}}crwdnd120247:0{{to}}crwdnd120247:0{{count}}crwdnd120247:0{{data}}crwdne120247:0'
+    single_one: 'crwdns120249:0{{data}}crwdne120249:0'
+    single_other: 'crwdns120251:0{{count}}crwdnd120251:0{{data}}crwdne120251:0'
+    recordsPerPage: crwdns120253:0crwdne120253:0
+  clone: crwdns120255:0crwdne120255:0
+themes:
+  labels:
+    light: crwdns120257:0crwdne120257:0
+    dark: crwdns120259:0crwdne120259:0
+cloneSuffix: crwdns120261:0crwdne120261:0
+extendSession:
+  labels:
+    extend: crwdns120263:0crwdne120263:0
+    warning: crwdns120265:0{{ countdownTime }}crwdne120265:0
