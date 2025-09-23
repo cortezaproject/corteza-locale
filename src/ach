@@ -1,9 +1,8 @@
 errors:
-  notFound: crwdns135777:0crwdne135777:0
-  invalidID: crwdns135779:0crwdne135779:0
-  invalidKind: crwdns135781:0crwdne135781:0
-  invalidStatus: crwdns135783:0crwdne135783:0
-  notAllowedToRead: crwdns135785:0crwdne135785:0
-  notAllowedToSearch: crwdns135787:0crwdne135787:0
-  notAllowedToCreate: crwdns135789:0crwdne135789:0
-  notAllowedToApprove: crwdns135791:0crwdne135791:0
+  invalidID: crwdns135793:0crwdne135793:0
+  notAllowedToRead: crwdns135795:0crwdne135795:0
+  notAllowedToCreate: crwdns135797:0crwdne135797:0
+  notAllowedToUpdate: crwdns135799:0crwdne135799:0
+  notAllowedToDelete: crwdns135801:0crwdne135801:0
+  notAllowedToAssign: crwdns135803:0crwdne135803:0
+  notFound: crwdns135805:0crwdne135805:0
