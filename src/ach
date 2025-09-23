@@ -1,18 +1,18 @@
 template:
-  title: crwdns134917:0crwdne134917:0
-  enforced: |
-    crwdns134919:0crwdne134919:0
-  instructions: |
-    crwdns134921:0crwdne134921:0
-  lastpass: crwdns134923:0{{ link }}crwdne134923:0
-  gauth: crwdns134925:0{{ android }}crwdnd134925:0{{ iphone }}crwdne134925:0
-  authy: crwdns134927:0{{ link }}crwdne134927:0
-  form:
-    title: "crwdns134929:0crwdne134929:0"
-    button: crwdns134931:0crwdne134931:0
+  title: crwdns134941:0crwdne134941:0
+  email:
+    instructions: crwdns134943:0crwdne134943:0
+    code: crwdns134945:0crwdne134945:0
+    verify: crwdns134947:0crwdne134947:0
+    resend: crwdns134949:0crwdne134949:0
+    confirmed: crwdns134951:0crwdne134951:0
+  totp:
+    instructions: crwdns134953:0crwdne134953:0
+    code: crwdns134955:0crwdne134955:0
+    confirmed: crwdns134957:0crwdne134957:0
+    verify: crwdns134959:0crwdne134959:0
 alerts:
-  text-MFA-enabled: crwdns134933:0crwdne134933:0
-  text-MFA-disabled: crwdns134935:0crwdne134935:0
-errors:
-  invalid-code-format: "crwdns134937:0crwdne134937:0"
-  invalid-code: "crwdns134939:0crwdne134939:0"
+  email:
+    resent: crwdns134961:0crwdne134961:0
+  topt:
+    valid: crwdns134963:0crwdne134963:0
