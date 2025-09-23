@@ -1,17 +1,57 @@
+editor:
+  info:
+    completedAt: crwdns136219:0crwdne136219:0
+    createdAt: crwdns136221:0crwdne136221:0
+    createdBy: crwdns136223:0crwdne136223:0
+    createdByUserName: crwdns136225:0crwdne136225:0
+    delete: crwdns136227:0crwdne136227:0
+    deletedAt: crwdns136229:0crwdne136229:0
+    suspendedAt: crwdns136231:0crwdne136231:0
+    error: crwdns136233:0crwdne136233:0
+    eventType: crwdns136235:0crwdne136235:0
+    id: crwdns136237:0crwdne136237:0
+    resourceType: crwdns136239:0crwdne136239:0
+    status: crwdns136241:0crwdne136241:0
+    title: crwdns136243:0crwdne136243:0
+    workflowID: crwdns136245:0crwdne136245:0
+    openWorkflow: crwdns136247:0crwdne136247:0
+    cancel: crwdns136249:0crwdne136249:0
+  title: crwdns136251:0crwdne136251:0
 list:
   columns:
-    name: crwdns136193:0crwdne136193:0
-    updatedAt: crwdns136195:0crwdne136195:0
-  filter:
-    absoluteTime: crwdns136197:0crwdne136197:0
-    incScriptsWithErrors: crwdns136199:0{{ count }}crwdne136199:0
-    incScriptsWithIterator: crwdns136201:0{{ count }}crwdne136201:0
-    incScriptsWithSecurity: crwdns136203:0{{ count }}crwdne136203:0
-    incScriptsWithTriggers: crwdns136205:0{{ count }}crwdne136205:0
-    searchQuery: crwdns136207:0crwdne136207:0
-  flags:
-    iterator: crwdns136209:0crwdne136209:0
-    security: crwdns136211:0crwdne136211:0
-    triggers: crwdns136213:0crwdne136213:0
-  labelMissing: crwdns136215:0crwdne136215:0
-  title: crwdns136217:0crwdne136217:0
+    actions: "crwdns136253:0crwdne136253:0"
+    createdAt: crwdns136255:0crwdne136255:0
+    eventType: crwdns136257:0crwdne136257:0
+    sessionID: crwdns136259:0crwdne136259:0
+    state: crwdns136261:0crwdne136261:0
+    status: crwdns136263:0crwdne136263:0
+    workflowID: crwdns136265:0crwdne136265:0
+  filterForm:
+    all:
+      label: crwdns136267:0crwdne136267:0
+    completed:
+      label: crwdns136269:0crwdne136269:0
+    excluded:
+      label: crwdns136271:0crwdne136271:0
+    exclusive:
+      label: crwdns136273:0crwdne136273:0
+    failed:
+      label: crwdns136275:0crwdne136275:0
+    inProgress:
+      label: crwdns136277:0crwdne136277:0
+    inclusive:
+      label: crwdns136279:0crwdne136279:0
+    prompted:
+      label: crwdns136281:0crwdne136281:0
+    sessions:
+      label: crwdns136283:0crwdne136283:0
+    started:
+      label: crwdns136285:0crwdne136285:0
+    suspended:
+      label: crwdns136287:0crwdne136287:0
+    canceled:
+      label: crwdns136289:0crwdne136289:0
+  loading: crwdns136291:0crwdne136291:0
+  numFound: 'crwdns136293:0{{count}}crwdne136293:0'
+  numFound_plural: 'crwdns136295:0{{count}}crwdne136295:0'
+  title: crwdns136297:0crwdne136297:0
