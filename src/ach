@@ -1,14 +1,21 @@
 template:
-  title: crwdns134865:0crwdne134865:0
+  title: crwdns134881:0crwdne134881:0
   form:
     email:
-      label: crwdns134867:0crwdne134867:0
-      placeholder: crwdns134869:0crwdne134869:0
-    new-password:
-      label: crwdns134871:0crwdne134871:0
-      placeholder: crwdns134873:0crwdne134873:0
-    buttons:
-      password: crwdns134875:0crwdne134875:0
-alert:
-  invalid-expired-invite-token: crwdns134877:0crwdne134877:0
-  success: crwdns134879:0crwdne134879:0
+      label: crwdns134883:0crwdne134883:0
+      placeholder: crwdns134885:0crwdne134885:0
+    password:
+      label: crwdns134887:0crwdne134887:0
+      placeholder: crwdns134889:0crwdne134889:0
+    button:
+      login-and-remember: crwdns134891:0crwdne134891:0
+      login: crwdns134893:0crwdne134893:0
+      continue: crwdns134895:0crwdne134895:0
+  links:
+    request-password-reset: crwdns134897:0crwdne134897:0
+    signup: crwdns134899:0crwdne134899:0
+    external:
+      login-with: crwdns134901:0{{idp}}crwdne134901:0
+alerts:
+  logged-in: crwdns134903:0crwdne134903:0
+  local-disabled: crwdns134905:0crwdne134905:0
