@@ -1,11 +1,13 @@
 errors:
-  asyncRouteTooManyProcessers: processer already exists for this async route
-  asyncRouteTooManyAfterFilters: no after filters are allowd for this async route
+  alreadyExists: route by that endpoint already exists
+  existsEndpoint: route with this endpoint already exists
+  invalidEndpoint: invalid endpoint
   invalidID: invalid ID
-  invalidRoute: invalid route
-  notAllowedToCreate: not allowed to create a filter
-  notAllowedToDelete: not allowed to delete this filter
-  notAllowedToRead: not allowed to read this filter
-  notAllowedToUndelete: not allowed to undelete this filter
-  notAllowedToUpdate: not allowed to update this filter
-  notFound: filter not found
+  notAllowedToCreate: not allowed to create a route
+  notAllowedToDelete: not allowed to delete this route
+  notAllowedToExec: not allowed to execute this route
+  notAllowedToRead: not allowed to read this route
+  notAllowedToUndelete: not allowed to undelete this route
+  notAllowedToUpdate: not allowed to update this route
+  notAllowedToSearch: not allowed to list or search routes
+  notFound: route not found
