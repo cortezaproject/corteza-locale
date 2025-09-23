@@ -1,0 +1,89 @@
+add:
+  datasource: crwdns119765:0crwdne119765:0
+  display-element: crwdns119767:0crwdne119767:0
+available: crwdns119769:0crwdne119769:0
+block:
+  description: crwdns119771:0crwdne119771:0
+  save: crwdns119773:0crwdne119773:0
+  title: crwdns119775:0crwdne119775:0
+  configuration: crwdns119777:0crwdne119777:0
+datasource:
+  label: crwdns119779:0crwdne119779:0
+  types:
+    load:
+      label: crwdns119781:0crwdne119781:0
+      data-from-resource: crwdns119783:0crwdne119783:0
+    link:
+      label: crwdns119785:0crwdne119785:0
+      load-datasources: crwdns119787:0crwdne119787:0
+    join:
+      label: crwdns119789:0crwdne119789:0
+      load-datasources: crwdns119791:0crwdne119791:0
+    aggregate:
+      label: crwdns119793:0crwdne119793:0
+      load-datasource: crwdns119795:0crwdne119795:0
+datasources:
+  label: crwdns119797:0crwdne119797:0
+  save: crwdns119799:0crwdne119799:0
+description: crwdns119801:0crwdne119801:0
+display-elements:
+  types:
+    text: crwdns119803:0crwdne119803:0
+    metric: crwdns119805:0crwdne119805:0
+    table: crwdns119807:0crwdne119807:0
+    chart: crwdns119809:0crwdne119809:0
+element: crwdns119811:0crwdne119811:0
+elements: crwdns119813:0crwdne119813:0
+filter-expression: crwdns119815:0crwdne119815:0
+general: crwdns119817:0crwdne119817:0
+joined-datasource-handling: crwdns119819:0crwdne119819:0
+layout: crwdns119821:0crwdne119821:0
+layout-options:
+  horizontal: crwdns119823:0crwdne119823:0
+  vertical: crwdns119825:0crwdne119825:0
+limit: crwdns119827:0crwdne119827:0
+no-blocks-added: crwdns119829:0crwdne119829:0
+or: crwdns119831:0crwdne119831:0
+pick-scenario: crwdns119833:0crwdne119833:0
+prefilter: crwdns119835:0crwdne119835:0
+presort-order: crwdns119837:0crwdne119837:0
+report:
+  builder: crwdns119839:0crwdne119839:0
+  view: crwdns119841:0crwdne119841:0
+save-button: crwdns119843:0crwdne119843:0
+scenarios:
+  label: crwdns119845:0crwdne119845:0
+  save: crwdns119847:0crwdne119847:0
+title: crwdns119849:0crwdne119849:0
+tooltip:
+  edit:
+    report: crwdns119851:0crwdne119851:0
+    block: crwdns119853:0crwdne119853:0
+  add:
+    displayElement: crwdns119855:0crwdne119855:0
+  delete:
+    block: crwdns119857:0crwdne119857:0
+  configure-scenarios: crwdns119859:0crwdne119859:0
+  unsavedChanges: crwdns119861:0crwdne119861:0
+available-columns: crwdns119863:0crwdne119863:0
+selected-columns: crwdns119865:0crwdne119865:0
+no-columns-found: crwdns119867:0crwdne119867:0
+type-to-search: crwdns119869:0crwdne119869:0
+selected: crwdns119871:0crwdne119871:0
+select-all: crwdns119873:0crwdne119873:0
+unselect-all: crwdns119875:0crwdne119875:0
+value: crwdns119877:0crwdne119877:0
+name: crwdns119879:0crwdne119879:0
+unsaved-changes: crwdns119881:0crwdne119881:0
+filter:
+  operators:
+    like: crwdns119883:0crwdne119883:0
+    notLike: crwdns119885:0crwdne119885:0
+    contains: crwdns119887:0crwdne119887:0
+    notContains: crwdns119889:0crwdne119889:0
+    equal: crwdns119891:0crwdne119891:0
+    greaterThan: crwdns119893:0crwdne119893:0
+    greaterThanEqualTo: crwdns119895:0crwdne119895:0
+    lessThanEqualTo: crwdns119897:0crwdne119897:0
+    lessThan: crwdns119899:0crwdne119899:0
+    notEqual: crwdns119901:0crwdne119901:0
