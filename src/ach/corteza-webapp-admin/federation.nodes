@@ -1,0 +1,63 @@
+editor:
+  generate:
+    body: 'crwdns111933:0{{ userLabel }}crwdne111933:0'
+    description: crwdns111935:0crwdne111935:0
+    hello: crwdns111937:0crwdne111937:0
+    invitation: crwdns111939:0crwdne111939:0
+    kindRegards: crwdns111941:0crwdne111941:0
+    notGenerated: crwdns111943:0crwdne111943:0
+    sendEmail: crwdns111945:0crwdne111945:0
+    subject: 'crwdns111947:0crwdne111947:0'
+  generateUri: crwdns111949:0crwdne111949:0
+  info:
+    createdAt: crwdns111951:0crwdne111951:0
+    createdBy: crwdns111953:0crwdne111953:0
+    delete: crwdns111955:0crwdne111955:0
+    deletedAt: crwdns111957:0crwdne111957:0
+    email: crwdns111959:0crwdne111959:0
+    enabled: crwdns111961:0crwdne111961:0
+    name: crwdns111963:0crwdne111963:0
+    status: crwdns111965:0crwdne111965:0
+    tags:
+      label: crwdns111967:0crwdne111967:0
+      placeholder: crwdns111969:0crwdne111969:0
+    title: crwdns111971:0crwdne111971:0
+    undelete: crwdns111973:0crwdne111973:0
+    updatedAt: crwdns111975:0crwdne111975:0
+    url: crwdns111977:0crwdne111977:0
+  title:
+    create: crwdns111979:0crwdne111979:0
+    edit: crwdns111981:0crwdne111981:0
+list:
+  columns:
+    actions: "crwdns111983:0crwdne111983:0"
+    createdAt: crwdns111985:0crwdne111985:0
+    enabled: crwdns111987:0crwdne111987:0
+    name: crwdns111989:0crwdne111989:0
+    status: crwdns111991:0crwdne111991:0
+    tags: "crwdns111993:0crwdne111993:0"
+  filterForm:
+    query:
+      label: crwdns111995:0crwdne111995:0
+      placeholder: crwdns111997:0crwdne111997:0
+  loading: crwdns111999:0crwdne111999:0
+  new: crwdns112001:0crwdne112001:0
+  numFound: 'crwdns112003:0{{count}}crwdne112003:0'
+  numFound_plural: 'crwdns112005:0{{count}}crwdne112005:0'
+  pair:
+    confirm: crwdns112007:0crwdne112007:0
+    label: crwdns112009:0crwdne112009:0
+    networkEstablished: crwdns112011:0crwdne112011:0
+    note: 'crwdns112013:0crwdne112013:0'
+    status:
+      confirmPending:
+        description: |-
+          crwdns112015:0{{ email }}crwdnd112015:0{{ name }}crwdne112015:0
+        descriptionNoMail: |-
+          crwdns112017:0{{ name }}crwdne112017:0
+      none:
+        description: crwdns112019:0crwdne112019:0
+      pending:
+        description: crwdns112021:0crwdne112021:0
+  title: crwdns112023:0crwdne112023:0
+  yaml: crwdns112025:0crwdne112025:0
