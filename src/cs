@@ -1,9 +1,16 @@
 template:
-  title: Authorized clients
-  list:
-    authorized-on: Authorized on
-    buttons:
-      revoke: Revoke access
-    empty: No authorized clients found
+  title: Change your password
+  form:
+    email:
+      label: Email
+      placeholder: email@domain.tld
+    old-password:
+      label: Old password
+      placeholder: Enter your old password
+    new-password:
+      label: New password
+      placeholder: Enter your new password
+    button:
+      change-password: Change your password
 alerts:
-  removed: Client authorization removed
+  password-change-success: Password successfully changed
