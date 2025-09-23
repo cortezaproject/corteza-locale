@@ -1,6 +1,12 @@
 errors:
-  invalidID: crwdns135831:0crwdne135831:0
-  notAllowedToAssign: crwdns135833:0crwdne135833:0
-  notAllowedToDismiss: crwdns135835:0crwdne135835:0
-  notAllowedToRead: crwdns135837:0crwdne135837:0
-  notFound: crwdns135839:0crwdne135839:0
+  invalidConfiguration: crwdns135841:0crwdne135841:0
+  invalidID: crwdns135843:0crwdne135843:0
+  notAllowedToCreate: crwdns135845:0crwdne135845:0
+  notAllowedToDelete: crwdns135847:0crwdne135847:0
+  notAllowedToListReports: crwdns135849:0crwdne135849:0
+  notAllowedToRead: crwdns135851:0crwdne135851:0
+  notAllowedToRun: crwdns135853:0crwdne135853:0
+  notAllowedToSearch: crwdns135855:0crwdne135855:0
+  notAllowedToUndelete: crwdns135857:0crwdne135857:0
+  notAllowedToUpdate: crwdns135859:0crwdne135859:0
+  notFound: crwdns135861:0crwdne135861:0
