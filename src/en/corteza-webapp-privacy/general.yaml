@@ -1,0 +1,28 @@
+label:
+  back: Back
+  all: All
+  privacy_request:
+    single: Privacy Request
+    plural: Privacy Requests
+  sensitive_module:
+    single: Sensitive Module
+    plural: Sensitive Modules
+
+resourceList:
+  loading: Loading
+  noItems: No items
+  notFound: Not found
+  search:
+    placeholder: Type here to search items
+  pagination:
+    next: Next
+    prev: Previous
+    showing: '{{from}} - {{to}} of {{count}} {{data}}'
+    single: 'One {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Per Page
+
+themes:
+  labels:
+    light: Light
+    dark: Dark
