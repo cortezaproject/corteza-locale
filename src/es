@@ -1,8 +1,13 @@
 errors:
+  alreadyExists: queue by that name already exists
+  invalidConsumer: invalid consumer
   invalidID: invalid ID
-  notAllowedToRead: not allowed to read notifications of other users
-  notAllowedToCreate: not allowed to create notifications
-  notAllowedToUpdate: not allowed to update notifications
-  notAllowedToDelete: not allowed to delete notifications
-  notAllowedToAssign: not allowed to assign notifications to other users
-  notFound: notification not found
+  notAllowedToCreate: not allowed to create a queue
+  notAllowedToDelete: not allowed to delete this queue
+  notAllowedToRead: not allowed to read this queue
+  notAllowedToReadFrom: not allowed to read messages from this queue
+  notAllowedToSearch: not allowed to search or list queues
+  notAllowedToUndelete: not allowed to undelete this queue
+  notAllowedToUpdate: not allowed to update this queue
+  notAllowedToWriteTo: not allowed to add messages to this queue
+  notFound: queue not found
