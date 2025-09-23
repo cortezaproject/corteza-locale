@@ -1,0 +1,191 @@
+automation:
+  scriptFailed: crwdns118139:0crwdne118139:0
+chart:
+  created: crwdns118141:0crwdne118141:0
+  createFailed: crwdns118143:0crwdne118143:0
+  deleteFailed: crwdns118145:0crwdne118145:0
+  deleted: crwdns118147:0crwdne118147:0
+  invalidConfig:
+    missingDimensionsField: crwdns118149:0crwdne118149:0
+    missingDimensionsModifier: crwdns118151:0crwdne118151:0
+    missingDimensionsSteps: crwdns118153:0crwdne118153:0
+    missingMetricsAggregate: crwdns118155:0crwdne118155:0
+    missingMetricsField: crwdns118157:0crwdne118157:0
+    missingMetricsType: crwdns118159:0crwdne118159:0
+    missingModuleID: crwdns118161:0crwdne118161:0
+    missingReports: crwdns118163:0crwdne118163:0
+  loadFailed: crwdns118165:0crwdne118165:0
+  optionsBuildFailed: crwdns118167:0crwdne118167:0
+  updateFailed: crwdns118169:0crwdne118169:0
+  updated: crwdns118171:0crwdne118171:0
+  unsupportedRenderer: crwdns118173:0crwdne118173:0
+  colorScheme:
+    fetch:
+      failed: crwdns118175:0crwdne118175:0
+    create:
+      success: crwdns118177:0crwdne118177:0
+      failed: crwdns118179:0crwdne118179:0
+    update:
+      success: crwdns118181:0crwdne118181:0
+      failed: crwdns118183:0crwdne118183:0
+    delete:
+      success: crwdns118185:0crwdne118185:0
+      failed: crwdns118187:0crwdne118187:0
+color:
+  RGBA:
+    invalid: crwdns118189:0crwdne118189:0
+field:
+  missingRequired: crwdns118191:0crwdne118191:0
+  unknownFieldKind: 'crwdns118193:0{{kind}}crwdne118193:0'
+  unsupportedKind: crwdns118195:0{{kind}}crwdne118195:0
+field-datetime:
+  valueNotFuture: crwdns118197:0crwdne118197:0
+  valueNotPast: crwdns118199:0crwdne118199:0
+field-geometry:
+  geolocationErrors:
+    permissionDenied: crwdns118201:0crwdne118201:0
+    positionUnavailable: crwdns118203:0crwdne118203:0
+    timeout: crwdns118205:0crwdne118205:0
+    unknownError: crwdns118207:0crwdne118207:0
+    notSupported: crwdns118209:0crwdne118209:0
+    errorOccurred: crwdns118211:0crwdne118211:0
+    locationSearchFailed: crwdns118213:0crwdne118213:0
+general:
+  composeAccessNotAllowed: crwdns118215:0crwdne118215:0
+  error: crwdns118217:0crwdne118217:0
+  success: crwdns118219:0crwdne118219:0
+  warning: crwdns118221:0crwdne118221:0
+  info: crwdns118223:0crwdne118223:0
+  import:
+    failed: crwdns118225:0crwdne118225:0
+    readingError: crwdns118227:0crwdne118227:0
+    successful: crwdns118229:0crwdne118229:0
+    typeMissmatch: 'crwdns118231:0{{type1}}crwdnd118231:0{{type2}}crwdne118231:0'
+list:
+  load:
+    error: crwdns118233:0crwdne118233:0
+module:
+  created: crwdns118235:0crwdne118235:0
+  createFailed: crwdns118237:0crwdne118237:0
+  deleteFailed: crwdns118239:0crwdne118239:0
+  deleted: crwdns118241:0crwdne118241:0
+  loadFailed: crwdns118243:0crwdne118243:0
+  saveFailed: crwdns118245:0crwdne118245:0
+  saved: crwdns118247:0crwdne118247:0
+  columns:
+    saved: crwdns118249:0crwdne118249:0
+    saveFailed: crwdns118251:0crwdne118251:0
+  recordPage:
+    createFailed: crwdns118253:0crwdne118253:0
+  schemaAlterations:
+    load:
+      error: crwdns118255:0crwdne118255:0
+    resolve:
+      success: crwdns118257:0crwdne118257:0
+      error: crwdns118259:0crwdne118259:0
+    dismiss:
+      success: crwdns118261:0crwdne118261:0
+      error: crwdns118263:0crwdne118263:0
+namespace:
+  application:
+    createFailed: crwdns118265:0crwdne118265:0
+    fetchFailed: crwdns118267:0crwdne118267:0
+    saveFailed: crwdns118269:0crwdne118269:0
+  assetUploadFailed: crwdns118271:0crwdne118271:0
+  createFailed: crwdns118273:0crwdne118273:0
+  deleted: crwdns118275:0crwdne118275:0
+  deleteFailed: crwdns118277:0crwdne118277:0
+  disabled: crwdns118279:0crwdne118279:0
+  saveFailed: crwdns118281:0crwdne118281:0
+  saved: crwdns118283:0crwdne118283:0
+  cloned: crwdns118285:0crwdne118285:0
+  cloneFailed: crwdns118287:0crwdne118287:0
+  imported: crwdns118289:0crwdne118289:0
+  importFailed: crwdns118291:0crwdne118291:0
+  loadFailed: crwdns118293:0crwdne118293:0
+page:
+  block:
+    calendar:
+      eventFetchFailed: crwdns118295:0crwdne118295:0
+  notFound: crwdns118297:0crwdne118297:0
+  createFailed: crwdns118299:0crwdne118299:0
+  cloneFailed: crwdns118301:0crwdne118301:0
+  deleteFailed: crwdns118303:0crwdne118303:0
+  iconFetchFailed: crwdns118305:0crwdne118305:0
+  iconDeleteFailed: crwdns118307:0crwdne118307:0
+  iconDeleteSuccess: crwdns118309:0crwdne118309:0
+  loadFailed: crwdns118311:0crwdne118311:0
+  listFailed: crwdns118313:0crwdne118313:0
+  noPages: crwdns118315:0crwdne118315:0
+  saveFailed: crwdns118317:0crwdne118317:0
+  saveFailedRequired: crwdns118319:0crwdne118319:0
+  saved: crwdns118321:0crwdne118321:0
+  deleted: crwdns118323:0crwdne118323:0
+  copySuccess: crwdns118325:0crwdne118325:0
+  cloneSuccess: crwdns118327:0crwdne118327:0
+  pasteSuccess: crwdns118329:0crwdne118329:0
+  duplicateFailed: crwdns118331:0crwdne118331:0
+  blockWaiting: crwdns118333:0crwdne118333:0
+  copyFailed: crwdns118335:0{{reason}}crwdne118335:0
+  invalidBlock: crwdns118337:0crwdne118337:0
+  page-layout:
+    notFound:
+      edit: crwdns118339:0crwdne118339:0
+      view: crwdns118341:0crwdne118341:0
+    save:
+      success: crwdns118343:0crwdne118343:0
+      failed: crwdns118345:0crwdne118345:0
+    clone:
+      success: crwdns118347:0crwdne118347:0
+      failed: crwdns118349:0crwdne118349:0
+    delete:
+      success: crwdns118351:0crwdne118351:0
+      failed: crwdns118353:0crwdne118353:0
+record:
+  createFailed: crwdns118355:0crwdne118355:0
+  createSuccess: crwdns118357:0crwdne118357:0
+  updateFailed: crwdns118359:0crwdne118359:0
+  updateSuccess: crwdns118361:0crwdne118361:0
+  deleteFailed: crwdns118363:0crwdne118363:0
+  deleteSuccess: crwdns118365:0crwdne118365:0
+  restoreFailed: crwdns118367:0crwdne118367:0
+  restoreSuccess: crwdns118369:0crwdne118369:0
+  deleteBulkFailed: crwdns118371:0crwdne118371:0
+  deleteBulkRecordUpdateFailed: crwdns118373:0crwdne118373:0
+  deleteBulkSuccess: crwdns118375:0crwdne118375:0
+  bulkRecordUpdateSuccess: crwdns118377:0crwdne118377:0
+  restoreBulkFailed: crwdns118379:0crwdne118379:0
+  restoreBulkSuccess: crwdns118381:0crwdne118381:0
+  invalidOwnerVar: crwdns118383:0${ownerID}crwdne118383:0
+  invalidRecordVar: crwdns118385:0${record...}crwdne118385:0
+  listLoadFailed: crwdns118387:0crwdne118387:0
+  loadFailed: crwdns118389:0crwdne118389:0
+  countFailed: crwdns118391:0crwdne118391:0
+  moduleMismatch: crwdns118393:0crwdne118393:0
+  moduleNotDefined: crwdns118395:0crwdne118395:0
+  moduleOrPageNotSet: 'crwdns118397:0crwdne118397:0'
+  unexpectedInput: crwdns118399:0crwdne118399:0
+  unexpectedValue: crwdns118401:0{{type}}crwdne118401:0
+  validationErrors: 'crwdns118403:0{{fields}}crwdne118403:0'
+  validationWarnings: 'crwdns118405:0{{fields}}crwdne118405:0'
+  staleDataRefresh: crwdns118407:0crwdne118407:0
+  fieldConditions:
+    failed: crwdns118409:0crwdne118409:0
+record-list:
+  corrupted-filter: crwdns118411:0crwdne118411:0
+  corrupted-summaries: crwdns118413:0crwdne118413:0
+  corrupted-configured-fields: crwdns118415:0crwdne118415:0
+  incorrect-filter-structure: crwdns118417:0{{filterID}}crwdne118417:0
+report:
+  listFetchFailed: crwdns118419:0crwdne118419:0
+  fetchFailed: crwdns118421:0crwdne118421:0
+  runFailed: crwdns118423:0crwdne118423:0
+translations:
+  saved: crwdns118425:0crwdne118425:0
+  saveFailed: crwdns118427:0crwdne118427:0
+connection:
+  read-failed: crwdns118429:0crwdne118429:0
+sensitivity-level:
+  fetch-failed: crwdns118431:0crwdne118431:0
+evaluate:
+  failed: crwdns118433:0crwdne118433:0
