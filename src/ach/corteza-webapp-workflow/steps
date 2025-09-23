@@ -1,0 +1,121 @@
+break:
+  label: crwdns121011:0crwdne121011:0
+  short: crwdns121013:0crwdne121013:0
+  tooltip: crwdns121015:0crwdne121015:0
+content:
+  label: crwdns121017:0crwdne121017:0
+  short: crwdns121019:0crwdne121019:0
+  tooltip: crwdns121021:0crwdne121021:0
+  configurator:
+    ok: crwdns121023:0crwdne121023:0
+    urlPlaceholder: crwdns121025:0crwdne121025:0
+continue:
+  label: crwdns121027:0crwdne121027:0
+  short: crwdns121029:0crwdne121029:0
+  tooltip: crwdns121031:0crwdne121031:0
+debug:
+  label: crwdns121033:0crwdne121033:0
+  short: crwdns121035:0crwdne121035:0
+  tooltip: crwdns121037:0crwdne121037:0
+delay:
+  label: crwdns121039:0crwdne121039:0
+  short: crwdns121041:0crwdne121041:0
+  tooltip: crwdns121043:0crwdne121043:0
+error:
+  label: crwdns121045:0crwdne121045:0
+  short: crwdns121047:0crwdne121047:0
+  tooltip: crwdns121049:0crwdne121049:0
+error-handler:
+  label: crwdns121051:0crwdne121051:0
+  short: crwdns121053:0crwdne121053:0
+  tooltip: crwdns121055:0crwdne121055:0
+expressions:
+  configurator:
+    add-expression: crwdns121057:0crwdne121057:0
+    expression: crwdns121059:0crwdne121059:0
+    expression-placeholder: crwdns121061:0crwdne121061:0
+    target: crwdns121063:0crwdne121063:0
+  label: crwdns121065:0crwdne121065:0
+  short: crwdns121067:0crwdne121067:0
+  tooltip: crwdns121069:0crwdne121069:0
+function:
+  configurator:
+    arguments: crwdns121071:0crwdne121071:0
+    constant: crwdns121073:0crwdne121073:0
+    expression: crwdns121075:0crwdne121075:0
+    name: crwdns121077:0crwdne121077:0
+    option-select: crwdns121079:0crwdne121079:0
+    result: crwdns121081:0crwdne121081:0
+    results: crwdns121083:0crwdne121083:0
+    target: crwdns121085:0crwdne121085:0
+    add-result: crwdns121087:0crwdne121087:0
+    search-workflow: crwdns121089:0crwdne121089:0
+    select-function: crwdns121091:0crwdne121091:0
+    type: crwdns121093:0crwdne121093:0
+    type*: crwdns121095:0crwdne121095:0
+  label: crwdns121097:0crwdne121097:0
+  short: crwdns121099:0crwdne121099:0
+  tooltip: crwdns121101:0crwdne121101:0
+exec-workflow:
+  label: crwdns121103:0crwdne121103:0
+  short: crwdns121105:0crwdne121105:0
+  tooltip: crwdns121107:0crwdne121107:0
+gatewayExclusive:
+  label: crwdns121109:0crwdne121109:0
+  short: crwdns121111:0crwdne121111:0
+  tooltip: crwdns121113:0crwdne121113:0
+gatewayInclusive:
+  label: crwdns121115:0crwdne121115:0
+  short: crwdns121117:0crwdne121117:0
+  tooltip: crwdns121119:0crwdne121119:0
+gatewayParallel:
+  label: crwdns121121:0crwdne121121:0
+  short: crwdns121123:0crwdne121123:0
+  tooltip: crwdns121125:0crwdne121125:0
+gateway:
+  configurator:
+    condition: crwdns121127:0crwdne121127:0
+    two-paths: crwdns121129:0crwdne121129:0
+iterator:
+  label: crwdns121131:0crwdne121131:0
+  short: crwdns121133:0crwdne121133:0
+  tooltip: crwdns121135:0crwdne121135:0
+prompt:
+  label: crwdns121137:0crwdne121137:0
+  short: crwdns121139:0crwdne121139:0
+  tooltip: crwdns121141:0crwdne121141:0
+swimlane:
+  label: crwdns121143:0crwdne121143:0
+  short: crwdns121145:0crwdne121145:0
+  tooltip: crwdns121147:0crwdne121147:0
+termination:
+  label: crwdns121149:0crwdne121149:0
+  short: crwdns121151:0crwdne121151:0
+  tooltip: crwdns121153:0crwdne121153:0
+trigger:
+  configurator:
+    add: crwdns121155:0crwdne121155:0
+    add-constraints: crwdns121157:0crwdne121157:0
+    constraints: crwdns121159:0crwdne121159:0
+    event*: crwdns121161:0crwdne121161:0
+    failed-fetch-event-types: crwdns121163:0crwdne121163:0
+    initial-scope: crwdns121165:0crwdne121165:0
+    equal: crwdns121167:0crwdne121167:0
+    not-equal: crwdns121169:0crwdne121169:0
+    like: crwdns121171:0crwdne121171:0
+    not-like: crwdns121173:0crwdne121173:0
+    operator: crwdns121175:0crwdne121175:0
+    resource: crwdns121177:0crwdne121177:0
+    resource*: crwdns121179:0crwdne121179:0
+    select-constraint-type: crwdns121181:0crwdne121181:0
+    select-operator: crwdns121183:0crwdne121183:0
+    select-event-type: crwdns121185:0crwdne121185:0
+    select-resource-type: crwdns121187:0crwdne121187:0
+  label: crwdns121189:0crwdne121189:0
+  short: crwdns121191:0crwdne121191:0
+  tooltip: crwdns121193:0crwdne121193:0
+tooltip:
+  configure-step: crwdns121195:0crwdne121195:0
+path:
+  label: crwdns121197:0crwdne121197:0
+  short: crwdns121199:0crwdne121199:0
