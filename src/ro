@@ -1,9 +1,9 @@
 errors:
-  alreadyExists: sensitivity level by that DNS already exists
-  existsEndpoint: sensitivity level with this DNS already exists
-  generic: failed to complete request due to internal error
-  invalidEndpoint: invalid endpoint
+  notFound: data privacy request not found
   invalidID: invalid ID
-  notAllowedToManage: not allowed to manage sensitivity level
-  notFound: sensitivity level not found
-  deleteInUse: cannot delete in use sensitivity levels
+  invalidKind: invalid kind
+  invalidStatus: invalid status
+  notAllowedToRead: not allowed to read this data privacy request
+  notAllowedToSearch: not allowed to search or list data privacy request
+  notAllowedToCreate: not allowed to create data privacy request
+  notAllowedToApprove: not allowed to approve/reject data privacy request
