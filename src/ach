@@ -1,8 +1,3 @@
 errors:
-  composeModuleNotFound: crwdns135517:0crwdne135517:0
-  composeNamespaceNotFound: crwdns135519:0crwdne135519:0
-  federationModuleNotFound: crwdns135521:0crwdne135521:0
-  moduleMappingExists: crwdns135523:0crwdne135523:0
-  nodeNotFound: crwdns135525:0crwdne135525:0
-  notAllowedToMap: crwdns135527:0crwdne135527:0
-  notFound: crwdns135529:0crwdne135529:0
+  nodeNotFound: crwdns135531:0crwdne135531:0
+  notFound: crwdns135533:0crwdne135533:0
