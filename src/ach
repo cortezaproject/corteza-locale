@@ -1,63 +1,68 @@
+label:
+  add: crwdns136781:0crwdne136781:0
+  general:
+    yes: Yes
+    no: No
+  template:
+    single: crwdns136783:0crwdne136783:0
+    plural: crwdns136785:0crwdne136785:0
+  user:
+    single: crwdns136787:0crwdne136787:0
+    plural: crwdns136789:0crwdne136789:0
+  role:
+    single: crwdns136791:0crwdne136791:0
+    plural: crwdns136793:0crwdne136793:0
+  application:
+    single: crwdns136795:0crwdne136795:0
+    plural: crwdns136797:0crwdne136797:0
+  auth_client:
+    single: crwdns136799:0crwdne136799:0
+    plural: crwdns136801:0crwdne136801:0
+  queue:
+    single: crwdns136803:0crwdne136803:0
+    plural: crwdns136805:0crwdne136805:0
+  route:
+    single: crwdns136807:0crwdne136807:0
+    plural: crwdns136809:0crwdne136809:0
+  connection:
+    single: crwdns136811:0crwdne136811:0
+    plural: crwdns136813:0crwdne136813:0
+  sensitivity_level:
+    single: crwdns136815:0crwdne136815:0
+    plural: crwdns136817:0crwdne136817:0
+  session:
+    single: crwdns136819:0crwdne136819:0
+    plural: crwdns136821:0crwdne136821:0
+  workflow:
+    single: crwdns136823:0crwdne136823:0
+    plural: crwdns136825:0crwdne136825:0
+  plus-add: crwdns136827:0crwdne136827:0
+  clear: crwdns136829:0crwdne136829:0
+  all: crwdns136831:0crwdne136831:0
+  none: crwdns136833:0crwdne136833:0
+  now: crwdns136835:0crwdne136835:0
+  today: crwdns136837:0crwdne136837:0
+  routes: crwdns136839:0crwdne136839:0
+  requests: crwdns136841:0crwdne136841:0
+  refresh: crwdns136843:0crwdne136843:0
+  loadMore: crwdns136845:0crwdne136845:0
+  loading: crwdns136847:0crwdne136847:0
+  saveAndClose: crwdns136849:0crwdne136849:0
+  cancel: crwdns136851:0crwdne136851:0
+  submit: crwdns136853:0crwdne136853:0
+  delete: crwdns136855:0crwdne136855:0
+  undelete: crwdns136857:0crwdne136857:0
+  fileTypeNotAllowed: crwdns136859:0crwdne136859:0
 editor:
-  generate:
-    body: 'crwdns136687:0{{ userLabel }}crwdne136687:0'
-    description: crwdns136689:0crwdne136689:0
-    hello: crwdns136691:0crwdne136691:0
-    invitation: crwdns136693:0crwdne136693:0
-    kindRegards: crwdns136695:0crwdne136695:0
-    notGenerated: crwdns136697:0crwdne136697:0
-    sendEmail: crwdns136699:0crwdne136699:0
-    subject: 'crwdns136701:0crwdne136701:0'
-  generateUri: crwdns136703:0crwdne136703:0
-  info:
-    createdAt: crwdns136705:0crwdne136705:0
-    createdBy: crwdns136707:0crwdne136707:0
-    delete: crwdns136709:0crwdne136709:0
-    deletedAt: crwdns136711:0crwdne136711:0
-    email: crwdns136713:0crwdne136713:0
-    enabled: crwdns136715:0crwdne136715:0
-    name: crwdns136717:0crwdne136717:0
-    status: crwdns136719:0crwdne136719:0
-    tags:
-      label: crwdns136721:0crwdne136721:0
-      placeholder: crwdns136723:0crwdne136723:0
-    title: crwdns136725:0crwdne136725:0
-    undelete: crwdns136727:0crwdne136727:0
-    updatedAt: crwdns136729:0crwdne136729:0
-    url: crwdns136731:0crwdne136731:0
-  title:
-    create: crwdns136733:0crwdne136733:0
-    edit: crwdns136735:0crwdne136735:0
-list:
-  columns:
-    actions: "crwdns136737:0crwdne136737:0"
-    createdAt: crwdns136739:0crwdne136739:0
-    enabled: crwdns136741:0crwdne136741:0
-    name: crwdns136743:0crwdne136743:0
-    status: crwdns136745:0crwdne136745:0
-    tags: "crwdns136747:0crwdne136747:0"
-  filterForm:
-    query:
-      label: crwdns136749:0crwdne136749:0
-      placeholder: crwdns136751:0crwdne136751:0
-  loading: crwdns136753:0crwdne136753:0
-  new: crwdns136755:0crwdne136755:0
-  numFound: 'crwdns136757:0{{count}}crwdne136757:0'
-  numFound_plural: 'crwdns136759:0{{count}}crwdne136759:0'
-  pair:
-    confirm: crwdns136761:0crwdne136761:0
-    label: crwdns136763:0crwdne136763:0
-    networkEstablished: crwdns136765:0crwdne136765:0
-    note: 'crwdns136767:0crwdne136767:0'
-    status:
-      confirmPending:
-        description: |-
-          crwdns136769:0{{ email }}crwdnd136769:0{{ name }}crwdne136769:0
-        descriptionNoMail: |-
-          crwdns136771:0{{ name }}crwdne136771:0
-      none:
-        description: crwdns136773:0crwdne136773:0
-      pending:
-        description: crwdns136775:0crwdne136775:0
-  title: crwdns136777:0crwdne136777:0
-  yaml: crwdns136779:0crwdne136779:0
+  unsavedChanges: crwdns136861:0crwdne136861:0
+resourceList:
+  pagination:
+    recordsPerPage: crwdns136863:0crwdne136863:0
+themes:
+  labels:
+    light: crwdns136865:0crwdne136865:0
+    dark: crwdns136867:0crwdne136867:0
+extendSession:
+  labels:
+    extend: crwdns136869:0crwdne136869:0
+    warning: crwdns136871:0{{ countdownTime }}crwdne136871:0
