@@ -1,57 +1,60 @@
 editor:
   info:
-    completedAt: crwdns136219:0crwdne136219:0
-    createdAt: crwdns136221:0crwdne136221:0
-    createdBy: crwdns136223:0crwdne136223:0
-    createdByUserName: crwdns136225:0crwdne136225:0
-    delete: crwdns136227:0crwdne136227:0
-    deletedAt: crwdns136229:0crwdne136229:0
-    suspendedAt: crwdns136231:0crwdne136231:0
-    error: crwdns136233:0crwdne136233:0
-    eventType: crwdns136235:0crwdne136235:0
-    id: crwdns136237:0crwdne136237:0
-    resourceType: crwdns136239:0crwdne136239:0
-    status: crwdns136241:0crwdne136241:0
-    title: crwdns136243:0crwdne136243:0
-    workflowID: crwdns136245:0crwdne136245:0
-    openWorkflow: crwdns136247:0crwdne136247:0
-    cancel: crwdns136249:0crwdne136249:0
-  title: crwdns136251:0crwdne136251:0
+    createdAt: crwdns136299:0crwdne136299:0
+    createdBy: crwdns136301:0crwdne136301:0
+    delete: crwdns136303:0crwdne136303:0
+    deletedAt: crwdns136305:0crwdne136305:0
+    enabled: crwdns136307:0crwdne136307:0
+    handle: crwdns136309:0crwdne136309:0
+    invalid-handle-characters: crwdns136311:0crwdne136311:0
+    id: crwdns136313:0crwdne136313:0
+    name: crwdns136315:0crwdne136315:0
+    openBuilder: crwdns136317:0crwdne136317:0
+    title: crwdns136319:0crwdne136319:0
+    undelete: crwdns136321:0crwdne136321:0
+    updatedAt: crwdns136323:0crwdne136323:0
+  new: crwdns136325:0crwdne136325:0
+  permissions: crwdns136327:0crwdne136327:0
+  title:
+    create: crwdns136329:0crwdne136329:0
+    edit: crwdns136331:0crwdne136331:0
+  triggers:
+    and: crwdns136333:0crwdne136333:0
+    columns:
+      constraints: crwdns136335:0crwdne136335:0
+      eventType: crwdns136337:0crwdne136337:0
+      resourceType: crwdns136339:0crwdne136339:0
+    title: crwdns136341:0crwdne136341:0
 list:
   columns:
-    actions: "crwdns136253:0crwdne136253:0"
-    createdAt: crwdns136255:0crwdne136255:0
-    eventType: crwdns136257:0crwdne136257:0
-    sessionID: crwdns136259:0crwdne136259:0
-    state: crwdns136261:0crwdne136261:0
-    status: crwdns136263:0crwdne136263:0
-    workflowID: crwdns136265:0crwdne136265:0
+    actions: "crwdns136343:0crwdne136343:0"
+    createdAt: crwdns136345:0crwdne136345:0
+    enabled: crwdns136347:0crwdne136347:0
+    handle: crwdns136349:0crwdne136349:0
+    name: crwdns136351:0crwdne136351:0
+    state: crwdns136353:0crwdne136353:0
+  delete: crwdns136355:0crwdne136355:0
+  undelete: crwdns136357:0crwdne136357:0
+  export: crwdns136359:0crwdne136359:0
+  rows:
+    filters:
+      deleted: crwdns136361:0crwdne136361:0
   filterForm:
-    all:
-      label: crwdns136267:0crwdne136267:0
-    completed:
-      label: crwdns136269:0crwdne136269:0
+    deleted:
+      label: crwdns136363:0crwdne136363:0
     excluded:
-      label: crwdns136271:0crwdne136271:0
+      label: crwdns136365:0crwdne136365:0
     exclusive:
-      label: crwdns136273:0crwdne136273:0
-    failed:
-      label: crwdns136275:0crwdne136275:0
-    inProgress:
-      label: crwdns136277:0crwdne136277:0
+      label: crwdns136367:0crwdne136367:0
     inclusive:
-      label: crwdns136279:0crwdne136279:0
-    prompted:
-      label: crwdns136281:0crwdne136281:0
-    sessions:
-      label: crwdns136283:0crwdne136283:0
-    started:
-      label: crwdns136285:0crwdne136285:0
-    suspended:
-      label: crwdns136287:0crwdne136287:0
-    canceled:
-      label: crwdns136289:0crwdne136289:0
-  loading: crwdns136291:0crwdne136291:0
-  numFound: 'crwdns136293:0{{count}}crwdne136293:0'
-  numFound_plural: 'crwdns136295:0{{count}}crwdne136295:0'
-  title: crwdns136297:0crwdne136297:0
+      label: crwdns136369:0crwdne136369:0
+    query:
+      label: crwdns136371:0crwdne136371:0
+      placeholder: crwdns136373:0crwdne136373:0
+  loading: crwdns136375:0crwdne136375:0
+  new: crwdns136377:0crwdne136377:0
+  numFound: 'crwdns136379:0{{count}}crwdne136379:0'
+  numFound_plural: 'crwdns136381:0{{count}}crwdne136381:0'
+  permissions: crwdns136383:0crwdne136383:0
+  title: crwdns136385:0crwdne136385:0
+  yaml: crwdns136387:0crwdne136387:0
