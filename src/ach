@@ -1,51 +1,23 @@
-'configure-triggers': crwdns145543:0crwdne145543:0
-'confirm-unsaved-changes': crwdns145545:0crwdne145545:0
-error: "crwdns145547:0crwdne145547:0"
-'event-type-not-found': crwdns145549:0crwdne145549:0
-'event-type-fetch-failed': crwdns145551:0crwdne145551:0
-'failed-fetch-functions': crwdns145553:0crwdne145553:0
-'failed-fetch-triggers': crwdns145555:0crwdne145555:0
-'failed-fetch-workflow': crwdns145557:0crwdne145557:0
-'failed-fetch-workflows': crwdns145559:0crwdne145559:0
-'failed-load-file': crwdns145561:0crwdne145561:0
-'failed-save': crwdns145563:0crwdne145563:0
-'failed-test': crwdns145565:0crwdne145565:0
-'fetch-types-failed': crwdns145567:0crwdne145567:0
-general:
-  error: crwdns145569:0crwdne145569:0
-  success: crwdns145571:0crwdne145571:0
-  warning: crwdns145573:0crwdne145573:0
-  info: crwdns145575:0crwdne145575:0
-list:
-  load:
-    error: crwdns145577:0crwdne145577:0
-  enable:
-    success: crwdns145579:0crwdne145579:0
-    failed: crwdns145581:0crwdne145581:0
-  disable:
-    success: crwdns145583:0crwdne145583:0
-    failed: crwdns145585:0crwdne145585:0
-import:
-  'failed-import': crwdns145587:0crwdne145587:0
-  'imported-workflows': crwdns145589:0crwdne145589:0
-  'skipped-workflows': crwdns145591:0crwdne145591:0
-'imported-workflow': crwdns145593:0crwdne145593:0
-'import-failed': crwdns145595:0crwdne145595:0
-'initial-scope-load-failed': crwdns145597:0crwdne145597:0
-'resolve-issues': crwdns145599:0crwdne145599:0
-'save-workflow': crwdns145601:0crwdne145601:0
-'started-test': crwdns145603:0crwdne145603:0
-'test-completed': crwdns145605:0crwdne145605:0
-'test-in-progress': crwdns145607:0crwdne145607:0
-'trace-unavailable': crwdns145609:0crwdne145609:0
-'trigger-paths-changed': crwdns145611:0crwdne145611:0
-'workflow-test-completed': crwdns145613:0crwdne145613:0
-update:
-  success: crwdns145615:0crwdne145615:0
-  failed: crwdns145617:0crwdne145617:0
-delete:
-  success: crwdns145619:0crwdne145619:0
-  failed: crwdns145621:0crwdne145621:0
-undelete:
-  success: crwdns145623:0crwdne145623:0
-  failed: crwdns145625:0crwdne145625:0
+title: crwdns145627:0crwdne145627:0
+empty: crwdns145629:0crwdne145629:0
+emptyDescription: crwdns145631:0crwdne145631:0
+markAllAsRead: crwdns145633:0crwdne145633:0
+markAsRead: crwdns145635:0crwdne145635:0
+delete: crwdns145637:0crwdne145637:0
+all: crwdns145639:0crwdne145639:0
+unread: crwdns145641:0crwdne145641:0
+read: crwdns145643:0crwdne145643:0
+success: crwdns145645:0crwdne145645:0
+allMarkedAsRead: crwdns145647:0crwdne145647:0
+notificationDeleted: crwdns145649:0crwdne145649:0
+loadMore: crwdns145651:0crwdne145651:0
+recordRedirectError: crwdns145653:0crwdne145653:0
+mute: crwdns145655:0crwdne145655:0
+unmute: crwdns145657:0crwdne145657:0
+muted: crwdns145659:0crwdne145659:0
+unmuted: crwdns145661:0crwdne145661:0
+markAllAsReadError: crwdns145663:0crwdne145663:0
+notificationDeletedError: crwdns145665:0crwdne145665:0
+namespaceNotFound: crwdns145667:0crwdne145667:0
+pageNotFound: crwdns145669:0crwdne145669:0
+recordNotFound: crwdns145671:0crwdne145671:0
