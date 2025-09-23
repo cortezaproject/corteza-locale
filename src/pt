@@ -1,11 +1,22 @@
 template:
-  title: Reset your password
-  form:
+  title: Security
+  password:
+    title: Password
+    change-link: Change your password
+  mfa:
+    title: Multi-factor authentication
+    totp:
+      title: Additional security with mobile app (time-based one-time-password)
+      enforced: Configured and required on login
+      disabled: Currently disabled
+      configure: Configure
+      disable: Disable
     email:
-      label: Email
-      placeholder: email@domain.tld
-    new-password:
-      label: New password
-      placeholder: Set new password
-    buttons:
-      change-password: Change your password
+      title: Additional security with one-time-password over email
+      enforced: Enabled and required on login
+      disabled: Currently disabled
+      enable: Configure
+      disable: Disable
+    all-disabled: All MFA methods are currently disabled. Ask your administrator to enable them.
+alerts:
+  topt-disabled: Two factor authentication with TOTP disabled
