@@ -1,12 +1,29 @@
-appMenu: crwdns145047:0crwdne145047:0
-help:
-  documentation: crwdns145049:0crwdne145049:0
-  feedback: crwdns145051:0crwdne145051:0
-  forum: crwdns145053:0crwdne145053:0
-  version: 'crwdns145055:0crwdne145055:0'
-userSettings:
-  changePassword: crwdns145057:0crwdne145057:0
-  loggedInAs: crwdns145059:0{{user}}crwdne145059:0
-  logout: crwdns145061:0crwdne145061:0
-  profile: crwdns145063:0crwdne145063:0
-  theme: crwdns145065:0crwdne145065:0
+datasource:
+  describe-failed: crwdns145067:0crwdne145067:0
+general:
+  error: crwdns145069:0crwdne145069:0
+  success: crwdns145071:0crwdne145071:0
+  warning: crwdns145073:0crwdne145073:0
+list:
+  load:
+    error: crwdns145075:0crwdne145075:0
+module:
+  fetch-failed: crwdns145077:0crwdne145077:0
+namespace:
+  fetch-failed: crwdns145079:0crwdne145079:0
+report:
+  createFailed: crwdns145081:0crwdne145081:0
+  loadFailed: crwdns145083:0crwdne145083:0
+  created: crwdns145085:0crwdne145085:0
+  delete: crwdns145087:0crwdne145087:0
+  deleteFailed: crwdns145089:0crwdne145089:0
+  fetchFailed: crwdns145091:0crwdne145091:0
+  listFetchFailed: crwdns145093:0crwdne145093:0
+  runFailed: crwdns145095:0crwdne145095:0
+  updateFailed: crwdns145097:0crwdne145097:0
+  updated: crwdns145099:0crwdne145099:0
+  notAllowed:
+    read: crwdns145101:0crwdne145101:0
+  datasources:
+    updated: crwdns145103:0crwdne145103:0
+    updateFailed: crwdns145105:0crwdne145105:0
