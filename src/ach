@@ -1,23 +1,2 @@
-template:
-  title: crwdns135123:0crwdne135123:0
-  form:
-    email:
-      label: crwdns135125:0crwdne135125:0
-      placeholder: crwdns135127:0crwdne135127:0
-    password:
-      label: crwdns135129:0crwdne135129:0
-      placeholder: crwdns135131:0crwdne135131:0
-    name:
-      label: crwdns135133:0crwdne135133:0
-      placeholder: crwdns135135:0crwdne135135:0
-    nickname:
-      label: crwdns135137:0crwdne135137:0
-      placeholder: crwdns135139:0crwdne135139:0
-    button:
-      sign-up: crwdns135141:0crwdne135141:0
-  log-in: crwdns135143:0{{link}}crwdne135143:0
-alerts:
-  signup-successful: crwdns135145:0crwdne135145:0
-  email-confirmed-logged-in: crwdns135147:0crwdne135147:0
-  invalid-expired-token: crwdns135149:0crwdne135149:0
-  signup-disabled: crwdns135151:0crwdne135151:0
+errors:
+  notAllowedToSetPermissions: crwdns135153:0crwdne135153:0
