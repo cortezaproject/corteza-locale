@@ -1,11 +1,19 @@
-title: Filter
-types:
-  title: Types
-  namespace: Namespace
-  module: Module
-  user: User
-  record: Record
-aggregation-groups:
-  modules: Modules
-  namespaces: Namespaces
-reset: Reset
+federated: Federated
+no-values: No values
+label:
+  all: All
+resourceList:
+  pagination:
+    recordsPerPage: Per Page
+themes:
+  labels:
+    light: Light
+    dark: Dark
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds
+recordID: Record ID
+createdBy: Created By
+createdAt: Created At
+updatedAt: Updated At
