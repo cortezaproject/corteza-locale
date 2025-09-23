@@ -1,16 +1,14 @@
 template:
-  title: Change your password
+  title: Create your password
   form:
     email:
       label: Email
-      placeholder: email@domain.tld
-    old-password:
-      label: Old password
-      placeholder: Enter your old password
-    new-password:
-      label: New password
-      placeholder: Enter your new password
+    password:
+      label: Password
+      placeholder: Enter your password
     button:
-      change-password: Change your password
+      create-password: Create your password
 alerts:
-  password-change-success: Password successfully changed
+  invalid-expired-password-token: Invalid or expired password create token, please repeat password create request.
+  password-create-success: Password successfully created
+  password-create-disabled: Password create disabled
