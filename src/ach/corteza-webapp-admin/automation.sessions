@@ -1,0 +1,57 @@
+editor:
+  info:
+    completedAt: crwdns125061:0crwdne125061:0
+    createdAt: crwdns125063:0crwdne125063:0
+    createdBy: crwdns125065:0crwdne125065:0
+    createdByUserName: crwdns125067:0crwdne125067:0
+    delete: crwdns125069:0crwdne125069:0
+    deletedAt: crwdns125071:0crwdne125071:0
+    suspendedAt: crwdns125073:0crwdne125073:0
+    error: crwdns125075:0crwdne125075:0
+    eventType: crwdns125077:0crwdne125077:0
+    id: crwdns125079:0crwdne125079:0
+    resourceType: crwdns125081:0crwdne125081:0
+    status: crwdns125083:0crwdne125083:0
+    title: crwdns125085:0crwdne125085:0
+    workflowID: crwdns125087:0crwdne125087:0
+    openWorkflow: crwdns125089:0crwdne125089:0
+    cancel: crwdns125091:0crwdne125091:0
+  title: crwdns125093:0crwdne125093:0
+list:
+  columns:
+    actions: "crwdns125095:0crwdne125095:0"
+    createdAt: crwdns125097:0crwdne125097:0
+    eventType: crwdns125099:0crwdne125099:0
+    sessionID: crwdns125101:0crwdne125101:0
+    state: crwdns125103:0crwdne125103:0
+    status: crwdns125105:0crwdne125105:0
+    workflowID: crwdns125107:0crwdne125107:0
+  filterForm:
+    all:
+      label: crwdns125109:0crwdne125109:0
+    completed:
+      label: crwdns125111:0crwdne125111:0
+    excluded:
+      label: crwdns125113:0crwdne125113:0
+    exclusive:
+      label: crwdns125115:0crwdne125115:0
+    failed:
+      label: crwdns125117:0crwdne125117:0
+    inProgress:
+      label: crwdns125119:0crwdne125119:0
+    inclusive:
+      label: crwdns125121:0crwdne125121:0
+    prompted:
+      label: crwdns125123:0crwdne125123:0
+    sessions:
+      label: crwdns125125:0crwdne125125:0
+    started:
+      label: crwdns125127:0crwdne125127:0
+    suspended:
+      label: crwdns125129:0crwdne125129:0
+    canceled:
+      label: crwdns125131:0crwdne125131:0
+  loading: crwdns125133:0crwdne125133:0
+  numFound: 'crwdns125135:0{{count}}crwdne125135:0'
+  numFound_plural: 'crwdns125137:0{{count}}crwdne125137:0'
+  title: crwdns125139:0crwdne125139:0
