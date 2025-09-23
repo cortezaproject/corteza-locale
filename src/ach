@@ -1,11 +1,23 @@
-general:
-  error: crwdns144337:0crwdne144337:0
-  success: crwdns144339:0crwdne144339:0
-  warning: crwdns144341:0crwdne144341:0
-search:
-  failed: crwdns144343:0crwdne144343:0
-list:
-  load:
-    error: crwdns144345:0crwdne144345:0
-connection-load-failed: crwdns144347:0crwdne144347:0
-sensitive-data-fetch-failed: crwdns144349:0crwdne144349:0
+title: crwdns144351:0crwdne144351:0
+empty: crwdns144353:0crwdne144353:0
+emptyDescription: crwdns144355:0crwdne144355:0
+markAllAsRead: crwdns144357:0crwdne144357:0
+markAsRead: crwdns144359:0crwdne144359:0
+delete: crwdns144361:0crwdne144361:0
+all: crwdns144363:0crwdne144363:0
+unread: crwdns144365:0crwdne144365:0
+read: crwdns144367:0crwdne144367:0
+success: crwdns144369:0crwdne144369:0
+allMarkedAsRead: crwdns144371:0crwdne144371:0
+notificationDeleted: crwdns144373:0crwdne144373:0
+loadMore: crwdns144375:0crwdne144375:0
+recordRedirectError: crwdns144377:0crwdne144377:0
+mute: crwdns144379:0crwdne144379:0
+unmute: crwdns144381:0crwdne144381:0
+muted: crwdns144383:0crwdne144383:0
+unmuted: crwdns144385:0crwdne144385:0
+markAllAsReadError: crwdns144387:0crwdne144387:0
+notificationDeletedError: crwdns144389:0crwdne144389:0
+namespaceNotFound: crwdns144391:0crwdne144391:0
+pageNotFound: crwdns144393:0crwdne144393:0
+recordNotFound: crwdns144395:0crwdne144395:0
