@@ -1,16 +1,5 @@
 errors:
-  handleNotUnique: crwdns135367:0crwdne135367:0
-  invalidHandle: crwdns135369:0crwdne135369:0
-  invalidID: crwdns135371:0crwdne135371:0
-  notAllowedToCreate: crwdns135373:0crwdne135373:0
-  notAllowedToDelete: crwdns135375:0crwdne135375:0
-  notAllowedToRead: crwdns135377:0crwdne135377:0
-  notAllowedToSearch: crwdns135379:0crwdne135379:0
-  notAllowedToUndelete: crwdns135381:0crwdne135381:0
-  notAllowedToUpdate: crwdns135383:0crwdne135383:0
-  notFound: crwdns135385:0crwdne135385:0
-  staleData: crwdns135387:0crwdne135387:0
-  unsupportedExportFormat: crwdns135389:0crwdne135389:0
-  unsupportedImportFormat: crwdns135391:0crwdne135391:0
-  importMissingNamespace: crwdns135393:0crwdne135393:0
-  cloneMultiple: crwdns135395:0crwdne135395:0
+  failedToDownloadAttachment: 'crwdns135397:0{attachmentURL}crwdnd135397:0{err}crwdne135397:0'
+  failedToLoadUser: crwdns135399:0{recipient}crwdne135399:0
+  invalidReceipientFormat: crwdns135401:0{recipient}crwdne135401:0
+  noRecipients: crwdns135403:0crwdne135403:0
