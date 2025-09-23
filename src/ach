@@ -1,23 +1,32 @@
-configuration: crwdns145251:0crwdne145251:0
-edge: crwdns145253:0crwdne145253:0
-name:
-  label: crwdns145255:0crwdne145255:0
-  placeholder: crwdns145257:0crwdne145257:0
-handle:
-  label: crwdns145259:0crwdne145259:0
-  placeholder: crwdns145261:0crwdne145261:0
-  invalid-handle-characters: crwdns145263:0crwdne145263:0
-description:
-  label: crwdns145265:0crwdne145265:0
-  placeholder: crwdns145267:0crwdne145267:0
-target: crwdns145269:0crwdne145269:0
-tooltip:
-  run-workflow: crwdns145271:0crwdne145271:0
-  configure-step: crwdns145273:0crwdne145273:0
-run-as:
-  label: crwdns145275:0crwdne145275:0
-  placeholder: crwdns145277:0crwdne145277:0
-  description: crwdns145279:0crwdne145279:0
-sub-workflow:
-  label: crwdns145281:0crwdne145281:0
-  description: crwdns145283:0crwdne145283:0
+'auto-initialize-empty-variable': crwdns145285:0crwdne145285:0
+back: crwdns145287:0crwdne145287:0
+'click-to-save': crwdns145289:0crwdne145289:0
+deferred: crwdns145291:0crwdne145291:0
+delete: crwdns145293:0crwdne145293:0
+deleted: crwdns145295:0crwdne145295:0
+'detected-changes': "crwdns145297:0crwdne145297:0"
+'detected-issues': crwdns145299:0crwdne145299:0
+disabled: crwdns145301:0crwdne145301:0
+help: crwdns145303:0crwdne145303:0
+handle: crwdns145305:0crwdne145305:0
+id: "crwdns145307:0crwdne145307:0"
+'id-parenthesis': "crwdns145309:0crwdne145309:0"
+'initial-scope': crwdns145311:0crwdne145311:0
+'input-ids-or-handles': crwdns145313:0crwdne145313:0
+issues: crwdns145315:0crwdne145315:0
+'load-and-configure': crwdns145317:0crwdne145317:0
+'modify-initial-scope-if-no-variables-are-loaded': crwdns145319:0crwdne145319:0
+'open-webapp-on-prompt-use': "crwdns145321:0crwdne145321:0"
+reset: crwdns145323:0crwdne145323:0
+'run-as': "crwdns145325:0crwdne145325:0"
+'run-workflow': crwdns145327:0crwdne145327:0
+'required-namespace': crwdns145329:0crwdne145329:0
+'required-namespace-and-module': crwdns145331:0crwdne145331:0
+save: crwdns145333:0crwdne145333:0
+saving: crwdns145335:0crwdne145335:0
+spinning: crwdns145337:0crwdne145337:0
+'test-in-progress': "crwdns145339:0crwdne145339:0"
+'unsupported-browser': crwdns145341:0crwdne145341:0
+undelete: crwdns145343:0crwdne145343:0
+'workflow-configuration': crwdns145345:0crwdne145345:0
+'editor': crwdns145347:0crwdne145347:0
