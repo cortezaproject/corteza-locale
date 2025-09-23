@@ -1,68 +1,41 @@
-label:
-  add: crwdns136781:0crwdne136781:0
-  general:
-    yes: Yes
-    no: No
-  template:
-    single: crwdns136783:0crwdne136783:0
-    plural: crwdns136785:0crwdne136785:0
-  user:
-    single: crwdns136787:0crwdne136787:0
-    plural: crwdns136789:0crwdne136789:0
-  role:
-    single: crwdns136791:0crwdne136791:0
-    plural: crwdns136793:0crwdne136793:0
-  application:
-    single: crwdns136795:0crwdne136795:0
-    plural: crwdns136797:0crwdne136797:0
-  auth_client:
-    single: crwdns136799:0crwdne136799:0
-    plural: crwdns136801:0crwdne136801:0
-  queue:
-    single: crwdns136803:0crwdne136803:0
-    plural: crwdns136805:0crwdne136805:0
-  route:
-    single: crwdns136807:0crwdne136807:0
-    plural: crwdns136809:0crwdne136809:0
-  connection:
-    single: crwdns136811:0crwdne136811:0
-    plural: crwdns136813:0crwdne136813:0
-  sensitivity_level:
-    single: crwdns136815:0crwdne136815:0
-    plural: crwdns136817:0crwdne136817:0
-  session:
-    single: crwdns136819:0crwdne136819:0
-    plural: crwdns136821:0crwdne136821:0
-  workflow:
-    single: crwdns136823:0crwdne136823:0
-    plural: crwdns136825:0crwdne136825:0
-  plus-add: crwdns136827:0crwdne136827:0
-  clear: crwdns136829:0crwdne136829:0
-  all: crwdns136831:0crwdne136831:0
-  none: crwdns136833:0crwdne136833:0
-  now: crwdns136835:0crwdne136835:0
-  today: crwdns136837:0crwdne136837:0
-  routes: crwdns136839:0crwdne136839:0
-  requests: crwdns136841:0crwdne136841:0
-  refresh: crwdns136843:0crwdne136843:0
-  loadMore: crwdns136845:0crwdne136845:0
-  loading: crwdns136847:0crwdne136847:0
-  saveAndClose: crwdns136849:0crwdne136849:0
-  cancel: crwdns136851:0crwdne136851:0
-  submit: crwdns136853:0crwdne136853:0
-  delete: crwdns136855:0crwdne136855:0
-  undelete: crwdns136857:0crwdne136857:0
-  fileTypeNotAllowed: crwdns136859:0crwdne136859:0
-editor:
-  unsavedChanges: crwdns136861:0crwdne136861:0
-resourceList:
-  pagination:
-    recordsPerPage: crwdns136863:0crwdne136863:0
-themes:
-  labels:
-    light: crwdns136865:0crwdne136865:0
-    dark: crwdns136867:0crwdne136867:0
-extendSession:
-  labels:
-    extend: crwdns136869:0crwdne136869:0
-    warning: crwdns136871:0{{ countdownTime }}crwdne136871:0
+dashboard: crwdns136873:0crwdne136873:0
+system:
+  group: crwdns136875:0crwdne136875:0
+  items:
+    users: crwdns136877:0crwdne136877:0
+    actionlog: crwdns136879:0crwdne136879:0
+    apigw: crwdns136881:0crwdne136881:0
+    applications: crwdns136883:0crwdne136883:0
+    authclients: crwdns136885:0crwdne136885:0
+    connections: crwdns136887:0crwdne136887:0
+    code-snippets: crwdns136889:0crwdne136889:0
+    sensitivityLevel: crwdns136891:0crwdne136891:0
+    permissions: crwdns136893:0crwdne136893:0
+    queues: crwdns136895:0crwdne136895:0
+    roles: crwdns136897:0crwdne136897:0
+    settings: crwdns136899:0crwdne136899:0
+    email: crwdns136901:0crwdne136901:0
+    stats: crwdns136903:0crwdne136903:0
+    templates: crwdns136905:0crwdne136905:0
+compose:
+  group: crwdns136907:0crwdne136907:0
+  items:
+    automation: crwdns136909:0crwdne136909:0
+    permissions: crwdns136911:0crwdne136911:0
+    settings: crwdns136913:0crwdne136913:0
+automation:
+  group: crwdns136915:0crwdne136915:0
+  items:
+    permissions: crwdns136917:0crwdne136917:0
+    scripts: crwdns136919:0crwdne136919:0
+    sessions: crwdns136921:0crwdne136921:0
+    workflows: crwdns136923:0crwdne136923:0
+federation:
+  group: crwdns136925:0crwdne136925:0
+  items:
+    nodes: crwdns136927:0crwdne136927:0
+    permissions: crwdns136929:0crwdne136929:0
+ui:
+  group: crwdns136931:0crwdne136931:0
+  items:
+    settings: crwdns136933:0crwdne136933:0
