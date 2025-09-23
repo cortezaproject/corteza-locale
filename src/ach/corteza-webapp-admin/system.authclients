@@ -1,0 +1,104 @@
+editor:
+  info:
+    add: crwdns113669:0crwdne113669:0
+    api: crwdns113671:0crwdne113671:0
+    choose-date: crwdns113673:0crwdne113673:0
+    createdAt: crwdns113675:0crwdne113675:0
+    createdBy: crwdns113677:0crwdne113677:0
+    delete: crwdns113679:0crwdne113679:0
+    deletedAt: crwdns113681:0crwdne113681:0
+    enabled:
+      disabledFootnote: crwdns113683:0crwdne113683:0
+      label: crwdns113685:0crwdne113685:0
+    expiresAt:
+      description: crwdns113687:0crwdne113687:0
+      label: crwdns113689:0crwdne113689:0
+    grant:
+      authorization_code: crwdns113691:0crwdne113691:0
+      client_credentials: crwdns113693:0crwdne113693:0
+    handle:
+      disabledFootnote: crwdns113695:0crwdne113695:0
+      label: crwdns113697:0crwdne113697:0
+      placeholder-handle: crwdns113699:0crwdne113699:0
+      invalid-handle-characters: crwdns113701:0crwdne113701:0
+    name: crwdns113703:0crwdne113703:0
+    no-time: crwdns113705:0crwdne113705:0
+    profile: crwdns113707:0crwdne113707:0
+    redirectURI: crwdns113709:0crwdne113709:0
+    remove: crwdns113711:0crwdne113711:0
+    secret: crwdns113713:0crwdne113713:0
+    security:
+      prohibitedRoles:
+        description: crwdns113715:0crwdne113715:0
+        label: crwdns113717:0crwdne113717:0
+      forcedRoles:
+        description: crwdns113719:0crwdne113719:0
+        label: crwdns113721:0crwdne113721:0
+      impersonateUser:
+        description: crwdns113723:0crwdne113723:0
+        placeholder: crwdns113725:0crwdne113725:0
+        label: crwdns113727:0crwdne113727:0
+      permittedRoles:
+        description: crwdns113729:0crwdne113729:0
+        label: crwdns113731:0crwdne113731:0
+    title: crwdns113733:0crwdne113733:0
+    tooltip:
+      regenerate-secret: crwdns113735:0crwdne113735:0
+      reset-value: crwdns113737:0crwdne113737:0
+      show-client-secret: crwdns113739:0crwdne113739:0
+      hide-client-secret: crwdns113741:0crwdne113741:0
+      copy-access-token: crwdns113743:0crwdne113743:0
+      copy-cURL: crwdns113745:0crwdne113745:0
+    trusted:
+      description: crwdns113747:0crwdne113747:0
+      label: crwdns113749:0crwdne113749:0
+    undelete: crwdns113751:0crwdne113751:0
+    unnamed: crwdns113753:0crwdne113753:0
+    updatedAt: crwdns113755:0crwdne113755:0
+    uri: crwdns113757:0crwdne113757:0
+    validFrom:
+      description: crwdns113759:0crwdne113759:0
+      label: crwdns113761:0crwdne113761:0
+    cUrl: crwdns113763:0crwdne113763:0
+    accessToken: crwdns113765:0crwdne113765:0
+    generateAccessToken: crwdns113767:0crwdne113767:0
+    discovery: crwdns113769:0crwdne113769:0
+    openid: crwdns113771:0crwdne113771:0
+  new: crwdns113773:0crwdne113773:0
+  permissions: crwdns113775:0crwdne113775:0
+  title:
+    create: crwdns113777:0crwdne113777:0
+    edit: crwdns113779:0crwdne113779:0
+list:
+  columns:
+    actions: "crwdns113781:0crwdne113781:0"
+    createdAt: crwdns113783:0crwdne113783:0
+    enabled: crwdns113785:0crwdne113785:0
+    handle: crwdns113787:0crwdne113787:0
+    meta:
+      name: crwdns113789:0crwdne113789:0
+    state: crwdns113791:0crwdne113791:0
+  rows:
+    filters:
+      deleted: crwdns113793:0crwdne113793:0
+  filterForm:
+    deleted:
+      label: crwdns113795:0crwdne113795:0
+    excluded:
+      label: crwdns113797:0crwdne113797:0
+    exclusive:
+      label: crwdns113799:0crwdne113799:0
+    inclusive:
+      label: crwdns113801:0crwdne113801:0
+    query:
+      label: crwdns113803:0crwdne113803:0
+      placeholder: crwdns113805:0crwdne113805:0
+  loading: crwdns113807:0crwdne113807:0
+  new: crwdns113809:0crwdne113809:0
+  numFound: 'crwdns113811:0{{count}}crwdne113811:0'
+  numFound_plural: 'crwdns113813:0{{count}}crwdne113813:0'
+  permissions: crwdns113815:0crwdne113815:0
+  title: crwdns113817:0crwdne113817:0
+  yaml: crwdns113819:0crwdne113819:0
+  delete: crwdns113821:0crwdne113821:0
+  undelete: crwdns113823:0crwdne113823:0
