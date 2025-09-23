@@ -1,0 +1,18 @@
+editor:
+  title: Code Snippets
+
+  code-snippets:
+    add: Add Code Snippet
+    empty: No snippets yet
+    enabled: Enabled
+    table-headers:
+      name: Name
+      enabled: Enabled
+      script: Code
+    form:
+      title: Add Code Snippet
+      name:
+        label: Name
+      value:
+        label: Code
+        description: Add external script or code snippets for services. The script must include a valid <script> tag to function.
