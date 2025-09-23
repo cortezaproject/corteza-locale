@@ -1,28 +1,12 @@
-translator:
-  save-changes: Save
-  add-language: Add language
-  missing-translation: Missing translation
-resources:
-  chart:
-    title: Chart "{{ handle }}"
-    tooltip: Chart translations
-  namespace:
-    title: Namespace "{{ handle }}"
-    tooltip: Namespace translations
-  module:
-    title: Module "{{ handle }}"
-    tooltip: Module translations
-    field:
-      title: Module field "{{ name }}"
-      tooltip: Field translations
-  page:
-    title: Page "{{ handle }}"
-    tooltip: Page translations
-    block:
-      title: "Page block #{{ blockID }}"
-      tooltip: Block translations
-    layout:
-      title: Page layout "{{ handle }}"
-  page-layout:
-    title: Page layout "{{ handle }}"
-    tooltip: Page layout translations
+adminPanel: Admin panel
+chart: Charts
+manageNamespaces: Manage namespaces
+module: Modules
+noResults: No results
+page: Pages
+pickNamespace: Select a namespace
+publicPages: Public pages
+editNamespace: Edit namespace
+searchPlaceholder:
+  admin: Search resources...
+  public: Search pages...
