@@ -1,0 +1,20 @@
+notification:
+  search-error: crwdns119289:0crwdne119289:0
+input-placeholder: crwdns119291:0crwdne119291:0
+card:
+  button-text: crwdns119293:0crwdne119293:0
+  type: crwdns119295:0crwdne119295:0
+  handle: crwdns119297:0crwdne119297:0
+  namespace: crwdns119299:0crwdne119299:0
+  module: crwdns119301:0crwdne119301:0
+  user: crwdns119303:0crwdne119303:0
+  email: crwdns119305:0crwdne119305:0
+  record: crwdns119307:0crwdne119307:0
+  fields: crwdns119309:0crwdne119309:0
+range: crwdns119311:0{{actual}}crwdnd119311:0{{all}}crwdne119311:0
+discovering: crwdns119313:0crwdne119313:0
+no-results: crwdns119315:0crwdne119315:0
+show-more: crwdns119317:0crwdne119317:0
+loading-more: crwdns119319:0crwdne119319:0
+show-map: crwdns119321:0crwdne119321:0
+hide-map: crwdns119323:0crwdne119323:0
