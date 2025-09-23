@@ -1,0 +1,63 @@
+editor:
+  generate:
+    body: 'crwdns125529:0{{ userLabel }}crwdne125529:0'
+    description: crwdns125531:0crwdne125531:0
+    hello: crwdns125533:0crwdne125533:0
+    invitation: crwdns125535:0crwdne125535:0
+    kindRegards: crwdns125537:0crwdne125537:0
+    notGenerated: crwdns125539:0crwdne125539:0
+    sendEmail: crwdns125541:0crwdne125541:0
+    subject: 'crwdns125543:0crwdne125543:0'
+  generateUri: crwdns125545:0crwdne125545:0
+  info:
+    createdAt: crwdns125547:0crwdne125547:0
+    createdBy: crwdns125549:0crwdne125549:0
+    delete: crwdns125551:0crwdne125551:0
+    deletedAt: crwdns125553:0crwdne125553:0
+    email: crwdns125555:0crwdne125555:0
+    enabled: crwdns125557:0crwdne125557:0
+    name: crwdns125559:0crwdne125559:0
+    status: crwdns125561:0crwdne125561:0
+    tags:
+      label: crwdns125563:0crwdne125563:0
+      placeholder: crwdns125565:0crwdne125565:0
+    title: crwdns125567:0crwdne125567:0
+    undelete: crwdns125569:0crwdne125569:0
+    updatedAt: crwdns125571:0crwdne125571:0
+    url: crwdns125573:0crwdne125573:0
+  title:
+    create: crwdns125575:0crwdne125575:0
+    edit: crwdns125577:0crwdne125577:0
+list:
+  columns:
+    actions: "crwdns125579:0crwdne125579:0"
+    createdAt: crwdns125581:0crwdne125581:0
+    enabled: crwdns125583:0crwdne125583:0
+    name: crwdns125585:0crwdne125585:0
+    status: crwdns125587:0crwdne125587:0
+    tags: "crwdns125589:0crwdne125589:0"
+  filterForm:
+    query:
+      label: crwdns125591:0crwdne125591:0
+      placeholder: crwdns125593:0crwdne125593:0
+  loading: crwdns125595:0crwdne125595:0
+  new: crwdns125597:0crwdne125597:0
+  numFound: 'crwdns125599:0{{count}}crwdne125599:0'
+  numFound_plural: 'crwdns125601:0{{count}}crwdne125601:0'
+  pair:
+    confirm: crwdns125603:0crwdne125603:0
+    label: crwdns125605:0crwdne125605:0
+    networkEstablished: crwdns125607:0crwdne125607:0
+    note: 'crwdns125609:0crwdne125609:0'
+    status:
+      confirmPending:
+        description: |-
+          crwdns125611:0{{ email }}crwdnd125611:0{{ name }}crwdne125611:0
+        descriptionNoMail: |-
+          crwdns125613:0{{ name }}crwdne125613:0
+      none:
+        description: crwdns125615:0crwdne125615:0
+      pending:
+        description: crwdns125617:0crwdne125617:0
+  title: crwdns125619:0crwdne125619:0
+  yaml: crwdns125621:0crwdne125621:0
