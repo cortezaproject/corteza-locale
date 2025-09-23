@@ -1,14 +1,2 @@
 template:
-  title: crwdns134827:0crwdne134827:0
-  form:
-    email:
-      label: crwdns134829:0crwdne134829:0
-    password:
-      label: crwdns134831:0crwdne134831:0
-      placeholder: crwdns134833:0crwdne134833:0
-    button:
-      create-password: crwdns134835:0crwdne134835:0
-alerts:
-  invalid-expired-password-token: crwdns134837:0crwdne134837:0
-  password-create-success: crwdns134839:0crwdne134839:0
-  password-create-disabled: crwdns134841:0crwdne134841:0
+  title: crwdns134843:0crwdne134843:0
