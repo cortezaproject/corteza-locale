@@ -1,11 +1,19 @@
-title: crwdns143925:0crwdne143925:0
-types:
-  title: crwdns143927:0crwdne143927:0
-  namespace: crwdns143929:0crwdne143929:0
-  module: crwdns143931:0crwdne143931:0
-  user: crwdns143933:0crwdne143933:0
-  record: crwdns143935:0crwdne143935:0
-aggregation-groups:
-  modules: crwdns143937:0crwdne143937:0
-  namespaces: crwdns143939:0crwdne143939:0
-reset: crwdns143941:0crwdne143941:0
+federated: crwdns143943:0crwdne143943:0
+no-values: crwdns143945:0crwdne143945:0
+label:
+  all: crwdns143947:0crwdne143947:0
+resourceList:
+  pagination:
+    recordsPerPage: crwdns143949:0crwdne143949:0
+themes:
+  labels:
+    light: crwdns143951:0crwdne143951:0
+    dark: crwdns143953:0crwdne143953:0
+extendSession:
+  labels:
+    extend: crwdns143955:0crwdne143955:0
+    warning: crwdns143957:0{{ countdownTime }}crwdne143957:0
+recordID: crwdns143959:0crwdne143959:0
+createdBy: crwdns143961:0crwdne143961:0
+createdAt: crwdns143963:0crwdne143963:0
+updatedAt: crwdns143965:0crwdne143965:0
