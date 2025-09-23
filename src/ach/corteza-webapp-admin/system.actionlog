@@ -1,0 +1,47 @@
+list:
+  columns:
+    action: crwdns113231:0crwdne113231:0
+    actor: crwdns113233:0crwdne113233:0
+    description: crwdns113235:0crwdne113235:0
+    requestOrigin: crwdns113237:0crwdne113237:0
+    resource: crwdns113239:0crwdne113239:0
+    severity: crwdns113241:0crwdne113241:0
+    timestamp: crwdns113243:0crwdne113243:0
+  loading: crwdns113245:0crwdne113245:0
+  details:
+    id: crwdns113247:0crwdne113247:0
+    header: crwdns113249:0crwdne113249:0
+    timestamp: crwdns113251:0crwdne113251:0
+    requestOrigin: crwdns113253:0crwdne113253:0
+    requestID: crwdns113255:0crwdne113255:0
+    actorIPAddr: crwdns113257:0crwdne113257:0
+    actor: crwdns113259:0crwdne113259:0
+    actorID: crwdns113261:0crwdne113261:0
+    severity: crwdns113263:0crwdne113263:0
+    resource: crwdns113265:0crwdne113265:0
+    action: crwdns113267:0crwdne113267:0
+    headerAdditional: crwdns113269:0crwdne113269:0
+    description: crwdns113271:0crwdne113271:0
+    error: crwdns113273:0crwdne113273:0
+    meta: crwdns113275:0crwdne113275:0
+  severity:
+    emergency: crwdns113277:0crwdne113277:0
+    alert: crwdns113279:0crwdne113279:0
+    critical: crwdns113281:0crwdne113281:0
+    error: crwdns113283:0crwdne113283:0
+    warning: crwdns113285:0crwdne113285:0
+    notice: crwdns113287:0crwdne113287:0
+    info: crwdns113289:0crwdne113289:0
+    debug: crwdns113291:0crwdne113291:0
+  filter:
+    action: crwdns113293:0crwdne113293:0
+    actor: crwdns113295:0crwdne113295:0
+    choose-date: crwdns113297:0crwdne113297:0
+    from: crwdns113299:0crwdne113299:0
+    no-time: crwdns113301:0crwdne113301:0
+    resource: crwdns113303:0crwdne113303:0
+    search: crwdns113305:0crwdne113305:0
+    to: crwdns113307:0crwdne113307:0
+    today: crwdns113309:0crwdne113309:0
+  loadOlder: crwdns113311:0crwdne113311:0
+  title: crwdns113313:0crwdne113313:0
