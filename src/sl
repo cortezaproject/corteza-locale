@@ -1,29 +1,23 @@
-datasource:
-  describe-failed: Failed to describe datasource
-general:
-  error: Error
-  success: Success
-  warning: Warning
-list:
-  load:
-    error: Failed to load resource list
-module:
-  fetch-failed: Failed to fetch modules
-namespace:
-  fetch-failed: Failed to fetch namespaces
-report:
-  createFailed: Failed to create report
-  loadFailed: Loading the report failed
-  created: Report created
-  delete: Report deleted
-  deleteFailed: Failed to delete report
-  fetchFailed: Failed to fetch report
-  listFetchFailed: Failed to fetch reports
-  runFailed: Failed to run report
-  updateFailed: Failed to update report
-  updated: Report updated
-  notAllowed:
-    read: Not allowed to read report
-  datasources:
-    updated: Datasources updated
-    updateFailed: Failed to update datasources
+title: Notifications
+empty: No notifications
+emptyDescription: You will see notifications here when they arrive
+markAllAsRead: Mark all as read
+markAsRead: Mark as read
+delete: Delete
+all: All
+unread: Unread
+read: Read
+success: Success
+allMarkedAsRead: All notifications have been marked as read
+notificationDeleted: Notification has been deleted
+loadMore: Load More
+recordRedirectError: Error navigating to record
+mute: Mute notifications
+unmute: Unmute notifications
+muted: Notifications muted
+unmuted: Notifications unmuted
+markAllAsReadError: Error marking all notifications as read
+notificationDeletedError: Error deleting notification
+namespaceNotFound: Namespace not found
+pageNotFound: Page not found
+recordNotFound: Record not found
