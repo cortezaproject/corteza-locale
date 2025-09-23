@@ -1,11 +1,8 @@
 errors:
-  composeModuleNotFound: crwdns135497:0crwdne135497:0
-  composeNamespaceNotFound: crwdns135499:0crwdne135499:0
-  invalidID: crwdns135501:0crwdne135501:0
-  nodeNotFound: crwdns135503:0crwdne135503:0
-  notAllowedToCreate: crwdns135505:0crwdne135505:0
-  notAllowedToManage: crwdns135507:0crwdne135507:0
-  notFound: crwdns135509:0crwdne135509:0
-  notUnique: crwdns135511:0crwdne135511:0
-  requestParametersInvalid: crwdns135513:0crwdne135513:0
-  staleData: crwdns135515:0crwdne135515:0
+  composeModuleNotFound: crwdns135517:0crwdne135517:0
+  composeNamespaceNotFound: crwdns135519:0crwdne135519:0
+  federationModuleNotFound: crwdns135521:0crwdne135521:0
+  moduleMappingExists: crwdns135523:0crwdne135523:0
+  nodeNotFound: crwdns135525:0crwdne135525:0
+  notAllowedToMap: crwdns135527:0crwdne135527:0
+  notFound: crwdns135529:0crwdne135529:0
