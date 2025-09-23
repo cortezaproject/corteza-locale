@@ -1,23 +1,68 @@
-title: crwdns145627:0crwdne145627:0
-empty: crwdns145629:0crwdne145629:0
-emptyDescription: crwdns145631:0crwdne145631:0
-markAllAsRead: crwdns145633:0crwdne145633:0
-markAsRead: crwdns145635:0crwdne145635:0
-delete: crwdns145637:0crwdne145637:0
-all: crwdns145639:0crwdne145639:0
-unread: crwdns145641:0crwdne145641:0
-read: crwdns145643:0crwdne145643:0
-success: crwdns145645:0crwdne145645:0
-allMarkedAsRead: crwdns145647:0crwdne145647:0
-notificationDeleted: crwdns145649:0crwdne145649:0
-loadMore: crwdns145651:0crwdne145651:0
-recordRedirectError: crwdns145653:0crwdne145653:0
-mute: crwdns145655:0crwdne145655:0
-unmute: crwdns145657:0crwdne145657:0
-muted: crwdns145659:0crwdne145659:0
-unmuted: crwdns145661:0crwdne145661:0
-markAllAsReadError: crwdns145663:0crwdne145663:0
-notificationDeletedError: crwdns145665:0crwdne145665:0
-namespaceNotFound: crwdns145667:0crwdne145667:0
-pageNotFound: crwdns145669:0crwdne145669:0
-recordNotFound: crwdns145671:0crwdne145671:0
+ui:
+  save: crwdns145673:0crwdne145673:0
+  cancel: crwdns145675:0crwdne145675:0
+  set-for: crwdns145677:0{{target}}crwdne145677:0
+  loading: crwdns145679:0crwdne145679:0
+  label: crwdns145681:0crwdne145681:0
+  notification:
+    save:
+      success: crwdns145683:0crwdne145683:0
+      failed: crwdns145685:0crwdne145685:0
+  edit:
+    label: crwdns145687:0crwdne145687:0
+    description: crwdns145689:0crwdne145689:0
+  evaluate:
+    description: crwdns145691:0crwdne145691:0
+  add:
+    label: crwdns145693:0crwdne145693:0
+    title: crwdns145695:0crwdne145695:0
+    save: crwdns145697:0crwdne145697:0
+    role:
+      label: crwdns145699:0crwdne145699:0
+      placeholder: crwdns145701:0crwdne145701:0
+    user:
+      label: crwdns145703:0crwdne145703:0
+      placeholder: crwdns145705:0crwdne145705:0
+  tooltip:
+    unknown-context:
+      user: crwdns145707:0crwdne145707:0
+      role: crwdns145709:0crwdne145709:0
+  access:
+    allow: crwdns145711:0crwdne145711:0
+    inherit: crwdns145713:0crwdne145713:0
+    deny: crwdns145715:0crwdne145715:0
+resources:
+  automation:
+    workflow:
+      all: crwdns145717:0crwdne145717:0
+      specific: crwdns145719:0{{target}}crwdne145719:0
+      tooltip: crwdns145721:0crwdne145721:0
+      operations:
+        delete:
+          description: 'crwdns145723:0crwdne145723:0'
+          specific: crwdns145725:0crwdne145725:0
+          title: crwdns145727:0crwdne145727:0
+        execute:
+          description: 'crwdns145729:0crwdne145729:0'
+          specific: crwdns145731:0crwdne145731:0
+          title: crwdns145733:0crwdne145733:0
+        read:
+          description: 'crwdns145735:0crwdne145735:0'
+          specific: crwdns145737:0crwdne145737:0
+          title: crwdns145739:0crwdne145739:0
+        sessions.manage:
+          description: 'crwdns145741:0crwdne145741:0'
+          specific: crwdns145743:0crwdne145743:0
+          title: crwdns145745:0crwdne145745:0
+        triggers.manage:
+          description: 'crwdns145747:0crwdne145747:0'
+          specific: crwdns145749:0crwdne145749:0
+          title: crwdns145751:0crwdne145751:0
+        undelete:
+          description: 'crwdns145753:0crwdne145753:0'
+          specific: crwdns145755:0crwdne145755:0
+          title: crwdns145757:0crwdne145757:0
+        update:
+          description: 'crwdns145759:0crwdne145759:0'
+          specific: crwdns145761:0crwdne145761:0
+          title: crwdns145763:0crwdne145763:0
