@@ -1,28 +1,12 @@
-translator:
-  save-changes: crwdns143867:0crwdne143867:0
-  add-language: crwdns143869:0crwdne143869:0
-  missing-translation: crwdns143871:0crwdne143871:0
-resources:
-  chart:
-    title: crwdns143873:0{{ handle }}crwdne143873:0
-    tooltip: crwdns143875:0crwdne143875:0
-  namespace:
-    title: crwdns143877:0{{ handle }}crwdne143877:0
-    tooltip: crwdns143879:0crwdne143879:0
-  module:
-    title: crwdns143881:0{{ handle }}crwdne143881:0
-    tooltip: crwdns143883:0crwdne143883:0
-    field:
-      title: crwdns143885:0{{ name }}crwdne143885:0
-      tooltip: crwdns143887:0crwdne143887:0
-  page:
-    title: crwdns143889:0{{ handle }}crwdne143889:0
-    tooltip: crwdns143891:0crwdne143891:0
-    block:
-      title: "crwdns143893:0{{ blockID }}crwdne143893:0"
-      tooltip: crwdns143895:0crwdne143895:0
-    layout:
-      title: crwdns143897:0{{ handle }}crwdne143897:0
-  page-layout:
-    title: crwdns143899:0{{ handle }}crwdne143899:0
-    tooltip: crwdns143901:0crwdne143901:0
+adminPanel: crwdns143903:0crwdne143903:0
+chart: crwdns143905:0crwdne143905:0
+manageNamespaces: crwdns143907:0crwdne143907:0
+module: crwdns143909:0crwdne143909:0
+noResults: crwdns143911:0crwdne143911:0
+page: crwdns143913:0crwdne143913:0
+pickNamespace: crwdns143915:0crwdne143915:0
+publicPages: crwdns143917:0crwdne143917:0
+editNamespace: crwdns143919:0crwdne143919:0
+searchPlaceholder:
+  admin: crwdns143921:0crwdne143921:0
+  public: crwdns143923:0crwdne143923:0
