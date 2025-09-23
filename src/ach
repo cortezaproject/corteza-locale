@@ -1,5 +1,17 @@
 errors:
-  failedToDownloadAttachment: 'crwdns135397:0{attachmentURL}crwdnd135397:0{err}crwdne135397:0'
-  failedToLoadUser: crwdns135399:0{recipient}crwdne135399:0
-  invalidReceipientFormat: crwdns135401:0{recipient}crwdne135401:0
-  noRecipients: crwdns135403:0crwdne135403:0
+  handleNotUnique: crwdns135405:0crwdne135405:0
+  invalidHandle: crwdns135407:0crwdne135407:0
+  invalidID: crwdns135409:0crwdne135409:0
+  invalidNamespaceID: crwdns135411:0crwdne135411:0
+  moduleNotFound: crwdns135413:0crwdne135413:0
+  namespaceNotFound: crwdns135415:0crwdne135415:0
+  notAllowedToCreate: crwdns135417:0crwdne135417:0
+  notAllowedToDelete: crwdns135419:0crwdne135419:0
+  notAllowedToListPages: crwdns135421:0crwdne135421:0
+  notAllowedToRead: crwdns135423:0crwdne135423:0
+  notAllowedToReadNamespace: crwdns135425:0crwdne135425:0
+  notAllowedToSearch: crwdns135427:0crwdne135427:0
+  notAllowedToUndelete: crwdns135429:0crwdne135429:0
+  notAllowedToUpdate: crwdns135431:0crwdne135431:0
+  notFound: crwdns135433:0crwdne135433:0
+  staleData: crwdns135435:0crwdne135435:0
