@@ -1,46 +1,16 @@
-label:
-  add: crwdns144945:0crwdne144945:0
-  and: crwdns144947:0crwdne144947:0
-  all: crwdns144949:0crwdne144949:0
-  ascending: crwdns144951:0crwdne144951:0
-  back: crwdns144953:0crwdne144953:0
-  clear: crwdns144955:0crwdne144955:0
-  cancel: crwdns144957:0crwdne144957:0
-  delete: crwdns144959:0crwdne144959:0
-  descending: crwdns144961:0crwdne144961:0
-  loading: crwdns144963:0crwdne144963:0
-  name: crwdns144965:0crwdne144965:0
-  none: crwdns144967:0crwdne144967:0
-  now: crwdns144969:0crwdne144969:0
-  ok: crwdns144971:0crwdne144971:0
-  or: crwdns144973:0crwdne144973:0
-  openLinkInNewTab: crwdns144975:0crwdne144975:0
-  save: crwdns144977:0crwdne144977:0
-  saveAndClose: crwdns144979:0crwdne144979:0
-  clone: crwdns144981:0crwdne144981:0
-  today: crwdns144983:0crwdne144983:0
-  urlPlaceholder: crwdns144985:0crwdne144985:0
-  default: crwdns144987:0crwdne144987:0
-  report:
-    single: crwdns144989:0crwdne144989:0
-    plural: crwdns144991:0crwdne144991:0
-resourceList:
-  notFound: crwdns144993:0crwdne144993:0
-  noItems: crwdns144995:0crwdne144995:0
-  pagination:
-    next: crwdns144997:0crwdne144997:0
-    prev: crwdns144999:0crwdne144999:0
-    showing: 'crwdns145001:0{{from}}crwdnd145001:0{{to}}crwdnd145001:0{{count}}crwdnd145001:0{{data}}crwdne145001:0'
-    single_one: 'crwdns145003:0{{data}}crwdne145003:0'
-    single_other: 'crwdns145005:0{{count}}crwdnd145005:0{{data}}crwdne145005:0'
-    recordsPerPage: crwdns145007:0crwdne145007:0
-  clone: crwdns145009:0crwdne145009:0
-themes:
-  labels:
-    light: crwdns145011:0crwdne145011:0
-    dark: crwdns145013:0crwdne145013:0
-cloneSuffix: crwdns145015:0crwdne145015:0
-extendSession:
-  labels:
-    extend: crwdns145017:0crwdne145017:0
-    warning: crwdns145019:0{{ countdownTime }}crwdne145019:0
+permissions: crwdns145021:0crwdne145021:0
+report:
+  builder: crwdns145023:0crwdne145023:0
+  edit: crwdns145025:0crwdne145025:0
+  list: crwdns145027:0crwdne145027:0
+  new: crwdns145029:0crwdne145029:0
+  delete: crwdns145031:0crwdne145031:0
+searchPlaceholder: crwdns145033:0crwdne145033:0
+title: crwdns145035:0crwdne145035:0
+tooltip:
+  permissions: crwdns145037:0crwdne145037:0
+untitledTitle: crwdns145039:0crwdne145039:0
+columns:
+  name: crwdns145041:0crwdne145041:0
+  handle: crwdns145043:0crwdne145043:0
+  changedAt: crwdns145045:0crwdne145045:0
