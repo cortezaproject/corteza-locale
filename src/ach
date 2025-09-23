@@ -1,9 +1,9 @@
 errors:
-  alreadyExists: crwdns135761:0crwdne135761:0
-  existsEndpoint: crwdns135763:0crwdne135763:0
-  generic: crwdns135765:0crwdne135765:0
-  invalidEndpoint: crwdns135767:0crwdne135767:0
-  invalidID: crwdns135769:0crwdne135769:0
-  notAllowedToManage: crwdns135771:0crwdne135771:0
-  notFound: crwdns135773:0crwdne135773:0
-  deleteInUse: crwdns135775:0crwdne135775:0
+  notFound: crwdns135777:0crwdne135777:0
+  invalidID: crwdns135779:0crwdne135779:0
+  invalidKind: crwdns135781:0crwdne135781:0
+  invalidStatus: crwdns135783:0crwdne135783:0
+  notAllowedToRead: crwdns135785:0crwdne135785:0
+  notAllowedToSearch: crwdns135787:0crwdne135787:0
+  notAllowedToCreate: crwdns135789:0crwdne135789:0
+  notAllowedToApprove: crwdns135791:0crwdne135791:0
