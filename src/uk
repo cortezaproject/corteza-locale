@@ -1,14 +1,25 @@
 errors:
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create auth clients
-  notAllowedToDelete: not allowed to delete this auth client
-  notAllowedToRead: not allowed to read this auth client
-  notAllowedToSearch: not allowed to search or list auth clients
-  notAllowedToUndelete: not allowed to undelete this auth client
-  notAllowedToUpdate: not allowed to update this auth client
-  notFound: auth client not found
-  unableToChangeDefaultClientHandle: unable to change the handle of the default auth client
-  unableToDeleteDefaultClient: unable to delete the default auth client
-  unableToDisableDefaultClient: unable to disable the default auth client
-  unknownGrantType: unknown grant type
-  unknownScope: unknown scope
+  credentialsLinkedToInvalidUser: credentials {credentials.kind} linked to disabled or deleted user {user}
+  disabledMFAWithEmailOTP: multi factor authentication with email OTP is disabled
+  disabledMFAWithTOTP: multi factor authentication with TOTP is disabled
+  enforcedMFAWithEmailOTP: OTP over email is enforced and cannot be disabled
+  enforcedMFAWithTOTP: TOTP is enforced and cannot be disabled
+  externalDisabledByConfig: external authentication (using external authentication provider) is disabled
+  failedUnconfirmedEmail: system requires confirmed email before logging in
+  internalLoginDisabledByConfig: internal login (username/password) is disabled
+  internalSignupDisabledByConfig: internal sign-up (username/password) is disabled
+  invalidCredentials: invalid username and password combination
+  invalidEmailFormat: invalid email
+  invalidEmailOTP: invalid code
+  invalidHandle: invalid handle
+  invalidTOTP: invalid code
+  invalidToken: invalid token
+  notAllowedToConfigureTOTP: not allowed to configure TOTP
+  notAllowedToImpersonate: not allowed to impersonate this user
+  notAllowedToRemoveTOTP: not allowed to remove TOTP
+  passwodResetFailedOldPasswordCheckFailed: failed to change password, old password does not match
+  passwordChangeFailedForUnknownUser: failed to change password for the unknown user
+  passwordNotSecure: provided password is not secure; use longer password with more special characters
+  passwordResetDisabledByConfig: password reset is disabled
+  profileWithoutValidEmail: external authentication provider returned profile without valid email
+  unconfiguredTOTP: TOTP not configured
