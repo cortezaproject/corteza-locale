@@ -1,28 +1,152 @@
-message:
-  noPages: crwdns143235:0crwdne143235:0
-  notifyAdministrator: crwdns143237:0crwdne143237:0
-  startBuilding: crwdns143239:0crwdne143239:0
+page-layout:
+  layouts: crwdns143269:0crwdne143269:0
+  title: crwdns143271:0crwdne143271:0
+  handle: crwdns143273:0crwdne143273:0
+  add: crwdns143275:0crwdne143275:0
+  configure: 'crwdns143277:0{{title}}crwdne143277:0'
+  visibility: crwdns143279:0crwdne143279:0
+  general: crwdns143281:0crwdne143281:0
+  useTitle: crwdns143283:0crwdne143283:0
+  tooltip:
+    title: crwdns143285:0{{0}}crwdnd143285:0{{1}}crwdnd143285:0{{2}}crwdnd143285:0{{3}}crwdne143285:0
+    configure: crwdns143287:0crwdne143287:0
+    builder: crwdns143289:0crwdne143289:0
+    performance:
+      condition: crwdns143291:0crwdne143291:0
+  condition:
+    label: crwdns143293:0crwdne143293:0
+    placeholder: crwdns143295:0crwdne143295:0
+    description:
+      record-page: "crwdns143297:0{{0}}crwdnd143297:0{{1}}crwdnd143297:0{{2}}crwdnd143297:0{{3}}crwdnd143297:0{{4}}crwdnd143297:0{{5}}crwdne143297:0"
+      non-record-page: "crwdns143299:0{{0}}crwdnd143299:0{{1}}crwdnd143299:0{{2}}crwdnd143299:0{{3}}crwdne143299:0"
+  roles:
+    label: crwdns143301:0crwdne143301:0
+    placeholder: crwdns143303:0crwdne143303:0
+  recordToolbar:
+    label: crwdns143305:0crwdne143305:0
+    buttons:
+      label: crwdns143307:0crwdne143307:0
+      showBack: crwdns143309:0crwdne143309:0
+      showDelete: crwdns143311:0crwdne143311:0
+      showClone: crwdns143313:0crwdne143313:0
+      showNew: crwdns143315:0crwdne143315:0
+      showEdit: crwdns143317:0crwdne143317:0
+      showSave: crwdns143319:0crwdne143319:0
+    actions:
+      label: crwdns143321:0crwdne143321:0
+      add: crwdns143323:0crwdne143323:0
+      buttonLabel: crwdns143325:0crwdne143325:0
+      variant: crwdns143327:0crwdne143327:0
+      visible: crwdns143329:0crwdne143329:0
+      kind:
+        label: crwdns143331:0crwdne143331:0
+        toLayout: crwdns143333:0crwdne143333:0
+        toURL: crwdns143335:0crwdne143335:0
+      placement:
+        label: crwdns143337:0crwdne143337:0
+        start: crwdns143339:0crwdne143339:0
+        center: crwdns143341:0crwdne143341:0
+        end: crwdns143343:0crwdne143343:0
+      openIn:
+        label: crwdns143345:0crwdne143345:0
+        sameTab: crwdns143347:0crwdne143347:0
+        newTab: crwdns143349:0crwdne143349:0
+      toLayout:
+        label: crwdns143351:0crwdne143351:0
+        placeholder: crwdns143353:0crwdne143353:0
+      toURL:
+        label: crwdns143355:0crwdne143355:0
+        placeholder: crwdns143357:0crwdne143357:0
+block:
+  general:
+    label:
+      cancel: crwdns143359:0crwdne143359:0
+      noHandle: crwdns143361:0crwdne143361:0
+      pageBuilder: crwdns143363:0crwdne143363:0
+      saveAndClose: crwdns143365:0crwdne143365:0
+    placeholder:
+      handle: crwdns143367:0crwdne143367:0
+      sample: crwdns143369:0crwdne143369:0
+    title: crwdns143371:0crwdne143371:0
+    invalid-handle-characters: crwdns143373:0crwdne143373:0
+changeBlock: crwdns143375:0crwdne143375:0
+referencedBlock: crwdns143377:0crwdne143377:0
+copyOf: "crwdns143379:0{{title}}crwdne143379:0"
+build:
+  addBlock: crwdns143381:0crwdne143381:0
+  selectBlockTitle: crwdns143383:0crwdne143383:0
+  saveAsCopy:
+    ref: crwdns143385:0crwdne143385:0
+    noRef: crwdns143387:0crwdne143387:0
+edit:
+  create: crwdns143389:0crwdne143389:0
+  edit: crwdns143391:0crwdne143391:0
+  otherOptions: crwdns143393:0crwdne143393:0
+  pageDescription: crwdns143395:0crwdne143395:0
+  visible: crwdns143397:0crwdne143397:0
+  notifications:
+    enabled: crwdns143399:0crwdne143399:0
+icon:
+  configure: crwdns143401:0crwdne143401:0
+  noIcon: crwdns143403:0crwdne143403:0
+  page: crwdns143405:0crwdne143405:0
+  upload: crwdns143407:0crwdne143407:0
+  list: crwdns143409:0crwdne143409:0
+  delete: crwdns143411:0crwdne143411:0
+url:
+  label: crwdns143413:0crwdne143413:0
+import: 'crwdns143415:0crwdne143415:0'
+instructions: crwdns143417:0crwdne143417:0
+invalid: crwdns143419:0crwdne143419:0
 label:
-  pageBuilder: crwdns143241:0crwdne143241:0
-  welcome: crwdns143243:0crwdne143243:0
+  title: crwdns143421:0crwdne143421:0
+  cancel: crwdns143423:0crwdne143423:0
+  description: crwdns143425:0crwdne143425:0
+  handle: crwdns143427:0crwdne143427:0
+  pageBuilder: crwdns143429:0crwdne143429:0
+  permissions: crwdns143431:0crwdne143431:0
+  saveAndClose: crwdns143433:0crwdne143433:0
+  delete: crwdns143435:0crwdne143435:0
+  createPage: crwdns143437:0crwdne143437:0
+placeholder:
+  title: crwdns143439:0crwdne143439:0
+loading: crwdns143441:0crwdne143441:0
+moduleEdit: crwdns143443:0crwdne143443:0
 navigation:
-  noPageTitle: crwdns143245:0crwdne143245:0
-notification:
-  module:
-    createFailed: crwdns143247:0crwdne143247:0
-    saveFailed: crwdns143249:0crwdne143249:0
-step:
-  chart:
-    create: crwdns143251:0crwdne143251:0
-    view: crwdns143253:0crwdne143253:0
-  module:
-    create: crwdns143255:0crwdne143255:0
-    view: crwdns143257:0crwdne143257:0
-  optional: crwdns143259:0crwdne143259:0
-  page:
-    create: crwdns143261:0crwdne143261:0
-    view: crwdns143263:0crwdne143263:0
+  page: crwdns143445:0crwdne143445:0
+  viewPage: crwdns143447:0crwdne143447:0
+  editModule: crwdns143449:0crwdne143449:0
+noBlock: crwdns143451:0crwdne143451:0
+noPages: crwdns143453:0crwdne143453:0
+notVisible: crwdns143455:0crwdne143455:0
+pageMoveFailed: crwdns143457:0crwdne143457:0
+reordered: crwdns143459:0crwdne143459:0
+showSubPages: crwdns143461:0crwdne143461:0
+customTitle: crwdns143463:0crwdne143463:0
+title: crwdns143465:0crwdne143465:0
 tooltip:
-  page-configuration:
-    edit: crwdns143265:0crwdne143265:0
-    list: crwdns143267:0crwdne143267:0
+  view: crwdns143467:0crwdne143467:0
+  edit:
+    page: crwdns143469:0crwdne143469:0
+    block: crwdns143471:0crwdne143471:0
+  copy:
+    block: crwdns143473:0crwdne143473:0
+  clone:
+    block: crwdns143475:0crwdne143475:0
+  delete:
+    block: crwdns143477:0crwdne143477:0
+  preview-link: crwdns143479:0crwdne143479:0
+  saveAsCopy: crwdns143481:0crwdne143481:0
+view: crwdns143483:0crwdne143483:0
+visible: crwdns143485:0crwdne143485:0
+delete:
+  rebase: crwdns143487:0crwdne143487:0
+  cascade: crwdns143489:0crwdne143489:0
+public:
+  record:
+    create:
+      title: 'crwdns143491:0{{name}}crwdne143491:0'
+    edit:
+      title: 'crwdns143493:0{{name}}crwdne143493:0'
+    view:
+      title: 'crwdns143495:0{{name}}crwdne143495:0'
