@@ -1,0 +1,87 @@
+editor:
+  title: crwdns114761:0crwdne114761:0
+  corteza-studio:
+    title: crwdns114763:0crwdne114763:0
+    colorPicker: crwdns114765:0crwdne114765:0
+    sassNotInstalled: crwdns114767:0crwdne114767:0
+    installSassDocs: crwdns114769:0crwdne114769:0
+    custom-css: crwdns114771:0crwdne114771:0
+    mainLogo:
+      title: crwdns114773:0crwdne114773:0
+      uploader:
+        instructions: crwdns114775:0crwdne114775:0
+        uploading: crwdns114777:0crwdne114777:0
+    iconLogo:
+      title: crwdns114779:0crwdne114779:0
+      uploader:
+        instructions: crwdns114781:0crwdne114781:0
+        uploading: crwdns114783:0crwdne114783:0
+    label:
+      default: crwdns114785:0crwdne114785:0
+    tabs:
+      general: crwdns114787:0crwdne114787:0
+      light: crwdns114789:0crwdne114789:0
+      dark: crwdns114791:0crwdne114791:0
+    theme:
+      variables:
+        white:
+          label: crwdns114793:0crwdne114793:0
+          description: crwdns114795:0crwdne114795:0
+        black:
+          label: crwdns114797:0crwdne114797:0
+          description: crwdns114799:0crwdne114799:0
+        primary:
+          label: crwdns114801:0crwdne114801:0
+          description: crwdns114803:0crwdne114803:0
+        secondary:
+          label: crwdns114805:0crwdne114805:0
+          description: crwdns114807:0crwdne114807:0
+        success:
+          label: crwdns114809:0crwdne114809:0
+          description: crwdns114811:0crwdne114811:0
+        warning:
+          label: crwdns114813:0crwdne114813:0
+          description: crwdns114815:0crwdne114815:0
+        danger:
+          label: crwdns114817:0crwdne114817:0
+          description: crwdns114819:0crwdne114819:0
+        light:
+          label: crwdns114821:0crwdne114821:0
+          description: crwdns114823:0crwdne114823:0
+        extra-light:
+          label: crwdns114825:0crwdne114825:0
+          description: crwdns114827:0crwdne114827:0
+        body-bg:
+          label: crwdns114829:0crwdne114829:0
+          description: crwdns114831:0crwdne114831:0
+        sidebar-bg:
+          label: crwdns114833:0crwdne114833:0
+          description: crwdns114835:0crwdne114835:0
+        topbar-bg:
+          label: crwdns114837:0crwdne114837:0
+          description: crwdns114839:0crwdne114839:0
+  topbar:
+    title: crwdns114841:0crwdne114841:0
+    general: crwdns114843:0crwdne114843:0
+    app-selector:
+      hide: crwdns114845:0crwdne114845:0
+    help:
+      title: crwdns114847:0crwdne114847:0
+      hide: crwdns114849:0crwdne114849:0
+      hide-forum-link: crwdns114851:0crwdne114851:0
+      hide-documentation-link: crwdns114853:0crwdne114853:0
+      hide-feedback-link: crwdns114855:0crwdne114855:0
+    profile:
+      title: crwdns114857:0crwdne114857:0
+      hide: crwdns114859:0crwdne114859:0
+      hide-profile-link: crwdns114861:0crwdne114861:0
+      hide-change-password-link: crwdns114863:0crwdne114863:0
+      hide-theme-selector: crwdns114865:0crwdne114865:0
+    notifications:
+      hide: crwdns114867:0crwdne114867:0
+    links:
+      title: crwdns114869:0crwdne114869:0
+      handle: crwdns114871:0crwdne114871:0
+      invalid-handle-characters: crwdns114873:0crwdne114873:0
+      url: crwdns114875:0crwdne114875:0
+      new-tab: crwdns114877:0crwdne114877:0
