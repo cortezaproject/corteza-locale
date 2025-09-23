@@ -1,24 +1,50 @@
 editor:
-  title: Email settings
-  server:
-    title: SMTP Server
-    host:
-      label: Server
-      description: Server name and port. Port are usually 25 (insecure), 465 or 587 (secure).
-    user:
-      label: User
-      description: Optional, authentication credentials for your email server.
-    password:
-      label: Password
-      description: Optional, authentication credentials for your email server.
-    from:
-      label: Sender address
-      description: Default sender address (FROM header) used when sending emails.
-    tlsInsecure:
-      label: Allow use of invalid certificates
-      description: Suppress error if Corteza can not verify the TLS certificate used by SMTP server.
-    tlsServerName:
-      label: TLS Server name
-      description: Optional, If SMTP server uses a different value than used for the server name.
-    testSmtpConfigs:
-      button: Test SMTP Server
+  info:
+    consumer: Consumer
+    createdAt: Created at
+    createdBy: Created by
+    delete: Delete
+    deletedAt: Deleted at
+    dispatch_events: Dispatch events
+    dispatch_events_desc: Dispatch events notifies the eventbus of queue message changes (new, processed, ...)
+    name: Queue name *
+    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+    poll_delay: Polling changes delay
+    poll_delay_empty: 'Poll delay will not be used; to enable, use duration format (ie: 1h / 1m15s / 1h90s)'
+    poll_delay_set: Poll delay will be used; if empty, it will not be used.
+    title: Basic information
+    undelete: Undelete
+    updatedAt: Updated at
+  new: New Queue
+  title:
+    edit: Edit queue
+    new: Add a queue
+list:
+  columns:
+    actions: ''
+    consumer: Consumer
+    createdAt: Created At
+    createdBy: Created by
+    state: State
+    queue: Queue
+  export: Export
+  delete: Delete
+  undelete: Undelete
+  rows:
+    filters:
+      deleted: Deleted
+  filterForm:
+    deleted:
+      label: deleted queues
+    excluded:
+      label: Without
+    exclusive:
+      label: Only
+    handle:
+      label: Filter queues list
+      placeholder: Filter queues by name
+    inclusive:
+      label: Including
+  loading: Loading messaging queues
+  new: New Queue
+  title: Messaging queues
