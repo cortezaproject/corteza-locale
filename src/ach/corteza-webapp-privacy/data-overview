@@ -1,0 +1,17 @@
+title: crwdns119485:0crwdne119485:0
+data-types:
+  profile-information:
+    title: crwdns119487:0crwdne119487:0
+    description: crwdns119489:0crwdne119489:0
+  application-data:
+    title: crwdns119491:0crwdne119491:0
+    description: crwdns119493:0crwdne119493:0
+application:
+  title: crwdns119495:0crwdne119495:0
+  connection:
+    label: crwdns119497:0crwdne119497:0
+    placeholder: crwdns119499:0crwdne119499:0
+  no-data-available: crwdns119501:0crwdne119501:0
+  private-fields: crwdns119503:0crwdne119503:0
+  request-correction: crwdns119505:0crwdne119505:0
+  request-deletion: crwdns119507:0crwdne119507:0
