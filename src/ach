@@ -1,23 +1,20 @@
-title: crwdns143997:0crwdne143997:0
-empty: crwdns143999:0crwdne143999:0
-emptyDescription: crwdns144001:0crwdne144001:0
-markAllAsRead: crwdns144003:0crwdne144003:0
-markAsRead: crwdns144005:0crwdne144005:0
-delete: crwdns144007:0crwdne144007:0
-all: crwdns144009:0crwdne144009:0
-unread: crwdns144011:0crwdne144011:0
-read: crwdns144013:0crwdne144013:0
-success: crwdns144015:0crwdne144015:0
-allMarkedAsRead: crwdns144017:0crwdne144017:0
-notificationDeleted: crwdns144019:0crwdne144019:0
-loadMore: crwdns144021:0crwdne144021:0
-recordRedirectError: crwdns144023:0crwdne144023:0
-mute: crwdns144025:0crwdne144025:0
-unmute: crwdns144027:0crwdne144027:0
-muted: crwdns144029:0crwdne144029:0
-unmuted: crwdns144031:0crwdne144031:0
-markAllAsReadError: crwdns144033:0crwdne144033:0
-notificationDeletedError: crwdns144035:0crwdne144035:0
-namespaceNotFound: crwdns144037:0crwdne144037:0
-pageNotFound: crwdns144039:0crwdne144039:0
-recordNotFound: crwdns144041:0crwdne144041:0
+notification:
+  search-error: crwdns144043:0crwdne144043:0
+input-placeholder: crwdns144045:0crwdne144045:0
+card:
+  button-text: crwdns144047:0crwdne144047:0
+  type: crwdns144049:0crwdne144049:0
+  handle: crwdns144051:0crwdne144051:0
+  namespace: crwdns144053:0crwdne144053:0
+  module: crwdns144055:0crwdne144055:0
+  user: crwdns144057:0crwdne144057:0
+  email: crwdns144059:0crwdne144059:0
+  record: crwdns144061:0crwdne144061:0
+  fields: crwdns144063:0crwdne144063:0
+range: crwdns144065:0{{actual}}crwdnd144065:0{{all}}crwdne144065:0
+discovering: crwdns144067:0crwdne144067:0
+no-results: crwdns144069:0crwdne144069:0
+show-more: crwdns144071:0crwdne144071:0
+loading-more: crwdns144073:0crwdne144073:0
+show-map: crwdns144075:0crwdne144075:0
+hide-map: crwdns144077:0crwdne144077:0
