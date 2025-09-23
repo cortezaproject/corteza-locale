@@ -1,7 +1,23 @@
-pick-scenario: crwdns145243:0crwdne145243:0
-report:
-  builder: crwdns145245:0crwdne145245:0
-  view: crwdns145247:0crwdne145247:0
+configuration: crwdns145251:0crwdne145251:0
+edge: crwdns145253:0crwdne145253:0
+name:
+  label: crwdns145255:0crwdne145255:0
+  placeholder: crwdns145257:0crwdne145257:0
+handle:
+  label: crwdns145259:0crwdne145259:0
+  placeholder: crwdns145261:0crwdne145261:0
+  invalid-handle-characters: crwdns145263:0crwdne145263:0
+description:
+  label: crwdns145265:0crwdne145265:0
+  placeholder: crwdns145267:0crwdne145267:0
+target: crwdns145269:0crwdne145269:0
 tooltip:
-  edit:
-    report: crwdns145249:0crwdne145249:0
+  run-workflow: crwdns145271:0crwdne145271:0
+  configure-step: crwdns145273:0crwdne145273:0
+run-as:
+  label: crwdns145275:0crwdne145275:0
+  placeholder: crwdns145277:0crwdne145277:0
+  description: crwdns145279:0crwdne145279:0
+sub-workflow:
+  label: crwdns145281:0crwdne145281:0
+  description: crwdns145283:0crwdne145283:0
