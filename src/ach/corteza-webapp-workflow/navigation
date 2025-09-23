@@ -1,0 +1,12 @@
+appMenu: crwdns120769:0crwdne120769:0
+help:
+  documentation: crwdns120771:0crwdne120771:0
+  feedback: crwdns120773:0crwdne120773:0
+  forum: crwdns120775:0crwdne120775:0
+  version: 'crwdns120777:0crwdne120777:0'
+userSettings:
+  changePassword: crwdns120779:0crwdne120779:0
+  loggedInAs: crwdns120781:0{{user}}crwdne120781:0
+  logout: crwdns120783:0crwdne120783:0
+  profile: crwdns120785:0crwdne120785:0
+  theme: crwdns120787:0crwdne120787:0
