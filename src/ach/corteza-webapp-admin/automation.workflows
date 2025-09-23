@@ -1,0 +1,60 @@
+editor:
+  info:
+    createdAt: crwdns125141:0crwdne125141:0
+    createdBy: crwdns125143:0crwdne125143:0
+    delete: crwdns125145:0crwdne125145:0
+    deletedAt: crwdns125147:0crwdne125147:0
+    enabled: crwdns125149:0crwdne125149:0
+    handle: crwdns125151:0crwdne125151:0
+    invalid-handle-characters: crwdns125153:0crwdne125153:0
+    id: crwdns125155:0crwdne125155:0
+    name: crwdns125157:0crwdne125157:0
+    openBuilder: crwdns125159:0crwdne125159:0
+    title: crwdns125161:0crwdne125161:0
+    undelete: crwdns125163:0crwdne125163:0
+    updatedAt: crwdns125165:0crwdne125165:0
+  new: crwdns125167:0crwdne125167:0
+  permissions: crwdns125169:0crwdne125169:0
+  title:
+    create: crwdns125171:0crwdne125171:0
+    edit: crwdns125173:0crwdne125173:0
+  triggers:
+    and: crwdns125175:0crwdne125175:0
+    columns:
+      constraints: crwdns125177:0crwdne125177:0
+      eventType: crwdns125179:0crwdne125179:0
+      resourceType: crwdns125181:0crwdne125181:0
+    title: crwdns125183:0crwdne125183:0
+list:
+  columns:
+    actions: "crwdns125185:0crwdne125185:0"
+    createdAt: crwdns125187:0crwdne125187:0
+    enabled: crwdns125189:0crwdne125189:0
+    handle: crwdns125191:0crwdne125191:0
+    name: crwdns125193:0crwdne125193:0
+    state: crwdns125195:0crwdne125195:0
+  delete: crwdns125197:0crwdne125197:0
+  undelete: crwdns125199:0crwdne125199:0
+  export: crwdns125201:0crwdne125201:0
+  rows:
+    filters:
+      deleted: crwdns125203:0crwdne125203:0
+  filterForm:
+    deleted:
+      label: crwdns125205:0crwdne125205:0
+    excluded:
+      label: crwdns125207:0crwdne125207:0
+    exclusive:
+      label: crwdns125209:0crwdne125209:0
+    inclusive:
+      label: crwdns125211:0crwdne125211:0
+    query:
+      label: crwdns125213:0crwdne125213:0
+      placeholder: crwdns125215:0crwdne125215:0
+  loading: crwdns125217:0crwdne125217:0
+  new: crwdns125219:0crwdne125219:0
+  numFound: 'crwdns125221:0{{count}}crwdne125221:0'
+  numFound_plural: 'crwdns125223:0{{count}}crwdne125223:0'
+  permissions: crwdns125225:0crwdne125225:0
+  title: crwdns125227:0crwdne125227:0
+  yaml: crwdns125229:0crwdne125229:0
