@@ -1,3 +1,7 @@
-report-list: crwdns145237:0crwdne145237:0
-no-reports: crwdns145239:0crwdne145239:0
-search-reports: crwdns145241:0crwdne145241:0
+pick-scenario: crwdns145243:0crwdne145243:0
+report:
+  builder: crwdns145245:0crwdne145245:0
+  view: crwdns145247:0crwdne145247:0
+tooltip:
+  edit:
+    report: crwdns145249:0crwdne145249:0
