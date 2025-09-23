@@ -1,0 +1,543 @@
+# Admin "permissions" translation namespace
+# Holds mix of translations for two ui component types:
+#  - inline permission table (admin interface only)
+#  - modal permission table (common perm. interface)
+ui:
+  save: crwdns112587:0crwdne112587:0
+  cancel: crwdns112589:0crwdne112589:0
+  set-for: crwdns112591:0{{target}}crwdne112591:0
+  loading: crwdns112593:0crwdne112593:0
+  notification:
+    save:
+      success: crwdns112595:0crwdne112595:0
+      failed: crwdns112597:0crwdne112597:0
+  edit:
+    title: crwdns112599:0crwdne112599:0
+    label: crwdns112601:0crwdne112601:0
+    description: crwdns112603:0crwdne112603:0
+  evaluate:
+    description: crwdns112605:0crwdne112605:0
+  add:
+    label: crwdns112607:0crwdne112607:0
+    title: crwdns112609:0crwdne112609:0
+    save: crwdns112611:0crwdne112611:0
+    edit:
+      description: crwdns112613:0crwdne112613:0
+    evaluate:
+      description: crwdns112615:0crwdne112615:0
+    role:
+      label: crwdns112617:0crwdne112617:0
+      placeholder: crwdns112619:0crwdne112619:0
+    user:
+      label: crwdns112621:0crwdne112621:0
+      placeholder: crwdns112623:0crwdne112623:0
+  tooltip:
+    unknown-context:
+      user: crwdns112625:0crwdne112625:0
+      role: crwdns112627:0crwdne112627:0
+  access:
+    allow: crwdns112629:0crwdne112629:0
+    inherit: crwdns112631:0crwdne112631:0
+    deny: crwdns112633:0crwdne112633:0
+  #############################################################################
+  # Inline permission table UI:
+  click-on-cell-to-allow: crwdns112635:0crwdne112635:0
+  edit-or-eval: crwdns112637:0crwdne112637:0
+  title:
+    automation: crwdns112639:0crwdne112639:0
+    system: crwdns112641:0crwdne112641:0
+    compose: crwdns112643:0crwdne112643:0
+    federation: crwdns112645:0crwdne112645:0
+  clone:
+    clone: crwdns112647:0crwdne112647:0
+    label: crwdns112649:0crwdne112649:0
+    pick-role: crwdns112651:0crwdne112651:0
+    title: crwdns112653:0crwdne112653:0
+    description: crwdns112655:0crwdne112655:0
+resources:
+  automation:
+    component:
+      label: crwdns112657:0crwdne112657:0
+      operations:
+        grant:
+          title: crwdns112659:0crwdne112659:0
+        sessions.search:
+          title: crwdns112661:0crwdne112661:0
+        triggers.search:
+          title: crwdns112663:0crwdne112663:0
+        workflow.create:
+          title: crwdns112665:0crwdne112665:0
+        workflows.search:
+          title: crwdns112667:0crwdne112667:0
+        resource-translations.manage:
+          title: crwdns112669:0crwdne112669:0
+    workflow:
+      label: crwdns112671:0crwdne112671:0
+      all: crwdns112673:0crwdne112673:0
+      specific: crwdns112675:0{{target}}crwdne112675:0
+      operations:
+        delete:
+          description: 'crwdns112677:0crwdne112677:0'
+          specific: crwdns112679:0crwdne112679:0
+          title: crwdns112681:0crwdne112681:0
+        execute:
+          description: 'crwdns112683:0crwdne112683:0'
+          specific: crwdns112685:0crwdne112685:0
+          title: crwdns112687:0crwdne112687:0
+        read:
+          description: 'crwdns112689:0crwdne112689:0'
+          specific: crwdns112691:0crwdne112691:0
+          title: crwdns112693:0crwdne112693:0
+        sessions.manage:
+          description: 'crwdns112695:0crwdne112695:0'
+          specific: crwdns112697:0crwdne112697:0
+          title: crwdns112699:0crwdne112699:0
+        triggers.manage:
+          description: 'crwdns112701:0crwdne112701:0'
+          specific: crwdns112703:0crwdne112703:0
+          title: crwdns112705:0crwdne112705:0
+        undelete:
+          description: 'crwdns112707:0crwdne112707:0'
+          specific: crwdns112709:0crwdne112709:0
+          title: crwdns112711:0crwdne112711:0
+        update:
+          description: 'crwdns112713:0crwdne112713:0'
+          specific: crwdns112715:0crwdne112715:0
+          title: crwdns112717:0crwdne112717:0
+  system:
+    component:
+      label: crwdns112719:0crwdne112719:0
+      operations:
+        action-log.read:
+          title: crwdns112721:0crwdne112721:0
+        application.create:
+          title: crwdns112723:0crwdne112723:0
+        application.flag.global:
+          title: crwdns112725:0crwdne112725:0
+        application.flag.self:
+          title: crwdns112727:0crwdne112727:0
+        applications.search:
+          title: crwdns112729:0crwdne112729:0
+        auth-client.create:
+          title: crwdns112731:0crwdne112731:0
+        auth-clients.search:
+          title: crwdns112733:0crwdne112733:0
+        apigw-route.create:
+          title: crwdns112735:0crwdne112735:0
+        apigw-routes.search:
+          title: crwdns112737:0crwdne112737:0
+        apigw-filter.create:
+          title: crwdns112739:0crwdne112739:0
+        apigw-filters.search:
+          title: crwdns112741:0crwdne112741:0
+        grant:
+          title: crwdns112743:0crwdne112743:0
+        queue.create:
+          title: crwdns112745:0crwdne112745:0
+        queues.search:
+          title: crwdns112747:0crwdne112747:0
+        reminder.assign:
+          title: crwdns112749:0crwdne112749:0
+        notification.assign:
+          title: crwdns112751:0crwdne112751:0
+        role.create:
+          title: crwdns112753:0crwdne112753:0
+        roles.search:
+          title: crwdns112755:0crwdne112755:0
+        settings.manage:
+          title: crwdns112757:0crwdne112757:0
+        settings.read:
+          title: crwdns112759:0crwdne112759:0
+        template.create:
+          title: crwdns112761:0crwdne112761:0
+        templates.search:
+          title: crwdns112763:0crwdne112763:0
+        user.create:
+          title: crwdns112765:0crwdne112765:0
+        users.search:
+          title: crwdns112767:0crwdne112767:0
+        resource-translations.manage:
+          title: crwdns112769:0crwdne112769:0
+        dal-schema-alterations.manage:
+          title: crwdns112771:0crwdne112771:0
+        report.create:
+          title: crwdns112773:0crwdne112773:0
+        reports.search:
+          title: crwdns112775:0crwdne112775:0
+        dal-connections.search:
+          title: crwdns112777:0crwdne112777:0
+        dal-connection.create:
+          title: crwdns112779:0crwdne112779:0
+        dal-sensitivity-level.manage:
+          title: crwdns112781:0crwdne112781:0
+        data-privacy-requests.search:
+          title: crwdns112783:0crwdne112783:0
+        data-privacy-request.create:
+          title: crwdns112785:0crwdne112785:0
+    application:
+      label: crwdns112787:0crwdne112787:0
+      all: crwdns112789:0crwdne112789:0
+      specific: crwdns112791:0{{target}}crwdne112791:0
+      operations:
+        delete:
+          description: 'crwdns112793:0crwdne112793:0'
+          specific: crwdns112795:0{{target}}crwdne112795:0
+          title: crwdns112797:0crwdne112797:0
+        read:
+          description: 'crwdns112799:0crwdne112799:0'
+          specific: crwdns112801:0{{target}}crwdne112801:0
+          title: crwdns112803:0crwdne112803:0
+        update:
+          description: 'crwdns112805:0crwdne112805:0'
+          specific: crwdns112807:0{{target}}crwdne112807:0
+          title: crwdns112809:0crwdne112809:0
+    apigw-route:
+      label: crwdns112811:0crwdne112811:0
+      all: crwdns112813:0crwdne112813:0
+      specific: crwdns112815:0{{target}}crwdne112815:0
+      operations:
+        delete:
+          description: 'crwdns112817:0crwdne112817:0'
+          specific: crwdns112819:0{{target}}crwdne112819:0
+          title: crwdns112821:0crwdne112821:0
+        read:
+          description: 'crwdns112823:0crwdne112823:0'
+          specific: crwdns112825:0{{target}}crwdne112825:0
+          title: crwdns112827:0crwdne112827:0
+        update:
+          description: 'crwdns112829:0crwdne112829:0'
+          specific: crwdns112831:0{{target}}crwdne112831:0
+          title: crwdns112833:0crwdne112833:0
+    auth-client:
+      label: crwdns112835:0crwdne112835:0
+      all: crwdns112837:0crwdne112837:0
+      specific: crwdns112839:0{{target}}crwdne112839:0
+      operations:
+        authorize:
+          description: 'crwdns112841:0crwdne112841:0'
+          specific: crwdns112843:0{{target}}crwdne112843:0
+          title: crwdns112845:0crwdne112845:0
+        delete:
+          description: 'crwdns112847:0crwdne112847:0'
+          specific: crwdns112849:0{{target}}crwdne112849:0
+          title: crwdns112851:0crwdne112851:0
+        read:
+          description: 'crwdns112853:0crwdne112853:0'
+          specific: crwdns112855:0{{target}}crwdne112855:0
+          title: crwdns112857:0crwdne112857:0
+        update:
+          description: 'crwdns112859:0crwdne112859:0'
+          specific: crwdns112861:0{{target}}crwdne112861:0
+          title: crwdns112863:0crwdne112863:0
+    dal-connection:
+      label: crwdns112865:0crwdne112865:0
+      all: crwdns112867:0crwdne112867:0
+      specific: crwdns112869:0{{target}}crwdne112869:0
+      operations:
+        read:
+          description: 'crwdns112871:0crwdne112871:0'
+          specific: crwdns112873:0{{target}}crwdne112873:0
+          title: crwdns112875:0crwdne112875:0
+        update:
+          description: 'crwdns112877:0crwdne112877:0'
+          specific: crwdns112879:0{{target}}crwdne112879:0
+          title: crwdns112881:0crwdne112881:0
+        delete:
+          description: 'crwdns112883:0crwdne112883:0'
+          specific: crwdns112885:0{{target}}crwdne112885:0
+          title: crwdns112887:0crwdne112887:0
+        dal-config:
+          manage:
+            title: crwdns112889:0crwdne112889:0
+    role:
+      label: crwdns112891:0crwdne112891:0
+      all: crwdns112893:0crwdne112893:0
+      specific: crwdns112895:0{{target}}crwdne112895:0
+      operations:
+        delete:
+          description: 'crwdns112897:0crwdne112897:0'
+          specific: crwdns112899:0{{target}}crwdne112899:0
+          title: crwdns112901:0crwdne112901:0
+        members.manage:
+          description: 'crwdns112903:0crwdne112903:0'
+          specific: crwdns112905:0{{target}}crwdne112905:0
+          title: crwdns112907:0crwdne112907:0
+        read:
+          description: 'crwdns112909:0crwdne112909:0'
+          specific: crwdns112911:0{{target}}crwdne112911:0
+          title: crwdns112913:0crwdne112913:0
+        update:
+          description: 'crwdns112915:0crwdne112915:0'
+          specific: crwdns112917:0{{target}}crwdne112917:0
+          title: crwdns112919:0crwdne112919:0
+    queue:
+      label: crwdns112921:0crwdne112921:0
+      all: crwdns112923:0crwdne112923:0
+      specific: crwdns112925:0{{target}}crwdne112925:0
+      operations:
+        delete:
+          description: 'crwdns112927:0crwdne112927:0'
+          specific: crwdns112929:0{{target}}crwdne112929:0
+          title: crwdns112931:0crwdne112931:0
+        members.manage:
+          description: 'crwdns112933:0crwdne112933:0'
+          specific: crwdns112935:0{{target}}crwdne112935:0
+          title: crwdns112937:0crwdne112937:0
+        read:
+          description: 'crwdns112939:0crwdne112939:0'
+          specific: crwdns112941:0{{target}}crwdne112941:0
+          title: crwdns112943:0crwdne112943:0
+        update:
+          description: 'crwdns112945:0crwdne112945:0'
+          specific: crwdns112947:0{{target}}crwdne112947:0
+          title: crwdns112949:0crwdne112949:0
+        queue.read:
+          description: 'crwdns112951:0crwdne112951:0'
+          specific: crwdns112953:0{{target}}crwdne112953:0
+          title: crwdns112955:0crwdne112955:0
+        queue.write:
+          description: 'crwdns112957:0crwdne112957:0'
+          specific: crwdns112959:0{{target}}crwdne112959:0
+          title: crwdns112961:0crwdne112961:0
+    template:
+      label: crwdns112963:0crwdne112963:0
+      all: crwdns112965:0crwdne112965:0
+      specific: crwdns112967:0{{target}}crwdne112967:0
+      operations:
+        delete:
+          description: 'crwdns112969:0crwdne112969:0'
+          specific: crwdns112971:0{{target}}crwdne112971:0
+          title: crwdns112973:0crwdne112973:0
+        read:
+          description: 'crwdns112975:0crwdne112975:0'
+          specific: crwdns112977:0{{target}}crwdne112977:0
+          title: crwdns112979:0crwdne112979:0
+        render:
+          description: 'crwdns112981:0crwdne112981:0'
+          specific: crwdns112983:0{{target}}crwdne112983:0
+          title: crwdns112985:0crwdne112985:0
+        update:
+          description: 'crwdns112987:0crwdne112987:0'
+          specific: crwdns112989:0{{target}}crwdne112989:0
+          title: crwdns112991:0crwdne112991:0
+    report:
+      label: crwdns112993:0crwdne112993:0
+      all: crwdns112995:0crwdne112995:0
+      specific: crwdns112997:0{{target}}crwdne112997:0
+      operations:
+        delete:
+          description: 'crwdns112999:0crwdne112999:0'
+          specific: crwdns113001:0{{target}}crwdne113001:0
+          title: crwdns113003:0crwdne113003:0
+        read:
+          description: 'crwdns113005:0crwdne113005:0'
+          specific: crwdns113007:0{{target}}crwdne113007:0
+          title: crwdns113009:0crwdne113009:0
+        run:
+          description: 'crwdns113011:0crwdne113011:0'
+          specific: crwdns113013:0{{target}}crwdne113013:0
+          title: crwdns113015:0crwdne113015:0
+        update:
+          description: 'crwdns113017:0crwdne113017:0'
+          specific: crwdns113019:0{{target}}crwdne113019:0
+          title: crwdns113021:0crwdne113021:0
+    user:
+      label: crwdns113023:0crwdne113023:0
+      all: crwdns113025:0crwdne113025:0
+      specific: crwdns113027:0{{target}}crwdne113027:0
+      operations:
+        credentials:
+          manage:
+            specific: crwdns113029:0{{target}}crwdne113029:0
+            title: crwdns113031:0crwdne113031:0
+        delete:
+          description: 'crwdns113033:0crwdne113033:0'
+          specific: crwdns113035:0{{target}}crwdne113035:0
+          title: crwdns113037:0crwdne113037:0
+        email.unmask:
+          description: 'crwdns113039:0crwdne113039:0'
+          specific: crwdns113041:0{{target}}crwdne113041:0
+          title: crwdns113043:0crwdne113043:0
+        name.unmask:
+          description: 'crwdns113045:0crwdne113045:0'
+          specific: crwdns113047:0{{target}}crwdne113047:0
+          title: crwdns113049:0crwdne113049:0
+        impersonate:
+          description: 'crwdns113051:0crwdne113051:0'
+          specific: crwdns113053:0{{target}}crwdne113053:0
+          title: crwdns113055:0crwdne113055:0
+        read:
+          description: 'crwdns113057:0crwdne113057:0'
+          specific: crwdns113059:0{{target}}crwdne113059:0
+          title: crwdns113061:0crwdne113061:0
+        suspend:
+          description: 'crwdns113063:0crwdne113063:0'
+          specific: crwdns113065:0{{target}}crwdne113065:0
+          title: crwdns113067:0crwdne113067:0
+        unsuspend:
+          description: 'crwdns113069:0crwdne113069:0'
+          specific: crwdns113071:0{{target}}crwdne113071:0
+          title: crwdns113073:0crwdne113073:0
+        update:
+          description: 'crwdns113075:0crwdne113075:0'
+          specific: crwdns113077:0{{target}}crwdne113077:0
+          title: crwdns113079:0crwdne113079:0
+    data-privacy-request:
+      label: crwdns113081:0crwdne113081:0
+      all: crwdns113083:0crwdne113083:0
+      specific: crwdns113085:0{{target}}crwdne113085:0
+      operations:
+        read:
+          description: 'crwdns113087:0crwdne113087:0'
+          specific: crwdns113089:0{{target}}crwdne113089:0
+          title: crwdns113091:0crwdne113091:0
+        approve:
+          description: 'crwdns113093:0crwdne113093:0'
+          specific: crwdns113095:0{{target}}crwdne113095:0
+          title: crwdns113097:0crwdne113097:0
+  federation:
+    component:
+      label: crwdns113099:0crwdne113099:0
+      operations:
+        grant:
+          title: crwdns113101:0crwdne113101:0
+        node.create:
+          title: crwdns113103:0crwdne113103:0
+        nodes.search:
+          title: crwdns113105:0crwdne113105:0
+        pair:
+          title: crwdns113107:0crwdne113107:0
+        settings.manage:
+          title: crwdns113109:0crwdne113109:0
+        settings.read:
+          title: crwdns113111:0crwdne113111:0
+    node:
+      label: crwdns113113:0crwdne113113:0
+      operations:
+        manage:
+          title: crwdns113115:0crwdne113115:0
+        module.create:
+          title: crwdns113117:0crwdne113117:0
+    exposed-module:
+      label: crwdns113119:0crwdne113119:0
+      operations:
+        manage:
+          title: crwdns113121:0crwdne113121:0
+    shared-module:
+      label: crwdns113123:0crwdne113123:0
+      operations:
+        map:
+          title: crwdns113125:0crwdne113125:0
+  compose:
+    component:
+      label: crwdns113127:0crwdne113127:0
+      operations:
+        grant:
+          title: crwdns113129:0crwdne113129:0
+        namespace.create:
+          title: crwdns113131:0crwdne113131:0
+        namespaces.search:
+          title: crwdns113133:0crwdne113133:0
+        settings.manage:
+          title: crwdns113135:0crwdne113135:0
+        settings.read:
+          title: crwdns113137:0crwdne113137:0
+        resource-translations.manage:
+          title: crwdns113139:0crwdne113139:0
+    chart:
+      label: crwdns113141:0crwdne113141:0
+      operations:
+        delete:
+          title: crwdns113143:0crwdne113143:0
+        read:
+          title: crwdns113145:0crwdne113145:0
+        update:
+          title: crwdns113147:0crwdne113147:0
+    module:
+      label: crwdns113149:0crwdne113149:0
+      operations:
+        delete:
+          title: crwdns113151:0crwdne113151:0
+        owned-record.create:
+          title: crwdns113153:0crwdne113153:0
+        read:
+          title: crwdns113155:0crwdne113155:0
+        record.create:
+          title: crwdns113157:0crwdne113157:0
+        records.search:
+          title: crwdns113159:0crwdne113159:0
+        update:
+          title: crwdns113161:0crwdne113161:0
+    module-field:
+      label: crwdns113163:0crwdne113163:0
+      operations:
+        record.value.read:
+          title: crwdns113165:0crwdne113165:0
+        record.value.update:
+          title: crwdns113167:0crwdne113167:0
+    namespace:
+      label: crwdns113169:0crwdne113169:0
+      operations:
+        chart.create:
+          title: crwdns113171:0crwdne113171:0
+        charts.search:
+          title: crwdns113173:0crwdne113173:0
+        charts.export:
+          title: crwdns113175:0crwdne113175:0
+        delete:
+          title: crwdns113177:0crwdne113177:0
+        manage:
+          title: crwdns113179:0crwdne113179:0
+        module.create:
+          title: crwdns113181:0crwdne113181:0
+        modules.search:
+          title: crwdns113183:0crwdne113183:0
+        modules.export:
+          title: crwdns113185:0crwdne113185:0
+        page.create:
+          title: crwdns113187:0crwdne113187:0
+        pages.search:
+          title: crwdns113189:0crwdne113189:0
+        read:
+          title: crwdns113191:0crwdne113191:0
+        update:
+          title: crwdns113193:0crwdne113193:0
+        export:
+          title: crwdns113195:0crwdne113195:0
+    page:
+      label: crwdns113197:0crwdne113197:0
+      operations:
+        delete:
+          title: crwdns113199:0crwdne113199:0
+        read:
+          title: crwdns113201:0crwdne113201:0
+        update:
+          title: crwdns113203:0crwdne113203:0
+        page-layout.create:
+          title: crwdns113205:0crwdne113205:0
+        page-layouts.search:
+          title: crwdns113207:0crwdne113207:0
+    page-layout:
+      label: crwdns113209:0crwdne113209:0
+      operations:
+        delete:
+          title: crwdns113211:0crwdne113211:0
+        read:
+          title: crwdns113213:0crwdne113213:0
+        update:
+          title: crwdns113215:0crwdne113215:0
+    record:
+      label: crwdns113217:0crwdne113217:0
+      operations:
+        delete:
+          title: crwdns113219:0crwdne113219:0
+        undelete:
+          title: crwdns113221:0crwdne113221:0
+        read:
+          title: crwdns113223:0crwdne113223:0
+        update:
+          title: crwdns113225:0crwdne113225:0
+        owner.manage:
+          title: crwdns113227:0crwdne113227:0
+        revisions.search:
+          title: crwdns113229:0crwdne113229:0
