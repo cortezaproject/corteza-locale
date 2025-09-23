@@ -1,0 +1,19 @@
+federated: crwdns119189:0crwdne119189:0
+no-values: crwdns119191:0crwdne119191:0
+label:
+  all: crwdns119193:0crwdne119193:0
+resourceList:
+  pagination:
+    recordsPerPage: crwdns119195:0crwdne119195:0
+themes:
+  labels:
+    light: crwdns119197:0crwdne119197:0
+    dark: crwdns119199:0crwdne119199:0
+extendSession:
+  labels:
+    extend: crwdns119201:0crwdne119201:0
+    warning: crwdns119203:0{{ countdownTime }}crwdne119203:0
+recordID: crwdns119205:0crwdne119205:0
+createdBy: crwdns119207:0crwdne119207:0
+createdAt: crwdns119209:0crwdne119209:0
+updatedAt: crwdns119211:0crwdne119211:0
