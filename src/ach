@@ -1,16 +1,12 @@
-permissions: crwdns145021:0crwdne145021:0
-report:
-  builder: crwdns145023:0crwdne145023:0
-  edit: crwdns145025:0crwdne145025:0
-  list: crwdns145027:0crwdne145027:0
-  new: crwdns145029:0crwdne145029:0
-  delete: crwdns145031:0crwdne145031:0
-searchPlaceholder: crwdns145033:0crwdne145033:0
-title: crwdns145035:0crwdne145035:0
-tooltip:
-  permissions: crwdns145037:0crwdne145037:0
-untitledTitle: crwdns145039:0crwdne145039:0
-columns:
-  name: crwdns145041:0crwdne145041:0
-  handle: crwdns145043:0crwdne145043:0
-  changedAt: crwdns145045:0crwdne145045:0
+appMenu: crwdns145047:0crwdne145047:0
+help:
+  documentation: crwdns145049:0crwdne145049:0
+  feedback: crwdns145051:0crwdne145051:0
+  forum: crwdns145053:0crwdne145053:0
+  version: 'crwdns145055:0crwdne145055:0'
+userSettings:
+  changePassword: crwdns145057:0crwdne145057:0
+  loggedInAs: crwdns145059:0{{user}}crwdne145059:0
+  logout: crwdns145061:0crwdne145061:0
+  profile: crwdns145063:0crwdne145063:0
+  theme: crwdns145065:0crwdne145065:0
