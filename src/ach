@@ -1,2 +1,12 @@
 errors:
-  notAllowedToReadStatistics: crwdns135937:0crwdne135937:0
+  cannotRenderPartial: crwdns135939:0crwdne135939:0
+  invalidHandle: crwdns135941:0crwdne135941:0
+  invalidID: crwdns135943:0crwdne135943:0
+  notAllowedToCreate: crwdns135945:0crwdne135945:0
+  notAllowedToDelete: crwdns135947:0crwdne135947:0
+  notAllowedToRead: crwdns135949:0crwdne135949:0
+  notAllowedToRender: crwdns135951:0crwdne135951:0
+  notAllowedToSearch: crwdns135953:0crwdne135953:0
+  notAllowedToUndelete: crwdns135955:0crwdne135955:0
+  notAllowedToUpdate: crwdns135957:0crwdne135957:0
+  notFound: crwdns135959:0crwdne135959:0
