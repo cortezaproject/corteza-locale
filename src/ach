@@ -1,18 +1,14 @@
 template:
-  title: crwdns134941:0crwdne134941:0
-  email:
-    instructions: crwdns134943:0crwdne134943:0
-    code: crwdns134945:0crwdne134945:0
-    verify: crwdns134947:0crwdne134947:0
-    resend: crwdns134949:0crwdne134949:0
-    confirmed: crwdns134951:0crwdne134951:0
-  totp:
-    instructions: crwdns134953:0crwdne134953:0
-    code: crwdns134955:0crwdne134955:0
-    confirmed: crwdns134957:0crwdne134957:0
-    verify: crwdns134959:0crwdne134959:0
+  title: crwdns134965:0crwdne134965:0
+  form:
+    greeting-paragraph: crwdns134967:0crwdne134967:0
+    question-for-client: crwdns134969:0crwdne134969:0
+    buttons:
+      allow: crwdns134971:0crwdne134971:0
+      deny: crwdns134973:0crwdne134973:0
+  links:
+    mistake: crwdns134975:0{{link}}crwdne134975:0
+  errors:
+    invalid-user: crwdns134977:0{{link}}crwdne134977:0
 alerts:
-  email:
-    resent: crwdns134961:0crwdne134961:0
-  topt:
-    valid: crwdns134963:0crwdne134963:0
+  denied: 'crwdns134979:0{{client}}crwdne134979:0'
