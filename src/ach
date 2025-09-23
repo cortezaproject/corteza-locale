@@ -1,20 +1,6 @@
-notification:
-  search-error: crwdns144043:0crwdne144043:0
-input-placeholder: crwdns144045:0crwdne144045:0
-card:
-  button-text: crwdns144047:0crwdne144047:0
-  type: crwdns144049:0crwdne144049:0
-  handle: crwdns144051:0crwdne144051:0
-  namespace: crwdns144053:0crwdne144053:0
-  module: crwdns144055:0crwdne144055:0
-  user: crwdns144057:0crwdne144057:0
-  email: crwdns144059:0crwdne144059:0
-  record: crwdns144061:0crwdne144061:0
-  fields: crwdns144063:0crwdne144063:0
-range: crwdns144065:0{{actual}}crwdnd144065:0{{all}}crwdne144065:0
-discovering: crwdns144067:0crwdne144067:0
-no-results: crwdns144069:0crwdne144069:0
-show-more: crwdns144071:0crwdne144071:0
-loading-more: crwdns144073:0crwdne144073:0
-show-map: crwdns144075:0crwdne144075:0
-hide-map: crwdns144077:0crwdne144077:0
+jitsi:
+  create: crwdns144079:0crwdne144079:0
+  defaultLocalDisplayName: crwdns144081:0crwdne144081:0
+  defaultRemoteDisplayName: crwdns144083:0crwdne144083:0
+  roomName: crwdns144085:0crwdne144085:0
+  toStart: crwdns144087:0crwdne144087:0
