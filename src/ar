@@ -1,9 +1,11 @@
 template:
-  title: Request password reset link
+  title: Reset your password
   form:
     email:
       label: Email
       placeholder: email@domain.tld
+    new-password:
+      label: New password
+      placeholder: Set new password
     buttons:
-      request: Request password reset link via email
-  links: <a data-test-id="link-return-to-login-page" href="{{login}}">Return to the login page</a>
+      change-password: Change your password
