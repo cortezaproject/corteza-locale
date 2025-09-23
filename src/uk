@@ -1,14 +1,21 @@
 template:
-  title: Accept Invite
+  title: Log in to continue
   form:
     email:
       label: Email
       placeholder: email@domain.tld
-    new-password:
+    password:
       label: Password
       placeholder: password
-    buttons:
-      password: Set password
-alert:
-  invalid-expired-invite-token: Invalid or expired user invite token, please request a password reset.
-  success: Password successfully updated
+    button:
+      login-and-remember: Log in and remember me
+      login: Log in
+      continue: Continue
+  links:
+    request-password-reset: Forgot your password?
+    signup: Create a new account
+    external:
+      login-with: Login with {{idp}}
+alerts:
+  logged-in: You are now logged-in
+  local-disabled: Local accounts disabled
