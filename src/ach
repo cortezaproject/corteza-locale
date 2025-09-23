@@ -1,10 +1,3 @@
 errors:
-  federationSyncStructureChanged: crwdns135553:0crwdne135553:0
-  invalidID: crwdns135555:0crwdne135555:0
-  nodeNotFound: crwdns135557:0crwdne135557:0
-  notAllowedToCreate: crwdns135559:0crwdne135559:0
-  notAllowedToManage: crwdns135561:0crwdne135561:0
-  notAllowedToMap: crwdns135563:0crwdne135563:0
-  notFound: crwdns135565:0crwdne135565:0
-  notUnique: crwdns135567:0crwdne135567:0
-  staleData: crwdns135569:0crwdne135569:0
+  unauthorized: crwdns135571:0crwdne135571:0
+  unauthorizedScope: crwdns135573:0crwdne135573:0
