@@ -1,19 +1,122 @@
-applications:
-  applications: crwdns136435:0crwdne136435:0
-  deleted: crwdns136437:0crwdne136437:0
-  title: crwdns136439:0crwdne136439:0
-  total: crwdns136441:0crwdne136441:0
-roles:
-  archived: crwdns136443:0crwdne136443:0
-  deleted: crwdns136445:0crwdne136445:0
-  roles: crwdns136447:0crwdne136447:0
-  title: crwdns136449:0crwdne136449:0
-  total: crwdns136451:0crwdne136451:0
-title: crwdns136453:0crwdne136453:0
-users:
-  created: crwdns136455:0crwdne136455:0
-  deleted: crwdns136457:0crwdne136457:0
-  suspended: crwdns136459:0crwdne136459:0
-  title: crwdns136461:0crwdne136461:0
-  total: crwdns136463:0crwdne136463:0
-  users: crwdns136465:0crwdne136465:0
+calculate: crwdns136467:0crwdne136467:0
+categories:
+  dateTime:
+    earliest: crwdns136469:0crwdne136469:0
+    label: crwdns136471:0crwdne136471:0
+    latest: crwdns136473:0crwdne136473:0
+    modTime: crwdns136475:0crwdne136475:0
+    parseDuration: crwdns136477:0crwdne136477:0
+    parseISOTime: crwdns136479:0crwdne136479:0
+    strftime: crwdns136481:0crwdne136481:0
+  general:
+    description: crwdns136483:0crwdne136483:0
+    label: crwdns136485:0crwdne136485:0
+  number:
+    ceil: crwdns136487:0crwdne136487:0
+    floor: crwdns136489:0crwdne136489:0
+    label: crwdns136491:0crwdne136491:0
+    max: crwdns136493:0crwdne136493:0
+    min: crwdns136495:0crwdne136495:0
+    rounds: crwdns136497:0crwdne136497:0
+  string:
+    format: crwdns136499:0crwdne136499:0
+    label: crwdns136501:0crwdne136501:0
+    longest: crwdns136503:0crwdne136503:0
+    shortest: crwdns136505:0crwdne136505:0
+    toLower: crwdns136507:0crwdne136507:0
+    toUpper: crwdns136509:0crwdne136509:0
+    trim: crwdns136511:0crwdne136511:0
+    trimLeft: crwdns136513:0crwdne136513:0
+    trimRight: crwdns136515:0crwdne136515:0
+example-description: crwdns136517:0crwdne136517:0
+examples: crwdns136519:0crwdne136519:0
+field: crwdns136521:0crwdne136521:0
+formatCategories:
+  dateTime:
+    A: crwdns136523:0crwdne136523:0
+    B: crwdns136525:0crwdne136525:0
+    C: crwdns136527:0crwdne136527:0
+    D: crwdns136529:0%mcrwdnd136529:0%dcrwdnd136529:0%ycrwdne136529:0
+    F: crwdns136531:0%Y-%m-%dcrwdne136531:0
+    H: crwdns136533:0crwdne136533:0
+    I: crwdns136535:0crwdne136535:0
+    M: crwdns136537:0crwdne136537:0
+    R: crwdns136539:0%H:%Mcrwdne136539:0
+    S-middle: crwdns136541:0crwdne136541:0
+    S-second: crwdns136543:0crwdne136543:0
+    T: crwdns136545:0%H:%M:%Scrwdne136545:0
+    U: crwdns136547:0crwdne136547:0
+    V: crwdns136549:0crwdne136549:0
+    W: crwdns136551:0crwdne136551:0
+    X: crwdns136553:0crwdne136553:0
+    "Y": crwdns136555:0crwdne136555:0
+    Z: crwdns136557:0crwdne136557:0
+    a: crwdns136559:0crwdne136559:0
+    b: crwdns136561:0crwdne136561:0
+    c: crwdns136563:0crwdne136563:0
+    d: crwdns136565:0crwdne136565:0
+    e: crwdns136567:0crwdne136567:0
+    j: crwdns136569:0crwdne136569:0
+    k: crwdns136571:0crwdne136571:0
+    l: crwdns136573:0crwdne136573:0
+    label: crwdns136575:0crwdne136575:0
+    m: crwdns136577:0crwdne136577:0
+    "n": |-
+      crwdns136579:0crwdne136579:0
+    p: crwdns136581:0crwdne136581:0
+    percent: crwdns136583:0crwdne136583:0
+    r: crwdns136585:0%I:%M:%Scrwdnd136585:0%pcrwdne136585:0
+    t: crwdns136587:0crwdne136587:0
+    u: crwdns136589:0crwdne136589:0
+    v: crwdns136591:0%ecrwdnd136591:0%bcrwdnd136591:0%Ycrwdne136591:0
+    w: crwdns136593:0crwdne136593:0
+    x: crwdns136595:0crwdne136595:0
+    "y": crwdns136597:0crwdne136597:0
+    z: crwdns136599:0crwdne136599:0
+  string:
+    E: crwdns136601:0crwdne136601:0
+    O: crwdns136603:0crwdne136603:0
+    X: crwdns136605:0crwdne136605:0
+    b: crwdns136607:0crwdne136607:0
+    binary: crwdns136609:0crwdne136609:0
+    d: crwdns136611:0crwdne136611:0
+    e: crwdns136613:0crwdne136613:0
+    f: crwdns136615:0crwdne136615:0
+    label: crwdns136617:0crwdne136617:0
+    o: crwdns136619:0crwdne136619:0
+    t: crwdns136621:0crwdne136621:0
+    v: crwdns136623:0crwdne136623:0
+    x: crwdns136625:0crwdne136625:0
+formatting-parameters:
+  description: crwdns136627:0crwdne136627:0
+  label: crwdns136629:0crwdne136629:0
+helper-functions:
+  description: crwdns136631:0crwdne136631:0
+  label: crwdns136633:0crwdne136633:0
+  note: 'crwdns136635:0crwdne136635:0'
+instructions: 'crwdns136637:0crwdne136637:0'
+operators:
+  all-new-values: crwdns136639:0crwdne136639:0
+  comparators: 'crwdns136641:0crwdne136641:0'
+  control-order: 'crwdns136643:0crwdne136643:0'
+  field-name: crwdns136645:0crwdne136645:0
+  location: 'crwdns136647:0crwdne136647:0'
+  logical: 'crwdns136649:0crwdne136649:0'
+  modifiers: 'crwdns136651:0crwdne136651:0'
+  more: 'crwdns136653:0crwdne136653:0'
+  new: crwdns136655:0crwdne136655:0
+  new-value: crwdns136657:0crwdne136657:0
+  new-value-with-comma: 'crwdns136659:0crwdne136659:0'
+  old: crwdns136661:0crwdne136661:0
+  old-value: crwdns136663:0crwdne136663:0
+  old-value-brackets: 'crwdns136665:0crwdne136665:0'
+  record: 'crwdns136667:0crwdne136667:0'
+  sanitizer: crwdns136669:0crwdne136669:0
+  sanitizers: 'crwdns136671:0crwdne136671:0'
+  validator: crwdns136673:0crwdne136673:0
+  validators: 'crwdns136675:0crwdne136675:0'
+  value: crwdns136677:0crwdne136677:0
+  value-expression: crwdns136679:0crwdne136679:0
+  value-expressions: 'crwdns136681:0crwdne136681:0'
+  values: crwdns136683:0crwdne136683:0
+write: crwdns136685:0crwdne136685:0
