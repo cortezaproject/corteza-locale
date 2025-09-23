@@ -1,66 +1,37 @@
-clear: crwdns145349:0crwdne145349:0
-description: crwdns145351:0crwdne145351:0
-enabled: crwdns145353:0crwdne145353:0
-enable: crwdns145355:0crwdne145355:0
-disable: crwdns145357:0crwdne145357:0
-error: crwdns145359:0crwdne145359:0
-error-expression: crwdns145361:0crwdne145361:0
-export: crwdns145363:0crwdne145363:0
-general: crwdns145365:0crwdne145365:0
-handle: crwdns145367:0crwdne145367:0
-import:
-  json: crwdns145369:0crwdne145369:0
-  label: crwdns145371:0crwdne145371:0
-  reassign-run-as: "crwdns145373:0crwdne145373:0"
-  upload-files: crwdns145375:0crwdne145375:0
-label:
-  all: crwdns145377:0crwdne145377:0
-  label: crwdns145379:0crwdne145379:0
-loading: crwdns145381:0crwdne145381:0
-name: crwdns145383:0crwdne145383:0
-new-workflow: crwdns145385:0crwdne145385:0
-none: crwdns145387:0crwdne145387:0
-now: crwdns145389:0crwdne145389:0
-offset: crwdns145391:0crwdne145391:0
-offset-expression: crwdns145393:0crwdne145393:0
-permissions: crwdns145395:0crwdne145395:0
-searchPlaceholder: crwdns145397:0crwdne145397:0
-subworkflow: crwdns145399:0crwdne145399:0
-subworkflows: crwdns145401:0crwdne145401:0
-deleted: crwdns145403:0crwdne145403:0
-disabled: crwdns145405:0crwdne145405:0
-without: crwdns145407:0crwdne145407:0
-only: crwdns145409:0crwdne145409:0
-including: crwdns145411:0crwdne145411:0
-workflow-list: crwdns145413:0crwdne145413:0
-workflow:
-  single: crwdns145415:0crwdne145415:0
-  plural: crwdns145417:0crwdne145417:0
-save: crwdns145419:0crwdne145419:0
-today: crwdns145421:0crwdne145421:0
-cancel: crwdns145423:0crwdne145423:0
-resourceList:
-  notFound: crwdns145425:0crwdne145425:0
-  noItems: crwdns145427:0crwdne145427:0
-  pagination:
-    next: crwdns145429:0crwdne145429:0
-    prev: crwdns145431:0crwdne145431:0
-    showing: 'crwdns145433:0{{from}}crwdnd145433:0{{to}}crwdnd145433:0{{count}}crwdnd145433:0{{data}}crwdne145433:0'
-    single_one: 'crwdns145435:0{{data}}crwdne145435:0'
-    single_other: 'crwdns145437:0{{count}}crwdnd145437:0{{data}}crwdne145437:0'
-    recordsPerPage: crwdns145439:0crwdne145439:0
-tooltip:
-  permissions: crwdns145441:0crwdne145441:0
-columns:
-  name: crwdns145443:0crwdne145443:0
-  enabled: crwdns145445:0crwdne145445:0
-  steps: crwdns145447:0crwdne145447:0
-  changedAt: crwdns145449:0crwdne145449:0
-themes:
-  labels:
-    light: crwdns145451:0crwdne145451:0
-    dark: crwdns145453:0crwdne145453:0
-extendSession:
-  labels:
-    extend: crwdns145455:0crwdne145455:0
-    warning: crwdns145457:0{{ countdownTime }}crwdne145457:0
+'basic-controls':
+  action:
+    deselect: crwdns145459:0crwdne145459:0
+    pan: crwdns145461:0crwdne145461:0
+    select: crwdns145463:0crwdne145463:0
+    'select-multiple': crwdns145465:0crwdne145465:0
+    'zoom-in/out': crwdns145467:0crwdne145467:0
+  shortcut:
+    'left-click':
+      background: crwdns145469:0crwdne145469:0
+      drag: crwdns145471:0crwdne145471:0
+      label: crwdns145473:0crwdne145473:0
+    'mouse-wheel': crwdns145475:0crwdne145475:0
+    'right-click-drag': crwdns145477:0crwdne145477:0
+'basic-controls-label': crwdns145479:0crwdne145479:0
+'keyboard-shortcuts':
+  action:
+    'add-selection': crwdns145481:0crwdne145481:0
+    copy: crwdns145483:0crwdne145483:0
+    cut: crwdns145485:0crwdne145485:0
+    'delete-selected-elements': crwdns145487:0crwdne145487:0
+    nudge: crwdns145489:0crwdne145489:0
+    paste: crwdns145491:0crwdne145491:0
+    redo: crwdns145493:0crwdne145493:0
+    save: crwdns145495:0crwdne145495:0
+    'hide-guides': crwdns145497:0crwdne145497:0
+    'show-help': crwdns145499:0crwdne145499:0
+    'reset-view-to-start-point': crwdns145501:0crwdne145501:0
+    'select-all': crwdns145503:0crwdne145503:0
+    undo: crwdns145505:0crwdne145505:0
+  shortcut:
+    'adjust-distance': crwdns145507:0crwdne145507:0
+    'arrow-keys': crwdns145509:0crwdne145509:0
+    hold: crwdns145511:0crwdne145511:0
+    'left-mouse-button': crwdns145513:0crwdne145513:0
+'keyboard-shortcuts-label': crwdns145515:0crwdne145515:0
+'mac-users': crwdns145517:0crwdne145517:0
