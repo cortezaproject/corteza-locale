@@ -1,20 +1,118 @@
-errors:
-  emailNotUnique: crwdns135961:0crwdne135961:0
-  handleNotUnique: crwdns135963:0crwdne135963:0
-  invalidEmail: crwdns135965:0crwdne135965:0
-  invalidHandle: crwdns135967:0crwdne135967:0
-  invalidID: crwdns135969:0crwdne135969:0
-  notAllowedToCreate: crwdns135971:0crwdne135971:0
-  notAllowedToCreateSystem: crwdns135973:0crwdne135973:0
-  notAllowedToDelete: crwdns135975:0crwdne135975:0
-  notAllowedToListUsers: crwdns135977:0crwdne135977:0
-  notAllowedToRead: crwdns135979:0crwdne135979:0
-  notAllowedToSearch: crwdns135981:0crwdne135981:0
-  notAllowedToSuspend: crwdns135983:0crwdne135983:0
-  notAllowedToUndelete: crwdns135985:0crwdne135985:0
-  notAllowedToUnsuspend: crwdns135987:0crwdne135987:0
-  notAllowedToUpdate: crwdns135989:0crwdne135989:0
-  notAllowedToUpdateSystem: crwdns135991:0crwdne135991:0
-  notFound: crwdns135993:0crwdne135993:0
-  passwordNotSecure: crwdns135995:0crwdne135995:0
-  usernameNotUnique: crwdns135997:0crwdne135997:0
+automation:
+  add: crwdns135999:0crwdne135999:0
+  edit:
+    asyncHelp: crwdns136001:0crwdne136001:0
+    asyncLabel: crwdns136003:0crwdne136003:0
+    codeTabLabel: crwdns136005:0crwdne136005:0
+    criticalHelp: crwdns136007:0crwdne136007:0
+    criticalLabel: crwdns136009:0crwdne136009:0
+    delete: crwdns136011:0crwdne136011:0
+    enabledHelp: crwdns136013:0crwdne136013:0
+    enabledLabel: crwdns136015:0crwdne136015:0
+    mailAutomationTriggers:
+      addMatcher: crwdns136017:0crwdne136017:0
+      addTrigger: crwdns136019:0crwdne136019:0
+      delete: crwdns136021:0crwdne136021:0
+      deleteTrigger: crwdns136023:0crwdne136023:0
+      enable: crwdns136025:0crwdne136025:0
+      matchAll: crwdns136027:0crwdne136027:0
+      matcher:
+        fields:
+          bcc: crwdns136029:0crwdne136029:0
+          cc: crwdns136031:0crwdne136031:0
+          from: crwdns136033:0crwdne136033:0
+          placeholder: crwdns136035:0crwdne136035:0
+          replyTo: crwdns136037:0crwdne136037:0
+          subject: crwdns136039:0crwdne136039:0
+          to: crwdns136041:0crwdne136041:0
+        match: crwdns136043:0crwdne136043:0
+        operators:
+          equal-ci: crwdns136045:0crwdne136045:0
+          placeholder: crwdns136047:0crwdne136047:0
+          prefix-ci: crwdns136049:0crwdne136049:0
+          regex: crwdns136051:0crwdne136051:0
+          suffix-ci: crwdns136053:0crwdne136053:0
+          user: crwdns136055:0crwdne136055:0
+      tabLabel: crwdns136057:0crwdne136057:0
+    nameLabel: crwdns136059:0crwdne136059:0
+    namePlaceholder: crwdns136061:0crwdne136061:0
+    runAsCurrentUser: crwdns136063:0{{ user }}crwdne136063:0
+    runAsHelp: crwdns136065:0crwdne136065:0
+    scheduledTriggers:
+      tabLabel: crwdns136067:0crwdne136067:0
+    securityLabel: crwdns136069:0crwdne136069:0
+    settingsTabLabel: crwdns136071:0crwdne136071:0
+    timeoutHelp: crwdns136073:0crwdne136073:0
+    timeoutLabel: crwdns136075:0crwdne136075:0
+    timeoutPlaceholder: "crwdns136077:0crwdne136077:0"
+    title: crwdns136079:0crwdne136079:0
+    userPickerPlaceholder: crwdns136081:0crwdne136081:0
+  import: crwdns136083:0crwdne136083:0
+  list:
+    column:
+      label:
+        async: crwdns136085:0crwdne136085:0
+        critical: crwdns136087:0crwdne136087:0
+        enabled: crwdns136089:0crwdne136089:0
+        runAs: crwdns136091:0crwdne136091:0
+        runInUA: crwdns136093:0crwdne136093:0
+    unnamed: crwdns136095:0crwdne136095:0
+  manage: crwdns136097:0{{count}}crwdne136097:0
+  manage-id-permissions: crwdns136099:0crwdne136099:0
+  manage-wc-permissions: crwdns136101:0crwdne136101:0
+  newLabel: crwdns136103:0crwdne136103:0
+  newPlaceholder: crwdns136105:0crwdne136105:0
+  testing:
+    load: crwdns136107:0crwdne136107:0
+    parametersHeadline: 'crwdns136109:0crwdne136109:0'
+    resultsHeadline: 'crwdns136111:0crwdne136111:0'
+    testInBrowser: crwdns136113:0crwdne136113:0
+    testInCorredor: crwdns136115:0crwdne136115:0
+    warning: "crwdns136117:0crwdne136117:0"
+  title: crwdns136119:0crwdne136119:0
+general:
+  resource-list:
+    no-items: crwdns136121:0crwdne136121:0
+  notFound: 'crwdns136123:0crwdne136123:0'
+  loading: crwdns136125:0crwdne136125:0
+  label:
+    "no": "crwdns136127:0crwdne136127:0"
+    submit: crwdns136129:0crwdne136129:0
+    "yes": "crwdns136131:0crwdne136131:0"
+    selectOption: "crwdns136133:0crwdne136133:0"
+  logout: crwdns136135:0crwdne136135:0
+  noAccess: crwdns136137:0crwdne136137:0
+  pagination:
+    next: crwdns136139:0crwdne136139:0
+    prev: crwdns136141:0crwdne136141:0
+    showing: 'crwdns136143:0{{from}}crwdnd136143:0{{to}}crwdnd136143:0{{count}}crwdnd136143:0{{data}}crwdne136143:0'
+    single_one: 'crwdns136145:0{{data}}crwdne136145:0'
+    single_other: 'crwdns136147:0{{count}}crwdnd136147:0{{data}}crwdne136147:0'
+navigation:
+  appMenu: crwdns136149:0crwdne136149:0
+  adminPanel: crwdns136151:0crwdne136151:0
+  automation: crwdns136153:0crwdne136153:0
+  chart: crwdns136155:0crwdne136155:0
+  configuration: crwdns136157:0crwdne136157:0
+  help:
+    documentation: crwdns136159:0crwdne136159:0
+    feedback: crwdns136161:0crwdne136161:0
+    forum: crwdns136163:0crwdne136163:0
+    version: 'crwdns136165:0crwdne136165:0'
+  module: crwdns136167:0crwdne136167:0
+  more: crwdns136169:0crwdne136169:0
+  namespace: crwdns136171:0crwdne136171:0
+  noPageTitle: crwdns136173:0crwdne136173:0
+  page: crwdns136175:0crwdne136175:0
+  publicPages: crwdns136177:0crwdne136177:0
+  userSettings:
+    changePassword: crwdns136179:0crwdne136179:0
+    loggedInAs: crwdns136181:0{{user}}crwdne136181:0
+    logout: crwdns136183:0crwdne136183:0
+    profile: crwdns136185:0crwdne136185:0
+    theme: crwdns136187:0crwdne136187:0
+picker:
+  role:
+    placeholder: crwdns136189:0crwdne136189:0
+  member:
+    placeholder: crwdns136191:0crwdne136191:0
