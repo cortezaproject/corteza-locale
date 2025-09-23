@@ -1,14 +1,28 @@
-general:
-  label:
-    attachmentFileInfo: 'crwdns143847:0{{0}}crwdnd143847:0{{1}}crwdne143847:0'
-    download: crwdns143849:0crwdne143849:0
-  tooltip:
-    dragAndDrop: crwdns143851:0crwdne143851:0
-pdf:
-  clickToRetry: crwdns143853:0crwdne143853:0
-  downloadForAll: crwdns143855:0crwdne143855:0
-  firstPagePreview: crwdns143857:0crwdne143857:0
-  loading: crwdns143859:0crwdne143859:0
-  noPages: crwdns143861:0crwdne143861:0
-  pageLoadFailed: crwdns143863:0crwdne143863:0
-  pageLoading: crwdns143865:0crwdne143865:0
+translator:
+  save-changes: crwdns143867:0crwdne143867:0
+  add-language: crwdns143869:0crwdne143869:0
+  missing-translation: crwdns143871:0crwdne143871:0
+resources:
+  chart:
+    title: crwdns143873:0{{ handle }}crwdne143873:0
+    tooltip: crwdns143875:0crwdne143875:0
+  namespace:
+    title: crwdns143877:0{{ handle }}crwdne143877:0
+    tooltip: crwdns143879:0crwdne143879:0
+  module:
+    title: crwdns143881:0{{ handle }}crwdne143881:0
+    tooltip: crwdns143883:0crwdne143883:0
+    field:
+      title: crwdns143885:0{{ name }}crwdne143885:0
+      tooltip: crwdns143887:0crwdne143887:0
+  page:
+    title: crwdns143889:0{{ handle }}crwdne143889:0
+    tooltip: crwdns143891:0crwdne143891:0
+    block:
+      title: "crwdns143893:0{{ blockID }}crwdne143893:0"
+      tooltip: crwdns143895:0crwdne143895:0
+    layout:
+      title: crwdns143897:0{{ handle }}crwdne143897:0
+  page-layout:
+    title: crwdns143899:0{{ handle }}crwdne143899:0
+    tooltip: crwdns143901:0crwdne143901:0
