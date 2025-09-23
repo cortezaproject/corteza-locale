@@ -1,0 +1,105 @@
+primary:
+  title: crwdns113847:0crwdne113847:0
+  name: crwdns113849:0crwdne113849:0
+  handle: crwdns113851:0crwdne113851:0
+  location: crwdns113853:0crwdne113853:0
+  ownership: crwdns113855:0crwdne113855:0
+  sensitivity-level: crwdns113857:0crwdne113857:0
+list:
+  title: crwdns113859:0crwdne113859:0
+  add-button: crwdns113861:0crwdne113861:0
+  loading: crwdns113863:0crwdne113863:0
+  filterForm:
+    deleted:
+      label: crwdns113865:0crwdne113865:0
+    excluded:
+      label: crwdns113867:0crwdne113867:0
+    exclusive:
+      label: crwdns113869:0crwdne113869:0
+    inclusive:
+      label: crwdns113871:0crwdne113871:0
+  columns:
+    name: crwdns113873:0crwdne113873:0
+    location: crwdns113875:0crwdne113875:0
+    ownership: crwdns113877:0crwdne113877:0
+    createdAt: crwdns113879:0crwdne113879:0
+    actions: 'crwdns113881:0crwdne113881:0'
+  delete: crwdns113883:0crwdne113883:0
+  undelete: crwdns113885:0crwdne113885:0
+editor:
+  title:
+    edit: crwdns113887:0crwdne113887:0
+    create: crwdns113889:0crwdne113889:0
+  basic:
+    title: crwdns113891:0crwdne113891:0
+    form:
+      name:
+        label: crwdns113893:0crwdne113893:0
+        placeholder: crwdns113895:0crwdne113895:0
+        description: 'crwdns113897:0crwdne113897:0'
+      handle:
+        label: crwdns113899:0crwdne113899:0
+        placeholder: crwdns113901:0crwdne113901:0
+        description: crwdns113903:0crwdne113903:0
+        invalid-characters: crwdns113905:0crwdne113905:0
+      location-name:
+        label: crwdns113907:0crwdne113907:0
+        placeholder: crwdns113909:0crwdne113909:0
+        description: crwdns113911:0crwdne113911:0
+      location-geometry:
+        label: crwdns113913:0crwdne113913:0
+        description: crwdns113915:0crwdne113915:0
+        placeholder: crwdns113917:0crwdne113917:0
+      ownership:
+        label: crwdns113919:0crwdne113919:0
+        placeholder: crwdns113921:0crwdne113921:0
+        description: crwdns113923:0crwdne113923:0
+      sensitivity-level:
+        label: crwdns113925:0crwdne113925:0
+        placeholder: crwdns113927:0crwdne113927:0
+        description: crwdns113929:0crwdne113929:0
+  properties:
+    title: crwdns113931:0crwdne113931:0
+    form:
+      data-at-rest-encryption:
+        checkbox:
+          label: crwdns113933:0crwdne113933:0
+        notes:
+          label: crwdns113935:0crwdne113935:0
+          description: crwdns113937:0crwdne113937:0
+      data-at-rest-protection:
+        checkbox:
+          label: crwdns113939:0crwdne113939:0
+        notes:
+          label: crwdns113941:0crwdne113941:0
+          description: crwdns113943:0crwdne113943:0
+      data-at-transit-encryption:
+        checkbox:
+          label: crwdns113945:0crwdne113945:0
+        notes:
+          label: crwdns113947:0crwdne113947:0
+          description: crwdns113949:0crwdne113949:0
+      data-restoration:
+        checkbox:
+          label: crwdns113951:0crwdne113951:0
+        notes:
+          label: crwdns113953:0crwdne113953:0
+          description: crwdns113955:0crwdne113955:0
+  dal:
+    title: crwdns113957:0crwdne113957:0
+    form:
+      model-ident:
+        label: crwdns113959:0crwdne113959:0
+        placeholder: crwdns113961:0crwdne113961:0
+        description: |
+          crwdns113963:0{{module}}crwdnd113963:0{{namespace}}crwdne113963:0
+      type:
+        label: crwdns113965:0crwdne113965:0
+        placeholder: crwdns113967:0crwdne113967:0
+        description: crwdns113969:0crwdne113969:0
+      params:
+        label: crwdns113971:0crwdne113971:0
+        placeholder: crwdns113973:0crwdne113973:0
+        description: 'crwdns113975:0crwdne113975:0'
+    connectivity-issues: crwdns113977:0crwdne113977:0
+    no-access-warning: crwdns113979:0crwdne113979:0
