@@ -1,0 +1,293 @@
+available-items: crwdns116843:0crwdne116843:0
+selected-items: crwdns116845:0crwdne116845:0
+defaultFieldValue: crwdns116847:0crwdne116847:0
+defaultValue: crwdns116849:0crwdne116849:0
+required-field: crwdns116851:0crwdne116851:0
+not-configurable: crwdns116853:0crwdne116853:0
+kind:
+  bool:
+    checkedValueLabel: crwdns116855:0crwdne116855:0
+    checkedValuePlaceholder: Yes
+    label: crwdns116857:0crwdne116857:0
+    uncheckedValueLabel: crwdns116859:0crwdne116859:0
+    uncheckedValuePlaceholder: No
+    toggleTypeLabel: crwdns116861:0crwdne116861:0
+    toggleType: crwdns116863:0crwdne116863:0
+  dateTime:
+    type:
+      label: crwdns116865:0crwdne116865:0
+      options:
+        dateTime: crwdns116867:0crwdne116867:0
+        date: crwdns116869:0crwdne116869:0
+        time: crwdns116871:0crwdne116871:0
+    constraints:
+      label: crwdns116873:0crwdne116873:0
+      options:
+        all: crwdns116875:0crwdne116875:0
+        futureValuesOnly: crwdns116877:0crwdne116877:0
+        pastValuesOnly: crwdns116879:0crwdne116879:0
+    label: crwdns116881:0crwdne116881:0
+    outputFormat: crwdns116883:0crwdne116883:0
+    outputFormatFootnote: crwdns116885:0{{0}}crwdne116885:0
+    relativeOutput: 'crwdns116887:0crwdne116887:0'
+    warning:
+      futureValuesOnly: crwdns116889:0crwdne116889:0
+      pastValuesOnly: crwdns116891:0crwdne116891:0
+  email:
+    label: crwdns116893:0crwdne116893:0
+    preventToLink: crwdns116895:0crwdne116895:0
+  file:
+    label: crwdns116897:0crwdne116897:0
+    view:
+      gallery: crwdns116899:0crwdne116899:0
+      grid: crwdns116901:0crwdne116901:0
+      list: crwdns116903:0crwdne116903:0
+      maxSizeLabel: crwdns116905:0crwdne116905:0
+      mimetypesFootnote: 'crwdns116907:0crwdne116907:0'
+      webcam:
+        enable:
+          label: crwdns116909:0crwdne116909:0
+          footnote: crwdns116911:0crwdne116911:0
+      mimetypesLabel: crwdns116913:0crwdne116913:0
+      modeFootnote: crwdns116915:0crwdne116915:0
+      modeLabel: crwdns116917:0crwdne116917:0
+      showName: crwdns116919:0crwdne116919:0
+      enableDownload: crwdns116921:0crwdne116921:0
+      single: crwdns116923:0crwdne116923:0
+      previewStyle: crwdns116925:0crwdne116925:0
+      height: crwdns116927:0crwdne116927:0
+      width: crwdns116929:0crwdne116929:0
+      maxHeight: crwdns116931:0crwdne116931:0
+      maxWidth: crwdns116933:0crwdne116933:0
+      borderRadius: crwdns116935:0crwdne116935:0
+      background: crwdns116937:0crwdne116937:0
+      colorPicker: crwdns116939:0crwdne116939:0
+      margin: crwdns116941:0crwdne116941:0
+      unitType: crwdns116943:0crwdne116943:0
+      px: crwdns116945:0crwdne116945:0
+      clickToView: crwdns116947:0crwdne116947:0
+      description: 'crwdns116949:0crwdne116949:0'
+  number:
+    exampleFormat: crwdns116951:0crwdne116951:0
+    exampleInput: crwdns116953:0crwdne116953:0
+    exampleResult: crwdns116955:0crwdne116955:0
+    examplesLabel: crwdns116957:0crwdne116957:0
+    formatLabel: crwdns116959:0crwdne116959:0
+    formatPlaceholder: crwdns116961:0crwdne116961:0
+    label: crwdns116963:0crwdne116963:0
+    liveExample: crwdns116965:0crwdne116965:0
+    precisionLabel: crwdns116967:0crwdne116967:0
+    precisionTooltip: crwdns116969:0crwdne116969:0
+    prefixLabel: crwdns116971:0crwdne116971:0
+    prefixPlaceholder: crwdns116973:0crwdne116973:0
+    suffixLabel: crwdns116975:0crwdne116975:0
+    suffixPlaceholder: crwdns116977:0crwdne116977:0
+    displayType:
+      label: crwdns116979:0crwdne116979:0
+      number: crwdns116981:0crwdne116981:0
+      progress: crwdns116983:0crwdne116983:0
+    progress:
+      maximumValue: crwdns116985:0crwdne116985:0
+      minimumValue: crwdns116987:0crwdne116987:0
+      animated: crwdns116989:0crwdne116989:0
+      show:
+        value: crwdns116991:0crwdne116991:0
+        relative: crwdns116993:0crwdne116993:0
+        progress: crwdns116995:0crwdne116995:0
+      showRelative: crwdns116997:0crwdne116997:0
+      variants:
+        default: crwdns116999:0crwdne116999:0
+        danger: crwdns117001:0crwdne117001:0
+        dark: crwdns117003:0crwdne117003:0
+        info: crwdns117005:0crwdne117005:0
+        light: crwdns117007:0crwdne117007:0
+        primary: crwdns117009:0crwdne117009:0
+        secondary: crwdns117011:0crwdne117011:0
+        success: crwdns117013:0crwdne117013:0
+        warning: crwdns117015:0crwdne117015:0
+      thresholds:
+        label: crwdns117017:0crwdne117017:0
+        description: crwdns117019:0crwdne117019:0
+    presetFormats:
+      label: crwdns117021:0crwdne117021:0
+      options:
+        custom: crwdns117023:0crwdne117023:0
+        accounting: crwdns117025:0crwdne117025:0
+      description:
+        custom: 'crwdns117027:0crwdne117027:0'
+        accounting: crwdns117029:0crwdne117029:0
+  record:
+    currentUnnamedModule: crwdns117031:0crwdne117031:0
+    label: crwdns117033:0crwdne117033:0
+    moduleLabel: crwdns117035:0crwdne117035:0
+    modulePlaceholder: crwdns117037:0crwdne117037:0
+    queryFieldsLabel: crwdns117039:0crwdne117039:0
+    queryFieldsPlaceholder: crwdns117041:0crwdne117041:0
+    moduleField: crwdns117043:0crwdne117043:0
+    variantField: crwdns117045:0crwdne117045:0
+    fieldFromModuleField: crwdns117047:0crwdne117047:0
+    pickField: crwdns117049:0crwdne117049:0
+    suggestionPlaceholder: crwdns117051:0crwdne117051:0
+    prefilterFootnote: crwdns117053:0{{0}}crwdnd117053:0{{1}}crwdnd117053:0{{2}}crwdnd117053:0{{3}}crwdne117053:0
+    prefilterLabel: crwdns117055:0crwdne117055:0
+    prefilterPlaceholder: crwdns117057:0crwdne117057:0
+    tooltip:
+      moduleField: crwdns117059:0crwdne117059:0
+      addRecord: crwdns117061:0crwdne117061:0
+  select:
+    allow-duplicates: crwdns117063:0crwdne117063:0
+    label: crwdns117065:0crwdne117065:0
+    optionAdd: crwdns117067:0crwdne117067:0
+    options:
+      value: crwdns117069:0crwdne117069:0
+      label: crwdns117071:0crwdne117071:0
+      style:
+        textColor: crwdns117073:0crwdne117073:0
+        backgroundColor: crwdns117075:0crwdne117075:0
+    optionNotSelected: crwdns117077:0crwdne117077:0
+    optionRemove: crwdns117079:0crwdne117079:0
+    optionType:
+      default: crwdns117081:0crwdne117081:0
+      each: crwdns117083:0crwdne117083:0
+      label: crwdns117085:0crwdne117085:0
+      multiple: crwdns117087:0crwdne117087:0
+      checkbox: crwdns117089:0crwdne117089:0
+      radio: crwdns117091:0crwdne117091:0
+    displayType:
+      label: crwdns117093:0crwdne117093:0
+      text: crwdns117095:0crwdne117095:0
+      badge: crwdns117097:0crwdne117097:0
+    optionsLabel: crwdns117099:0crwdne117099:0
+    showAsBadge: crwdns117101:0crwdne117101:0
+    placeholder: crwdns117103:0crwdne117103:0
+  string:
+    label: crwdns117105:0crwdne117105:0
+    multiLine: crwdns117107:0crwdne117107:0
+    richText: crwdns117109:0crwdne117109:0
+  url:
+    example: 'crwdns117111:0crwdne117111:0'
+    label: crwdns117113:0crwdne117113:0
+    preventToLink: crwdns117115:0crwdne117115:0
+    sshOnly: crwdns117117:0crwdne117117:0
+    trimHash: crwdns117119:0crwdne117119:0
+    trimQuestionMark: crwdns117121:0crwdne117121:0
+    trimToDomain: crwdns117123:0crwdne117123:0
+  user:
+    label: crwdns117125:0crwdne117125:0
+    na: crwdns117127:0crwdne117127:0
+    presetWithCurrentUser: crwdns117129:0crwdne117129:0
+    suggestionPlaceholder: crwdns117131:0crwdne117131:0
+    roles:
+      label: crwdns117133:0crwdne117133:0
+      placeholder: crwdns117135:0crwdne117135:0
+  geometry:
+    label: crwdns117137:0crwdne117137:0
+    latitude: crwdns117139:0crwdne117139:0
+    longitude: crwdns117141:0crwdne117141:0
+    clickToPlaceMarker: crwdns117143:0crwdne117143:0
+    initialZoomAndPosition: crwdns117145:0crwdne117145:0
+    prefillWithCurrentLocation: crwdns117147:0crwdne117147:0
+    hideCurrentLocationButton: crwdns117149:0crwdne117149:0
+    hideGeoSearch: crwdns117151:0crwdne117151:0
+    tooltip:
+      goToCurrentLocation: crwdns117153:0crwdne117153:0
+      useCurrentLocation: crwdns117155:0crwdne117155:0
+      openMap: crwdns117157:0crwdne117157:0
+    geosearchInputPlaceholder: crwdns117159:0crwdne117159:0
+noPermission: crwdns117161:0crwdne117161:0
+no-items-found: crwdns117163:0crwdne117163:0
+options:
+  description:
+    label:
+      default: crwdns117165:0crwdne117165:0
+      edit: crwdns117167:0crwdne117167:0
+      view: crwdns117169:0crwdne117169:0
+    placeholder:
+      default: crwdns117171:0crwdne117171:0
+      edit: crwdns117173:0crwdne117173:0
+      view: crwdns117175:0crwdne117175:0
+    same: crwdns117177:0crwdne117177:0
+  hint:
+    label:
+      default: crwdns117179:0crwdne117179:0
+      edit: crwdns117181:0crwdne117181:0
+      view: crwdns117183:0crwdne117183:0
+    placeholder:
+      default: crwdns117185:0crwdne117185:0
+      edit: crwdns117187:0crwdne117187:0
+      view: crwdns117189:0crwdne117189:0
+    same: crwdns117191:0crwdne117191:0
+  multiDelimiter:
+    comma: crwdns117193:0crwdne117193:0
+    custom: crwdns117195:0crwdne117195:0
+    customLabel: crwdns117197:0crwdne117197:0
+    customPlaceholder: crwdns117199:0crwdne117199:0
+    label: crwdns117201:0crwdne117201:0
+    newline: crwdns117203:0crwdne117203:0
+sanitizers:
+  description: crwdns117205:0crwdne117205:0
+  examples: crwdns117207:0crwdne117207:0
+  expression:
+    placeholder: crwdns117209:0crwdne117209:0
+  label: crwdns117211:0crwdne117211:0
+selector:
+  search: crwdns117213:0crwdne117213:0
+  available: crwdns117215:0crwdne117215:0
+  selectAll: crwdns117217:0crwdne117217:0
+  selected: crwdns117219:0crwdne117219:0
+  systemField: crwdns117221:0crwdne117221:0
+  unselectAll: crwdns117223:0crwdne117223:0
+privacy:
+  sensitivity-level:
+    label: crwdns117225:0crwdne117225:0
+    placeholder: crwdns117227:0crwdne117227:0
+  usage-disclosure:
+    label: crwdns117229:0crwdne117229:0
+system:
+  id: crwdns117231:0crwdne117231:0
+  ID: crwdns117233:0crwdne117233:0
+  moduleID: crwdns117235:0crwdne117235:0
+  namespaceID: crwdns117237:0crwdne117237:0
+  revision: crwdns117239:0crwdne117239:0
+  meta: crwdns117241:0crwdne117241:0
+  recordID: crwdns117243:0crwdne117243:0
+  createdAt: crwdns117245:0crwdne117245:0
+  createdBy: crwdns117247:0crwdne117247:0
+  deletedAt: crwdns117249:0crwdne117249:0
+  deletedBy: crwdns117251:0crwdne117251:0
+  ownedBy: crwdns117253:0crwdne117253:0
+  updatedAt: crwdns117255:0crwdne117255:0
+  updatedBy: crwdns117257:0crwdne117257:0
+validators:
+  description: crwdns117259:0crwdne117259:0
+  disableBuiltIn: crwdns117261:0crwdne117261:0
+  error:
+    placeholder: crwdns117263:0crwdne117263:0
+    tooltip: crwdns117265:0crwdne117265:0
+  expression:
+    placeholder: crwdns117267:0crwdne117267:0
+    tooltip: crwdns117269:0crwdne117269:0
+  label: crwdns117271:0crwdne117271:0
+valueExpr:
+  description: crwdns117273:0crwdne117273:0
+  label: crwdns117275:0crwdne117275:0
+  placeholder: crwdns117277:0crwdne117277:0
+label:
+  required: crwdns117279:0crwdne117279:0
+  multi: crwdns117281:0crwdne117281:0
+constraints:
+  label: crwdns117283:0crwdne117283:0
+  description: crwdns117285:0crwdne117285:0
+  ignoreCase: crwdns117287:0crwdne117287:0
+  fuzzyMatch: crwdns117289:0crwdne117289:0
+  soundsLike: crwdns117291:0crwdne117291:0
+  caseSensitive: crwdns117293:0crwdne117293:0
+  oneOf: crwdns117295:0crwdne117295:0
+  none: crwdns117297:0crwdne117297:0
+  equal: crwdns117299:0crwdne117299:0
+  valueModifiers: crwdns117301:0crwdne117301:0
+  multiValues: crwdns117303:0crwdne117303:0
+  totalFieldConstraintCount: crwdns117305:0{{total}}crwdne117305:0
+  tooltip:
+    performance: crwdns117307:0crwdne117307:0
+
