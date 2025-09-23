@@ -1,127 +1,87 @@
 editor:
-  external-auth-providers:
-    label: Label
-    title: Manage external auth providers
-    type: Type
-  info:
-    confirmEmail: Confirm email address
-    id: ID
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    email: Email *
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Full name
-    revokeAllSession: Revoke all active sessions
-    suspend: Suspend
-    suspendedAt: Suspended at
-    title: Basic information
-    undelete: Undelete
-    unsuspend: Unsuspend
-    updatedAt: Updated at
-  avatar:
-    title: Profile avatar
-    preview:
-      label: Avatar
-      title: Avatar
-    initial:
-      color: Text color
-      backgroundColor: Background color
-    uploader:
-      instructions: Upload avatar
-      uploading: Uploading user avatar
+  title: User Interface Settings
+  corteza-studio:
+    title: Theming
     colorPicker: Choose a color
-  mfa:
-    TOTP:
-      disabled:
-        text: User did not configure TOTP protection
-      enabled:
-        text: User configured TOTP protection auth mobile app
-      remove:
-        label: Remove
-    emailOTP:
-      disable:
-        label: Disable
-      disabled:
-        text: |-
-          Email OTP protection is disabled for this user
-          Email with the security code on each login will not be sent
-      enable:
-        label: Enable
-      enabled:
-        text: |-
-          Email OTP protection is enabled for this user
-          User will receive email with the security code on each login
-    title: Multi-factor authentication
-  new: New User
-  password:
-    confirm: Confirm password
-    length: The passwords must be at least {{length}} characters long!
-    missmatch: The passwords must match
-    new: New password
-    title: Password
-    removePassword: Remove password
-  permissions: Permissions
-  roles:
-    add: Add
-    count: roles
-    remove: Remove
-    title: Role membership
-    unnamed: Unnamed role
-  title:
-    create: Create user
-    edit: Edit user
-list:
-  columns:
-    actions: ""
-    createdAt: Created
-    email: Email
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  suspend: Suspend
-  unsuspend: Unsuspend
-  delete: Delete
-  undelete: Undelete
-  revokeActiveSession: Revoke Session
-  export: Export
-  rows:
-    filters:
-      deleted: Deleted
-      suspended: Suspended
-  filterForm:
-    deleted:
-      label: deleted users
-    excluded:
-      label: Without
-    exclusive:
-      label: Only
-    inclusive:
-      label: Including
-    query:
-      label: Filter users list
-      placeholder: Filter users by name, email
-    suspended:
-      label: suspended users
-  loading: Loading users
-  new: New User
-  numFound: '{{count}} user found'
-  numFound_plural: '{{count}} users found'
-  permissions: Permissions
-  title: Users
-  yaml: YAML
-export:
-  buttonLabel: Export
-  title: Export users
-  inclRoleMembership: Include role membership
-  inclRoles: Include roles
-  membershipRequiredLabel: Roles can only be exported when role membership is selected
-  export: Export
-import:
-  buttonLabel: Import
-  title: Import users
-  uploadFilePlaceholder: Click or drop files here to import
+    sassNotInstalled: No dart-sass binaries were detected. For guidance on how to set it up, refer to
+    installSassDocs: docs here
+    custom-css: Custom CSS
+    mainLogo:
+      title: Main logo
+      uploader:
+        instructions: Click or drop main logo here to upload
+        uploading: Uploading main logo
+    iconLogo:
+      title: Icon logo
+      uploader:
+        instructions: Click or drop icon logo image here to upload
+        uploading: Uploading icon logo
+    label:
+      default: Default
+    tabs:
+      general: General
+      light: Light
+      dark: Dark
+    theme:
+      variables:
+        white:
+          label: White
+          description: Element background color
+        black:
+          label: Black
+          description: Element text color
+        primary:
+          label: Primary
+          description: Primary action buttons, links
+        secondary:
+          label: Secondary
+          description: Disabled and placeholder text color
+        success:
+          label: Success
+          description: Success notification color
+        warning:
+          label: Warning
+          description: Warning notification color
+        danger:
+          label: Danger
+          description: Error notification color
+        light:
+          label: Light
+          description: Secondary action buttons, table headers
+        extra-light:
+          label: Extra light
+          description: Icon buttons, borders
+        body-bg:
+          label: Body background
+          description: Background color of the application
+        sidebar-bg:
+          label: Sidebar background
+          description: Background color of the sidebar
+        topbar-bg:
+          label: Topbar background
+          description: Background color of the topbar
+  topbar:
+    title: Topbar
+    general: General
+    app-selector:
+      hide: Hide app selector
+    help:
+      title: Help
+      hide: Hide help
+      hide-forum-link: Hide forum link
+      hide-documentation-link: Hide documentation link
+      hide-feedback-link: Hide feedback link
+    profile:
+      title: Profile
+      hide: Hide profile
+      hide-profile-link: Hide profile link
+      hide-change-password-link: Hide change password link
+      hide-theme-selector: Hide theme selector
+    notifications:
+      hide: Hide notifications
+    links:
+      title: Custom links
+      handle: Name
+      invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+      url: URL
+      new-tab: New tab
