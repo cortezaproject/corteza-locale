@@ -1,9 +1,16 @@
 template:
-  title: crwdns134799:0crwdne134799:0
-  list:
-    authorized-on: crwdns134801:0crwdne134801:0
-    buttons:
-      revoke: crwdns134803:0crwdne134803:0
-    empty: crwdns134805:0crwdne134805:0
+  title: crwdns134809:0crwdne134809:0
+  form:
+    email:
+      label: crwdns134811:0crwdne134811:0
+      placeholder: crwdns134813:0crwdne134813:0
+    old-password:
+      label: crwdns134815:0crwdne134815:0
+      placeholder: crwdns134817:0crwdne134817:0
+    new-password:
+      label: crwdns134819:0crwdne134819:0
+      placeholder: crwdns134821:0crwdne134821:0
+    button:
+      change-password: crwdns134823:0crwdne134823:0
 alerts:
-  removed: crwdns134807:0crwdne134807:0
+  password-change-success: crwdns134825:0crwdne134825:0
