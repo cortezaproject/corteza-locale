@@ -1,3 +1,12 @@
-module: crwdns144311:0crwdne144311:0
-namespace: crwdns144313:0crwdne144313:0
-no-records: crwdns144315:0crwdne144315:0
+appMenu: crwdns144317:0crwdne144317:0
+help:
+  documentation: crwdns144319:0crwdne144319:0
+  feedback: crwdns144321:0crwdne144321:0
+  forum: crwdns144323:0crwdne144323:0
+  version: 'crwdns144325:0crwdne144325:0'
+userSettings:
+  changePassword: crwdns144327:0crwdne144327:0
+  loggedInAs: crwdns144329:0{{user}}crwdne144329:0
+  logout: crwdns144331:0crwdne144331:0
+  profile: crwdns144333:0crwdne144333:0
+  theme: crwdns144335:0crwdne144335:0
