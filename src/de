@@ -1,8 +1,17 @@
 errors:
-  notAllowedToRead: not allowed to read this setting
-  notAllowedToManage: not allowed to manage this setting
-  invalidPasswordMinLength: password constraint minimum length should be at least 8 characters
-  invalidPasswordMinUpperCase: password constraint minimum upper case count should not be a negative number
-  invalidPasswordMinLowerCase: password constraint minimum lower case count should not be a negative number
-  invalidPasswordMinNumCount: password constraint minimum number count should not be a negative number
-  invalidPasswordMinSpecialCharCount: password constraint minimum special character count should not be a negative number
+  badSinkParamEncoding: bad encoding of sink parameters
+  contentLengthExceedsMaxAllowedSize: content length exceeds max size limit
+  failedToCreateEvent: failed to create sink event from request
+  failedToProcess: failed to process request
+  failedToRespond: failed to respond to request
+  failedToSign: 'could not sign request params: {err}'
+  invalidContentType: invalid content-type header
+  invalidHttpMethod: invalid HTTP method
+  invalidPath: invalid path
+  invalidSignature: invalid signature
+  invalidSignatureParam: invalid sink signature parameter
+  invalidSinkRequestUrlParams: invalid sink request url params
+  misplacedSignature: signature misplaced
+  missingSignature: missing sink signature parameter
+  processingError: sink request process error
+  signatureExpired: signature expired
