@@ -1,30 +1,4 @@
-label:
-  back: crwdns144263:0crwdne144263:0
-  all: crwdns144265:0crwdne144265:0
-  privacy_request:
-    single: crwdns144267:0crwdne144267:0
-    plural: crwdns144269:0crwdne144269:0
-  sensitive_module:
-    single: crwdns144271:0crwdne144271:0
-    plural: crwdns144273:0crwdne144273:0
-resourceList:
-  loading: crwdns144275:0crwdne144275:0
-  noItems: crwdns144277:0crwdne144277:0
-  notFound: crwdns144279:0crwdne144279:0
-  search:
-    placeholder: crwdns144281:0crwdne144281:0
-  pagination:
-    next: crwdns144283:0crwdne144283:0
-    prev: crwdns144285:0crwdne144285:0
-    showing: 'crwdns144287:0{{from}}crwdnd144287:0{{to}}crwdnd144287:0{{count}}crwdnd144287:0{{data}}crwdne144287:0'
-    single_one: 'crwdns144289:0{{data}}crwdne144289:0'
-    single_plural: 'crwdns144291:0{{count}}crwdnd144291:0{{data}}crwdne144291:0'
-    recordsPerPage: crwdns144293:0crwdne144293:0
-themes:
-  labels:
-    light: crwdns144295:0crwdne144295:0
-    dark: crwdns144297:0crwdne144297:0
-extendSession:
-  labels:
-    extend: crwdns144299:0crwdne144299:0
-    warning: crwdns144301:0{{ countdownTime }}crwdne144301:0
+location: crwdns144303:0crwdne144303:0
+name: crwdns144305:0crwdne144305:0
+server-details: crwdns144307:0crwdne144307:0
+unnamed-location: crwdns144309:0crwdne144309:0
