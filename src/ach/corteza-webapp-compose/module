@@ -1,0 +1,238 @@
+allRecords:
+  create:
+    title: crwdns117651:0{{name}}crwdne117651:0
+  edit:
+    title: crwdns117653:0{{name}}crwdne117653:0
+  label: crwdns117655:0crwdne117655:0
+  list:
+    title: crwdns117657:0{{name}}crwdne117657:0
+  columns:
+    title: crwdns117659:0crwdne117659:0
+    description: crwdns117661:0crwdne117661:0
+  tooltip:
+    configureColumns: crwdns117663:0crwdne117663:0
+  view:
+    title: crwdns117665:0{{name}}crwdne117665:0
+block:
+  record:
+    recordDeleted: crwdns117667:0crwdne117667:0
+    loadFailed: crwdns117669:0crwdne117669:0
+createLabel: crwdns117671:0crwdne117671:0
+edit:
+  create: crwdns117673:0crwdne117673:0
+  edit: crwdns117675:0crwdne117675:0
+  fields:
+    label: crwdns117677:0crwdne117677:0
+    columns:
+      name:
+        label: crwdns117679:0crwdne117679:0
+      title:
+        label: crwdns117681:0crwdne117681:0
+      type:
+        label: crwdns117683:0crwdne117683:0
+  federationSettings:
+    downstream:
+      allFields: crwdns117685:0crwdne117685:0
+      description: 'crwdns117687:0crwdne117687:0'
+      title: crwdns117689:0crwdne117689:0
+    error:
+      fetch:
+        data: crwdns117691:0crwdne117691:0
+        exposed: crwdns117693:0crwdne117693:0
+        shared: crwdns117695:0crwdne117695:0
+        mmap: crwdns117697:0crwdne117697:0
+        node: crwdns117699:0crwdne117699:0
+      persist:
+        exposed: crwdns117701:0crwdne117701:0
+        shared: crwdns117703:0crwdne117703:0
+        mmap: crwdns117705:0crwdne117705:0
+    general:
+      receive: crwdns117707:0crwdne117707:0
+      send: crwdns117709:0crwdne117709:0
+      title: crwdns117711:0crwdne117711:0
+    noNodes: crwdns117713:0crwdne117713:0
+    noPermission: crwdns117715:0crwdne117715:0
+    pickModule: crwdns117717:0crwdne117717:0
+    pickModuleField: crwdns117719:0crwdne117719:0
+    pickServer: crwdns117721:0crwdne117721:0
+    specificTitle: crwdns117723:0{{handle}}crwdne117723:0
+    title: crwdns117725:0crwdne117725:0
+    upstream:
+      copyFrom: crwdns117727:0crwdne117727:0
+      allFields: crwdns117729:0crwdne117729:0
+      description: crwdns117731:0crwdne117731:0
+      title: crwdns117733:0crwdne117733:0
+  discoverySettings:
+    title: crwdns117735:0crwdne117735:0
+    public: crwdns117737:0crwdne117737:0
+    private: crwdns117739:0crwdne117739:0
+    protected: crwdns117741:0crwdne117741:0
+  fieldPermissions: crwdns117743:0crwdne117743:0
+  manageRecordFields: crwdns117745:0crwdne117745:0
+  moduleFieldSettings: crwdns117747:0crwdne117747:0
+  moduleInfo: crwdns117749:0crwdne117749:0
+  newField: crwdns117751:0crwdne117751:0
+  recordPermissions: crwdns117753:0crwdne117753:0
+  reorderFields: crwdns117755:0crwdne117755:0
+  specificFieldSettings: crwdns117757:0{{name}}crwdne117757:0
+  steps:
+    recordList: crwdns117759:0crwdne117759:0
+    recordPage: crwdns117761:0crwdne117761:0
+  systemFields: 'crwdns117763:0crwdne117763:0'
+  tooltip:
+    attributes: crwdns117765:0crwdne117765:0
+    name: crwdns117767:0crwdne117767:0
+    private: crwdns117769:0crwdne117769:0
+    required: crwdns117771:0crwdne117771:0
+    title: crwdns117773:0crwdne117773:0
+  issues:
+    label: crwdns117775:0{{count}}crwdne117775:0
+  schemaAlterations:
+    title: crwdns117777:0crwdne117777:0
+    resolve: crwdns117779:0crwdne117779:0
+    resolveAuto: crwdns117781:0crwdne117781:0
+    resolved: crwdns117783:0crwdne117783:0
+    dismiss: crwdns117785:0crwdne117785:0
+    waitingFor: 'crwdns117787:0{{id}}crwdne117787:0'
+    noAlterations: crwdns117789:0crwdne117789:0
+    columns:
+      alteration: crwdns117791:0crwdne117791:0
+      change: crwdns117793:0crwdne117793:0
+      status: crwdns117795:0crwdne117795:0
+    params:
+      attribute:
+        add: crwdns117797:0{{ident}}crwdnd117797:0{{storeType}}crwdnd117797:0{{attrType}}crwdne117797:0
+        delete: crwdns117799:0{{ident}}crwdnd117799:0{{storeType}}crwdne117799:0
+        reType: crwdns117801:0{{ident}}crwdnd117801:0{{toType}}crwdne117801:0
+        reEncode: crwdns117803:0{{ident}}crwdnd117803:0{{toType}}crwdne117803:0
+      model:
+        add: crwdns117805:0{{ident}}crwdne117805:0
+        delete: crwdns117807:0{{ident}}crwdne117807:0
+  config:
+    dal:
+      title: crwdns117809:0crwdne117809:0
+      connection:
+        label: crwdns117811:0crwdne117811:0
+        placeholder: crwdns117813:0crwdne117813:0
+        description: crwdns117815:0crwdne117815:0
+      ident:
+        label: crwdns117817:0crwdne117817:0
+        placeholder: crwdns117819:0crwdne117819:0
+        description: "crwdns117821:0{{module}}crwdnd117821:0{{namespace}}crwdne117821:0"
+      connections:
+        fetch-failed: crwdns117823:0crwdne117823:0
+      module-fields:
+        label: crwdns117825:0crwdne117825:0
+        description: |
+          crwdns117827:0crwdne117827:0
+      system-fields:
+        label: crwdns117829:0crwdne117829:0
+        description: |
+          crwdns117831:0crwdne117831:0
+        grouptypes:
+          all: crwdns117833:0crwdne117833:0
+          partition: crwdns117835:0crwdne117835:0
+          userReference: crwdns117837:0crwdne117837:0
+          timestamps: crwdns117839:0crwdne117839:0
+          extras: crwdns117841:0crwdne117841:0
+      encoding-strategy:
+        unavailable: crwdns117843:0crwdne117843:0
+        ident:
+          placeholder: crwdns117845:0crwdne117845:0
+        strategies:
+          plain:
+            label: crwdns117847:0crwdne117847:0
+          alias:
+            label: crwdns117849:0crwdne117849:0
+          json:
+            label: crwdns117851:0crwdne117851:0
+    privacy:
+      title: crwdns117853:0crwdne117853:0
+      sensitivity-level:
+        label: crwdns117855:0crwdne117855:0
+        placeholder: crwdns117857:0crwdne117857:0
+        description: crwdns117859:0crwdne117859:0
+      usage-disclosure:
+        label: crwdns117861:0crwdne117861:0
+      sensitivity-levels:
+        fetch-failed: crwdns117863:0crwdne117863:0
+    record-revisions:
+      title: crwdns117865:0crwdne117865:0
+      enabled: crwdns117867:0crwdne117867:0
+      ident:
+        label: crwdns117869:0crwdne117869:0
+        placeholder: crwdns117871:0crwdne117871:0
+        description: 'crwdns117873:0{{module}}crwdnd117873:0{{namespace}}crwdne117873:0'
+    validation:
+      title: crwdns117875:0crwdne117875:0
+      record-duplication:
+        title: crwdns117877:0crwdne117877:0
+        strict-fields:
+          label: crwdns117879:0crwdne117879:0
+          description: crwdns117881:0crwdne117881:0
+        non-strict-fields:
+          label: crwdns117883:0crwdne117883:0
+          description: crwdns117885:0crwdne117885:0
+    uniqueValues:
+      title: crwdns117887:0crwdne117887:0
+      duplicationDetection: crwdns117889:0crwdne117889:0
+      preventRecordsSave: crwdns117891:0crwdne117891:0
+      warningLabel: crwdns117893:0crwdne117893:0
+      valueModifiers: crwdns117895:0crwdne117895:0
+      multiValues: crwdns117897:0crwdne117897:0
+      add: crwdns117899:0crwdne117899:0
+      searchFields: crwdns117901:0crwdne117901:0
+      ignoreCase: crwdns117903:0crwdne117903:0
+      fuzzyMatch: crwdns117905:0crwdne117905:0
+      soundsLike: crwdns117907:0crwdne117907:0
+      caseSensitive: crwdns117909:0crwdne117909:0
+      oneOf: crwdns117911:0crwdne117911:0
+      equal: crwdns117913:0crwdne117913:0
+      warningMessage: crwdns117915:0crwdne117915:0
+      field: crwdns117917:0crwdne117917:0
+      type: crwdns117919:0crwdne117919:0
+      none: crwdns117921:0crwdne117921:0
+      addNewConstraint: crwdns117923:0crwdne117923:0
+      uniqueValueConstraint: "crwdns117925:0{{index}}crwdne117925:0"
+      tooltip:
+        performance: crwdns117927:0crwdne117927:0
+federated: crwdns117929:0crwdne117929:0
+forModule:
+  recordPage: 'crwdns117931:0{{name}}crwdne117931:0'
+general:
+  fields: crwdns117933:0crwdne117933:0
+  label:
+    attributes: crwdns117935:0crwdne117935:0
+    handle: crwdns117937:0crwdne117937:0
+    name: crwdns117939:0crwdne117939:0
+    permissions: crwdns117941:0crwdne117941:0
+    title: crwdns117943:0crwdne117943:0
+    type: crwdns117945:0crwdne117945:0
+    saveAndClose: crwdns117947:0crwdne117947:0
+  placeholder:
+    name: crwdns117949:0crwdne117949:0
+    handle: crwdns117951:0crwdne117951:0
+    sample: crwdns117953:0crwdne117953:0
+    invalid-handle-characters: crwdns117955:0crwdne117955:0
+import: crwdns117957:0crwdne117957:0
+navigation:
+  module: crwdns117959:0crwdne117959:0
+noModule: crwdns117961:0crwdne117961:0
+noModuleFilter: crwdns117963:0crwdne117963:0
+list:
+  columns:
+    name: crwdns117965:0crwdne117965:0
+    handle: crwdns117967:0crwdne117967:0
+    changedAt: crwdns117969:0crwdne117969:0
+  delete: crwdns117971:0crwdne117971:0
+recordPage:
+  create: crwdns117973:0crwdne117973:0
+  edit: crwdns117975:0crwdne117975:0
+recordListPage:
+  create: crwdns117977:0crwdne117977:0
+  edit: crwdns117979:0crwdne117979:0
+related-pages: crwdns117981:0crwdne117981:0
+searchPlaceholder: crwdns117983:0crwdne117983:0
+title: crwdns117985:0crwdne117985:0
+tooltip:
+  permissions: crwdns117987:0crwdne117987:0
