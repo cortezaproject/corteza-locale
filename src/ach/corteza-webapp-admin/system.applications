@@ -1,0 +1,68 @@
+editor:
+  info:
+    createdAt: crwdns127165:0crwdne127165:0
+    createdBy: crwdns127167:0crwdne127167:0
+    delete: crwdns127169:0crwdne127169:0
+    deletedAt: crwdns127171:0crwdne127171:0
+    enabled: crwdns127173:0crwdne127173:0
+    id: crwdns127175:0crwdne127175:0
+    name: crwdns127177:0crwdne127177:0
+    title: crwdns127179:0crwdne127179:0
+    undelete: crwdns127181:0crwdne127181:0
+    updatedAt: crwdns127183:0crwdne127183:0
+  new: crwdns127185:0crwdne127185:0
+  permissions: crwdns127187:0crwdne127187:0
+  title:
+    create: crwdns127189:0crwdne127189:0
+    edit: crwdns127191:0crwdne127191:0
+  unify:
+    config:
+      description: crwdns127193:0crwdne127193:0
+      label: crwdns127195:0crwdne127195:0
+    listed: crwdns127197:0crwdne127197:0
+    logo:
+      label: crwdns127199:0crwdne127199:0
+      description: crwdns127201:0crwdne127201:0
+      placeholder: crwdns127203:0crwdne127203:0
+      reset: crwdns127205:0crwdne127205:0
+    name:
+      description: crwdns127207:0crwdne127207:0
+      label: crwdns127209:0crwdne127209:0
+    pinned: crwdns127211:0crwdne127211:0
+    title: crwdns127213:0crwdne127213:0
+    url:
+      description: crwdns127215:0crwdne127215:0
+      label: crwdns127217:0crwdne127217:0
+list:
+  columns:
+    actions: "crwdns127219:0crwdne127219:0"
+    createdAt: crwdns127221:0crwdne127221:0
+    enabled: crwdns127223:0crwdne127223:0
+    name: crwdns127225:0crwdne127225:0
+    appListName: crwdns127227:0crwdne127227:0
+    state: crwdns127229:0crwdne127229:0
+  export: crwdns127231:0crwdne127231:0
+  rows:
+    filters:
+      deleted: crwdns127233:0crwdne127233:0
+  filterForm:
+    deleted:
+      label: crwdns127235:0crwdne127235:0
+    excluded:
+      label: crwdns127237:0crwdne127237:0
+    exclusive:
+      label: crwdns127239:0crwdne127239:0
+    inclusive:
+      label: crwdns127241:0crwdne127241:0
+    query:
+      label: crwdns127243:0crwdne127243:0
+      placeholder: crwdns127245:0crwdne127245:0
+  loading: crwdns127247:0crwdne127247:0
+  new: crwdns127249:0crwdne127249:0
+  numFound: 'crwdns127251:0{{count}}crwdne127251:0'
+  numFound_plural: 'crwdns127253:0{{count}}crwdne127253:0'
+  permissions: crwdns127255:0crwdne127255:0
+  title: crwdns127257:0crwdne127257:0
+  yaml: crwdns127259:0crwdne127259:0
+  delete: crwdns127261:0crwdne127261:0
+  undelete: crwdns127263:0crwdne127263:0
