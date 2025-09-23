@@ -1,68 +1,121 @@
-ui:
-  save: crwdns145673:0crwdne145673:0
-  cancel: crwdns145675:0crwdne145675:0
-  set-for: crwdns145677:0{{target}}crwdne145677:0
-  loading: crwdns145679:0crwdne145679:0
-  label: crwdns145681:0crwdne145681:0
-  notification:
-    save:
-      success: crwdns145683:0crwdne145683:0
-      failed: crwdns145685:0crwdne145685:0
-  edit:
-    label: crwdns145687:0crwdne145687:0
-    description: crwdns145689:0crwdne145689:0
-  evaluate:
-    description: crwdns145691:0crwdne145691:0
-  add:
-    label: crwdns145693:0crwdne145693:0
-    title: crwdns145695:0crwdne145695:0
-    save: crwdns145697:0crwdne145697:0
-    role:
-      label: crwdns145699:0crwdne145699:0
-      placeholder: crwdns145701:0crwdne145701:0
-    user:
-      label: crwdns145703:0crwdne145703:0
-      placeholder: crwdns145705:0crwdne145705:0
-  tooltip:
-    unknown-context:
-      user: crwdns145707:0crwdne145707:0
-      role: crwdns145709:0crwdne145709:0
-  access:
-    allow: crwdns145711:0crwdne145711:0
-    inherit: crwdns145713:0crwdne145713:0
-    deny: crwdns145715:0crwdne145715:0
-resources:
-  automation:
-    workflow:
-      all: crwdns145717:0crwdne145717:0
-      specific: crwdns145719:0{{target}}crwdne145719:0
-      tooltip: crwdns145721:0crwdne145721:0
-      operations:
-        delete:
-          description: 'crwdns145723:0crwdne145723:0'
-          specific: crwdns145725:0crwdne145725:0
-          title: crwdns145727:0crwdne145727:0
-        execute:
-          description: 'crwdns145729:0crwdne145729:0'
-          specific: crwdns145731:0crwdne145731:0
-          title: crwdns145733:0crwdne145733:0
-        read:
-          description: 'crwdns145735:0crwdne145735:0'
-          specific: crwdns145737:0crwdne145737:0
-          title: crwdns145739:0crwdne145739:0
-        sessions.manage:
-          description: 'crwdns145741:0crwdne145741:0'
-          specific: crwdns145743:0crwdne145743:0
-          title: crwdns145745:0crwdne145745:0
-        triggers.manage:
-          description: 'crwdns145747:0crwdne145747:0'
-          specific: crwdns145749:0crwdne145749:0
-          title: crwdns145751:0crwdne145751:0
-        undelete:
-          description: 'crwdns145753:0crwdne145753:0'
-          specific: crwdns145755:0crwdne145755:0
-          title: crwdns145757:0crwdne145757:0
-        update:
-          description: 'crwdns145759:0crwdne145759:0'
-          specific: crwdns145761:0crwdne145761:0
-          title: crwdns145763:0crwdne145763:0
+break:
+  label: crwdns145765:0crwdne145765:0
+  short: crwdns145767:0crwdne145767:0
+  tooltip: crwdns145769:0crwdne145769:0
+content:
+  label: crwdns145771:0crwdne145771:0
+  short: crwdns145773:0crwdne145773:0
+  tooltip: crwdns145775:0crwdne145775:0
+  configurator:
+    ok: crwdns145777:0crwdne145777:0
+    urlPlaceholder: crwdns145779:0crwdne145779:0
+continue:
+  label: crwdns145781:0crwdne145781:0
+  short: crwdns145783:0crwdne145783:0
+  tooltip: crwdns145785:0crwdne145785:0
+debug:
+  label: crwdns145787:0crwdne145787:0
+  short: crwdns145789:0crwdne145789:0
+  tooltip: crwdns145791:0crwdne145791:0
+delay:
+  label: crwdns145793:0crwdne145793:0
+  short: crwdns145795:0crwdne145795:0
+  tooltip: crwdns145797:0crwdne145797:0
+error:
+  label: crwdns145799:0crwdne145799:0
+  short: crwdns145801:0crwdne145801:0
+  tooltip: crwdns145803:0crwdne145803:0
+error-handler:
+  label: crwdns145805:0crwdne145805:0
+  short: crwdns145807:0crwdne145807:0
+  tooltip: crwdns145809:0crwdne145809:0
+expressions:
+  configurator:
+    add-expression: crwdns145811:0crwdne145811:0
+    expression: crwdns145813:0crwdne145813:0
+    expression-placeholder: crwdns145815:0crwdne145815:0
+    target: crwdns145817:0crwdne145817:0
+  label: crwdns145819:0crwdne145819:0
+  short: crwdns145821:0crwdne145821:0
+  tooltip: crwdns145823:0crwdne145823:0
+function:
+  configurator:
+    arguments: crwdns145825:0crwdne145825:0
+    constant: crwdns145827:0crwdne145827:0
+    expression: crwdns145829:0crwdne145829:0
+    name: crwdns145831:0crwdne145831:0
+    option-select: crwdns145833:0crwdne145833:0
+    result: crwdns145835:0crwdne145835:0
+    results: crwdns145837:0crwdne145837:0
+    target: crwdns145839:0crwdne145839:0
+    add-result: crwdns145841:0crwdne145841:0
+    search-workflow: crwdns145843:0crwdne145843:0
+    select-function: crwdns145845:0crwdne145845:0
+    type: crwdns145847:0crwdne145847:0
+    type*: crwdns145849:0crwdne145849:0
+  label: crwdns145851:0crwdne145851:0
+  short: crwdns145853:0crwdne145853:0
+  tooltip: crwdns145855:0crwdne145855:0
+exec-workflow:
+  label: crwdns145857:0crwdne145857:0
+  short: crwdns145859:0crwdne145859:0
+  tooltip: crwdns145861:0crwdne145861:0
+gatewayExclusive:
+  label: crwdns145863:0crwdne145863:0
+  short: crwdns145865:0crwdne145865:0
+  tooltip: crwdns145867:0crwdne145867:0
+gatewayInclusive:
+  label: crwdns145869:0crwdne145869:0
+  short: crwdns145871:0crwdne145871:0
+  tooltip: crwdns145873:0crwdne145873:0
+gatewayParallel:
+  label: crwdns145875:0crwdne145875:0
+  short: crwdns145877:0crwdne145877:0
+  tooltip: crwdns145879:0crwdne145879:0
+gateway:
+  configurator:
+    condition: crwdns145881:0crwdne145881:0
+    two-paths: crwdns145883:0crwdne145883:0
+iterator:
+  label: crwdns145885:0crwdne145885:0
+  short: crwdns145887:0crwdne145887:0
+  tooltip: crwdns145889:0crwdne145889:0
+prompt:
+  label: crwdns145891:0crwdne145891:0
+  short: crwdns145893:0crwdne145893:0
+  tooltip: crwdns145895:0crwdne145895:0
+swimlane:
+  label: crwdns145897:0crwdne145897:0
+  short: crwdns145899:0crwdne145899:0
+  tooltip: crwdns145901:0crwdne145901:0
+termination:
+  label: crwdns145903:0crwdne145903:0
+  short: crwdns145905:0crwdne145905:0
+  tooltip: crwdns145907:0crwdne145907:0
+trigger:
+  configurator:
+    add: crwdns145909:0crwdne145909:0
+    add-constraints: crwdns145911:0crwdne145911:0
+    constraints: crwdns145913:0crwdne145913:0
+    event*: crwdns145915:0crwdne145915:0
+    failed-fetch-event-types: crwdns145917:0crwdne145917:0
+    initial-scope: crwdns145919:0crwdne145919:0
+    equal: crwdns145921:0crwdne145921:0
+    not-equal: crwdns145923:0crwdne145923:0
+    like: crwdns145925:0crwdne145925:0
+    not-like: crwdns145927:0crwdne145927:0
+    operator: crwdns145929:0crwdne145929:0
+    resource: crwdns145931:0crwdne145931:0
+    resource*: crwdns145933:0crwdne145933:0
+    select-constraint-type: crwdns145935:0crwdne145935:0
+    select-operator: crwdns145937:0crwdne145937:0
+    select-event-type: crwdns145939:0crwdne145939:0
+    select-resource-type: crwdns145941:0crwdne145941:0
+  label: crwdns145943:0crwdne145943:0
+  short: crwdns145945:0crwdne145945:0
+  tooltip: crwdns145947:0crwdne145947:0
+tooltip:
+  configure-step: crwdns145949:0crwdne145949:0
+path:
+  label: crwdns145951:0crwdne145951:0
+  short: crwdns145953:0crwdne145953:0
