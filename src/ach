@@ -1,75 +1,22 @@
-manage-view:
-  label: crwdns142743:0crwdne142743:0
-application:
-  label: crwdns142745:0crwdne142745:0
-clickOpen: crwdns142747:0crwdne142747:0
-import:
-  buttonLabel: crwdns142749:0crwdne142749:0
-  title: crwdns142751:0crwdne142751:0
-  uploadFileLabel: crwdns142753:0crwdne142753:0
-  uploadFilePlaceholder: crwdns142755:0crwdne142755:0
-  back: crwdns142757:0crwdne142757:0
-  import: crwdns142759:0crwdne142759:0
-  slug:
-    label: crwdns142761:0crwdne142761:0
-description:
-  label: crwdns142763:0crwdne142763:0
-  placeholder: crwdns142765:0crwdne142765:0
-disabled: crwdns142767:0crwdne142767:0
-edit: crwdns142769:0crwdne142769:0
-clone: crwdns142771:0crwdne142771:0
-cloneSuffix: crwdns142773:0crwdne142773:0
-cloneWarning:
-  wfInclusion: crwdns142775:0crwdne142775:0
-create: crwdns142777:0crwdne142777:0
-export: crwdns142779:0crwdne142779:0
-enabled:
-  label: crwdns142781:0crwdne142781:0
-icon:
-  label: crwdns142783:0crwdne142783:0
-  placeholder: crwdns142785:0crwdne142785:0
-label:
-  permissions: crwdns142787:0crwdne142787:0
-logo:
-  label: crwdns142789:0crwdne142789:0
-  placeholder: crwdns142791:0crwdne142791:0
-  show: crwdns142793:0crwdne142793:0
-  preview: crwdns142795:0crwdne142795:0
-  reset: crwdns142797:0crwdne142797:0
-name:
-  label: crwdns142799:0crwdne142799:0
-  placeholder: crwdns142801:0crwdne142801:0
-noResults: crwdns142803:0crwdne142803:0
-searchPlaceholder: crwdns142805:0crwdne142805:0
-setPermissions: crwdns142807:0crwdne142807:0
-slug:
-  description: crwdns142809:0crwdne142809:0
-  label: crwdns142811:0crwdne142811:0
-  placeholder: crwdns142813:0crwdne142813:0
-  invalid-handle-characters: crwdns142815:0crwdne142815:0
-subtitle:
-  label: crwdns142817:0crwdne142817:0
-  placeholder: crwdns142819:0crwdne142819:0
-title: crwdns142821:0crwdne142821:0
-tooltip:
-  translations: crwdns142823:0crwdne142823:0
-visit: crwdns142825:0crwdne142825:0
-configure: crwdns142827:0crwdne142827:0
-manage:
-  title: crwdns142829:0crwdne142829:0
-  list-view: crwdns142831:0crwdne142831:0
-  delete: crwdns142833:0crwdne142833:0
-  disabled: crwdns142835:0crwdne142835:0
-  toolbar:
-    buttons:
-      create: crwdns142837:0crwdne142837:0
-      permissions: crwdns142839:0crwdne142839:0
-  table:
-    columns:
-      enabled: crwdns142841:0crwdne142841:0
-      name: crwdns142843:0crwdne142843:0
-      slug: crwdns142845:0crwdne142845:0
-      changedAt: crwdns142847:0crwdne142847:0
-sidebar:
-  configure: crwdns142849:0crwdne142849:0
-  hide: crwdns142851:0crwdne142851:0
+automation: crwdns142853:0crwdne142853:0
+chart: crwdns142855:0crwdne142855:0
+configuration: crwdns142857:0crwdne142857:0
+editPage: crwdns142859:0crwdne142859:0
+help:
+  documentation: crwdns142861:0crwdne142861:0
+  feedback: crwdns142863:0crwdne142863:0
+  forum: crwdns142865:0crwdne142865:0
+  version: 'crwdns142867:0crwdne142867:0'
+module: crwdns142869:0crwdne142869:0
+more: crwdns142871:0crwdne142871:0
+namespace: crwdns142873:0crwdne142873:0
+noPageTitle: crwdns142875:0crwdne142875:0
+page: crwdns142877:0crwdne142877:0
+appMenu: crwdns142879:0crwdne142879:0
+userSettings:
+  changePassword: crwdns142881:0crwdne142881:0
+  loggedInAs: crwdns142883:0{{user}}crwdne142883:0
+  logout: crwdns142885:0crwdne142885:0
+  profile: crwdns142887:0crwdne142887:0
+  theme: crwdns142889:0crwdne142889:0
+viewPage: crwdns142891:0crwdne142891:0
