@@ -1,11 +1,89 @@
-list:
-  title: crwdns144503:0crwdne144503:0
-  columns:
-    module: crwdns144505:0crwdne144505:0
-    namespace: crwdns144507:0crwdne144507:0
-    connection: crwdns144509:0crwdne144509:0
-    location: crwdns144511:0crwdne144511:0
-    ownership: crwdns144513:0crwdne144513:0
-  module:
-    enable: crwdns144515:0crwdne144515:0
-    disable: crwdns144517:0crwdne144517:0
+add:
+  datasource: crwdns144519:0crwdne144519:0
+  display-element: crwdns144521:0crwdne144521:0
+available: crwdns144523:0crwdne144523:0
+block:
+  description: crwdns144525:0crwdne144525:0
+  save: crwdns144527:0crwdne144527:0
+  title: crwdns144529:0crwdne144529:0
+  configuration: crwdns144531:0crwdne144531:0
+datasource:
+  label: crwdns144533:0crwdne144533:0
+  types:
+    load:
+      label: crwdns144535:0crwdne144535:0
+      data-from-resource: crwdns144537:0crwdne144537:0
+    link:
+      label: crwdns144539:0crwdne144539:0
+      load-datasources: crwdns144541:0crwdne144541:0
+    join:
+      label: crwdns144543:0crwdne144543:0
+      load-datasources: crwdns144545:0crwdne144545:0
+    aggregate:
+      label: crwdns144547:0crwdne144547:0
+      load-datasource: crwdns144549:0crwdne144549:0
+datasources:
+  label: crwdns144551:0crwdne144551:0
+  save: crwdns144553:0crwdne144553:0
+description: crwdns144555:0crwdne144555:0
+display-elements:
+  types:
+    text: crwdns144557:0crwdne144557:0
+    metric: crwdns144559:0crwdne144559:0
+    table: crwdns144561:0crwdne144561:0
+    chart: crwdns144563:0crwdne144563:0
+element: crwdns144565:0crwdne144565:0
+elements: crwdns144567:0crwdne144567:0
+filter-expression: crwdns144569:0crwdne144569:0
+general: crwdns144571:0crwdne144571:0
+joined-datasource-handling: crwdns144573:0crwdne144573:0
+layout: crwdns144575:0crwdne144575:0
+layout-options:
+  horizontal: crwdns144577:0crwdne144577:0
+  vertical: crwdns144579:0crwdne144579:0
+limit: crwdns144581:0crwdne144581:0
+no-blocks-added: crwdns144583:0crwdne144583:0
+or: crwdns144585:0crwdne144585:0
+pick-scenario: crwdns144587:0crwdne144587:0
+prefilter: crwdns144589:0crwdne144589:0
+presort-order: crwdns144591:0crwdne144591:0
+report:
+  builder: crwdns144593:0crwdne144593:0
+  view: crwdns144595:0crwdne144595:0
+save-button: crwdns144597:0crwdne144597:0
+scenarios:
+  label: crwdns144599:0crwdne144599:0
+  save: crwdns144601:0crwdne144601:0
+title: crwdns144603:0crwdne144603:0
+tooltip:
+  edit:
+    report: crwdns144605:0crwdne144605:0
+    block: crwdns144607:0crwdne144607:0
+  add:
+    displayElement: crwdns144609:0crwdne144609:0
+  delete:
+    block: crwdns144611:0crwdne144611:0
+  configure-scenarios: crwdns144613:0crwdne144613:0
+  unsavedChanges: crwdns144615:0crwdne144615:0
+available-columns: crwdns144617:0crwdne144617:0
+selected-columns: crwdns144619:0crwdne144619:0
+no-columns-found: crwdns144621:0crwdne144621:0
+type-to-search: crwdns144623:0crwdne144623:0
+selected: crwdns144625:0crwdne144625:0
+select-all: crwdns144627:0crwdne144627:0
+unselect-all: crwdns144629:0crwdne144629:0
+value: crwdns144631:0crwdne144631:0
+name: crwdns144633:0crwdne144633:0
+unsaved-changes: crwdns144635:0crwdne144635:0
+filter:
+  operators:
+    like: crwdns144637:0crwdne144637:0
+    notLike: crwdns144639:0crwdne144639:0
+    contains: crwdns144641:0crwdne144641:0
+    notContains: crwdns144643:0crwdne144643:0
+    equal: crwdns144645:0crwdne144645:0
+    greaterThan: crwdns144647:0crwdne144647:0
+    greaterThanEqualTo: crwdns144649:0crwdne144649:0
+    lessThanEqualTo: crwdns144651:0crwdne144651:0
+    lessThan: crwdns144653:0crwdne144653:0
+    notEqual: crwdns144655:0crwdne144655:0
