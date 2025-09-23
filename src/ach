@@ -1,3 +1,5 @@
 template:
-  log-out: crwdns134907:0crwdne134907:0
-  log-in: crwdns134909:0{{link}}crwdne134909:0
+  title: crwdns134911:0crwdne134911:0
+  instructions: crwdns134913:0crwdne134913:0
+  button:
+    remove: crwdns134915:0crwdne134915:0
