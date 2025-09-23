@@ -1,13 +1,6 @@
-discovery: crwdns143967:0crwdne143967:0
-help:
-  documentation: crwdns143969:0crwdne143969:0
-  feedback: crwdns143971:0crwdne143971:0
-  forum: crwdns143973:0crwdne143973:0
-  version: 'crwdns143975:0crwdne143975:0'
-appMenu: crwdns143977:0crwdne143977:0
-userSettings:
-  changePassword: crwdns143979:0crwdne143979:0
-  loggedInAs: crwdns143981:0{{user}}crwdne143981:0
-  logout: crwdns143983:0crwdne143983:0
-  profile: crwdns143985:0crwdne143985:0
-  theme: crwdns143987:0crwdne143987:0
+general:
+  error: crwdns143989:0crwdne143989:0
+  success: crwdns143991:0crwdne143991:0
+  warning: crwdns143993:0crwdne143993:0
+search:
+  failed: crwdns143995:0crwdne143995:0
