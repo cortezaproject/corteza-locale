@@ -1,0 +1,118 @@
+automation:
+  add: crwdns111245:0crwdne111245:0
+  edit:
+    asyncHelp: crwdns111247:0crwdne111247:0
+    asyncLabel: crwdns111249:0crwdne111249:0
+    codeTabLabel: crwdns111251:0crwdne111251:0
+    criticalHelp: crwdns111253:0crwdne111253:0
+    criticalLabel: crwdns111255:0crwdne111255:0
+    delete: crwdns111257:0crwdne111257:0
+    enabledHelp: crwdns111259:0crwdne111259:0
+    enabledLabel: crwdns111261:0crwdne111261:0
+    mailAutomationTriggers:
+      addMatcher: crwdns111263:0crwdne111263:0
+      addTrigger: crwdns111265:0crwdne111265:0
+      delete: crwdns111267:0crwdne111267:0
+      deleteTrigger: crwdns111269:0crwdne111269:0
+      enable: crwdns111271:0crwdne111271:0
+      matchAll: crwdns111273:0crwdne111273:0
+      matcher:
+        fields:
+          bcc: crwdns111275:0crwdne111275:0
+          cc: crwdns111277:0crwdne111277:0
+          from: crwdns111279:0crwdne111279:0
+          placeholder: crwdns111281:0crwdne111281:0
+          replyTo: crwdns111283:0crwdne111283:0
+          subject: crwdns111285:0crwdne111285:0
+          to: crwdns111287:0crwdne111287:0
+        match: crwdns111289:0crwdne111289:0
+        operators:
+          equal-ci: crwdns111291:0crwdne111291:0
+          placeholder: crwdns111293:0crwdne111293:0
+          prefix-ci: crwdns111295:0crwdne111295:0
+          regex: crwdns111297:0crwdne111297:0
+          suffix-ci: crwdns111299:0crwdne111299:0
+          user: crwdns111301:0crwdne111301:0
+      tabLabel: crwdns111303:0crwdne111303:0
+    nameLabel: crwdns111305:0crwdne111305:0
+    namePlaceholder: crwdns111307:0crwdne111307:0
+    runAsCurrentUser: crwdns111309:0{{ user }}crwdne111309:0
+    runAsHelp: crwdns111311:0crwdne111311:0
+    scheduledTriggers:
+      tabLabel: crwdns111313:0crwdne111313:0
+    securityLabel: crwdns111315:0crwdne111315:0
+    settingsTabLabel: crwdns111317:0crwdne111317:0
+    timeoutHelp: crwdns111319:0crwdne111319:0
+    timeoutLabel: crwdns111321:0crwdne111321:0
+    timeoutPlaceholder: "crwdns111323:0crwdne111323:0"
+    title: crwdns111325:0crwdne111325:0
+    userPickerPlaceholder: crwdns111327:0crwdne111327:0
+  import: crwdns111329:0crwdne111329:0
+  list:
+    column:
+      label:
+        async: crwdns111331:0crwdne111331:0
+        critical: crwdns111333:0crwdne111333:0
+        enabled: crwdns111335:0crwdne111335:0
+        runAs: crwdns111337:0crwdne111337:0
+        runInUA: crwdns111339:0crwdne111339:0
+    unnamed: crwdns111341:0crwdne111341:0
+  manage: crwdns111343:0{{count}}crwdne111343:0
+  manage-id-permissions: crwdns111345:0crwdne111345:0
+  manage-wc-permissions: crwdns111347:0crwdne111347:0
+  newLabel: crwdns111349:0crwdne111349:0
+  newPlaceholder: crwdns111351:0crwdne111351:0
+  testing:
+    load: crwdns111353:0crwdne111353:0
+    parametersHeadline: 'crwdns111355:0crwdne111355:0'
+    resultsHeadline: 'crwdns111357:0crwdne111357:0'
+    testInBrowser: crwdns111359:0crwdne111359:0
+    testInCorredor: crwdns111361:0crwdne111361:0
+    warning: "crwdns111363:0crwdne111363:0"
+  title: crwdns111365:0crwdne111365:0
+general:
+  resource-list:
+    no-items: crwdns111367:0crwdne111367:0
+  notFound: 'crwdns111369:0crwdne111369:0'
+  loading: crwdns111371:0crwdne111371:0
+  label:
+    "no": "crwdns111373:0crwdne111373:0"
+    submit: crwdns111375:0crwdne111375:0
+    "yes": "crwdns111377:0crwdne111377:0"
+    selectOption: "crwdns111379:0crwdne111379:0"
+  logout: crwdns111381:0crwdne111381:0
+  noAccess: crwdns111383:0crwdne111383:0
+  pagination:
+    next: crwdns111385:0crwdne111385:0
+    prev: crwdns111387:0crwdne111387:0
+    showing: 'crwdns111389:0{{from}}crwdnd111389:0{{to}}crwdnd111389:0{{count}}crwdnd111389:0{{data}}crwdne111389:0'
+    single_one: 'crwdns111391:0{{data}}crwdne111391:0'
+    single_other: 'crwdns111393:0{{count}}crwdnd111393:0{{data}}crwdne111393:0'
+navigation:
+  appMenu: crwdns111395:0crwdne111395:0
+  adminPanel: crwdns111397:0crwdne111397:0
+  automation: crwdns111399:0crwdne111399:0
+  chart: crwdns111401:0crwdne111401:0
+  configuration: crwdns111403:0crwdne111403:0
+  help:
+    documentation: crwdns111405:0crwdne111405:0
+    feedback: crwdns111407:0crwdne111407:0
+    forum: crwdns111409:0crwdne111409:0
+    version: 'crwdns111411:0crwdne111411:0'
+  module: crwdns111413:0crwdne111413:0
+  more: crwdns111415:0crwdne111415:0
+  namespace: crwdns111417:0crwdne111417:0
+  noPageTitle: crwdns111419:0crwdne111419:0
+  page: crwdns111421:0crwdne111421:0
+  publicPages: crwdns111423:0crwdne111423:0
+  userSettings:
+    changePassword: crwdns111425:0crwdne111425:0
+    loggedInAs: crwdns111427:0{{user}}crwdne111427:0
+    logout: crwdns111429:0crwdne111429:0
+    profile: crwdns111431:0crwdne111431:0
+    theme: crwdns111433:0crwdne111433:0
+picker:
+  role:
+    placeholder: crwdns111435:0crwdne111435:0
+  member:
+    placeholder: crwdns111437:0crwdne111437:0
