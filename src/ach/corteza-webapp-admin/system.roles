@@ -1,0 +1,70 @@
+editor:
+  info:
+    archive: crwdns114085:0crwdne114085:0
+    archivedAt: crwdns114087:0crwdne114087:0
+    createdAt: crwdns114089:0crwdne114089:0
+    createdBy: crwdns114091:0crwdne114091:0
+    delete: crwdns114093:0crwdne114093:0
+    deletedAt: crwdns114095:0crwdne114095:0
+    handle: crwdns114097:0crwdne114097:0
+    placeholder-handle: crwdns114099:0crwdne114099:0
+    invalid-handle-characters: crwdns114101:0crwdne114101:0
+    name: crwdns114103:0crwdne114103:0
+    title: crwdns114105:0crwdne114105:0
+    unarchive: crwdns114107:0crwdne114107:0
+    undelete: crwdns114109:0crwdne114109:0
+    updatedAt: crwdns114111:0crwdne114111:0
+    description: crwdns114113:0crwdne114113:0
+    context:
+      label: crwdns114115:0crwdne114115:0
+      expression-label: crwdns114117:0crwdne114117:0
+      resource-types-label: crwdns114119:0crwdne114119:0
+  members:
+    add: crwdns114121:0crwdne114121:0
+    count: crwdns114123:0{{count}}crwdne114123:0
+    remove: crwdns114125:0crwdne114125:0
+    searchUsers: crwdns114127:0crwdne114127:0
+    title: crwdns114129:0crwdne114129:0
+    unnamed: crwdns114131:0crwdne114131:0
+  new: crwdns114133:0crwdne114133:0
+  permissions: crwdns114135:0crwdne114135:0
+  title:
+    create: crwdns114137:0crwdne114137:0
+    edit: crwdns114139:0crwdne114139:0
+list:
+  columns:
+    actions: "crwdns114141:0crwdne114141:0"
+    createdAt: crwdns114143:0crwdne114143:0
+    enabled: crwdns114145:0crwdne114145:0
+    handle: crwdns114147:0crwdne114147:0
+    name: crwdns114149:0crwdne114149:0
+    state: crwdns114151:0crwdne114151:0
+  delete: crwdns114153:0crwdne114153:0
+  undelete: crwdns114155:0crwdne114155:0
+  archive: crwdns114157:0crwdne114157:0
+  unarchive: crwdns114159:0crwdne114159:0
+  rows:
+    filters:
+      archived: crwdns114161:0crwdne114161:0
+      deleted: crwdns114163:0crwdne114163:0
+  filterForm:
+    archived:
+      label: crwdns114165:0crwdne114165:0
+    deleted:
+      label: crwdns114167:0crwdne114167:0
+    excluded:
+      label: crwdns114169:0crwdne114169:0
+    exclusive:
+      label: crwdns114171:0crwdne114171:0
+    inclusive:
+      label: crwdns114173:0crwdne114173:0
+    query:
+      label: crwdns114175:0crwdne114175:0
+      placeholder: crwdns114177:0crwdne114177:0
+  loading: crwdns114179:0crwdne114179:0
+  new: crwdns114181:0crwdne114181:0
+  numFound: 'crwdns114183:0{{count}}crwdne114183:0'
+  numFound_plural: 'crwdns114185:0{{count}}crwdne114185:0'
+  permissions: crwdns114187:0crwdne114187:0
+  title: crwdns114189:0crwdne114189:0
+  yaml: crwdns114191:0crwdne114191:0
