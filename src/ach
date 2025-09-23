@@ -1,9 +1,11 @@
 template:
-  title: crwdns135039:0crwdne135039:0
+  title: crwdns135049:0crwdne135049:0
   form:
     email:
-      label: crwdns135041:0crwdne135041:0
-      placeholder: crwdns135043:0crwdne135043:0
+      label: crwdns135051:0crwdne135051:0
+      placeholder: crwdns135053:0crwdne135053:0
+    new-password:
+      label: crwdns135055:0crwdne135055:0
+      placeholder: crwdns135057:0crwdne135057:0
     buttons:
-      request: crwdns135045:0crwdne135045:0
-  links: crwdns135047:0{{login}}crwdne135047:0
+      change-password: crwdns135059:0crwdne135059:0
