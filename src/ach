@@ -1,23 +1,76 @@
-title: crwdns144351:0crwdne144351:0
-empty: crwdns144353:0crwdne144353:0
-emptyDescription: crwdns144355:0crwdne144355:0
-markAllAsRead: crwdns144357:0crwdne144357:0
-markAsRead: crwdns144359:0crwdne144359:0
-delete: crwdns144361:0crwdne144361:0
-all: crwdns144363:0crwdne144363:0
-unread: crwdns144365:0crwdne144365:0
-read: crwdns144367:0crwdne144367:0
-success: crwdns144369:0crwdne144369:0
-allMarkedAsRead: crwdns144371:0crwdne144371:0
-notificationDeleted: crwdns144373:0crwdne144373:0
-loadMore: crwdns144375:0crwdne144375:0
-recordRedirectError: crwdns144377:0crwdne144377:0
-mute: crwdns144379:0crwdne144379:0
-unmute: crwdns144381:0crwdne144381:0
-muted: crwdns144383:0crwdne144383:0
-unmuted: crwdns144385:0crwdne144385:0
-markAllAsReadError: crwdns144387:0crwdne144387:0
-notificationDeletedError: crwdns144389:0crwdne144389:0
-namespaceNotFound: crwdns144391:0crwdne144391:0
-pageNotFound: crwdns144393:0crwdne144393:0
-recordNotFound: crwdns144395:0crwdne144395:0
+comments:
+  enter: crwdns144397:0crwdne144397:0
+  label: crwdns144399:0crwdne144399:0
+  sort:
+    first:
+      newest: crwdns144401:0crwdne144401:0
+      oldest: crwdns144403:0crwdne144403:0
+  submit: crwdns144405:0crwdne144405:0
+  unknown:
+    date: crwdns144407:0crwdne144407:0
+    user: crwdns144409:0crwdne144409:0
+kind:
+  correct: crwdns144411:0crwdne144411:0
+  delete: crwdns144413:0crwdne144413:0
+  export: crwdns144415:0crwdne144415:0
+status:
+  canceled: crwdns144417:0crwdne144417:0
+  pending: crwdns144419:0crwdne144419:0
+  rejected: crwdns144421:0crwdne144421:0
+  approved: crwdns144423:0crwdne144423:0
+list:
+  title: crwdns144425:0crwdne144425:0
+  export: crwdns144427:0crwdne144427:0
+  columns:
+    kind: crwdns144429:0crwdne144429:0
+    requestedAt: crwdns144431:0crwdne144431:0
+    requestedBy: crwdns144433:0crwdne144433:0
+    status: crwdns144435:0crwdne144435:0
+  request:
+    approve: crwdns144437:0crwdne144437:0
+    cancel: crwdns144439:0crwdne144439:0
+    reject: crwdns144441:0crwdne144441:0
+edit:
+  correct:
+    private-fields: crwdns144443:0crwdne144443:0
+    no-data-available: crwdns144445:0crwdne144445:0
+    submit: crwdns144447:0crwdne144447:0
+    connection:
+      label: crwdns144449:0crwdne144449:0
+      placeholder: crwdns144451:0crwdne144451:0
+  delete:
+    private-fields: crwdns144453:0crwdne144453:0
+    no-data-available: crwdns144455:0crwdne144455:0
+    submit: crwdns144457:0crwdne144457:0
+    connection:
+      label: crwdns144459:0crwdne144459:0
+      placeholder: crwdns144461:0crwdne144461:0
+  export:
+    submit: crwdns144463:0crwdne144463:0
+    data-type:
+      label: crwdns144465:0crwdne144465:0
+      profile-information: crwdns144467:0crwdne144467:0
+      application-data: crwdns144469:0crwdne144469:0
+    date-range:
+      label: crwdns144471:0crwdne144471:0
+      all: crwdns144473:0crwdne144473:0
+    file-format:
+      label: crwdns144475:0crwdne144475:0
+      json: crwdns144477:0crwdne144477:0
+      csv: crwdns144479:0crwdne144479:0
+view:
+  approve: crwdns144481:0crwdne144481:0
+  cancel: crwdns144483:0crwdne144483:0
+  reject: crwdns144485:0crwdne144485:0
+  export:
+    data-type:
+      label: crwdns144487:0crwdne144487:0
+      profile-information: crwdns144489:0crwdne144489:0
+      application-data: crwdns144491:0crwdne144491:0
+    date-range:
+      label: crwdns144493:0crwdne144493:0
+      all: crwdns144495:0crwdne144495:0
+    file-format:
+      label: crwdns144497:0crwdne144497:0
+      json: crwdns144499:0crwdne144499:0
+      csv: crwdns144501:0crwdne144501:0
