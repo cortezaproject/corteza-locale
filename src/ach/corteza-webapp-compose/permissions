@@ -1,0 +1,241 @@
+ui:
+  save: crwdns118743:0crwdne118743:0
+  cancel: crwdns118745:0crwdne118745:0
+  set-for: crwdns118747:0{{target}}crwdne118747:0
+  loading: crwdns118749:0crwdne118749:0
+  label: crwdns118751:0crwdne118751:0
+  notification:
+    save:
+      success: crwdns118753:0crwdne118753:0
+      failed: crwdns118755:0crwdne118755:0
+  edit:
+    label: crwdns118757:0crwdne118757:0
+    description: crwdns118759:0crwdne118759:0
+  evaluate:
+    description: crwdns118761:0crwdne118761:0
+  add:
+    label: crwdns118763:0crwdne118763:0
+    title: crwdns118765:0crwdne118765:0
+    save: crwdns118767:0crwdne118767:0
+    role:
+      label: crwdns118769:0crwdne118769:0
+      placeholder: crwdns118771:0crwdne118771:0
+    user:
+      label: crwdns118773:0crwdne118773:0
+      placeholder: crwdns118775:0crwdne118775:0
+  tooltip:
+    unknown-context:
+      user: crwdns118777:0crwdne118777:0
+      role: crwdns118779:0crwdne118779:0
+  access:
+    allow: crwdns118781:0crwdne118781:0
+    inherit: crwdns118783:0crwdne118783:0
+    deny: crwdns118785:0crwdne118785:0
+resources:
+  compose:
+    namespace:
+      all: crwdns118787:0crwdne118787:0
+      specific: crwdns118789:0{{target}}crwdne118789:0
+      tooltip: crwdns118791:0crwdne118791:0
+      operations:
+        read:
+          description: "crwdns118793:0crwdne118793:0"
+          specific: crwdns118795:0{{target}}crwdne118795:0
+          title: crwdns118797:0crwdne118797:0
+        update:
+          description: "crwdns118799:0crwdne118799:0"
+          specific: crwdns118801:0{{target}}crwdne118801:0
+          title: crwdns118803:0crwdne118803:0
+        delete:
+          description: "crwdns118805:0crwdne118805:0"
+          specific: crwdns118807:0{{target}}crwdne118807:0
+          title: crwdns118809:0crwdne118809:0
+        manage:
+          description: crwdns118811:0crwdne118811:0
+          specific: crwdns118813:0{{target}}crwdne118813:0
+          title: crwdns118815:0crwdne118815:0
+        export:
+          description: "crwdns118817:0crwdne118817:0"
+          specific: crwdns118819:0{{target}}crwdne118819:0
+          title: crwdns118821:0crwdne118821:0
+        module.create:
+          description: "crwdns118823:0crwdne118823:0"
+          specific: crwdns118825:0{{target}}crwdne118825:0
+          title: crwdns118827:0crwdne118827:0
+        modules.export:
+          description: "crwdns118829:0crwdne118829:0"
+          specific: crwdns118831:0{{target}}crwdne118831:0
+          title: crwdns118833:0crwdne118833:0
+        modules.search:
+          description: "crwdns118835:0crwdne118835:0"
+          specific: crwdns118837:0{{target}}crwdne118837:0
+          title: crwdns118839:0crwdne118839:0
+        page.create:
+          description: "crwdns118841:0crwdne118841:0"
+          specific: crwdns118843:0{{target}}crwdne118843:0
+          title: crwdns118845:0crwdne118845:0
+        pages.search:
+          description: "crwdns118847:0crwdne118847:0"
+          specific: crwdns118849:0{{target}}crwdne118849:0
+          title: crwdns118851:0crwdne118851:0
+        pages.export:
+          description: "crwdns118853:0crwdne118853:0"
+          specific: crwdns118855:0{{target}}crwdne118855:0
+          title: crwdns118857:0crwdne118857:0
+        chart.create:
+          description: "crwdns118859:0crwdne118859:0"
+          specific: crwdns118861:0{{target}}crwdne118861:0
+          title: crwdns118863:0crwdne118863:0
+        charts.search:
+          description: "crwdns118865:0crwdne118865:0"
+          specific: crwdns118867:0{{target}}crwdne118867:0
+          title: crwdns118869:0crwdne118869:0
+        charts.export:
+          description: "crwdns118871:0crwdne118871:0"
+          specific: crwdns118873:0{{target}}crwdne118873:0
+          title: crwdns118875:0crwdne118875:0
+    chart:
+      all: crwdns118877:0crwdne118877:0
+      specific: crwdns118879:0{{target}}crwdne118879:0
+      tooltip: crwdns118881:0crwdne118881:0
+      operations:
+        delete:
+          description: 'crwdns118883:0crwdne118883:0'
+          specific: crwdns118885:0{{target}}crwdne118885:0
+          title: crwdns118887:0crwdne118887:0
+        read:
+          description: 'crwdns118889:0crwdne118889:0'
+          specific: crwdns118891:0{{target}}crwdne118891:0
+          title: crwdns118893:0crwdne118893:0
+        update:
+          description: 'crwdns118895:0crwdne118895:0'
+          specific: crwdns118897:0{{target}}crwdne118897:0
+          title: crwdns118899:0crwdne118899:0
+    module:
+      all: crwdns118901:0crwdne118901:0
+      specific: crwdns118903:0{{target}}crwdne118903:0
+      tooltip: crwdns118905:0crwdne118905:0
+      operations:
+        delete:
+          description: 'crwdns118907:0crwdne118907:0'
+          specific: crwdns118909:0{{target}}crwdne118909:0
+          title: crwdns118911:0crwdne118911:0
+        read:
+          description: 'crwdns118913:0crwdne118913:0'
+          specific: crwdns118915:0{{target}}crwdne118915:0
+          title: crwdns118917:0crwdne118917:0
+        record.create:
+          description: 'crwdns118919:0crwdne118919:0'
+          specific: crwdns118921:0{{target}}crwdne118921:0
+          title: crwdns118923:0crwdne118923:0
+        records.search:
+          description: 'crwdns118925:0crwdne118925:0'
+          specific: crwdns118927:0{{target}}crwdne118927:0
+          title: crwdns118929:0crwdne118929:0
+        update:
+          description: 'crwdns118931:0crwdne118931:0'
+          specific: crwdns118933:0{{target}}crwdne118933:0
+          title: crwdns118935:0crwdne118935:0
+        'owned-record.create':
+          description: 'crwdns118937:0crwdne118937:0'
+          specific: crwdns118939:0{{target}}crwdne118939:0
+          title: crwdns118941:0crwdne118941:0
+          all-specific: crwdns118943:0{{ target }}crwdne118943:0
+    module-field:
+      all: crwdns118945:0crwdne118945:0
+      specific: crwdns118947:0{{target}}crwdne118947:0
+      all-specific: crwdns118949:0{{ target }}crwdne118949:0
+      tooltip: crwdns118951:0crwdne118951:0
+      operations:
+        record.value.read:
+          description: 'crwdns118953:0crwdne118953:0'
+          specific: 'crwdns118955:0{{target}}crwdne118955:0'
+          title: crwdns118957:0crwdne118957:0
+          all-specific: crwdns118959:0{{ target }}crwdne118959:0
+        record.value.update:
+          description: 'crwdns118961:0crwdne118961:0'
+          specific: 'crwdns118963:0{{target}}crwdne118963:0'
+          title: crwdns118965:0crwdne118965:0
+          all-specific: crwdns118967:0{{ target }}crwdne118967:0
+    page:
+      all: crwdns118969:0crwdne118969:0
+      specific: crwdns118971:0{{target}}crwdne118971:0
+      tooltip: crwdns118973:0crwdne118973:0
+      operations:
+        delete:
+          description: 'crwdns118975:0crwdne118975:0'
+          specific: crwdns118977:0{{target}}crwdne118977:0
+          title: crwdns118979:0crwdne118979:0
+        read:
+          description: 'crwdns118981:0crwdne118981:0'
+          specific: crwdns118983:0{{target}}crwdne118983:0
+          title: crwdns118985:0crwdne118985:0
+        update:
+          description: 'crwdns118987:0crwdne118987:0'
+          specific: crwdns118989:0{{target}}crwdne118989:0
+          title: crwdns118991:0crwdne118991:0
+        page-layout.create:
+          description: 'crwdns118993:0crwdne118993:0'
+          specific: crwdns118995:0{{target}}crwdne118995:0
+          title: crwdns118997:0crwdne118997:0
+        page-layouts.search:
+          description: 'crwdns118999:0crwdne118999:0'
+          specific: crwdns119001:0{{target}}crwdne119001:0
+          title: crwdns119003:0crwdne119003:0
+    page-layout:
+      all: crwdns119005:0crwdne119005:0
+      specific: crwdns119007:0{{target}}crwdne119007:0
+      tooltip: crwdns119009:0crwdne119009:0
+      all-specific: crwdns119011:0{{ target }}crwdne119011:0
+      operations:
+        read:
+          description: 'crwdns119013:0crwdne119013:0'
+          specific: crwdns119015:0{{target}}crwdne119015:0
+          title: crwdns119017:0crwdne119017:0
+          all-specific: crwdns119019:0{{ target }}crwdne119019:0
+        update:
+          description: 'crwdns119021:0crwdne119021:0'
+          specific: crwdns119023:0{{target}}crwdne119023:0
+          title: crwdns119025:0crwdne119025:0
+          all-specific: crwdns119027:0{{ target }}crwdne119027:0
+        delete:
+          description: 'crwdns119029:0crwdne119029:0'
+          specific: crwdns119031:0{{target}}crwdne119031:0
+          title: crwdns119033:0crwdne119033:0
+          all-specific: crwdns119035:0{{ target }}crwdne119035:0
+    record:
+      all: crwdns119037:0crwdne119037:0
+      specific: crwdns119039:0{{target}}crwdne119039:0
+      all-specific: crwdns119041:0{{ target }}crwdne119041:0
+      tooltip: crwdns119043:0crwdne119043:0
+      operations:
+        delete:
+          description: 'crwdns119045:0crwdne119045:0'
+          specific: crwdns119047:0{{target}}crwdne119047:0
+          title: crwdns119049:0crwdne119049:0
+          all-specific: crwdns119051:0{{ target }}crwdne119051:0
+        undelete:
+          description: 'crwdns119053:0crwdne119053:0'
+          specific: crwdns119055:0{{target}}crwdne119055:0
+          title: crwdns119057:0crwdne119057:0
+          all-specific: crwdns119059:0{{ target }}crwdne119059:0
+        read:
+          description: 'crwdns119061:0crwdne119061:0'
+          specific: crwdns119063:0{{target}}crwdne119063:0
+          title: crwdns119065:0crwdne119065:0
+          all-specific: crwdns119067:0{{ target }}crwdne119067:0
+        update:
+          description: 'crwdns119069:0crwdne119069:0'
+          specific: crwdns119071:0{{target}}crwdne119071:0
+          title: crwdns119073:0crwdne119073:0
+          all-specific: crwdns119075:0{{ target }}crwdne119075:0
+        'owner.manage':
+          description: 'crwdns119077:0crwdne119077:0'
+          specific: crwdns119079:0{{target}}crwdne119079:0
+          title: crwdns119081:0crwdne119081:0
+          all-specific: crwdns119083:0{{ target }}crwdne119083:0
+        'revisions.search':
+          description: 'crwdns119085:0crwdne119085:0'
+          specific: crwdns119087:0{{target}}crwdne119087:0
+          title: crwdns119089:0crwdne119089:0
+          all-specific: crwdns119091:0crwdne119091:0
