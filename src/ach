@@ -1,8 +1,17 @@
 errors:
-  notAllowedToRead: crwdns135891:0crwdne135891:0
-  notAllowedToManage: crwdns135893:0crwdne135893:0
-  invalidPasswordMinLength: crwdns135895:0crwdne135895:0
-  invalidPasswordMinUpperCase: crwdns135897:0crwdne135897:0
-  invalidPasswordMinLowerCase: crwdns135899:0crwdne135899:0
-  invalidPasswordMinNumCount: crwdns135901:0crwdne135901:0
-  invalidPasswordMinSpecialCharCount: crwdns135903:0crwdne135903:0
+  badSinkParamEncoding: crwdns135905:0crwdne135905:0
+  contentLengthExceedsMaxAllowedSize: crwdns135907:0crwdne135907:0
+  failedToCreateEvent: crwdns135909:0crwdne135909:0
+  failedToProcess: crwdns135911:0crwdne135911:0
+  failedToRespond: crwdns135913:0crwdne135913:0
+  failedToSign: 'crwdns135915:0{err}crwdne135915:0'
+  invalidContentType: crwdns135917:0crwdne135917:0
+  invalidHttpMethod: crwdns135919:0crwdne135919:0
+  invalidPath: crwdns135921:0crwdne135921:0
+  invalidSignature: crwdns135923:0crwdne135923:0
+  invalidSignatureParam: crwdns135925:0crwdne135925:0
+  invalidSinkRequestUrlParams: crwdns135927:0crwdne135927:0
+  misplacedSignature: crwdns135929:0crwdne135929:0
+  missingSignature: crwdns135931:0crwdne135931:0
+  processingError: crwdns135933:0crwdne135933:0
+  signatureExpired: crwdns135935:0crwdne135935:0
