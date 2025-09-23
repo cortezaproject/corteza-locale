@@ -1,3 +1,7 @@
-menu: Menu
-logged-in-as: You're logged-in as
-logout: Logout
+template:
+  authorize-client: Finalize the authorization of
+  class:
+    your-profile: Your profile
+    security: Security
+    login-session: Login sessions
+    authorized-clients: Authorized clients
