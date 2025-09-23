@@ -1,2 +1,3 @@
-version: version {{version}}
-code-link: Access source code on
+menu: Menu
+logged-in-as: You're logged-in as
+logout: Logout
