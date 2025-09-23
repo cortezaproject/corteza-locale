@@ -1,17 +1,46 @@
-description: crwdns144915:0crwdne144915:0
-handle-with-star: crwdns144917:0crwdne144917:0
-invalid-handle-characters: crwdns144919:0crwdne144919:0
-name: crwdns144921:0crwdne144921:0
-name-with-star: 'crwdns144923:0crwdne144923:0'
-new-report: crwdns144925:0crwdne144925:0
-permissions: crwdns144927:0crwdne144927:0
-unsavedChanges: crwdns144929:0crwdne144929:0
-report:
-  create: crwdns144931:0crwdne144931:0
-  builder: crwdns144933:0crwdne144933:0
-  description: crwdns144935:0crwdne144935:0
-  edit: crwdns144937:0crwdne144937:0
-placeholder-handle: crwdns144939:0crwdne144939:0
-title: crwdns144941:0crwdne144941:0
-tooltip:
-  view-report: crwdns144943:0crwdne144943:0
+label:
+  add: crwdns144945:0crwdne144945:0
+  and: crwdns144947:0crwdne144947:0
+  all: crwdns144949:0crwdne144949:0
+  ascending: crwdns144951:0crwdne144951:0
+  back: crwdns144953:0crwdne144953:0
+  clear: crwdns144955:0crwdne144955:0
+  cancel: crwdns144957:0crwdne144957:0
+  delete: crwdns144959:0crwdne144959:0
+  descending: crwdns144961:0crwdne144961:0
+  loading: crwdns144963:0crwdne144963:0
+  name: crwdns144965:0crwdne144965:0
+  none: crwdns144967:0crwdne144967:0
+  now: crwdns144969:0crwdne144969:0
+  ok: crwdns144971:0crwdne144971:0
+  or: crwdns144973:0crwdne144973:0
+  openLinkInNewTab: crwdns144975:0crwdne144975:0
+  save: crwdns144977:0crwdne144977:0
+  saveAndClose: crwdns144979:0crwdne144979:0
+  clone: crwdns144981:0crwdne144981:0
+  today: crwdns144983:0crwdne144983:0
+  urlPlaceholder: crwdns144985:0crwdne144985:0
+  default: crwdns144987:0crwdne144987:0
+  report:
+    single: crwdns144989:0crwdne144989:0
+    plural: crwdns144991:0crwdne144991:0
+resourceList:
+  notFound: crwdns144993:0crwdne144993:0
+  noItems: crwdns144995:0crwdne144995:0
+  pagination:
+    next: crwdns144997:0crwdne144997:0
+    prev: crwdns144999:0crwdne144999:0
+    showing: 'crwdns145001:0{{from}}crwdnd145001:0{{to}}crwdnd145001:0{{count}}crwdnd145001:0{{data}}crwdne145001:0'
+    single_one: 'crwdns145003:0{{data}}crwdne145003:0'
+    single_other: 'crwdns145005:0{{count}}crwdnd145005:0{{data}}crwdne145005:0'
+    recordsPerPage: crwdns145007:0crwdne145007:0
+  clone: crwdns145009:0crwdne145009:0
+themes:
+  labels:
+    light: crwdns145011:0crwdne145011:0
+    dark: crwdns145013:0crwdne145013:0
+cloneSuffix: crwdns145015:0crwdne145015:0
+extendSession:
+  labels:
+    extend: crwdns145017:0crwdne145017:0
+    warning: crwdns145019:0{{ countdownTime }}crwdne145019:0
