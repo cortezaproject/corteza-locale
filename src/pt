@@ -1,23 +1,76 @@
-title: Notifications
-empty: No notifications
-emptyDescription: You will see notifications here when they arrive
-markAllAsRead: Mark all as read
-markAsRead: Mark as read
-delete: Delete
-all: All
-unread: Unread
-read: Read
-success: Success
-allMarkedAsRead: All notifications have been marked as read
-notificationDeleted: Notification has been deleted
-loadMore: Load More
-recordRedirectError: Error navigating to record
-mute: Mute notifications
-unmute: Unmute notifications
-muted: Notifications muted
-unmuted: Notifications unmuted
-markAllAsReadError: Error marking all notifications as read
-notificationDeletedError: Error deleting notification
-namespaceNotFound: Namespace not found
-pageNotFound: Page not found
-recordNotFound: Record not found
+comments:
+  enter: Enter comment...
+  label: Comments
+  sort:
+    first:
+      newest: Newest first
+      oldest: Oldest first
+  submit: Submit
+  unknown:
+    date: Unknown date
+    user: Unknown user
+kind:
+  correct: Correction Request
+  delete: Deletion Request
+  export: Export Request
+status:
+  canceled: Canceled
+  pending: Pending
+  rejected: Rejected
+  approved: Approved
+list:
+  title: Privacy Requests
+  export: Export
+  columns:
+    kind: Type
+    requestedAt: Requested at
+    requestedBy: Requested by
+    status: Status
+  request:
+    approve: Approve Requests
+    cancel: Cancel Request
+    reject: Reject Requests
+edit:
+  correct:
+    private-fields: Private Fields
+    no-data-available: No data available
+    submit: Submit Correction Request
+    connection:
+      label: Connection
+      placeholder: Select a Connection
+  delete:
+    private-fields: Private Fields
+    no-data-available: No data available
+    submit: Delete Selected Data
+    connection:
+      label: Connection
+      placeholder: Select a Connection
+  export:
+    submit: Export Selected Data
+    data-type:
+      label: Data Type to export
+      profile-information: Profile Information
+      application-data: Application Data
+    date-range:
+      label: Date Range
+      all: All of my data
+    file-format:
+      label: File Format
+      json: JSON
+      csv: CSV
+view:
+  approve: Approve request
+  cancel: Cancel request
+  reject: Reject request
+  export:
+    data-type:
+      label: Data Type to export
+      profile-information: Profile Information
+      application-data: Application Data
+    date-range:
+      label: Date Range
+      all: All of my data
+    file-format:
+      label: File Format
+      json: JSON
+      csv: CSV
