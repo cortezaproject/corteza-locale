@@ -1,22 +1,18 @@
 template:
-  title: Security
-  password:
-    title: Password
-    change-link: Change your password
-  mfa:
-    title: Multi-factor authentication
-    totp:
-      title: Additional security with mobile app (time-based one-time-password)
-      enforced: Configured and required on login
-      disabled: Currently disabled
-      configure: Configure
-      disable: Disable
-    email:
-      title: Additional security with one-time-password over email
-      enforced: Enabled and required on login
-      disabled: Currently disabled
-      enable: Configure
-      disable: Disable
-    all-disabled: All MFA methods are currently disabled. Ask your administrator to enable them.
+  title: Your session
+  list:
+    current: Current session
+    authorized-on: Authorized on
+    same-machine: This machine
+    ip-address: IP Address
+    same-browser: This browser
+    browser: Browser
+    expires: Expires
+    expired: Expired
+    today: Today
+    tomorrow: In 1 day
+    soon: In {{days}} days
+  delete-all: Logout from everywhere
 alerts:
-  topt-disabled: Two factor authentication with TOTP disabled
+  session-deleted: Session deleted
+  delete-sessions-but-current: All but current login sessions deleted
