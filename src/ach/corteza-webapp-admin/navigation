@@ -1,0 +1,41 @@
+dashboard: crwdns112119:0crwdne112119:0
+system:
+  group: crwdns112121:0crwdne112121:0
+  items:
+    users: crwdns112123:0crwdne112123:0
+    actionlog: crwdns112125:0crwdne112125:0
+    apigw: crwdns112127:0crwdne112127:0
+    applications: crwdns112129:0crwdne112129:0
+    authclients: crwdns112131:0crwdne112131:0
+    connections: crwdns112133:0crwdne112133:0
+    code-snippets: crwdns112135:0crwdne112135:0
+    sensitivityLevel: crwdns112137:0crwdne112137:0
+    permissions: crwdns112139:0crwdne112139:0
+    queues: crwdns112141:0crwdne112141:0
+    roles: crwdns112143:0crwdne112143:0
+    settings: crwdns112145:0crwdne112145:0
+    email: crwdns112147:0crwdne112147:0
+    stats: crwdns112149:0crwdne112149:0
+    templates: crwdns112151:0crwdne112151:0
+compose:
+  group: crwdns112153:0crwdne112153:0
+  items:
+    automation: crwdns112155:0crwdne112155:0
+    permissions: crwdns112157:0crwdne112157:0
+    settings: crwdns112159:0crwdne112159:0
+automation:
+  group: crwdns112161:0crwdne112161:0
+  items:
+    permissions: crwdns112163:0crwdne112163:0
+    scripts: crwdns112165:0crwdne112165:0
+    sessions: crwdns112167:0crwdne112167:0
+    workflows: crwdns112169:0crwdne112169:0
+federation:
+  group: crwdns112171:0crwdne112171:0
+  items:
+    nodes: crwdns112173:0crwdne112173:0
+    permissions: crwdns112175:0crwdne112175:0
+ui:
+  group: crwdns112177:0crwdne112177:0
+  items:
+    settings: crwdns112179:0crwdne112179:0
