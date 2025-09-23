@@ -1,104 +1,17 @@
 editor:
-  info:
-    add: crwdns138423:0crwdne138423:0
-    api: crwdns138425:0crwdne138425:0
-    choose-date: crwdns138427:0crwdne138427:0
-    createdAt: crwdns138429:0crwdne138429:0
-    createdBy: crwdns138431:0crwdne138431:0
-    delete: crwdns138433:0crwdne138433:0
-    deletedAt: crwdns138435:0crwdne138435:0
-    enabled:
-      disabledFootnote: crwdns138437:0crwdne138437:0
-      label: crwdns138439:0crwdne138439:0
-    expiresAt:
-      description: crwdns138441:0crwdne138441:0
-      label: crwdns138443:0crwdne138443:0
-    grant:
-      authorization_code: crwdns138445:0crwdne138445:0
-      client_credentials: crwdns138447:0crwdne138447:0
-    handle:
-      disabledFootnote: crwdns138449:0crwdne138449:0
-      label: crwdns138451:0crwdne138451:0
-      placeholder-handle: crwdns138453:0crwdne138453:0
-      invalid-handle-characters: crwdns138455:0crwdne138455:0
-    name: crwdns138457:0crwdne138457:0
-    no-time: crwdns138459:0crwdne138459:0
-    profile: crwdns138461:0crwdne138461:0
-    redirectURI: crwdns138463:0crwdne138463:0
-    remove: crwdns138465:0crwdne138465:0
-    secret: crwdns138467:0crwdne138467:0
-    security:
-      prohibitedRoles:
-        description: crwdns138469:0crwdne138469:0
-        label: crwdns138471:0crwdne138471:0
-      forcedRoles:
-        description: crwdns138473:0crwdne138473:0
-        label: crwdns138475:0crwdne138475:0
-      impersonateUser:
-        description: crwdns138477:0crwdne138477:0
-        placeholder: crwdns138479:0crwdne138479:0
-        label: crwdns138481:0crwdne138481:0
-      permittedRoles:
-        description: crwdns138483:0crwdne138483:0
-        label: crwdns138485:0crwdne138485:0
-    title: crwdns138487:0crwdne138487:0
-    tooltip:
-      regenerate-secret: crwdns138489:0crwdne138489:0
-      reset-value: crwdns138491:0crwdne138491:0
-      show-client-secret: crwdns138493:0crwdne138493:0
-      hide-client-secret: crwdns138495:0crwdne138495:0
-      copy-access-token: crwdns138497:0crwdne138497:0
-      copy-cURL: crwdns138499:0crwdne138499:0
-    trusted:
-      description: crwdns138501:0crwdne138501:0
-      label: crwdns138503:0crwdne138503:0
-    undelete: crwdns138505:0crwdne138505:0
-    unnamed: crwdns138507:0crwdne138507:0
-    updatedAt: crwdns138509:0crwdne138509:0
-    uri: crwdns138511:0crwdne138511:0
-    validFrom:
-      description: crwdns138513:0crwdne138513:0
-      label: crwdns138515:0crwdne138515:0
-    cUrl: crwdns138517:0crwdne138517:0
-    accessToken: crwdns138519:0crwdne138519:0
-    generateAccessToken: crwdns138521:0crwdne138521:0
-    discovery: crwdns138523:0crwdne138523:0
-    openid: crwdns138525:0crwdne138525:0
-  new: crwdns138527:0crwdne138527:0
-  permissions: crwdns138529:0crwdne138529:0
-  title:
-    create: crwdns138531:0crwdne138531:0
-    edit: crwdns138533:0crwdne138533:0
-list:
-  columns:
-    actions: "crwdns138535:0crwdne138535:0"
-    createdAt: crwdns138537:0crwdne138537:0
-    enabled: crwdns138539:0crwdne138539:0
-    handle: crwdns138541:0crwdne138541:0
-    meta:
-      name: crwdns138543:0crwdne138543:0
-    state: crwdns138545:0crwdne138545:0
-  rows:
-    filters:
-      deleted: crwdns138547:0crwdne138547:0
-  filterForm:
-    deleted:
-      label: crwdns138549:0crwdne138549:0
-    excluded:
-      label: crwdns138551:0crwdne138551:0
-    exclusive:
-      label: crwdns138553:0crwdne138553:0
-    inclusive:
-      label: crwdns138555:0crwdne138555:0
-    query:
-      label: crwdns138557:0crwdne138557:0
-      placeholder: crwdns138559:0crwdne138559:0
-  loading: crwdns138561:0crwdne138561:0
-  new: crwdns138563:0crwdne138563:0
-  numFound: 'crwdns138565:0{{count}}crwdne138565:0'
-  numFound_plural: 'crwdns138567:0{{count}}crwdne138567:0'
-  permissions: crwdns138569:0crwdne138569:0
-  title: crwdns138571:0crwdne138571:0
-  yaml: crwdns138573:0crwdne138573:0
-  delete: crwdns138575:0crwdne138575:0
-  undelete: crwdns138577:0crwdne138577:0
+  title: crwdns138579:0crwdne138579:0
+  code-snippets:
+    add: crwdns138581:0crwdne138581:0
+    empty: crwdns138583:0crwdne138583:0
+    enabled: crwdns138585:0crwdne138585:0
+    table-headers:
+      name: crwdns138587:0crwdne138587:0
+      enabled: crwdns138589:0crwdne138589:0
+      script: crwdns138591:0crwdne138591:0
+    form:
+      title: crwdns138593:0crwdne138593:0
+      name:
+        label: crwdns138595:0crwdne138595:0
+      code:
+        label: crwdns138597:0crwdne138597:0
+        description: crwdns138599:0crwdne138599:0
