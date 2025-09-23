@@ -1,60 +1,6 @@
-editor:
-  info:
-    createdAt: crwdns136299:0crwdne136299:0
-    createdBy: crwdns136301:0crwdne136301:0
-    delete: crwdns136303:0crwdne136303:0
-    deletedAt: crwdns136305:0crwdne136305:0
-    enabled: crwdns136307:0crwdne136307:0
-    handle: crwdns136309:0crwdne136309:0
-    invalid-handle-characters: crwdns136311:0crwdne136311:0
-    id: crwdns136313:0crwdne136313:0
-    name: crwdns136315:0crwdne136315:0
-    openBuilder: crwdns136317:0crwdne136317:0
-    title: crwdns136319:0crwdne136319:0
-    undelete: crwdns136321:0crwdne136321:0
-    updatedAt: crwdns136323:0crwdne136323:0
-  new: crwdns136325:0crwdne136325:0
-  permissions: crwdns136327:0crwdne136327:0
-  title:
-    create: crwdns136329:0crwdne136329:0
-    edit: crwdns136331:0crwdne136331:0
-  triggers:
-    and: crwdns136333:0crwdne136333:0
-    columns:
-      constraints: crwdns136335:0crwdne136335:0
-      eventType: crwdns136337:0crwdne136337:0
-      resourceType: crwdns136339:0crwdne136339:0
-    title: crwdns136341:0crwdne136341:0
 list:
   columns:
-    actions: "crwdns136343:0crwdne136343:0"
-    createdAt: crwdns136345:0crwdne136345:0
-    enabled: crwdns136347:0crwdne136347:0
-    handle: crwdns136349:0crwdne136349:0
-    name: crwdns136351:0crwdne136351:0
-    state: crwdns136353:0crwdne136353:0
-  delete: crwdns136355:0crwdne136355:0
-  undelete: crwdns136357:0crwdne136357:0
-  export: crwdns136359:0crwdne136359:0
-  rows:
-    filters:
-      deleted: crwdns136361:0crwdne136361:0
-  filterForm:
-    deleted:
-      label: crwdns136363:0crwdne136363:0
-    excluded:
-      label: crwdns136365:0crwdne136365:0
-    exclusive:
-      label: crwdns136367:0crwdne136367:0
-    inclusive:
-      label: crwdns136369:0crwdne136369:0
-    query:
-      label: crwdns136371:0crwdne136371:0
-      placeholder: crwdns136373:0crwdne136373:0
-  loading: crwdns136375:0crwdne136375:0
-  new: crwdns136377:0crwdne136377:0
-  numFound: 'crwdns136379:0{{count}}crwdne136379:0'
-  numFound_plural: 'crwdns136381:0{{count}}crwdne136381:0'
-  permissions: crwdns136383:0crwdne136383:0
-  title: crwdns136385:0crwdne136385:0
-  yaml: crwdns136387:0crwdne136387:0
+    events: crwdns136389:0crwdne136389:0
+    label: crwdns136391:0crwdne136391:0
+    name: crwdns136393:0crwdne136393:0
+  title: crwdns136395:0crwdne136395:0
