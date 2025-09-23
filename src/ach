@@ -1,23 +1,28 @@
-title: crwdns143189:0crwdne143189:0
-empty: crwdns143191:0crwdne143191:0
-emptyDescription: crwdns143193:0crwdne143193:0
-markAllAsRead: crwdns143195:0crwdne143195:0
-markAsRead: crwdns143197:0crwdne143197:0
-delete: crwdns143199:0crwdne143199:0
-all: crwdns143201:0crwdne143201:0
-unread: crwdns143203:0crwdne143203:0
-read: crwdns143205:0crwdne143205:0
-success: crwdns143207:0crwdne143207:0
-allMarkedAsRead: crwdns143209:0crwdne143209:0
-notificationDeleted: crwdns143211:0crwdne143211:0
-loadMore: crwdns143213:0crwdne143213:0
-recordRedirectError: crwdns143215:0crwdne143215:0
-mute: crwdns143217:0crwdne143217:0
-unmute: crwdns143219:0crwdne143219:0
-muted: crwdns143221:0crwdne143221:0
-unmuted: crwdns143223:0crwdne143223:0
-markAllAsReadError: crwdns143225:0crwdne143225:0
-notificationDeletedError: crwdns143227:0crwdne143227:0
-namespaceNotFound: crwdns143229:0crwdne143229:0
-pageNotFound: crwdns143231:0crwdne143231:0
-recordNotFound: crwdns143233:0crwdne143233:0
+message:
+  noPages: crwdns143235:0crwdne143235:0
+  notifyAdministrator: crwdns143237:0crwdne143237:0
+  startBuilding: crwdns143239:0crwdne143239:0
+label:
+  pageBuilder: crwdns143241:0crwdne143241:0
+  welcome: crwdns143243:0crwdne143243:0
+navigation:
+  noPageTitle: crwdns143245:0crwdne143245:0
+notification:
+  module:
+    createFailed: crwdns143247:0crwdne143247:0
+    saveFailed: crwdns143249:0crwdne143249:0
+step:
+  chart:
+    create: crwdns143251:0crwdne143251:0
+    view: crwdns143253:0crwdne143253:0
+  module:
+    create: crwdns143255:0crwdne143255:0
+    view: crwdns143257:0crwdne143257:0
+  optional: crwdns143259:0crwdne143259:0
+  page:
+    create: crwdns143261:0crwdne143261:0
+    view: crwdns143263:0crwdne143263:0
+tooltip:
+  page-configuration:
+    edit: crwdns143265:0crwdne143265:0
+    list: crwdns143267:0crwdne143267:0
