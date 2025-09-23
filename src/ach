@@ -1,3 +1,30 @@
-no-applications: crwdns144089:0crwdne144089:0
-no-applications-found: crwdns144091:0crwdne144091:0
-search: crwdns144093:0crwdne144093:0
+adminPanel: crwdns144095:0crwdne144095:0
+automation: crwdns144097:0crwdne144097:0
+chart: crwdns144099:0crwdne144099:0
+configuration: crwdns144101:0crwdne144101:0
+help:
+  documentation: crwdns144103:0crwdne144103:0
+  feedback: crwdns144105:0crwdne144105:0
+  forum: crwdns144107:0crwdne144107:0
+  version: 'crwdns144109:0crwdne144109:0'
+module: crwdns144111:0crwdne144111:0
+more: crwdns144113:0crwdne144113:0
+namespace: crwdns144115:0crwdne144115:0
+noPageTitle: crwdns144117:0crwdne144117:0
+page: crwdns144119:0crwdne144119:0
+publicPages: crwdns144121:0crwdne144121:0
+appMenu: crwdns144123:0crwdne144123:0
+userSettings:
+  changePassword: crwdns144125:0crwdne144125:0
+  loggedInAs: crwdns144127:0{{user}}crwdne144127:0
+  logout: crwdns144129:0crwdne144129:0
+  profile: crwdns144131:0crwdne144131:0
+  theme: crwdns144133:0crwdne144133:0
+themes:
+  labels:
+    light: crwdns144135:0crwdne144135:0
+    dark: crwdns144137:0crwdne144137:0
+extendSession:
+  labels:
+    extend: crwdns144139:0crwdne144139:0
+    warning: crwdns144141:0{{ countdownTime }}crwdne144141:0
