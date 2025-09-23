@@ -1,0 +1,11 @@
+list:
+  title: crwdns119749:0crwdne119749:0
+  columns:
+    module: crwdns119751:0crwdne119751:0
+    namespace: crwdns119753:0crwdne119753:0
+    connection: crwdns119755:0crwdne119755:0
+    location: crwdns119757:0crwdne119757:0
+    ownership: crwdns119759:0crwdne119759:0
+  module:
+    enable: crwdns119761:0crwdne119761:0
+    disable: crwdns119763:0crwdne119763:0
