@@ -1,22 +1,191 @@
-automation: crwdns142853:0crwdne142853:0
-chart: crwdns142855:0crwdne142855:0
-configuration: crwdns142857:0crwdne142857:0
-editPage: crwdns142859:0crwdne142859:0
-help:
-  documentation: crwdns142861:0crwdne142861:0
-  feedback: crwdns142863:0crwdne142863:0
-  forum: crwdns142865:0crwdne142865:0
-  version: 'crwdns142867:0crwdne142867:0'
-module: crwdns142869:0crwdne142869:0
-more: crwdns142871:0crwdne142871:0
-namespace: crwdns142873:0crwdne142873:0
-noPageTitle: crwdns142875:0crwdne142875:0
-page: crwdns142877:0crwdne142877:0
-appMenu: crwdns142879:0crwdne142879:0
-userSettings:
-  changePassword: crwdns142881:0crwdne142881:0
-  loggedInAs: crwdns142883:0{{user}}crwdne142883:0
-  logout: crwdns142885:0crwdne142885:0
-  profile: crwdns142887:0crwdne142887:0
-  theme: crwdns142889:0crwdne142889:0
-viewPage: crwdns142891:0crwdne142891:0
+automation:
+  scriptFailed: crwdns142893:0crwdne142893:0
+chart:
+  created: crwdns142895:0crwdne142895:0
+  createFailed: crwdns142897:0crwdne142897:0
+  deleteFailed: crwdns142899:0crwdne142899:0
+  deleted: crwdns142901:0crwdne142901:0
+  invalidConfig:
+    missingDimensionsField: crwdns142903:0crwdne142903:0
+    missingDimensionsModifier: crwdns142905:0crwdne142905:0
+    missingDimensionsSteps: crwdns142907:0crwdne142907:0
+    missingMetricsAggregate: crwdns142909:0crwdne142909:0
+    missingMetricsField: crwdns142911:0crwdne142911:0
+    missingMetricsType: crwdns142913:0crwdne142913:0
+    missingModuleID: crwdns142915:0crwdne142915:0
+    missingReports: crwdns142917:0crwdne142917:0
+  loadFailed: crwdns142919:0crwdne142919:0
+  optionsBuildFailed: crwdns142921:0crwdne142921:0
+  updateFailed: crwdns142923:0crwdne142923:0
+  updated: crwdns142925:0crwdne142925:0
+  unsupportedRenderer: crwdns142927:0crwdne142927:0
+  colorScheme:
+    fetch:
+      failed: crwdns142929:0crwdne142929:0
+    create:
+      success: crwdns142931:0crwdne142931:0
+      failed: crwdns142933:0crwdne142933:0
+    update:
+      success: crwdns142935:0crwdne142935:0
+      failed: crwdns142937:0crwdne142937:0
+    delete:
+      success: crwdns142939:0crwdne142939:0
+      failed: crwdns142941:0crwdne142941:0
+color:
+  RGBA:
+    invalid: crwdns142943:0crwdne142943:0
+field:
+  missingRequired: crwdns142945:0crwdne142945:0
+  unknownFieldKind: 'crwdns142947:0{{kind}}crwdne142947:0'
+  unsupportedKind: crwdns142949:0{{kind}}crwdne142949:0
+field-datetime:
+  valueNotFuture: crwdns142951:0crwdne142951:0
+  valueNotPast: crwdns142953:0crwdne142953:0
+field-geometry:
+  geolocationErrors:
+    permissionDenied: crwdns142955:0crwdne142955:0
+    positionUnavailable: crwdns142957:0crwdne142957:0
+    timeout: crwdns142959:0crwdne142959:0
+    unknownError: crwdns142961:0crwdne142961:0
+    notSupported: crwdns142963:0crwdne142963:0
+    errorOccurred: crwdns142965:0crwdne142965:0
+    locationSearchFailed: crwdns142967:0crwdne142967:0
+general:
+  composeAccessNotAllowed: crwdns142969:0crwdne142969:0
+  error: crwdns142971:0crwdne142971:0
+  success: crwdns142973:0crwdne142973:0
+  warning: crwdns142975:0crwdne142975:0
+  info: crwdns142977:0crwdne142977:0
+  import:
+    failed: crwdns142979:0crwdne142979:0
+    readingError: crwdns142981:0crwdne142981:0
+    successful: crwdns142983:0crwdne142983:0
+    typeMissmatch: 'crwdns142985:0{{type1}}crwdnd142985:0{{type2}}crwdne142985:0'
+list:
+  load:
+    error: crwdns142987:0crwdne142987:0
+module:
+  created: crwdns142989:0crwdne142989:0
+  createFailed: crwdns142991:0crwdne142991:0
+  deleteFailed: crwdns142993:0crwdne142993:0
+  deleted: crwdns142995:0crwdne142995:0
+  loadFailed: crwdns142997:0crwdne142997:0
+  saveFailed: crwdns142999:0crwdne142999:0
+  saved: crwdns143001:0crwdne143001:0
+  columns:
+    saved: crwdns143003:0crwdne143003:0
+    saveFailed: crwdns143005:0crwdne143005:0
+  recordPage:
+    createFailed: crwdns143007:0crwdne143007:0
+  schemaAlterations:
+    load:
+      error: crwdns143009:0crwdne143009:0
+    resolve:
+      success: crwdns143011:0crwdne143011:0
+      error: crwdns143013:0crwdne143013:0
+    dismiss:
+      success: crwdns143015:0crwdne143015:0
+      error: crwdns143017:0crwdne143017:0
+namespace:
+  application:
+    createFailed: crwdns143019:0crwdne143019:0
+    fetchFailed: crwdns143021:0crwdne143021:0
+    saveFailed: crwdns143023:0crwdne143023:0
+  assetUploadFailed: crwdns143025:0crwdne143025:0
+  createFailed: crwdns143027:0crwdne143027:0
+  deleted: crwdns143029:0crwdne143029:0
+  deleteFailed: crwdns143031:0crwdne143031:0
+  disabled: crwdns143033:0crwdne143033:0
+  saveFailed: crwdns143035:0crwdne143035:0
+  saved: crwdns143037:0crwdne143037:0
+  cloned: crwdns143039:0crwdne143039:0
+  cloneFailed: crwdns143041:0crwdne143041:0
+  imported: crwdns143043:0crwdne143043:0
+  importFailed: crwdns143045:0crwdne143045:0
+  loadFailed: crwdns143047:0crwdne143047:0
+page:
+  block:
+    calendar:
+      eventFetchFailed: crwdns143049:0crwdne143049:0
+  notFound: crwdns143051:0crwdne143051:0
+  createFailed: crwdns143053:0crwdne143053:0
+  cloneFailed: crwdns143055:0crwdne143055:0
+  deleteFailed: crwdns143057:0crwdne143057:0
+  iconFetchFailed: crwdns143059:0crwdne143059:0
+  iconDeleteFailed: crwdns143061:0crwdne143061:0
+  iconDeleteSuccess: crwdns143063:0crwdne143063:0
+  loadFailed: crwdns143065:0crwdne143065:0
+  listFailed: crwdns143067:0crwdne143067:0
+  noPages: crwdns143069:0crwdne143069:0
+  saveFailed: crwdns143071:0crwdne143071:0
+  saveFailedRequired: crwdns143073:0crwdne143073:0
+  saved: crwdns143075:0crwdne143075:0
+  deleted: crwdns143077:0crwdne143077:0
+  copySuccess: crwdns143079:0crwdne143079:0
+  cloneSuccess: crwdns143081:0crwdne143081:0
+  pasteSuccess: crwdns143083:0crwdne143083:0
+  duplicateFailed: crwdns143085:0crwdne143085:0
+  blockWaiting: crwdns143087:0crwdne143087:0
+  copyFailed: crwdns143089:0{{reason}}crwdne143089:0
+  invalidBlock: crwdns143091:0crwdne143091:0
+  page-layout:
+    notFound:
+      edit: crwdns143093:0crwdne143093:0
+      view: crwdns143095:0crwdne143095:0
+    save:
+      success: crwdns143097:0crwdne143097:0
+      failed: crwdns143099:0crwdne143099:0
+    clone:
+      success: crwdns143101:0crwdne143101:0
+      failed: crwdns143103:0crwdne143103:0
+    delete:
+      success: crwdns143105:0crwdne143105:0
+      failed: crwdns143107:0crwdne143107:0
+record:
+  createFailed: crwdns143109:0crwdne143109:0
+  createSuccess: crwdns143111:0crwdne143111:0
+  updateFailed: crwdns143113:0crwdne143113:0
+  updateSuccess: crwdns143115:0crwdne143115:0
+  deleteFailed: crwdns143117:0crwdne143117:0
+  deleteSuccess: crwdns143119:0crwdne143119:0
+  restoreFailed: crwdns143121:0crwdne143121:0
+  restoreSuccess: crwdns143123:0crwdne143123:0
+  deleteBulkFailed: crwdns143125:0crwdne143125:0
+  deleteBulkRecordUpdateFailed: crwdns143127:0crwdne143127:0
+  deleteBulkSuccess: crwdns143129:0crwdne143129:0
+  bulkRecordUpdateSuccess: crwdns143131:0crwdne143131:0
+  restoreBulkFailed: crwdns143133:0crwdne143133:0
+  restoreBulkSuccess: crwdns143135:0crwdne143135:0
+  invalidOwnerVar: crwdns143137:0${ownerID}crwdne143137:0
+  invalidRecordVar: crwdns143139:0${record...}crwdne143139:0
+  listLoadFailed: crwdns143141:0crwdne143141:0
+  loadFailed: crwdns143143:0crwdne143143:0
+  countFailed: crwdns143145:0crwdne143145:0
+  moduleMismatch: crwdns143147:0crwdne143147:0
+  moduleNotDefined: crwdns143149:0crwdne143149:0
+  moduleOrPageNotSet: 'crwdns143151:0crwdne143151:0'
+  unexpectedInput: crwdns143153:0crwdne143153:0
+  unexpectedValue: crwdns143155:0{{type}}crwdne143155:0
+  validationErrors: 'crwdns143157:0{{fields}}crwdne143157:0'
+  validationWarnings: 'crwdns143159:0{{fields}}crwdne143159:0'
+  staleDataRefresh: crwdns143161:0crwdne143161:0
+  fieldConditions:
+    failed: crwdns143163:0crwdne143163:0
+record-list:
+  corrupted-filter: crwdns143165:0crwdne143165:0
+  corrupted-summaries: crwdns143167:0crwdne143167:0
+  corrupted-configured-fields: crwdns143169:0crwdne143169:0
+  incorrect-filter-structure: crwdns143171:0{{filterID}}crwdne143171:0
+report:
+  listFetchFailed: crwdns143173:0crwdne143173:0
+  fetchFailed: crwdns143175:0crwdne143175:0
+  runFailed: crwdns143177:0crwdne143177:0
+translations:
+  saved: crwdns143179:0crwdne143179:0
+  saveFailed: crwdns143181:0crwdne143181:0
+connection:
+  read-failed: crwdns143183:0crwdne143183:0
+sensitivity-level:
+  fetch-failed: crwdns143185:0crwdne143185:0
+evaluate:
+  failed: crwdns143187:0crwdne143187:0
