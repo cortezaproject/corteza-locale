@@ -1,9 +1,14 @@
 errors:
-  failedToExtractMimeType: crwdns135641:0crwdne135641:0
-  failedToProcessImage: crwdns135643:0crwdne135643:0
-  failedToStoreFile: crwdns135645:0crwdne135645:0
-  invalidID: crwdns135647:0crwdne135647:0
-  notAllowedToCreate: crwdns135649:0crwdne135649:0
-  notAllowedToCreateEmptyAttachment: crwdns135651:0crwdne135651:0
-  notAllowedToListAttachments: crwdns135653:0crwdne135653:0
-  notFound: crwdns135655:0crwdne135655:0
+  invalidID: crwdns135657:0crwdne135657:0
+  notAllowedToCreate: crwdns135659:0crwdne135659:0
+  notAllowedToDelete: crwdns135661:0crwdne135661:0
+  notAllowedToRead: crwdns135663:0crwdne135663:0
+  notAllowedToSearch: crwdns135665:0crwdne135665:0
+  notAllowedToUndelete: crwdns135667:0crwdne135667:0
+  notAllowedToUpdate: crwdns135669:0crwdne135669:0
+  notFound: crwdns135671:0crwdne135671:0
+  unableToChangeDefaultClientHandle: crwdns135673:0crwdne135673:0
+  unableToDeleteDefaultClient: crwdns135675:0crwdne135675:0
+  unableToDisableDefaultClient: crwdns135677:0crwdne135677:0
+  unknownGrantType: crwdns135679:0crwdne135679:0
+  unknownScope: crwdns135681:0crwdne135681:0
