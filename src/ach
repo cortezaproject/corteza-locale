@@ -1,1 +1,9 @@
-name: crwdns134797:0crwdne134797:0
+template:
+  title: crwdns134799:0crwdne134799:0
+  list:
+    authorized-on: crwdns134801:0crwdne134801:0
+    buttons:
+      revoke: crwdns134803:0crwdne134803:0
+    empty: crwdns134805:0crwdne134805:0
+alerts:
+  removed: crwdns134807:0crwdne134807:0
