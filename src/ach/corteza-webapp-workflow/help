@@ -1,0 +1,37 @@
+'basic-controls':
+  action:
+    deselect: crwdns120705:0crwdne120705:0
+    pan: crwdns120707:0crwdne120707:0
+    select: crwdns120709:0crwdne120709:0
+    'select-multiple': crwdns120711:0crwdne120711:0
+    'zoom-in/out': crwdns120713:0crwdne120713:0
+  shortcut:
+    'left-click':
+      background: crwdns120715:0crwdne120715:0
+      drag: crwdns120717:0crwdne120717:0
+      label: crwdns120719:0crwdne120719:0
+    'mouse-wheel': crwdns120721:0crwdne120721:0
+    'right-click-drag': crwdns120723:0crwdne120723:0
+'basic-controls-label': crwdns120725:0crwdne120725:0
+'keyboard-shortcuts':
+  action:
+    'add-selection': crwdns120727:0crwdne120727:0
+    copy: crwdns120729:0crwdne120729:0
+    cut: crwdns120731:0crwdne120731:0
+    'delete-selected-elements': crwdns120733:0crwdne120733:0
+    nudge: crwdns120735:0crwdne120735:0
+    paste: crwdns120737:0crwdne120737:0
+    redo: crwdns120739:0crwdne120739:0
+    save: crwdns120741:0crwdne120741:0
+    'hide-guides': crwdns120743:0crwdne120743:0
+    'show-help': crwdns120745:0crwdne120745:0
+    'reset-view-to-start-point': crwdns120747:0crwdne120747:0
+    'select-all': crwdns120749:0crwdne120749:0
+    undo: crwdns120751:0crwdne120751:0
+  shortcut:
+    'adjust-distance': crwdns120753:0crwdne120753:0
+    'arrow-keys': crwdns120755:0crwdne120755:0
+    hold: crwdns120757:0crwdne120757:0
+    'left-mouse-button': crwdns120759:0crwdne120759:0
+'keyboard-shortcuts-label': crwdns120761:0crwdne120761:0
+'mac-users': crwdns120763:0crwdne120763:0
