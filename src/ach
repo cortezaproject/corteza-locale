@@ -1,12 +1,15 @@
 errors:
-  invalidConfiguration: crwdns135841:0crwdne135841:0
-  invalidID: crwdns135843:0crwdne135843:0
-  notAllowedToCreate: crwdns135845:0crwdne135845:0
-  notAllowedToDelete: crwdns135847:0crwdne135847:0
-  notAllowedToListReports: crwdns135849:0crwdne135849:0
-  notAllowedToRead: crwdns135851:0crwdne135851:0
-  notAllowedToRun: crwdns135853:0crwdne135853:0
-  notAllowedToSearch: crwdns135855:0crwdne135855:0
-  notAllowedToUndelete: crwdns135857:0crwdne135857:0
-  notAllowedToUpdate: crwdns135859:0crwdne135859:0
-  notFound: crwdns135861:0crwdne135861:0
+  handleNotUnique: crwdns135863:0crwdne135863:0
+  invalidHandle: crwdns135865:0crwdne135865:0
+  invalidID: crwdns135867:0crwdne135867:0
+  nameNotUnique: crwdns135869:0crwdne135869:0
+  notAllowedToArchive: crwdns135871:0crwdne135871:0
+  notAllowedToCreate: crwdns135873:0crwdne135873:0
+  notAllowedToDelete: crwdns135875:0crwdne135875:0
+  notAllowedToManageMembers: crwdns135877:0crwdne135877:0
+  notAllowedToRead: crwdns135879:0crwdne135879:0
+  notAllowedToSearch: crwdns135881:0crwdne135881:0
+  notAllowedToUnarchive: crwdns135883:0crwdne135883:0
+  notAllowedToUndelete: crwdns135885:0crwdne135885:0
+  notAllowedToUpdate: crwdns135887:0crwdne135887:0
+  notFound: crwdns135889:0crwdne135889:0
