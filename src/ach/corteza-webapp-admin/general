@@ -1,0 +1,68 @@
+label:
+  add: crwdns125623:0crwdne125623:0
+  general:
+    yes: Yes
+    no: No
+  template:
+    single: crwdns125625:0crwdne125625:0
+    plural: crwdns125627:0crwdne125627:0
+  user:
+    single: crwdns125629:0crwdne125629:0
+    plural: crwdns125631:0crwdne125631:0
+  role:
+    single: crwdns125633:0crwdne125633:0
+    plural: crwdns125635:0crwdne125635:0
+  application:
+    single: crwdns125637:0crwdne125637:0
+    plural: crwdns125639:0crwdne125639:0
+  auth_client:
+    single: crwdns125641:0crwdne125641:0
+    plural: crwdns125643:0crwdne125643:0
+  queue:
+    single: crwdns125645:0crwdne125645:0
+    plural: crwdns125647:0crwdne125647:0
+  route:
+    single: crwdns125649:0crwdne125649:0
+    plural: crwdns125651:0crwdne125651:0
+  connection:
+    single: crwdns125653:0crwdne125653:0
+    plural: crwdns125655:0crwdne125655:0
+  sensitivity_level:
+    single: crwdns125657:0crwdne125657:0
+    plural: crwdns125659:0crwdne125659:0
+  session:
+    single: crwdns125661:0crwdne125661:0
+    plural: crwdns125663:0crwdne125663:0
+  workflow:
+    single: crwdns125665:0crwdne125665:0
+    plural: crwdns125667:0crwdne125667:0
+  plus-add: crwdns125669:0crwdne125669:0
+  clear: crwdns125671:0crwdne125671:0
+  all: crwdns125673:0crwdne125673:0
+  none: crwdns125675:0crwdne125675:0
+  now: crwdns125677:0crwdne125677:0
+  today: crwdns125679:0crwdne125679:0
+  routes: crwdns125681:0crwdne125681:0
+  requests: crwdns125683:0crwdne125683:0
+  refresh: crwdns125685:0crwdne125685:0
+  loadMore: crwdns125687:0crwdne125687:0
+  loading: crwdns125689:0crwdne125689:0
+  saveAndClose: crwdns125691:0crwdne125691:0
+  cancel: crwdns125693:0crwdne125693:0
+  submit: crwdns125695:0crwdne125695:0
+  delete: crwdns125697:0crwdne125697:0
+  undelete: crwdns125699:0crwdne125699:0
+  fileTypeNotAllowed: crwdns125701:0crwdne125701:0
+editor:
+  unsavedChanges: crwdns125703:0crwdne125703:0
+resourceList:
+  pagination:
+    recordsPerPage: crwdns125705:0crwdne125705:0
+themes:
+  labels:
+    light: crwdns125707:0crwdne125707:0
+    dark: crwdns125709:0crwdne125709:0
+extendSession:
+  labels:
+    extend: crwdns125711:0crwdne125711:0
+    warning: crwdns125713:0{{ countdownTime }}crwdne125713:0
