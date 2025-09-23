@@ -1,0 +1,145 @@
+editor:
+  title: crwdns114255:0crwdne114255:0
+  auth:
+    title: crwdns114257:0crwdne114257:0
+    url: crwdns114259:0crwdne114259:0
+    internal:
+      title: crwdns114261:0crwdne114261:0
+      enabled: crwdns114263:0crwdne114263:0
+      password-reset:
+        enabled: crwdns114265:0crwdne114265:0
+      password-constraints:
+        title: crwdns114267:0crwdne114267:0
+        ignored-security: crwdns114269:0crwdne114269:0
+        min-length: crwdns114271:0crwdne114271:0
+        min-length-description: crwdns114273:0crwdne114273:0
+        min-num-count: crwdns114275:0crwdne114275:0
+        min-num-count-description: crwdns114277:0crwdne114277:0
+        min-special-count: crwdns114279:0crwdne114279:0
+        min-special-count-description: crwdns114281:0crwdne114281:0
+        min-upper-case-length: crwdns114283:0crwdne114283:0
+        min-upper-case-description: crwdns114285:0crwdne114285:0
+        min-lower-case-length: crwdns114287:0crwdne114287:0
+        min-lower-case-description: crwdns114289:0crwdne114289:0
+      signup:
+        email-confirmation-required: crwdns114291:0crwdne114291:0
+        enabled: crwdns114293:0crwdne114293:0
+        split-credentials-check:
+          description: 'crwdns114295:0crwdne114295:0'
+          label: crwdns114297:0crwdne114297:0
+      profile-avatar:
+        enabled: crwdns114299:0crwdne114299:0
+      send-user-invite-email:
+        title: crwdns114301:0crwdne114301:0
+        enabled: crwdns114303:0crwdne114303:0
+        description: crwdns114305:0crwdne114305:0
+        expires:
+          label: crwdns114307:0crwdne114307:0
+          description: crwdns114309:0crwdne114309:0
+    mail:
+      title: crwdns114311:0crwdne114311:0
+      from-address: crwdns114313:0crwdne114313:0
+      from-name: crwdns114315:0crwdne114315:0
+      validate-email: crwdns114317:0crwdne114317:0
+    mfa:
+      title: crwdns114319:0crwdne114319:0
+      TOTP:
+        enabled: crwdns114321:0crwdne114321:0
+        enforced: crwdns114323:0crwdne114323:0
+        issuer:
+          description: crwdns114325:0crwdne114325:0
+          label: crwdns114327:0crwdne114327:0
+      emailOTP:
+        enabled: crwdns114329:0crwdne114329:0
+        enforced: crwdns114331:0crwdne114331:0
+        expires:
+          description: crwdns114333:0crwdne114333:0
+          label: crwdns114335:0crwdne114335:0
+    auto-logout:
+      title: crwdns114337:0crwdne114337:0
+      enabled:
+        label: crwdns114339:0crwdne114339:0
+        description: crwdns114341:0crwdne114341:0
+      timeout:
+        label: crwdns114343:0crwdne114343:0
+        description: crwdns114345:0crwdne114345:0
+  external:
+    title: crwdns114347:0crwdne114347:0
+    enabled: crwdns114349:0crwdne114349:0
+    table:
+      header:
+        enabled: crwdns114351:0crwdne114351:0
+        provider: crwdns114353:0crwdne114353:0
+        info: crwdns114355:0crwdne114355:0
+    standard:
+      enabled: crwdns114357:0crwdne114357:0
+      apiAccess: crwdns114359:0crwdne114359:0
+      clientKey: crwdns114361:0crwdne114361:0
+      clientSecret: crwdns114363:0crwdne114363:0
+    oidc:
+      add: crwdns114365:0crwdne114365:0
+      enabled: crwdns114367:0crwdne114367:0
+      handle: crwdns114369:0crwdne114369:0
+      title: crwdns114371:0crwdne114371:0
+      issuer: crwdns114373:0crwdne114373:0
+      issuerHint: crwdns114375:0crwdne114375:0
+      clientKey: crwdns114377:0crwdne114377:0
+      clientSecret: crwdns114379:0crwdne114379:0
+      scope: crwdns114381:0crwdne114381:0
+      scopePlaceholder: crwdns114383:0crwdne114383:0
+      scopeHint: crwdns114385:0crwdne114385:0
+    saml:
+      enabled: crwdns114387:0crwdne114387:0
+      title: crwdns114389:0crwdne114389:0
+      requests:
+        title: crwdns114391:0crwdne114391:0
+        sign-requests: crwdns114393:0crwdne114393:0
+        sign-method: crwdns114395:0crwdne114395:0
+        binding: crwdns114397:0crwdne114397:0
+        binding-redirect: crwdns114399:0crwdne114399:0
+        binding-post: crwdns114401:0crwdne114401:0
+      cert:
+        public: crwdns114403:0crwdne114403:0
+        private: crwdns114405:0crwdne114405:0
+      name: crwdns114407:0crwdne114407:0
+      certificate: crwdns114409:0crwdne114409:0
+      idp:
+        title: crwdns114411:0crwdne114411:0
+        ident-handle: crwdns114413:0crwdne114413:0
+        ident-identifier: crwdns114415:0crwdne114415:0
+        ident-name: crwdns114417:0crwdne114417:0
+        url: crwdns114419:0crwdne114419:0
+      desc:
+        name: crwdns114421:0crwdne114421:0
+        cert:
+          public: crwdns114423:0crwdne114423:0
+          private: crwdns114425:0crwdne114425:0
+        requests:
+          sign-requests: crwdns114427:0crwdne114427:0
+          sign-method: crwdns114429:0crwdne114429:0
+          binding: crwdns114431:0crwdne114431:0
+        idp:
+          url: crwdns114433:0crwdne114433:0
+          ident-handle: crwdns114435:0crwdne114435:0
+          ident-identifier: crwdns114437:0crwdne114437:0
+          ident-name: crwdns114439:0crwdne114439:0
+    security:
+      title: crwdns114441:0crwdne114441:0
+      prohibited-roles:
+        description: crwdns114443:0crwdne114443:0
+        label: crwdns114445:0crwdne114445:0
+      forced-roles:
+        description: crwdns114447:0crwdne114447:0
+        label: crwdns114449:0crwdne114449:0
+      permitted-roles:
+        description: crwdns114451:0crwdne114451:0
+        label: crwdns114453:0crwdne114453:0
+  bgScreen:
+    title: crwdns114455:0crwdne114455:0
+    image:
+      uploader:
+        label: crwdns114457:0crwdne114457:0
+        instructions: crwdns114459:0crwdne114459:0
+        uploading: crwdns114461:0crwdne114461:0
+      editor:
+        label: crwdns114463:0crwdne114463:0
