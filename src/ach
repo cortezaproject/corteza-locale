@@ -1,3 +1,10 @@
 errors:
-  nodeNotFound: crwdns135531:0crwdne135531:0
-  notFound: crwdns135533:0crwdne135533:0
+  notAllowedToCreate: crwdns135535:0crwdne135535:0
+  notAllowedToManage: crwdns135537:0crwdne135537:0
+  notAllowedToPair: crwdns135539:0crwdne135539:0
+  notAllowedToSearch: crwdns135541:0crwdne135541:0
+  notFound: crwdns135543:0crwdne135543:0
+  pairingTokenInvalid: crwdns135545:0crwdne135545:0
+  pairingURIInvalid: 'crwdns135547:0{err}crwdne135547:0'
+  pairingURISourceIDInvalid: crwdns135549:0crwdne135549:0
+  pairingURITokenInvalid: crwdns135551:0crwdne135551:0
