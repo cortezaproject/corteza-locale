@@ -1,16 +1,14 @@
-errors:
-  handleNotUnique: crwdns135275:0crwdne135275:0
-  invalidHandle: crwdns135277:0crwdne135277:0
-  invalidID: crwdns135279:0crwdne135279:0
-  invalidNamespaceID: crwdns135281:0crwdne135281:0
-  moduleNotFound: crwdns135283:0crwdne135283:0
-  namespaceNotFound: crwdns135285:0crwdne135285:0
-  notAllowedToCreate: crwdns135287:0crwdne135287:0
-  notAllowedToDelete: crwdns135289:0crwdne135289:0
-  notAllowedToRead: crwdns135291:0crwdne135291:0
-  notAllowedToReadNamespace: crwdns135293:0crwdne135293:0
-  notAllowedToSearch: crwdns135295:0crwdne135295:0
-  notAllowedToUndelete: crwdns135297:0crwdne135297:0
-  notAllowedToUpdate: crwdns135299:0crwdne135299:0
-  notFound: crwdns135301:0crwdne135301:0
-  staleData: crwdns135303:0crwdne135303:0
+system:
+  ID: crwdns135305:0crwdne135305:0
+  moduleID: crwdns135307:0crwdne135307:0
+  namespaceID: crwdns135309:0crwdne135309:0
+  revision: crwdns135311:0crwdne135311:0
+  meta: crwdns135313:0crwdne135313:0
+  recordID: crwdns135315:0crwdne135315:0
+  createdAt: crwdns135317:0crwdne135317:0
+  createdBy: crwdns135319:0crwdne135319:0
+  deletedAt: crwdns135321:0crwdne135321:0
+  deletedBy: crwdns135323:0crwdne135323:0
+  ownedBy: crwdns135325:0crwdne135325:0
+  updatedAt: crwdns135327:0crwdne135327:0
+  updatedBy: crwdns135329:0crwdne135329:0
