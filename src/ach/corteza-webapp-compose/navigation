@@ -1,0 +1,22 @@
+automation: crwdns118099:0crwdne118099:0
+chart: crwdns118101:0crwdne118101:0
+configuration: crwdns118103:0crwdne118103:0
+editPage: crwdns118105:0crwdne118105:0
+help:
+  documentation: crwdns118107:0crwdne118107:0
+  feedback: crwdns118109:0crwdne118109:0
+  forum: crwdns118111:0crwdne118111:0
+  version: 'crwdns118113:0crwdne118113:0'
+module: crwdns118115:0crwdne118115:0
+more: crwdns118117:0crwdne118117:0
+namespace: crwdns118119:0crwdne118119:0
+noPageTitle: crwdns118121:0crwdne118121:0
+page: crwdns118123:0crwdne118123:0
+appMenu: crwdns118125:0crwdne118125:0
+userSettings:
+  changePassword: crwdns118127:0crwdne118127:0
+  loggedInAs: crwdns118129:0{{user}}crwdne118129:0
+  logout: crwdns118131:0crwdne118131:0
+  profile: crwdns118133:0crwdne118133:0
+  theme: crwdns118135:0crwdne118135:0
+viewPage: crwdns118137:0crwdne118137:0
