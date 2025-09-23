@@ -1,0 +1,51 @@
+'configure-triggers': crwdns120789:0crwdne120789:0
+'confirm-unsaved-changes': crwdns120791:0crwdne120791:0
+error: "crwdns120793:0crwdne120793:0"
+'event-type-not-found': crwdns120795:0crwdne120795:0
+'event-type-fetch-failed': crwdns120797:0crwdne120797:0
+'failed-fetch-functions': crwdns120799:0crwdne120799:0
+'failed-fetch-triggers': crwdns120801:0crwdne120801:0
+'failed-fetch-workflow': crwdns120803:0crwdne120803:0
+'failed-fetch-workflows': crwdns120805:0crwdne120805:0
+'failed-load-file': crwdns120807:0crwdne120807:0
+'failed-save': crwdns120809:0crwdne120809:0
+'failed-test': crwdns120811:0crwdne120811:0
+'fetch-types-failed': crwdns120813:0crwdne120813:0
+general:
+  error: crwdns120815:0crwdne120815:0
+  success: crwdns120817:0crwdne120817:0
+  warning: crwdns120819:0crwdne120819:0
+  info: crwdns120821:0crwdne120821:0
+list:
+  load:
+    error: crwdns120823:0crwdne120823:0
+  enable:
+    success: crwdns120825:0crwdne120825:0
+    failed: crwdns120827:0crwdne120827:0
+  disable:
+    success: crwdns120829:0crwdne120829:0
+    failed: crwdns120831:0crwdne120831:0
+import:
+  'failed-import': crwdns120833:0crwdne120833:0
+  'imported-workflows': crwdns120835:0crwdne120835:0
+  'skipped-workflows': crwdns120837:0crwdne120837:0
+'imported-workflow': crwdns120839:0crwdne120839:0
+'import-failed': crwdns120841:0crwdne120841:0
+'initial-scope-load-failed': crwdns120843:0crwdne120843:0
+'resolve-issues': crwdns120845:0crwdne120845:0
+'save-workflow': crwdns120847:0crwdne120847:0
+'started-test': crwdns120849:0crwdne120849:0
+'test-completed': crwdns120851:0crwdne120851:0
+'test-in-progress': crwdns120853:0crwdne120853:0
+'trace-unavailable': crwdns120855:0crwdne120855:0
+'trigger-paths-changed': crwdns120857:0crwdne120857:0
+'workflow-test-completed': crwdns120859:0crwdne120859:0
+update:
+  success: crwdns120861:0crwdne120861:0
+  failed: crwdns120863:0crwdne120863:0
+delete:
+  success: crwdns120865:0crwdne120865:0
+  failed: crwdns120867:0crwdne120867:0
+undelete:
+  success: crwdns120869:0crwdne120869:0
+  failed: crwdns120871:0crwdne120871:0
