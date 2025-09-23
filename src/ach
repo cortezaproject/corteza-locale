@@ -1,19 +1,13 @@
-federated: crwdns143943:0crwdne143943:0
-no-values: crwdns143945:0crwdne143945:0
-label:
-  all: crwdns143947:0crwdne143947:0
-resourceList:
-  pagination:
-    recordsPerPage: crwdns143949:0crwdne143949:0
-themes:
-  labels:
-    light: crwdns143951:0crwdne143951:0
-    dark: crwdns143953:0crwdne143953:0
-extendSession:
-  labels:
-    extend: crwdns143955:0crwdne143955:0
-    warning: crwdns143957:0{{ countdownTime }}crwdne143957:0
-recordID: crwdns143959:0crwdne143959:0
-createdBy: crwdns143961:0crwdne143961:0
-createdAt: crwdns143963:0crwdne143963:0
-updatedAt: crwdns143965:0crwdne143965:0
+discovery: crwdns143967:0crwdne143967:0
+help:
+  documentation: crwdns143969:0crwdne143969:0
+  feedback: crwdns143971:0crwdne143971:0
+  forum: crwdns143973:0crwdne143973:0
+  version: 'crwdns143975:0crwdne143975:0'
+appMenu: crwdns143977:0crwdne143977:0
+userSettings:
+  changePassword: crwdns143979:0crwdne143979:0
+  loggedInAs: crwdns143981:0{{user}}crwdne143981:0
+  logout: crwdns143983:0crwdne143983:0
+  profile: crwdns143985:0crwdne143985:0
+  theme: crwdns143987:0crwdne143987:0
