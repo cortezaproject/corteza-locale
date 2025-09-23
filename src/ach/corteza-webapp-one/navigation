@@ -1,0 +1,30 @@
+adminPanel: crwdns119341:0crwdne119341:0
+automation: crwdns119343:0crwdne119343:0
+chart: crwdns119345:0crwdne119345:0
+configuration: crwdns119347:0crwdne119347:0
+help:
+  documentation: crwdns119349:0crwdne119349:0
+  feedback: crwdns119351:0crwdne119351:0
+  forum: crwdns119353:0crwdne119353:0
+  version: 'crwdns119355:0crwdne119355:0'
+module: crwdns119357:0crwdne119357:0
+more: crwdns119359:0crwdne119359:0
+namespace: crwdns119361:0crwdne119361:0
+noPageTitle: crwdns119363:0crwdne119363:0
+page: crwdns119365:0crwdne119365:0
+publicPages: crwdns119367:0crwdne119367:0
+appMenu: crwdns119369:0crwdne119369:0
+userSettings:
+  changePassword: crwdns119371:0crwdne119371:0
+  loggedInAs: crwdns119373:0{{user}}crwdne119373:0
+  logout: crwdns119375:0crwdne119375:0
+  profile: crwdns119377:0crwdne119377:0
+  theme: crwdns119379:0crwdne119379:0
+themes:
+  labels:
+    light: crwdns119381:0crwdne119381:0
+    dark: crwdns119383:0crwdne119383:0
+extendSession:
+  labels:
+    extend: crwdns119385:0crwdne119385:0
+    warning: crwdns119387:0{{ countdownTime }}crwdne119387:0
