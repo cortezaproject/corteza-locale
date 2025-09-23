@@ -1,10 +1,10 @@
 errors:
-  notAllowedToCreate: not allowed to create nodes
-  notAllowedToManage: not allowed to manage this node
-  notAllowedToPair: not allowed to pair this node
-  notAllowedToSearch: not allowed to search or list nodes
-  notFound: node does not exist
-  pairingTokenInvalid: pairing token invalid
-  pairingURIInvalid: 'pairing URI invalid: {err}'
-  pairingURISourceIDInvalid: pairing URI without source node ID
-  pairingURITokenInvalid: pairing URI with invalid pairing token
+  federationSyncStructureChanged: module structure changed
+  invalidID: invalid ID
+  nodeNotFound: node does not exist
+  notAllowedToCreate: not allowed to create modules
+  notAllowedToManage: not allowed to manage this module
+  notAllowedToMap: not allowed to map this module
+  notFound: module does not exist
+  notUnique: node not unique
+  staleData: stale data
