@@ -1,2 +1,8 @@
 errors:
-  notAllowedToSetPermissions: crwdns135153:0crwdne135153:0
+  invalidID: crwdns135155:0crwdne135155:0
+  notAllowedToDelete: crwdns135157:0crwdne135157:0
+  notAllowedToManage: crwdns135159:0crwdne135159:0
+  notAllowedToRead: crwdns135161:0crwdne135161:0
+  notAllowedToSearch: crwdns135163:0crwdne135163:0
+  notFound: crwdns135165:0crwdne135165:0
+  staleData: crwdns135167:0crwdne135167:0
