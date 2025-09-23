@@ -1,17 +1,46 @@
-description: Description
-handle-with-star: Handle
-invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-name: Name
-name-with-star: 'Name*'
-new-report: New Report
-permissions: Permissions
-unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
-report:
-  create: Create Report
-  builder: Report Builder
-  description: Report description...
-  edit: Edit Report
-placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-title: Edit report
-tooltip:
-  view-report: View report
+label:
+  add: Add
+  and: And
+  all: All
+  ascending: Ascending
+  back: Back
+  clear: Clear
+  cancel: Cancel
+  delete: Delete
+  descending: Descending
+  loading: Loading
+  name: Name
+  none: None
+  now: Now
+  ok: Ok
+  or: Or
+  openLinkInNewTab: Open link in a new tab
+  save: Save
+  saveAndClose: Save and close
+  clone: Save as copy
+  today: Today
+  urlPlaceholder: https://example.tld
+  default: Default
+  report:
+    single: Report
+    plural: Reports
+resourceList:
+  notFound: Not found
+  noItems: No items to show
+  pagination:
+    next: Next
+    prev: Previous
+    showing: '{{from}} - {{to}} of {{count}} {{data}}'
+    single_one: 'One {{data}}'
+    single_other: '{{count}} {{data}}'
+    recordsPerPage: Per Page
+  clone: Clone
+themes:
+  labels:
+    light: Light
+    dark: Dark
+cloneSuffix: copy
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds
