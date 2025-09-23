@@ -1,3 +1,7 @@
-menu: crwdns134849:0crwdne134849:0
-logged-in-as: crwdns134851:0crwdne134851:0
-logout: crwdns134853:0crwdne134853:0
+template:
+  authorize-client: crwdns134855:0crwdne134855:0
+  class:
+    your-profile: crwdns134857:0crwdne134857:0
+    security: crwdns134859:0crwdne134859:0
+    login-session: crwdns134861:0crwdne134861:0
+    authorized-clients: crwdns134863:0crwdne134863:0
