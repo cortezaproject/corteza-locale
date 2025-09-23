@@ -1,32 +1,66 @@
-'auto-initialize-empty-variable': crwdns145285:0crwdne145285:0
-back: crwdns145287:0crwdne145287:0
-'click-to-save': crwdns145289:0crwdne145289:0
-deferred: crwdns145291:0crwdne145291:0
-delete: crwdns145293:0crwdne145293:0
-deleted: crwdns145295:0crwdne145295:0
-'detected-changes': "crwdns145297:0crwdne145297:0"
-'detected-issues': crwdns145299:0crwdne145299:0
-disabled: crwdns145301:0crwdne145301:0
-help: crwdns145303:0crwdne145303:0
-handle: crwdns145305:0crwdne145305:0
-id: "crwdns145307:0crwdne145307:0"
-'id-parenthesis': "crwdns145309:0crwdne145309:0"
-'initial-scope': crwdns145311:0crwdne145311:0
-'input-ids-or-handles': crwdns145313:0crwdne145313:0
-issues: crwdns145315:0crwdne145315:0
-'load-and-configure': crwdns145317:0crwdne145317:0
-'modify-initial-scope-if-no-variables-are-loaded': crwdns145319:0crwdne145319:0
-'open-webapp-on-prompt-use': "crwdns145321:0crwdne145321:0"
-reset: crwdns145323:0crwdne145323:0
-'run-as': "crwdns145325:0crwdne145325:0"
-'run-workflow': crwdns145327:0crwdne145327:0
-'required-namespace': crwdns145329:0crwdne145329:0
-'required-namespace-and-module': crwdns145331:0crwdne145331:0
-save: crwdns145333:0crwdne145333:0
-saving: crwdns145335:0crwdne145335:0
-spinning: crwdns145337:0crwdne145337:0
-'test-in-progress': "crwdns145339:0crwdne145339:0"
-'unsupported-browser': crwdns145341:0crwdne145341:0
-undelete: crwdns145343:0crwdne145343:0
-'workflow-configuration': crwdns145345:0crwdne145345:0
-'editor': crwdns145347:0crwdne145347:0
+clear: crwdns145349:0crwdne145349:0
+description: crwdns145351:0crwdne145351:0
+enabled: crwdns145353:0crwdne145353:0
+enable: crwdns145355:0crwdne145355:0
+disable: crwdns145357:0crwdne145357:0
+error: crwdns145359:0crwdne145359:0
+error-expression: crwdns145361:0crwdne145361:0
+export: crwdns145363:0crwdne145363:0
+general: crwdns145365:0crwdne145365:0
+handle: crwdns145367:0crwdne145367:0
+import:
+  json: crwdns145369:0crwdne145369:0
+  label: crwdns145371:0crwdne145371:0
+  reassign-run-as: "crwdns145373:0crwdne145373:0"
+  upload-files: crwdns145375:0crwdne145375:0
+label:
+  all: crwdns145377:0crwdne145377:0
+  label: crwdns145379:0crwdne145379:0
+loading: crwdns145381:0crwdne145381:0
+name: crwdns145383:0crwdne145383:0
+new-workflow: crwdns145385:0crwdne145385:0
+none: crwdns145387:0crwdne145387:0
+now: crwdns145389:0crwdne145389:0
+offset: crwdns145391:0crwdne145391:0
+offset-expression: crwdns145393:0crwdne145393:0
+permissions: crwdns145395:0crwdne145395:0
+searchPlaceholder: crwdns145397:0crwdne145397:0
+subworkflow: crwdns145399:0crwdne145399:0
+subworkflows: crwdns145401:0crwdne145401:0
+deleted: crwdns145403:0crwdne145403:0
+disabled: crwdns145405:0crwdne145405:0
+without: crwdns145407:0crwdne145407:0
+only: crwdns145409:0crwdne145409:0
+including: crwdns145411:0crwdne145411:0
+workflow-list: crwdns145413:0crwdne145413:0
+workflow:
+  single: crwdns145415:0crwdne145415:0
+  plural: crwdns145417:0crwdne145417:0
+save: crwdns145419:0crwdne145419:0
+today: crwdns145421:0crwdne145421:0
+cancel: crwdns145423:0crwdne145423:0
+resourceList:
+  notFound: crwdns145425:0crwdne145425:0
+  noItems: crwdns145427:0crwdne145427:0
+  pagination:
+    next: crwdns145429:0crwdne145429:0
+    prev: crwdns145431:0crwdne145431:0
+    showing: 'crwdns145433:0{{from}}crwdnd145433:0{{to}}crwdnd145433:0{{count}}crwdnd145433:0{{data}}crwdne145433:0'
+    single_one: 'crwdns145435:0{{data}}crwdne145435:0'
+    single_other: 'crwdns145437:0{{count}}crwdnd145437:0{{data}}crwdne145437:0'
+    recordsPerPage: crwdns145439:0crwdne145439:0
+tooltip:
+  permissions: crwdns145441:0crwdne145441:0
+columns:
+  name: crwdns145443:0crwdne145443:0
+  enabled: crwdns145445:0crwdne145445:0
+  steps: crwdns145447:0crwdne145447:0
+  changedAt: crwdns145449:0crwdne145449:0
+themes:
+  labels:
+    light: crwdns145451:0crwdne145451:0
+    dark: crwdns145453:0crwdne145453:0
+extendSession:
+  labels:
+    extend: crwdns145455:0crwdne145455:0
+    warning: crwdns145457:0{{ countdownTime }}crwdne145457:0
