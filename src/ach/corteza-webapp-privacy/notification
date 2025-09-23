@@ -1,0 +1,11 @@
+general:
+  error: crwdns119583:0crwdne119583:0
+  success: crwdns119585:0crwdne119585:0
+  warning: crwdns119587:0crwdne119587:0
+search:
+  failed: crwdns119589:0crwdne119589:0
+list:
+  load:
+    error: crwdns119591:0crwdne119591:0
+connection-load-failed: crwdns119593:0crwdne119593:0
+sensitive-data-fetch-failed: crwdns119595:0crwdne119595:0
