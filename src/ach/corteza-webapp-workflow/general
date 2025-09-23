@@ -1,0 +1,66 @@
+clear: crwdns120595:0crwdne120595:0
+description: crwdns120597:0crwdne120597:0
+enabled: crwdns120599:0crwdne120599:0
+enable: crwdns120601:0crwdne120601:0
+disable: crwdns120603:0crwdne120603:0
+error: crwdns120605:0crwdne120605:0
+error-expression: crwdns120607:0crwdne120607:0
+export: crwdns120609:0crwdne120609:0
+general: crwdns120611:0crwdne120611:0
+handle: crwdns120613:0crwdne120613:0
+import:
+  json: crwdns120615:0crwdne120615:0
+  label: crwdns120617:0crwdne120617:0
+  reassign-run-as: "crwdns120619:0crwdne120619:0"
+  upload-files: crwdns120621:0crwdne120621:0
+label:
+  all: crwdns120623:0crwdne120623:0
+  label: crwdns120625:0crwdne120625:0
+loading: crwdns120627:0crwdne120627:0
+name: crwdns120629:0crwdne120629:0
+new-workflow: crwdns120631:0crwdne120631:0
+none: crwdns120633:0crwdne120633:0
+now: crwdns120635:0crwdne120635:0
+offset: crwdns120637:0crwdne120637:0
+offset-expression: crwdns120639:0crwdne120639:0
+permissions: crwdns120641:0crwdne120641:0
+searchPlaceholder: crwdns120643:0crwdne120643:0
+subworkflow: crwdns120645:0crwdne120645:0
+subworkflows: crwdns120647:0crwdne120647:0
+deleted: crwdns120649:0crwdne120649:0
+disabled: crwdns120651:0crwdne120651:0
+without: crwdns120653:0crwdne120653:0
+only: crwdns120655:0crwdne120655:0
+including: crwdns120657:0crwdne120657:0
+workflow-list: crwdns120659:0crwdne120659:0
+workflow:
+  single: crwdns120661:0crwdne120661:0
+  plural: crwdns120663:0crwdne120663:0
+save: crwdns120665:0crwdne120665:0
+today: crwdns120667:0crwdne120667:0
+cancel: crwdns120669:0crwdne120669:0
+resourceList:
+  notFound: crwdns120671:0crwdne120671:0
+  noItems: crwdns120673:0crwdne120673:0
+  pagination:
+    next: crwdns120675:0crwdne120675:0
+    prev: crwdns120677:0crwdne120677:0
+    showing: 'crwdns120679:0{{from}}crwdnd120679:0{{to}}crwdnd120679:0{{count}}crwdnd120679:0{{data}}crwdne120679:0'
+    single_one: 'crwdns120681:0{{data}}crwdne120681:0'
+    single_other: 'crwdns120683:0{{count}}crwdnd120683:0{{data}}crwdne120683:0'
+    recordsPerPage: crwdns120685:0crwdne120685:0
+tooltip:
+  permissions: crwdns120687:0crwdne120687:0
+columns:
+  name: crwdns120689:0crwdne120689:0
+  enabled: crwdns120691:0crwdne120691:0
+  steps: crwdns120693:0crwdne120693:0
+  changedAt: crwdns120695:0crwdne120695:0
+themes:
+  labels:
+    light: crwdns120697:0crwdne120697:0
+    dark: crwdns120699:0crwdne120699:0
+extendSession:
+  labels:
+    extend: crwdns120701:0crwdne120701:0
+    warning: crwdns120703:0{{ countdownTime }}crwdne120703:0
