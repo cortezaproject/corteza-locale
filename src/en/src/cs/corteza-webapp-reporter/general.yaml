@@ -1,0 +1,42 @@
+label:
+  add: Přidat
+  and: A
+  all: Vše
+  ascending: Vzrůstající
+  back: Zpět
+  clear: Vyčistit
+  cancel: Storno
+  delete: Smazat
+  descending: Klesající
+  loading: Načítání
+  name: Jméno
+  none: Nic
+  now: Nyní
+  ok: Ok
+  or: Nebo
+  openLinkInNewTab: Otevřít odkaz v nové kartě
+  save: Uložit
+  saveAndClose: Uložit a zavřít
+  clone: Uložit jako kopii
+  today: Dnes
+  urlPlaceholder: https://priklad.tld
+  default: Výchozí
+  report:
+    single: Report
+    plural: Reporty
+resourceList:
+  notFound: Nenalezeno
+  noItems: Žádné položky k zobrazení
+  pagination:
+    next: Další
+    prev: Předchozí
+    showing: '{{from}} - {{to}} z {{count}} {{data}}'
+    single: '1 {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Na stránku
+  clone: Klonovat
+themes:
+  labels:
+    light: Světlé
+    dark: Tmavé
+cloneSuffix: kopie
