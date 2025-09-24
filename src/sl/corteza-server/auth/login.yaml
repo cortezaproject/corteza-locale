@@ -1,21 +1,21 @@
 template:
-  title: Prijava
+  title: Log in to continue
   form:
     email:
       label: E-mail
       placeholder: email@domain.ltd
     password:
-      label: Geslo
-      placeholder: geslo
+      label: Password
+      placeholder: password
     button:
-      login-and-remember: Prijavi in zapomni si me
-      login: Prijavi
-      continue: Nadaljuj
+      login-and-remember: Log in and remember me
+      login: Log in
+      continue: Continue
   links:
-    request-password-reset: Pozabljeno geslo?
-    signup: Ustvari račun
+    request-password-reset: Forgot your password?
+    signup: Create a new account
     external:
       login-with: Login with {{idp}}
 alerts:
-  logged-in: Sedaj si prijavljen.
+  logged-in: You are now logged-in
   local-disabled: Local accounts disabled
