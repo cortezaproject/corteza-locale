@@ -1,0 +1,187 @@
+label:
+  app-name:
+    public: Namespaces
+    private: Namespaces - Admin
+  actions: Actions
+  active: Actif
+  add: Ajouter
+  add-with-plus: + Ajouter
+  addNew: Ajouter nouveau
+  addValue: Ajouter nouvelle valeur
+  ascending: Ascendant
+  attachmentFileInfo: '(Taille de fichier : {{0}}, téléversé {{1}})'
+  attributes: Attributs
+  back: Retour
+  backWithoutSave: Retour (sans sauvegarde des modifications)
+  block: Bloc
+  browse: Naviguer
+  buttons: Boutons
+  cancel: Annuler
+  clear: Vider
+  clone: Cloner
+  close: Fermer
+  create: Créer
+  delete: Supprimer
+  default: Défaut
+  restore: Restaurer
+  descending: Descendant
+  description: Description
+  download: Télécharger
+  dropFiles: Cliquez ou déposez ici des fichiers pour téléverser
+  edit: Éditer
+  enabled: Activé
+  export: Exporter
+  fileTypeNotAllowed: Type de fichier non autorisé
+  general: Général
+  handle: Identifiant
+  here: Ici
+  home: Accueil
+  import: Importer
+  all: Tous
+  importPlaceholder: Téléverser des fichiers pour importer
+  loading: Chargement
+  makeDefault: Rendre par défaut
+  moduleName: Nom de module
+  multi: Valeur multiple
+  name: Nom
+  next: Suivant
+  no: No
+  noHandle: Pas d'identifiant
+  none: Aucun
+  now: Maintenant
+  ok: Ok
+  page: Page
+  pageLayout: Mise en page
+  pageBuilder: Constructeur de page
+  permissions: Permissions
+  private: Privé
+  privacy: Confidentialité
+  processing: Traitement...
+  record: Enregistrement
+  recordPage: Page d'enregistrement
+  field: Champ
+  remove: Supprimer
+  removeDefault: Supprimer valeur par défaut
+  required: Obligatoire
+  reset: Réinitialiser
+  sensitive: Sensible
+  save: Sauvegarder
+  saveAndClose: Sauvegarder et fermer
+  saveAsCopy: Sauvegarder comme copie
+  status: Statut
+  timeHour: '{{t}}h'
+  timeMinute: '{{t}}min'
+  today: Aujourd'hui
+  title: Titre
+  type: Type
+  updatedAt: Mise à jour à
+  uploadError: 'Problème avec téléversement de fichier : "{{message}}"'
+  uploading: Téléversement
+  urlPlaceholder: https://example.tld
+  validation: Validation
+  view: Vue
+  yes: Yes
+  chart:
+    single: Graphique
+    plural: Graphiques
+  namespace:
+    single: Namespace
+    plural: Namespaces
+  module:
+    single: Module
+    plural: Modules
+navigation:
+  chart: Graphiques
+  namespace: Namespaces
+  module: Modules
+  page: Pages
+  pageLayout: Mises en page
+placeholder:
+  handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+  sample: Échantillon
+reminder:
+  add: Ajouter un rappel
+  dismiss: Rejeter
+  dismissed: Rejeté
+  dismissedAt: Rejeté à
+  undismiss: Annuler rejet
+  delete: Supprimer rappel
+  recordPageLink: Voir enregistrement
+  edit:
+    label: Éditer rappel
+    assigneeLabel: Attributaire
+    assigneePlaceholder: Moi-même (par défaut)
+    notesLabel: Notes
+    notesPlaceholder: Notes
+    remindAtLabel: Me rappeler à
+    remindAtNone: Jamais
+    titleLabel: Titre
+    titlePlaceholder: Titre
+  listLabel: Rappels
+  routesTo: Étiquette pour le lien de page
+  snooze:
+    label: Répétition
+    count: Nombre de répétitions {{count}}
+tooltip:
+  dragAndDrop: Glisser et déposer pour changer l'ordre
+fieldKinds:
+  Bool:
+    label: Case à cocher (O/N)
+  DateTime:
+    label: Date et heure
+  Email:
+    label: Entrée courriel
+  File:
+    label: Téléversement de fichier
+  Number:
+    label: Entrée numérique
+  Record:
+    label: Sélecteur d'enregistrement
+  Select:
+    label: Sélection/liste déroulante
+  String:
+    label: Entrée textuel (chaine de caractère)
+  Url:
+    label: Entrée URL
+  User:
+    label: Sélecteur d'utilisateur
+  Geometry:
+    label: Localisation
+field:
+  selectAll: Sélectionner tout
+  tooltip:
+    permissions: Permissions de champ
+  unselectAll: Désélectionner tout
+  kind:
+    user:
+      suggestionPlaceholder: Commencez à taper pour rechercher des utilisateurs par e-mail ou par nom
+resourceList:
+  notFound: Introuvable
+  noItems: Aucun élément à afficher
+  pagination:
+    next: Suivant
+    prev: Précédent
+    showing: '{{from}} - {{to}} sur {{count}} {{data}}'
+    single: '1 {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Par Page
+recordNavigation:
+  next: Enregistrement suivant
+  prev: Enregistrement précédent
+variants:
+  primary: Primaire
+  secondary: Secondaire
+  light: Clair
+  dark: Sombre
+  info: Info
+  success: Succès
+  danger: Danger
+  warning: Avertissement
+editor:
+  unsavedChanges: Les changements non sauvegardés seront perdus. Voulez-vous quitter la page ?
+record:
+  unsavedChanges: Les changements non sauvegardés seront perdus. Voulez-vous fermer l'enregistrement ?
+themes:
+  labels:
+    light: Clair
+    dark: Sombre
