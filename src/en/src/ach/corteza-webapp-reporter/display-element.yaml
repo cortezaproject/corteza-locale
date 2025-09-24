@@ -1,0 +1,140 @@
+chart:
+  configurator:
+    begin-axis-at-zero: crwdns100596:0crwdne100596:0
+    chart-title: crwdns100598:0crwdne100598:0
+    color-scheme: crwdns100600:0crwdne100600:0
+    data: crwdns100602:0crwdne100602:0
+    data-columns: crwdns100604:0crwdne100604:0
+    default: crwdns100606:0crwdne100606:0
+    default-value: crwdns100608:0crwdne100608:0
+    general: crwdns100610:0crwdne100610:0
+    label-column: crwdns100612:0crwdne100612:0
+    logarithmic-scale: crwdns100614:0crwdne100614:0
+    position-description: crwdns100616:0crwdne100616:0
+    none: crwdns100618:0crwdne100618:0
+    place-axis-on-right-side: crwdns100620:0crwdne100620:0
+    skip-missing-values: crwdns100622:0crwdne100622:0
+    step-size: crwdns100624:0crwdne100624:0
+    animation:
+      enabled: crwdns100626:0crwdne100626:0
+    metrics:
+      label: crwdns100628:0crwdne100628:0
+      field: crwdns100630:0crwdne100630:0
+      stack:
+        label: crwdns100632:0crwdne100632:0
+        description: crwdns100634:0crwdne100634:0
+      label-field:
+        label: crwdns100636:0crwdne100636:0
+    time:
+      label: crwdns100638:0crwdne100638:0
+      unit:
+        label: crwdns100640:0crwdne100640:0
+        types:
+          date: crwdns100642:0crwdne100642:0
+          month: crwdns100644:0crwdne100644:0
+          quarter: crwdns100646:0crwdne100646:0
+          week: crwdns100648:0crwdne100648:0
+          year: crwdns100650:0crwdne100650:0
+    type: crwdns100652:0crwdne100652:0
+    types:
+      bar: crwdns100654:0crwdne100654:0
+      doughnut: crwdns100656:0crwdne100656:0
+      funnel: crwdns100658:0crwdne100658:0
+      line: crwdns100660:0crwdne100660:0
+      pie: crwdns100662:0crwdne100662:0
+    value:
+      max: crwdns100664:0crwdne100664:0
+      min: crwdns100666:0crwdne100666:0
+    x-axis:
+      name: crwdns100668:0crwdne100668:0
+      label: crwdns100670:0crwdne100670:0
+      type: crwdns100672:0crwdne100672:0
+      labelRotation:
+        label: crwdns100674:0crwdne100674:0
+    y-axis:
+      name: crwdns100676:0crwdne100676:0
+      label: crwdns100678:0crwdne100678:0
+      labelPosition:
+        label: crwdns100680:0crwdne100680:0
+        top: crwdns100682:0crwdne100682:0
+        center: crwdns100684:0crwdne100684:0
+        bottom: crwdns100686:0crwdne100686:0
+      labelRotation:
+        label: crwdns100688:0crwdne100688:0
+    legend:
+      name: crwdns100690:0crwdne100690:0
+      hide: crwdns100692:0crwdne100692:0
+      scrollable: crwdns100694:0crwdne100694:0
+      orientation:
+        label: crwdns100696:0crwdne100696:0
+        horizontal: crwdns100698:0crwdne100698:0
+        vertical: crwdns100700:0crwdne100700:0
+      align:
+        label: crwdns100702:0crwdne100702:0
+        left: crwdns100704:0crwdne100704:0
+        right: crwdns100706:0crwdne100706:0
+        center: crwdns100708:0crwdne100708:0
+      position:
+        description: crwdns100710:0crwdne100710:0
+        default: crwdns100712:0crwdne100712:0
+        top: crwdns100714:0crwdne100714:0
+        right: crwdns100716:0crwdne100716:0
+        bottom: crwdns100718:0crwdne100718:0
+        left: crwdns100720:0crwdne100720:0
+    tooltips:
+      name: crwdns100722:0crwdne100722:0
+      show:
+        always: crwdns100724:0crwdne100724:0
+    offset:
+      name: crwdns100726:0crwdne100726:0
+      default: crwdns100728:0crwdne100728:0
+      top: crwdns100730:0crwdne100730:0
+      right: crwdns100732:0crwdne100732:0
+      bottom: crwdns100734:0crwdne100734:0
+      left: crwdns100736:0crwdne100736:0
+metric:
+  configurator:
+    color:
+      background: crwdns100738:0crwdne100738:0
+      text: crwdns100740:0crwdne100740:0
+      picker: crwdns100742:0crwdne100742:0
+    format: crwdns100744:0crwdne100744:0
+    label-column: crwdns100746:0crwdne100746:0
+    none: crwdns100748:0crwdne100748:0
+    prefix: crwdns100750:0crwdne100750:0
+    suffix: crwdns100752:0crwdne100752:0
+table:
+  configurator:
+    general: crwdns100754:0crwdne100754:0
+    data: crwdns100756:0crwdne100756:0
+    columns: crwdns100758:0crwdne100758:0
+    dark: crwdns100760:0crwdne100760:0
+    head-variant: crwdns100762:0crwdne100762:0
+    joined-datasource-handling: crwdns100764:0crwdne100764:0
+    light: crwdns100766:0crwdne100766:0
+    none: crwdns100768:0crwdne100768:0
+    table:
+      options:
+        bordered: crwdns100770:0crwdne100770:0
+        borderless: crwdns100772:0crwdne100772:0
+        dark: crwdns100774:0crwdne100774:0
+        fixed: crwdns100776:0crwdne100776:0
+        hover: crwdns100778:0crwdne100778:0
+        label: crwdns100780:0crwdne100780:0
+        no-collapse: crwdns100782:0crwdne100782:0
+        responsive: crwdns100784:0crwdne100784:0
+        small: crwdns100786:0crwdne100786:0
+        striped: crwdns100788:0crwdne100788:0
+      variant: crwdns100790:0crwdne100790:0
+      variants:
+        danger: crwdns100792:0crwdne100792:0
+        dark: crwdns100794:0crwdne100794:0
+        info: crwdns100796:0crwdne100796:0
+        light: crwdns100798:0crwdne100798:0
+        primary: crwdns100800:0crwdne100800:0
+        secondary: crwdns100802:0crwdne100802:0
+        success: crwdns100804:0crwdne100804:0
+        warning: crwdns100806:0crwdne100806:0
+  view:
+    next: crwdns100808:0crwdne100808:0
+    previous: crwdns100810:0crwdne100810:0
