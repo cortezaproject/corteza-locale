@@ -1,0 +1,154 @@
+page-layout:
+  layouts: Mises en page
+  title: Titre *
+  handle: Identifiant
+  add: Ajouter mise en page
+  configure: 'Configurer mise en page - "{{title}}"'
+  visibility: Visibilité
+  general: Général
+  useTitle: Utiliser le titre de mise en page
+  tooltip:
+    title: Utiliser le titre de mise en page à la place du titre d'enregistrement par défaut. Les variables comme {{0}}, {{1}}, {{2}} et {{3}} sont évaluées (lorsque disponible)
+    configure: Configurer mise en page
+    builder: Ouvrir mise en page dans le constructeur
+    performance:
+      condition: Utiliser des conditions de visibilité impactera les performances
+  condition:
+    label: Condition
+    placeholder: Quand la mise en page sera-t-elle visible
+    description:
+      record-page: "Vous pouvez utiliser {{0}}, {{1}}, {{2}}, {{3}} à l'intérieur de l'expression, par exemple : {{4}} ou {{5}}"
+      non-record-page: "Vous pouvez utiliser {{0}}, {{1}} à l'intérieur de l'expression, par exemple : {{2}} ou {{3}}"
+  roles:
+    label: Rôles
+    placeholder: Choisir les rôles pouvant voir cette mise en page
+  recordToolbar:
+    label: Barre à outil d'enregistrement
+    buttons:
+      label: Boutons
+      showBack: Afficher bouton "Retour"
+      showDelete: Afficher bouton "Supprimer"
+      showClone: Afficher bouton "Sauvegarder comme copie"
+      showNew: Afficher bouton "Ajouter nouveau"
+      showEdit: Afficher bouton "Éditer"
+      showSave: Afficher bouton "Sauvegarder"
+    actions:
+      label: Actions
+      add: Ajouter action
+      buttonLabel: Étiquette
+      variant: Variant
+      visible: Visible
+      kind:
+        label: Type
+        toLayout: Rediriger vers une mise en page
+        toURL: Rediriger vers un URL
+      placement:
+        label: Placement
+        start: Début
+        center: Centre
+        end: Fin
+      openIn:
+        label: Ouvrir dans
+        sameTab: Même onglet
+        newTab: Nouvel onglet
+      toLayout:
+        label: Rediriger vers une mise en page
+        placeholder: Pas de mise en page sélectionnée
+      toURL:
+        label: Rediriger vers un URL
+        placeholder: Pas d'URL spécifié
+block:
+  general:
+    label:
+      cancel: Annuler
+      noHandle: Pas d'identifiant
+      pageBuilder: Constructeur de page
+      saveAndClose: Sauvegarder et fermer
+    placeholder:
+      handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+      sample: Échantillon
+    title: Ajouter nouveau bloc
+    invalid-handle-characters: Doit faire au moins 2 caractères. Ne doit contenir que des lettres, nombres, tirets du bas ou points. Doit finir avec une lettre ou un nombre
+changeBlock: Changer un bloc existant
+referencedBlock: Ce bloc est utilisé dans d'autres mises en page
+copyOf: "Copie de {{title}}"
+build:
+  addBlock: Ajouter bloc
+  selectBlockTitle: Sélectionnez le type du nouveau bloc
+  unsavedChanges: Les changements non sauvegardés seront perdus. Voulez-vous quitter la page ?
+  saveAsCopy:
+    ref: Avec références
+    noRef: Sans références
+edit:
+  create: Créer page
+  edit: Éditer page
+  otherOptions: Autres options
+  pageDescription: Description de page
+  visible: Visibilité page
+  notifications:
+    enabled: Afficher notification de sauvegarde d'enregistrement
+icon:
+  configure: Configurer icône de page
+  noIcon: Pas d'icône
+  page: Icône de page
+  upload: Téléverser une icône
+  list: Icône téléversée
+  delete: Supprimer l'icône sélectionnée
+url:
+  label: Ou ajouter l'URL vers l'icône
+import: 'Import de page(s) :'
+instructions: Glisser et dépose les pages pour ajuster l'ordre et la hiérarchie
+invalid: Configuration invalide
+label:
+  title: Titre *
+  cancel: Annuler
+  description: Description
+  handle: Identifiant
+  pageBuilder: Constructeur de page
+  permissions: Permissions
+  saveAndClose: Sauvegarder et fermer
+  delete: Supprimer bloc
+  createPage: Créer page 
+placeholder:
+  title: 'Titre de page (exemple : "Affaires")'
+loading: Chargement
+moduleEdit: Éditer module
+navigation:
+  page: Pages
+  viewPage: Voir Page
+unsavedChanges: Les changements non sauvegardés seront perdus. Voulez-vous quitter la page ?
+noBlock: Pas de bloc ajouter pour le moment
+noPages: Pas de pages
+notVisible: Caché
+pageMoveFailed: Impossible de déplacer cette page
+reordered: Page réorganisée
+showSubPages: Étendre sous-pages dans la barre latérale
+customTitle: Utiliser le titre personnalisé
+title: Liste des Pages
+tooltip:
+  unsavedChanges: Changements non sauvegardés
+  view: Voir page
+  edit:
+    page: Éditer page
+    block: Éditer bloc
+  copy:
+    block: Copier bloc
+  clone:
+    block: Cloner bloc
+  delete:
+    block: Supprimer bloc
+  preview-link: Prévisualiser lien
+  saveAsCopy: Impossible de dupliquer la page d'enregistrement
+view: Vue
+visible: Visible
+delete:
+  rebase: Changer parent de sous-pages
+  cascade: Supprimer sous-pages
+public:
+  record:
+    create:
+      title: Création d'enregistrement pour le module "{{name}}"
+    edit:
+      title: Édition d'enregistrement pour le module "{{name}}"
+    view:
+      title: Lecture d'enregistrement pour le module "{{name}}"
