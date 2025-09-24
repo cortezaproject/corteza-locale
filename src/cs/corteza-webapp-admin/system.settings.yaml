@@ -1,0 +1,137 @@
+editor:
+  title: Nastavení systému
+  auth:
+    title: Autentizace
+    url: URL
+    internal:
+      title: Interní
+      enabled: Interní autentizace povolena
+      password-reset:
+        enabled: Reset hesla povolen
+      password-constraints:
+        title: Požadavky na heslo
+        ignored-security: Systém je nakonfigurovaný tak, že ignoruje bezpečnostní požadavky na heslo. To je v produkčním prostředí nebezpečné. Pokud je toto produkční prostředí, kontaktujte prosím administrátora, aby upravil konfiguraci systému (proměnná prostředí AUTH_PASSWORD_SECURITY).
+        min-length: Minimální délka
+        min-length-description: Musí být aspoň 8 znaků
+        min-num-count: Minimální počet číslic
+        min-num-count-description: Heslo musí obsahovat daný počet číslic (vypnete nastavením 0)
+        min-special-count: Minimální počet speciálních znaků
+        min-special-count-description: Heslo musí obsahovat daný počet speciálních znaků (vypnete nastavením 0)
+        min-upper-case-length: Minimální počet velkých písmen
+        min-upper-case-description: Heslo musí obsahovat daný počet velkých písmen (vypnete nastavením 0)
+        min-lower-case-length: Minimální počet malých písmen
+        min-lower-case-description: Heslo musí obsahovat daný počet malých písmen (vypnete nastavením 0)
+      signup:
+        email-confirmation-required: Vyžadováno potvrzení emailu při registraci
+        enabled: Registrace povolena
+        split-credentials-check:
+          description: 'Rozdělit přihlášení do dvou kroků: první zadat email a na druhé obrazovce zobrazit pole pro heslo. Automaticky přesměrovat uživatele na externí přihlášení, pokud uživatel nemá heslo a existuje jen jeden poskytovatel identity'
+          label: Povolit rozdělené přihlášení
+      profile-avatar:
+        enabled: Profilový obrázek povolen
+      send-user-invite-email:
+        title: Uvítací email
+        enabled: Odeslat uvítací email při vytvoření uživatele
+        description: Pokud je povoleno, tato konfigurace odešle email uživateli nově vytvořenému přes příkazovou řádku
+        expires:
+          label: Délka platnosti
+          description: Jak dlouho bude token pozvánky platný
+    mail:
+      title: Odesílající adresa autentizačního emailu
+      from-address: Adresa odesílatele
+      from-name: Jméno odesílatele
+      validate-email: Zadejte prosím validní emailovou adresu
+    mfa:
+      title: Vícefaktorová autentizace
+      TOTP:
+        enabled: Povolit použití TOTP (časově omezené jednorázové kódy z mobilní aplikace)
+        enforced: Vynutit použití TOTP (časově omezené jednorázové kódy z mobilní aplikace)
+        issuer:
+          description: Jméno vydavatele se předvyplní v autentizační aplikaci 
+          label: Vydavatel
+      emailOTP:
+        enabled: Povolit použití OTP (jednorázových kódů) zaslaných přes email
+        enforced: Vynutit použití OTP (jednorázových kódů) zaslaných přes email
+        expires:
+          description: Jak dlouho bude kód platný
+          label: Délka platnosti
+  external:
+    title: Externí poskytovatelé identity
+    enabled: Povolit externí autentizaci
+    table:
+      header:
+        enabled: Povoleno
+        provider: Poskytovatel
+        info: Vydavatel, ID klienta
+    standard:
+      enabled: Povoleno
+      apiAccess: Přístup přes API
+      clientKey: Klíč klienta
+      clientSecret: Tajemství
+    oidc:
+      add: Přidat OIDC poskytovatele
+      enabled: Povoleno
+      handle: Identifikátor
+      title: OpenID Connect
+      issuer: URL OIDC vydavatele
+      issuerHint: Prefix adresy před /.well-known/openid-configuration (bez /.well-known/openid-configuration)
+      clientKey: Klíč klienta
+      clientSecret: Tajemství
+      scope: Rámec (scope)
+      scopePlaceholder: Zadejte seznam podporovaných OAuth scope hodnot
+      scopeHint: Použijte řetězec oddělený mezerami
+    saml:
+      enabled: Povoleno
+      title: SAML
+      requests:
+        title: Požadavky
+        sign-requests: Podepsat požadavky
+        sign-method: Podpisová metoda
+        binding: Párování
+        binding-redirect: HTTP přesměrování
+        binding-post: HTTP POST
+      cert:
+        public: Veřejný klíč
+        private: Soukromý klíč
+      name: Jméno
+      certificate: Certifikát
+      idp:
+        title: Poskytovatel identity
+        ident-handle: Pole identifikátoru
+        ident-identifier: Pole identifikátoru
+        ident-name: Pole jména
+        url: URL
+      desc:
+        name: Název poskytovatele, který se použije na přihlašovací obrazovce (Přihlásit přes <name>)
+        cert:
+          public: Obsah bude minimalizován
+          private: Obsah bude minimalizován
+        requests:
+          sign-requests: Podepsat AuthnRequest a Assertion
+          sign-method: Metoda podpisu požadavků
+          binding: Typ HTTP binding, který se použije pro AuthNRequest, výchozí je HTTP přesměrování (GET)
+        idp:
+          url: Adresa metadat poskytovatele identity
+          ident-handle: Název pole poskytovatele, které se použije jako ID nebo přezdívka uživatele v Corteza
+          ident-identifier: Název pole poskytovatele, které se použije jako email uživatele v Corteza
+          ident-name: Název pole poskytovatele, které se použije jako celé jméno uživatele v Corteza
+    security:
+      title: Zabezpečení
+      prohibited-roles:
+        description: Role z tohoto seznamu budou odebrány z bezpečnostního kontextu, když se uživatel autentizuje pomocí tohoto poskytovatele
+        label: Zakázané role
+      forced-roles:
+        description: Role z tohoto seznamu budou vždy přidány do bezpečnostního kontextu, když se uživatel autentizuje pomocí tohoto poskytovatele
+        label: Vynucené role
+      permitted-roles:
+        description: Role z tohoto seznamu budou přidány do bezpečnostního kontextu, když se uživatel autentizuje pomocí tohoto poskytovatele
+        label: Povolené role
+  bgScreen:
+    title: Pozadí přihlašovacího okna
+    image:
+      uploader:
+        label: Obrázek na pozadí
+        instructions: Nahrajte obrázek pozadí kliknutím nebo přetáhnutím
+        uploading: Nahrávání obrázku pozadí
+      editor:
+        label: Vlastní CSS
