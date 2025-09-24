@@ -1,0 +1,185 @@
+automation:
+  scriptFailed: Impossible d'exécuter l'automatisme
+chart:
+  createFailed: Impossible de créer la charte
+  deleteFailed: Impossible de supprimer ce graphique
+  deleted: Graphique supprimée
+  invalidConfig:
+    missingDimensionsField: Le champ dimensions n'est pas défini
+    missingDimensionsModifier: Le modificateur de dimensions n'est pas défini
+    missingDimensionsSteps: Les étapes de dimensions ne sont pas défini
+    missingMetricsAggregate: L'agrégat de métriques n'est pas défini
+    missingMetricsField: Le champ métriques n'est pas défini
+    missingMetricsType: Le type de graphique de métriques n'est pas défini
+    missingModuleID: Le module n'est pas défini
+    missingReports: Le rapport n'est pas défini
+  loadFailed: Impossible de charger le graphique
+  optionsBuildFailed: Impossible de construire les options de graphique
+  saveFailed: Impossible de sauvegarder ce graphique
+  saved: Graphique sauvegarder
+  unsupportedRenderer: Moteur de rendu non pris en charge
+  colorScheme:
+    fetch:
+      failed: Échecs de la récupération des palettes de couleurs personnalisés
+    create:
+      success: Palette de couleurs créée
+      failed: Échec de création de la palette de couleurs
+    update:
+      success: Palette de couleurs mise à jour
+      failed: Échec de la mise à jour de la palette de couleurs
+    delete:
+      success: Palette de couleurs supprimée
+      failed: Échec de la suppression de la palette de couleurs
+color:
+  RGBA:
+    invalid: Format de couleur RGBA invalide
+field:
+  missingRequired: Valeur maquante sur un champ obligatoire
+  unknownFieldKind: 'Erreur : Champ de type "{{kind}}" inconnu, aucun composant de visualisation trouvé'
+  unsupportedKind: Champ de type {{kind}} non prise en charge
+field-datetime:
+  valueNotFuture: Valeur passée sur un champ n'acceptant que des valeurs futures
+  valueNotPast: Valeur future sur un champ n'acceptant que des valeurs passées
+field-geometry:
+  geolocationErrors:
+    permissionDenied: L'utilisateur a refusé la requête de géolocalisation
+    positionUnavailable: Information de localisation indisponible
+    timeout: La requête de récupération de la localisation utilisateur à expiré
+    unknownError: Une erreur inconnue s'est produite
+    notSupported: La géolocalisation n'est pas prise en charge par ce navigateur
+    errorOccurred: Une erreur s'est produite lors de la récupération de la localisation utilisateur
+    locationSearchFailed: La recherche de localisation à échoué
+general:
+  composeAccessNotAllowed: Non autorisé à accéder à Compose
+  error: Erreur
+  success: Succès
+  warning: Avertissement
+  info: Information
+  import:
+    failed: Importation échouée
+    readingError: Erreur lors de la lecture de fichier
+    successful: Importation réussie
+    typeMissmatch: 'Erreur d''import : tentative d''importation d''un objet de type "{{type1}}" dans une liste d''objets de type "{{type2}}"'
+list:
+  load:
+    error: Échec du chargement de la liste de ressources
+module:
+  created: Module créé
+  createFailed: Impossible de créer le module
+  deleteFailed: Impossible de supprimer ce module
+  deleted: Module supprimé
+  saveFailed: Impossible de sauvegarder ce module
+  saved: Module sauvegardé
+  columns:
+    saved: Colonnes sauvegardées
+    saveFailed: Impossible de sauvergarder les colonnes
+  recordPage:
+    createFailed: Impossible de créer la page d'enregistrement pour ce module
+  schemaAlterations:
+    load:
+      error: Impossible de récupérer les altérations
+    resolve:
+      success: Altération(s) résolue(s)
+      error: Impossible de résoudre les altérations
+    dismiss:
+      success: Altération rejetée
+      error: Impossible de rejeté l'altération
+namespace:
+  application:
+    createFailed: Impossible de créer l'application de namespace
+    fetchFailed: Impossible de récupérer l'application de namespace
+    saveFailed: Impossible de sauvegarder l'application de namespace
+  assetUploadFailed: Impossible de téléverser les ressources jointes
+  createFailed: Impossible de créer le namespace
+  deleted: Namespace supprimé
+  deleteFailed: Impossible de supprimer ce namespace
+  disabled: Namespace supprimé - redirection
+  saveFailed: Impossible de sauvegarder ce namespace
+  saved: Namespace sauvegarder
+  cloned: Namespace cloner
+  cloneFailed: Impossible de cloner ce namespace
+  imported: Namespace importé
+  importFailed: Échec de l'import de namespace
+page:
+  block:
+    calendar:
+      eventFetchFailed: Impossible de récupérer la liste des évènements
+  createFailed: Impossible de créer la page
+  cloneFailed: Impossible de cloner cette page
+  deleteFailed: Impossible de supprimer cette page
+  iconFetchFailed: Impossible de récupérer la liste des icônes
+  iconDeleteFailed: Impossible de supprimer l'icône sélectionnée
+  iconDeleteSuccess: Icône supprimée
+  loadFailed: Impossible de récupérer l'arborescence de page
+  noPages: Aucune page trouvée
+  saveFailed: Impossible de sauvegarder cette page
+  saveFailedRequired: Impossible de sauvegarder cette page, tous les champs obligatoires du module doivent être présents
+  saved: Page sauvegarder
+  deleted: Page supprimer
+  copySuccess: Le bloc a été copié avec succès
+  cloneSuccess: Le bloc a été cloné en bas de page
+  pasteSuccess: Le bloc a été collé en bas de page
+  duplicateFailed: Impossible de dupliquer le bloc
+  blockWaiting: Un bloc de page est en attente
+  copyFailed: Impossible de copier le bloc de page {{reason}}
+  invalidBlock: Bloc de page invalide
+  page-layout:
+    notFound:
+      edit: Aucune mise en page trouvée
+      view: Aucune mise en page trouvée
+    save:
+      success: Mise en page sauvegardée
+      failed: Impossible de sauvegarder la mise en page
+    clone:
+      success: Mise en page clonée et sélectionnée
+      failed: Échec du clonage de mise en page
+    delete:
+      success: Mise en page supprimée
+      failed: Échec de la suppression de mise en page
+record:
+  createFailed: Impossible de créer l'enregistrement
+  createSuccess: Enregistrement créé
+  updateFailed: Impossible de mettre à jour l'enregistrement
+  updateSuccess: Enregistrement mis à jour
+  deleteFailed: Impossible de supprimer l'enregistrement
+  deleteSuccess: Enregistrement supprimé
+  restoreFailed: Impossible de restaurer l'enregistrement
+  restoreSuccess: Enregistrement restauré
+  deleteBulkFailed: Impossible de supprimer les enregistrements sélectionnés
+  deleteBulkRecordUpdateFailed: Impossible de mettre à jour les enregistrements sélectionnés
+  deleteBulkSuccess: Suppression des enregistrements sélectionnés réussie
+  bulkRecordUpdateSuccess: Mise à jour des enregistrements sélectionnés réussie
+  restoreBulkFailed: Impossible de restaurer les enregistrements sélectionnés
+  restoreBulkSuccess: Restauration des enregistrements sélectionnés réussie
+  invalidOwnerVar: Impossible d'utiliser la variable ${ownerID} dans les pages sans enregistrement
+  invalidRecordVar: Impossible d'utiliser la variable ${record...} dans les pages sans enregistrement
+  listLoadFailed: Impossible de charger la liste des enregistrements
+  loadFailed: Impossible de charger l'enregistrement
+  countFailed: Échec du chargement d'une partie des enregistrements
+  moduleMismatch: Module incompatible, module incohérent
+  moduleNotDefined: Module de l'enregistrement non défini
+  moduleOrPageNotSet: 'Erreur de bloc RecordList : le module ou les options de page n''ont pas été définis'
+  unexpectedInput: Entrée inattendue pour la propriété values, doit être un tableau avec des paires d'objets nom-valeur
+  unexpectedValue: Valeur d'enregistrement inattendue pour ce module ({{type}})
+  validationErrors: Vérifier les messages d'erreur dans le formulaire
+  validationWarnings: Vérifier les messages d'avertissement dans le formulaire
+  staleDataRefresh: Données d'enregistrement obsolètes, tous les modifications non enregistrées seront perdues. Souhaitez-vous rafraichir les données maintenant ?
+  fieldConditions:
+    failed: Échec de l'évaluation des champs conditionnels du bloc d'enregistrement
+record-list:
+  corrupted-filter: Filtre corrompu
+  corrupted-configured-fields: Colonnes configurées corrompues
+  incorrect-filter-structure: Structure incorrecte du filtre {{filterID}}
+report:
+  listFetchFailed: Échec de la récupération des rapports
+  fetchFailed: Échec de la récupération du rapport
+  runFailed: Échec de l'exécution du rapport
+translations:
+  saved: Traductions sauvegardées
+  saveFailed: Impossible de sauvegarder les traductions
+connection:
+  read-failed: Échec de la lecture de la connexion
+sensitivity-level:
+  fetch-failed: Échec de la récupération des niveaux de sensibilité
+evaluate:
+  failed: Échec de l'évaluation d'expression
