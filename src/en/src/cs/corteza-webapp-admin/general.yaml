@@ -1,0 +1,64 @@
+label:
+  add: Přidat
+  general:
+    yes: Yes
+    no: No
+  template:
+    single: Šablona
+    plural: Šablony
+  user:
+    single: Uživatel
+    plural: Uživatelé
+  role:
+    single: Role
+    plural: Role
+  application:
+    single: Aplikace
+    plural: Aplikace
+  auth_client:
+    single: Autorizovaný klient
+    plural: Autorizovaní klienti
+  queue:
+    single: Fronta zpráv
+    plural: Fronty zpráv
+  route:
+    single: Cesta
+    plural: Cesty
+  connection:
+    single: Databázové spojení
+    plural: Databázová spojení
+  sensitivity_level:
+    single: Úroveň citlivosti
+    plural: Úrovně citlivosti
+  session:
+    single: Relace
+    plural: Relace
+  workflow:
+    single: Workflow
+    plural: Workflows
+  plus-add: + Přidat
+  clear: Vyčistit
+  all: Vše
+  none: Nic
+  now: Nyní
+  today: Dnes
+  routes: Cesty
+  requests: Požadavky
+  refresh: Obnovit
+  loadMore: Načíst více
+  loading: Načítání
+  saveAndClose: Uložit a zavřít
+  cancel: Storno
+  submit: Odeslat
+  delete: Smazat
+  undelete: Obnovit smazané
+  fileTypeNotAllowed: Nepovolený typ souboru
+editor:
+  unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+resourceList:
+  pagination:
+    recordsPerPage: Na stránku
+themes:
+  labels:
+    light: Světlé
+    dark: Tmavé
