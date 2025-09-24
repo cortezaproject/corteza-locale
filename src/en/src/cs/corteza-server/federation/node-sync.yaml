@@ -1,0 +1,3 @@
+errors:
+  nodeNotFound: uzel neexistuje
+  notFound: synchronizace uzlu neexistuje
