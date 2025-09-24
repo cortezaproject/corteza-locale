@@ -3,7 +3,6 @@ template:
   enforced: |
     TOTP multi factor authentication is enforced by Corteza administrator.
     Please configure it right away.
-
   instructions: |
     Corteza uses time based one time passwords (TOTP) as one of the underlying technologies for two-factor authentication. Use one of the applications listed below and type in the secret or scan the QR code.
     <br />
@@ -12,7 +11,6 @@ template:
     <br />
     <br />
     You can use one of the following applications:
-
   lastpass: <a target="_blank" href="{{ link }}">LastPass Authenticator</a>
   gauth: Google Authenticator for <a target="_blank" href="{{ android }}">Android</a> or <a target="_blank" href="{{ iphone }}">iPhone</a>
   authy: <a target="_blank" href="{{ link }}">Authy</a>
