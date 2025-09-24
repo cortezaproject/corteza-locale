@@ -1,18 +1,18 @@
 template:
-  title: Votre session
+  title: Your session
   list:
-    current: Session actuelle
-    authorized-on: Autorisé sur
-    same-machine: Cet appareil
-    ip-address: Adresse IP
-    same-browser: Ce navigateur
-    browser: Navigateur
-    expires: Expiration
-    expired: Expiré
-    today: Aujourd'hui
-    tomorrow: En 1 jour
-    soon: En {{days}} jours
-  delete-all: Supprimer toutes les sessions
+    current: Current session
+    authorized-on: Authorized on
+    same-machine: This machine
+    ip-address: IP Address
+    same-browser: This browser
+    browser: Browser
+    expires: Expires
+    expired: Expired
+    today: Today
+    tomorrow: In 1 day
+    soon: In {{days}} days
+  delete-all: Logout from everywhere
 alerts:
-  session-deleted: Session supprimée
-  delete-sessions-but-current: Toutes les sessions sauf celles en cours sont supprimées
+  session-deleted: Session deleted
+  delete-sessions-but-current: All but current login sessions deleted
