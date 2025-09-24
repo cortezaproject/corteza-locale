@@ -1,0 +1,16 @@
+errors:
+  handleNotUnique: identifikátor není unikátní
+  invalidHandle: nevalidní identifikátor
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet jmenné prostory
+  notAllowedToDelete: není povoleno smazat tento jmenný prostor
+  notAllowedToRead: chybí povolení ke čtení tohoto jmenného prostoru
+  notAllowedToSearch: není povoleno hledat nebo procházet jmenné prostory
+  notAllowedToUndelete: není povoleno obnovit tento smazaný jmenný prostor
+  notAllowedToUpdate: není povoleno aktualizovat tento jmenný prostor
+  notFound: jmenný prostor neexistuje
+  staleData: zastaralá data
+  unsupportedExportFormat: nepodporovaný formát exportu
+  unsupportedImportFormat: nepodporovaný formát importu
+  importMissingNamespace: importovaný zdroj neobsahuje definici jmenného prostoru 
+  cloneMultiple: není povoleno klonovat několik jmenných prostorů najednou
