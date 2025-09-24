@@ -1,0 +1,37 @@
+'basic-controls':
+  action:
+    deselect: Zrušit označení
+    pan: Posunout
+    select: Vybrat
+    'select-multiple': Vybrat několik
+    'zoom-in/out': Přiblížení
+  shortcut:
+    'left-click':
+      background: Kliknout levým na pozadí
+      drag: Kliknout levým a táhnout
+      label: Kliknout levým
+    'mouse-wheel': Kolečko myši
+    'right-click-drag': Kliknout pravým a táhnout
+'basic-controls-label': Základní ovládání
+'keyboard-shortcuts':
+  action:
+    'add-selection': Přidat do výběru
+    copy: Kopírovat
+    cut: Vyjmout
+    'delete-selected-elements': Smazat vybrané elementy
+    nudge: Postrčit
+    paste: Vložit
+    redo: Znovu
+    save: Uložit
+    'hide-guides': Skrýt návod
+    'show-help': Zobrazit nápovědu
+    'reset-view-to-start-point': Resetovat zobrazení
+    'select-all': Vybrat vše
+    undo: Krok zpět
+  shortcut:
+    'adjust-distance': pro úpravu vzdálenosti
+    'arrow-keys': Šipky - Použít
+    hold: Držet
+    'left-mouse-button': levé myšítko
+'keyboard-shortcuts-label': Klávesové zkratky
+'mac-users': Pokud používáte MAC klávesnici, nahraďte klávesu Ctrl za CMD
