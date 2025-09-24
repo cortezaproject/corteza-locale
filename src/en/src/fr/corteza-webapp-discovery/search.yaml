@@ -1,0 +1,18 @@
+notification:
+  search-error: Il y a eu un problème lors de la recherche
+input-placeholder: Entrez le texte de recherche
+card:
+  button-text: Afficher plus
+  type: Type
+  handle: Identifiant
+  namespace: Namespace
+  module: Module
+  user: Utilisateur
+  email: Courriel
+  record: Enregistrement
+  fields: Champs
+tooltip:
+  map: Afficher carte
+range: Affiche {{actual}} sur {{all}} résultats
+discovering: Découvrir
+no-results: Aucun résultat
