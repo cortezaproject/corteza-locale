@@ -1,0 +1,4 @@
+template:
+  title: Potvrďte svůj email 
+  instructions: Během několika okamžiků byste měli obdržet potvrzovací email s odkazem
+  links: <a data-test-id="link-signup" href="{{signup}}">Vytvořte nový účet</a> nebo <a data-test-id="link-login" href="{{login}}">se přihlaste</a>
