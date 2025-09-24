@@ -1,0 +1,85 @@
+editor:
+  title: Nastavení uživatelského rozhraní
+  corteza-studio:
+    title: Témata
+    colorPicker: Vybrat barvu
+    sassNotInstalled: Nenalezeny žádné dart-sass binárky. Tady je návod pro nastavení
+    installSassDocs: tuto dokumentaci
+    custom-css: Vlastní CSS
+    mainLogo:
+      title: Hlavní logo
+      uploader:
+        instructions: Pro náhradní hlavního loga klikněte zde nebo přetáhněte soubor
+        uploading: Nahrávání hlavního loga
+    iconLogo:
+      title: Ikona
+      uploader:
+        instructions: Pro náhradní ikony klikněte zde nebo přetáhněte soubor
+        uploading: Nahrávání ikony
+    label:
+      default: Výchozí
+    tabs:
+      general: Obecné
+      light: Světlé
+      dark: Tmavé
+    theme:
+      variables:
+        white:
+          label: Bílá
+          description: Barva pozadí elementů
+        black:
+          label: Černá
+          description: Barva textu elementů
+        primary:
+          label: Primární
+          description: Primární tlačítka akcí, odkazy
+        secondary:
+          label: Sekundární
+          description: Barva deaktivovaných elementů a zastupných textů
+        success:
+          label: Úspěch
+          description: Barva notifikace úspěchu
+        warning:
+          label: Varování
+          description: Barva notifikace varování
+        danger:
+          label: Pozor
+          description: Barva notifikace chyby
+        light:
+          label: Světlé
+          description: Sekundární tlačítka akcí, záhlaví tabulek
+        extra-light:
+          label: Extra světlé
+          description: Tlačítka ikon, okraje
+        body-bg:
+          label: Pozadí těla
+          description: Barva pozadí aplikace
+        sidebar-bg:
+          label: Pozadí boční lišty
+          description: Barva pozadí boční lišty
+        topbar-bg:
+          label: Pozadí horní lišty
+          description: Barva pozadí horní lišty
+  topbar:
+    title: Horní lišta
+    general: Obecné
+    app-selector:
+      hide: Skrýt výběr aplikací
+    help:
+      title: Pomoc
+      hide: Skrýt nápovědu
+      hide-forum-link: Skrýt odkaz na fórum
+      hide-documentation-link: Skrýt odkaz na dokumentaci
+      hide-feedback-link: Skrýt odkaz na zpětnou vazbu
+    profile:
+      title: Profil
+      hide: Skrýt profil
+      hide-profile-link: Skrýt odkaz na profil
+      hide-change-password-link: Skrýt odkaz na změnu hesla
+      hide-theme-selector: Skrýt výběr barevného schématu
+    links:
+      title: Vlastní odkazy
+      handle: Jméno
+      invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+      url: URL
+      new-tab: Nová karta
