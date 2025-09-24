@@ -1,0 +1,8 @@
+errors:
+  notAllowedToRead: není povoleno zobrazit tuto konfiguraci
+  notAllowedToManage: není povoleno spravovat tuto konfiguraci
+  invalidPasswordMinLength: omezení na minimální délku hesla by mělo být aspoň 8 znaků
+  invalidPasswordMinUpperCase: omezení na minimální počet velkých písmen v hesle by nemělo být záporné číslo
+  invalidPasswordMinLowerCase: omezení na minimální počet malých písmen v hesle by nemělo být záporné číslo
+  invalidPasswordMinNumCount: omezení na minimální počet číslic v hesle by nemělo být záporné číslo
+  invalidPasswordMinSpecialCharCount: omezení na minimální počet speciálních znaků v hesle by nemělo být záporné číslo
