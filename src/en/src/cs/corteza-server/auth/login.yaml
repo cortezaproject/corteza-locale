@@ -1,0 +1,21 @@
+template:
+  title: Pro pokračování se přihlaste
+  form:
+    email:
+      label: Email
+      placeholder: email@domena.tld
+    password:
+      label: Heslo
+      placeholder: heslo
+    button:
+      login-and-remember: Přihlásit a zapamatovat
+      login: Přihlásit
+      continue: Pokračovat
+  links:
+    request-password-reset: Zapomněli jste heslo?
+    signup: Vytvořit nový účet
+    external:
+      login-with: Přihlásit pomocí {{idp}}
+alerts:
+  logged-in: Nyní jste přihlášeni
+  local-disabled: Místní účet zablokován
