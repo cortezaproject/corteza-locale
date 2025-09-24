@@ -1,0 +1,14 @@
+template:
+  title: Accepter invitation
+  form:
+    email:
+      label: Courriel
+      placeholder: courriel@domaine.fr
+    new-password:
+      label: Mot de passe
+      placeholder: mot de passe
+    buttons:
+      password: Définir mot de passe
+alert:
+  invalid-expired-invite-token: Jeton d'invitation utilisateur invalide ou expiré, faite une demande de réinitialisation de mot de passe.
+  success: Mot de passe mise à jour avec succès
