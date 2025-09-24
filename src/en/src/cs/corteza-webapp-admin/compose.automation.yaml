@@ -1,0 +1,6 @@
+list:
+  columns:
+    events: Spuštěno při událostech
+    label: Popisek
+    name: Jméno
+  title: Automatizace Compose
