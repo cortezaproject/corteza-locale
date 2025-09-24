@@ -1,0 +1,30 @@
+template:
+  title: Votre profil
+  form:
+    email:
+      label: Courriel
+      placeholder: courriel@domaine.fr
+      resend-confirmation-link: L'email n'est pas vérifié, <a href="{{link}}?resend"> renvoyer le lien de confirmation.</a>
+    name:
+      label: Nom complet
+      placeholder: Votre nom complet
+    handle:
+      label: Identifiant
+      placeholder: Surnom ou identifiant
+    avatar:
+      label: Avatar
+      delete: Supprimer
+      upload: Téléverser avatar
+    avatar-initial:
+      label: Initiales de l'avatar
+      color: Couleur de texte de l'avatar
+      background-color: Couleur de fond de l'avatar
+    preferred-language:
+      label: Langue préférée
+    buttons:
+      submit: Mise à jour du profil
+alerts:
+  profile-updated: Profil mis à jour avec succès
+  profile-update-fail: Impossible de mettre à jour le profil en raison d'erreurs de saisie
+  profile-avatar-uploaded: Avatar du profil téléversé avec succès
+  profile-avatar-deleted: Avatar du profil supprimé avec succès
