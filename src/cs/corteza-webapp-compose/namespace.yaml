@@ -1,0 +1,76 @@
+manage-view:
+  label: Spravovat jmenné prostory
+application:
+  label: Povolit na seznamu aplikací
+clickOpen: Klikněte pro otevření
+import:
+  buttonLabel: Import
+  title: Importovat jmenný prostor
+  uploadFileLabel: Nahrajte soubor, který chcete importovat (formát .zip)
+  uploadFilePlaceholder: Klikněte nebo přetáhněte soubor (formát .zip)
+  back: Zpět
+  import: Import
+  slug:
+    label: Krátký název *
+description:
+  label: Popis jmenného prostoru
+  placeholder: Zadejte popis jmenného prostoru
+disabled: Jmenný prostor je zakázaný
+edit: Editovat jmenný prostor
+clone: Klonovat jmenný prostor
+cloneSuffix: kopie
+cloneWarning:
+  wfInclusion: Workflows a další automatizace se neklonují. Použijte editor workflow pro jejich klonování.
+create: Vytvořit jmenný prostor
+export: Export
+enabled:
+  label: Povolit jmenný prostor
+icon:
+  label: Ikona
+  placeholder: Vyberte obrázek pro jmenný prostor nebo ho sem přetáhněte...
+label:
+  permissions: Oprávnění
+logo:
+  label: Logo
+  placeholder: Vyberte obrázek pro logo jmenného prostoru nebo ho sem přetáhněte...
+  show: Zobrazit logo
+  preview: Náhled
+  reset: Resetovat
+name:
+  label: Celý název jmenného prostoru
+  placeholder: Zadejte název jmenného prostoru
+noResults: Nenalezen žádný jmenný prostor
+searchPlaceholder: Vyhledávejte mezi jmennými prostory...
+setPermissions: Nastavte práva k jmennému prostoru
+slug:
+  description: Krátký název se použije v URL
+  label: Krátký název
+  placeholder: Zadejte krátký název pro jmenný prostor
+  invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+subtitle:
+  label: Podnadpis
+  placeholder: Zadejte podnadpis jmenného prostoru
+title: Jmenný prostor
+tooltip:
+  translations: Překlady jmenného prostoru
+visit: Zobrazit jmenný prostor
+configure: Konfigurovat jmenný prostor
+manage:
+  title: Spravovat jmenné prostory
+  list-view: Zpět na seznam jmenných prostorů
+  delete: Smazat
+  unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+  disabled: Vypnuto
+  toolbar:
+    buttons:
+      create: Nový jmenný prostor
+      permissions: Oprávnění
+  table:
+    columns:
+      enabled: Povoleno
+      name: Jméno
+      slug: Krátký název
+      changedAt: Poslední změna
+sidebar:
+  configure: Stránky jmenného prostoru
+  hide: Skrýt boční lištu na veřejných stránkách jmenného prostoru
