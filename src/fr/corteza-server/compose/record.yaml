@@ -1,0 +1,25 @@
+errors:
+  fieldNotFound: Aucun champ nommé {field}
+  importSessionAlreadActive: session d'importation déjà active
+  invalidID: ID invalide
+  invalidModuleID: ID de module invalide ou manquant
+  invalidNamespaceID: ID de namespace invalide ou manquant
+  invalidReferenceFormat: format de référence invalide
+  invalidValueStructure: plus d'une valeur pour le champ à valeur unique {field}
+  moduleNotFoundModule: module introuvable
+  namespaceNotFound: namespace introuvable
+  notAllowedToChangeFieldValue: non autorisé à changer la valeur du champ {field}
+  notAllowedToCreate: non autorisé à créer des enregistrements
+  notAllowedToDelete: non autorisé à supprimer cet enregistrement
+  notAllowedToListRecords: non autorisé à lister les enregistrements
+  notAllowedToRead: non autorisé à lire cet enregistrement
+  notAllowedToReadModule: non autorisé à lire ce module
+  notAllowedToReadNamespace: non autorisé à lire ce namespace
+  notAllowedToSearch: non autorisé à chercher ou lister des enregistrements
+  notAllowedToUndelete: non autorisé à annuler la suppression de cet enregistrement
+  notAllowedToUpdate: non autorisé à mettre à jour cet enregistrement
+  notFound: enregistrement introuvable
+  staleData: données obsolètes
+  unknownBulkOperation: opération en masse inconnue {bulkOperation}
+  valueInput: valeur de saisie d'enregistrement invalide
+  maxRecordsReached: nombre max d'enregistrement par namespace atteint
