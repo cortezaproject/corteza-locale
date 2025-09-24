@@ -1,0 +1,12 @@
+errors:
+  invalidConfiguration: Nevalidní konfigurace reportu
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet reporty
+  notAllowedToDelete: není povoleno odstranit tento report
+  notAllowedToListReports: nebo povoleno procházet reporty
+  notAllowedToRead: není povoleno zobrazit tento report
+  notAllowedToRun: není povoleno spustit tento report
+  notAllowedToSearch: není povoleno hledat nebo procházet reporty
+  notAllowedToUndelete: není povoleno obnovit tento smazaný report
+  notAllowedToUpdate: není povoleno aktualizovat tento report
+  notFound: report nenalezen
