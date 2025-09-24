@@ -1,0 +1,9 @@
+errors:
+  notFound: crwdns103048:0crwdne103048:0
+  invalidID: crwdns103050:0crwdne103050:0
+  invalidKind: crwdns103052:0crwdne103052:0
+  invalidStatus: crwdns103054:0crwdne103054:0
+  notAllowedToRead: crwdns103056:0crwdne103056:0
+  notAllowedToSearch: crwdns103058:0crwdne103058:0
+  notAllowedToCreate: crwdns103060:0crwdne103060:0
+  notAllowedToApprove: crwdns103062:0crwdne103062:0
