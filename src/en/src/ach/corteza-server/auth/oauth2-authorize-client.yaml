@@ -1,0 +1,14 @@
+template:
+  title: crwdns102236:0crwdne102236:0
+  form:
+    greeting-paragraph: crwdns102238:0crwdne102238:0
+    question-for-client: crwdns102240:0crwdne102240:0
+    buttons:
+      allow: crwdns102242:0crwdne102242:0
+      deny: crwdns102244:0crwdne102244:0
+  links:
+    mistake: crwdns102246:0{{link}}crwdne102246:0
+  errors:
+    invalid-user: crwdns102248:0{{link}}crwdne102248:0
+alerts:
+  denied: 'crwdns102250:0{{client}}crwdne102250:0'
