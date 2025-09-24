@@ -1,0 +1,31 @@
+title: Konzole ochrany osobních údajů
+connection-location: Umístění spojení
+description:
+  first: Konzole ochrany osobních údajů umožňuje přistupovat k přehledu osobních údajů, žádat o smazání nebo export údajů.
+  second: Tyto operace podléhají validaci Správce Údajů ve vaší organizaci
+user-options:
+  data-overview:
+    title: Přehled údajů
+    description: Zkontrolujte svoje profilové informace a údaje uložené v Corteza aplikacích
+    button-label: Zobrazit moje údaje
+  privacy-requests:
+    title: Požadavky na ochranu soukromí
+    description: Správa a export seznamu všech vašich žádostí týkajících se ochrany soukromí (smazání, export, oprava)
+    button-label: Vaše žádosti ochrany soukromí
+  export:
+    title: Export údajů
+    description: Vytvořte novou žádost o export údajů vybráním typu a rozsahu údajů a výstupního formátu
+    button-label: Žádat o export údajů
+  delete:
+    title: Smazání údajů
+    description: Žádost o smazání vybraných osobních údajů ze systému
+    button-label: Žádat o smazání údajů
+dc-options:
+  privacy-requests:
+    title: Požadavky na ochranu soukromí
+    description: Správa a export seznamu všech žádostí týkajících se ochrany soukromí (smazání, export, oprava)
+    button-label: Příchozí žádosti ochrany osobních údajů
+  sensitive-data:
+    title: Citlivé údaje
+    description: Přehled všech modulů s poli pro citlivé údaje
+    button-label: Seznam všech citlivých údajů
