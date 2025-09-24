@@ -1,0 +1,17 @@
+errors:
+  handleNotUnique: l'identifiant n'est pas unique
+  invalidHandle: identifiant invalide
+  invalidID: ID invalide
+  invalidNamespaceID: ID de namespace invalide ou manquant
+  moduleNotFound: ce module n'existe pas
+  namespaceNotFound: ce namespace n'existe pas
+  notAllowedToCreate: non autorisé à créer des pages
+  notAllowedToDelete: non autorisé à supprimer cette page
+  notAllowedToListPages: non autorisé à lister les pages
+  notAllowedToRead: non autorisé à lire cette page
+  notAllowedToReadNamespace: non autorisé à lire ce namespace
+  notAllowedToSearch: non autorisé pour rechercher ou lister les pages
+  notAllowedToUndelete: non autorisé à annuler la suppression de cette page
+  notAllowedToUpdate: non autorisé à mettre à jour cette page
+  notFound: cette page n'existe pas
+  staleData: données obsolètes
