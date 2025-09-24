@@ -1,0 +1,11 @@
+federated: crwdns110518:0crwdne110518:0
+no-values: crwdns110520:0crwdne110520:0
+label:
+  all: crwdns110522:0crwdne110522:0
+resourceList:
+  pagination:
+    recordsPerPage: crwdns110524:0crwdne110524:0
+themes:
+  labels:
+    light: crwdns110526:0crwdne110526:0
+    dark: crwdns110528:0crwdne110528:0
