@@ -1,0 +1,140 @@
+chart:
+  configurator:
+    begin-axis-at-zero: Vždy začít osu na nule
+    chart-title: Nadpis grafu
+    color-scheme: Barevné schéma
+    data: Data
+    data-columns: Sloupce dat
+    default: Výchozí
+    default-value: Výchozí hodnota
+    general: Obecné
+    label-column: Popisek sloupce
+    logarithmic-scale: Logaritmické měřítko
+    position-description: Hodnoty můžou být v pixelech (20) nebo v procentech (20%)
+    none: Nic
+    place-axis-on-right-side: Umístil osu na pravou stranu
+    skip-missing-values: Vynechat chybějící hodnoty
+    step-size: Velikost kroku
+    animation:
+      enabled: Animace povolena
+    metrics:
+      label: Hodnoty
+      field: Pole
+      stack:
+        label: Spojit
+        description: Hodnoty se stejnými hodnotami budou spojeny
+      label-field:
+        label: Popisek
+    time:
+      label: Čas
+      unit:
+        label: Jednotka času
+        types:
+          date: Datum
+          month: Měsíc
+          quarter: Čtvrtletí
+          week: Týden
+          year: Rok
+    type: Typ
+    types:
+      bar: Sloupec
+      doughnut: Kobliha
+      funnel: Trychtýř
+      line: Spojnice
+      pie: Koláč
+    value:
+      max: Maximální hodnota
+      min: Minimální hodnota
+    x-axis:
+      name: Osa X
+      label: Popisek osy
+      type: Typ osy
+      labelRotation:
+        label: Rotace popisků
+    y-axis:
+      name: Osa Y
+      label: Popisek osy Y
+      labelPosition:
+        label: Umístění popisku
+        top: Nahoře
+        center: Uprostřed
+        bottom: Dole
+      labelRotation:
+        label: Rotace popisků
+    legend:
+      name: Legenda
+      hide: Skrýt legendu
+      scrollable: Posuvné
+      orientation:
+        label: Orientace
+        horizontal: Horizontální
+        vertical: Vertikální
+      align:
+        label: Zarovnání
+        left: Vlevo
+        right: Vpravo
+        center: Uprostřed
+      position:
+        description: Hodnoty c
+        default: Výchozí pozice
+        top: Nahoře
+        right: Vpravo
+        bottom: Dole
+        left: Vlevo
+    tooltips:
+      name: Detail
+      show:
+        always: Vždy zobrazit popisky
+    offset:
+      name: Offset
+      default: Výchozí offset
+      top: Nahoře
+      right: Vpravo
+      bottom: Dole
+      left: Vlevo
+metric:
+  configurator:
+    color:
+      background: Barva pozadí
+      text: Barva textu
+      picker: Vybrat barvu
+    format: Formát
+    label-column: Popisek sloupce
+    none: Nic
+    prefix: Předpona
+    suffix: Přípona
+table:
+  configurator:
+    general: Obecné
+    data: Data
+    columns: Sloupce
+    dark: Tmavé
+    head-variant: Varianta hlavičky
+    joined-datasource-handling: Práce se sloučenými zdroji dat
+    light: Světlé
+    none: Nic
+    table:
+      options:
+        bordered: S ohraničením
+        borderless: Bez ohraničení
+        dark: Tmavé
+        fixed: Fixováno
+        hover: Hover
+        label: Možnosti tabulky
+        no-collapse: Bez sloučení okrajů
+        responsive: Responsivní
+        small: Malé
+        striped: Striped
+      variant: Varianta tabulky
+      variants:
+        danger: Pozor
+        dark: Tmavé
+        info: Informace
+        light: Světlé
+        primary: Primární
+        secondary: Sekundární
+        success: Úspěch
+        warning: Varování
+  view:
+    next: Další
+    previous: Předchozí
