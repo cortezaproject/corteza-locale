@@ -1,0 +1,19 @@
+errors:
+  handleNotUnique: identifikátor není unikátní
+  invalidHandle: nevalidní identifikátor
+  invalidID: nevalidní ID
+  invalidNamespaceID: nevalidní nebo chybějící ID jmenného prostoru
+  nameNotUnique: jméno není unikátní
+  fieldNameReserved: rezervované jméno pole
+  namespaceNotFound: jmenný prostor neexistuje
+  notAllowedToCreate: není povoleno vytvářet moduly
+  notAllowedToDelete: není povoleno smazat tento modul
+  notAllowedToListModules: není povoleno procházet moduly
+  notAllowedToRead: není povoleno zobrazit tento modul
+  notAllowedToReadNamespace: chybí povolení ke čtení tohoto jmenného prostoru
+  notAllowedToSearch: není povoleno hledat nebo procházet moduly
+  notAllowedToUndelete: není povoleno obnovit tento smazaný modul
+  notAllowedToUpdate: není povoleno aktualizovat tento modul
+  notFound: modul neexistuje
+  staleData: zastaralá data
+  dedupConfigurationInvalidMissingConstraint: chybějící omezení konfigurace reduplikace
