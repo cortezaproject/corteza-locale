@@ -1,0 +1,14 @@
+template:
+  title: Autoriser
+  form:
+    greeting-paragraph: Bonjour
+    question-for-client: souhaiterait effectuer des actions sur ce serveur Corteza en votre nom.
+    buttons:
+      allow: Accepter
+      deny: Refuser
+  links:
+    mistake: Si c'est une erreur, veuillez <a href="{{link}}">Se déconnecter</a>.
+  errors:
+    invalid-user: Impossible de continuer avec un courriel non autorisé, rendez-vous sur <a data-test-id="link-redirect-to-profile" href="{{link}}">Votre profil</a> et résolvez le problème.
+alerts:
+  denied: 'Échec de l''autorisation {{client}} : permissions insuffisantes'
