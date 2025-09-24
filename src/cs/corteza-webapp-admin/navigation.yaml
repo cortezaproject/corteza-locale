@@ -1,0 +1,41 @@
+dashboard: Dashboard
+system:
+  group: Systém
+  items:
+    users: Uživatelé
+    actionlog: Záznam událostí
+    apigw: Integrační brána
+    applications: Aplikace
+    authclients: Autorizovaní klienti
+    connections: Spojení
+    code-snippets: Výstřižky kódu
+    sensitivityLevel: Úrovně citlivosti
+    permissions: Oprávnění
+    queues: Fronty zpráv
+    roles: Role
+    settings: Nastavení autorizace
+    email: Nastavení emailu
+    stats: Statistiky
+    templates: Šablony
+compose:
+  group: Compose
+  items:
+    automation: Automatizace
+    permissions: Oprávnění
+    settings: Nastavení
+automation:
+  group: Automatizace
+  items:
+    permissions: Oprávnění
+    scripts: Skript Corredor
+    sessions: Relace
+    workflows: Workflows
+federation:
+  group: Federace
+  items:
+    nodes: Uzly
+    permissions: Oprávnění
+ui:
+  group: Uživatelské rozhraní
+  items:
+    settings: Nastavení
