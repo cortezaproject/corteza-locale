@@ -1,0 +1,62 @@
+clear: crwdns110686:0crwdne110686:0
+description: crwdns110688:0crwdne110688:0
+enabled: crwdns110690:0crwdne110690:0
+enable: crwdns110692:0crwdne110692:0
+disable: crwdns110694:0crwdne110694:0
+error: crwdns110696:0crwdne110696:0
+error-expression: crwdns110698:0crwdne110698:0
+export: crwdns110700:0crwdne110700:0
+general: crwdns110702:0crwdne110702:0
+handle: crwdns110704:0crwdne110704:0
+import:
+  json: crwdns110706:0crwdne110706:0
+  label: crwdns110708:0crwdne110708:0
+  reassign-run-as: "crwdns110710:0crwdne110710:0"
+  upload-files: crwdns110712:0crwdne110712:0
+label:
+  all: crwdns110714:0crwdne110714:0
+  label: crwdns110716:0crwdne110716:0
+loading: crwdns110718:0crwdne110718:0
+name: crwdns110720:0crwdne110720:0
+new-workflow: crwdns110722:0crwdne110722:0
+none: crwdns110724:0crwdne110724:0
+now: crwdns110726:0crwdne110726:0
+offset: crwdns110728:0crwdne110728:0
+offset-expression: crwdns110730:0crwdne110730:0
+permissions: crwdns110732:0crwdne110732:0
+searchPlaceholder: crwdns110734:0crwdne110734:0
+subworkflow: crwdns110736:0crwdne110736:0
+subworkflows: crwdns110738:0crwdne110738:0
+deleted: crwdns110740:0crwdne110740:0
+disabled: crwdns110742:0crwdne110742:0
+without: crwdns110744:0crwdne110744:0
+only: crwdns110746:0crwdne110746:0
+including: crwdns110748:0crwdne110748:0
+workflow-list: crwdns110750:0crwdne110750:0
+workflow:
+  single: crwdns110752:0crwdne110752:0
+  plural: crwdns110754:0crwdne110754:0
+save: crwdns110756:0crwdne110756:0
+today: crwdns110758:0crwdne110758:0
+cancel: crwdns110760:0crwdne110760:0
+resourceList:
+  notFound: crwdns110762:0crwdne110762:0
+  noItems: crwdns110764:0crwdne110764:0
+  pagination:
+    next: crwdns110766:0crwdne110766:0
+    prev: crwdns110768:0crwdne110768:0
+    showing: 'crwdns110770:0{{from}}crwdnd110770:0{{to}}crwdnd110770:0{{count}}crwdnd110770:0{{data}}crwdne110770:0'
+    single: 'crwdns110772:0{{data}}crwdne110772:0'
+    single_plural: 'crwdns110774:0{{count}}crwdnd110774:0{{data}}crwdne110774:0'
+    recordsPerPage: crwdns110776:0crwdne110776:0
+tooltip:
+  permissions: crwdns110778:0crwdne110778:0
+columns:
+  name: crwdns110780:0crwdne110780:0
+  enabled: crwdns110782:0crwdne110782:0
+  steps: crwdns110784:0crwdne110784:0
+  changedAt: crwdns110786:0crwdne110786:0
+themes:
+  labels:
+    light: crwdns110788:0crwdne110788:0
+    dark: crwdns110790:0crwdne110790:0
