@@ -1,0 +1,25 @@
+errors:
+  fieldNotFound: neexistující pole {field}
+  importSessionAlreadActive: relace importu je už aktivní
+  invalidID: nevalidní ID
+  invalidModuleID: nevalidní nebo chybějící ID modulu
+  invalidNamespaceID: nevalidní nebo chybějící ID jmenného prostoru
+  invalidReferenceFormat: nevalidní formát odkazu
+  invalidValueStructure: zadáno více hodnot pro pole {field} s jednou hodnotou
+  moduleNotFoundModule: modul nenalezen 
+  namespaceNotFound: jmenný prostor nenalezen 
+  notAllowedToChangeFieldValue: není povoleno měnit hodnotu pole {field}
+  notAllowedToCreate: není povoleno vytvářet záznamy
+  notAllowedToDelete: není povoleno odstranit tento záznam
+  notAllowedToListRecords: nebo povoleno procházet záznamy
+  notAllowedToRead: není povoleno zobrazit tento záznam
+  notAllowedToReadModule: není povoleno zobrazit modul
+  notAllowedToReadNamespace: chybí povolení ke čtení tohoto jmenného prostoru
+  notAllowedToSearch: není povoleno hledat nebo procházet záznamy
+  notAllowedToUndelete: není povoleno obnovit tento smazaný záznam
+  notAllowedToUpdate: není povoleno aktualizovat tento záznam
+  notFound: záznam nenalezen
+  staleData: zastaralá data
+  unknownBulkOperation: neznámá hromadná operace {bulkOperation}
+  valueInput: nevalidní vstup hodnoty záznamu
+  maxRecordsReached: byl dosažen maximální počet záznamů ve jmenném prostoru

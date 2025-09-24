@@ -1,0 +1,187 @@
+label:
+  app-name:
+    public: crwdns108732:0crwdne108732:0
+    private: crwdns108734:0crwdne108734:0
+  actions: crwdns108736:0crwdne108736:0
+  active: crwdns108738:0crwdne108738:0
+  add: crwdns108740:0crwdne108740:0
+  add-with-plus: crwdns108742:0crwdne108742:0
+  addNew: crwdns108744:0crwdne108744:0
+  addValue: crwdns108746:0crwdne108746:0
+  ascending: crwdns108748:0crwdne108748:0
+  attachmentFileInfo: 'crwdns108750:0{{0}}crwdnd108750:0{{1}}crwdne108750:0'
+  attributes: crwdns108752:0crwdne108752:0
+  back: crwdns108754:0crwdne108754:0
+  backWithoutSave: crwdns108756:0crwdne108756:0
+  block: crwdns108758:0crwdne108758:0
+  browse: crwdns108760:0crwdne108760:0
+  buttons: crwdns108762:0crwdne108762:0
+  cancel: crwdns108764:0crwdne108764:0
+  clear: crwdns108766:0crwdne108766:0
+  clone: crwdns108768:0crwdne108768:0
+  close: crwdns108770:0crwdne108770:0
+  create: crwdns108772:0crwdne108772:0
+  delete: crwdns108774:0crwdne108774:0
+  default: crwdns108776:0crwdne108776:0
+  restore: crwdns108778:0crwdne108778:0
+  descending: crwdns108780:0crwdne108780:0
+  description: crwdns108782:0crwdne108782:0
+  download: crwdns108784:0crwdne108784:0
+  dropFiles: crwdns108786:0crwdne108786:0
+  edit: crwdns108788:0crwdne108788:0
+  enabled: crwdns108790:0crwdne108790:0
+  export: crwdns108792:0crwdne108792:0
+  fileTypeNotAllowed: crwdns108794:0crwdne108794:0
+  general: crwdns108796:0crwdne108796:0
+  handle: crwdns108798:0crwdne108798:0
+  here: crwdns108800:0crwdne108800:0
+  home: crwdns108802:0crwdne108802:0
+  import: crwdns108804:0crwdne108804:0
+  all: crwdns108806:0crwdne108806:0
+  importPlaceholder: crwdns108808:0crwdne108808:0
+  loading: crwdns108810:0crwdne108810:0
+  makeDefault: crwdns108812:0crwdne108812:0
+  moduleName: crwdns108814:0crwdne108814:0
+  multi: crwdns108816:0crwdne108816:0
+  name: crwdns108818:0crwdne108818:0
+  next: crwdns108820:0crwdne108820:0
+  no: No
+  noHandle: crwdns108822:0crwdne108822:0
+  none: crwdns108824:0crwdne108824:0
+  now: crwdns108826:0crwdne108826:0
+  ok: crwdns108828:0crwdne108828:0
+  page: crwdns108830:0crwdne108830:0
+  pageLayout: crwdns108832:0crwdne108832:0
+  pageBuilder: crwdns108834:0crwdne108834:0
+  permissions: crwdns108836:0crwdne108836:0
+  private: crwdns108838:0crwdne108838:0
+  privacy: crwdns108840:0crwdne108840:0
+  processing: crwdns108842:0crwdne108842:0
+  record: crwdns108844:0crwdne108844:0
+  recordPage: crwdns108846:0crwdne108846:0
+  field: crwdns108848:0crwdne108848:0
+  remove: crwdns108850:0crwdne108850:0
+  removeDefault: crwdns108852:0crwdne108852:0
+  required: crwdns108854:0crwdne108854:0
+  reset: crwdns108856:0crwdne108856:0
+  sensitive: crwdns108858:0crwdne108858:0
+  save: crwdns108860:0crwdne108860:0
+  saveAndClose: crwdns108862:0crwdne108862:0
+  saveAsCopy: crwdns108864:0crwdne108864:0
+  status: crwdns108866:0crwdne108866:0
+  timeHour: 'crwdns108868:0{{t}}crwdne108868:0'
+  timeMinute: 'crwdns108870:0{{t}}crwdne108870:0'
+  today: crwdns108872:0crwdne108872:0
+  title: crwdns108874:0crwdne108874:0
+  type: crwdns108876:0crwdne108876:0
+  updatedAt: crwdns108878:0crwdne108878:0
+  uploadError: 'crwdns108880:0{{message}}crwdne108880:0'
+  uploading: crwdns108882:0crwdne108882:0
+  urlPlaceholder: crwdns108884:0crwdne108884:0
+  validation: crwdns108886:0crwdne108886:0
+  view: crwdns108888:0crwdne108888:0
+  yes: Yes
+  chart:
+    single: crwdns108890:0crwdne108890:0
+    plural: crwdns108892:0crwdne108892:0
+  namespace:
+    single: crwdns108894:0crwdne108894:0
+    plural: crwdns108896:0crwdne108896:0
+  module:
+    single: crwdns108898:0crwdne108898:0
+    plural: crwdns108900:0crwdne108900:0
+navigation:
+  chart: crwdns108902:0crwdne108902:0
+  namespace: crwdns108904:0crwdne108904:0
+  module: crwdns108906:0crwdne108906:0
+  page: crwdns108908:0crwdne108908:0
+  pageLayout: crwdns108910:0crwdne108910:0
+placeholder:
+  handle: crwdns108912:0crwdne108912:0
+  sample: crwdns108914:0crwdne108914:0
+reminder:
+  add: crwdns108916:0crwdne108916:0
+  dismiss: crwdns108918:0crwdne108918:0
+  dismissed: crwdns108920:0crwdne108920:0
+  dismissedAt: crwdns108922:0crwdne108922:0
+  undismiss: crwdns108924:0crwdne108924:0
+  delete: crwdns108926:0crwdne108926:0
+  recordPageLink: crwdns108928:0crwdne108928:0
+  edit:
+    label: crwdns108930:0crwdne108930:0
+    assigneeLabel: crwdns108932:0crwdne108932:0
+    assigneePlaceholder: crwdns108934:0crwdne108934:0
+    notesLabel: crwdns108936:0crwdne108936:0
+    notesPlaceholder: crwdns108938:0crwdne108938:0
+    remindAtLabel: crwdns108940:0crwdne108940:0
+    remindAtNone: crwdns108942:0crwdne108942:0
+    titleLabel: crwdns108944:0crwdne108944:0
+    titlePlaceholder: crwdns108946:0crwdne108946:0
+  listLabel: crwdns108948:0crwdne108948:0
+  routesTo: crwdns108950:0crwdne108950:0
+  snooze:
+    label: crwdns108952:0crwdne108952:0
+    count: crwdns108954:0{{count}}crwdne108954:0
+tooltip:
+  dragAndDrop: crwdns108956:0crwdne108956:0
+fieldKinds:
+  Bool:
+    label: crwdns108958:0crwdne108958:0
+  DateTime:
+    label: crwdns108960:0crwdne108960:0
+  Email:
+    label: crwdns108962:0crwdne108962:0
+  File:
+    label: crwdns108964:0crwdne108964:0
+  Number:
+    label: crwdns108966:0crwdne108966:0
+  Record:
+    label: crwdns108968:0crwdne108968:0
+  Select:
+    label: crwdns108970:0crwdne108970:0
+  String:
+    label: crwdns108972:0crwdne108972:0
+  Url:
+    label: crwdns108974:0crwdne108974:0
+  User:
+    label: crwdns108976:0crwdne108976:0
+  Geometry:
+    label: crwdns108978:0crwdne108978:0
+field:
+  selectAll: crwdns108980:0crwdne108980:0
+  tooltip:
+    permissions: crwdns108982:0crwdne108982:0
+  unselectAll: crwdns108984:0crwdne108984:0
+  kind:
+    user:
+      suggestionPlaceholder: crwdns108986:0crwdne108986:0
+resourceList:
+  notFound: crwdns108988:0crwdne108988:0
+  noItems: crwdns108990:0crwdne108990:0
+  pagination:
+    next: crwdns108992:0crwdne108992:0
+    prev: crwdns108994:0crwdne108994:0
+    showing: 'crwdns108996:0{{from}}crwdnd108996:0{{to}}crwdnd108996:0{{count}}crwdnd108996:0{{data}}crwdne108996:0'
+    single: 'crwdns108998:0{{data}}crwdne108998:0'
+    single_plural: 'crwdns109000:0{{count}}crwdnd109000:0{{data}}crwdne109000:0'
+    recordsPerPage: crwdns109002:0crwdne109002:0
+recordNavigation:
+  next: crwdns109004:0crwdne109004:0
+  prev: crwdns109006:0crwdne109006:0
+variants:
+  primary: crwdns109008:0crwdne109008:0
+  secondary: crwdns109010:0crwdne109010:0
+  light: crwdns109012:0crwdne109012:0
+  dark: crwdns109014:0crwdne109014:0
+  info: crwdns109016:0crwdne109016:0
+  success: crwdns109018:0crwdne109018:0
+  danger: crwdns109020:0crwdne109020:0
+  warning: crwdns109022:0crwdne109022:0
+editor:
+  unsavedChanges: crwdns109024:0crwdne109024:0
+record:
+  unsavedChanges: crwdns109026:0crwdne109026:0
+themes:
+  labels:
+    light: crwdns109028:0crwdne109028:0
+    dark: crwdns109030:0crwdne109030:0

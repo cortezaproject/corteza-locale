@@ -1,0 +1,17 @@
+title: Přehled údajů
+data-types:
+  profile-information:
+    title: Informace o profilu
+    description: Vaše kontaktní informace, jméno, příjmení, přezdívka, profilová fotografie
+  application-data:
+    title: Data aplikace
+    description: Vaše osobní údaje uložené v Corteza
+application:
+  title: Data aplikace
+  connection:
+    label: Spojení
+    placeholder: Vyberte spojení
+  no-data-available: Žádné údaje nejsou dostupné
+  private-fields: Osobní pole
+  request-correction: Žádat o opravu
+  request-deletion: Žádat o smazání

@@ -1,0 +1,56 @@
+ui:
+  save: crwdns100840:0crwdne100840:0
+  cancel: crwdns100842:0crwdne100842:0
+  set-for: crwdns100844:0{{target}}crwdne100844:0
+  loading: crwdns100846:0crwdne100846:0
+  label: crwdns100848:0crwdne100848:0
+  notification:
+    save:
+      success: crwdns100850:0crwdne100850:0
+      failed: crwdns100852:0crwdne100852:0
+  edit:
+    label: crwdns100854:0crwdne100854:0
+    description: crwdns100856:0crwdne100856:0
+  evaluate:
+    description: crwdns100858:0crwdne100858:0
+  add:
+    label: crwdns100860:0crwdne100860:0
+    title: crwdns100862:0crwdne100862:0
+    save: crwdns100864:0crwdne100864:0
+    role:
+      label: crwdns100866:0crwdne100866:0
+      placeholder: crwdns100868:0crwdne100868:0
+    user:
+      label: crwdns100870:0crwdne100870:0
+      placeholder: crwdns100872:0crwdne100872:0
+  tooltip:
+    unknown-context:
+      user: crwdns100874:0crwdne100874:0
+      role: crwdns100876:0crwdne100876:0
+  access:
+    allow: crwdns100878:0crwdne100878:0
+    inherit: crwdns100880:0crwdne100880:0
+    deny: crwdns100882:0crwdne100882:0
+resources:
+  system:
+    report:
+      all: crwdns100884:0crwdne100884:0
+      specific: crwdns100886:0{{target}}crwdne100886:0
+      tooltip: crwdns100888:0crwdne100888:0
+      operations:
+        delete:
+          description: "crwdns100890:0crwdne100890:0"
+          specific: crwdns100892:0{{target}}crwdne100892:0
+          title: crwdns100894:0crwdne100894:0
+        read:
+          description: "crwdns100896:0crwdne100896:0"
+          specific: crwdns100898:0{{target}}crwdne100898:0
+          title: crwdns100900:0crwdne100900:0
+        run:
+          description: "crwdns100902:0crwdne100902:0"
+          specific: crwdns100904:0{{target}}crwdne100904:0
+          title: crwdns100906:0crwdne100906:0
+        update:
+          description: "crwdns100908:0crwdne100908:0"
+          specific: crwdns100910:0{{target}}crwdne100910:0
+          title: crwdns100912:0crwdne100912:0

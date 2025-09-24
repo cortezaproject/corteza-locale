@@ -1,0 +1,923 @@
+selector:
+  selectableBlocks:
+    placeholder: Bloky z jiných layoutů
+  tooltip:
+    clone:
+      ref: Klonovat s odkazy
+      noRef: Klonovat bez odkazů
+automation:
+  addPlaceholderLabel: Přidat placeholder (zástupné tlačítko)
+  availableScriptsAndWorkflow: Dostupné skripty a workflow ({{count}})
+  badge:
+    script: skript
+    workflow: workflow
+  buttonLabel: Popisek
+  buttonVariant: Varianta
+  configuredButtons: Konfigurovaná tlačítka
+  dummyButtonLabel: Zástupné
+  editButton: Editovat
+  editTitle:
+    script: Editace tlačítka se skriptem
+    workflow: Editace tlačítka s workflow
+  label: Automatizace
+  noDescription: Žádný popis
+  noLabel: Neoznačené 
+  noScript: Pro toto tlačítko není nakonfigurovaný žádný skript ani workflow
+  noScripts: Žádný manuální skript není kompatibilní s tímto blokem stránky
+  removeAll: Odebrat vše
+  searchPlaceholder: Filtrování dostupných skriptů podle štítku, názvu a popisu
+  stepID: 'ID počátečního kroku: {{stepID}}'
+  variants:
+    primary: Primární
+    secondary: Sekundární
+    light: Světlé
+    dark: Tmavé
+    success: Úspěch
+    danger: Pozor
+    warning: Varování
+calendar:
+  source:
+    label: Zdroj
+  addEventsSource: Přidat zdroj událostí
+  calendarHeader: Záhlaví kalendáře
+  feedLabel: Konfigurace zdroje událostí
+  feedPlaceholder: Výběr zdroje událostí
+  eventSource: Zdroj událostí
+  hideHeader: Skrýt záhlaví kalendáře
+  hideNavigation: Skrýt tlačítko předchozí/další
+  hideTitle: Skrýt nadpis
+  hideToday: Skrýt tlačítko dnes
+  label: Kalendář
+  recordFeed:
+    colorPicker: Vybrat barvu
+    colorLabel: Barva události
+    eventAllDay: Zobrazit jako celodenní události
+    eventEndFieldLabel: Konec události
+    eventEndFieldPlaceholder: Událost bude trvat 1 hodinu
+    eventStartFieldLabel: Začátek události
+    eventStartFieldPlaceholder: Pole s datem začátku události
+    moduleLabel: Modul
+    modulePlaceholder: Vybrat modul
+    optionLabel: Záznamy
+    prefilterLabel: Předfiltrovat události
+    prefilterPlaceholder: pole1 = 1 AND pole2 = 232
+    titleLabel: Nadpis události
+    titlePlaceholder: Pole s nadpisem události
+  reminderFeed:
+    colorLabel: Barva události
+    optionLabel: Připomenutí
+  today: Dnes
+  view:
+    dayGridMonth: Měsíc
+    default: Výchozí zobrazení
+    enabled: Povolená zobrazení
+    footnote: Ujistěte se, že výchozí zobrazení je jedno z povolených
+    listMonth: Agenda
+    timeGridDay: Den
+    timeGridWeek: Týden
+    onEventClick: Při kliknutí na událost
+    openInSameTab: Otevřít záznam ve stejné kartě
+    openInNewTab: Otevřít záznam v nové kartě
+    openInModal: Otevřít záznam v dialogovém okně
+  viewLabel: Kalendář
+chart:
+  add: Nový graf
+  addFunnel: Trychtýřový graf
+  addGauge: Měřákový graf
+  addRadar: Radarový graf 
+  addGeneric: Generický graf
+  createFailed: Nepovedlo se vytvořit graf
+  enableLiveFilter: Povolit živý filtr
+  columns:
+    name: Jméno
+    handle: Identifikátor
+    changedAt: Poslední změna
+  configure:
+    label: Konfigurovat graf
+    reportLabel: Report {{l}}
+    reportsLabel: Reporty
+  display: Graf pro zobrazení v tomto bloku
+  drillDown:
+    label: Přejít na větší detail
+    description: Pokud je vybraný seznam záznamů, použije se pro zobrazení detailních dat. Pokud není vybraný žádný seznam záznamů, detailní data se zobrazí v dialogovém okně.
+    openInModal: Otevřít v dialogovém okně
+    configureColumns: Vybrat výchozí pole
+  edit:
+    label: Editovat graf
+    dimension:
+      function:
+        date: DATUM
+        label: Funkce
+        month: MĚSÍC
+        none: (žádné seskupení)
+        placeholder: Vyberte velikost seskupení
+        quarter: ČTVRTLETÍ
+        week: TÝDEN
+        year: ROK
+  label: Graf
+  pick: Vybrat graf
+  delete: Smazat
+  preview:
+    chartId: Náhled grafu (ID {{0}})
+  searchPlaceholder: Hledání ve všech grafech v tomto jmenném prostoru
+  openInBuilder: Otevřít v editoru grafů
+  openChartList: Otevřít seznam grafů
+  filter:
+    modal:
+      title: Filtr grafů
+      originalFilter:
+        label: Původní filtr
+      liveFilter:
+        label: Živý filtr
+        placeholder: Vybrat filtr
+      filterPreview:
+        label: Náhled filtru
+      options:
+        label: Možnosti filtru
+        and: Splňovat všechny filtry najednou
+        or: Splňovat aspoň jeden filtr
+        overwrite: Přepsat původní filtr
+content:
+  ok: Ok
+  label: Obsah
+  urlPlaceholder: https://priklad.tld
+file:
+  label: Soubor
+  preview:
+    label: Blok se souborem
+general:
+  descriptionLabel: Popis
+  descriptionPlaceholder: Popis bloku
+  headerStyle: Styl (barva) nadpisu bloku
+  magnifyLabel: Přiblížení bloku
+  customID:
+    label: Vlastní ID
+    placeholder: vlastniID
+    description: 'Používá se pro referencování bloku ve vlastním CSS (#vlastniID). Musí být unikátní na stránce.'
+    invalid-state: Alespoň 2 znaky. Může obsahovat jen písmena, číslice, podtržítka a pomlčky. Musí končit písmenem nebo číslicí
+  customCSSClass:
+    label: Vlastní CSS třída
+    placeholder: vlastni-trida-1 vlastni-trida-2
+    description: Používá se pro referencování bloku ve vlastním CSS (.vlastni-trida)
+    invalid-state: Může obsahovat jen písmena, číslice, podtržítka a pomlčky. Musí končit písmenem nebo číslicí. Použijte mezery pro zadání více tříd
+  visibility:
+    label: Viditelnost
+    roles:
+      label: Role
+      placeholder: Vyberte role, které uvidí tento blok
+    condition:
+      label: Podmínka
+      placeholder: Kdy se tento blok zobrazí
+      description:
+        record-page: "Ve výrazu můžete použít {{0}}, {{1}}, {{2}}, {{3}}, například: {{4}} nebo {{5}}"
+        non-record-page: "Ve výrazu můžete použít {{0}}, {{1}}, například {{2}} nebo {{3}}"
+    tooltip:
+      performance:
+        condition: Použití podmínky viditelnosti se projeví na výkonu
+  magnifyOptions:
+    disabled: Vypnuto
+    modal: Dialogové okno
+    fullscreen: Celá obrazovka
+  wrap: Zobrazit blok jako kartu
+  hidden:
+    label: Skryté
+  refresh:
+    label: Obnovení
+    auto: Automatické obnovení
+    show: Zobrazit tlačítko obnovení
+    description: Nastavení hodnoty aspoň 5 sekund povolí automatické obnovení
+    rate: sekund
+  border:
+    show: Zobrazit ohraničení
+  label:
+    add: Přidat
+    back: Zpět
+    edit: Editovat
+    general: Obecné
+    import: Import
+    next: Další
+    none: Nic
+    ok: Ok
+    permissions: Oprávnění
+    remove: Odebrat
+    save: Uložit
+    cancel: Storno
+    search: Hledání
+    refresh: Obnovení bloku
+    magnify: Přiblížení bloku
+    and: A
+  module: Modul
+  style:
+    danger: Varianta nebezpečí
+    default: Varianta tmavá
+    primary: Varianta primární
+    secondary: Varianta sekundární
+    success: Varianta úspěch
+    warning: Varianta varování
+  title: Přidat nový blok
+  titleLabel: Nadpis
+  titlePlaceholder: Nadpis bloku
+  tooltip:
+    dragAndDrop: Přeuspořádání kliknutím a přetáhnutím
+    translations: Překlady polí
+iframe:
+  label: IFrame (stránka ve stránce)
+  pickURLField: Vyberte pole URL
+  srcDesc: Použijte se jako záložní hodnota, pokud je nastaveno v kombinaci s polem záznamu.
+  srcFieldDesc: Dostupné jen na stránkách záznamů a na modulech s polem typu "URL"
+  srcFieldLabel: Pole (URL) ze záznamu, které se použije pro iframe
+  srcLabel: URL pro zobrazení v iframe
+metric:
+  metricDrillDown: Větší detail metriky
+  defaultMetricLabel: Nepojmenovaná metrika
+  drillDown:
+    label: Větší detail
+    description: Pokud je vybrán seznam záznamů, použije se pro zobrazení detailních dat. Pokud není vybrán, zobrazí se detailní data v dialogovém okně.
+    openInModal: Otevřít v dialogovém okně
+  edit:
+    bucketLabel: Velikost skupiny
+    bucketPlaceholder: Vyberte velikost skupiny
+    dateFormat: Formát data
+    dimensionFieldLabel: Pole
+    dimensionFieldPlaceholder: Pole s hodnotou
+    dimensionLabel: Hodnota
+    filterLabel: Filtr
+    filterFootnote: Je podporován zjednodušená syntaxe SQL podmínek (WHERE ...). Proměnné jako {{0}}, {{1}}, {{2}} a {{3}} budou vyhodnoceny (pokud jsou dostupné)
+    transformFootnote: Proměnné jako {{0}}, {{1}}, {{2}} a {{3}} budou vyhodnoceny (pokud jsou dostupné). Obalte proměnné uvozovkami ("")
+    labelLabel: Popisek
+    labelPlaceholder: Popisek
+    metricFieldLabel: Pole
+    metricFieldPlaceholder: Pole s hodnotou
+    metricLabel: Metrika
+    metricFieldSelect: Vyberte pole
+    metricSelectAggregate: Vyberte operaci agregace
+    metricAggregateLabel: Operace agregace
+    moduleLabel: Modul
+    modulePlaceholder: Vyberte modul
+    numberFormat: Formát čísla
+    operationAvg: Průměr
+    operationLabel: Operace agregace
+    operationMax: Maximum
+    operationMin: Minimum
+    operationPlaceholder: Operace agregace
+    operationStd: Standardní odchylka
+    operationSum: Součet
+    prefixLabel: Předpona
+    refreshData: Obnovit data
+    suffixLabel: Přípona
+    tabTitle: Metrika
+    transformFunctionDescription: v - současná hodnota; popis - popis současné hodnoty
+    transformFunctionLabel: Transformovat hodnotu
+  editStyle:
+    backgroundColor: Barva pozadí
+    color: Barva textu
+    colorPicker: Vybrat barvu
+    fontSize: Velikost fontu v pixelech
+    labelLabel: Styl popisku
+    valueLabel: Styl hodnoty
+  label: Metrika
+record:
+  referenceRecordField: Odkaz na záznam
+  referenceRecordFieldPlaceholder: Vyberte pole s odkazem na záznam
+  referenceRecordFieldDescription: Používá se pro zobrazení detailu odkazovaného záznamu. Pole s více hodnotami nejsou dostupná
+  confirmDelete: Určitě chcete smazat tento záznam?
+  deleteFailed: Nepovedlo se smazat záznam
+  deleteRecord: Smazat záznam
+  invalidOwnerVar: Není možné použít proměnou ${ownerID} jinde než na stránce záznamu
+  invalidRecordVar: Není možné použít proměnou ${record...} jiné než na stránce záznamu
+  label: Záznam
+  listLoadFailed: Nepovedlo se najíst seznam záznamů
+  moduleOrPageNotSet: 'Chyba bloku se seznamem záznamů: nebyl nastaven modul nebo stránka'
+  moduleMismatch: Modul není kompatibilní, špatný modul
+  horizontalFormLayout: Horizontální rozložení formuláře
+  inlineEdit:
+    enabled: Povoleno editování hodnot v řádcích
+    allowAddField: Povolit přidání polí pro editování v řádcích
+    button:
+      title: Editovat hodnotu
+    modal:
+      title: Aktualizovat hodnoty záznamů
+  fieldsLayoutMode:
+    label: Režim rozložení polí
+    default: Výchozí
+    noWrap: Žádné zalomení
+    wrap: Zalomení
+  preview:
+    blockNoRecord: Není možné vykreslit tento blok bez záznamu
+    fieldsFromModule: Blok jednoho záznamu, zobrazují se pole ({{0}}) z modulu {{1}}
+    untitled: Bez nadpisu
+  recordDeleted: Tento záznam byl smazán
+  recordSelectorDisplayOptions: Při kliknutí na hodnotu pole záznamu
+  openInSameTab: Otevřít záznam ve stejné kartě
+  openInNewTab: Otevřít záznam v nové kartě
+  openInModal: Otevřít záznam v dialogovém okně
+  fieldConditions:
+    label: Pole s podmínkou
+    action: + Přidat
+    placeholder: Kdy se toto pole má zobrazit?
+    selectPlaceholder: Vybrat pole
+    help: Příklad
+    field: Pole
+    condition: Podmínka
+    tooltip:
+      performance: Použití podmíněných polí ovlivní výkon
+  recordSelectorCanAddRecord: Je možné přidat záznam z výběru záznamů
+  recordSelectorAddRecordDisplayOption: Při přidávání záznamu z výběru záznamů
+recordList:
+  addRecord: Přidat
+  cancelSelection: Storno
+  customFilter: Vlastní filtr
+  prefilter:
+    toggleInputType: Přepnout typ vstupu
+  filterByValue: Filtrovat podle hodnoty
+  filterPresets:
+    filterName: Název filtru
+    saveFilterAsPreset: Uložit filtr jako výchozí
+  inlineValueFilter:
+    enabled: Povolit filtrování hodnot na řádku
+  inlineEdit:
+    enabled: Editace hodnot na řádku povoleno
+    allowAddField: Povolit přidání polí do editace na řádku
+    button:
+      title: Editovat hodnotu
+    modal:
+      title: Aktualizovat hodnoty záznamů
+  bulkRecord:
+    title: Aktualizovat vybrané záznamy
+    field:
+      add: Přidat pole k aktualizování
+      addAnother: Přidat další pole k aktualizování
+      remove: Odebrat pole
+    reset: Resetovat
+  drillDown:
+    filter:
+      label: Větší detail filtru
+  tooltip:
+    deleteSelected: Smazat vybrané záznamy
+    performance:
+      impact: Použití této funkcionality ovlivní výkon
+      moduleFields: Výběr velkého množství poli nebo zobrazení polí záznamů/uživatelů ovlivní výkon
+      perPage: Zobrazení velkého počtu záznamů na stránku ovlivní výkon, obzvlášť pokud zobrazujeme pole záznamů/uživatelů
+    restoreSelected: Obnovit vybrané záznamy
+  editFields: Upravitelná pole modulu
+  export:
+    all: Exportovat všechny záznamy
+    allow: Uživatelé budou moct exportovat záznamy
+    csv: CSV Export
+    dateRange: Vyberte oblast dat
+    query:
+      label: Hledaný dotaz
+      placeholder: Hledat...
+    filter:
+      label: Filtr záznamů
+      placeholder: pole1 = 1 AND pole2 = 232
+      footnote: Je podporován zjednodušená syntaxe SQL podmínek (WHERE ...). Proměnné jako {{0}}, {{1}}, {{2}} a {{3}} budou vyhodnoceny (pokud jsou dostupné)
+      createdAt: Záznam vytvořen
+      custom: Vlastní
+      lastMonth: Poslední měsíc
+      lastWeek: Poslední týden
+      thisMonth: Tento měsíc
+      thisWeek: Tento týden
+      today: Dnes
+      from: Od
+      to: Do
+      updatedAt: Záznam aktualizován
+    inRange: Rozsah dnů
+    includeQuery: Filtrovat pomocí hledání
+    json: JSON Export
+    limitations: 'Limitace CSV exportu: z polí s více hodnotami bude exportována pouze první hodnota'
+    rangeBy: Nastavit rozsah
+    recordCount: '{{count}} záznamů připraveno k exportu'
+    selectFields: 'Vyberte pole, která chcete editovat:'
+    selection: Vybrané záznamy
+    specifyTimezone: Exportovat v časové zóně
+    timezonePlaceholder: Vybrat časovou zónu
+    datePresetUndefined: Neznámé přednastavení data
+  federated: Federované
+  fields: Pole modulu
+  filter:
+    addField: Přidat nové pole filtru
+    byValue: Filtrovat záznamy podle hodnoty pole
+    addFilterToPreset: Uložit jako výchozí
+    nil: 'PRÁZDNÉ'
+    conditions:
+      and: A ZÁROVEŇ
+      or: NEBO
+    operatorLabels:
+      is: je
+      equal: je rovno
+      notEqual: není rovno
+      in: obsahuje
+      notIn: neobsahuje
+      greaterThan: je větší než
+      lessThan: je menší než
+      like: je jako
+      notLike: není jako
+      between: je mezi
+      notBetween: není mezi
+    deletedRecords: Smazané záznamy
+    field: Filtr pole
+    fieldPlaceholder: Vybrat pole
+    fieldValue: Hodnota pole
+    fieldValuePlaceholder: Filtr vstupního pole
+    including: Včetně
+    label: Filtr
+    note: 'Poznámka: Pokud je hodnota pole nedefinovaná, filtr vyhledá záznamy, kde hodnota pole je nedefinovaná.'
+    only: Pouze
+    operators:
+      like: Jako
+      notLike: Není jako
+      contains: Obsahuje
+      notContains: Neobsahuje
+      equal: Je rovno
+      greaterThan: Větší než
+      lessThan: Menší než
+      notEqual: Není rovno
+      between: Mezi
+      notBetween: Není mezi
+    title: Filtr seznamu záznamů
+    update: Aktualizovat filtr
+    where: Kde
+    without: Bez
+    presets: Výchozí filtr
+    reset: Resetovat filtr
+    filters:
+      label: Filtry
+      active: 'Aktivní filtry:'
+    name:
+      label: Jméno
+      placeholder: Jméno filtru
+    role:
+      label: Role
+      placeholder: Vyberte role, které budou moct použít výchozí
+  hideRecordCloneButton: Skrýt tlačítko klonování záznamu
+  hideRecordEditButton: Skrýt tlačítko editace záznamu
+  hideRecordPermissionsButton: Skrýt tlačítko práv k záznamu
+  hideRecordReminderButton: Skrýt tlačítko upomínky záznamu
+  hideRecordViewButton: Skrýt tlačítko zobrazení záznamu
+  hideConfigureFieldsButton: Uživatelé budou moct konfigurovat, která pole zobrazit
+  enableRecordPageNavigation: Uživatelé budou moct přejít na předchozí/následující záznam
+  import:
+    dropzoneFileAdded: '{{name}} byl nahrán a je připraven pro import ({{count}} záznam)'
+    dropzoneFileAdded_plural: '{{name}} byl nahrán a je připraven pro import ({{count}} záznamů)'
+    dropzoneLabel: Klikněte nebo přetáhněte soubor k nahrání (CSV nebo JSON)
+    failed: 'Neví se nepovedlo při importu. Zkuste to prosím znovu: {{failReason}}'
+    fileColumns: Sloupce v souboru
+    hasRequiredFileFields: 'Tento modul má požadovaná pole náhradní souboru '
+    matchFields: 'Přiřaďte importované sloupce k existujícím'
+    moduleFields: Pole modulu
+    onError: Pokud se některý modul nepovede importovat
+    onErrorFail: Stornovat import
+    onErrorSkip: Přeskočit záznam
+    pickModuleField: Vybrat pole modulu
+    importing: Import záznamů 
+    success: Import úspěšný
+    to: Import do {{modulename}}
+    uploadFile: Aktualizujte soubor, který chcete importovat (CSV nebo JSON)
+    idFieldDescription: Záznamy s odpovídajícími ID budou aktualizovány.
+    report:
+      count: Počet záznamů
+      detectedErrors: Detekovat chyby
+      error: Chyba
+      failedEntries: Selhané zdrojové položky
+      failedEntriesLine: Položka
+      failedEntriesLines: Položky od do (včetně)
+      failedRecords: Selhané záznamy
+      finishedAt: Dokončeno
+      importedRecords: Importované záznamy
+      startedAt: Začátek
+      title: Report chyb importu záznamů
+      totalRecords: Celkem záznamů
+  label: Seznam záznamů
+  modulePlaceholder: Vybrat modul
+  moduleFootnote: Moduly bez {{0}} můžou být v seznamu záznamů použity jen jako editor na řádku
+  moduleFieldsFootnote: Pokud není vybraný žádné pole, bude zobrazeno výchozí pole
+  noRecords: Žádné záznamy neodpovídají požadavku
+  pagination:
+    next: Další
+    prev: Předchozí
+    showing: '{{from}} - {{to}} z {{count}} záznamů'
+    single: Jeden záznam
+    single_plural: '{{count}} záznamů'
+    recordsPerPage: Na stránku
+    selectLabel: Vyberte možnost
+  positionField:
+    footnote: Záznamy budou seřazené podle tohoto pole
+    placeholder: Pole, které bude obsahovat pozici záznamu
+    label: Pole k řazení záznamů
+  preview:
+    addRecordButton: Tlačítko přidání záznamu
+    bePaged: '{{0}} bude stránkováno.'
+    isDisabled: '{{0}} je vypnuto.'
+    isEnabled: '{{0}} je zapnuto.'
+    isHidden: '{{0}} je skryto.'
+    isShown: '{{0}} je zobrazeno'
+    moduleNotSelected: Blok s tabulkou záznamů, modul nevybrán.
+    recordFromModule: 'Zobrazeny záznamy z modulu {{0}} se sloupci: {{1}}'
+    recordsPerPage: 'Zobrazeno {{0}} záznamů na stránku.'
+    resultsCan: Výsledky můžou
+    resultsCant: Výsledky nemůžou
+    resultsPrefiltered: 'Výsledky jsou předfiltrované:'
+    searchInput: Vstup hledání
+    sorting: Řazení
+    tableHeader: Záhlaví tabulky
+    usersSearchThrough: Uživatelé prohledávají záznamy
+    usersSee: Uživatelé vidí {{0}}
+    withPresortedRecords: s předtřízeným ({{0}}) záznamem
+  record:
+    draggable: Je možné řadit záznamy přetažením
+    editMode: Ve výchozím stavu otevřít záznamy pro editaci
+    fullPageNavigation: Navigace na celé stránce
+    hideAddButton: Uživatelé budou moct přidat nové záznamy
+    hideImportButton: Uživatelé budou moct importovat záznamy
+    pagingLabel: Stránkování
+    pagingOptions: Možnosti stránkování
+    moreOptions: Více možností
+    hidePaging: Uživatelé budou moct předcházet mezi stránkami
+    inlineEditor: Možnosti na řádku
+    inlineEditorAllow: Editor záznamů na řádku
+    recordsLabel: Záznamy
+    noPermission: Není povoleno zobrazit záznam
+    perPage: Záznamů na stránku
+    prefilterFootnote: Je podporován zjednodušená syntaxe SQL podmínek (WHERE ...). Proměnné jako {{0}}, {{1}}, {{2}} a {{3}} budou vyhodnoceny (pokud jsou dostupné)
+    prefilterHideSearch: Uživatelé budou moct hledat v seznamu záznamů
+    filterHide: Uživatelé budou moct filtrovat seznam
+    prefilterLabel: Filtrování
+    generalLabel: Obecná nastavení
+    prefilterCommand: Před-filtrovat
+    prefilterPlaceholder: pole1 = 1 AND pole2 = 232
+    presortFootnote: Je podporována zjednodušená SQL syntaxe (ORDER BY ...)
+    presortToggleInput: Přepnout typ vstupu
+    presortHideSort: Uživatelé budou moct řadit seznam
+    presortLabel: Řazení
+    presortInputLabel: Před-řazení
+    presortPlaceholder: pole1 DESC, pole2 ASC
+    showTotalCount: Zobrazit celkový počet záznamů
+    showRecordPerPageOption: Uživatelé budou moct vybrat počet záznamů na stránku
+    showDeletedRecordsOption: Zobrazit možnost vidět smazané záznamy
+    setCustomFilterPresets: Uživatel bude moct nastavit vlastní přednastavení filtru
+    openInSameTab: Zobrazit záznam ve stejné kartě
+    openInNewTab: Zobrazit záznam v nové kartě
+    openInModal: Zobrazit záznam v dialogovém okně
+    createInSameTab: Vytvořit záznam ve stejné kartě
+    createInNewTab: Vytvořit záznam v nové kartě
+    createInModal: Vytvořit záznam v dialogovém okně
+    enableBulkRecordEdit: Povolit hromadnou editaci záznamů
+    buttons: Tlačítka záznamů
+    tooltip:
+      clone: Klonovat
+      edit: Editovat
+      delete: Smazat
+      restore: Obnovit smazaný
+      reminder: Upomínka
+      view: Zobrazit
+      permissions: Oprávnění
+    recordDisplayOptions: Při kliknutí na záznam
+    recordSelectorDisplayOptions: Při kliknutí na hodnotu záznamu
+    addRecordOptions: Při kliknutí na přidání záznamu
+    textStyles: Formátování textu
+    configureWrappedFields: Vyberte pole, která budou zalomena
+    showFullText: Zobrazit celý text
+  recordPage: stránka záznamu
+  refField:
+    footnote: Pole, které propojuje záznamy s rodičovským záznamem
+    label: Rodičovský záznam
+  selectable: Uživatelé budou moct vybrat záznamy
+  selected: 'Vybráno {{count}} z celkového počtu {{total}}'
+  selectedFromAllPages: 'Vybráno všech {{count}} záznamů na všech stránkách'
+  selectAllRecords: Vybrat všechny záznamy na všech stránkách
+  unselectAllRecords: Zrušit výběr
+  sort:
+    tooltip: Řadit sloupec
+  showRecords:
+    deleted: Zobrazit smazané záznamy
+    existing: Zobrazit existující záznamy
+recordOrganizer:
+  onRecordClick: Režim zobrazení záznamu
+  openInSameTab: Otevřít ve stejné kartě
+  openInNewTab: Otevřít v nové kartě
+  openInModal: Otevřít v dialogovém okně
+  module:
+    placeholder: Vybrat modul
+  descriptionField:
+    footnote: Hodnota pole bude použita jako popis záznamu
+    label: Pole s popisem
+  group:
+    footnote: Hodnota, která bude nastavena do pole klíče. Záznamy budou filtrovány podle této hodnoty, pokud je definovaná.
+    label: Hodnota klíče
+  groupField:
+    footnote: Pole, kterému se změní hodnota, když se záznam přesune do pořadače záznamů
+    label: Pole klíče
+  label: Pořadač záznamů
+  labelField:
+    footnote: Hodnota pole bude použita jako popisek záznamu
+    label: Pole popisku
+  noRecords: Žádný záznam v modulu nebo spojený s pořadačem záznamů. Přetáhněte sem záznamy.
+  notConfigured: Pořadač záznamů není správně nakonfigurovaný
+  positionField:
+    footnote: Záznamy budou uspořádané podle tohoto pole. Hodnota pole bude aktualizována podle pozice záznamu.
+    placeholder: Pole, ve kterém bude pozice záznamu
+    label: Pole pro řazení záznamů
+  preview:
+    label: 'Blok pořadače záznamů pro modul {{0}}. Pole popisku {{1}}, pole popisu {{2}}. Pole nastavení hodnoty: {{3}}. Řazeno podle pole pozice: {{4}}.'
+    moduleNotSelected: Modul pořadače záznamů není vybrán
+  addNewRecord: + Přidat
+recordRevisions:
+  label: Revize záznamu
+  viewer:
+    errors:
+      no-record: Nenalezen žádný záznam pro zobrazení revizí
+      no-revisions: Nenalezeny žádné revize záznamu
+      disabled-on-module: Revize záznamů jsou v tomto modulu vypnuté
+    show-revisions: Zobrazit revize záznamu ({{ revision }})
+    show-changes: "{{ count }} změn"
+    revisions:
+      columns:
+        timestamp:
+          label: Časová značka
+        operation:
+          label: Operace
+        user:
+          label: Uživatel
+    changes:
+      columns:
+        field:
+          label: Pole
+        old-value:
+          label: Stará hodnota
+        new-value:
+          label: Nová hodnota
+  configurator:
+    label: Revize záznamu
+    preload: Načíst revize záznamu předem
+    errors:
+      invalid-module-id: Pole neobsahuje validní ID modulu.
+    fields:
+      label: Konfigurace polí k zobrazení ve změnách v revizích záznamu
+      show-all:
+        label: Zobrazit změnu pro všechna pole
+      columns:
+        label:
+          label: Popisek
+        kind:
+          label: Typ
+        displayed-fields:
+          label: Zobrazit
+        expanded-references:
+          label: Expandovat odkazy
+socialFeed:
+  label: Twitter feed
+  noInput: Chybí vstup pro zobrazení feedu...
+  preview:
+    socialFeed: Twitterblo feed
+  twitterProfileField: Pole, které obsahuje URL Twitter profilu pro záznam
+  twitterProfileLabel: URL Twitter profilu pro stránky seznamu - např. (https://twitter.com/bloomberg)
+selectBlockFootnote: Některé typy můžou být vypnuté pro jiné stránky než stránky záznamů
+field:
+  noPermission: Chybí právo číst hodnotu pole
+  selector:
+    available: Dostupná pole
+    systemField: (systémové pole)
+comment:
+  label: Komentáře
+  module:
+    placeholder: Vybrat modul
+  titleField:
+    label: Pole nadpisu
+    footnote: Hodnota pole bude použita jako nadpis záznamu
+  contentField:
+    label: Pole obsahu *
+    footnote: Hodnota pole bude použita jako obsah záznamu
+  titleInput: Zadejte nadpis komentáře
+  contentInput: Zadejte obsah komentáře
+  submit: Odeslat
+  sortDirection:
+    label: Směr řazení
+    footnote: Řazení komentářů podle času vytvoření
+    asc: Rostoucí
+    desc: Klesající
+  referenceField:
+    label: Pole odkazu
+    footnote: Pole, které spojuje komentáře s nadřazeným záznamem
+navigation:
+  chart: Grafy
+  colorPicker: Vybrat barvu
+  noNavigationItems: Není nakonfigurovaná žádná položka navigace
+  label: Navigace
+  displayOptions: Možnosti zobrazení
+  appearance: Vzhled
+  alignment: Zarovnání
+  justify: Do bloku
+  fieldLabel: Popisek
+  enabled: Povoleno
+  openIn: Otevřít v
+  navigationItems: Položky navigace
+  type: Typ
+  disabled: Vypnuto
+  color: Barva
+  background: Pozadí
+  url: URL
+  drop: Pozice v nabídce
+  add: Přidat položku navigace
+  addDropdown: Přidat položku nabídky
+  composePage: Compose stránka
+  tabs: Karty
+  pills: Tlačítka
+  small: Malé 
+  center: Uprostřed
+  left: Vlevo
+  right: Vpravo
+  bottom: Dole
+  top: Nahoře
+  None: Nic
+  primary: Primární
+  secondary: Sekundární
+  success: Úspěch
+  warning: Varování
+  danger: Pozor
+  info: Informace
+  text: Text
+  dropdown: Rozbalovací nabídka
+  multi: Více řádků
+  sameTab: Stejná karta
+  selectOpenInType: Vyberte způsob otevření
+  newTab: Nová karta
+  dropdownItems: Položky nabídky
+  delimiter: Oddělovač
+  none: Nic
+  displaySubPages: Zobrazit pod-stránky
+  selectBackground: Vybrat pozadí
+  preview:
+    preview: Náhled
+    label: Popisek
+    home: Domů
+    dropdown: rozbalovací nabídka
+    about: popis
+report:
+  label: Report
+  scenario:
+    label: Scénář
+  element:
+    label: Element zobrazení
+    description: Elementy zobrazení jsou seskupeny podle jejich bloku
+progress:
+  add: + Přidat
+  count: Počet
+  aggregate:
+    label: Agregační operace
+    select: Vyberte operaci agregace
+  animated: Animované
+  default-variant: Výchozí varianta
+  display-options: Možnosti zobrazení
+  fetch-failed: Nepovedlo se získat report průběhu
+  field:
+    label: Pole
+    select: Vybrat pole
+  label: Ukazatel průběhu
+  module:
+    select: Vyberte modul
+    label: Modul
+  preview: Živý příklad
+  show:
+    value: Zobrazit hodnotu
+    relative: Zobrazit relativní
+    progress: Zobrazit průběh
+  tab:
+    label: Průběh
+  thresholds: Hraniční hodnoty
+  threshold:
+    label: Hraniční hodnota
+    variant: Vyberte variantu, která se zobrazí, pokud je hodnota větší nebo rovna hraniční hodnotě
+  value:
+    label: Hodnota
+    min: Minimální hodnota
+    max: Maximální hodnota
+    default:
+      label: Výchozí hodnota
+      description: Tato hodnota se použije, pokud metrika není nakonfigurována
+  variant:
+    default: Tmavé
+    danger: Pozor
+    dark: Tmavé
+    info: Informace
+    light: Světlé
+    primary: Primární
+    secondary: Sekundární
+    success: Úspěch
+    warning: Varování
+nylas:
+  label: Office365/Google
+  viewer:
+    connect: Propojit s Nylas
+    noExternal: Externí poskytovatel Nulas není nakonfigurován
+    noComponentID: ID komponenty Nylas není nakonfigurováno
+  configurator:
+    label: Office365/Google
+    kind: Druh komponenty
+    componentID: ID komponenty
+    accessTokenRequired: Je vyžadován přístupový token
+    prefill:
+      title: Předvyplnit hodnoty
+      selectField: Vybrat pole
+      body: Tělo
+      subject: Předmět
+      queryString: String dotazu
+      to: Příjemce
+    kinds:
+      agenda: Agenda
+      composer: Composer
+      contactList: Seznam kontaktů
+      conversation: Konverzace
+      email: Email
+      mailbox: Emailová schránka
+geometry:
+  label: Mapa
+  viewLabel: Mapa
+  feedLabel: Konfigurovat zdroje
+  source:
+    label: Zdroj
+  addSource: Přidat zdroj
+  lock: Zámek
+  mapHelpText: Nastavte mapu na pozici a přiblížení, které se použije jako výchozí. Můžete taky uzamknout pozici nebo přiblížení, aby uživatele nemohli odejít daleko.
+  onMarkerClick: Při kliknutí na značku
+  openInSameTab: Otevřít ve stejné kartě
+  openInNewTab: Otevřít v nové kartě
+  openInModal: Otevřít v dialogovém okně
+  recordFeed:
+    colorPicker: Vybrat barvu
+    moduleLabel: Modul*
+    modulePlaceholder: (Žádný modul)
+    optionLabel: Záznamy
+    prefilterLabel: Před-filtrovat zdroje
+    colorLabel: Barva značky
+    geometryFieldLabel: Pole lokace*
+    titleLabel: Nadpis
+    titlePlaceholder: Nadpis
+    geometryFieldPlaceholder: Pole lokace
+    displayMarker: Zobrazit značku
+    displayPolygon: Zobrazit polygon
+  centerLabel: Uprostřed
+  zoom:
+    zoomLabel: Přiblížení
+    zoomMinLabel: Minimální přiblížení
+    zoomMaxLabel: Maximální přiblížení
+    zoomStartingLabel: Výchozí přiblížení
+  bounds:
+    boundsLabel: Ohraničení
+    lockBounds: Zamknout ohraničení
+    topLeft: Horní levý roh ohraničení
+    lowerRight: Dolní pravý roh ohraničení
+  tooltip:
+      goToCurrentLocation: Přejít na současnou lokaci
+tabs:
+  label: Karty
+  alertTitle: Nastavte nadpis pro blok
+  title: Karty
+  tab: Karta
+  selectBlock: Vyberte blok
+  noTabs: Není nakonfigurována žádná karta
+  noBlock: Není nakonfigurovaný žádný blok
+  displayTitle: Možnosti zobrazení
+  preview: Náhled
+  newBlockModal: Přidat nový blok
+  unsavedChanges: Neuložené změny
+  placeholder:
+    block: Vyberte blok do karty
+  style:
+    appearance:
+      label: Vzhled
+      tabs: Karty
+      pills: Tlačítka karet
+      small: Malé
+    alignment:
+      label: Zarovnání
+      left: Vlevo
+      center: Uprostřed
+      right: Vpravo
+    justify:
+      label: Do bloku
+      justify: Do bloku
+      none: Nic
+    orientation:
+      label: Orientace
+      vertical: Vertikální
+      horizontal: Horizontální
+    position:
+      label: Pozice
+      start: Začátek
+      end: Konec
+  table:
+    columns:
+      title:
+        label: Nadpis
+      block:
+        label: Blok
+  tooltip:
+    edit: Upravit blok
+    clone: Klonovat blok a kartu
+    copy: Kopírovat blok
+    delete: Smazat kartu
+    editDisabled: Editování bloků v kartách je zakázané, dokud neuložíte tento blok
+    addBlock: Přidat nový blok
+noConfiguration: Blok není správně nakonfigurovaný
+interpolationFootnote: Proměnné jako {{0}}, {{1}}, {{2}} a {{3}} se vyhodnotí (pokud jsou dostupné)

@@ -1,0 +1,289 @@
+available-items: Dostupná pole
+selected-items: Vybraná pole
+defaultFieldValue: Výchozí hodnota pole
+defaultValue: Výchozí hodnota
+required-field: Toto pole je vyžadované
+not-configurable: Není možné změnit nastavení, která ovlivní úložiště dat
+kind:
+  bool:
+    checkedValueLabel: Hodnota při zaškrtnutí
+    checkedValuePlaceholder: Yes
+    label: Checkbox (A/N)
+    uncheckedValueLabel: Hodnota při nezaškrtnutí
+    uncheckedValuePlaceholder: No
+    toggleTypeLabel: Typ checkboxu
+    toggleType: Zobrazit jako přepínač
+  dateTime:
+    type:
+      label: Typ hodnoty
+      options:
+        dateTime: Datum a čas
+        date: Datum
+        time: Čas
+    constraints:
+      label: Povolené hodnotu
+      options:
+        all: Všechny hodnoty
+        futureValuesOnly: Jen hodnoty v budoucnosti
+        pastValuesOnly: Jen hodnoty v minulosti
+    label: Datum a čas
+    outputFormat: Formát zobrazení
+    outputFormatFootnote: Viz {{0}} pro možnosti formátování
+    relativeOutput: 'Zobrazovat relativní hodnotu (např.: před 3 dny)'
+    warning:
+      futureValuesOnly: Uloží se jen data v budoucnosti
+      pastValuesOnly: Uloží se jen data v minulosti
+  email:
+    label: Email
+    preventToLink: Nezobrazovat email jako odkaz
+  file:
+    label: Soubor
+    view:
+      gallery: Galerie obrázků
+      grid: Mřížka
+      list: Seznam
+      maxSizeLabel: Maximální velikost souboru
+      mimetypesFootnote: 'MIME types oddělené čárkou. Například: "text/plain,text/csv"'
+      mimetypesLabel: Seznam povolených typů souborů
+      modeFootnote: Jak jsou soubory reprezentovány v bloku stránky
+      modeLabel: Režim prohlížení
+      showName: Skrýt název souboru
+      enableDownload: Povolit stažení
+      single: Jeden obrázek
+      previewStyle: Styl náhledu
+      height: Výška
+      width: Šířka
+      maxHeight: Maximální výška
+      maxWidth: Maximální šířka
+      borderRadius: Zaoblení rohů
+      background: Barva pozadí
+      colorPicker: Vybrat barvu
+      margin: Okraj
+      unitType: Typ jednotky
+      px: px
+      clickToView: Klikněte pro zobrazení souboru
+      description: 'Přidejte k hodnotě jednotku. Například: 50px nebo 50%'
+  number:
+    exampleFormat: Formát
+    exampleInput: Vstup
+    exampleResult: Výsledek
+    examplesLabel: Příklad formátu
+    formatLabel: Vlastní formát
+    formatPlaceholder: Formát
+    label: Číslo
+    liveExample: Živý příklad
+    precisionLabel: Číslic za čárkou
+    precisionTooltip: Číslic před čárkou
+    prefixLabel: Předpona
+    prefixPlaceholder: Předpona
+    suffixLabel: Přípona
+    suffixPlaceholder: Přípona
+    displayType:
+      label: Typ zobrazení
+      number: Číslo
+      progress: Ukazatel průběhu
+    progress:
+      maximumValue: Maximální hodnota
+      minimumValue: Minimální hodnota
+      animated: Animace
+      show:
+        value: Zobrazit hodnotu
+        relative: Zobrazit poměr
+        progress: Zobrazit průběh
+      showRelative: Zobrazit poměr
+      variants:
+        default: Výchozí varianta
+        danger: Pozor
+        dark: Tmavé
+        info: Informace
+        light: Světlé
+        primary: Primární
+        secondary: Sekundární
+        success: Úspěch
+        warning: Varování
+      thresholds:
+        label: Hranice
+        description: Vyberte variantu, která se zobrazí, pokud je hodnota rovna nebo větší než hranice
+    presetFormats:
+      label: Formát
+      options:
+        custom: Vlastní
+        accounting: Účetní
+      description:
+        custom: ''
+        accounting: Záporná čísla se transformují na kladná a zobrazí se v závorkách, 0 se zobrazí jako pomlčka
+  record:
+    currentUnnamedModule: (Současný bezejmenný modul)
+    label: Záznam
+    moduleLabel: Modul
+    modulePlaceholder: Vybrat modul
+    queryFieldsLabel: Pole ve vyhledávání
+    queryFieldsPlaceholder: Pokud není vybraný žádné pole, použije se pole popisku
+    moduleField: Pole popisku
+    variantField: Pole varianty
+    fieldFromModuleField: Pole popisku z pole modulu
+    pickField: Vyberte pole
+    suggestionPlaceholder: Začněte psát pro vyhledávání v záznamech
+    prefilterFootnote: Je podporován zjednodušená syntaxe SQL podmínek (WHERE ...). Proměnné jako {{0}}, {{1}}, {{2}} a {{3}} budou vyhodnoceny (pokud jsou dostupné)
+    prefilterLabel: Před-filtrovat záznamy
+    prefilterPlaceholder: pole1 = 1 AND pole2 = 232
+    tooltip:
+      moduleField: Vybraní záznamu ovlivní výkon
+      addRecord: Přidat záznam
+  select:
+    allow-duplicates: Povolit duplicity
+    label: Vybrat
+    optionAdd: Přidat
+    options:
+      value: Hodnota
+      label: Popisek
+      style:
+        textColor: Barva textu
+        backgroundColor: Barva pozadí
+    optionNotSelected: Není vybrána žádné možnost
+    optionRemove: Odebrat
+    optionType:
+      default: Společný vstup
+      each: Vstup pro jednotlivé hodnoty
+      label: Vyberte typ
+      multiple: Výběr několika
+      checkbox: Skupina zaškrtávacích polí
+      radio: Skupina přepínačů
+    displayType:
+      label: Zobrazit hodnotu jako
+      text: Text
+      badge: Odznak
+    optionsLabel: Možnosti k výběru
+    showAsBadge: Zobrazit jako odznak
+    placeholder: Vyberte možnost kliknutím
+  string:
+    label: Text
+    multiLine: Více řádků
+    richText: Použít editor s formátováním
+  url:
+    example: 'Příklad URL: https://example.com'
+    label: URL
+    preventToLink: Nedělat odkaz z URL
+    sshOnly: Povolit jen TLS (https) URL
+    trimHash: 'Oříznout z URL ''#'''
+    trimQuestionMark: Oříznout z URL '?'
+    trimToDomain: Oříznout URL a nechat jen doménu
+  user:
+    label: Uživatel
+    na: N/A
+    presetWithCurrentUser: Předvyplnit přihlášeným uživatelem
+    suggestionPlaceholder: Hledejte uživatel podle emailu nebo jména
+    roles:
+      label: Role uživatelů
+      placeholder: Filtrovat podle rolí
+  geometry:
+    label: Umístění
+    latitude: Zeměpisná šířka
+    longitude: Zeměpisná délka
+    clickToPlaceMarker: Klikněte pro umístění/smazání značky
+    initialZoomAndPosition: Nastavit výchozí přiblížení a pozici mapy
+    prefillWithCurrentLocation: Předvyplnit současnou pozici
+    hideCurrentLocationButton: Skrýt tlačítko současné pozice
+    hideGeoSearch: Skrýt hledání pozice
+    tooltip:
+      goToCurrentLocation: Přejít na současnou pozici
+      useCurrentLocation: Použít současnou pozici
+      openMap: Otevřít mapu
+    geosearchInputPlaceholder: Zadejte adresu, místo nebo poštovní kód
+noPermission: Chybí právo zobrazit hodnotu pole
+no-items-found: Nic nenalezeno
+options:
+  description:
+    label:
+      default: Popis
+      edit: Editace popisu
+      view: Zobrazení popisu
+    placeholder:
+      default: Text popisu...
+      edit: Popis při editaci pole záznamu...
+      view: Popis při zobrazení pole záznamu...
+    same: Zobrazit stejný popis při zobrazení i editaci
+  hint:
+    label:
+      default: Nápověda
+      edit: Editace nápovědy
+      view: Zobrazení nápovědy
+    placeholder:
+      default: Text nápovědy...
+      edit: Nápověda při editaci pole záznamu...
+      view: Nápověda při zobrazení pole záznamu...
+    same: Zobrazit stejnou nápovědu při zobrazení i editaci
+  multiDelimiter:
+    comma: Odděleno čárkou
+    custom: Vlastní oddělovač
+    customLabel: Nebo použijte vlastní oddělovač
+    customPlaceholder: Zadejte vlastní oddělovač
+    label: Oddělovač hodnot
+    newline: Každá hodnota je na novém řádku
+sanitizers:
+  description: Oříznutí mezer z textu nebo jiná úprava před validaci
+  examples: Příklady
+  expression:
+    placeholder: trim(hodnota)
+  label: Očištění vstupu
+selector:
+  search: Vyhledávání mezi poli modulu
+  available: Dostupná pole
+  selectAll: Vybrat vše
+  selected: Vybraná pole
+  systemField: (systémové pole)
+  unselectAll: Zrušit výběr
+privacy:
+  sensitivity-level:
+    label: Úroveň citlivosti
+    placeholder: Vyberte úroveň citlivosti
+  usage-disclosure:
+    label: Informace o použití citlivého pole (viditelné v konzoli ochrany soukromí)
+system:
+  id: ID záznamu
+  ID: ID záznamu
+  moduleID: ID modulu
+  namespaceID: ID jmenného prostoru
+  revision: Revize záznamu
+  meta: Metadata
+  recordID: ID záznamu
+  createdAt: Čas vytvoření
+  createdBy: Vytvořeno uživatelem
+  deletedAt: Čas odstranění
+  deletedBy: Smazal
+  ownedBy: Vlastník
+  updatedAt: Čas aktualizace
+  updatedBy: Aktualizováno uživatelem
+validators:
+  description: Dvojice výrazů a chyb, které testují validitu zadané hodnoty
+  disableBuiltIn: Vypnout zabudované validatory
+  error:
+    placeholder: Text, který se zobrazí, když je výraz pravdivý
+    tooltip: Text varování
+  expression:
+    placeholder: hodnota == ""
+    tooltip: Výraz
+  label: Validace hodnoty
+valueExpr:
+  description: Zadejte vzorec nebo výraz, který vypočítá číselné hodnoty nebo zkombinuje a upraví textové hodnoty
+  label: Výraz pro hodnotu pole
+  placeholder: ((floor(ciselnePole1) + ciselnePole2) / 10) + 0,5
+label:
+  required: Vyžadováno
+  multi: Více hodnot
+constraints:
+  label: Omezení unikátní hodnoty
+  description: Použít při toto pole omezení unikátní hodnoty
+  ignoreCase: Ignorovat velikost písmen
+  fuzzyMatch: Přibližná shoda
+  soundsLike: Zní jako
+  caseSensitive: Rozlišovat velikost písmen
+  oneOf: Jedno z
+  none: Nic
+  equal: Je rovno
+  valueModifiers: Modifikátory hodnoty
+  multiValues: Hodnoty z více polí
+  totalFieldConstraintCount: Pole je použito v {{total}} dalších omezeních unikátní hodnoty. Viz kartu "unikátní hodnoty" v editoru modulu.
+  tooltip:
+    performance: Použití omezení unikátní hodnoty ovlivní výkon
+

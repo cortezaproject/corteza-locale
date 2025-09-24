@@ -1,0 +1,18 @@
+template:
+  title: Vícefaktorové přihlášení
+  email:
+    instructions: Zkontrolujte svou emailovou schránku a zadejte kód
+    code: Kód
+    verify: Ověřit
+    resend: Poslat znovu
+    confirmed: Email OTP potvrzen
+  totp:
+    instructions: Zkontrolujte svou TOTP aplikaci a zadejte kód
+    code: Kód
+    confirmed: TOTP kód potvrzen
+    verify: Ověřit
+alerts:
+  email:
+    resent: Email OTP byl znovu odeslán
+  topt:
+    valid: TOTP je validní

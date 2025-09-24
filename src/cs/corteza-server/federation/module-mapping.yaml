@@ -1,0 +1,8 @@
+errors:
+  composeModuleNotFound: modul compose nenalezen
+  composeNamespaceNotFound: jmenný prostor compose nenalezen
+  federationModuleNotFound: modul federace nenalezen
+  moduleMappingExists: mapování modulu už existuje
+  nodeNotFound: uzel neexistuje
+  notAllowedToMap: není povoleno mapovat tento modul
+  notFound: mapování modulu neexistuje

@@ -1,0 +1,16 @@
+errors:
+  handleNotUnique: crwdns102546:0crwdne102546:0
+  invalidHandle: crwdns102548:0crwdne102548:0
+  invalidID: crwdns102550:0crwdne102550:0
+  invalidNamespaceID: crwdns102552:0crwdne102552:0
+  moduleNotFound: crwdns102554:0crwdne102554:0
+  namespaceNotFound: crwdns102556:0crwdne102556:0
+  notAllowedToCreate: crwdns102558:0crwdne102558:0
+  notAllowedToDelete: crwdns102560:0crwdne102560:0
+  notAllowedToRead: crwdns102562:0crwdne102562:0
+  notAllowedToReadNamespace: crwdns102564:0crwdne102564:0
+  notAllowedToSearch: crwdns102566:0crwdne102566:0
+  notAllowedToUndelete: crwdns102568:0crwdne102568:0
+  notAllowedToUpdate: crwdns102570:0crwdne102570:0
+  notFound: crwdns102572:0crwdne102572:0
+  staleData: crwdns102574:0crwdne102574:0

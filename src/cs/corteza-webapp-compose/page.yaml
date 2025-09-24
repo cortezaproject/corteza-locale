@@ -1,0 +1,154 @@
+page-layout:
+  layouts: Rozložení
+  title: Nadpis *
+  handle: Identifikátor
+  add: Přidat rozložení
+  configure: 'Konfigurovat rozložení - "{{title}}"'
+  visibility: Viditelnost
+  general: Obecné
+  useTitle: Použít nadpis rozložení
+  tooltip:
+    title: Použít nadpis rozložení místo výchozí hodnoty pro stránku záznamu. Proměnné jako {{0}}, {{1}}, {{2}} a {{3}} se vyhodnotí (pokud jsou dostupné)
+    configure: Konfigurovat rozložení
+    builder: Otevřít rozložení v editoru
+    performance:
+      condition: Použití podmínky viditelnosti ovlivní výkon
+  condition:
+    label: Podmínka
+    placeholder: Kdy se rozložení zobrazí
+    description:
+      record-page: "Ve výrazu můžete použít {{0}}, {{1}}, {{2}}, {{3}}, například: {{4}} nebo {{5}}"
+      non-record-page: "Ve výrazu můžete použít {{0}}, {{1}}, například {{2}} nebo {{3}}"
+  roles:
+    label: Role
+    placeholder: Vyberte role, které uvidí toto rozložení
+  recordToolbar:
+    label: Nástroje záznamu
+    buttons:
+      label: Tlačítka
+      showBack: Zobrazit tlačítko "Zpět"
+      showDelete: Zobrazit tlačítko "Smazat"
+      showClone: Zobrazit tlačítko "Uložit jako kopii"
+      showNew: Zobrazit tlačítko "Přidat nový"
+      showEdit: Zobrazit tlačítko "Editovat"
+      showSave: Zobrazit tlačítko "Uložit"
+    actions:
+      label: Akce
+      add: Přidat akci
+      buttonLabel: Popisek
+      variant: Varianta
+      visible: Viditelné
+      kind:
+        label: Typ
+        toLayout: Přesměrovat na rozložení
+        toURL: Přesměrovat na URL
+      placement:
+        label: Umístění
+        start: Začátek
+        center: Uprostřed
+        end: Konec
+      openIn:
+        label: Otevřít v
+        sameTab: Stejná karta
+        newTab: Nová karta
+      toLayout:
+        label: Přesměrovat na rozložení
+        placeholder: Není vybrané rozložení
+      toURL:
+        label: Přesměrovat na URL
+        placeholder: URL není specifikovaná
+block:
+  general:
+    label:
+      cancel: Storno
+      noHandle: Žádný identifikátor
+      pageBuilder: Tvoření stránek
+      saveAndClose: Uložit a zavřít
+    placeholder:
+      handle: Unikátní identifikátor (a-z, 0-9, podtržítko, pomlčka)
+      sample: Příklad
+    title: Přidat nový blok
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+changeBlock: Změnit existující blok
+referencedBlock: Tento blok je použitý v jiných rozloženích
+copyOf: "Kopie z {{title}}"
+build:
+  addBlock: Přidat blok
+  selectBlockTitle: Vyberte typ nového bloku
+  unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+  saveAsCopy:
+    ref: S odkazy
+    noRef: Bez odkazů
+edit:
+  create: Vytvořit stránku
+  edit: Editovat stránku
+  otherOptions: Další možností
+  pageDescription: Popis stránky
+  visible: Stránka je viditelná
+  notifications:
+    enabled: Zobrazit notifikaci o uložení záznamu
+icon:
+  configure: Konfigurovat ikonu stránky
+  noIcon: Žádná ikona
+  page: Ikona stránky
+  upload: Nahrát ikonu
+  list: Nahrané ikony
+  delete: Smazat vybranou ikonu
+url:
+  label: Nebo přidejte URL na ikonu
+import: 'Importovat stránky:'
+instructions: Přetáhněte stránky a upravte jejich pořadí a hierarchii
+invalid: Nevalidní konfigurace
+label:
+  title: Nadpis *
+  cancel: Storno
+  description: Popis
+  handle: Identifikátor
+  pageBuilder: Editor stránek
+  permissions: Oprávnění
+  saveAndClose: Uložit a zavřít
+  delete: Smazat blok
+  createPage: Vytvořit stránku
+placeholder:
+  title: Nadpis stránky (např. "Kontakty")
+loading: Načítání
+moduleEdit: Editovat modul
+navigation:
+  page: Stránky
+  viewPage: Zobrazit stránku
+unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+noBlock: Zatím nebyl přidán žádný blok
+noPages: Žádné stránky
+notVisible: Skryté
+pageMoveFailed: Nepovedlo se přesunout tuto stránku
+reordered: Stránka přesunuta
+showSubPages: Rozbalit pod-stránky v bočním menu
+customTitle: Použít vlastní nadpis
+title: Seznam stránek
+tooltip:
+  unsavedChanges: Neuložené změny
+  view: Zobrazit stránku
+  edit:
+    page: Editovat stránku
+    block: Editovat blok
+  copy:
+    block: Kopírovat blok
+  clone:
+    block: Klonovat blok
+  delete:
+    block: Smazat blok
+  preview-link: Náhled odkazu
+  saveAsCopy: Nejde duplikovat stránku záznamu
+view: Zobrazit
+visible: Viditelné
+delete:
+  rebase: Aktualizovat řidiče pod-stránky
+  cascade: Smazat pod-stránky
+public:
+  record:
+    create:
+      title: Vytváření záznamu pro modul "{{name}}"
+    edit:
+      title: Editace záznamu pro modul "{{name}}"
+    view:
+      title: Přiblížení záznamu pro modul "{{name}}"

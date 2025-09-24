@@ -1,0 +1,16 @@
+permissions: crwdns100812:0crwdne100812:0
+report:
+  builder: crwdns100814:0crwdne100814:0
+  edit: crwdns100816:0crwdne100816:0
+  list: crwdns100818:0crwdne100818:0
+  new: crwdns100820:0crwdne100820:0
+  delete: crwdns100822:0crwdne100822:0
+searchPlaceholder: crwdns100824:0crwdne100824:0
+title: crwdns100826:0crwdne100826:0
+tooltip:
+  permissions: crwdns100828:0crwdne100828:0
+untitledTitle: crwdns100830:0crwdne100830:0
+columns:
+  name: crwdns100832:0crwdne100832:0
+  handle: crwdns100834:0crwdne100834:0
+  changedAt: crwdns100836:0crwdne100836:0

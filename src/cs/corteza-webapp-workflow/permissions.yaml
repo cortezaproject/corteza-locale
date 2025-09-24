@@ -1,0 +1,68 @@
+ui:
+  save: Uložit změny
+  cancel: Storno
+  set-for: Konfigurovat oprávnění pro {{target}}
+  loading: Načítání oprávnění
+  label: Oprávnění
+  notification:
+    save:
+      success: Oprávnění uložena
+      failed: Uložení oprávnění selhalo
+  edit:
+    label: Role uživatelů
+    description: Vyberte role k nastavení oprávnění
+  evaluate:
+    description: Vyhodnotit aplikovaná oprávnění
+  add:
+    label: Přidat
+    title: Vyhodnotit oprávnění
+    save: Uložit a zavřít
+    role:
+      label: Role
+      placeholder: Vybrat role
+    user:
+      label: Uživatelé
+      placeholder: Hledat nebo vybrat uživatele
+  tooltip:
+    unknown-context:
+      user: Nejde vyhodnotit oprávnění pro uživatele s kontextovou rolí pro nespecifický zdroj
+      role: Nejde vyhodnotit oprávnění pro kontextovou roli pro nespecifický zdroj
+  access:
+    allow: Povolit
+    inherit: Zdědit
+    deny: Zamítnout
+resources:
+  automation:
+    workflow:
+      all: všechna workflow
+      specific: workflow "{{target}}"
+      tooltip: Oprávnění k workflow
+      operations:
+        delete:
+          description: 'Výchozí: zamítnuto'
+          specific: Smazat toto workflow
+          title: Smazat workflow
+        execute:
+          description: 'Výchozí: zamítnuto'
+          specific: Spustit toto workflow
+          title: Spustit workflow
+        read:
+          description: 'Výchozí: zamítnuto'
+          specific: Zobrazit toto workflow
+          title: Zobrazit workflow
+        sessions.manage:
+          description: 'Výchozí: zamítnuto'
+          specific: Spravovat relace pro toto workflow
+          title: Spravovat relace
+        triggers.manage:
+          description: 'Výchozí: zamítnuto'
+          specific: Spravovat triggery pro toto workflow
+          title: Spravovat všechny triggery
+        undelete:
+          description: 'Výchozí: zamítnuto'
+          specific: Obnovit toto smazané workflow
+          title: Obnovit jakékoliv smazané workflow
+        update:
+          description: 'Výchozí: zamítnuto'
+          specific: Aktualizovat toto workflow
+          title: Aktualizovat jakékoliv workflow

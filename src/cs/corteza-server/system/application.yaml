@@ -1,0 +1,11 @@
+errors:
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet aplikace
+  notAllowedToDelete: není povoleno smazat tuto aplikaci
+  notAllowedToManageFlag: není povoleno spravovat flagy pro aplikace
+  notAllowedToManageFlagGlobal: není povoleno spravovat globální flagy pro aplikace
+  notAllowedToRead: není povoleno zobrazit tuto aplikaci
+  notAllowedToSearch: není povoleno hledat nebo procházet aplikace
+  notAllowedToUndelete: není povoleno obnovit tuto smazanou aplikaci
+  notAllowedToUpdate: není povoleno aktualizovat tuto aplikaci
+  notFound: aplikace nenalezena

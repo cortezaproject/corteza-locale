@@ -1,0 +1,10 @@
+errors:
+  federationSyncStructureChanged: crwdns102824:0crwdne102824:0
+  invalidID: crwdns102826:0crwdne102826:0
+  nodeNotFound: crwdns102828:0crwdne102828:0
+  notAllowedToCreate: crwdns102830:0crwdne102830:0
+  notAllowedToManage: crwdns102832:0crwdne102832:0
+  notAllowedToMap: crwdns102834:0crwdne102834:0
+  notFound: crwdns102836:0crwdne102836:0
+  notUnique: crwdns102838:0crwdne102838:0
+  staleData: crwdns102840:0crwdne102840:0

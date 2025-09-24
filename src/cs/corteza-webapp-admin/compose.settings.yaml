@@ -1,0 +1,26 @@
+editor:
+  title: Nastavení Compose
+  basic:
+    attachments:
+      max-size: Maximální velikost (MB)
+      page: Přílohy stránky
+      record: Přílohy záznamu
+      icon: Přílohy ikon
+      type:
+        description: 'MIME types, oddělené ",". Příklad: "text/plain,text/csv"'
+        whitelist: Seznam povolených typů souborů
+    title: Základní
+  ui:
+    title: Uživatelské rozhraní
+    sidebar:
+      title: Boční menu
+      hide-namespace-list: Skrýt seznam jmenných prostorů
+      hide-namespace-list-link: Skrýt odkaz na seznam všech jmenných prostorů
+    record-toolbar:
+      title: Nástroje záznamu
+      hide-submit: Skrýt tlačítko odeslat
+      hide-delete: Skrýt tlačítko smazat
+      hide-edit: Skrýt tlačítko editovat
+      hide-new: Skrýt tlačítko nový
+      hide-clone: Skrýt tlačítko klonovat
+      hide-back: Skrýt odkaz zpět

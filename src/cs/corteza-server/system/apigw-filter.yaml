@@ -1,0 +1,11 @@
+errors:
+  asyncRouteTooManyProcessers: zpracovatel pro tuto asynchronní cestu už existuje
+  asyncRouteTooManyAfterFilters: pro tuto asynchronní cestu nejsou povolené žádné následné filtry
+  invalidID: nevalidní ID
+  invalidRoute: nevalidní cesta
+  notAllowedToCreate: není povoleno vytvořit filtr
+  notAllowedToDelete: není povoleno smazat tento filtr
+  notAllowedToRead: není povoleno zobrazit tento filtr
+  notAllowedToUndelete: není povoleno obnovit tento smazaný filtr
+  notAllowedToUpdate: není povoleno aktualizovat tento filtr
+  notFound: filtr nenalezen

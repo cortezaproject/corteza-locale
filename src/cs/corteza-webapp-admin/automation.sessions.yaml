@@ -1,0 +1,57 @@
+editor:
+  info:
+    completedAt: Dokončeno v
+    createdAt: Čas vytvoření
+    createdBy: Vytvořil - ID
+    createdByUserName: Vytvořil - jméno
+    delete: Smazat
+    deletedAt: Čas odstranění
+    suspendedAt: Pozastaveno v
+    error: Chyba
+    eventType: Typ události
+    id: ID
+    resourceType: Typ zdroje
+    status: Status
+    title: Základní informace
+    workflowID: IDWorkflow
+    openWorkflow: Otevřít workflow
+    cancel: Stornovat relaci
+  title: Relace
+list:
+  columns:
+    actions: ""
+    createdAt: Čas vytvoření
+    eventType: Typ události
+    sessionID: IDRelace
+    state: Stav
+    status: Status
+    workflowID: IDWorkflow
+  filterForm:
+    all:
+      label: Vše
+    completed:
+      label: Dokončeno
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    failed:
+      label: Selhalo
+    inProgress:
+      label: dokončené relace
+    inclusive:
+      label: Včetně
+    prompted:
+      label: Dotázáno
+    sessions:
+      label: relace
+    started:
+      label: Spuštěno
+    suspended:
+      label: Pozastaveno
+    canceled:
+      label: Stornováno
+  loading: Načítání relací
+  numFound: 'Nalezena {{count}} relace'
+  numFound_plural: 'Nalezeno {{count}} relací'
+  title: Relace

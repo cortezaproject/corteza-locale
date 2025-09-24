@@ -1,0 +1,6 @@
+errors:
+  empty: crwdns102756:0crwdne102756:0
+  invalidValue: crwdns102758:0crwdne102758:0
+  invalidRef: crwdns102760:0crwdne102760:0
+  duplicateValueInSet: crwdns102762:0{{value}}crwdne102762:0
+  duplicateValue: crwdns102764:0{{value}}crwdne102764:0

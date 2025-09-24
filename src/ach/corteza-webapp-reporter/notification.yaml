@@ -1,0 +1,29 @@
+datasource:
+  describe-failed: crwdns101182:0crwdne101182:0
+general:
+  error: crwdns101184:0crwdne101184:0
+  success: crwdns101186:0crwdne101186:0
+  warning: crwdns101188:0crwdne101188:0
+list:
+  load:
+    error: crwdns101190:0crwdne101190:0
+module:
+  fetch-failed: crwdns101192:0crwdne101192:0
+namespace:
+  fetch-failed: crwdns101194:0crwdne101194:0
+report:
+  createFailed: crwdns101196:0crwdne101196:0
+  loadFailed: crwdns101198:0crwdne101198:0
+  created: crwdns101200:0crwdne101200:0
+  delete: crwdns101202:0crwdne101202:0
+  deleteFailed: crwdns101204:0crwdne101204:0
+  fetchFailed: crwdns101206:0crwdne101206:0
+  listFetchFailed: crwdns101208:0crwdne101208:0
+  runFailed: crwdns101210:0crwdne101210:0
+  updateFailed: crwdns101212:0crwdne101212:0
+  updated: crwdns101214:0crwdne101214:0
+  notAllowed:
+    read: crwdns101216:0crwdne101216:0
+  datasources:
+    updated: crwdns101218:0crwdne101218:0
+    updateFailed: crwdns101220:0crwdne101220:0

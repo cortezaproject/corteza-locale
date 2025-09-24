@@ -1,0 +1,6 @@
+errors:
+  invalidID: nevalidní ID
+  notAllowedToAssign: není povoleno přiřadit upomínky ostatním uživatelům
+  notAllowedToDismiss: není povoleno zrušit upomínky ostatních uživatelů
+  notAllowedToRead: není povoleno zobrazit upomínky ostatních uživatelů
+  notFound: upomínka nenalezena

@@ -1,0 +1,13 @@
+errors:
+  alreadyExists: cesta pro tento endpoint už existuje
+  existsEndpoint: cesta s tímto endpointem už existuje
+  invalidEndpoint: nevalidní endpoint
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet cestu
+  notAllowedToDelete: není povoleno smazat tuto cestu
+  notAllowedToExec: není povoleno spustit tuto cestu
+  notAllowedToRead: není povoleno zobrazit tuto cestu
+  notAllowedToUndelete: není povoleno obnovit tuto smazanou cestu
+  notAllowedToUpdate: není povoleno aktualizovat tuto cestu
+  notAllowedToSearch: není povoleno hledat nebo procházet cesty
+  notFound: cesta nenalezena

@@ -1,0 +1,80 @@
+editor:
+  content:
+    editor:
+      unsupported: crwdns105944:0crwdne105944:0
+    partial: crwdns105946:0crwdne105946:0
+    preview:
+      html: crwdns105948:0crwdne105948:0
+      pdf: crwdns105950:0crwdne105950:0
+      title: crwdns105952:0crwdne105952:0
+    title: crwdns105954:0crwdne105954:0
+    toolbox:
+      partials: crwdns105956:0crwdne105956:0
+      samples:
+        defaultHTML: crwdns105958:0crwdne105958:0
+        label: crwdns105960:0crwdne105960:0
+      snippets:
+        funcCall: crwdns105962:0crwdne105962:0
+        interpolate: crwdns105964:0crwdne105964:0
+        iterator: crwdns105966:0crwdne105966:0
+        label: crwdns105968:0crwdne105968:0
+      title: crwdns105970:0crwdne105970:0
+  info:
+    contentType:
+      text_html: crwdns105972:0crwdne105972:0
+      text_plain: crwdns105974:0crwdne105974:0
+    createdAt: crwdns105976:0crwdne105976:0
+    createdBy: crwdns105978:0crwdne105978:0
+    delete: crwdns105980:0crwdne105980:0
+    deletedAt: crwdns105982:0crwdne105982:0
+    handle: crwdns105984:0crwdne105984:0
+    placeholder-handle: crwdns105986:0crwdne105986:0
+    invalid-handle-characters: crwdns105988:0crwdne105988:0
+    meta:
+      description: crwdns105990:0crwdne105990:0
+      short: crwdns105992:0crwdne105992:0
+    partial: crwdns105994:0crwdne105994:0
+    partialDescription: crwdns105996:0crwdne105996:0
+    title: crwdns105998:0crwdne105998:0
+    type: crwdns106000:0crwdne106000:0
+    undelete: crwdns106002:0crwdne106002:0
+    updatedAt: crwdns106004:0crwdne106004:0
+  new: crwdns106006:0crwdne106006:0
+  permissions: crwdns106008:0crwdne106008:0
+  title:
+    create: crwdns106010:0crwdne106010:0
+    edit: crwdns106012:0crwdne106012:0
+list:
+  columns:
+    actions: "crwdns106014:0crwdne106014:0"
+    createdAt: crwdns106016:0crwdne106016:0
+    handle: crwdns106018:0crwdne106018:0
+    language: crwdns106020:0crwdne106020:0
+    meta:
+      short: crwdns106022:0crwdne106022:0
+    state: crwdns106024:0crwdne106024:0
+  delete: crwdns106026:0crwdne106026:0
+  undelete: crwdns106028:0crwdne106028:0
+  export: crwdns106030:0crwdne106030:0
+  rows:
+    filters:
+      deleted: crwdns106032:0crwdne106032:0
+  filterForm:
+    deleted:
+      label: crwdns106034:0crwdne106034:0
+    excluded:
+      label: crwdns106036:0crwdne106036:0
+    exclusive:
+      label: crwdns106038:0crwdne106038:0
+    handle:
+      label: crwdns106040:0crwdne106040:0
+      placeholder: crwdns106042:0crwdne106042:0
+    inclusive:
+      label: crwdns106044:0crwdne106044:0
+  loading: crwdns106046:0crwdne106046:0
+  new: crwdns106048:0crwdne106048:0
+  numFound: 'crwdns106050:0{{count}}crwdne106050:0'
+  numFound_plural: 'crwdns106052:0{{count}}crwdne106052:0'
+  permissions: crwdns106054:0crwdne106054:0
+  title: crwdns106056:0crwdne106056:0
+  yaml: crwdns106058:0crwdne106058:0

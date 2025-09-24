@@ -1,0 +1,22 @@
+template:
+  title: Zabezpečení
+  password:
+    title: Heslo
+    change-link: Změna hesla
+  mfa:
+    title: Vícefaktorové přihlášení 
+    totp:
+      title: Zvýšené zabezpečení s mobilní aplikací (časově omezený jednorázový kód)
+      enforced: Nakonfigurováno a vyžadováno při přihlášení
+      disabled: Je vypnuté
+      configure: Konfigurovat
+      disable: Vypnout
+    email:
+      title: Zvýšené zabezpečení s jednorázovým kódem v emailu
+      enforced: Nakonfigurováno a vyžadováno při přihlášení 
+      disabled: Je vypnuté 
+      enable: Konfigurovat
+      disable: Vypnout
+    all-disabled: Všechny metody vícefaktorového přihlášení jsou vypnuté. Požádejte svého administrátora, aby je povolil.
+alerts:
+  topt-disabled: Dvoufaktorové přihlášení s TOTP je vypnuté

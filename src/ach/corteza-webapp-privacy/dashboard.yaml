@@ -1,0 +1,31 @@
+title: crwdns101276:0crwdne101276:0
+connection-location: crwdns101278:0crwdne101278:0
+description:
+  first: crwdns101280:0crwdne101280:0
+  second: crwdns101282:0crwdne101282:0
+user-options:
+  data-overview:
+    title: crwdns101284:0crwdne101284:0
+    description: crwdns101286:0crwdne101286:0
+    button-label: crwdns101288:0crwdne101288:0
+  privacy-requests:
+    title: crwdns101290:0crwdne101290:0
+    description: crwdns101292:0crwdne101292:0
+    button-label: crwdns101294:0crwdne101294:0
+  export:
+    title: crwdns101296:0crwdne101296:0
+    description: crwdns101298:0crwdne101298:0
+    button-label: crwdns101300:0crwdne101300:0
+  delete:
+    title: crwdns101302:0crwdne101302:0
+    description: crwdns101304:0crwdne101304:0
+    button-label: crwdns101306:0crwdne101306:0
+dc-options:
+  privacy-requests:
+    title: crwdns101308:0crwdne101308:0
+    description: crwdns101310:0crwdne101310:0
+    button-label: crwdns101312:0crwdne101312:0
+  sensitive-data:
+    title: crwdns101314:0crwdne101314:0
+    description: crwdns101316:0crwdne101316:0
+    button-label: crwdns101318:0crwdne101318:0

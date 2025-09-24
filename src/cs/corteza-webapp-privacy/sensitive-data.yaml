@@ -1,0 +1,11 @@
+list:
+  title: Citlivé moduly
+  columns:
+    module: Modul
+    namespace: Jmenný prostor
+    connection: Spojení
+    location: Umístění
+    ownership: Vlastnictví
+  module:
+    enable: Povolit moduly
+    disable: Zakázat moduly

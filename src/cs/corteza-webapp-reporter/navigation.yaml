@@ -1,0 +1,11 @@
+appMenu: Menu
+help:
+  documentation: Dokumentace
+  feedback: Odeslat zpětnou vazbu
+  forum: Pomoc
+  version: 'Verze:'
+userSettings:
+  changePassword: Změna hesla
+  loggedInAs: Přihlášený uživatel {{user}}
+  logout: Odhlásit
+  profile: Profil

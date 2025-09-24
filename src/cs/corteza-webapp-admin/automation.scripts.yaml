@@ -1,0 +1,17 @@
+list:
+  columns:
+    name: Jméno
+    updatedAt: Poslední aktualizace
+  filter:
+    absoluteTime: Zobrazit absolutní čas
+    incScriptsWithErrors: Chyby ({{ count }})
+    incScriptsWithIterator: Iterátor ({{ count }})
+    incScriptsWithSecurity: Bezpečnost ({{ count }})
+    incScriptsWithTriggers: Spouštěče ({{ count }})
+    searchQuery: Vyhledávací dotaz
+  flags:
+    iterator: Iterátor
+    security: Bezpečnost
+    triggers: Spouštěče
+  labelMissing: <popisek chybí>
+  title: Corredor skripty

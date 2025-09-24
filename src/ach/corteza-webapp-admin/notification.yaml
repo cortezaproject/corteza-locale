@@ -1,0 +1,305 @@
+general:
+  error: crwdns103934:0crwdne103934:0
+  success: crwdns103936:0crwdne103936:0
+  warning: crwdns103938:0crwdne103938:0
+notAllowed: crwdns103940:0crwdne103940:0
+list:
+  load:
+    error: 'crwdns103942:0crwdne103942:0'
+user:
+  external-auth-providers:
+    error: crwdns103944:0crwdne103944:0
+    success: crwdns103946:0crwdne103946:0
+  fetch:
+    error: crwdns103948:0crwdne103948:0
+  roles:
+    error: crwdns103950:0crwdne103950:0
+  update:
+    success: crwdns103952:0crwdne103952:0
+    error: crwdns103954:0crwdne103954:0
+  create:
+    success: crwdns103956:0crwdne103956:0
+    error: crwdns103958:0crwdne103958:0
+  delete:
+    success: crwdns103960:0crwdne103960:0
+    error: crwdns103962:0crwdne103962:0
+  undelete:
+    success: crwdns103964:0crwdne103964:0
+    error: crwdns103966:0crwdne103966:0
+  membershipUpdate:
+    success: crwdns103968:0crwdne103968:0
+    error: crwdns103970:0crwdne103970:0
+  passwordChange:
+    success: crwdns103972:0crwdne103972:0
+    error: crwdns103974:0crwdne103974:0
+  sessionsRevoke:
+    success: crwdns103976:0crwdne103976:0
+    error: crwdns103978:0crwdne103978:0
+  suspend:
+    success: crwdns103980:0crwdne103980:0
+    error: crwdns103982:0crwdne103982:0
+  unsuspend:
+    success: crwdns103984:0crwdne103984:0
+    error: crwdns103986:0crwdne103986:0
+  import:
+    success: crwdns103988:0crwdne103988:0
+  avatarUpload:
+    success: crwdns103990:0crwdne103990:0
+    error: crwdns103992:0crwdne103992:0
+  avatarSettings:
+    success: crwdns103994:0crwdne103994:0
+    error: crwdns103996:0crwdne103996:0
+  avatarDelete:
+    success: crwdns103998:0crwdne103998:0
+    error: crwdns104000:0crwdne104000:0
+role:
+  fetch:
+    error: crwdns104002:0crwdne104002:0
+  create:
+    success: crwdns104004:0crwdne104004:0
+    error: crwdns104006:0crwdne104006:0
+  update:
+    success: crwdns104008:0crwdne104008:0
+    error: crwdns104010:0crwdne104010:0
+  delete:
+    success: crwdns104012:0crwdne104012:0
+    error: crwdns104014:0crwdne104014:0
+  undelete:
+    success: crwdns104016:0crwdne104016:0
+    error: crwdns104018:0crwdne104018:0
+  archive:
+    success: crwdns104020:0crwdne104020:0
+    error: crwdns104022:0crwdne104022:0
+  unarchive:
+    success: crwdns104024:0crwdne104024:0
+    error: crwdns104026:0crwdne104026:0
+  membershipUpdate:
+    success: crwdns104028:0crwdne104028:0
+    error: crwdns104030:0crwdne104030:0
+application:
+  fetch:
+    error: crwdns104032:0crwdne104032:0
+  update:
+    success: crwdns104034:0crwdne104034:0
+    error: crwdns104036:0crwdne104036:0
+  create:
+    success: crwdns104038:0crwdne104038:0
+    error: crwdns104040:0crwdne104040:0
+  delete:
+    success: crwdns104042:0crwdne104042:0
+    error: crwdns104044:0crwdne104044:0
+  undelete:
+    success: crwdns104046:0crwdne104046:0
+    error: crwdns104048:0crwdne104048:0
+  assetsUpload:
+    error: crwdns104050:0crwdne104050:0
+template:
+  fetch:
+    error: crwdns104052:0crwdne104052:0
+  fetchPartials:
+    error: crwdns104054:0crwdne104054:0
+  create:
+    success: crwdns104056:0crwdne104056:0
+    error: crwdns104058:0crwdne104058:0
+  update:
+    success: crwdns104060:0crwdne104060:0
+    error: crwdns104062:0crwdne104062:0
+  delete:
+    success: crwdns104064:0crwdne104064:0
+    error: crwdns104066:0crwdne104066:0
+  undelete:
+    success: crwdns104068:0crwdne104068:0
+    error: crwdns104070:0crwdne104070:0
+  driver:
+    error: crwdns104072:0crwdne104072:0
+  preview:
+    error: crwdns104074:0crwdne104074:0
+authclient:
+  fetch:
+    error: crwdns104076:0crwdne104076:0
+  create:
+    success: crwdns104078:0crwdne104078:0
+    error: crwdns104080:0crwdne104080:0
+  update:
+    success: crwdns104082:0crwdne104082:0
+    error: crwdns104084:0crwdne104084:0
+  delete:
+    success: crwdns104086:0crwdne104086:0
+    error: crwdns104088:0crwdne104088:0
+  undelete:
+    success: crwdns104090:0crwdne104090:0
+    error: crwdns104092:0crwdne104092:0
+queue:
+  fetch:
+    error: crwdns104094:0crwdne104094:0
+  create:
+    success: crwdns104096:0crwdne104096:0
+    error: crwdns104098:0crwdne104098:0
+  update:
+    success: crwdns104100:0crwdne104100:0
+    error: crwdns104102:0crwdne104102:0
+  delete:
+    success: crwdns104104:0crwdne104104:0
+    error: crwdns104106:0crwdne104106:0
+  undelete:
+    success: crwdns104108:0crwdne104108:0
+    error: crwdns104110:0crwdne104110:0
+gateway:
+  fetch:
+    error: crwdns104112:0crwdne104112:0
+  create:
+    success: crwdns104114:0crwdne104114:0
+    error: crwdns104116:0crwdne104116:0
+  update:
+    success: crwdns104118:0crwdne104118:0
+    error: crwdns104120:0crwdne104120:0
+  filter:
+    fetch:
+      error: crwdns104122:0crwdne104122:0
+    update:
+      success: crwdns104124:0crwdne104124:0
+      error: crwdns104126:0crwdne104126:0
+  delete:
+    success: crwdns104128:0crwdne104128:0
+    error: crwdns104130:0crwdne104130:0
+  undelete:
+    success: crwdns104132:0crwdne104132:0
+    error: crwdns104134:0crwdne104134:0
+  profiler:
+    fetch:
+      error: crwdns104136:0crwdne104136:0
+    purge:
+      success: crwdns104138:0crwdne104138:0
+      error: crwdns104140:0crwdne104140:0
+workflow:
+  fetch:
+    error: crwdns104142:0crwdne104142:0
+  create:
+    success: crwdns104144:0crwdne104144:0
+    error: crwdns104146:0crwdne104146:0
+  update:
+    success: crwdns104148:0crwdne104148:0
+    error: crwdns104150:0crwdne104150:0
+  delete:
+    success: crwdns104152:0crwdne104152:0
+    error: crwdns104154:0crwdne104154:0
+  undelete:
+    success: crwdns104156:0crwdne104156:0
+    error: crwdns104158:0crwdne104158:0
+session:
+  fetch:
+    error: crwdns104160:0crwdne104160:0
+  trigger:
+    error: crwdns104162:0crwdne104162:0
+  cancel:
+    success: crwdns104164:0crwdne104164:0
+    error: crwdns104166:0crwdne104166:0
+federation:
+  fetch:
+    error: crwdns104168:0crwdne104168:0
+  create:
+    success: crwdns104170:0crwdne104170:0
+    error: crwdns104172:0crwdne104172:0
+  update:
+    success: crwdns104174:0crwdne104174:0
+    error: crwdns104176:0crwdne104176:0
+  delete:
+    success: crwdns104178:0crwdne104178:0
+    error: crwdns104180:0crwdne104180:0
+  undelete:
+    success: crwdns104182:0crwdne104182:0
+    error: crwdns104184:0crwdne104184:0
+  url:
+    error: crwdns104186:0crwdne104186:0
+  email:
+    success: crwdns104188:0crwdne104188:0
+    error: crwdns104190:0crwdne104190:0
+  pair:
+    success: crwdns104192:0crwdne104192:0
+    error: crwdns104194:0crwdne104194:0
+  handshake:
+    success: crwdns104196:0crwdne104196:0
+    error: crwdns104198:0crwdne104198:0
+sensitivityLevel:
+  create:
+    success: crwdns104200:0crwdne104200:0
+    error: crwdns104202:0crwdne104202:0
+  delete:
+    success: crwdns104204:0crwdne104204:0
+    error: crwdns104206:0crwdne104206:0
+  fetch:
+    success: crwdns104208:0crwdne104208:0
+    error: crwdns104210:0crwdne104210:0
+  undelete:
+    success: crwdns104212:0crwdne104212:0
+    error: crwdns104214:0crwdne104214:0
+  update:
+    success: crwdns104216:0crwdne104216:0
+    error: crwdns104218:0crwdne104218:0
+settings:
+  system:
+    fetch:
+      error: crwdns104220:0crwdne104220:0
+    auth:
+      success: crwdns104222:0crwdne104222:0
+      error: crwdns104224:0crwdne104224:0
+    external:
+      success: crwdns104226:0crwdne104226:0
+      error: crwdns104228:0crwdne104228:0
+    bgScreen:
+      style:
+        success: crwdns104230:0crwdne104230:0
+        error: crwdns104232:0crwdne104232:0
+    smtpCheck:
+      success: crwdns104234:0crwdne104234:0
+      error: crwdns104236:0crwdne104236:0
+    apigw:
+      success: crwdns104238:0crwdne104238:0
+      error: crwdns104240:0crwdne104240:0
+  compose:
+    fetch:
+      error: crwdns104242:0crwdne104242:0
+    update:
+      success: crwdns104244:0crwdne104244:0
+      error: crwdns104246:0crwdne104246:0
+  ui:
+    fetch:
+      error: crwdns104248:0crwdne104248:0
+    update:
+      success: crwdns104250:0crwdne104250:0
+      error: crwdns104252:0crwdne104252:0
+  code-snippet:
+    fetch:
+      error: crwdns104254:0crwdne104254:0
+    update:
+      success: crwdns104256:0crwdne104256:0
+      error: crwdns104258:0crwdne104258:0
+    delete:
+      success: crwdns104260:0crwdne104260:0
+      error: crwdns104262:0crwdne104262:0
+permissions:
+  fetch:
+    error: crwdns104264:0crwdne104264:0
+  update:
+    success: crwdns104266:0crwdne104266:0
+    error: crwdns104268:0crwdne104268:0
+  clone:
+    success: crwdns104270:0crwdne104270:0
+    error: crwdns104272:0crwdne104272:0
+  role:
+    error: crwdns104274:0crwdne104274:0
+connection:
+  fetch:
+    error: crwdns104276:0crwdne104276:0
+  update:
+    success: crwdns104278:0crwdne104278:0
+    error: crwdns104280:0crwdne104280:0
+  create:
+    success: crwdns104282:0crwdne104282:0
+    error: crwdns104284:0crwdne104284:0
+  delete:
+    success: crwdns104286:0crwdne104286:0
+    error: crwdns104288:0crwdne104288:0
+  undelete:
+    success: crwdns104290:0crwdne104290:0
+    error: crwdns104292:0crwdne104292:0

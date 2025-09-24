@@ -1,0 +1,25 @@
+errors:
+  fieldNotFound: crwdns102708:0{field}crwdne102708:0
+  importSessionAlreadActive: crwdns102710:0crwdne102710:0
+  invalidID: crwdns102712:0crwdne102712:0
+  invalidModuleID: crwdns102714:0crwdne102714:0
+  invalidNamespaceID: crwdns102716:0crwdne102716:0
+  invalidReferenceFormat: crwdns102718:0crwdne102718:0
+  invalidValueStructure: crwdns102720:0{field}crwdne102720:0
+  moduleNotFoundModule: crwdns102722:0crwdne102722:0
+  namespaceNotFound: crwdns102724:0crwdne102724:0
+  notAllowedToChangeFieldValue: crwdns102726:0{field}crwdne102726:0
+  notAllowedToCreate: crwdns102728:0crwdne102728:0
+  notAllowedToDelete: crwdns102730:0crwdne102730:0
+  notAllowedToListRecords: crwdns102732:0crwdne102732:0
+  notAllowedToRead: crwdns102734:0crwdne102734:0
+  notAllowedToReadModule: crwdns102736:0crwdne102736:0
+  notAllowedToReadNamespace: crwdns102738:0crwdne102738:0
+  notAllowedToSearch: crwdns102740:0crwdne102740:0
+  notAllowedToUndelete: crwdns102742:0crwdne102742:0
+  notAllowedToUpdate: crwdns102744:0crwdne102744:0
+  notFound: crwdns102746:0crwdne102746:0
+  staleData: crwdns102748:0crwdne102748:0
+  unknownBulkOperation: crwdns102750:0{bulkOperation}crwdne102750:0
+  valueInput: crwdns102752:0crwdne102752:0
+  maxRecordsReached: crwdns102754:0crwdne102754:0

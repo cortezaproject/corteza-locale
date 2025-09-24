@@ -1,0 +1,17 @@
+errors:
+  handleNotUnique: identifikátor není unikátní
+  invalidHandle: nevalidní identifikátor
+  invalidID: nevalidní ID
+  invalidNamespaceID: nevalidní nebo chybějící ID jmenného prostoru 
+  moduleNotFound: modul neexistuje
+  namespaceNotFound: jmenný prostor neexistuje
+  notAllowedToCreate: není povoleno vytvářet stránky
+  notAllowedToDelete: není povoleno smazat tuto stránku
+  notAllowedToListPages: není povoleno procházet stránky
+  notAllowedToRead: není povoleno zobrazit tuto stránku
+  notAllowedToReadNamespace: chybí povolení ke čtení tohoto jmenného prostoru
+  notAllowedToSearch: není povoleno hledat nebo procházet stránky
+  notAllowedToUndelete: není povoleno obnovit tuto smazanou stránku
+  notAllowedToUpdate: není povoleno aktualizovat tuto stránku
+  notFound: stránka neexistuje
+  staleData: zastaralá data

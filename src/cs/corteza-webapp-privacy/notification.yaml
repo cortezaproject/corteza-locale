@@ -1,0 +1,11 @@
+general:
+  error: Chyba
+  success: Úspěch
+  warning: Varování
+search:
+  failed: Vyhledávání selhalo
+list:
+  load:
+    error: Nepovedlo se najíst seznam zdrojů
+connection-load-failed: Nepovedlo se načíst spojení
+sensitive-data-fetch-failed: Nepovedlo se stáhnout citlivé údaje

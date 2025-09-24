@@ -1,0 +1,26 @@
+label:
+  back: Zpět
+  all: Vše
+  privacy_request:
+    single: Požadavek na ochranu soukromí
+    plural: Požadavky na ochranu soukromí
+  sensitive_module:
+    single: Citlivý Modul
+    plural: Citlivé moduly
+resourceList:
+  loading: Načítání
+  noItems: Žádné položky
+  notFound: Nenalezeno
+  search:
+    placeholder: Prohledávání položek
+  pagination:
+    next: Další
+    prev: Předchozí
+    showing: '{{from}} - {{to}} z {{count}} {{data}}'
+    single: '1 {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Na stránku
+themes:
+  labels:
+    light: Světlé
+    dark: Tmavé

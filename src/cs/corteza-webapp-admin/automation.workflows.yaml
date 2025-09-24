@@ -1,0 +1,60 @@
+editor:
+  info:
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    enabled: Povoleno
+    handle: Identifikátor
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    id: ID
+    name: Jméno *
+    openBuilder: Otevřít editor
+    title: Základní informace
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+  new: Nové workflow
+  permissions: Oprávnění
+  title:
+    create: Vytvořit workflow
+    edit: Editovat workflow
+  triggers:
+    and: a
+    columns:
+      constraints: Omezení
+      eventType: Událost
+      resourceType: Zdroj
+    title: Spouštěče
+list:
+  columns:
+    actions: ""
+    createdAt: Vytvořeno
+    enabled: Povoleno
+    handle: Identifikátor
+    name: Jméno
+    state: Stav
+  delete: Smazat
+  undelete: Obnovit smazané
+  export: Export
+  rows:
+    filters:
+      deleted: Odstraněno
+  filterForm:
+    deleted:
+      label: smazaná workflow
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    inclusive:
+      label: Včetně
+    query:
+      label: Filtrovat seznam workflow
+      placeholder: Filtrovat workflow podle jména
+  loading: Načítání workflow
+  new: Nové workflow
+  numFound: 'Nalezeno {{count}} workflow'
+  numFound_plural: 'Nalezeno {{count}} workflow'
+  permissions: Oprávnění
+  title: Workflows
+  yaml: YAML

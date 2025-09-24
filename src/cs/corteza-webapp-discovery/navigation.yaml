@@ -1,0 +1,12 @@
+discovery: Vyhledávání
+help:
+  documentation: Dokumentace
+  feedback: Odeslat zpětnou vazbu
+  forum: Pomoc
+  version: 'Verze:'
+appMenu: Menu
+userSettings:
+  changePassword: Změna hesla
+  loggedInAs: Přihlášený uživatel {{user}}
+  logout: Odhlásit
+  profile: Profil

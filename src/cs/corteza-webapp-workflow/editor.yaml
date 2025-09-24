@@ -1,0 +1,32 @@
+'auto-initialize-empty-variable': Proměnné, které nejde načíst, budou automaticky inicializovány prázdné
+back: Zpět
+'click-to-save': Uložit
+deferred: Odložený
+delete: Smazat
+deleted: Odstraněno
+'detected-changes': "Detekovány změny "
+'detected-issues': Detekovány problémy
+disabled: Vypnuto
+help: Pomoc
+handle: (Identifikátor)
+id: "ID:"
+'id-parenthesis': " (ID)"
+'initial-scope': Interní scope
+'input-ids-or-handles': Iniciační scope je zaveden do workflow při spuštění. Pro načtení dostupných proměnných, zadejte níže související ID/identifikátory
+issues: Problémy
+'load-and-configure': Načíst a konfigurovat
+'modify-initial-scope-if-no-variables-are-loaded': Pokud nechcete načíst žádné proměnné, klikněte "Konfigurovat" a modifikujte iniciační scope před spuštěním workflow
+'open-webapp-on-prompt-use': "VAROVÁNÍ: Pokud se ve workflow vyskytují interakce, ujistěte se, že související aplikace je taky otevřená. Jinak workflow skončí na timeout"
+reset: Resetovat
+'run-as': "Spustit jako:"
+'run-workflow': Spustit workflow
+'required-namespace': Jmenný prostor vyžadován
+'required-namespace-and-module': Jmenný prostor a modul vyžadovány
+save: Uložit
+saving: Ukládání
+spinning: Točení
+'test-in-progress': "Probíhá testování. Pokud workflow obsahuje interakci nebo zpoždění, možná se čeká na ně"
+'unsupported-browser': Prohlížeč není podporovaný!
+undelete: Obnovit smazané
+'workflow-configuration': Konfigurace workflow
+'editor': Editor

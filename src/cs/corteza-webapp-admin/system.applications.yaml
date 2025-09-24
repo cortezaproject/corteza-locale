@@ -1,0 +1,68 @@
+editor:
+  info:
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    enabled: Povoleno
+    id: ID
+    name: Jméno *
+    title: Základní informace
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+  new: Nová aplikace
+  permissions: Oprávnění
+  title:
+    create: Vytvořit aplikaci
+    edit: Editovat aplikaci
+  unify:
+    config:
+      description: Konfigurace aplikace (JSON)
+      label: Konfigurace
+    listed: V seznamu
+    logo:
+      label: Logo
+      description: Logo ve výběru aplikací
+      placeholder: Vyberte logo nebo ho sem přetáhněte...
+      reset: Resetovat
+    name:
+      description: Jméno použité ve výběru aplikací
+      label: Jméno
+    pinned: Připnuto
+    title: Výběr aplikací
+    url:
+      description: URL aplikace
+      label: URL
+list:
+  columns:
+    actions: ""
+    createdAt: Vytvořeno
+    enabled: Povoleno
+    name: Jméno
+    appListName: Jméno ve výběru aplikací
+    state: Stav
+  export: Export
+  rows:
+    filters:
+      deleted: Odstraněno
+  filterForm:
+    deleted:
+      label: smazané aplikace
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    inclusive:
+      label: Včetně
+    query:
+      label: Filtrovat seznam aplikací
+      placeholder: Filtrovat aplikace podle názvu
+  loading: Načítání aplikací
+  new: Nová aplikace
+  numFound: 'Nalezena {{count}} aplikace'
+  numFound_plural: 'Nalezeno {{count}} aplikací'
+  permissions: Oprávnění
+  title: Aplikace
+  yaml: YAML
+  delete: Smazat
+  undelete: Obnovit smazané

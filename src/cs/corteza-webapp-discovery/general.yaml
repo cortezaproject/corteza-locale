@@ -1,0 +1,11 @@
+federated: Federace
+no-values: Žádné hodnoty
+label:
+  all: Vše
+resourceList:
+  pagination:
+    recordsPerPage: Na stránku
+themes:
+  labels:
+    light: Světlé
+    dark: Tmavé

@@ -1,0 +1,70 @@
+editor:
+  info:
+    archive: Archivovat
+    archivedAt: Čas archivace
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    handle: Identifikátor
+    placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    name: Název role
+    title: Základní informace
+    unarchive: Obnovit z archivu
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+    description: Popis
+    context:
+      label: Role v kontextu
+      expression-label: Výraz
+      resource-types-label: Typ zdroje
+  members:
+    add: Přidat
+    count: Členové ({{count}})
+    remove: Odebrat
+    searchUsers: Hledat uživatele
+    title: Členové role
+    unnamed: Bezejmenný uživatel
+  new: Nová role
+  permissions: Oprávnění
+  title:
+    create: Vytvořit roli
+    edit: Editovat roli
+list:
+  columns:
+    actions: ""
+    createdAt: Vytvořeno
+    enabled: Povoleno
+    handle: Identifikátor
+    name: Jméno
+    state: Stav
+  delete: Smazat
+  undelete: Obnovit smazané
+  archive: Archivovat
+  unarchive: Obnovit z archivu
+  rows:
+    filters:
+      archived: Archivováno
+      deleted: Odstraněno
+  filterForm:
+    archived:
+      label: archivované role
+    deleted:
+      label: smazané role
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    inclusive:
+      label: Včetně
+    query:
+      label: Filtrovat seznam rolí
+      placeholder: Filtrovat role podle názvu
+  loading: Načítání rolí
+  new: Nová role
+  numFound: 'Nalezena {{count}} role'
+  numFound_plural: 'Nalezeno {{count}} rolí'
+  permissions: Oprávnění
+  title: Role
+  yaml: YAML

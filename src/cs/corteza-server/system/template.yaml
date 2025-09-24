@@ -1,0 +1,12 @@
+errors:
+  cannotRenderPartial: nejde vykreslit částečnou šablonu
+  invalidHandle: nevalidní identifikátor
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet šablony
+  notAllowedToDelete: není povoleno smazat tuto šablonu
+  notAllowedToRead: není povoleno zobrazit tuto šablonu
+  notAllowedToRender: není povoleno vykreslit tuto šablonu
+  notAllowedToSearch: není povoleno hledat nebo procházet šablony
+  notAllowedToUndelete: není povoleno obnovit tuto smazanou šablonu
+  notAllowedToUpdate: není povoleno aktualizovat tuto šablonu
+  notFound: šablona nenalezena

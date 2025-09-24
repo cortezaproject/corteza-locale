@@ -1,0 +1,42 @@
+label:
+  add: crwdns101092:0crwdne101092:0
+  and: crwdns101094:0crwdne101094:0
+  all: crwdns101096:0crwdne101096:0
+  ascending: crwdns101098:0crwdne101098:0
+  back: crwdns101100:0crwdne101100:0
+  clear: crwdns101102:0crwdne101102:0
+  cancel: crwdns101104:0crwdne101104:0
+  delete: crwdns101106:0crwdne101106:0
+  descending: crwdns101108:0crwdne101108:0
+  loading: crwdns101110:0crwdne101110:0
+  name: crwdns101112:0crwdne101112:0
+  none: crwdns101114:0crwdne101114:0
+  now: crwdns101116:0crwdne101116:0
+  ok: crwdns101118:0crwdne101118:0
+  or: crwdns101120:0crwdne101120:0
+  openLinkInNewTab: crwdns101122:0crwdne101122:0
+  save: crwdns101124:0crwdne101124:0
+  saveAndClose: crwdns101126:0crwdne101126:0
+  clone: crwdns101128:0crwdne101128:0
+  today: crwdns101130:0crwdne101130:0
+  urlPlaceholder: crwdns101132:0crwdne101132:0
+  default: crwdns101134:0crwdne101134:0
+  report:
+    single: crwdns101136:0crwdne101136:0
+    plural: crwdns101138:0crwdne101138:0
+resourceList:
+  notFound: crwdns101140:0crwdne101140:0
+  noItems: crwdns101142:0crwdne101142:0
+  pagination:
+    next: crwdns101144:0crwdne101144:0
+    prev: crwdns101146:0crwdne101146:0
+    showing: 'crwdns101148:0{{from}}crwdnd101148:0{{to}}crwdnd101148:0{{count}}crwdnd101148:0{{data}}crwdne101148:0'
+    single: 'crwdns101150:0{{data}}crwdne101150:0'
+    single_plural: 'crwdns101152:0{{count}}crwdnd101152:0{{data}}crwdne101152:0'
+    recordsPerPage: crwdns101154:0crwdne101154:0
+  clone: crwdns101156:0crwdne101156:0
+themes:
+  labels:
+    light: crwdns101158:0crwdne101158:0
+    dark: crwdns101160:0crwdne101160:0
+cloneSuffix: crwdns101162:0crwdne101162:0

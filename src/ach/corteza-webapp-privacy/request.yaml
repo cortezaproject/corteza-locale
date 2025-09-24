@@ -1,0 +1,76 @@
+comments:
+  enter: crwdns101428:0crwdne101428:0
+  label: crwdns101430:0crwdne101430:0
+  sort:
+    first:
+      newest: crwdns101432:0crwdne101432:0
+      oldest: crwdns101434:0crwdne101434:0
+  submit: crwdns101436:0crwdne101436:0
+  unknown:
+    date: crwdns101438:0crwdne101438:0
+    user: crwdns101440:0crwdne101440:0
+kind:
+  correct: crwdns101442:0crwdne101442:0
+  delete: crwdns101444:0crwdne101444:0
+  export: crwdns101446:0crwdne101446:0
+status:
+  canceled: crwdns101448:0crwdne101448:0
+  pending: crwdns101450:0crwdne101450:0
+  rejected: crwdns101452:0crwdne101452:0
+  approved: crwdns101454:0crwdne101454:0
+list:
+  title: crwdns101456:0crwdne101456:0
+  export: crwdns101458:0crwdne101458:0
+  columns:
+    kind: crwdns101460:0crwdne101460:0
+    requestedAt: crwdns101462:0crwdne101462:0
+    requestedBy: crwdns101464:0crwdne101464:0
+    status: crwdns101466:0crwdne101466:0
+  request:
+    approve: crwdns101468:0crwdne101468:0
+    cancel: crwdns101470:0crwdne101470:0
+    reject: crwdns101472:0crwdne101472:0
+edit:
+  correct:
+    private-fields: crwdns101474:0crwdne101474:0
+    no-data-available: crwdns101476:0crwdne101476:0
+    submit: crwdns101478:0crwdne101478:0
+    connection:
+      label: crwdns101480:0crwdne101480:0
+      placeholder: crwdns101482:0crwdne101482:0
+  delete:
+    private-fields: crwdns101484:0crwdne101484:0
+    no-data-available: crwdns101486:0crwdne101486:0
+    submit: crwdns101488:0crwdne101488:0
+    connection:
+      label: crwdns101490:0crwdne101490:0
+      placeholder: crwdns101492:0crwdne101492:0
+  export:
+    submit: crwdns101494:0crwdne101494:0
+    data-type:
+      label: crwdns101496:0crwdne101496:0
+      profile-information: crwdns101498:0crwdne101498:0
+      application-data: crwdns101500:0crwdne101500:0
+    date-range:
+      label: crwdns101502:0crwdne101502:0
+      all: crwdns101504:0crwdne101504:0
+    file-format:
+      label: crwdns101506:0crwdne101506:0
+      json: crwdns101508:0crwdne101508:0
+      csv: crwdns101510:0crwdne101510:0
+view:
+  approve: crwdns101512:0crwdne101512:0
+  cancel: crwdns101514:0crwdne101514:0
+  reject: crwdns101516:0crwdne101516:0
+  export:
+    data-type:
+      label: crwdns101518:0crwdne101518:0
+      profile-information: crwdns101520:0crwdne101520:0
+      application-data: crwdns101522:0crwdne101522:0
+    date-range:
+      label: crwdns101524:0crwdne101524:0
+      all: crwdns101526:0crwdne101526:0
+    file-format:
+      label: crwdns101528:0crwdne101528:0
+      json: crwdns101530:0crwdne101530:0
+      csv: crwdns101532:0crwdne101532:0

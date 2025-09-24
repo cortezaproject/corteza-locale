@@ -1,0 +1,11 @@
+title: crwdns110500:0crwdne110500:0
+types:
+  title: crwdns110502:0crwdne110502:0
+  namespace: crwdns110504:0crwdne110504:0
+  module: crwdns110506:0crwdne110506:0
+  user: crwdns110508:0crwdne110508:0
+  record: crwdns110510:0crwdne110510:0
+aggregation-groups:
+  modules: crwdns110512:0crwdne110512:0
+  namespaces: crwdns110514:0crwdne110514:0
+reset: crwdns110516:0crwdne110516:0

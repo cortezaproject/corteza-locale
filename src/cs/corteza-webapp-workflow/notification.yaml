@@ -1,0 +1,51 @@
+'configure-triggers': Ujistěte se, že všechny kroky triggeru jsou správně nakonfigurované
+'confirm-unsaved-changes': Máte neuložené změny, určitě chcete odejít?
+error: " - CHYBA: "
+'event-type-not-found': Typ události nenalezen
+'event-type-fetch-failed': Nepovedlo se získat typy událostí
+'failed-fetch-functions': Nepovedlo se získat funkce
+'failed-fetch-triggers': Nepovedlo se získat triggery
+'failed-fetch-workflow': Nepovedlo se získat workflow
+'failed-fetch-workflows': Nepovedlo se získat workflows
+'failed-load-file': Nepovedlo se načíst soubor
+'failed-save': Uložení selhalo
+'failed-test': Test selhal
+'fetch-types-failed': Nepovedlo se získat typy
+general:
+  error: Chyba
+  success: Úspěch
+  warning: Varování
+  info: Informace
+list:
+  load:
+    error: Nepovedlo se získat workflows
+  enable:
+    success: Workflow povoleno
+    failed: Nepovedlo se povolit workflow
+  disable:
+    success: Workflow vypnuto
+    failed: Nepovedlo se vypnout workflow
+import:
+  'failed-import': Nepovedlo se importovat
+  'imported-workflows': Workflow importováno
+  'skipped-workflows': Přeskočená workflow
+'imported-workflow': Workflow importováno
+'import-failed': Import selhal
+'initial-scope-load-failed': Nepovedlo se načíst iniciační scope
+'resolve-issues': Pro otestování workflow vyřešte problémy
+'save-workflow': Před odesláním workflow uložte
+'started-test': Test workflow zahájen
+'test-completed': Test dokončen
+'test-in-progress': Test probíhá
+'trace-unavailable': Trasování není dostupné
+'trigger-paths-changed': Cesty triggeru se změnily
+'workflow-test-completed': Test workflow dokončen
+update:
+  success: Workflow aktualizováno
+  failed: Nepovedlo se aktualizovat workflow
+delete:
+  success: Workflow smazáno
+  failed: Nepovedlo se smazat workflow
+undelete:
+  success: Workflow obnoveno
+  failed: Nepovedlo se obnovit workflow

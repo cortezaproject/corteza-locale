@@ -1,0 +1,16 @@
+permissions: Oprávnění
+report:
+  builder: Vytváření reportů
+  edit: Editovat
+  list: Seznam reportů
+  new: Nový report
+  delete: Smazat
+searchPlaceholder: Prohledávání reportů
+title: Reporty
+tooltip:
+  permissions: Oprávnění k reportům
+untitledTitle: Report bez nadpisu
+columns:
+  name: Jméno
+  handle: Identifikátor
+  changedAt: Poslední změna

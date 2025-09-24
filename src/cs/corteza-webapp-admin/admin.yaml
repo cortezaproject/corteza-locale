@@ -1,0 +1,117 @@
+automation:
+  add: Přidat skript
+  edit:
+    asyncHelp: Nečekaný na výsledky a ignorovat chyby. Nekompatibilní s označením kritické.
+    asyncLabel: Spustit tento skript asynchronně
+    codeTabLabel: Kód
+    criticalHelp: Čekat na dokončení skriptu. V případě chyb přerušit běh ostatních skriptů a spouštěče před*
+    criticalLabel: Kritický skript
+    delete: Smazat skript
+    enabledHelp: Vypnutý skript bude ignorován
+    enabledLabel: Povoleno
+    mailAutomationTriggers:
+      addMatcher: Přidat podmínku
+      addTrigger: Přidat spouštěč
+      delete: Smazat spouštěč
+      deleteTrigger: Smazat
+      enable: Povolit spouštěč
+      matchAll: Musí splnit všechny podmínky
+      matcher:
+        fields:
+          bcc: Skrytá kopie
+          cc: Kopie
+          from: Odesílatel
+          placeholder: Pole hlavičky emailu
+          replyTo: Odpovědět na
+          subject: Předmět
+          to: Příjemce
+        match: Hodnota ke shodě 
+        operators:
+          equal-ci: Plná shoda
+          placeholder: Operátor
+          prefix-ci: Shoda prefixu
+          regex: Regex
+          suffix-ci: Shoda sufixu
+          user: Existující uživatel
+      tabLabel: Spouštěče emailu
+    nameLabel: Jméno
+    namePlaceholder: Název skriptu automatizace
+    runAsCurrentUser: Spustit jako "{{ user }}"
+    runAsHelp: Kdo spouští skript
+    scheduledTriggers:
+      tabLabel: Naplánováno
+    securityLabel: Bezpečnost
+    settingsTabLabel: Nastavení
+    timeoutHelp: Jak dlouho čekáme před přerušením skriptu? Hodnota v milisekundách (1000ms = 1s). Výchozí hodnota (pro 0) je 2s, maximum je 30s. Přesně hodnoty a limitace konzultujte se svým administrátorem.
+    timeoutLabel: Časové omezení skriptu
+    timeoutPlaceholder: "1500"
+    title: Skript automatizace
+    userPickerPlaceholder: Vybrat uživatele
+  import: Importovat skript(y) automatizace
+  list:
+    column:
+      label:
+        async: Asynchronní
+        critical: Kritické
+        enabled: Povoleno
+        runAs: Spustit jako
+        runInUA: V prohlížeči
+    unnamed: (Bezejmenný skript)
+  manage: Spravovat skripty automatizace ({{count}})
+  manage-id-permissions: Spravovat práva pro tento skript
+  manage-wc-permissions: Spravovat práva pro všechny skripty
+  newLabel: Vytvořit nový skript
+  newPlaceholder: Název skriptu
+  testing:
+    load: Načtení
+    parametersHeadline: 'Parametry a data:'
+    resultsHeadline: 'Výsledky:'
+    testInBrowser: Test v prohlížeči
+    testInCorredor: Test v Corredoru
+    warning: ""
+  title: Seznam skriptů automatizace
+general:
+  resource-list:
+    no-items: Žádné shody pro vaše hledání
+  notFound: 'Nenalezeno'
+  loading: Načítání
+  label:
+    "no": "Ne"
+    submit: Odeslat
+    "yes": "Ano"
+    selectOption: "Vyberte prosím možnost"
+  logout: Odhlásit
+  noAccess: Nemáte práva pro přístup do administračního panelu
+  pagination:
+    next: Další
+    prev: Předchozí
+    showing: '{{from}} - {{to}} z {{count}} {{data}}'
+    single: '1 {{data}}'
+    single_plural: '{{count}} {{data}}'
+navigation:
+  appMenu: Menu
+  adminPanel: Administrační panel
+  automation: Automatizace
+  chart: Grafy
+  configuration: Konfigurace
+  help:
+    documentation: Dokumentace
+    feedback: Odeslat zpětnou vazbu
+    forum: Pomoc
+    version: 'Verze:'
+  module: Moduly
+  more: Více
+  namespace: Jmenný prostor
+  noPageTitle: Žádný nadpis stránky
+  page: Stránky
+  publicPages: Veřejné stránky
+  userSettings:
+    changePassword: Změna hesla
+    loggedInAs: Přihlášený uživatel {{user}}
+    logout: Odhlásit
+    profile: Profil
+picker:
+  role:
+    placeholder: Vyhledávejte role
+  member:
+    placeholder: Vyhledávejte uživatele

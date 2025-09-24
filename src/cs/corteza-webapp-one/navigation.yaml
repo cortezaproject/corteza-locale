@@ -1,0 +1,25 @@
+adminPanel: Administrační panel
+automation: Automatizace
+chart: Grafy
+configuration: Konfigurace
+help:
+  documentation: Dokumentace
+  feedback: Odeslat zpětnou vazbu
+  forum: Pomoc
+  version: 'Verze:'
+module: Moduly
+more: Více
+namespace: Jmenný prostor
+noPageTitle: Chybí nadpis stránky
+page: Stránky
+publicPages: Veřejné stránky
+appMenu: Menu
+userSettings:
+  changePassword: Změna hesla
+  loggedInAs: Přihlášený uživatel {{user}}
+  logout: Odhlásit
+  profile: Profil
+themes:
+  labels:
+    light: Světlé
+    dark: Tmavé

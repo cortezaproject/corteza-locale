@@ -1,0 +1,7 @@
+template:
+  authorize-client: Dokončit autorizaci
+  class:
+    your-profile: Váš profil
+    security: Zabezpečení
+    login-session: Zabezpečení přihlašování
+    authorized-clients: Autorizovaní klienti

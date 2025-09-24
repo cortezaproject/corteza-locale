@@ -1,0 +1,56 @@
+ui:
+  save: Uložit změny
+  cancel: Storno
+  set-for: Konfigurovat oprávnění pro {{target}}
+  loading: Načítání oprávnění
+  label: Oprávnění
+  notification:
+    save:
+      success: Oprávnění uložena
+      failed: Uložení oprávnění selhalo
+  edit:
+    label: Role uživatelů
+    description: Vyberte role k nastavení oprávnění
+  evaluate:
+    description: Vyhodnotit aplikovaná oprávnění
+  add:
+    label: Přidat
+    title: Vyhodnotit oprávnění
+    save: Uložit a zavřít
+    role:
+      label: Role
+      placeholder: Vybrat role
+    user:
+      label: Uživatelé
+      placeholder: Hledat nebo vybrat uživatele
+  tooltip:
+    unknown-context:
+      user: Nejde vyhodnotit oprávnění pro uživatele s kontextovou rolí pro nespecifický zdroj
+      role: Nejde vyhodnotit oprávnění pro kontextovou roli pro nespecifický zdroj
+  access:
+    allow: Povolit
+    inherit: Zdědit
+    deny: Zamítnout
+resources:
+  system:
+    report:
+      all: všechny reporty
+      specific: report "{{target}}"
+      tooltip: Report oprávnění
+      operations:
+        delete:
+          description: ""
+          specific: Smazat report "{{target}}"
+          title: Smazat jakýkoliv report
+        read:
+          description: ""
+          specific: Zobrazit report "{{target}}"
+          title: Zobrazit jakýkoliv report
+        run:
+          description: ""
+          specific: Spustit report "{{target}}"
+          title: Spustit jakýkoliv report
+        update:
+          description: ""
+          specific: Aktualizovat report "{{target}}"
+          title: Aktualizovat jakýkoliv report

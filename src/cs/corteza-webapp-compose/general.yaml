@@ -1,0 +1,187 @@
+label:
+  app-name:
+    public: Jmenný prostor
+    private: Jmenné prostory - Admin
+  actions: Akce
+  active: Aktivní
+  add: Přidat
+  add-with-plus: + Přidat
+  addNew: Přidat nové
+  addValue: Přidat novou hodnotu
+  ascending: Vzrůstající
+  attachmentFileInfo: '(Velikost souboru: {{0}}, nahráno {{1}})'
+  attributes: Atributy
+  back: Zpět
+  backWithoutSave: Zpět (bez uložení změn)
+  block: Blok
+  browse: Procházet
+  buttons: Tlačítka
+  cancel: Storno
+  clear: Vyčistit
+  clone: Klonovat
+  close: Zavřít
+  create: Vytvořit
+  delete: Smazat
+  default: Výchozí
+  restore: Obnovit smazané
+  descending: Klesající
+  description: Popis
+  download: Stáhnout
+  dropFiles: Přetáhněte sem soubory k nahrání
+  edit: Editovat
+  enabled: Povoleno
+  export: Export
+  fileTypeNotAllowed: Typ souboru není povolený
+  general: Obecné
+  handle: Identifikátor
+  here: zde
+  home: Domů
+  import: Import
+  all: Vše
+  importPlaceholder: Nahrajte soubory k importu
+  loading: Načítání
+  makeDefault: Nastavit jako výchozí
+  moduleName: Jméno modulu
+  multi: Vícenásobné
+  name: Jméno
+  next: Další
+  no: No
+  noHandle: Žádný identifikátor
+  none: Nic
+  now: Nyní
+  ok: Ok
+  page: Stránka
+  pageLayout: Rozložení stránky
+  pageBuilder: Vytváření stránky
+  permissions: Oprávnění
+  private: Soukromé
+  privacy: Soukromí
+  processing: Zpracování...
+  record: Záznam
+  recordPage: Stránka záznamu
+  field: Pole
+  remove: Odebrat
+  removeDefault: Smazat výchozí
+  required: Vyžadováno
+  reset: Resetovat
+  sensitive: Citlivé
+  save: Uložit
+  saveAndClose: Uložit a zavřít
+  saveAsCopy: Uložit kopii
+  status: Status
+  timeHour: '{{t}} h'
+  timeMinute: '{{t}} min'
+  today: Dnes
+  title: Nadpis
+  type: Typ
+  updatedAt: Čas aktualizace
+  uploadError: 'Problem s náhradním souboru: "{{message}}"'
+  uploading: Nahrávání
+  urlPlaceholder: https://priklad.tld
+  validation: Validace
+  view: Zobrazení
+  yes: Yes
+  chart:
+    single: Graf
+    plural: Grafy
+  namespace:
+    single: Jmenný prostor
+    plural: Jmenný prostor
+  module:
+    single: Modul
+    plural: Moduly
+navigation:
+  chart: Grafy
+  namespace: Jmenný prostor
+  module: Moduly
+  page: Stránky
+  pageLayout: Rozložení stránek
+placeholder:
+  handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+  sample: Příklad
+reminder:
+  add: Přidat upomínku
+  dismiss: Zahodit
+  dismissed: Zahozeno
+  dismissedAt: Zahozeno v
+  undismiss: Obnovit
+  delete: Smazat upomínku
+  recordPageLink: Zobrazit záznam
+  edit:
+    label: Editovat upomínku
+    assigneeLabel: Řešitel
+    assigneePlaceholder: Já (výchozí)
+    notesLabel: Poznámky
+    notesPlaceholder: Poznámky
+    remindAtLabel: Připomenout mi v
+    remindAtNone: Nikdy
+    titleLabel: Nadpis
+    titlePlaceholder: Nadpis
+  listLabel: Upomínky
+  routesTo: Popisek odkazu na stránku
+  snooze:
+    label: Odložit
+    count: Počítadlo odložení {{count}}
+tooltip:
+  dragAndDrop: Přetáhněte pro změnu pořadí
+fieldKinds:
+  Bool:
+    label: Checkbox (A/N)
+  DateTime:
+    label: Datum a čas
+  Email:
+    label: Zadání emailu
+  File:
+    label: Nahrání souboru
+  Number:
+    label: Zadání čísla
+  Record:
+    label: Výběr záznamu
+  Select:
+    label: Výběr ze seznamu
+  String:
+    label: Zadání textu
+  Url:
+    label: Zadání URL
+  User:
+    label: Výběr uživatele
+  Geometry:
+    label: Umístění
+field:
+  selectAll: Vybrat vše
+  tooltip:
+    permissions: Práva pole
+  unselectAll: Zrušit výběr
+  kind:
+    user:
+      suggestionPlaceholder: Hledejte uživatel podle emailu nebo jména
+resourceList:
+  notFound: Nenalezeno
+  noItems: Žádné položky k zobrazení
+  pagination:
+    next: Další
+    prev: Předchozí
+    showing: '{{from}} - {{to}} z {{count}} {{data}}'
+    single: '1 {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Na stránku
+recordNavigation:
+  next: Další záznam
+  prev: Předchozí záznam
+variants:
+  primary: Primární
+  secondary: Sekundární
+  light: Světlé
+  dark: Tmavé
+  info: Informace
+  success: Úspěch
+  danger: Pozor
+  warning: Varování
+editor:
+  unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+record:
+  unsavedChanges: Neuložené změny budou ztraceny. Chcete záznam zavřít?
+themes:
+  labels:
+    light: Světlé
+    dark: Tmavé

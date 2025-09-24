@@ -1,0 +1,9 @@
+template:
+  title: Autorizovaní klienti
+  list:
+    authorized-on: Autorizováno
+    buttons:
+      revoke: Odvolat přístup
+    empty: Nebyli nalezení žádní autorizovaní klienti
+alerts:
+  removed: Autorizace klienta byla odstraněna

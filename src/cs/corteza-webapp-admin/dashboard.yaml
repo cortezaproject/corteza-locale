@@ -1,0 +1,19 @@
+applications:
+  applications: Aplikace
+  deleted: Odstraněno
+  title: Aktivní aplikace
+  total: Celkem
+roles:
+  archived: Archivováno
+  deleted: Odstraněno
+  roles: Role
+  title: Aktivní role
+  total: Celkem
+title: Dashboard
+users:
+  created: Vytvoření uživatelé
+  deleted: Odstraněno
+  suspended: Zablokovaní
+  title: Aktivní uživatelé
+  total: Celkem
+  users: Uživatelé

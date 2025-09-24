@@ -1,0 +1,17 @@
+editor:
+  title: Výstřižek kódu
+  code-snippets:
+    add: Přidat výstřižek kódu
+    empty: Žádný výstřižek kódu
+    enabled: Povoleno
+    table-headers:
+      name: Jméno
+      enabled: Povoleno
+      script: Kód
+    form:
+      title: Přidat výstřižek kódu
+      name:
+        label: Jméno
+      value:
+        label: Kód
+        description: Přidat externí skript nebo výstřižky kódu pro služby. Výstřižek musí obsahovat validní <script> tag.

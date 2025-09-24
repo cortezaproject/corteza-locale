@@ -1,0 +1,161 @@
+title: Brána integrace
+list:
+  export: Export
+  title: Cesty
+  new: Nová cesta
+  permissions: Oprávnění
+  profiler: Profilování
+  yaml: YAML
+  loading: Načítání cest
+  numFound: 'Nalezena {{count}} cesta'
+  numFound_plural: 'Nalezeno {{count}} cest'
+  filterForm:
+    query:
+      label: Filtrování seznamu cest
+      placeholder: Filtrování cest podle názvu
+    excluded:
+      label: Bez
+    inclusive:
+      label: Včetně
+    exclusive:
+      label: Pouze
+    deleted:
+      label: smazané cesty
+    handle:
+      placeholder: Filtrovat koncové body podle cesty
+  delete: Smazat
+  undelete: Obnovit smazané
+  columns:
+    endpoint: Koncový bod
+    createdAt: Vytvořeno
+    enabled: Povoleno
+    method: Metoda
+    actions: ''
+    state: Stav
+  rows:
+    filters:
+      deleted: Odstraněno
+settings:
+  title: Nastavení
+  profiler:
+    label: Profilování
+    enabled: Povoleno
+    global: Povolené globálně
+  proxy:
+    label: Proxy
+    follow: Následovat přesměrování
+editor:
+  title: Editovat cestu
+  new: Nová cesta
+  permissions: Oprávnění
+  info:
+    title: Základní informace
+    id: ID
+    endpoint: Koncový bod
+    method: Metoda
+    description: Popis
+    enabled: Povoleno
+    delete: Smazat
+    undelete: Obnovit smazané
+    deletedAt: Čas odstranění
+    updatedAt: Čas aktualizace
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    tooltip: Koncový bod musí začínat lomítkem "/" a nesmí obsahovat speciální znaky kromě podtržítka "_" a pomlčky "-"
+    validation:
+      slash: Koncový bod musí začínat lomítkem "/"
+      minLength: Koncový bod musí obsahovat ahoj jeden znak
+      invalidCharacters: Koncový bod obsahuje nevalidní znaky
+  filters:
+    title: Filtrovat seznam
+    enabled: Povoleno
+    disabled: Vypnuto
+    add: Přidat
+    addFilter: Přidat filtr
+    addHeader: Přidat hlavičku
+    params: Parametry
+    filterListEmpty: Seznam filtrů je prázdný!
+    modal:
+      title: Ověřovač parametrů požadavku
+      ok: Uložit a zavřít
+    step_title:
+      prefilter: Předfiltrování
+      processer: Zpracování
+      postfilter: Následné filtrování
+    list:
+      remove: Odebrat
+      filters: Filtry
+      status: Status
+      actions: Akce
+      active: Aktivní
+      noFilters: Žádný filtr
+    labels:
+      expr: Výraz
+      location: URL
+      workflow: Workflow
+      status: HTTP status
+      jsfunc: Funkce
+      input: Vstup
+      header: Hlavičky
+      name: Jméno
+      value: Hodnota
+    httpStatus:
+      none: Žádný status
+      '300': 300 - několik umístění
+      '301': 301 - trvale přemístěno
+      '302': 302 - nalezeno
+      '303': 303 - viz jinde
+      '304': 304 - beze změny
+      '307': 307 - dočasně přesunuto
+      '308': 308 - trvale přemístěno
+    placeholders:
+      workflow: Vyberte workflow
+    help:
+      expression:
+        example: Příklad == "odpovídající řetězec" && match(DruhýParametr, "^příklad\\s.*$")
+        link: Dokumentace
+profiler:
+  label: Profilovač
+  title: Profilovač integrační brány
+  refreshingIn: Obnovení za {{seconds}}s
+  description:
+    globalEnabled: Zobrazení cest pro všechny příchozí požadavky
+    globalDisabled: Zobrazení pouze registrovaných cest s profilovacím předfiltrem
+  purge:
+    all: Vyčistit požadavky pro všechny cesty
+    this: Vyčistit požadavky pro tuto cestu
+  hit:
+    title: Detaily požadavku
+    general:
+      label: Obecné
+      id: ID požadavku
+      route: Cesta požadavku
+      URL: URL požadavku
+      method: Metoda požadavku
+      statusCode: Status kód
+      headers: Hlavičky požadavku
+      remoteAddress: Vzdálená adresa
+      duration: Trvání
+      start: Začátek
+      end: Konec
+      openRoute: Otevřít cestu
+    headers:
+      label: Hlavičky
+    body:
+      label: Tělo
+  columns:
+    actions: ''
+    path: Cesta
+    count: Počet
+    content_length: Délka obsahu
+    http_method: Metoda
+    http_status_code: Status kód
+    size_min: Minimální velikost
+    size_max: Maximální velikost
+    size_avg: Průměrná velikost
+    time_min: Minimální čas
+    time_max: Maximální čas
+    time_avg: Průměrný čas
+    time_start: Čas zahájení
+    time_finish: Čas dokončení
+    time_duration: Doba trvání

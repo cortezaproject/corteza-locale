@@ -1,0 +1,80 @@
+editor:
+  content:
+    editor:
+      unsupported: Nepodporovaný editor
+    partial: Částečná šablona
+    preview:
+      html: Náhled HTML
+      pdf: Náhled PDF
+      title: Výstup náhledu
+    title: Obsah šablony
+    toolbox:
+      partials: Součásti
+      samples:
+        defaultHTML: Výchozí HTML
+        label: Příklady
+      snippets:
+        funcCall: Zavolat funkci
+        interpolate: Interpolace hodnoty
+        iterator: Iterace přes množinu
+        label: Výstřižky
+      title: Nástroje
+  info:
+    contentType:
+      text_html: HTML
+      text_plain: Prostý text
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    handle: Identifikátor
+    placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    meta:
+      description: Popis
+      short: Krátký název *
+    partial: Částečná šablona
+    partialDescription: Částečně šablony se můžou použít v jiných šablonách jako například záhlaví nebo zápatí. Částečně šablony se nedají použít samostatně.
+    title: Základní informace
+    type: Typ šablony
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+  new: Nová šablona
+  permissions: Oprávnění
+  title:
+    create: Vytvořit šablonu
+    edit: Editovat šablonu
+list:
+  columns:
+    actions: ""
+    createdAt: Vytvořeno
+    handle: Identifikátor
+    language: Jazyk
+    meta:
+      short: Krátký název
+    state: Stav
+  delete: Smazat
+  undelete: Obnovit smazané
+  export: Export
+  rows:
+    filters:
+      deleted: Odstraněno
+  filterForm:
+    deleted:
+      label: smazané šablony
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    handle:
+      label: Filtrovat seznam šablon
+      placeholder: Filtrovat šablony podle identifikátoru
+    inclusive:
+      label: Včetně
+  loading: Načítání šablon
+  new: Nová šablona
+  numFound: 'Nalezena {{count}} šablona'
+  numFound_plural: 'Nalezeno {{count}} šablon'
+  permissions: Oprávnění
+  title: Šablony
+  yaml: YAML

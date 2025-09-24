@@ -1,0 +1,13 @@
+errors:
+  notFound: crwdns103008:0crwdne103008:0
+  invalidID: crwdns103010:0crwdne103010:0
+  invalidEndpoint: crwdns103012:0crwdne103012:0
+  existsEndpoint: crwdns103014:0crwdne103014:0
+  alreadyExists: crwdns103016:0crwdne103016:0
+  notAllowedToCreate: crwdns103018:0crwdne103018:0
+  notAllowedToRead: crwdns103020:0crwdne103020:0
+  notAllowedToSearch: crwdns103022:0crwdne103022:0
+  notAllowedToUpdate: crwdns103024:0crwdne103024:0
+  notAllowedToDelete: crwdns103026:0crwdne103026:0
+  notAllowedToUndelete: crwdns103028:0crwdne103028:0
+  notAllowedToExec: crwdns103030:0crwdne103030:0

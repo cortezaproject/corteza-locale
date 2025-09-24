@@ -1,0 +1,3 @@
+template:
+  log-out: Odhlášení bylo úspěšné
+  log-in: Klikněte zde pro <a data-test-id="link-login" href="{{link}}">přihlášení</a>
