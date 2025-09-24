@@ -1,0 +1,16 @@
+errors:
+  disabled: vypnuté workflow nebo trigger
+  handleNotUnique: identifikátor workflow není unikátní
+  invalidHandle: nevalidní identifikátor
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytváření workflow
+  notAllowedToDelete: není povoleno smazat toto workflow
+  notAllowedToExecute: není povoleno spustit toto workflow
+  notAllowedToExecuteCorredorStep: není povoleno spustit funkci corredorExec, Corredor je vypnutý
+  notAllowedToRead: není povoleno zobrazit toto workflow
+  notAllowedToSearch: není povoleno hledat nebo procházet workflow
+  notAllowedToUndelete: není povoleno obnovit toto smazané workflow
+  notAllowedToUpdate: není povoleno aktualizovat toto workflow
+  notFound: workflow nenalezeno
+  staleData: zastaralá data
+  unknownWorkflowStep: neznámý krok workflow
