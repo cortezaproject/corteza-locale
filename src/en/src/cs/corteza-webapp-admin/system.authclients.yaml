@@ -1,0 +1,100 @@
+editor:
+  info:
+    add: Přidat
+    api: Povolit klientským aplikacím přístup ke Corteza API jménem uživatele
+    choose-date: Vybrat datum
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    enabled:
+      disabledFootnote: Není možné zakázat výchozího klienta
+      label: Povoleno
+    expiresAt:
+      description: Pokud není definováno, klient nemá datum expirace
+      label: Datum expirace
+    grant:
+      authorization_code: Bude použito pro přihlášení uživatele (typ grantu = authorization_code)
+      client_credentials: Nice použito pro autentizaci automatů (typ grantu = client_credentials)
+    handle:
+      disabledFootnote: Není možné změnit identifikátor výchozího klienta
+      label: Identifikátor
+      placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+      invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    name: Jméno *
+    no-time: Není vybraný čas
+    profile: Povolit přístup klienta k profilu uživatele
+    redirectURI: URI pro přesměrování
+    remove: Odebrat
+    secret: Tajemství
+    security:
+      prohibitedRoles:
+        description: Role z tohoto seznamu budou odebrány z bezpečnostního kontextu, když uživatel autorizuje tohoto klienta
+        label: Zakázané role
+      forcedRoles:
+        description: Role z tohoto seznamu budou vždy přidány do bezpečnostního kontextu, když uživatel autorizuje tohoto klienta
+        label: Vynucené role
+      impersonateUser:
+        description: Při prohlášení pomocí client_credentials bude jednat jménem daného uživatele
+        label: Vydávat se za uživatele
+      permittedRoles:
+        description: Pouze role v tomto seznamu budou přidány do bezpečnostního kontextu, když uživatel autorizuje tohoto klienta
+        label: Povolené role
+    title: Základní informace
+    tooltip:
+      regenerate-secret: Znovu vygenerovat tajemství
+      reset-value: Reset hodnoty
+    trusted:
+      description: Když je klient důvěryhodný, uživatele nevidí krok autorizace
+      label: Důvěryhodný
+    undelete: Obnovit smazané
+    unnamed: Bezejmenná role
+    updatedAt: Čas aktualizace
+    uri: URI
+    validFrom:
+      description: Pokud není definováno, klient je validní do expirace
+      label: Validní od
+    generateCurl: Generovat cURL příkaz
+    hideCurl: Skrýt cURL příkaz
+    cUrl: Vygenerovaný cURL příkaz
+    testCurl: Test
+    discovery: Povolit klientský přístup do Corteza Discovery API jménem uživatele
+    openid: Povolit klientovi použít OIDC a ověřit identitu uživatele
+  new: Nový klient
+  permissions: Oprávnění
+  title:
+    create: Vytvořit klienta
+    edit: Editovat klienta
+list:
+  columns:
+    actions: ""
+    createdAt: Vytvořeno
+    enabled: Povoleno
+    handle: Identifikátor
+    meta:
+      name: Jméno
+    state: Stav
+  rows:
+    filters:
+      deleted: Odstraněno
+  filterForm:
+    deleted:
+      label: smazání klienti
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    inclusive:
+      label: Včetně
+    query:
+      label: Filtrovat seznam klientů
+      placeholder: Filtrovat klienty
+  loading: Načítání klientů
+  new: Nový klient
+  numFound: 'Nalezen {{count}} klient'
+  numFound_plural: 'Nalezeno {{count}} klientů'
+  permissions: Oprávnění
+  title: Klienti
+  yaml: YAML
+  delete: Smazat
+  undelete: Obnovit smazané
