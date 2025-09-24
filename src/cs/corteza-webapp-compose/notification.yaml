@@ -1,0 +1,185 @@
+automation:
+  scriptFailed: Nepovedlo se spouštění automatizace
+chart:
+  createFailed: Nepovedlo se vytvoření grafu
+  deleteFailed: Nepovedlo se smazat tento graf
+  deleted: Graf smazán
+  invalidConfig:
+    missingDimensionsField: Pole dimenzí není definováno
+    missingDimensionsModifier: Modifikátor dimenzi není definován
+    missingDimensionsSteps: Kroky dimenzi nejsou definovány
+    missingMetricsAggregate: Agregace metrik není definována
+    missingMetricsField: Pole metrik není definováno
+    missingMetricsType: Typ grafu metriky není definován
+    missingModuleID: Modul není definován
+    missingReports: Reporty nejsou definovány
+  loadFailed: Nepovedlo se načíst graf
+  optionsBuildFailed: Nepovedlo se sestavit možnosti grafu
+  saveFailed: Nepovedlo se uložit tento graf
+  saved: Graf uložen
+  unsupportedRenderer: Nepodporovaný vykreslovač
+  colorScheme:
+    fetch:
+      failed: Nepovedlo se získat vlastní schémata barev
+    create:
+      success: Schéma barev vytvořeno
+      failed: Nepovedlo se vytvořit schéma barev
+    update:
+      success: Schéma barev aktualizováno
+      failed: Nepovedlo se aktualizovat schéma barev
+    delete:
+      success: Schéma barev smazáno
+      failed: Nepovedlo se smazat schéma barev
+color:
+  RGBA:
+    invalid: Nevalidní RGBA formát barvy
+field:
+  missingRequired: Chybějící hodnota vyžadovaného pole
+  unknownFieldKind: 'Neznámý typ pole "{{kind}}", nenalezena komponenta zobrazení.'
+  unsupportedKind: Nepodporovaný typ pole {{kind}}
+field-datetime:
+  valueNotFuture: Hodnota v minulosti v poli omezeném na budoucnost
+  valueNotPast: Hodnota v budoucnosti v poli omezeném na minulost
+field-geometry:
+  geolocationErrors:
+    permissionDenied: Uživatel odmítnul žádost o geolokaci
+    positionUnavailable: Informace o lokaci není dostupná
+    timeout: Vypršel limit žádosti o získání lokace uživatele
+    unknownError: Vyskytla se neočekávaná chyba
+    notSupported: Tento prohlížeč nepodporuje geolokaci
+    errorOccurred: Vyskytla se chyba při získávání lokace uživatele
+    locationSearchFailed: Hledání lokace selhalo
+general:
+  composeAccessNotAllowed: Není povoleno přistupovat ke Compose
+  error: Chyba
+  success: Úspěch
+  warning: Varování
+  info: Informace
+  import:
+    failed: Import selhal
+    readingError: Chyba při čtení souboru
+    successful: Import úspěšný
+    typeMissmatch: 'Chyba importu: pokud o import objektu typu "{{type1}}" do seznamu objektů typu "{{type2}}"'
+list:
+  load:
+    error: Nepovedlo se načíst seznam zdrojů
+module:
+  created: Modul vytvořen
+  createFailed: Nepovedlo se vytvořit modul
+  deleteFailed: Nepovedlo se smazat tento modul
+  deleted: Modul smazán
+  saveFailed: Nepovedlo se uložit tento modul
+  saved: Modul uložen
+  columns:
+    saved: Sloupce uloženy
+    saveFailed: Nepovedlo se uložení sloupců
+  recordPage:
+    createFailed: Nepovedlo se pro modul vytvořit stránku záznamu
+  schemaAlterations:
+    load:
+      error: Nepovedlo se získat změny
+    resolve:
+      success: Změny vyřešeny
+      error: Nepovedlo se vyřešit změny
+    dismiss:
+      success: Změna zamítnuta
+      error: Nepovedlo se zamítnout změnu
+namespace:
+  application:
+    createFailed:
+    fetchFailed: Nepovedlo se získat aplikaci jmenného prostoru
+    saveFailed: Nepovedlo se uložit aplikaci jmenného prostoru
+  assetUploadFailed: Nepovedlo se nahrát přiložené položky
+  createFailed: Nepovedlo se vytvořit jmenný prostor
+  deleted: Jmenný prostor smazán
+  deleteFailed: Nepovedlo se smazat tento jmenný prostor
+  disabled: Jmenný prostor je vypnutý - přesměrování
+  saveFailed: Nepovedlo se uložit jmenný prostor
+  saved: Jmenný prostor uložen
+  cloned: Jmenný prostor naklonován
+  cloneFailed: Nepovedlo se klonovat tento jmenný prostor
+  imported: Jmenný prostor importován
+  importFailed: Nepovedlo se importovat jmenný prostor
+page:
+  block:
+    calendar:
+      eventFetchFailed: Nepovedlo se získat seznam událostí
+  createFailed: Nepovedlo se vytvoření stránky
+  cloneFailed: Nepovedlo se naklonovat tuto stránku
+  deleteFailed: Nepovedlo se smazat tuto stránku
+  iconFetchFailed: Nepovedlo se získat seznam ikon
+  iconDeleteFailed: Nepovedlo se smazat vybranou ikonu
+  iconDeleteSuccess: Ikona smazána
+  loadFailed: Nepovedlo se načíst strom stránek
+  noPages: Nenalezeny žádné stránky
+  saveFailed: Nepovedlo se uložit tuto stránku
+  saveFailedRequired: Nepovedlo se uložit tuto stránku, všechna vyžadovaná pole modulu musí být přítomna
+  saved: Stránka uložena
+  deleted: Stránka smazána
+  copySuccess: Blok byl úspěšně zkopírován
+  cloneSuccess: Blok byl naklonován na spodek stránky
+  pasteSuccess: Blok byl vložen na spodek stránky
+  duplicateFailed: Nepovedlo se duplikovat blok
+  blockWaiting: Blok stránky čeká
+  copyFailed: Nepovedlo se kopírovat blok stránky {{reason}}
+  invalidBlock: Není validní blok stránky
+  page-layout:
+    notFound:
+      edit: Nenalezeno žádné rozložení stránky
+      view: Nenalezeno žádné rozložení stránky
+    save:
+      success: Rozložení uloženo
+      failed: Nepovedlo se uložit rozložení
+    clone:
+      success: Rozložení naklonováno a vybráno
+      failed: Nepovedlo se klonovat rozložení
+    delete:
+      success: Rozložení smazáno
+      failed: Nepovedlo se smazat rozložení
+record:
+  createFailed: Nepovedlo se vytvořit záznam
+  createSuccess: Záznam vytvořen
+  updateFailed: Nepovedlo se aktualizovat záznam
+  updateSuccess: Záznam aktualizován
+  deleteFailed: Nepovedlo se smazat záznam
+  deleteSuccess: Záznam smazán
+  restoreFailed: Nepovedlo se obnovit záznam
+  restoreSuccess: Záznam obnoven
+  deleteBulkFailed: Nepovedlo se smazat vybrané záznamy
+  deleteBulkRecordUpdateFailed: Nepovedlo se aktualizovat vybrané záznamy
+  deleteBulkSuccess: Vybrané záznamy úspěšně smazány 
+  bulkRecordUpdateSuccess: Vybrané záznamy úspěšně aktualizovány
+  restoreBulkFailed: Nepovedlo se obnovit vybrané záznamy
+  restoreBulkSuccess: Vybrané záznamy úspěšně obnoveny
+  invalidOwnerVar: Není možné použít proměnou ${ownerID} na jiných stránkách než jsou stránky záznamu
+  invalidRecordVar: Není možné použít proměnou ${record...} na jiných stránkách než jsou stránky záznamu
+  listLoadFailed: Nepovedlo se najíst seznam záznamů
+  loadFailed: Nepovedlo se načíst záznam
+  countFailed: Nepovedlo se získat počet dostupných záznamů
+  moduleMismatch: Modul není kompatibilní
+  moduleNotDefined: Modul záznamu není definován
+  moduleOrPageNotSet: 'Chyba bloku se seznamem záznamů: modul nebo stránka nejsou nastaveny'
+  unexpectedInput: Nečekaný vstup. Byl očekáván seznam objektů s dvojicemi název-hodnota
+  unexpectedValue: Nečekaná hodnota pro modul záznamů ({{type}})
+  validationErrors: zkontrolujte chybové hlášky ve formuláři
+  validationWarnings: Zkontrolujte varování ve formuláři
+  staleDataRefresh: Zastaralá data záznamu, všechny neuložené změny budou ztraceny. Chcete teď data přenačíst?
+  fieldConditions:
+    failed: Nepovedlo se vyhodnotit podmínky bloku záznamu
+record-list:
+  corrupted-filter: Rozbitý filtr
+  corrupted-configured-fields: Rozbité nakonfigurované sloupce
+  incorrect-filter-structure: Nesprávná struktura filtru {{filterID}}
+report:
+  listFetchFailed: Nepovedlo se získat reporty
+  fetchFailed: Nepovedlo se získat report
+  runFailed: Nepovedlo se spustit report
+translations:
+  saved: Překlady uloženy
+  saveFailed: Nepovedlo se uložit překlady
+connection:
+  read-failed: Nepovedlo se číst spojení
+sensitivity-level:
+  fetch-failed: Nepovedlo se získat úrovně citlivosti
+evaluate:
+  failed: Nepovedlo se vyhodnotit výraz
