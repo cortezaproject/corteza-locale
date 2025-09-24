@@ -1,0 +1,65 @@
+editor:
+  generate:
+    body: '{{ userLabel }} posílá pozvánku do federované sítě Corteza. Pro zahájení sdílení dat mezi organizacemi běžte do administračního panelu vaší Corteza aplikace, klikněte na "Federace" a vyberte "Párovat federovanou sit" v pravém horním rohu. Zkopírujte odkaz níže a počkejte na potvrzení od druhého administrátora.'
+    description: Pro přidání vaší organizace do federované sítě pošlete emailovou pozvánku nebo nasdílejte odkaz níže s administrátorem jiné organizace.
+    hello: Dobrý den,
+    invitation: Pozvánka do federované sítě
+    kindRegards: S pozdravem, Corteza tým.
+    notGenerated: Odkaz nebyl vygenerován
+    sendEmail: Odeslat email
+    subject: 'Předmět:'
+  generateUri: Generovat federační odkaz
+  info:
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    email: Admin Email
+    enabled: Povoleno
+    name: Název serveru *
+    status: Status
+    tags:
+      label: Značky
+      placeholder: +Přidat
+    title: Základní informace
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+    url: URL serveru *
+  title:
+    create: Vytvořit federovaný uzel
+    edit: Upravit federovaný uzel
+list:
+  columns:
+    actions: ""
+    createdAt: Vytvořeno
+    enabled: Povoleno
+    name: Jméno
+    status: Status
+    tags: ""
+  filterForm:
+    query:
+      label: Filtrovat seznam serverů
+      placeholder: Filtrovat servery podle názvu
+  loading: Načítání federovaných uzlů
+  new: Nový federovaný uzel
+  numFound: 'Nalezen {{count}} server'
+  numFound_plural: 'Nalezeno {{count}} serverů'
+  pair:
+    confirm: Potvrdit
+    label: Párovat federovaný uzel
+    networkEstablished: Federovaná síť bude navázána po potvrzení od administrátora druhého federovaného uzlu Corteza.
+    note: 'Poznámka:'
+    status:
+      confirmPending:
+        description: |-
+          {{ email }} přijímá pozvánku k připojení do federované sítě "{{ name }}".
+          Klikněte na "Potvrdit" pro zahájení sdílení dat.
+        descriptionNoMail: |-
+          Administrátor z "{{ name }}" přijímá pozvánku k připojení do federované sítě. 
+          Klikněte na "Potvrdit" pro zahájení sdílení dat
+      none:
+        description: Pro spárování vaší organizace s federovanou sítí, vložte níže vygenerovanou URL druhé organizace.
+      pending:
+        description: Párování úspěšné, čeká na finální potvrzení administrátorem
+  title: Federované sítě
+  yaml: YAML
