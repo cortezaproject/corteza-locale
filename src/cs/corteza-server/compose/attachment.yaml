@@ -1,0 +1,29 @@
+errors:
+  failedToExtractMimeType: nepodařilo se rozpoznat mime type
+  failedToProcessImage: nepodařilo se zpracování obrázku 
+  failedToStoreFile: nepodařilo se extrahovat balík
+  invalidID: nevalidní ID
+  invalidModuleID: nevalidní ID modulu
+  invalidNamespaceID: nevalidní ID jmenného prostoru
+  invalidPageID: nevalidní ID stránky
+  invalidRecordID: nevalidní ID záznamu
+  moduleNotFound: modul nenalezen
+  namespaceNotFound: jmenný prostor nenalezen
+  notAllowedToCreate: není povoleno vytvářet přílohy
+  notAllowedToCreateEmptyAttachment: není povoleno vytvářet prázdné přílohy
+  notAllowedToCreateRecords: není povoleno vytvářet záznamy
+  notAllowedToListAttachments: není povoleno procházet přílohy
+  notAllowedToRead: není povoleno zobrazit tento modul
+  notAllowedToReadNamespace: chybí povolení ke čtení tohoto jmenného prostoru
+  notAllowedToReadPage: není povoleno zobrazit tuto stránku
+  notAllowedToReadRecord: není povoleno zobrazit tento záznam
+  notAllowedToSearch: není povoleno hledat nebo procházet moduly
+  notAllowedToUpdateNamespace: není povoleno aktualizovat tento jmenný prostor
+  notAllowedToUpdatePage: není povoleno aktualizovat tuto stránku
+  notAllowedToUpdateRecord: není povoleno aktualizovat tento záznam
+  notFound: příloha nenalezena
+  pageNotFound: stránka nenalezena
+  recordNotFound: záznam nenalezen
+  invalidModuleField: neplatné pole v modulu
+  tooLarge: nahraný soubor je příliš velký
+  notAllowedToUploadThisType: není povoleno nahrávat tento typ příloh
