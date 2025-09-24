@@ -1,0 +1,11 @@
+title: Filtrer
+types:
+  title: Types
+  namespace: Namespace
+  module: Module
+  user: Utilisateur
+  record: Enregistrement
+aggregation-groups:
+  modules: Modules
+  namespaces: Namespaces
+reset: Réinitialiser
