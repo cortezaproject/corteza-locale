@@ -1,0 +1,23 @@
+template:
+  title: Registrace
+  form:
+    email:
+      label: Email
+      placeholder: email@domena.tld
+    password:
+      label: Heslo
+      placeholder: Heslo
+    name:
+      label: Celé jméno
+      placeholder: Vaše celé jméno
+    nickname:
+      label: Krátké jméno nebo přezdívka
+      placeholder: Krátké jméno nebo přezdívka
+    button:
+      sign-up: Odeslat
+  log-in: Už máte účet? <a data-test-id="link-login" href="{{link}}">Přihlaste se</a>
+alerts:
+  signup-successful: Registrace byla úspěšná
+  email-confirmed-logged-in: Emailová adresa potvrzena, nyní jste přihlášeni.
+  invalid-expired-token: Neplatný token pro potvrzení emailu nebo jeho platnost vypršela, pošlete prosím novou žádost o potvrzení.
+  signup-disabled: Registrace je vypnutá 
