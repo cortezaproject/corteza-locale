@@ -1,0 +1,8 @@
+errors:
+  notAllowedToRead: crwdns103148:0crwdne103148:0
+  notAllowedToManage: crwdns103150:0crwdne103150:0
+  invalidPasswordMinLength: crwdns103152:0crwdne103152:0
+  invalidPasswordMinUpperCase: crwdns103154:0crwdne103154:0
+  invalidPasswordMinLowerCase: crwdns103156:0crwdne103156:0
+  invalidPasswordMinNumCount: crwdns103158:0crwdne103158:0
+  invalidPasswordMinSpecialCharCount: crwdns103160:0crwdne103160:0
