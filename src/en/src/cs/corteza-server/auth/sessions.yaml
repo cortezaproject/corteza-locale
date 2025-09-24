@@ -1,0 +1,18 @@
+template:
+  title: Vaše relace
+  list:
+    current: Tato relace 
+    authorized-on: Autorizováno
+    same-machine: Toto zařízení
+    ip-address: IP adresa
+    same-browser: Tento prohlížeč
+    browser: Prohlížeč
+    expires: Vyprší
+    expired: Vypršelo
+    today: Dnes
+    tomorrow: Za 1 den
+    soon: Za {{days}} dnů 
+  delete-all: Odhlásit všude
+alerts:
+  session-deleted: Relace ukončena 
+  delete-sessions-but-current: Všechny relace kromě této byly ukončeny
