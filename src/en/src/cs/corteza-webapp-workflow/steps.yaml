@@ -1,0 +1,121 @@
+break:
+  label: Přerušit
+  short: Přerušit
+  tooltip: Přerušit iterování a pokračovat ve workflow
+content:
+  label: Obsah
+  short: Obsah
+  tooltip: Blok obsahu pro textové anotace
+  configurator:
+    ok: Ok
+    urlPlaceholder: https://priklad.tld
+continue:
+  label: Pokračovat
+  short: Pokračovat
+  tooltip: Přerušit tuto iteraci a pokračovat s další iterací
+debug:
+  label: Debugovat
+  short: Debug
+  tooltip: Zapíše aktuální scope workflow do logů serveru. Pokud je debugování workflow povolené
+delay:
+  label: Zpoždění
+  short: Zpoždění
+  tooltip: Zpozdí průběh workflow
+error:
+  label: Chyba
+  short: Chyba
+  tooltip: Vyhodí chybu a zastaví běh workflow, navíc neuloží záznamy spuštěné před-triggerem
+error-handler:
+  label: Zpracování výjimky
+  short: Zpracování chyby
+  tooltip: Pokračovat ve workflow tímto krokem, pokud nastala chyba
+expressions:
+  configurator:
+    add-expression: + Přidat výraz
+    expression: Výraz
+    expression-placeholder: Výraz...
+    target: Cíl výrazu
+  label: Výrazy
+  short: Výrazy
+  tooltip: Definovat a přenastavovat proměnné scope
+function:
+  configurator:
+    arguments: Argumenty
+    constant: Konstanta
+    expression: Výraz
+    name: Jméno
+    option-select: Vybrat možnost
+    result: Výsledek
+    results: Výsledky
+    target: Cíl
+    add-result: + Přidat výsledek
+    search-workflow: Hledat workflow
+    select-function: Vybrat funkci
+    type: Typ
+    type*: Typ*
+  label: Funkce
+  short: Funkce
+  tooltip: Spustit vybranou předdefinovanou funkci
+exec-workflow:
+  label: Spustit workflow
+  short: Workflow
+  tooltip: Spustí workflow a použije proměnné z jeho scope do tohoto workflow
+gatewayExclusive:
+  label: Gateway (exkluzivní)
+  short: Gateway
+  tooltip: Běh workflow může pokračovat první cestou, která splňuje podmínku
+gatewayInclusive:
+  label: Gateway (inkluzivní)
+  short: Gateway
+  tooltip: Běh workflow může pokračovat všemi cestami, které splňují podmínku
+gatewayParallel:
+  label: Gateway (rozdělit/spojit)
+  short: Gateway
+  tooltip: Rozdělí běh workflow na dvě souběžné cesty nebo spojí několik cest do jedné
+gateway:
+  configurator:
+    condition: Podmínka
+    two-paths: Z gateway musí vycházet aspoň dvě cesty
+iterator:
+  label: Iterátor
+  short: Iterátor
+  tooltip: Iterace přes položky
+prompt:
+  label: Interakce
+  short: Interakce
+  tooltip: Zeptá se uživatele a čeká na odpověď
+swimlane:
+  label: Linky
+  short: Linky
+  tooltip: Vizuální seskupení kroků
+termination:
+  label: Ukončení
+  short: Konec
+  tooltip: Konec zpracování workflow
+trigger:
+  configurator:
+    add: + Přidat
+    add-constraints: + Přidat omezení
+    constraints: Omezení
+    event*: Událost*
+    failed-fetch-event-types: Nepovedlo se získat typy událostí
+    initial-scope: Výchozí scope
+    equal: Je rovno
+    not-equal: Není rovno
+    like: Je jako
+    not-like: Není jako
+    operator: Operátor
+    resource: Zdroj
+    resource*: Zdroj*
+    select-constraint-type: Vybrat typ omezení
+    select-operator: Vybrat operátor
+    select-event-type: Vybrat typ události
+    select-resource-type: Vybrat typ zdroje
+  label: Trigger (začátek)
+  short: Trigger
+  tooltip: Spustit workflow podle konfigurace
+tooltip:
+  configure-step: Konfigurovat kroky
+path:
+  label: Cesta
+  short: Cesta
