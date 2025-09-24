@@ -1,0 +1,13 @@
+errors:
+  notFound: spojení nenalezeno
+  invalidID: nevalidní ID
+  invalidEndpoint: nesprávný endpoint
+  existsEndpoint: spojení s tímto DNS už existuje
+  alreadyExists: spojení s tímto DNS už existuje
+  notAllowedToCreate: není povoleno vytvořit spojení
+  notAllowedToRead: není povoleno zobrazit toto spojení
+  notAllowedToSearch: není povoleno hledat nebo procházet spojení
+  notAllowedToUpdate: není povoleno aktualizovat toto spojení
+  notAllowedToDelete: není povoleno smazat toto spojení
+  notAllowedToUndelete: není povoleno obnovit toto smazané spojení
+  notAllowedToExec: není povoleno spustit toto spojení
