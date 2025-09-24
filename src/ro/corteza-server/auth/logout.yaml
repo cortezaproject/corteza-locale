@@ -1,0 +1,3 @@
+template:
+  log-out: Te-ai deconectat.
+  log-in: Fă <a href="{{link}}">clic aici</a> pentru a te conecta.
