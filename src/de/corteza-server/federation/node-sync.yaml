@@ -1,0 +1,3 @@
+errors:
+  nodeNotFound: Knoten nicht vorhanden
+  notFound: node_sync nicht vorhanden
