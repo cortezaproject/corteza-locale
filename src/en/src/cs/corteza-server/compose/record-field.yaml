@@ -1,0 +1,6 @@
+errors:
+  empty: Toto pole je povinné
+  invalidValue: Nevalidní hodnota pole
+  invalidRef: Nevalidní odkaz pole
+  duplicateValueInSet: Hodnota [{{value}}] už existuje v jiném záznamu 
+  duplicateValue: Hodnota "{{value}}" už existuje v jiném záznamu
