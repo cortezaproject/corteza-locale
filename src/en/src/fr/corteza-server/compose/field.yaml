@@ -1,0 +1,14 @@
+system:
+  ID: ID Enregistrement
+  moduleID: ID Module
+  namespaceID: ID Namespace
+  revision: Révision enregistrement
+  meta: Métadonnées
+  recordID: ID Enregistrement
+  createdAt: Créer à
+  createdBy: Créer par
+  deletedAt: Supprimer à
+  deletedBy: Supprimer par
+  ownedBy: Appartient à
+  updatedAt: Mise à jour à
+  updatedBy: Mise à jour par
