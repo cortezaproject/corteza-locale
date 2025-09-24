@@ -1,0 +1,242 @@
+ui:
+  save: Uložit změny
+  cancel: Storno
+  set-for: Konfigurovat oprávnění pro {{target}}
+  loading: Načítání práv
+  label: Oprávnění
+  notification:
+    save:
+      success: Oprávnění uložena
+      failed: Uložení oprávnění selhalo
+  edit:
+    label: Role uživatelů
+    description: Vyberte role k nastavení oprávnění
+  evaluate:
+    label: Vyhodnotit
+    description: Vyhodnotit aplikovaná oprávnění
+  add:
+    label: Přidat
+    title: Vyhodnotit oprávnění
+    save: Uložit a zavřít
+    role:
+      label: Role
+      placeholder: Vybrat role
+    user:
+      label: Uživatelé
+      placeholder: Hledat nebo vybrat uživatele
+  tooltip:
+    unknown-context:
+      user: Nejde vyhodnotit oprávnění pro uživatele s kontextovou rolí pro nespecifický zdroj
+      role: Nejde vyhodnotit oprávnění pro kontextovou roli pro nespecifický zdroj
+  access:
+    allow: Povolit
+    inherit: Zdědit
+    deny: Zamítnout
+resources:
+  compose:
+    namespace:
+      all: všechny jmenné prostory
+      specific: jmenný prostor "{{target}}"
+      tooltip: Práva ke jmenným prostorům
+      operations:
+        read:
+          description: ""
+          specific: Zobrazit jmenný prostor "{{target}}"
+          title: Zobrazit každý jmenný prostor
+        update:
+          description: ""
+          specific: Aktualizovat jmenný prostor "{{target}}"
+          title: Aktualizovat každý jmenný prostor
+        delete:
+          description: ""
+          specific: Smazat jmenný prostor "{{target}}"
+          title: Smazat každý jmenný prostor
+        manage:
+          description: Povolit přístup k administraci jmenného prostoru
+          specific: Spravovat jmenný prostor "{{target}}"
+          title: Spravovat každý jmenný prostor
+        export:
+          description: ""
+          specific: Exportovat jmenný prostor "{{target}}"
+          title: Exportovat každý jmenný prostor
+        module.create:
+          description: ""
+          specific: Vytvářet moduly ve jmenném prostoru "{{target}}"
+          title: Vytvářet moduly v každém jmenném prostoru
+        modules.export:
+          description: ""
+          specific: Exportovat moduly ve jmenném prostoru "{{target}}"
+          title: Exportovat moduly v každém jmenném prostoru
+        modules.search:
+          description: ""
+          specific: Prohledávat moduly ve jmenném prostoru "{{target}}"
+          title: Prohledávat moduly v každém jmenném prostoru
+        page.create:
+          description: ""
+          specific: Vytvářet stránky ve jmenném prostoru "{{target}}"
+          title: Vytvářet stránky v každém jmenném prostoru
+        pages.search:
+          description: ""
+          specific: Prohledávat stránky ve jmenném prostoru "{{target}}"
+          title: Prohledávat stránky v každém jmenném prostoru
+        pages.export:
+          description: ""
+          specific: Exportovat stránky ve jmenném prostoru "{{target}}"
+          title: Exportovat stránky v každém jmenném prostoru
+        chart.create:
+          description: ""
+          specific: Vytvářet grafy ve jmenném prostoru "{{target}}" 
+          title: Vytvářet grafy v každém jmenném prostoru
+        charts.search:
+          description: ""
+          specific: Prohledávat grafy ve jmenném prostoru "{{target}}"
+          title: Prohledávat grafy v každém jmenném prostoru
+        charts.export:
+          description: ""
+          specific: Exportovat grafy ve jmenném prostoru "{{target}}"
+          title: Exportovat grafy v každém jmenném prostoru
+    chart:
+      all: všechny grafy
+      specific: graf "{{target}}"
+      tooltip: Práva ke grafu
+      operations:
+        delete:
+          description: 'Výchozí: zamítnuto'
+          specific: Smazat graf "{{target}}"
+          title: Smazat každý graf
+        read:
+          description: 'Výchozí: zamítnuto'
+          specific: Zobrazit graf "{{target}}"
+          title: Zobrazit každý graf
+        update:
+          description: 'Výchozí: zamítnuto'
+          specific: Aktualizovat graf "{{target}}"
+          title: Aktualizovat každý graf
+    module:
+      all: všechny moduly
+      specific: modul "{{target}}"
+      tooltip: Práva k modulu
+      operations:
+        delete:
+          description: 'Výchozí: zamítnuto'
+          specific: Smazat modul "{{target}}"
+          title: Smazat každý modul
+        read:
+          description: 'Výchozí: zamítnuto'
+          specific: Zobrazit modul "{{target}}"
+          title: Zobrazit každý modul
+        record.create:
+          description: 'Výchozí: zamítnuto'
+          specific: Vytvořit záznam modulu "{{target}}"
+          title: Vytvořit záznam jakéhokoliv modulu
+        records.search:
+          description: 'Výchozí: zamítnuto'
+          specific: Prohledávat záznamy modulu "{{target}}"
+          title: Prohledávat záznamy každého modulu
+        update:
+          description: 'Výchozí: zamítnuto'
+          specific: Aktualizovat modul "{{target}}"
+          title: Aktualizovat každý modul
+        'owned-record.create':
+          description: 'Výchozí: zamítnuto'
+          specific: Spravovat vlastníka při vytváření záznamu modulu "{{target}}"
+          title: Spravovat vlastníka při vytváření záznamu jakéhokoliv modulu
+          all-specific: Spravovat vlastníka při vytváření záznamu modulu "{{ target }}"
+    module-field:
+      all: všechna pole modulu
+      specific: pole "{{target}}"
+      all-specific: všechna pole modulu "{{ target }}"
+      tooltip: Práva k polím modulu
+      operations:
+        record.value.read:
+          description: 'Výchozí: zamítnuto'
+          specific: 'Zobrazit pole záznamů modulu "{{target}}"'
+          title: Zobrazit pole záznamů každého modulu
+          all-specific: Zobrazit pole záznamů modulu "{{ target }}"
+        record.value.update:
+          description: 'Výchozí: zamítnuto'
+          specific: 'Aktualizovat hodnoty polí záznamu "{{target}}"'
+          title: Aktualizovat hodnoty polí záznamu každého modulu
+          all-specific: Aktualizovat hodnoty polí záznamu modulu "{{ target }}"
+    page:
+      all: všechny stránky
+      specific: stránka "{{target}}"
+      tooltip: Práva ke stránce
+      operations:
+        delete:
+          description: 'Výchozí: zamítnuto'
+          specific: Smazat stránku "{{target}}"
+          title: Smazat každou stránku
+        read:
+          description: 'Výchozí: zamítnuto'
+          specific: Zobrazit stránku "{{target}}"
+          title: Zobrazit každou stránku
+        update:
+          description: 'Výchozí: zamítnuto'
+          specific: Aktualizovat stránku "{{target}}"
+          title: Aktualizovat každou stránku
+        page-layout.create:
+          description: 'Výchozí: zamítnuto'
+          specific: Vytvářet rozložení stránky "{{target}}"
+          title: Vytvářet rozložení stránky
+        page-layouts.search:
+          description: 'Výchozí: zamítnuto'
+          specific: Procházet rozložení stránky "{{target}}"
+          title: Procházet rozložení stránky
+    page-layout:
+      all: všechna rozložení stránky
+      specific: rozložení stránky "{{target}}"
+      tooltip: Práva pro rozložení stránky
+      all-specific: všechna rozložení stránky "{{ target }}"
+      operations:
+        read:
+          description: 'Výchozí: zamítnuto'
+          specific: Zobrazit rozložení stránky "{{target}}"
+          title: Zobrazit každé rozložení stránky
+          all-specific: Zobrazit rozložení stránky "{{ target }}"
+        update:
+          description: 'Výchozí: zamítnuto'
+          specific: Aktualizovat rozložení stránky "{{target}}"
+          title: Aktualizovat každé rozložení stránky
+          all-specific: Aktualizovat rozložení stránky "{{ target }}"
+        delete:
+          description: 'Výchozí: zamítnuto'
+          specific: Smazat rozložení stránky "{{target}}"
+          title: Smazat každé rozložení stránky
+          all-specific: Smazat rozložení stránky "{{ target }}"
+    record:
+      all: všechny záznamy
+      specific: záznam "{{target}}"
+      all-specific: všechny záznamy modulu "{{ target }}"
+      tooltip: Práva k záznamu
+      operations:
+        delete:
+          description: 'Výchozí: zamítnuto'
+          specific: Smazat záznam "{{target}}"
+          title: Mazat záznamy každého modulu
+          all-specific: Mazat záznamy modulu "{{ target }}"
+        undelete:
+          description: 'Výchozí: zamítnuto'
+          specific: Obnovit záznam "{{target}}"
+          title: Obnovit záznamy každého modulu
+          all-specific: Obnovit záznamy modulu "{{ target }}"
+        read:
+          description: 'Výchozí: zamítnuto'
+          specific: Zobrazit záznam "{{target}}"
+          title: Zobrazit záznamy každého modulu
+          all-specific: Zobrazit záznamy modulu "{{ target }}"
+        update:
+          description: 'Výchozí: zamítnuto'
+          specific: Aktualizovat záznam "{{target}}"
+          title: Aktualizovat záznamy každého modulu
+          all-specific: Aktualizovat záznamy modulu "{{ target }}"
+        'owner.manage':
+          description: 'Výchozí: zamítnuto'
+          specific: Spravovat vlastníka záznamu "{{target}}"
+          title: Spravovat vlastníky záznamů každého modulu
+          all-specific: Spravovat vlastníky záznamů modulu "{{ target }}"
+        'revisions.search':
+          description: 'Výchozí: zamítnuto'
+          specific: Přistupovat k revizím záznamu "{{target}}"
+          title: Přistupovat k revizím záznamu
+          all-specific: Přistupovat k revizím záznamu
