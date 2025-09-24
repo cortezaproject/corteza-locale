@@ -1,0 +1,16 @@
+errors:
+  handleNotUnique: identifikátor není unikátní
+  invalidHandle: nevalidní identifikátor
+  invalidID: nevalidní ID
+  invalidNamespaceID: nevalidní nebo chybějící ID jmenného prostoru
+  moduleNotFound: modul neexistuje
+  namespaceNotFound: jmenný prostor neexistuje
+  notAllowedToCreate: není povoleno vytvářet grafy
+  notAllowedToDelete: není povoleno smazat tento graf
+  notAllowedToRead: není povoleno zobrazit tento graf
+  notAllowedToReadNamespace: chybí povolení ke čtení tohoto jmenného prostoru
+  notAllowedToSearch: není povoleno hledat nebo procházet grafy
+  notAllowedToUndelete: není povoleno obnovit tento smazaný graf
+  notAllowedToUpdate: není povoleno aktualizovat tento graf
+  notFound: graf neexistuje
+  staleData: zastaralá data
