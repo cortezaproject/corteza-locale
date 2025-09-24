@@ -1,0 +1,89 @@
+add:
+  datasource: Přidat zdroj dat
+  display-element: Přidat element zobrazení
+available: Dostupné
+block:
+  description: Popisek bloku
+  save: Uložit blok
+  title: Nadpis bloku
+  configuration: Konfigurace bloku
+datasource:
+  label: Zdroj dat
+  types:
+    load:
+      label: Načíst
+      data-from-resource: Načítá data z daného zdroje, jako třeba Compose záznamy
+    link:
+      label: Spojit
+      load-datasources: Spojí dva zdroje dat pomocí unikátního sloupce, jako třeba identifikátor záznamu Compose
+    join:
+      label: Sloučit
+      load-datasources: Sloučí dva zdroje dat s unikátním sloupcem, který je propojuje, jako třeba identifikátor záznamu Compose. Sloučení vytvoří jednu množinu řádků na rozdíl od spojení, které vytvoří nezávislý datový rámec pro každý lokální řádek
+    aggregate:
+      label: Agregovat
+      load-datasource: Agreguje data z načteného zdroje podle hodnoty sloupce, jako třeba počet účtu se stejným stavem
+datasources:
+  label: Zdroje dat
+  save: Uložit zdroje dat
+description: Popis
+display-elements:
+  types:
+    text: Text
+    metric: Metrika
+    table: Tabulka
+    chart: Graf
+element: Element
+elements: Elementy
+filter-expression: Výraz pro filtrování
+general: Obecné
+joined-datasource-handling: Práce se sloučenými zdroji dat
+layout: Layout
+layout-options:
+  horizontal: Horizontální
+  vertical: Vertikální
+limit: Limit
+no-blocks-added: Ještě nebyly přidány žádné bloky
+or: Nebo
+pick-scenario: Vybrat scénář
+prefilter: Před-filtr
+presort-order: Pořadí řazení
+report:
+  builder: Vytváření reportů
+  view: Zobrazit report
+save-button: Uložit
+scenarios:
+  label: Scénáře
+  save: Uložit scénář
+title: Nadpis
+tooltip:
+  edit:
+    report: Editovat report
+    block: Editovat blok
+  add:
+    displayElement: Přidat element zobrazení
+  delete:
+    block: Smazat blok
+  configure-scenarios: Konfigurovat scénáře
+  unsavedChanges: Neuložené změny
+available-columns: Dostupné sloupce
+selected-columns: Vybrané sloupce
+no-columns-found: Nenalezeny žádné sloupce
+type-to-search: Vyhledávání mezi sloupci
+selected: Vybrané
+select-all: Vybrat vše
+unselect-all: Od-vybrat vše
+value: Hodnota
+name: Jméno
+unsaved-changes: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+filter:
+  operators:
+    like: Jako
+    notLike: Ne jako
+    contains: Obsahuje
+    notContains: Neobsahuje
+    equal: Je rovno
+    greaterThan: Větší než
+    greaterThanEqualTo: Větší než nebo rovno
+    lessThanEqualTo: Menší než nebo rovno
+    lessThan: Menší než
+    notEqual: Nerovno
