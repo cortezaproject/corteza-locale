@@ -1,0 +1,10 @@
+errors:
+  invalidID: crwdns102440:0crwdne102440:0
+  notAllowedToCreate: crwdns102442:0crwdne102442:0
+  notAllowedToDelete: crwdns102444:0crwdne102444:0
+  notAllowedToRead: crwdns102446:0crwdne102446:0
+  notAllowedToSearch: crwdns102448:0crwdne102448:0
+  notAllowedToUndelete: crwdns102450:0crwdne102450:0
+  notAllowedToUpdate: crwdns102452:0crwdne102452:0
+  notFound: crwdns102454:0crwdne102454:0
+  staleData: crwdns102456:0crwdne102456:0
