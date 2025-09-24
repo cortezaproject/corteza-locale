@@ -1,0 +1,9 @@
+template:
+  title: Авторизованный клиент
+  list:
+    authorized-on: Авторизован
+    buttons:
+      revoke: Отменить доступ
+    empty: Авторизованных клиентов не найдено
+alerts:
+  removed: Авторизация клиента удалена
