@@ -1,0 +1,12 @@
+discovery: Découverte
+help:
+  documentation: Documentation
+  feedback: Envoyer un retour
+  forum: Aide
+  version: 'Version :'
+appMenu: Menu
+userSettings:
+  changePassword: Changer mot de passe
+  loggedInAs: Connecté en tant que {{user}}
+  logout: Se déconnecter
+  profile: Profil
