@@ -13,6 +13,6 @@ template:
     verify: Verify
 alerts:
   email:
-    resent:
+    resent: Email OTP resent
   topt:
     valid: TOTP valid
