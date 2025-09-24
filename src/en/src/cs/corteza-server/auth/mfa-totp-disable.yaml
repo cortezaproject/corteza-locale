@@ -1,0 +1,5 @@
+template:
+  title: Vypnout dvoufaktorové přihlášení s TOTP
+  instructions: Vypnout po zadání existujícího kódu
+  button:
+    remove: Odebrat
