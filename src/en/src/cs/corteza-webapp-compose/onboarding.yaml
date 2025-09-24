@@ -1,0 +1,28 @@
+message:
+  noPages: Vypadá to, že tento jmenný prostor zatím nemá žádné stránky k zobrazení
+  notifyAdministrator: Notifikujte svého administrátora systému
+  startBuilding: Následujte tyto kroky a začněte tvořit
+label:
+  pageBuilder: Tvoření stránek
+  welcome: Vítejte!
+navigation:
+  noPageTitle: Žádný nadpis stránky
+notification:
+  module:
+    createFailed: Nepovedlo se vytvořit modul
+    saveFailed: Nepovedlo se uložit tento modul
+step:
+  chart:
+    create: Vytvořit graf
+    view: Vaše grafy
+  module:
+    create: Vytvořit modul
+    view: Vaše modulu
+  optional: Tento krok je nepovinný!
+  page:
+    create: Sestavit stránku
+    view: Vaše stránky
+tooltip:
+  page-configuration:
+    edit: Editovat stránku
+    list: Překlady stránky
