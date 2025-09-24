@@ -1,0 +1,305 @@
+general:
+  error: Chyba
+  success: Úspěch
+  warning: Varování
+notAllowed: Není povolen vstup do administrace. Přesměrovávám
+list:
+  load:
+    error: 'Nepovedlo se najíst seznam zdrojů'
+user:
+  external-auth-providers:
+    error: Nepovedlo se získání externích poskytovatelů identit
+    success: Externí poskytovatele identity aktualizováni
+  fetch:
+    error: Nepovedlo se získání uživatelů
+  roles:
+    error: Nepovedlo se získání rolí
+  update:
+    success: Uživatel aktualizován
+    error: Nepovedlo se aktualizování uživatele
+  create:
+    success: Uživatel vytvořen
+    error: Nepovedlo se vytvoření uživatele
+  delete:
+    success: Uživatel smazán
+    error: Nepovedlo se smazání uživatele
+  undelete:
+    success: Uživatel obnoven
+    error: Nepovedlo se obnovení uživatele
+  membershipUpdate:
+    success: Členství aktualizováno
+    error: Nepovedlo se aktualizování členství
+  passwordChange:
+    success: Heslo změněno
+    error: Nepovedla se změna hesla
+  sessionsRevoke:
+    success: Relace zrušena
+    error: Nepovedlo se zrušení relace
+  suspend:
+    success: Uživatel zablokován
+    error: Nepovedlo se zablokování uživatele
+  unsuspend:
+    success: Uživatel odblokován
+    error: Nepovedlo se odblokování uživatele
+  import:
+    success: Uživatelé úspěšně importováni
+  avatarUpload:
+    success: Avatar aktualizován
+    error: Nepovedlo se nahrání avatára
+  avatarSettings:
+    success: Nastavení avatara aktualizováno
+    error: Nepovedlo se aktualizování nastavení avatara
+  avatarDelete:
+    success: Avatar smazán
+    error: Nepovedlo se smazání avatara
+role:
+  fetch:
+    error: Nepovedlo se získání rolí
+  create:
+    success: Role vytvořena
+    error: Nepovedlo se vytvoření role
+  update:
+    success: Role aktualizována
+    error: Nepovedlo se aktualizování role
+  delete:
+    success: Role smazána
+    error: Nepovedlo se smazání role
+  undelete:
+    success: Role obnovena
+    error: Nepovedlo se obnovení role
+  archive:
+    success: Role archivována
+    error: Nepovedlo se archivování role
+  unarchive:
+    success: Role obnovena z archivu
+    error: Nepovedlo se obnovení role z archivu
+  membershipUpdate:
+    success: Členství aktualizováno
+    error: Nepovedlo se aktualizování členství
+application:
+  fetch:
+    error: Nepovedlo se získání aplikace
+  update:
+    success: Aplikace aktualizována
+    error: Nepovedlo se aktualizování aplikace
+  create:
+    success: Aplikace vytvořena
+    error: Nepovedlo se vytvoření aplikace
+  delete:
+    success: Aplikace smazána
+    error: Nepovedlo se smazání aplikace
+  undelete:
+    success: Aplikace obnovena
+    error: Nepovedlo se obnovení aplikace
+  assetsUpload:
+    error: Nepovedlo se nahrání prvků aplikace
+template:
+  fetch:
+    error: Nepovedlo se získání šablony
+  fetchPartials:
+    error: Nepovedlo se získání částečných šablon
+  create:
+    success: Šablona vytvořena
+    error: Nepovedlo se vytvoření šablony
+  update:
+    success: Šablona aktualizována
+    error: Nepovedlo se aktualizování šablony
+  delete:
+    success: Šablona smazána
+    error: Nepovedlo se smazání šablony
+  undelete:
+    success: Šablona obnovena
+    error: Nepovedlo se obnovení šablony
+  driver:
+    error: Nepovedlo se získání ovladačů vykreslení šablony
+  preview:
+    error: Nepovedlo se získání náhledu šablony
+authclient:
+  fetch:
+    error: Nepovedlo se získání autorizovaného klienta
+  create:
+    success: Autorizovaný klient vytvořen
+    error: Nepovedlo se vytvoření autorizovaného klienta
+  update:
+    success: Autorizovaný klient aktualizován
+    error: Nepovedlo se aktualizování autorizovaného klienta
+  delete:
+    success: Autorizovaný klient smazán
+    error: Nepovedlo se smazání autorizovaného klienta
+  undelete:
+    success: Autorizovaný klient obnoven
+    error: Nepovedlo se obnovení autorizovaného klienta
+queue:
+  fetch:
+    error: Nepovedlo se získání fronty
+  create:
+    success: Fronta vytvořena
+    error: Nepovedlo se vytvoření fronty
+  update:
+    success: Fronta aktualizována
+    error: Nepovedlo se aktualizování fronty
+  delete:
+    success: Fronta smazána
+    error: Nepovedlo se smazání fronty
+  undelete:
+    success: Fronta obnovena
+    error: Nepovedlo se obnovení fronty
+gateway:
+  fetch:
+    error: Nepovedlo se získání cesty
+  create:
+    success: Cesta vytvořena
+    error: Nepovedlo se vytvoření cesty
+  update:
+    success: Cesta aktualizována
+    error: Nepovedlo se aktualizování cesty
+  filter:
+    fetch:
+      error: Nepovedlo se získání filtru
+    update:
+      success: Filtry aktualizovány
+      error: Nepovedlo se aktualizovat filtry
+  delete:
+    success: Cesta smazána
+    error: Nepovedlo se smazání cesty
+  undelete:
+    success: Cesta obnovena
+    error: Nepovedlo se obnovení cesty
+  profiler:
+    fetch:
+      error: Nepovedlo se získání požadavků
+    purge:
+      success: Požadavky vyčištěny
+      error: Nepovedlo se vyčištění požadavků
+workflow:
+  fetch:
+    error: Nepovedlo se získání workflow
+  create:
+    success: Workflow vytvořeno
+    error: Nepovedlo se vytvoření workflow
+  update:
+    success: Workflow aktualizováno
+    error: Nepovedlo se aktualizovat workflow
+  delete:
+    success: Workflow smazáno
+    error: Nepovedlo se smazání workflow
+  undelete:
+    success: Workflow obnoveno
+    error: Nepovedlo se obnovení workflow
+session:
+  fetch:
+    error: Nepovedlo se získání relace
+  trigger:
+    error: Nepovedlo se získání spouštěče
+  cancel:
+    success: Relace stornována
+    error: Nepovedlo se stornování relace
+federation:
+  fetch:
+    error: Nepovedlo se získání uzlu
+  create:
+    success: Uzel vytvořen
+    error: Nepovedlo se vytvoření uzlu
+  update:
+    success: Uzel aktualizován
+    error: Nepovedlo se aktualizování uzlu
+  delete:
+    success: Uzel smazán
+    error: Nepovedlo se smazání uzlu
+  undelete:
+    success: Uzel obnoven
+    error: Nepovedlo se obnovení uzlu
+  url:
+    error: Nepovedlo se získání generované URL
+  email:
+    success: Email odeslán
+    error: Nepovedlo se odeslání emailu
+  pair:
+    success: Uzel spárován
+    error: Nepovedlo se párování uzlu
+  handshake:
+    success: Propojení navázáno
+    error: Nepovedlo se navázat propojení
+sensitivityLevel:
+  create:
+    success: Úroveň citlivosti vytvořena
+    error: Nepovedlo se vytvoření úrovně citlivosti
+  delete:
+    success: Úroveň citlivosti smazána
+    error: Nepovedlo se smazání úrovně citlivosti
+  fetch:
+    success: Získána úroveň citlivosti
+    error: Nepovedlo se získání úrovně citlivosti
+  undelete:
+    success: Smazaná úroveň citlivosti obnovena
+    error: Nepovedlo se obnovit smazanou úroveň citlivosti
+  update:
+    success: Úroveň citlivosti aktualizována
+    error: Nepovedlo se aktualizování úrovně citlivosti
+settings:
+  system:
+    fetch:
+      error: Nepovedlo se získání nastavení systému
+    auth:
+      success: Nastavení přihlášení aktualizováno
+      error: Nepovedlo se aktualizování nastavení přihlášení
+    external:
+      success: Externí nastavení aktualizováno
+      error: Nepovedlo se aktualizování externího nastavení
+    bgScreen:
+      style:
+        success: Styly pozadí přihlášení aktualizovány
+        error: Nepovedlo se aktualizování stylů pozadí přihlášení
+    smtpCheck:
+      success: Kontrola konfigurace SMTP byla úspěšná
+      error: Nepovedla se kontrola konfigurace SMTP
+    apigw:
+      success: Nastavení integrační brány aktualizováno
+      error: Nepovedlo se aktualizování nastavení integrační brány
+  compose:
+    fetch:
+      error: Nepovedlo se získání nastavení Compose
+    update:
+      success: Nastavení Compose aktualizováno
+      error: Nepovedlo se aktualizování nastavení Compose
+  ui:
+    fetch:
+      error: Nepovedlo se získání nastavení UI
+    update:
+      success: Nastavení UI aktualizováno
+      error: Nepovedlo se aktualizování nastavení UI
+  code-snippet:
+    fetch:
+      error: Nepovedlo se získání výstřižků kódu
+    update:
+      success: Výstřižky kódu aktualizovány, obnovte stránku, aby se změny projevily
+      error: Nepovedlo se aktualizování výstřižků kódu
+    delete:
+      success: Výstřižek kódu smazán, obnovte stránku, aby se změny projevily
+      error: Nepovedlo se smazání výstřižku kódu
+permissions:
+  fetch:
+    error: Nepovedlo se získání informací o oprávnění
+  update:
+    success: Oprávnění aktualizována
+    error: Nepovedlo se aktualizování oprávnění
+  clone:
+    success: Oprávnění naklonována
+    error: Nepovedlo se klonování oprávnění
+  role:
+    error: Nepovedlo se přidání role
+connection:
+  fetch:
+    error: Nepovedlo se získání spojení
+  update:
+    success: Spojení aktualizováno
+    error: Nepovedlo se aktualizování spojení
+  create:
+    success: Spojení vytvořeno
+    error: Nepovedlo se vytvoření spojení
+  delete:
+    success: Spojení smazáno
+    error: Nepovedlo se smazat spojení
+  undelete:
+    success: Smazané spojení obnoveno
+    error: Nepovedlo se obnovit spojení
