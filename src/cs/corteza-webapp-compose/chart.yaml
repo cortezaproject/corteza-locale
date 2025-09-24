@@ -1,0 +1,263 @@
+colorLabel: '{{count}} barev'
+colorScheme:
+  label: Barevné schéma
+  placeholder: Vyberte barevné schéma
+  pickAColor: Vyberte barvu
+  custom:
+    add: Přidat barevné schéma
+    edit: Editovat barevné schéma
+    modal:
+      name:
+        label: Jméno
+      colors:
+        label: Barvy
+configure:
+  reportsLabel: Reporty
+general:
+  label:
+    title: Popisek
+    add: Přidat
+    count: Počet
+    permissions: Oprávnění
+  value: Hodnota
+  placeholder:
+    name: Název (např. "Prodeje za měsíc")
+    handle: Jednoznačný identifikátor (a-z, 0-9, podtržítko, pomlčka)
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+edit:
+  animation:
+    label: Animace
+    enabled: Animace povolena
+  dimension:
+    calculateLabelCount: Vypočítat, kolik popisků se může zobrazit
+    defaultValueFootnote: Použít tuto hodnotu, když hodnota chybí
+    defaultValueLabel: Výchozí hodnota
+    fieldLabel: Pole *
+    fieldPlaceholder: Vyberte pole dimenze
+    function:
+      placeholder: Vyberte modifikátor dimenze (velikost skupiny)
+      none: Žádné seskupení
+      auto: Automatické
+      date: Datum
+      label: Funkce
+      month: Měsíc
+      quarter: Čtvrtletí
+      week: Týden
+      year: Rok
+    gaugeSteps: Kroky
+    label: Dimenze
+    skipMissingValues: Přeskočit chybějící hodnoty
+    timeLabels: Časové popisky
+    options:
+      label: Možnosti
+    optionsPicker:
+      searchPlaceholder: Vyhledávání ve vybraných možnostech
+      availableItems: Dostupné možnosti
+      selectAllItems: Vybrat vše
+      selectedItems: Vybrané možnosti
+      unselectAllItems: Odebrat vše
+      noItemsFound: Nenalezena žádná možnost
+    rotate:
+      label: Otočit popisky
+      description: Popisky můžou být otočeny o -90 až +90 stupňů.
+  filter:
+    customize: Upravit filtr
+    label: Filtr
+    preset: Přednastavení filtrů
+    footnote: Je podporován zjednodušená syntaxe SQL podmínek (WHERE ...). Proměnné jako {{0}}, {{1}}, {{2}} a {{3}} budou vyhodnoceny (pokud jsou dostupné)
+    placeholder: pole1 = 1 AND pole2 = 232
+    noFilter: Vybrat filtr
+    recordsCreatedLastMonth: Záznamy vytvořené poslední měsíc
+    recordsCreatedLastQuarter: Záznamy vytvořené v posledním čtvrtletí
+    recordsCreatedLastYear: Záznamy vytvořené v posledním roce
+    recordsCreatedThisMonth: Záznamy editované tento měsíc
+    recordsCreatedThisQuarter: Záznamy vytvořené v tomto čtvrtletí
+    recordsCreatedThisYear: Záznamy vytvořené tento rok
+  loadData: Načíst data
+  metric:
+    title: Metriky
+    add: Přidat metriku
+    fieldLabel: Pole *
+    fieldPlaceholder: Vyberte pole metriky
+    fillArea: Vyplnit oblast pod čárou grafu
+    fixTooltips: Vždy zobrazit popisky
+    options:
+      label: Možnosti
+    function:
+      avg: Průměr
+      label: Funkce
+      max: Maximum
+      min: Minimum
+      placeholder: Vyberte funkci pro agregaci metriky
+      std: Standardní odchylka
+      sum: Suma
+    fx:
+      description: n - současná hodnota, m - předchozí hodnota
+      label: Funkce následného zpracování
+    stack:
+      label: Na sebe
+      description: Metriky se stejnou hodnotou budou sloučeny
+    lineStyle:
+      label: Styl čáry
+      default: Výchozí
+      smooth: Hladká
+      step: Schod
+    angle:
+      start: Úhel na začátku
+      end: Úhel na konci
+    rose: Růže
+    radar:
+      shape:
+        label: Tvar radaru
+        polygon: Polygon
+        circle: Kruh
+    gaugeColor: Barva
+    label: Metrika
+    labelColor: Barva čáry
+    labelLabel: Popisek
+    labelPlaceholder: Celkem
+    symbol:
+      label: Symbol
+      circle: Kruh
+      triangle: Trojúhelník
+      diamond: Diamant
+      pin: Špendlík
+      arrow: Šipka
+      rect: Obdélník
+      roundRect: Zaoblený obdélník
+    legend:
+      bottom: Dole
+      left: Vlevo
+      positionPlaceholder: Umístění legendy
+      right: Vpravo
+      top: Nahoře
+    lineTension:
+      curvy: Velké křivky
+      label: Tuhost křivky
+      medium: Střední křivky
+      placeholder: Tuhost křivky
+      slight: Malé křivky
+      straight: Rovné čáry
+    output:
+      bar: Sloupec
+      doughnut: Mezikruží
+      label: Typ grafu *
+      line: Čára
+      pie: Koláč
+      scatter: Bodový
+      placeholder: Vyberte výstup metriky
+    relative: Zobrazit relativní hodnotu
+    relativePrecision: 'Přesnost:'
+    cumulative: Dohromady
+  module:
+    label: Modul *
+    placeholder: Vybrat modul
+    title: Zdroj dat
+  title: Tvorba grafu
+  unconfiguredReport: Nenakonfigurovaný report
+  yAxis:
+    axisOnRight: Umístit osu napravo
+    axisScaleFromZero: Vždy začít osu na nule
+    label: Osa Y
+    options:
+      label: Možnosti
+    rotate:
+      label: Otočit popisky
+      description: Popisky můžou být otočeny o -90 až +90 stupňů
+    labelLabel: Popisek osy
+    labelPosition:
+      label: Pozice osy
+      top: Začátek
+      center: Uprostřed
+      bottom: Konec
+    horizontal:
+      label: Horizontální
+    logarithmicScale: Logaritmické měřítko
+    maxLabel: Maximální hodnota
+    maxPlaceholder: Maximální hodnota
+    minLabel: Minimální hodnota
+    minPlaceholder: Minimální hodnota
+  additionalConfig:
+    legend:
+      label: Legenda
+      show: Zobrazit legendu
+      orientation:
+        label: Orientace
+        horizontal: Horizontální
+        vertical: Vertikální
+      align:
+        label: Zarovnání
+        left: Vlevo
+        right: Vpravo
+        center: Uprostřed
+      scrollable: Posuvné
+      position:
+        customize: Výchozí pozice
+        top: Nahoře
+        right: Vpravo
+        bottom: Dole
+        left: Vlevo
+      valueRange: Hodnoty můžou být v pixelech (20) nebo v procentech (20%)
+      options:
+        label: Možnosti
+    tooltip:
+      label: Detail
+      labelNextToChart: Zobrazit popisky vedle grafu
+      formatting:
+        label: Vlastní formátování
+        description: '{a} - popisek metriky, {b} - hodnota dimenze, {c} - hodnota metriky, {d} - hodnota metriky v procentech'
+        placeholder: '{a}<br />{b} : {c} ({d}%)'
+        disclaimer: Přidání hodnoty do pole formátování způsobí vypnutí formátu, prefixu a suffixu pole
+    offset:
+      label: Posunutí
+      default: Výchozí posunutí
+      position:
+        top: Nahoře
+        right: Vpravo
+        bottom: Dole
+        left: Vlevo
+      valueRange: Hodnoty můžou být v pixelech (20) nebo v procentech (20%)
+  toolbox:
+    label: Nástroje
+    saveAsImage:
+      label: Zobrazit tlačítko "uložit jako obrázek"
+    timeline:
+      label: Časová osa
+      options:
+        none: Nic
+        x: Osa X
+        y: Osa Y
+        xy: Obojí
+  formatting:
+    format:
+      label: Formát
+      placeholder: '0,00'
+    prefix:
+      label: Předpona
+      placeholder: '#'
+    suffix:
+      label: Přípona
+      placeholder: '$'
+    presetFormats:
+      label: Formát
+      options:
+        custom: Vlastní
+        accounting: Účetní číslo
+      description:
+        custom: ''
+        accounting: Záporná čísla se transformují na kladná a zobrazí se v závorkách, 0 se zobrazí jako pomlčka
+import: 'Importovat graf(y):'
+newLabel: 'Vytvořit nový graf:'
+name: Název grafu *
+handle: Identifikátor
+generalSettings: Obecná nastavení
+notification:
+  unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+  loadFailed: Nepovedlo se načíst graf
+  saveFailed: Nepovedlo se uložit graf
+  saved: Graf uložen
+  deleteFailed: Nepovedlo se smazat graf
+  deleted: Graf smazán
+searchPlaceholder: Vyhledat grafy v tomto jmenném prostoru
+title: Seznam grafů
+undefined: nedefinováno
