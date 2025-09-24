@@ -1,0 +1,11 @@
+appMenu: crwdns101164:0crwdne101164:0
+help:
+  documentation: crwdns101166:0crwdne101166:0
+  feedback: crwdns101168:0crwdne101168:0
+  forum: crwdns101170:0crwdne101170:0
+  version: 'crwdns101172:0crwdne101172:0'
+userSettings:
+  changePassword: crwdns101174:0crwdne101174:0
+  loggedInAs: crwdns101176:0{{user}}crwdne101176:0
+  logout: crwdns101178:0crwdne101178:0
+  profile: crwdns101180:0crwdne101180:0
