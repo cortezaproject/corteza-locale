@@ -1,0 +1,28 @@
+translator:
+  save-changes: Uložit
+  add-language: Přidat jazyk
+  missing-translation: Chybějící překlad
+resources:
+  chart:
+    title: Graf "{{ handle }}"
+    tooltip: Překlady grafu
+  namespace:
+    title: Jmenný prostor "{{ handle }}"
+    tooltip: Překlady jmenného prostoru
+  module:
+    title: Modul "{{ handle }}"
+    tooltip: Překlady modulu
+    field:
+      title: Pole "{{ name }}" modulu
+      tooltip: Překlady pole
+  page:
+    title: Stránka "{{ handle }}"
+    tooltip: Překlady stránky
+    block:
+      title: "Blok #{{ blockID }} stránky"
+      tooltip: Překlady bloku
+    layout:
+      title: Rozložení "{{ handle }}" stránky
+  page-layout:
+    title: Rozložení "{{ handle }}" stránky
+    tooltip: Překlady rozložení stránky
