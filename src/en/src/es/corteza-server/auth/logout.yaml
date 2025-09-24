@@ -1,0 +1,3 @@
+template:
+  log-out: Logout successful
+  log-in: Haz clic aquí para  <a data-test-id="link-login" href="{{link}}">iniciar sesión</a>
