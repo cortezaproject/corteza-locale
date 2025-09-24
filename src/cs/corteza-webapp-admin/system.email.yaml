@@ -1,0 +1,24 @@
+editor:
+  title: Nastavení emailu
+  server:
+    title: SMTP server
+    host:
+      label: Server
+      description: Název a port serveru. Port je obvykle 25 (nezabezpečený), 465 nebo 587 (zabezpečené).
+    user:
+      label: Uživatel
+      description: 'Volitelné: přihlašovací údaje k emailovému serveru.'
+    password:
+      label: Heslo
+      description: 'Volitelné: přihlašovací údaje k emailovému serveru.'
+    from:
+      label: Adresa odesílatele
+      description: Výchozí adresa odesílatele (hlavička FROM) v odeslaných e-mailech.
+    tlsInsecure:
+      label: Povolit použití nevalidní certifikátů
+      description: Přihlásit chybu, když Corteza nedokáže ověřit TLS certifikát SMTP serveru.
+    tlsServerName:
+      label: Název serveru TLS
+      description: 'Volitelné: pokud SMTP server používá jinou hodnotu než je název serveru.'
+    testSmtpConfigs:
+      button: Otestovat SMTP server
