@@ -1,0 +1,50 @@
+editor:
+  info:
+    consumer: Spotřebitel
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    dispatch_events: Vypravit události
+    dispatch_events_desc: Vypravení události notifikujte sběrnici událostí o změnách zpráv ve frontě (nové, zpracované, ...)
+    name: Název fronty *
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    poll_delay: Zpoždění načítání změn
+    poll_delay_empty: 'Zpoždění se nepoužije; pro povolení použijte formát časového intervalu (např. 1h / 1m15s / 1h90s)'
+    poll_delay_set: Zpoždění se použije; nepoužilo by se, kdyby hodnota byla prázdná.
+    title: Základní informace
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+  new: Nová fronta
+  title:
+    edit: Upravit frontu
+    new: Přidat frontu
+list:
+  columns:
+    actions: ''
+    consumer: Spotřebitel
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    state: Stav
+    queue: Fronta
+  export: Export
+  delete: Smazat
+  undelete: Obnovit smazané
+  rows:
+    filters:
+      deleted: Odstraněno
+  filterForm:
+    deleted:
+      label: smazané fronty
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    handle:
+      label: Filtrovat seznam front
+      placeholder: Filtrovat fronty podle názvu
+    inclusive:
+      label: Včetně
+  loading: Načítání front
+  new: Nová fronta
+  title: Fronty zpráv 
