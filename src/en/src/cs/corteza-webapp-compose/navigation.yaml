@@ -1,0 +1,21 @@
+automation: Automatizace
+chart: Grafy
+configuration: Konfigurace
+editPage: Editovat stránku
+help:
+  documentation: Dokumentace
+  feedback: Odeslat zpětnou vazbu
+  forum: Pomoc
+  version: 'Verze:'
+module: Moduly
+more: Více
+namespace: Jmenný prostor
+noPageTitle: Žádný nadpis stránky
+page: Stránky
+appMenu: Menu
+userSettings:
+  changePassword: Změna hesla
+  loggedInAs: Přihlášený uživatel {{user}}
+  logout: Odhlásit
+  profile: Profil
+viewPage: Zobrazit stránku
