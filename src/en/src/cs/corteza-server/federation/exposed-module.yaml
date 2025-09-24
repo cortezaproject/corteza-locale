@@ -1,0 +1,11 @@
+errors:
+  composeModuleNotFound: modul compose nenalezen
+  composeNamespaceNotFound: jmenný prostor compose nenalezen 
+  invalidID: nevalidní ID
+  nodeNotFound: uzel neexistuje
+  notAllowedToCreate: není povoleno vytvářet moduly
+  notAllowedToManage: není povoleno spravovat tento modul
+  notFound: modul neexistuje
+  notUnique: uzel není unikátní
+  requestParametersInvalid: nevalidní parametry žádosti
+  staleData: zastaralá data
