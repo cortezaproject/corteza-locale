@@ -1,0 +1,15 @@
+errors:
+  handleNotUnique: identifikační role není unikátní
+  invalidHandle: nevalidní identifikátor
+  invalidID: nevalidní ID
+  nameNotUnique: jméno role není unikátní
+  notAllowedToArchive: není povoleno archivovat tuto roli
+  notAllowedToCreate: není povoleno vytvářet role
+  notAllowedToDelete: není povoleno smazat tuto roli
+  notAllowedToManageMembers: není povoleno spravovat členy role
+  notAllowedToRead: není povoleno zobrazit tuto roli
+  notAllowedToSearch: není povoleno hledat nebo procházet role
+  notAllowedToUnarchive: není povoleno obnovit tuto roli z archivu
+  notAllowedToUndelete: není povoleno obnovit tuto smazanou roli
+  notAllowedToUpdate: není povoleno aktualizovat tuto roli
+  notFound: role nenalezena
