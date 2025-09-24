@@ -1,0 +1,30 @@
+template:
+  title: Váš profil
+  form:
+    email:
+      label: Email
+      placeholder: email@domena.tld
+      resend-confirmation-link: Email není ověřený, <a data-test-id="link-resend-confirmation" href="{{link}}?resend">znovu poslat ověřovací odkaz.</a>
+    name:
+      label: Celé jméno
+      placeholder: Vaše celé jméno
+    handle:
+      label: Identifikátor
+      placeholder: Krátké jméno nebo přezdívka
+    avatar:
+      label: Profilový obrázek
+      delete: Smazat
+      upload: Nahrát profilový obrázek
+    avatar-initial:
+      label: Iniciály v profilovém obrázku
+      color: Barva textu profilového obrázku
+      background-color: Barva pozadí profilového obrázku
+    preferred-language:
+      label: Preferovaný jazyk
+    buttons:
+      submit: Aktualizovat profil
+alerts:
+  profile-updated: Profil úspěšně aktualizován
+  profile-update-fail: Profil nešlo aktualizovat kvůli zadaným hodnotám
+  profile-avatar-uploaded: Profilový obrázek úspěšně nahrán
+  profile-avatar-deleted: Profilový obrázek úspěšně odstraněn
