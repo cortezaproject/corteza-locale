@@ -1,0 +1,14 @@
+template:
+  title: Autorizovat
+  form:
+    greeting-paragraph: Dobrý den
+    question-for-client: chce na tomto Corteza serveru provést akce vaším jménem.
+    buttons:
+      allow: Povolit
+      deny: Zamítnout
+  links:
+    mistake: Pokud je to omyl, <a data-test-id="link-logout" href="{{link}}">odhlaste se</a> prosím.
+  errors:
+    invalid-user: Není možné pokračovat s neautorizovaným emailem, navštivte <a data-test-id="link-redirect-to-profile" href="{{link}}">svůj profil</a> a vyřešte problém.
+alerts:
+  denied: 'Nepovedlo se autorizovat {{client}}: nedostatečná oprávnění'
