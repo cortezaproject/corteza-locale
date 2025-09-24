@@ -1,0 +1,10 @@
+errors:
+  federationSyncStructureChanged: struktura modulu se změnila
+  invalidID: nevalidní ID
+  nodeNotFound: uzel neexistuje
+  notAllowedToCreate: není povoleno vytvářet moduly
+  notAllowedToManage: není povoleno spravovat tento modul
+  notAllowedToMap: není povoleno mapovat tento modul
+  notFound: modul neexistuje
+  notUnique: uzel není unikátní
+  staleData: zastaralá data
