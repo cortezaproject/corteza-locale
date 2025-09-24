@@ -1,0 +1,28 @@
+translator:
+  save-changes: crwdns110442:0crwdne110442:0
+  add-language: crwdns110444:0crwdne110444:0
+  missing-translation: crwdns110446:0crwdne110446:0
+resources:
+  chart:
+    title: crwdns110448:0{{ handle }}crwdne110448:0
+    tooltip: crwdns110450:0crwdne110450:0
+  namespace:
+    title: crwdns110452:0{{ handle }}crwdne110452:0
+    tooltip: crwdns110454:0crwdne110454:0
+  module:
+    title: crwdns110456:0{{ handle }}crwdne110456:0
+    tooltip: crwdns110458:0crwdne110458:0
+    field:
+      title: crwdns110460:0{{ name }}crwdne110460:0
+      tooltip: crwdns110462:0crwdne110462:0
+  page:
+    title: crwdns110464:0{{ handle }}crwdne110464:0
+    tooltip: crwdns110466:0crwdne110466:0
+    block:
+      title: "crwdns110468:0{{ blockID }}crwdne110468:0"
+      tooltip: crwdns110470:0crwdne110470:0
+    layout:
+      title: crwdns110472:0{{ handle }}crwdne110472:0
+  page-layout:
+    title: crwdns110474:0{{ handle }}crwdne110474:0
+    tooltip: crwdns110476:0crwdne110476:0
