@@ -1,0 +1,20 @@
+errors:
+  emailNotUnique: email není unikátní
+  handleNotUnique: identifikátor není unikátní
+  invalidEmail: nevalidní email
+  invalidHandle: nevalidní identifikátor
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet uživatele
+  notAllowedToCreateSystem: není povoleno vytvářet systémové uživatele
+  notAllowedToDelete: není povoleno smazat tohoto uživatele
+  notAllowedToListUsers: není povoleno procházet uživatele
+  notAllowedToRead: není povoleno zobrazit tohoto uživatele
+  notAllowedToSearch: není povoleno hledat nebo procházet uživatele
+  notAllowedToSuspend: není povoleno zablokovat tohoto uživatele
+  notAllowedToUndelete: není povoleno obnovit tohoto smazaného uživatele
+  notAllowedToUnsuspend: není povoleno odblokovat tohoto uživatele
+  notAllowedToUpdate: není povoleno aktualizovat tohoto uživatele
+  notAllowedToUpdateSystem: není povoleno aktualizovat systémové uživatele
+  notFound: uživatel nenalezen
+  passwordNotSecure: zadané heslo není bezpečné; použijte delší heslo s více speciálními znaky
+  usernameNotUnique: uživatelské jméno není unikátní
