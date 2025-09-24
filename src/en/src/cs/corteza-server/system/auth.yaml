@@ -1,0 +1,25 @@
+errors:
+  credentialsLinkedToInvalidUser: přihlašovací údaje {credentials.kind} jsou propojeny se zablokovaným nebo smazaným uživatelem {user}
+  disabledMFAWithEmailOTP: vícefaktorové přihlášení s email OTP je vypnuté
+  disabledMFAWithTOTP: vícefaktorové přihlášení s email OTP je vypnuté
+  enforcedMFAWithEmailOTP: email OTP je vynucené a nejde vypnout
+  enforcedMFAWithTOTP: TOTP je vynucené a nejde vypnout
+  externalDisabledByConfig: přihlášení pomocí externího poskytovatele je vypnuté
+  failedUnconfirmedEmail: systém před přihlášením vyžaduje potvrzený email
+  internalLoginDisabledByConfig: přihlášení jménem a heslem je vypnuté
+  internalSignupDisabledByConfig: registrace pomocí jména a hesla je zakázaná
+  invalidCredentials: nesprávná kombinace jména a hesla
+  invalidEmailFormat: nevalidní email
+  invalidEmailOTP: nevalidní OTP
+  invalidHandle: nevalidní identifikátor
+  invalidTOTP: nevalidní TOTP
+  invalidToken: nevalidní token
+  notAllowedToConfigureTOTP: není povoleno konfigurovat TOTP
+  notAllowedToImpersonate: není povoleno impersonovat tohoto uživatele
+  notAllowedToRemoveTOTP: není povoleno odebrat TOTP
+  passwodResetFailedOldPasswordCheckFailed: nepovedla se změna hesla, staré heslo neodpovídá
+  passwordChangeFailedForUnknownUser: nepovedla se změna hesla neznámého uživatele
+  passwordNotSecure: zadané heslo není bezpečné; použijte delší heslo s více speciálními znaky
+  passwordResetDisabledByConfig: reset hesla je vypnutý
+  profileWithoutValidEmail: externí poskytovatel identity poskytnul profil bez validního emailu
+  unconfiguredTOTP: TOTP není nakonfigurováno
