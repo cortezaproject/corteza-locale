@@ -1,0 +1,5 @@
+errors:
+  failedToDownloadAttachment: 'impossible de télécharger la pièce jointe depuis {attachmentURL}: {err}'
+  failedToLoadUser: impossible de charger l'utilisateur pour {recipient}
+  invalidReceipientFormat: format de destinataire invalide ({recipient})
+  noRecipients: impossible d'envoyer un courriel sans destinataires
