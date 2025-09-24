@@ -1,0 +1,10 @@
+errors:
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet triggery
+  notAllowedToDelete: není povoleno smazat tento trigger
+  notAllowedToRead: není povoleno zobrazit tento trigger
+  notAllowedToSearch: není povoleno hledat nebo procházet triggery
+  notAllowedToUndelete: není povoleno obnovit tento smazaný trigger
+  notAllowedToUpdate: není povoleno aktualizovat tento trigger
+  notFound: trigger nenalezen
+  staleData: zastaralá data
