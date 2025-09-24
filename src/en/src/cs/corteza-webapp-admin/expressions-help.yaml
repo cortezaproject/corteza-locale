@@ -1,0 +1,123 @@
+calculate: Výrazy pole poskytují způsob, jak spočítat hodnotu pole podle definovaného výrazu
+categories:
+  dateTime:
+    earliest: Vrátí nejstarší DatumČas
+    label: Datum a Čas
+    latest: Vrátí nejnovější DatumČas
+    modTime: Vrátí modifikovaný string DatumČas
+    parseDuration: Vrátí načtenou dobu trvání
+    parseISOTime: Vrátí načtený ISO string s datem a časem
+    strftime: Vrátí string s datem a časem pro zvolený formát
+  general:
+    description: Vrátí první hodnotu, která není null
+    label: Obecné
+  number:
+    ceil: Zaokrouhlí číslo nahoru na nejbližší celé číslo
+    floor: Zaokrouhlí číslo dolů na nejbližší celé číslo
+    label: Číslo
+    max: Vrátí položku s nejvyšší hodnotou
+    min: Vrátí položku s nejnižší hodnotou
+    rounds: Zaokrouhlí desetinné číslo na daný počet číslic
+  string:
+    format: Vrátí naformátovaný řetězec
+    label: Řetězec
+    longest: Vrátí nejdelší řetězec
+    shortest: Vrátí nejstarší řetězec
+    toLower: Převede všechna písmena na malá písmena
+    toUpper: Převede všechna písmena na velká písmena
+    trim: Odebere mezery ze začátku a konce řetězce
+    trimLeft: Odebere znak ze začátku řetězce
+    trimRight: Odebere znak z konce řetězce
+example-description: Níže je několik příkladů různých použití polí s výrazem.
+examples: Příklady
+field: Výrazy v poli
+formatCategories:
+  dateTime:
+    A: Vrátí celý název dne v týdnu v daném jazyce
+    B: Vrátí celý název měsíce v daném jazyce
+    C: Vrátí rok / 100 jako desítkové číslo; před samostatné číslice se přidá nula
+    D: Ekvivalentni k %m/%d/%y
+    F: Ekvivalentní k %Y-%m-%d
+    H: Vrátí hodinu jako desítkové číslo (00-23)
+    I: Vrátí hodinu jako desítkové číslo (01-12)
+    M: Vrátí minutu jako desítkové číslo (00-59)
+    R: Ekvivalentní k %H:%M
+    S-middle: Vrátí milisekundu jako desítkové číslo (000-999)
+    S-second: Vrátí sekundu jako desítkové číslo (00-60)
+    T: Ekvivalentní k %H:%M:%S
+    U: Vrátí číslo týdne v roce (neděle je první den v týdnu) jako desítkové číslo (00-53)
+    V: Vrátí číslo týdne v roce (pondělí je první den v týdnu) jako desítkové číslo (01-53)
+    W: Vrátí číslo týdne v roce (pondělí je první den v týdnu) jako desetinné číslo (00-53)
+    X: Vrátí reprezentaci času v daném jazyce
+    "Y": Vrátí rok se stoletím jako desetinné číslo
+    Z: Vrátí název časové zóny
+    a: Vrátí zkrácený název dne v týdnu v daném jazyce
+    b: Vrátí zkrácený název měsíce v daném jazyce
+    c: Vrátí reprezentaci času a data v daném jazyce
+    d: Vrátí den v měsíci jako desetinné číslo (01-31)
+    e: Vrátí den v měsíci jako desítkové číslo (1-31)
+    j: Vrátí den v roce jako desítkové číslo (001-366)
+    k: Vrátí hodinu jako desítkové číslo (0-23)
+    l: Vrátí hodinu jako desítkové číslo (1-12)
+    label: Formátování data a času
+    m: Vrátí měsíc jako desítkové číslo (01-12)
+    "n": |-
+      Vrátí nový řádek (
+      )
+    p: Vrátí reprezentaci dopoledne (a.m.) nebo odpoledne (p.m.) v daném jazyce
+    percent: Vrátí %
+    r: Ekvivalentní k %I:%M:%S %p
+    t: Vrátí tabulátor
+    u: Vrátí číslo dne v týdnu (pondělí je první den v týdnu) jako desítkové číslo (1-7)
+    v: Ekvivalentní k %e-%b-%Y
+    w: Vrátí číslo dne v týdnu (neděle je první den v týdnu) jako desítkové číslo (0-6)
+    x: Vrátí reprezentaci data v daném jazyce
+    "y": Vrátí číslo roku bez století jako desítkové číslo (00-99)
+    z: Vrátí časový posun oproti zóně UTC
+  string:
+    E: Vrátí desetinné číslo ve vědeckém zápisu s velkým E
+    O: Vrátí číslo v osmičkové soustavě s prefixem 0o
+    X: Vrátí číslo v šestnáctkové soustavě s velkými A-F
+    b: Vrátí číslo v dvojkové soustavě (binární formát)
+    binary: Vrátí desetinné číslo ve vědeckém zápisu s binárním exponentem
+    d: Vrátí číslo v desítkové soustavě
+    e: Vrátí desetinné číslo ve vědeckém zápisu s malým e
+    f: Vrátí desetinné číslo s desetinnou tečkou
+    label: Formátování řetězce
+    o: Vrátí číslo v osmičkové soustavě
+    t: Vrátí boolovskou hodnotu jako true/false
+    v: Vrátí neupravenou hodnotu
+    x: Vrátí číslo v šestnáctkové soustavě s malým a-f
+formatting-parameters:
+  description: Zde je kompletní seznam dostupných možností formátování
+  label: Parametry formátování
+helper-functions:
+  description: Poskytujeme množinu pomocných funkcí, které prodávají možnosti výrazům v polích
+  label: Pomocné funkce
+  note: 'POZNÁMKA: Pouze "Obecné" funkce můžou být použity na všech typech polí. Ostatní funkce jsou limitované na svůj datový typ.'
+instructions: 'Pro napsání výrazu můžete použít následující operátory:'
+operators:
+  all-new-values: (všechny nové hodnoty)
+  comparators: 'Porovnání: '
+  control-order: 'Pořadí vyhodnocení: '
+  field-name: jmeno-pole
+  location: 'Výraz v poli na přístup k různým proměnným podle toho, kde se použije:'
+  logical: 'Logické: '
+  modifiers: 'Modifikátory: '
+  more: 'Další: '
+  new: nové
+  new-value: (nová-hodnota)
+  new-value-with-comma: '(nová-hodnota), '
+  old: staré
+  old-value: staráHodnota
+  old-value-brackets: '(stará hodnota), '
+  record: '(záznam), '
+  sanitizer: Očištění
+  sanitizers: 'Očištění: '
+  validator: Validator
+  validators: 'Validatory: '
+  value: Hodnota
+  value-expression: Výraz
+  value-expressions: 'Výrazy: '
+  values: hodnoty
+write: Psani výrazů je jako psaní vzorců. Kromě konstant můžete použít i jména polí, která se pro daný záznam vyhodnotí.
