@@ -1,0 +1,23 @@
+configuration: Konfigurace
+edge: Edge
+name:
+  label: Jméno *
+  placeholder: Jméno workflow
+handle:
+  label: Identifikátor
+  placeholder: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+  invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+description:
+  label: Popis
+  placeholder: Popis, co toto workflow dělá
+target: Cíl
+tooltip:
+  run-workflow: Spustit workflow
+  configure-step: Konfigurovat krok
+run-as:
+  label: Spustit jako
+  placeholder: Uživatel, který spustí toto workflow
+  description: Pokud není explicitně nastaveno jinak, workflow se spustí pod uživatelem, který ho vyvolal
+sub-workflow:
+  label: Subworkflow
+  description: Subworkflow nemůžou but povolený trigger
