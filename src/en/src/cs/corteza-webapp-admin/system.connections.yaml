@@ -1,0 +1,106 @@
+primary:
+  title: Primární databáze
+  name: Jméno
+  handle: Identifikátor
+  location: Umístění
+  ownership: Vlastnictví
+  sensitivity-level: Úroveň citlivosti
+list:
+  title: Seznam databázových spojení
+  add-button: Nové spojení
+  loading: Načítání spojení
+  filterForm:
+    deleted:
+      label: smazaná spojení
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    inclusive:
+      label: Včetně
+  columns:
+    name: Jméno
+    location: Umístění
+    ownership: Vlastnictví
+    createdAt: Vytvořeno
+    actions: ''
+  delete: Smazat
+  undelete: Obnovit smazané
+editor:
+  title:
+    edit: Editovat spojení
+    create: Nové spojení
+  basic:
+    title: Základní nastavení
+    form:
+      name:
+        label: Jméno *
+        placeholder: Data
+        description: ''
+      handle:
+        label: Identifikátor
+        placeholder: jednoduchy_nazev_spojeni
+        description:
+        invalid-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+      location-name:
+        label: Název umístění
+        placeholder: Název umístění dat
+        description: Jméno města, státu, kontinentu, ...
+      location-geometry:
+        label: Souřadnice umístění
+        description: Souřadnice umístění dat
+        placeholder:
+      ownership:
+        label: Vlastnictví
+        placeholder: ACME spol. s r.o.
+        description: Jméno právnické nebo fyzické osoby, která vlastní data
+      sensitivity-level:
+        label: Nejvyšší povolená úroveň citlivosti
+        placeholder: Vyberte úroveň citlivosti
+        description: Nejvyšší povolená úroveň citlivosti pro uložena data (podle nastavení polí modulů, které toto spojení používají)
+  properties:
+    title: Vlastnosti spojení a databáze
+    form:
+      data-at-rest-encryption:
+        checkbox:
+          label: Povoleno šifrování data at rest
+        notes:
+          label: Poznámky k šifrování
+          description: Interní poznámky k šifrování data at rest (šifrování disku)
+      data-at-rest-protection:
+        checkbox:
+          label: Poskytnutá ochrana data at rest
+        notes:
+          label: Poznámky k ochraně data at rest
+          description: Interní poznámky k ochraně data at rest (fyzická ochrana)
+      data-at-transit-encryption:
+        checkbox:
+          label: Povoleno šifrování data at transit
+        notes:
+          label: Poznámky k šifrování data at transit (šifrování spojení)
+          description: Interní poznámky k šifrování data at transit (šifrování spojení)
+      data-restoration:
+        checkbox:
+          label: Implementována záloha a obnova dat
+        notes:
+          label: Poznámky k obnově dat
+          description: Interní poznámky k obnově dat
+  dal:
+    title: Parametry konfigurace vrstvy přístupu k datům
+    form:
+      model-ident:
+        label: Výchozí název tabulky nebo kontejneru
+        placeholder: compose_record
+        description: |
+          Identifikátor může obsahovat proměnné jako {{module}} (nahradí se identifikátorem modulu) a/nebo {{namespace}} (nahradí se identifikátorem jmenného prostoru).
+          Pokud je nastaveno, použije se jako výchozí hodnota pro moduly bez nastaveného identifikátoru.
+      type:
+        label: Typ parametru
+        placeholder: corteza::dal:connection:dsn
+        description: Typ spojení a parametru, např. corteza::dal:connection:dsn
+      params:
+        label: Parametry spojení
+        placeholder: postgres://uzivatel:heslo@server:port/jmeno_databaze
+        description: 'Parametry spojení, např.: {"dns": "postgres://uzivatel:heslo@server:port/jmeno_databaze"}'
+    connectivity-issues: Problémy spojení
+    no-access-warning: Chybí oprávnění spravovat konfiguraci vrstvy přístupu k datům a parametrů spojení
