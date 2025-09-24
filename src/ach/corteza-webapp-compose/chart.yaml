@@ -1,0 +1,263 @@
+colorLabel: 'crwdns107860:0{{count}}crwdne107860:0'
+colorScheme:
+  label: crwdns107862:0crwdne107862:0
+  placeholder: crwdns107864:0crwdne107864:0
+  pickAColor: crwdns107866:0crwdne107866:0
+  custom:
+    add: crwdns107868:0crwdne107868:0
+    edit: crwdns107870:0crwdne107870:0
+    modal:
+      name:
+        label: crwdns107872:0crwdne107872:0
+      colors:
+        label: crwdns107874:0crwdne107874:0
+configure:
+  reportsLabel: crwdns107876:0crwdne107876:0
+general:
+  label:
+    title: crwdns107878:0crwdne107878:0
+    add: crwdns107880:0crwdne107880:0
+    count: crwdns107882:0crwdne107882:0
+    permissions: crwdns107884:0crwdne107884:0
+  value: crwdns107886:0crwdne107886:0
+  placeholder:
+    name: crwdns107888:0crwdne107888:0
+    handle: crwdns107890:0crwdne107890:0
+    invalid-handle-characters: crwdns107892:0crwdne107892:0
+edit:
+  animation:
+    label: crwdns107894:0crwdne107894:0
+    enabled: crwdns107896:0crwdne107896:0
+  dimension:
+    calculateLabelCount: crwdns107898:0crwdne107898:0
+    defaultValueFootnote: crwdns107900:0crwdne107900:0
+    defaultValueLabel: crwdns107902:0crwdne107902:0
+    fieldLabel: crwdns107904:0crwdne107904:0
+    fieldPlaceholder: crwdns107906:0crwdne107906:0
+    function:
+      placeholder: crwdns107908:0crwdne107908:0
+      none: crwdns107910:0crwdne107910:0
+      auto: crwdns107912:0crwdne107912:0
+      date: crwdns107914:0crwdne107914:0
+      label: crwdns107916:0crwdne107916:0
+      month: crwdns107918:0crwdne107918:0
+      quarter: crwdns107920:0crwdne107920:0
+      week: crwdns107922:0crwdne107922:0
+      year: crwdns107924:0crwdne107924:0
+    gaugeSteps: crwdns107926:0crwdne107926:0
+    label: crwdns107928:0crwdne107928:0
+    skipMissingValues: crwdns107930:0crwdne107930:0
+    timeLabels: crwdns107932:0crwdne107932:0
+    options:
+      label: crwdns107934:0crwdne107934:0
+    optionsPicker:
+      searchPlaceholder: crwdns107936:0crwdne107936:0
+      availableItems: crwdns107938:0crwdne107938:0
+      selectAllItems: crwdns107940:0crwdne107940:0
+      selectedItems: crwdns107942:0crwdne107942:0
+      unselectAllItems: crwdns107944:0crwdne107944:0
+      noItemsFound: crwdns107946:0crwdne107946:0
+    rotate:
+      label: crwdns107948:0crwdne107948:0
+      description: crwdns107950:0crwdne107950:0
+  filter:
+    customize: crwdns107952:0crwdne107952:0
+    label: crwdns107954:0crwdne107954:0
+    preset: crwdns107956:0crwdne107956:0
+    footnote: crwdns107958:0{{0}}crwdnd107958:0{{1}}crwdnd107958:0{{2}}crwdnd107958:0{{3}}crwdne107958:0
+    placeholder: crwdns107960:0crwdne107960:0
+    noFilter: crwdns107962:0crwdne107962:0
+    recordsCreatedLastMonth: crwdns107964:0crwdne107964:0
+    recordsCreatedLastQuarter: crwdns107966:0crwdne107966:0
+    recordsCreatedLastYear: crwdns107968:0crwdne107968:0
+    recordsCreatedThisMonth: crwdns107970:0crwdne107970:0
+    recordsCreatedThisQuarter: crwdns107972:0crwdne107972:0
+    recordsCreatedThisYear: crwdns107974:0crwdne107974:0
+  loadData: crwdns107976:0crwdne107976:0
+  metric:
+    title: crwdns107978:0crwdne107978:0
+    add: crwdns107980:0crwdne107980:0
+    fieldLabel: crwdns107982:0crwdne107982:0
+    fieldPlaceholder: crwdns107984:0crwdne107984:0
+    fillArea: crwdns107986:0crwdne107986:0
+    fixTooltips: crwdns107988:0crwdne107988:0
+    options:
+      label: crwdns107990:0crwdne107990:0
+    function:
+      avg: crwdns107992:0crwdne107992:0
+      label: crwdns107994:0crwdne107994:0
+      max: crwdns107996:0crwdne107996:0
+      min: crwdns107998:0crwdne107998:0
+      placeholder: crwdns108000:0crwdne108000:0
+      std: crwdns108002:0crwdne108002:0
+      sum: crwdns108004:0crwdne108004:0
+    fx:
+      description: crwdns108006:0crwdne108006:0
+      label: crwdns108008:0crwdne108008:0
+    stack:
+      label: crwdns108010:0crwdne108010:0
+      description: crwdns108012:0crwdne108012:0
+    lineStyle:
+      label: crwdns108014:0crwdne108014:0
+      default: crwdns108016:0crwdne108016:0
+      smooth: crwdns108018:0crwdne108018:0
+      step: crwdns108020:0crwdne108020:0
+    angle:
+      start: crwdns108022:0crwdne108022:0
+      end: crwdns108024:0crwdne108024:0
+    rose: crwdns108026:0crwdne108026:0
+    radar:
+      shape:
+        label: crwdns108028:0crwdne108028:0
+        polygon: crwdns108030:0crwdne108030:0
+        circle: crwdns108032:0crwdne108032:0
+    gaugeColor: crwdns108034:0crwdne108034:0
+    label: crwdns108036:0crwdne108036:0
+    labelColor: crwdns108038:0crwdne108038:0
+    labelLabel: crwdns108040:0crwdne108040:0
+    labelPlaceholder: crwdns108042:0crwdne108042:0
+    symbol:
+      label: crwdns108044:0crwdne108044:0
+      circle: crwdns108046:0crwdne108046:0
+      triangle: crwdns108048:0crwdne108048:0
+      diamond: crwdns108050:0crwdne108050:0
+      pin: crwdns108052:0crwdne108052:0
+      arrow: crwdns108054:0crwdne108054:0
+      rect: crwdns108056:0crwdne108056:0
+      roundRect: crwdns108058:0crwdne108058:0
+    legend:
+      bottom: crwdns108060:0crwdne108060:0
+      left: crwdns108062:0crwdne108062:0
+      positionPlaceholder: crwdns108064:0crwdne108064:0
+      right: crwdns108066:0crwdne108066:0
+      top: crwdns108068:0crwdne108068:0
+    lineTension:
+      curvy: crwdns108070:0crwdne108070:0
+      label: crwdns108072:0crwdne108072:0
+      medium: crwdns108074:0crwdne108074:0
+      placeholder: crwdns108076:0crwdne108076:0
+      slight: crwdns108078:0crwdne108078:0
+      straight: crwdns108080:0crwdne108080:0
+    output:
+      bar: crwdns108082:0crwdne108082:0
+      doughnut: crwdns108084:0crwdne108084:0
+      label: crwdns108086:0crwdne108086:0
+      line: crwdns108088:0crwdne108088:0
+      pie: crwdns108090:0crwdne108090:0
+      scatter: crwdns108092:0crwdne108092:0
+      placeholder: crwdns108094:0crwdne108094:0
+    relative: crwdns108096:0crwdne108096:0
+    relativePrecision: 'crwdns108098:0crwdne108098:0'
+    cumulative: crwdns108100:0crwdne108100:0
+  module:
+    label: crwdns108102:0crwdne108102:0
+    placeholder: crwdns108104:0crwdne108104:0
+    title: crwdns108106:0crwdne108106:0
+  title: crwdns108108:0crwdne108108:0
+  unconfiguredReport: crwdns108110:0crwdne108110:0
+  yAxis:
+    axisOnRight: crwdns108112:0crwdne108112:0
+    axisScaleFromZero: crwdns108114:0crwdne108114:0
+    label: crwdns108116:0crwdne108116:0
+    options:
+      label: crwdns108118:0crwdne108118:0
+    rotate:
+      label: crwdns108120:0crwdne108120:0
+      description: crwdns108122:0crwdne108122:0
+    labelLabel: crwdns108124:0crwdne108124:0
+    labelPosition:
+      label: crwdns108126:0crwdne108126:0
+      top: crwdns108128:0crwdne108128:0
+      center: crwdns108130:0crwdne108130:0
+      bottom: crwdns108132:0crwdne108132:0
+    horizontal:
+      label: crwdns108134:0crwdne108134:0
+    logarithmicScale: crwdns108136:0crwdne108136:0
+    maxLabel: crwdns108138:0crwdne108138:0
+    maxPlaceholder: crwdns108140:0crwdne108140:0
+    minLabel: crwdns108142:0crwdne108142:0
+    minPlaceholder: crwdns108144:0crwdne108144:0
+  additionalConfig:
+    legend:
+      label: crwdns108146:0crwdne108146:0
+      show: crwdns108148:0crwdne108148:0
+      orientation:
+        label: crwdns108150:0crwdne108150:0
+        horizontal: crwdns108152:0crwdne108152:0
+        vertical: crwdns108154:0crwdne108154:0
+      align:
+        label: crwdns108156:0crwdne108156:0
+        left: crwdns108158:0crwdne108158:0
+        right: crwdns108160:0crwdne108160:0
+        center: crwdns108162:0crwdne108162:0
+      scrollable: crwdns108164:0crwdne108164:0
+      position:
+        customize: crwdns108166:0crwdne108166:0
+        top: crwdns108168:0crwdne108168:0
+        right: crwdns108170:0crwdne108170:0
+        bottom: crwdns108172:0crwdne108172:0
+        left: crwdns108174:0crwdne108174:0
+      valueRange: crwdns108176:0crwdne108176:0
+      options:
+        label: crwdns108178:0crwdne108178:0
+    tooltip:
+      label: crwdns108180:0crwdne108180:0
+      labelNextToChart: crwdns108182:0crwdne108182:0
+      formatting:
+        label: crwdns108184:0crwdne108184:0
+        description: 'crwdns108186:0{a}crwdnd108186:0{b}crwdnd108186:0{c}crwdnd108186:0{d}crwdne108186:0'
+        placeholder: 'crwdns108188:0{a}crwdnd108188:0{b}crwdnd108188:0{c}crwdnd108188:0{d}crwdne108188:0'
+        disclaimer: crwdns108190:0crwdne108190:0
+    offset:
+      label: crwdns108192:0crwdne108192:0
+      default: crwdns108194:0crwdne108194:0
+      position:
+        top: crwdns108196:0crwdne108196:0
+        right: crwdns108198:0crwdne108198:0
+        bottom: crwdns108200:0crwdne108200:0
+        left: crwdns108202:0crwdne108202:0
+      valueRange: crwdns108204:0crwdne108204:0
+  toolbox:
+    label: crwdns108206:0crwdne108206:0
+    saveAsImage:
+      label: crwdns108208:0crwdne108208:0
+    timeline:
+      label: crwdns108210:0crwdne108210:0
+      options:
+        none: crwdns108212:0crwdne108212:0
+        x: crwdns108214:0crwdne108214:0
+        y: crwdns108216:0crwdne108216:0
+        xy: crwdns108218:0crwdne108218:0
+  formatting:
+    format:
+      label: crwdns108220:0crwdne108220:0
+      placeholder: 'crwdns108222:0crwdne108222:0'
+    prefix:
+      label: crwdns108224:0crwdne108224:0
+      placeholder: 'crwdns108226:0crwdne108226:0'
+    suffix:
+      label: crwdns108228:0crwdne108228:0
+      placeholder: crwdns108230:0crwdne108230:0
+    presetFormats:
+      label: crwdns108232:0crwdne108232:0
+      options:
+        custom: crwdns108234:0crwdne108234:0
+        accounting: crwdns108236:0crwdne108236:0
+      description:
+        custom: 'crwdns108238:0crwdne108238:0'
+        accounting: crwdns108240:0crwdne108240:0
+import: 'crwdns108242:0crwdne108242:0'
+newLabel: 'crwdns108244:0crwdne108244:0'
+name: crwdns108246:0crwdne108246:0
+handle: crwdns108248:0crwdne108248:0
+generalSettings: crwdns108250:0crwdne108250:0
+notification:
+  unsavedChanges: crwdns108252:0crwdne108252:0
+  loadFailed: crwdns108254:0crwdne108254:0
+  saveFailed: crwdns108256:0crwdne108256:0
+  saved: crwdns108258:0crwdne108258:0
+  deleteFailed: crwdns108260:0crwdne108260:0
+  deleted: crwdns108262:0crwdne108262:0
+searchPlaceholder: crwdns108264:0crwdne108264:0
+title: crwdns108266:0crwdne108266:0
+undefined: crwdns108268:0crwdne108268:0
