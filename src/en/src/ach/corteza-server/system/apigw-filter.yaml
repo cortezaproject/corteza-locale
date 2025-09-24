@@ -1,0 +1,11 @@
+errors:
+  asyncRouteTooManyProcessers: crwdns102848:0crwdne102848:0
+  asyncRouteTooManyAfterFilters: crwdns102850:0crwdne102850:0
+  invalidID: crwdns102852:0crwdne102852:0
+  invalidRoute: crwdns102854:0crwdne102854:0
+  notAllowedToCreate: crwdns102856:0crwdne102856:0
+  notAllowedToDelete: crwdns102858:0crwdne102858:0
+  notAllowedToRead: crwdns102860:0crwdne102860:0
+  notAllowedToUndelete: crwdns102862:0crwdne102862:0
+  notAllowedToUpdate: crwdns102864:0crwdne102864:0
+  notFound: crwdns102866:0crwdne102866:0
