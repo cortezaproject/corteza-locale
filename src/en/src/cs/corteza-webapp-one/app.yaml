@@ -1,0 +1,6 @@
+jitsi:
+  create: Vytvořit
+  defaultLocalDisplayName: Anonymní
+  defaultRemoteDisplayName: Kolega Cortezák
+  roomName: Jméno místnosti
+  toStart: Pro zahájení video-konference vytvořte místnost
