@@ -1,0 +1,12 @@
+adminPanel: Panneau d'administration
+chart: Graphiques
+manageNamespaces: Gérer les namespaces
+module: Modules
+noResults: Aucun résultat
+page: Pages
+pickNamespace: Sélectionner un namespace
+publicPages: Pages publiques
+editNamespace: Éditer un namespace
+searchPlaceholder:
+  admin: Rechercher une resources...
+  public: Rerchercher une page...
