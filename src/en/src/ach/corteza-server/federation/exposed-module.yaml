@@ -1,0 +1,11 @@
+errors:
+  composeModuleNotFound: crwdns102768:0crwdne102768:0
+  composeNamespaceNotFound: crwdns102770:0crwdne102770:0
+  invalidID: crwdns102772:0crwdne102772:0
+  nodeNotFound: crwdns102774:0crwdne102774:0
+  notAllowedToCreate: crwdns102776:0crwdne102776:0
+  notAllowedToManage: crwdns102778:0crwdne102778:0
+  notFound: crwdns102780:0crwdne102780:0
+  notUnique: crwdns102782:0crwdne102782:0
+  requestParametersInvalid: crwdns102784:0crwdne102784:0
+  staleData: crwdns102786:0crwdne102786:0
