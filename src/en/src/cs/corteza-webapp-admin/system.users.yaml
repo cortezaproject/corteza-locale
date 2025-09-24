@@ -1,0 +1,125 @@
+editor:
+  external-auth-providers:
+    label: Popisek
+    title: Spravovat externí poskytovatele identity
+    type: Typ
+  info:
+    confirmEmail: Potvrdit emailovou adresu
+    id: ID
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    email: E-mail *
+    handle: Identifikátor
+    placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    name: Celé jméno
+    revokeAllSession: Ukončit všechny aktivní relace
+    suspend: Zablokovat
+    suspendedAt: Zablokovat vše
+    title: Základní informace
+    undelete: Obnovit smazané
+    unsuspend: Odblokovat
+    updatedAt: Čas aktualizace
+  avatar:
+    title: Profilový obrázek
+    preview:
+      label: Profilový obrázek
+      title: Profilový obrázek
+    initial:
+      color: Barva textu
+      backgroundColor: Barva pozadí
+    uploader:
+      instructions: Nahrát profilový obrázek
+      uploading: Nahrávání obrázku uživatele
+    colorPicker: Vybrat barvu
+  mfa:
+    TOTP:
+      disabled:
+        text: Uživatel nemá nakonfigurovanou TOTP ochranu
+      enabled:
+        text: Uživatel má nakonfigurovanou aplikaci pro TOTP ochranu
+      remove:
+        label: Odebrat
+    emailOTP:
+      disable:
+        label: Vypnout
+      disabled:
+        text: |-
+          Tento uživatel má vypnutou email OTP ochranu. Email s jednorázovým kódem při každém přihlášení nebude použit
+      enable:
+        label: Zapnout
+      enabled:
+        text: |-
+          Tento uživatel má zapnutou email OTP ochranu. Email s jednorázovým kódem bude použit při každém přihlášení
+    title: Vícefaktorová autentizace
+  new: Nový uživatel
+  password:
+    confirm: Potvrdit heslo
+    length: Délka hesla musí být aspoň {{length}} znaků!
+    missmatch: Heslo musí odpovídat
+    new: Nové heslo
+    title: Heslo
+    removePassword: Odebrat heslo
+  permissions: Oprávnění
+  roles:
+    add: Přidat
+    count: role
+    remove: Odebrat
+    title: Členství v rolích
+    unnamed: Bezejmenná role
+  title:
+    create: Vytvořit uživatele
+    edit: Editovat uživatele
+list:
+  columns:
+    actions: ""
+    createdAt: Vytvořeno
+    email: Email
+    enabled: Povoleno
+    handle: Identifikátor
+    name: Jméno
+    state: Stav
+  suspend: Zablokovat
+  unsuspend: Odblokovat
+  delete: Smazat
+  undelete: Obnovit smazané
+  revokeActiveSession: Ukončit relaci
+  export: Export
+  rows:
+    filters:
+      deleted: Odstraněno
+      suspended: Zablokovat
+  filterForm:
+    deleted:
+      label: smazaní uživatelé
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    inclusive:
+      label: Včetně
+    query:
+      label: Filtrovat seznam uživatelů
+      placeholder: Filtrovat uživatele podle jména, emailu
+    suspended:
+      label: zablokovaní uživatelé
+  loading: Načítání uživatelů
+  new: Nový uživatel
+  numFound: 'Nalezen {{count}} uživatel'
+  numFound_plural: 'Nalezeno {{count}} uživatelů'
+  permissions: Oprávnění
+  title: Uživatelé
+  yaml: YAML
+export:
+  buttonLabel: Export
+  title: Exportovat uživatele
+  inclRoleMembership: Zahrnout členství v rolích
+  inclRoles: Zahrnout role
+  membershipRequiredLabel: Role můžou být exportovány, jen pokud je vybráno členství v rolích
+  export: Export
+import:
+  buttonLabel: Import
+  title: Importovat uživatele
+  uploadFilePlaceholder: Pro import klikněte zde nebo přetáhněte soubory
