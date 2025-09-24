@@ -1,0 +1,76 @@
+manage-view:
+  label: Gérer les namespaces
+application:
+  label: Ajouter à la liste des applications
+clickOpen: Cliquez pour ouvrir
+import:
+  buttonLabel: Importer
+  title: Importer un namespace
+  uploadFileLabel: Téléverser le fichier à importer (format .zip)
+  uploadFilePlaceholder: Cliquer ou déposer un fichier pour téléverser (format .zip)
+  back: Retour
+  import: Importer
+  slug:
+    label: Nom court
+description:
+  label: Description de namespace
+  placeholder: Entrez la description de namespace
+disabled: Le namespace est désactivé
+edit: Editer un namespace
+clone: Cloner un namespace
+cloneSuffix: copier
+cloneWarning:
+  wfInclusion: Les flux et autres automatismes  ne sont pas clonés. Utiliser l'éditeur de flux pour cloner ceux nécessaires.
+create: Create new namespace
+export: Exporter
+enabled:
+  label: Enable on namespace list
+icon:
+  label: Icône
+  placeholder: Choisissez une image pour l'icône de namespace ou déposez en une ici...
+label:
+  permissions: Permissions
+logo:
+  label: Logo
+  placeholder: Choisissez une image pour le logo de namespace ou déposez en une ici...
+  show: Afficher logo
+  preview: Prévisualisation
+  reset: Réinitialiser
+name:
+  label: Nom complet de namespace
+  placeholder: Entrez le nom de namespace
+noResults: Aucun namespace trouvé
+searchPlaceholder: Tapez ici pour rechercher dans l'ensemble des namespaces...
+setPermissions: Définir les permissions de namespace
+slug:
+  description: Le nom court sera utilisé dans l'URL
+  label: Short name *
+  placeholder: Entrez un nom court pour le namespace
+  invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+subtitle:
+  label: Sous-titre
+  placeholder: Entrez le sous-titre de namespace
+title: Low Code Namespaces
+tooltip:
+  translations: Traductions de namespace
+visit: Visit namespace
+configure: Configurer le namespace
+manage:
+  title: Gérer les namespaces
+  list-view: Retour à la liste de namespace
+  delete: Supprimer
+  unsavedChanges: Les changements non sauvegardés seront perdus. Voulez-vous quitter la page ?
+  disabled: Désactivé
+  toolbar:
+    buttons:
+      create: Nouveau Namespace
+      permissions: Permissions
+  table:
+    columns:
+      enabled: Activé
+      name: Nom
+      slug: Nom court
+      changedAt: Dernier changement
+sidebar:
+  configure: Pages de namespace
+  hide: Cacher la barre latérale sur les pages publique du namespace
