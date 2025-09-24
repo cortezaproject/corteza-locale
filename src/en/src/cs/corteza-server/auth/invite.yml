@@ -1,0 +1,14 @@
+template:
+  title: Přijmout pozvánku
+  form:
+    email:
+      label: Email
+      placeholder: email@domena.tld
+    new-password:
+      label: Heslo
+      placeholder: heslo
+    buttons:
+      password: Nastavit heslo
+alert:
+  invalid-expired-invite-token: Nevalidní token pozvánky nebo jeho platnost vypršela, požádejte prosím o reset hesla.
+  success: Heslo úspěšně aktualizováno
