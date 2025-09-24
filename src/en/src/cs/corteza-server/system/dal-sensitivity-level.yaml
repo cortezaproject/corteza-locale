@@ -1,0 +1,9 @@
+errors:
+  alreadyExists: úroveň citlivosti s tímto DNS už existuje
+  existsEndpoint: úroveň citlivosti s tímto DNS už existuje
+  generic: nepovedlo se dokončit požadavek kvůli interní chybě
+  invalidEndpoint: nevalidní endpoint
+  invalidID: nevalidní ID
+  notAllowedToManage: není povoleno spravovat úroveň citlivosti
+  notFound: úroveň citlivosti nenalezena
+  deleteInUse: nejde smazat používané úrovně citlivosti
