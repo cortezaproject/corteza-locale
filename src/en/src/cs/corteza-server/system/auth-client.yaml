@@ -1,0 +1,14 @@
+errors:
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet autorizované klienty
+  notAllowedToDelete: není povoleno smazat tohoto autorizovaného klienta
+  notAllowedToRead: není povoleno zobrazit tohoto autorizovaného klienta
+  notAllowedToSearch: není povoleno hledat nebo procházet autorizované klienty
+  notAllowedToUndelete: není povoleno obnovit tohoto smazaného klienta
+  notAllowedToUpdate: není povoleno aktualizovat tohoto autorizovaného klienta
+  notFound: autorizovaný klient nenalezen
+  unableToChangeDefaultClientHandle: někde se změnit identifikátor výchozího autorizovaného klienta
+  unableToDeleteDefaultClient: nejde smazat výchozího autorizovaného klienta
+  unableToDisableDefaultClient: nejde vypnout výchozího autorizovaného klienta
+  unknownGrantType: neznámý grant type
+  unknownScope: neznámý scope
