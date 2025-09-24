@@ -1,0 +1,6 @@
+list:
+  columns:
+    events: Bei Ereignissen ausgelöst
+    label: Bezeichnung
+    name: Name
+  title: Compose Automation
