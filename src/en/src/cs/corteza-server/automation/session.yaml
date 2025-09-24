@@ -1,0 +1,8 @@
+errors:
+  invalidID: nevalidní ID
+  notAllowedToDelete: není povoleno smazat tuto relaci
+  notAllowedToManage: není povoleno spravovat workflow relace
+  notAllowedToRead: není povoleno zobrazit tuto relaci
+  notAllowedToSearch: není povoleno hledat nebo procházet relace
+  notFound: relace nenalezena
+  staleData: zastaralá data
