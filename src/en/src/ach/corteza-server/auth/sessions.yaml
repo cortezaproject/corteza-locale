@@ -1,0 +1,18 @@
+template:
+  title: crwdns102364:0crwdne102364:0
+  list:
+    current: crwdns102366:0crwdne102366:0
+    authorized-on: crwdns102368:0crwdne102368:0
+    same-machine: crwdns102370:0crwdne102370:0
+    ip-address: crwdns102372:0crwdne102372:0
+    same-browser: crwdns102374:0crwdne102374:0
+    browser: crwdns102376:0crwdne102376:0
+    expires: crwdns102378:0crwdne102378:0
+    expired: crwdns102380:0crwdne102380:0
+    today: crwdns102382:0crwdne102382:0
+    tomorrow: crwdns102384:0crwdne102384:0
+    soon: crwdns102386:0{{days}}crwdne102386:0
+  delete-all: crwdns102388:0crwdne102388:0
+alerts:
+  session-deleted: crwdns102390:0crwdne102390:0
+  delete-sessions-but-current: crwdns102392:0crwdne102392:0
