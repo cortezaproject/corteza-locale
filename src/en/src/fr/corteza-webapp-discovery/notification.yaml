@@ -1,0 +1,6 @@
+general:
+  error: Erreur
+  success: Succès
+  warning: Alerte
+search:
+  failed: La recherche a échoué
