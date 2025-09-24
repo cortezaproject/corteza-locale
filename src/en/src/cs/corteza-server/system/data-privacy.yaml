@@ -1,0 +1,9 @@
+errors:
+  notFound: požadavek ochrany soukromí nenalezen
+  invalidID: nevalidní ID
+  invalidKind: nevalidní typ
+  invalidStatus: nevalidní status
+  notAllowedToRead: není povoleno zobrazit tento požadavek ochrany soukromí
+  notAllowedToSearch: není povoleno hledat nebo procházet požadavky ochrany soukromí
+  notAllowedToCreate: není povoleno vytvořit požadavek ochrany soukromí
+  notAllowedToApprove: není povoleno schválit/zamítnout požadavek ochrany soukromí
