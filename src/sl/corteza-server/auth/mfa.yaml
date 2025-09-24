@@ -3,12 +3,12 @@ template:
   email:
     instructions: Check your inbox and enter the received code
     code: Code
-    verify: Potrdi
-    resend: Pošlji ponovno
+    verify: Verify
+    resend: Resend
     confirmed: Email OTP confirmed
   totp:
     instructions: Check your TOTP application and enter the code you received
-    code: Koda
+    code: Code
     confirmed: TOTP confirmed
     verify: Verify
 alerts:
