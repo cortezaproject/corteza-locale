@@ -1,0 +1,17 @@
+errors:
+  badSinkParamEncoding: špatné kódování parametrů cílového bodu
+  contentLengthExceedsMaxAllowedSize: content length překračuje maximální délku
+  failedToCreateEvent: nepovedlo se vytvořit událost cílového bodu z žádosti
+  failedToProcess: nepovedlo se zpracovat žádost
+  failedToRespond: nepovedlo se odpovědět na žádost
+  failedToSign: 'nepovedlo se podepsat parametr žádosti: {err}'
+  invalidContentType: nevalidní hlavička content-type
+  invalidHttpMethod: nevalidní HTTP metoda
+  invalidPath: nevalidní cesta
+  invalidSignature: nevalidní signatura
+  invalidSignatureParam: nevalidní parametr signatury cílového bodu
+  invalidSinkRequestUrlParams: nevalidní URL parametry v requestu na cílovýbod
+  misplacedSignature: signatura neodpovídá
+  missingSignature: chybí parametr signatury cílového bodu
+  processingError: chyba zpracování cílového bodu
+  signatureExpired: expirovaná signatura
