@@ -1,0 +1,9 @@
+errors:
+  failedToExtractMimeType: nepodařilo se rozpoznat mime type
+  failedToProcessImage: nepodařilo se zpracování obrázku 
+  failedToStoreFile: nepodařilo se extrahovat balík
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet přílohy
+  notAllowedToCreateEmptyAttachment: není povoleno vytvářet prázdné přílohy
+  notAllowedToListAttachments: není povoleno procházet přílohy
+  notFound: příloha nenalezena
