@@ -1,0 +1,62 @@
+clear: Vyčistit
+description: Popis
+enabled: Povoleno
+enable: Povoleno
+disable: Vypnuto
+error: Chyba
+error-expression: Chybová hláška (výraz)
+export: Export
+general: Obecné
+handle: Identifikátor
+import:
+  json: Importovat JSON
+  label: Import
+  reassign-run-as: "POZNÁMKA: Vlastnost workflow \"spustit jako\" nebude importovaná a myši se nastavit znovu"
+  upload-files: Procházet nebo přetáhnout soubory k nahrání...
+label:
+  all: Vše
+  label: Popisek
+loading: Načítání
+name: Jméno
+new-workflow: Nové workflow
+none: Nic
+now: Nyní
+offset: Offset
+offset-expression: Offset (výraz)
+permissions: Oprávnění
+searchPlaceholder: Hledat workflow...
+subworkflow: Subworkflow
+subworkflows: Subworkflows
+deleted: Odstraněno
+disabled: Vypnuto
+without: Bez
+only: Pouze
+including: Včetně
+workflow-list: Seznam workflow
+workflow:
+  single: Workflow
+  plural: Workflows
+save: Uložit
+today: Dnes
+cancel: Storno
+resourceList:
+  notFound: Nenalezeno
+  noItems: Žádné položky k zobrazení
+  pagination:
+    next: Další
+    prev: Předchozí
+    showing: '{{from}} - {{to}} z {{count}} {{data}}'
+    single: '1 {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Na stránku
+tooltip:
+  permissions: Oprávnění workflow
+columns:
+  name: Jméno
+  enabled: Povoleno
+  steps: Kroky
+  changedAt: Poslední změna
+themes:
+  labels:
+    light: Světlé
+    dark: Tmavé
