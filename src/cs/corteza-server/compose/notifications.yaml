@@ -1,0 +1,5 @@
+errors:
+  failedToDownloadAttachment: 'nepovedlo se stáhnout přílohu z {attachmentURL}: {err}'
+  failedToLoadUser: nepovedlo se načíst uživatele pro {recipient}
+  invalidReceipientFormat: nevalidní formát příjemce ({recipient})
+  noRecipients: není možné odeslat email bez příjemce
