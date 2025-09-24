@@ -1,0 +1,14 @@
+template:
+  title: crwdns102136:0crwdne102136:0
+  form:
+    email:
+      label: crwdns102138:0crwdne102138:0
+      placeholder: crwdns102140:0crwdne102140:0
+    new-password:
+      label: crwdns102142:0crwdne102142:0
+      placeholder: crwdns102144:0crwdne102144:0
+    buttons:
+      password: crwdns102146:0crwdne102146:0
+alert:
+  invalid-expired-invite-token: crwdns102148:0crwdne102148:0
+  success: crwdns102150:0crwdne102150:0
