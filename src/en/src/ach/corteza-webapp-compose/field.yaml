@@ -1,0 +1,289 @@
+available-items: crwdns108270:0crwdne108270:0
+selected-items: crwdns108272:0crwdne108272:0
+defaultFieldValue: crwdns108274:0crwdne108274:0
+defaultValue: crwdns108276:0crwdne108276:0
+required-field: crwdns108278:0crwdne108278:0
+not-configurable: crwdns108280:0crwdne108280:0
+kind:
+  bool:
+    checkedValueLabel: crwdns108282:0crwdne108282:0
+    checkedValuePlaceholder: Yes
+    label: crwdns108284:0crwdne108284:0
+    uncheckedValueLabel: crwdns108286:0crwdne108286:0
+    uncheckedValuePlaceholder: No
+    toggleTypeLabel: crwdns108288:0crwdne108288:0
+    toggleType: crwdns108290:0crwdne108290:0
+  dateTime:
+    type:
+      label: crwdns108292:0crwdne108292:0
+      options:
+        dateTime: crwdns108294:0crwdne108294:0
+        date: crwdns108296:0crwdne108296:0
+        time: crwdns108298:0crwdne108298:0
+    constraints:
+      label: crwdns108300:0crwdne108300:0
+      options:
+        all: crwdns108302:0crwdne108302:0
+        futureValuesOnly: crwdns108304:0crwdne108304:0
+        pastValuesOnly: crwdns108306:0crwdne108306:0
+    label: crwdns108308:0crwdne108308:0
+    outputFormat: crwdns108310:0crwdne108310:0
+    outputFormatFootnote: crwdns108312:0{{0}}crwdne108312:0
+    relativeOutput: 'crwdns108314:0crwdne108314:0'
+    warning:
+      futureValuesOnly: crwdns108316:0crwdne108316:0
+      pastValuesOnly: crwdns108318:0crwdne108318:0
+  email:
+    label: crwdns108320:0crwdne108320:0
+    preventToLink: crwdns108322:0crwdne108322:0
+  file:
+    label: crwdns108324:0crwdne108324:0
+    view:
+      gallery: crwdns108326:0crwdne108326:0
+      grid: crwdns108328:0crwdne108328:0
+      list: crwdns108330:0crwdne108330:0
+      maxSizeLabel: crwdns108332:0crwdne108332:0
+      mimetypesFootnote: 'crwdns108334:0crwdne108334:0'
+      mimetypesLabel: crwdns108336:0crwdne108336:0
+      modeFootnote: crwdns108338:0crwdne108338:0
+      modeLabel: crwdns108340:0crwdne108340:0
+      showName: crwdns108342:0crwdne108342:0
+      enableDownload: crwdns108344:0crwdne108344:0
+      single: crwdns108346:0crwdne108346:0
+      previewStyle: crwdns108348:0crwdne108348:0
+      height: crwdns108350:0crwdne108350:0
+      width: crwdns108352:0crwdne108352:0
+      maxHeight: crwdns108354:0crwdne108354:0
+      maxWidth: crwdns108356:0crwdne108356:0
+      borderRadius: crwdns108358:0crwdne108358:0
+      background: crwdns108360:0crwdne108360:0
+      colorPicker: crwdns108362:0crwdne108362:0
+      margin: crwdns108364:0crwdne108364:0
+      unitType: crwdns108366:0crwdne108366:0
+      px: crwdns108368:0crwdne108368:0
+      clickToView: crwdns108370:0crwdne108370:0
+      description: 'crwdns108372:0crwdne108372:0'
+  number:
+    exampleFormat: crwdns108374:0crwdne108374:0
+    exampleInput: crwdns108376:0crwdne108376:0
+    exampleResult: crwdns108378:0crwdne108378:0
+    examplesLabel: crwdns108380:0crwdne108380:0
+    formatLabel: crwdns108382:0crwdne108382:0
+    formatPlaceholder: crwdns108384:0crwdne108384:0
+    label: crwdns108386:0crwdne108386:0
+    liveExample: crwdns108388:0crwdne108388:0
+    precisionLabel: crwdns108390:0crwdne108390:0
+    precisionTooltip: crwdns108392:0crwdne108392:0
+    prefixLabel: crwdns108394:0crwdne108394:0
+    prefixPlaceholder: crwdns108396:0crwdne108396:0
+    suffixLabel: crwdns108398:0crwdne108398:0
+    suffixPlaceholder: crwdns108400:0crwdne108400:0
+    displayType:
+      label: crwdns108402:0crwdne108402:0
+      number: crwdns108404:0crwdne108404:0
+      progress: crwdns108406:0crwdne108406:0
+    progress:
+      maximumValue: crwdns108408:0crwdne108408:0
+      minimumValue: crwdns108410:0crwdne108410:0
+      animated: crwdns108412:0crwdne108412:0
+      show:
+        value: crwdns108414:0crwdne108414:0
+        relative: crwdns108416:0crwdne108416:0
+        progress: crwdns108418:0crwdne108418:0
+      showRelative: crwdns108420:0crwdne108420:0
+      variants:
+        default: crwdns108422:0crwdne108422:0
+        danger: crwdns108424:0crwdne108424:0
+        dark: crwdns108426:0crwdne108426:0
+        info: crwdns108428:0crwdne108428:0
+        light: crwdns108430:0crwdne108430:0
+        primary: crwdns108432:0crwdne108432:0
+        secondary: crwdns108434:0crwdne108434:0
+        success: crwdns108436:0crwdne108436:0
+        warning: crwdns108438:0crwdne108438:0
+      thresholds:
+        label: crwdns108440:0crwdne108440:0
+        description: crwdns108442:0crwdne108442:0
+    presetFormats:
+      label: crwdns108444:0crwdne108444:0
+      options:
+        custom: crwdns108446:0crwdne108446:0
+        accounting: crwdns108448:0crwdne108448:0
+      description:
+        custom: 'crwdns108450:0crwdne108450:0'
+        accounting: crwdns108452:0crwdne108452:0
+  record:
+    currentUnnamedModule: crwdns108454:0crwdne108454:0
+    label: crwdns108456:0crwdne108456:0
+    moduleLabel: crwdns108458:0crwdne108458:0
+    modulePlaceholder: crwdns108460:0crwdne108460:0
+    queryFieldsLabel: crwdns108462:0crwdne108462:0
+    queryFieldsPlaceholder: crwdns108464:0crwdne108464:0
+    moduleField: crwdns108466:0crwdne108466:0
+    variantField: crwdns108468:0crwdne108468:0
+    fieldFromModuleField: crwdns108470:0crwdne108470:0
+    pickField: crwdns108472:0crwdne108472:0
+    suggestionPlaceholder: crwdns108474:0crwdne108474:0
+    prefilterFootnote: crwdns108476:0{{0}}crwdnd108476:0{{1}}crwdnd108476:0{{2}}crwdnd108476:0{{3}}crwdne108476:0
+    prefilterLabel: crwdns108478:0crwdne108478:0
+    prefilterPlaceholder: crwdns108480:0crwdne108480:0
+    tooltip:
+      moduleField: crwdns108482:0crwdne108482:0
+      addRecord: crwdns108484:0crwdne108484:0
+  select:
+    allow-duplicates: crwdns108486:0crwdne108486:0
+    label: crwdns108488:0crwdne108488:0
+    optionAdd: crwdns108490:0crwdne108490:0
+    options:
+      value: crwdns108492:0crwdne108492:0
+      label: crwdns108494:0crwdne108494:0
+      style:
+        textColor: crwdns108496:0crwdne108496:0
+        backgroundColor: crwdns108498:0crwdne108498:0
+    optionNotSelected: crwdns108500:0crwdne108500:0
+    optionRemove: crwdns108502:0crwdne108502:0
+    optionType:
+      default: crwdns108504:0crwdne108504:0
+      each: crwdns108506:0crwdne108506:0
+      label: crwdns108508:0crwdne108508:0
+      multiple: crwdns108510:0crwdne108510:0
+      checkbox: crwdns108512:0crwdne108512:0
+      radio: crwdns108514:0crwdne108514:0
+    displayType:
+      label: crwdns108516:0crwdne108516:0
+      text: crwdns108518:0crwdne108518:0
+      badge: crwdns108520:0crwdne108520:0
+    optionsLabel: crwdns108522:0crwdne108522:0
+    showAsBadge: crwdns108524:0crwdne108524:0
+    placeholder: crwdns108526:0crwdne108526:0
+  string:
+    label: crwdns108528:0crwdne108528:0
+    multiLine: crwdns108530:0crwdne108530:0
+    richText: crwdns108532:0crwdne108532:0
+  url:
+    example: 'crwdns108534:0crwdne108534:0'
+    label: crwdns108536:0crwdne108536:0
+    preventToLink: crwdns108538:0crwdne108538:0
+    sshOnly: crwdns108540:0crwdne108540:0
+    trimHash: crwdns108542:0crwdne108542:0
+    trimQuestionMark: crwdns108544:0crwdne108544:0
+    trimToDomain: crwdns108546:0crwdne108546:0
+  user:
+    label: crwdns108548:0crwdne108548:0
+    na: crwdns108550:0crwdne108550:0
+    presetWithCurrentUser: crwdns108552:0crwdne108552:0
+    suggestionPlaceholder: crwdns108554:0crwdne108554:0
+    roles:
+      label: crwdns108556:0crwdne108556:0
+      placeholder: crwdns108558:0crwdne108558:0
+  geometry:
+    label: crwdns108560:0crwdne108560:0
+    latitude: crwdns108562:0crwdne108562:0
+    longitude: crwdns108564:0crwdne108564:0
+    clickToPlaceMarker: crwdns108566:0crwdne108566:0
+    initialZoomAndPosition: crwdns108568:0crwdne108568:0
+    prefillWithCurrentLocation: crwdns108570:0crwdne108570:0
+    hideCurrentLocationButton: crwdns108572:0crwdne108572:0
+    hideGeoSearch: crwdns108574:0crwdne108574:0
+    tooltip:
+      goToCurrentLocation: crwdns108576:0crwdne108576:0
+      useCurrentLocation: crwdns108578:0crwdne108578:0
+      openMap: crwdns108580:0crwdne108580:0
+    geosearchInputPlaceholder: crwdns108582:0crwdne108582:0
+noPermission: crwdns108584:0crwdne108584:0
+no-items-found: crwdns108586:0crwdne108586:0
+options:
+  description:
+    label:
+      default: crwdns108588:0crwdne108588:0
+      edit: crwdns108590:0crwdne108590:0
+      view: crwdns108592:0crwdne108592:0
+    placeholder:
+      default: crwdns108594:0crwdne108594:0
+      edit: crwdns108596:0crwdne108596:0
+      view: crwdns108598:0crwdne108598:0
+    same: crwdns108600:0crwdne108600:0
+  hint:
+    label:
+      default: crwdns108602:0crwdne108602:0
+      edit: crwdns108604:0crwdne108604:0
+      view: crwdns108606:0crwdne108606:0
+    placeholder:
+      default: crwdns108608:0crwdne108608:0
+      edit: crwdns108610:0crwdne108610:0
+      view: crwdns108612:0crwdne108612:0
+    same: crwdns108614:0crwdne108614:0
+  multiDelimiter:
+    comma: crwdns108616:0crwdne108616:0
+    custom: crwdns108618:0crwdne108618:0
+    customLabel: crwdns108620:0crwdne108620:0
+    customPlaceholder: crwdns108622:0crwdne108622:0
+    label: crwdns108624:0crwdne108624:0
+    newline: crwdns108626:0crwdne108626:0
+sanitizers:
+  description: crwdns108628:0crwdne108628:0
+  examples: crwdns108630:0crwdne108630:0
+  expression:
+    placeholder: crwdns108632:0crwdne108632:0
+  label: crwdns108634:0crwdne108634:0
+selector:
+  search: crwdns108636:0crwdne108636:0
+  available: crwdns108638:0crwdne108638:0
+  selectAll: crwdns108640:0crwdne108640:0
+  selected: crwdns108642:0crwdne108642:0
+  systemField: crwdns108644:0crwdne108644:0
+  unselectAll: crwdns108646:0crwdne108646:0
+privacy:
+  sensitivity-level:
+    label: crwdns108648:0crwdne108648:0
+    placeholder: crwdns108650:0crwdne108650:0
+  usage-disclosure:
+    label: crwdns108652:0crwdne108652:0
+system:
+  id: crwdns108654:0crwdne108654:0
+  ID: crwdns108656:0crwdne108656:0
+  moduleID: crwdns108658:0crwdne108658:0
+  namespaceID: crwdns108660:0crwdne108660:0
+  revision: crwdns108662:0crwdne108662:0
+  meta: crwdns108664:0crwdne108664:0
+  recordID: crwdns108666:0crwdne108666:0
+  createdAt: crwdns108668:0crwdne108668:0
+  createdBy: crwdns108670:0crwdne108670:0
+  deletedAt: crwdns108672:0crwdne108672:0
+  deletedBy: crwdns108674:0crwdne108674:0
+  ownedBy: crwdns108676:0crwdne108676:0
+  updatedAt: crwdns108678:0crwdne108678:0
+  updatedBy: crwdns108680:0crwdne108680:0
+validators:
+  description: crwdns108682:0crwdne108682:0
+  disableBuiltIn: crwdns108684:0crwdne108684:0
+  error:
+    placeholder: crwdns108686:0crwdne108686:0
+    tooltip: crwdns108688:0crwdne108688:0
+  expression:
+    placeholder: crwdns108690:0crwdne108690:0
+    tooltip: crwdns108692:0crwdne108692:0
+  label: crwdns108694:0crwdne108694:0
+valueExpr:
+  description: crwdns108696:0crwdne108696:0
+  label: crwdns108698:0crwdne108698:0
+  placeholder: crwdns108700:0crwdne108700:0
+label:
+  required: crwdns108702:0crwdne108702:0
+  multi: crwdns108704:0crwdne108704:0
+constraints:
+  label: crwdns108706:0crwdne108706:0
+  description: crwdns108708:0crwdne108708:0
+  ignoreCase: crwdns108710:0crwdne108710:0
+  fuzzyMatch: crwdns108712:0crwdne108712:0
+  soundsLike: crwdns108714:0crwdne108714:0
+  caseSensitive: crwdns108716:0crwdne108716:0
+  oneOf: crwdns108718:0crwdne108718:0
+  none: crwdns108720:0crwdne108720:0
+  equal: crwdns108722:0crwdne108722:0
+  valueModifiers: crwdns108724:0crwdne108724:0
+  multiValues: crwdns108726:0crwdne108726:0
+  totalFieldConstraintCount: crwdns108728:0{{total}}crwdne108728:0
+  tooltip:
+    performance: crwdns108730:0crwdne108730:0
+
