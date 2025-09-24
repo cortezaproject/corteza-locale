@@ -1,0 +1,15 @@
+errors:
+  handleNotUnique: crwdns103120:0crwdne103120:0
+  invalidHandle: crwdns103122:0crwdne103122:0
+  invalidID: crwdns103124:0crwdne103124:0
+  nameNotUnique: crwdns103126:0crwdne103126:0
+  notAllowedToArchive: crwdns103128:0crwdne103128:0
+  notAllowedToCreate: crwdns103130:0crwdne103130:0
+  notAllowedToDelete: crwdns103132:0crwdne103132:0
+  notAllowedToManageMembers: crwdns103134:0crwdne103134:0
+  notAllowedToRead: crwdns103136:0crwdne103136:0
+  notAllowedToSearch: crwdns103138:0crwdne103138:0
+  notAllowedToUnarchive: crwdns103140:0crwdne103140:0
+  notAllowedToUndelete: crwdns103142:0crwdne103142:0
+  notAllowedToUpdate: crwdns103144:0crwdne103144:0
+  notFound: crwdns103146:0crwdne103146:0
