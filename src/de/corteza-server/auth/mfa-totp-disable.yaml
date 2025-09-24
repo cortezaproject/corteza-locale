@@ -1,5 +1,5 @@
 template:
-  title: Zwei-Faktor-Authentifizierung mit TOTP deaktivieren
-  instructions: Deaktivierung durch Eingabe des vorhandenen Codes.
+  title: Disable two-factor authentication with TOTP
+  instructions: Disable by entering existing code
   button:
-    remove: Entfernen
+    remove: Remove
