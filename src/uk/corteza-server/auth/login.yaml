@@ -1,5 +1,5 @@
 template:
-  title: Log in
+  title: Log in to continue
   form:
     email:
       label: E-mail
@@ -17,5 +17,5 @@ template:
     external:
       login-with: Login with {{idp}}
 alerts:
-  logged-in: You are now logged-in.
+  logged-in: You are now logged-in
   local-disabled: Local accounts disabled
