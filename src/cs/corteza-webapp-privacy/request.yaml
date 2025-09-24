@@ -1,0 +1,76 @@
+comments:
+  enter: Zadejte komentář...
+  label: Komentáře
+  sort:
+    first:
+      newest: Nejnovější první
+      oldest: Nejstarší první
+  submit: Odeslat
+  unknown:
+    date: Neznámé datum
+    user: Neznámý uživatel
+kind:
+  correct: Žádost o opravu
+  delete: Žádost o smazání
+  export: Exportovat žádost
+status:
+  canceled: Stornováno
+  pending: Čekající
+  rejected: Zamítnuto
+  approved: Schváleno
+list:
+  title: Požadavky na ochranu soukromí
+  export: Export
+  columns:
+    kind: Typ
+    requestedAt: Čas žádosti
+    requestedBy: Žadatel
+    status: Status
+  request:
+    approve: Potvrdit žádost
+    cancel: Stornovat žádost
+    reject: Zamítnout žádost
+edit:
+  correct:
+    private-fields: Soukromá pole
+    no-data-available: Žádné údaje nejsou dostupné
+    submit: Odeslat žádost o opravu
+    connection:
+      label: Spojení
+      placeholder: Vybrat spojení
+  delete:
+    private-fields: Soukromá pole
+    no-data-available: Žádné údaje nejsou dostupné
+    submit: Smazat vybraný sloupec
+    connection:
+      label: Spojení
+      placeholder: Vybrat spojení
+  export:
+    submit: Exportovat vybrané údaje
+    data-type:
+      label: Datový typ pro export
+      profile-information: Informace o profilu
+      application-data: Data aplikace
+    date-range:
+      label: Rozsah údajů
+      all: Všechny moje údaje
+    file-format:
+      label: Formát souboru
+      json: JSON
+      csv: CSV
+view:
+  approve: Potvrdit žádost
+  cancel: Stornovat žádost
+  reject: Zamítnout žádost
+  export:
+    data-type:
+      label: Datový typ pro export
+      profile-information: Informace o profilu
+      application-data: Data aplikace
+    date-range:
+      label: Rozsah údajů
+      all: Všechny moje údaje
+    file-format:
+      label: Formát souboru
+      json: JSON
+      csv: CSV
