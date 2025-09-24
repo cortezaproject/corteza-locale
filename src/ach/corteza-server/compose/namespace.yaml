@@ -1,0 +1,16 @@
+errors:
+  handleNotUnique: crwdns102638:0crwdne102638:0
+  invalidHandle: crwdns102640:0crwdne102640:0
+  invalidID: crwdns102642:0crwdne102642:0
+  notAllowedToCreate: crwdns102644:0crwdne102644:0
+  notAllowedToDelete: crwdns102646:0crwdne102646:0
+  notAllowedToRead: crwdns102648:0crwdne102648:0
+  notAllowedToSearch: crwdns102650:0crwdne102650:0
+  notAllowedToUndelete: crwdns102652:0crwdne102652:0
+  notAllowedToUpdate: crwdns102654:0crwdne102654:0
+  notFound: crwdns102656:0crwdne102656:0
+  staleData: crwdns102658:0crwdne102658:0
+  unsupportedExportFormat: crwdns102660:0crwdne102660:0
+  unsupportedImportFormat: crwdns102662:0crwdne102662:0
+  importMissingNamespace: crwdns102664:0crwdne102664:0
+  cloneMultiple: crwdns102666:0crwdne102666:0
