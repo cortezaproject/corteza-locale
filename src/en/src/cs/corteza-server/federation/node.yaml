@@ -1,0 +1,10 @@
+errors:
+  notAllowedToCreate: není povoleno vytvářet uzly
+  notAllowedToManage: není povoleno spravovat tento uzel
+  notAllowedToPair: není povoleno párovat tento uzel
+  notAllowedToSearch: není povoleno hledat nebo procházet uzly
+  notFound: uzel neexistuje
+  pairingTokenInvalid: nevalidní párovací token
+  pairingURIInvalid: 'nevalidní párovací URI: {err}'
+  pairingURISourceIDInvalid: párovací URI bez ID zdrojového uzlu
+  pairingURITokenInvalid: párovací URI s nevalidním párovacím tokenem
