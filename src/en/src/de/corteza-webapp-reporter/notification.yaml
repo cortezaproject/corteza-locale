@@ -1,0 +1,29 @@
+datasource:
+  describe-failed: Failed to describe datasource
+general:
+  error: Fehler
+  success: Vorgang erfolgreich
+  warning: Warnung
+list:
+  load:
+    error: Failed to load resource list
+module:
+  fetch-failed: Failed to fetch modules
+namespace:
+  fetch-failed: Failed to fetch namespaces
+report:
+  createFailed: Fehler beim Erstellen des Berichts
+  loadFailed: Loading the report failed
+  created: Bericht erstellt
+  delete: Bericht gelöscht
+  deleteFailed: Fehler beim Löschen des Berichts
+  fetchFailed: Fehler beim Abrufen des Berichts
+  listFetchFailed: Fehler beim Abrufen von Berichten
+  runFailed: Failed to run report
+  updateFailed: Fehler beim Aktualisieren des Berichts
+  updated: Bericht aktualisiert
+  notAllowed:
+    read: Not allowed to read report
+  datasources:
+    updated: Datasources updated
+    updateFailed: Failed to update datasources
