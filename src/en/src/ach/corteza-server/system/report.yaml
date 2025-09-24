@@ -1,0 +1,12 @@
+errors:
+  invalidConfiguration: crwdns103098:0crwdne103098:0
+  invalidID: crwdns103100:0crwdne103100:0
+  notAllowedToCreate: crwdns103102:0crwdne103102:0
+  notAllowedToDelete: crwdns103104:0crwdne103104:0
+  notAllowedToListReports: crwdns103106:0crwdne103106:0
+  notAllowedToRead: crwdns103108:0crwdne103108:0
+  notAllowedToRun: crwdns103110:0crwdne103110:0
+  notAllowedToSearch: crwdns103112:0crwdne103112:0
+  notAllowedToUndelete: crwdns103114:0crwdne103114:0
+  notAllowedToUpdate: crwdns103116:0crwdne103116:0
+  notFound: crwdns103118:0crwdne103118:0
