@@ -1,0 +1,13 @@
+errors:
+  alreadyExists: fronta s tímto názvem už existuje
+  invalidConsumer: nevalidní zpracovatel
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvořit frontu
+  notAllowedToDelete: není povoleno smazat tuto frontu
+  notAllowedToRead: není povoleno zobrazit tuto frontu
+  notAllowedToReadFrom: není povoleno číst zprávy z této fronty
+  notAllowedToSearch: není povoleno hledat nebo procházet fronty
+  notAllowedToUndelete: není povoleno obnovit tuto smazanou frontu 
+  notAllowedToUpdate: není povoleno aktualizovat tuto frontu
+  notAllowedToWriteTo: není povoleno přidávat zprávy do této fronty
+  notFound: fronta nenalezena
