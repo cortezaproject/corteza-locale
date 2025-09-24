@@ -1,0 +1,64 @@
+label:
+  add: crwdns103784:0crwdne103784:0
+  general:
+    yes: Yes
+    no: No
+  template:
+    single: crwdns103786:0crwdne103786:0
+    plural: crwdns103788:0crwdne103788:0
+  user:
+    single: crwdns103790:0crwdne103790:0
+    plural: crwdns103792:0crwdne103792:0
+  role:
+    single: crwdns103794:0crwdne103794:0
+    plural: crwdns103796:0crwdne103796:0
+  application:
+    single: crwdns103798:0crwdne103798:0
+    plural: crwdns103800:0crwdne103800:0
+  auth_client:
+    single: crwdns103802:0crwdne103802:0
+    plural: crwdns103804:0crwdne103804:0
+  queue:
+    single: crwdns103806:0crwdne103806:0
+    plural: crwdns103808:0crwdne103808:0
+  route:
+    single: crwdns103810:0crwdne103810:0
+    plural: crwdns103812:0crwdne103812:0
+  connection:
+    single: crwdns103814:0crwdne103814:0
+    plural: crwdns103816:0crwdne103816:0
+  sensitivity_level:
+    single: crwdns103818:0crwdne103818:0
+    plural: crwdns103820:0crwdne103820:0
+  session:
+    single: crwdns103822:0crwdne103822:0
+    plural: crwdns103824:0crwdne103824:0
+  workflow:
+    single: crwdns103826:0crwdne103826:0
+    plural: crwdns103828:0crwdne103828:0
+  plus-add: crwdns103830:0crwdne103830:0
+  clear: crwdns103832:0crwdne103832:0
+  all: crwdns103834:0crwdne103834:0
+  none: crwdns103836:0crwdne103836:0
+  now: crwdns103838:0crwdne103838:0
+  today: crwdns103840:0crwdne103840:0
+  routes: crwdns103842:0crwdne103842:0
+  requests: crwdns103844:0crwdne103844:0
+  refresh: crwdns103846:0crwdne103846:0
+  loadMore: crwdns103848:0crwdne103848:0
+  loading: crwdns103850:0crwdne103850:0
+  saveAndClose: crwdns103852:0crwdne103852:0
+  cancel: crwdns103854:0crwdne103854:0
+  submit: crwdns103856:0crwdne103856:0
+  delete: crwdns103858:0crwdne103858:0
+  undelete: crwdns103860:0crwdne103860:0
+  fileTypeNotAllowed: crwdns103862:0crwdne103862:0
+editor:
+  unsavedChanges: crwdns103864:0crwdne103864:0
+resourceList:
+  pagination:
+    recordsPerPage: crwdns103866:0crwdne103866:0
+themes:
+  labels:
+    light: crwdns103868:0crwdne103868:0
+    dark: crwdns103870:0crwdne103870:0
