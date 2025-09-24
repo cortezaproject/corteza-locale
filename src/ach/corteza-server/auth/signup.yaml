@@ -1,0 +1,23 @@
+template:
+  title: crwdns102394:0crwdne102394:0
+  form:
+    email:
+      label: crwdns102396:0crwdne102396:0
+      placeholder: crwdns102398:0crwdne102398:0
+    password:
+      label: crwdns102400:0crwdne102400:0
+      placeholder: crwdns102402:0crwdne102402:0
+    name:
+      label: crwdns102404:0crwdne102404:0
+      placeholder: crwdns102406:0crwdne102406:0
+    nickname:
+      label: crwdns102408:0crwdne102408:0
+      placeholder: crwdns102410:0crwdne102410:0
+    button:
+      sign-up: crwdns102412:0crwdne102412:0
+  log-in: crwdns102414:0{{link}}crwdne102414:0
+alerts:
+  signup-successful: crwdns102416:0crwdne102416:0
+  email-confirmed-logged-in: crwdns102418:0crwdne102418:0
+  invalid-expired-token: crwdns102420:0crwdne102420:0
+  signup-disabled: crwdns102422:0crwdne102422:0
