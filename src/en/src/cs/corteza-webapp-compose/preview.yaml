@@ -1,0 +1,14 @@
+general:
+  label:
+    attachmentFileInfo: '(Velikost souboru: {{0}}, nahráno{{1}})'
+    download: Stažení
+  tooltip:
+    dragAndDrop: Přetáhnutím změníte pořadí
+pdf:
+  clickToRetry: Zkusit znovu
+  downloadForAll: Stáhnout a zobrazit všechny stránky
+  firstPagePreview: Náhled první stránky
+  loading: Načítání
+  noPages: Tento dokument je prázdný
+  pageLoadFailed: Stránku se nepovedlo načíst
+  pageLoading: Načítání
