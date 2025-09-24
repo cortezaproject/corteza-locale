@@ -1,0 +1,14 @@
+system:
+  ID: ID záznamu
+  moduleID: ID modulu
+  namespaceID: ID jmenného prostoru
+  revision: Verze záznamu
+  meta: Metadata
+  recordID: ID záznamu
+  createdAt: Čas vytvoření
+  createdBy: Vytvořeno uživatelem
+  deletedAt: Čas odstranění
+  deletedBy: Odstraněno uživatelem
+  ownedBy: Vlastník
+  updatedAt: Čas aktualizace
+  updatedBy: Aktualizováno uživatelem
