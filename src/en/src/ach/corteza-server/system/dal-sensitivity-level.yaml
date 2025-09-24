@@ -1,0 +1,9 @@
+errors:
+  alreadyExists: crwdns103032:0crwdne103032:0
+  existsEndpoint: crwdns103034:0crwdne103034:0
+  generic: crwdns103036:0crwdne103036:0
+  invalidEndpoint: crwdns103038:0crwdne103038:0
+  invalidID: crwdns103040:0crwdne103040:0
+  notAllowedToManage: crwdns103042:0crwdne103042:0
+  notFound: crwdns103044:0crwdne103044:0
+  deleteInUse: crwdns103046:0crwdne103046:0
