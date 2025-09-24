@@ -1,0 +1,18 @@
+notification:
+  search-error: Nastal problém při získávání výsledků hledání
+input-placeholder: Zadejte hledaný text
+card:
+  button-text: Zobrazit více
+  type: Typ
+  handle: Identifikátor
+  namespace: Jmenný prostor
+  module: Modul
+  user: Uživatel
+  email: Email
+  record: Záznam
+  fields: Pole
+tooltip:
+  map: Přepnout mapu
+range: Zobrazuje se {{actual}} z {{all}} výsledků
+discovering: Vyhledávání
+no-results: Žádné výsledky
