@@ -1,0 +1,28 @@
+message:
+  noPages: Ce namespace n'a pas de pages visibles pour le moment
+  notifyAdministrator: Notifiez votre administrateur système
+  startBuilding: Suivez ces étapes pour commencer à construire
+label:
+  pageBuilder: Constructeur de page
+  welcome: Bienvenu !
+navigation:
+  noPageTitle: Pas de titre de page
+notification:
+  module:
+    createFailed: Impossible de créer le module
+    saveFailed: Impossible de sauvegarder ce module
+step:
+  chart:
+    create: Créer un graphique
+    view: Vos graphiques
+  module:
+    create: Créer un module
+    view: Vos modules
+  optional: Cette étape est optionnelle !
+  page:
+    create: Construire une page
+    view: Vos pages
+tooltip:
+  page-configuration:
+    edit: Éditer page
+    list: Traductions de page
