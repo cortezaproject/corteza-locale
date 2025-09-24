@@ -1,0 +1,25 @@
+template:
+  title: Konfigurovat dvoufaktorové přihlášení s TOTP
+  enforced: |
+    Vícefaktorové přihlášení s TOTP je vynuceno Corteza administrátorem.
+    Nakonfigurujte si ho ihned.
+  instructions: |
+    Corteza používá časově omezené jednorázové kódy (TOTP) jako jednu z technologií pro dvoufaktorové přihlášení. Použijte jednu z aplikací vyjmenovaných níže a opište v ní tajný kód nebo naskenujte QR kód.
+    <br />
+    <br />
+    Tímto se zvýší zabezpečení vašeho účtu.
+    <br />
+    <br />
+    Můžete použít jednu z těchto aplikací:
+  lastpass: <a target="_blank" href="{{ link }}">LastPass Autentikátor</a>
+  gauth: Google Autentikátor pro <a target="_blank" href="{{ android }}">Android</a> nebo <a target="_blank" href="{{ iphone }}">iPhone</a>
+  authy: <a target="_blank" href="{{ link }}">Authy</a>
+  form:
+    title: "Konfiguraci dokončíte zadáním kódu z aplikace:"
+    button: Potvrdit
+alerts:
+  text-MFA-enabled: Dvoufaktorové přihlášení s TOTP je aktivní
+  text-MFA-disabled: Dvoufaktorové přihlášení s TOTP není aktivní
+errors:
+  invalid-code-format: "Nesprávný formát kódu"
+  invalid-code: "Nesprávný kód"
