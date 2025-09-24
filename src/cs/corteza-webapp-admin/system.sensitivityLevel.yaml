@@ -1,0 +1,44 @@
+editor:
+  new: Nová úroveň citlivosti
+  title:
+    create: Vytvořit úroveň citlivosti
+    edit: Editovat úroveň citlivosti
+  info:
+    title: Základní informace
+    handle:
+      label: Identifikátor
+      placeholder: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+      invalid-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    name: Jméno *
+    description: Popis
+    level: Úroveň {{level}}
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+list:
+  title: Úrovně citlivosti
+  loading: Načítání úrovní citlivosti
+  new: Nová úroveň citlivosti
+  columns:
+    actions: ''
+    'meta.name': Jméno
+    level: Úroveň
+    createdAt: Vytvořeno
+    state: Stav
+  delete: Smazat
+  undelete: Obnovit smazané
+  rows:
+    filters:
+      deleted: Odstraněno
+  filterForm:
+    deleted:
+      label: smazané úrovně citlivosti
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    inclusive:
+      label: Včetně
