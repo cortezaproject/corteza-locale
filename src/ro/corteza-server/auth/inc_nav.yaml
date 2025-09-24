@@ -1,7 +1,7 @@
 template:
-  authorize-client: Finalizare autorizare pentru
+  authorize-client: Finalize the authorization of
   class:
-    your-profile: Profilul tău
-    security: Securitate
-    login-session: Sesiuni conectare
-    authorized-clients: Clienți autorizați
+    your-profile: Your profile
+    security: Security
+    login-session: Login sessions
+    authorized-clients: Authorized clients
