@@ -1,13 +1,13 @@
 errors:
-  notFound: spojení nenalezeno
-  invalidID: nevalidní ID
-  invalidEndpoint: nesprávný endpoint
-  existsEndpoint: spojení s tímto DNS už existuje
-  alreadyExists: spojení s tímto DNS už existuje
-  notAllowedToCreate: není povoleno vytvořit spojení
-  notAllowedToRead: není povoleno zobrazit toto spojení
-  notAllowedToSearch: není povoleno hledat nebo procházet spojení
-  notAllowedToUpdate: není povoleno aktualizovat toto spojení
-  notAllowedToDelete: není povoleno smazat toto spojení
-  notAllowedToUndelete: není povoleno obnovit toto smazané spojení
-  notAllowedToExec: není povoleno spustit toto spojení
+  notFound: connection not found
+  invalidID: invalid ID
+  invalidEndpoint: invalid endpoint
+  existsEndpoint: connection with this DNS already exists
+  alreadyExists: connection by that DNS already exists
+  notAllowedToCreate: not allowed to create a connection
+  notAllowedToRead: not allowed to read this connection
+  notAllowedToSearch: not allowed to list or search connections
+  notAllowedToUpdate: not allowed to update this connection
+  notAllowedToDelete: not allowed to delete this connection
+  notAllowedToUndelete: not allowed to undelete this connection
+  notAllowedToExec: not allowed to execute this connection
