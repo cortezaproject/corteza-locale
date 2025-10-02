@@ -1,17 +1,17 @@
-description: Popis
-handle-with-star: Identifikátor
-invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
-name: Jméno
-name-with-star: 'Jméno*'
-new-report: Nový report
-permissions: Oprávnění
-unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+description: Description
+handle-with-star: Handle
+invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+name: Name
+name-with-star: 'Name*'
+new-report: New Report
+permissions: Permissions
+unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
 report:
-  create: Vytvořit report
-  builder: Vytváření reportů
-  description: Popis reportu...
-  edit: Editovat report
-placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
-title: Editace reportu
+  create: Create Report
+  builder: Report Builder
+  description: Report description...
+  edit: Edit Report
+placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
+title: Edit report
 tooltip:
-  view-report: Zobrazit report
+  view-report: View report
