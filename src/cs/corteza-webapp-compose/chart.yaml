@@ -1,263 +1,262 @@
-colorLabel: '{{count}} barev'
+colorLabel: '{{count}} colors'
 colorScheme:
-  label: Barevné schéma
-  placeholder: Vyberte barevné schéma
-  pickAColor: Vyberte barvu
+  label: Color scheme
+  placeholder: Pick a color scheme
+  pickAColor: Pick a color
   custom:
-    add: Přidat barevné schéma
-    edit: Editovat barevné schéma
+    add: Add color scheme
+    edit: Edit color scheme
     modal:
       name:
-        label: Jméno
+        label: Name
       colors:
-        label: Barvy
+        label: Colors
 configure:
-  reportsLabel: Reporty
+  reportsLabel: Reports
 general:
   label:
-    title: Popisek
-    add: Přidat
-    count: Počet
-    permissions: Oprávnění
-  value: Hodnota
+    title: Label
+    add: Add
+    count: Count
+    permissions: Permissions
+  value: Value
   placeholder:
-    name: Název (např. "Prodeje za měsíc")
-    handle: Jednoznačný identifikátor (a-z, 0-9, podtržítko, pomlčka)
-    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    name: Name (e.g. "Sales by month")
+    handle: Unique identifier (a - z, 0 - 9, underscore, dash)
+    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
 edit:
   animation:
-    label: Animace
-    enabled: Animace povolena
+    label: Animation
+    enabled: Animation enabled
   dimension:
-    calculateLabelCount: Vypočítat, kolik popisků se může zobrazit
-    defaultValueFootnote: Použít tuto hodnotu, když hodnota chybí
-    defaultValueLabel: Výchozí hodnota
-    fieldLabel: Pole *
-    fieldPlaceholder: Vyberte pole dimenze
+    calculateLabelCount: Calculate how many labels can be shown
+    defaultValueFootnote: Use this value for missing dimension values
+    defaultValueLabel: Default value
+    fieldLabel: Field *
+    fieldPlaceholder: Select a dimension field
     function:
-      placeholder: Vyberte modifikátor dimenze (velikost skupiny)
-      none: Žádné seskupení
-      auto: Automatické
-      date: Datum
-      label: Funkce
-      month: Měsíc
-      quarter: Čtvrtletí
-      week: Týden
-      year: Rok
-    gaugeSteps: Kroky
-    label: Dimenze
-    skipMissingValues: Přeskočit chybějící hodnoty
-    timeLabels: Časové popisky
+      placeholder: Select dimension modifier (bucket size)
+      none: No grouping
+      auto: Auto
+      date: Date
+      label: Function
+      month: Month
+      quarter: Quarter
+      week: Week
+      year: Year
+    gaugeSteps: Steps
+    label: Dimensions
+    skipMissingValues: Skip missing values
+    timeLabels: Time labels
     options:
-      label: Možnosti
+      label: Options
     optionsPicker:
-      searchPlaceholder: Vyhledávání ve vybraných možnostech
-      availableItems: Dostupné možnosti
-      selectAllItems: Vybrat vše
-      selectedItems: Vybrané možnosti
-      unselectAllItems: Odebrat vše
-      noItemsFound: Nenalezena žádná možnost
+      searchPlaceholder: Type here to search among select options
+      availableItems: Available options
+      selectAllItems: Select all
+      selectedItems: Selected options
+      unselectAllItems: Unselect all
+      noItemsFound: No options found
     rotate:
-      label: Otočit popisky
-      description: Popisky můžou být otočeny o -90 až +90 stupňů.
+      label: Rotate labels
+      description: Labels can be rotated from -90 to 90 degrees.
   filter:
-    customize: Upravit filtr
-    label: Filtr
-    preset: Přednastavení filtrů
-    footnote: Je podporován zjednodušená syntaxe SQL podmínek (WHERE ...). Proměnné jako {{0}}, {{1}}, {{2}} a {{3}} budou vyhodnoceny (pokud jsou dostupné)
-    placeholder: pole1 = 1 AND pole2 = 232
-    noFilter: Vybrat filtr
-    recordsCreatedLastMonth: Záznamy vytvořené poslední měsíc
-    recordsCreatedLastQuarter: Záznamy vytvořené v posledním čtvrtletí
-    recordsCreatedLastYear: Záznamy vytvořené v posledním roce
-    recordsCreatedThisMonth: Záznamy editované tento měsíc
-    recordsCreatedThisQuarter: Záznamy vytvořené v tomto čtvrtletí
-    recordsCreatedThisYear: Záznamy vytvořené tento rok
-  loadData: Načíst data
+    customize: Customize filter
+    label: Filter
+    preset: Preset filters
+    footnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
+    placeholder: field1 = 1 AND field2 = 232
+    noFilter: Select a filter
+    recordsCreatedLastMonth: Records created last month
+    recordsCreatedLastQuarter: Records created last quarter
+    recordsCreatedLastYear: Records created last year
+    recordsCreatedThisMonth: Records created this month
+    recordsCreatedThisQuarter: Records created this quarter
+    recordsCreatedThisYear: Records created this year
+  loadData: Load data
   metric:
-    title: Metriky
-    add: Přidat metriku
-    fieldLabel: Pole *
-    fieldPlaceholder: Vyberte pole metriky
-    fillArea: Vyplnit oblast pod čárou grafu
-    fixTooltips: Vždy zobrazit popisky
+    title: Metrics
+    add: Add metric
+    fieldLabel: Field *
+    fieldPlaceholder: Select metric field
+    fillArea: Fill area below the line
+    fixTooltips: Always show labels
     options:
-      label: Možnosti
+      label: Options
     function:
-      avg: Průměr
-      label: Funkce
-      max: Maximum
-      min: Minimum
-      placeholder: Vyberte funkci pro agregaci metriky
-      std: Standardní odchylka
-      sum: Suma
+      avg: AVG
+      label: Function
+      max: MAX
+      min: MIN
+      placeholder: Select metric aggregate function
+      std: STD
+      sum: SUM
     fx:
-      description: n - současná hodnota, m - předchozí hodnota
-      label: Funkce následného zpracování
+      description: n - current dataset value, m - previous dataset value
+      label: Post processing function
     stack:
-      label: Na sebe
-      description: Metriky se stejnou hodnotou budou sloučeny
+      label: Stack
+      description: Metrics with same value will be stacked
     lineStyle:
-      label: Styl čáry
-      default: Výchozí
-      smooth: Hladká
-      step: Schod
+      label: Line style
+      default: Default
+      smooth: Smooth
+      step: Step
     angle:
-      start: Úhel na začátku
-      end: Úhel na konci
-    rose: Růže
+      start: Start angle
+      end: End angle
+    rose: Rose
     radar:
       shape:
-        label: Tvar radaru
+        label: Radar shape
         polygon: Polygon
-        circle: Kruh
-    gaugeColor: Barva
-    label: Metrika
-    labelColor: Barva čáry
-    labelLabel: Popisek
-    labelPlaceholder: Celkem
+        circle: Circle
+    gaugeColor: Color
+    label: Metric
+    labelColor: Label color
+    labelLabel: Label
+    labelPlaceholder: Total
     symbol:
       label: Symbol
-      circle: Kruh
-      triangle: Trojúhelník
-      diamond: Diamant
-      pin: Špendlík
-      arrow: Šipka
-      rect: Obdélník
-      roundRect: Zaoblený obdélník
+      circle: Circle
+      triangle: Triangle
+      diamond: Diamond
+      pin: Pin
+      arrow: Arrow
+      rect: Rectangle
+      roundRect: Rounded Rectangle
     legend:
-      bottom: Dole
-      left: Vlevo
-      positionPlaceholder: Umístění legendy
-      right: Vpravo
-      top: Nahoře
+      bottom: Bottom
+      left: Left
+      positionPlaceholder: Legend position
+      right: Right
+      top: Top
     lineTension:
-      curvy: Velké křivky
-      label: Tuhost křivky
-      medium: Střední křivky
-      placeholder: Tuhost křivky
-      slight: Malé křivky
-      straight: Rovné čáry
+      curvy: Big curvatures
+      label: Line tension
+      medium: Medium curvatures
+      placeholder: Line tension
+      slight: Small curvatures
+      straight: Straight lines
     output:
-      bar: Sloupec
-      doughnut: Mezikruží
-      label: Typ grafu *
-      line: Čára
-      pie: Koláč
-      scatter: Bodový
-      placeholder: Vyberte výstup metriky
-    relative: Zobrazit relativní hodnotu
-    relativePrecision: 'Přesnost:'
-    cumulative: Dohromady
+      bar: Bar
+      doughnut: Doughnut
+      label: Chart type *
+      line: Line
+      pie: Pie
+      scatter: Scatter
+      placeholder: Select metric output
+    relative: Show relative value
+    relativePrecision: 'Precision:'
+    cumulative: Cumulative
   module:
-    label: Modul *
-    placeholder: Vybrat modul
-    title: Zdroj dat
-  title: Tvorba grafu
-  unconfiguredReport: Nenakonfigurovaný report
+    label: Module *
+    placeholder: Pick a module
+    title: Data Source
+  title: Chart builder
+  unconfiguredReport: Unconfigured report
   yAxis:
-    axisOnRight: Umístit osu napravo
-    axisScaleFromZero: Vždy začít osu na nule
-    label: Osa Y
+    axisOnRight: Place axis on the right side
+    axisScaleFromZero: Always begin axis scale at zero
+    label: Y-axis
     options:
-      label: Možnosti
+      label: Options
     rotate:
-      label: Otočit popisky
-      description: Popisky můžou být otočeny o -90 až +90 stupňů
-    labelLabel: Popisek osy
+      label: Rotate labels
+      description: Labels can be rotated from -90 to 90 degrees
+    labelLabel: Axis label
     labelPosition:
-      label: Pozice osy
-      top: Začátek
-      center: Uprostřed
-      bottom: Konec
+      label: Label position
+      top: Start
+      center: Center
+      bottom: End
     horizontal:
-      label: Horizontální
-    logarithmicScale: Logaritmické měřítko
-    maxLabel: Maximální hodnota
-    maxPlaceholder: Maximální hodnota
-    minLabel: Minimální hodnota
-    minPlaceholder: Minimální hodnota
+      label: Horizontal
+    logarithmicScale: Logarithmic scale
+    maxLabel: Max value
+    maxPlaceholder: Maximum value
+    minLabel: Min value
+    minPlaceholder: Minimum value
   additionalConfig:
     legend:
-      label: Legenda
-      show: Zobrazit legendu
+      label: Legend
+      show: Show legend
       orientation:
-        label: Orientace
-        horizontal: Horizontální
-        vertical: Vertikální
+        label: Orientation
+        horizontal: Horizontal
+        vertical: Vertical
       align:
-        label: Zarovnání
-        left: Vlevo
-        right: Vpravo
-        center: Uprostřed
-      scrollable: Posuvné
+        label: Align
+        left: Left
+        right: Right
+        center: Center
+      scrollable: Scrollable
       position:
-        customize: Výchozí pozice
-        top: Nahoře
-        right: Vpravo
-        bottom: Dole
-        left: Vlevo
-      valueRange: Hodnoty můžou být v pixelech (20) nebo v procentech (20%)
+        customize: Default position
+        top: Top
+        right: Right
+        bottom: Bottom
+        left: Left
+      valueRange: Values can be set as pixels 20 or as percentages 20%
       options:
-        label: Možnosti
+        label: Options
     tooltip:
-      label: Detail
-      labelNextToChart: Zobrazit popisky vedle grafu
+      label: Tooltip
+      labelNextToChart: Show labels next to chart
       formatting:
-        label: Vlastní formátování
-        description: '{a} - popisek metriky, {b} - hodnota dimenze, {c} - hodnota metriky, {d} - hodnota metriky v procentech'
+        label: Custom formatting
+        description: '{a} - metrics label, {b} - dimension value, {c} - metric value, {d} - metric value percentage'
         placeholder: '{a}<br />{b} : {c} ({d}%)'
-        disclaimer: Přidání hodnoty do pole formátování způsobí vypnutí formátu, prefixu a suffixu pole
+        disclaimer: Adding a value to the formatting field will disable the fields number format, prefix, and suffix and vice versa
     offset:
-      label: Posunutí
-      default: Výchozí posunutí
+      label: Offset
+      default: Default offset
       position:
-        top: Nahoře
-        right: Vpravo
-        bottom: Dole
-        left: Vlevo
-      valueRange: Hodnoty můžou být v pixelech (20) nebo v procentech (20%)
+        top: Top
+        right: Right
+        bottom: Bottom
+        left: Left
+      valueRange: Values can be set as pixels 20 or as percentages 20%
   toolbox:
-    label: Nástroje
+    label: Tools
     saveAsImage:
-      label: Zobrazit tlačítko "uložit jako obrázek"
+      label: Show "Save as Image" button
     timeline:
-      label: Časová osa
+      label: Timeline
       options:
-        none: Nic
-        x: Osa X
-        y: Osa Y
-        xy: Obojí
+        none: None
+        x: X-Axis
+        y: Y-Axis
+        xy: Both
   formatting:
     format:
-      label: Formát
-      placeholder: '0,00'
+      label: Format
+      placeholder: '0.00'
     prefix:
-      label: Předpona
+      label: Prefix
       placeholder: '#'
     suffix:
-      label: Přípona
+      label: Suffix
       placeholder: '$'
     presetFormats:
-      label: Formát
+      label: Format
       options:
-        custom: Vlastní
-        accounting: Účetní číslo
+        custom: Custom
+        accounting: Accounting number
       description:
         custom: ''
-        accounting: Záporná čísla se transformují na kladná a zobrazí se v závorkách, 0 se zobrazí jako pomlčka
-import: 'Importovat graf(y):'
-newLabel: 'Vytvořit nový graf:'
-name: Název grafu *
-handle: Identifikátor
-generalSettings: Obecná nastavení
+        accounting: Negative numbers are transformed into positive and added in brackets and the value 0 is substituted by a dash
+import: 'Import chart(s):'
+newLabel: 'Create a new chart:'
+name: Chart name *
+handle: Handle
+generalSettings: General settings
 notification:
-  unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
-  loadFailed: Nepovedlo se načíst graf
-  saveFailed: Nepovedlo se uložit graf
-  saved: Graf uložen
-  deleteFailed: Nepovedlo se smazat graf
-  deleted: Graf smazán
-searchPlaceholder: Vyhledat grafy v tomto jmenném prostoru
-title: Seznam grafů
-undefined: nedefinováno
+  loadFailed: Could not load chart
+  saveFailed: Could not save this chart
+  saved: Chart saved
+  deleteFailed: Could not delete this chart
+  deleted: Chart deleted
+searchPlaceholder: Search charts in this namespace
+title: List of Charts
+undefined: undefined
