@@ -237,7 +237,7 @@ edit:
       placeholder: '#'
     suffix:
       label: Suffix
-      placeholder: $
+      placeholder: '$'
     presetFormats:
       label: Format
       options:
