@@ -1,5 +1,5 @@
 errors:
-  failedToDownloadAttachment: 'nepovedlo se stáhnout přílohu z {attachmentURL}: {err}'
-  failedToLoadUser: nepovedlo se načíst uživatele pro {recipient}
-  invalidReceipientFormat: nevalidní formát příjemce ({recipient})
-  noRecipients: není možné odeslat email bez příjemce
+  failedToDownloadAttachment: 'could not download attachment from {attachmentURL}: {err}'
+  failedToLoadUser: could not load user for {recipient}
+  invalidReceipientFormat: invalid recipient format ({recipient})
+  noRecipients: cannot send email message without recipients
