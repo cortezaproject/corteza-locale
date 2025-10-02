@@ -1,18 +1,18 @@
 template:
-  title: Vícefaktorové přihlášení
+  title: Multi-factor authentication
   email:
-    instructions: Zkontrolujte svou emailovou schránku a zadejte kód
-    code: Kód
-    verify: Ověřit
-    resend: Poslat znovu
-    confirmed: Email OTP potvrzen
+    instructions: Check your inbox and enter the received code
+    code: Code
+    verify: Verify
+    resend: Resend
+    confirmed: Email OTP confirmed
   totp:
-    instructions: Zkontrolujte svou TOTP aplikaci a zadejte kód
-    code: Kód
-    confirmed: TOTP kód potvrzen
-    verify: Ověřit
+    instructions: Check your TOTP application and enter the code you received
+    code: Code
+    confirmed: TOTP confirmed
+    verify: Verify
 alerts:
   email:
-    resent: Email OTP byl znovu odeslán
+    resent: Email OTP resent
   topt:
-    valid: TOTP je validní
+    valid: TOTP valid
