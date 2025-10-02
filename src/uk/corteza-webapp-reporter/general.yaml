@@ -31,8 +31,8 @@ resourceList:
     next: Next
     prev: Previous
     showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single: 'One {{data}}'
-    single_plural: '{{count}} {{data}}'
+    single_one: 'One {{data}}'
+    single_other: '{{count}} {{data}}'
     recordsPerPage: Per Page
   clone: Clone
 themes:
@@ -40,3 +40,7 @@ themes:
     light: Light
     dark: Dark
 cloneSuffix: copy
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds
