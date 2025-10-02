@@ -1,5 +1,5 @@
-datasource: Zdroj dat
-label: Popisek
-none: Nic
-prefilter: Před-filtr
-scenario-name: 'Název scénáře...'
+datasource: Datasource
+label: Label
+none: None
+prefilter: Prefilter
+scenario-name: 'Scenario Name...'
