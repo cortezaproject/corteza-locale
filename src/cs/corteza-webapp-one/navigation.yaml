@@ -1,25 +1,30 @@
-adminPanel: Administrační panel
-automation: Automatizace
-chart: Grafy
-configuration: Konfigurace
+adminPanel: Admin panel
+automation: Automation
+chart: Charts
+configuration: Configuration
 help:
-  documentation: Dokumentace
-  feedback: Odeslat zpětnou vazbu
-  forum: Pomoc
-  version: 'Verze:'
-module: Moduly
-more: Více
-namespace: Jmenný prostor
-noPageTitle: Chybí nadpis stránky
-page: Stránky
-publicPages: Veřejné stránky
+  documentation: Documentation
+  feedback: Send feedback
+  forum: Help
+  version: 'Version:'
+module: Modules
+more: More
+namespace: Namespaces
+noPageTitle: No page title
+page: Pages
+publicPages: Public pages
 appMenu: Menu
 userSettings:
-  changePassword: Změna hesla
-  loggedInAs: Přihlášený uživatel {{user}}
-  logout: Odhlásit
-  profile: Profil
+  changePassword: Change password
+  loggedInAs: Logged in as {{user}}
+  logout: Logout
+  profile: Profile
+  theme: Theme
 themes:
   labels:
-    light: Světlé
-    dark: Tmavé
+    light: Light
+    dark: Dark
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds
