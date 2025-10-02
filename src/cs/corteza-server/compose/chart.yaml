@@ -1,16 +1,16 @@
 errors:
-  handleNotUnique: identifikátor není unikátní
-  invalidHandle: nevalidní identifikátor
-  invalidID: nevalidní ID
-  invalidNamespaceID: nevalidní nebo chybějící ID jmenného prostoru
-  moduleNotFound: modul neexistuje
-  namespaceNotFound: jmenný prostor neexistuje
-  notAllowedToCreate: není povoleno vytvářet grafy
-  notAllowedToDelete: není povoleno smazat tento graf
-  notAllowedToRead: není povoleno zobrazit tento graf
-  notAllowedToReadNamespace: chybí povolení ke čtení tohoto jmenného prostoru
-  notAllowedToSearch: není povoleno hledat nebo procházet grafy
-  notAllowedToUndelete: není povoleno obnovit tento smazaný graf
-  notAllowedToUpdate: není povoleno aktualizovat tento graf
-  notFound: graf neexistuje
-  staleData: zastaralá data
+  handleNotUnique: handle not unique
+  invalidHandle: invalid handle
+  invalidID: invalid ID
+  invalidNamespaceID: invalid or missing namespace ID
+  moduleNotFound: module does not exist
+  namespaceNotFound: namespace does not exist
+  notAllowedToCreate: not allowed to create charts
+  notAllowedToDelete: not allowed to delete this chart
+  notAllowedToRead: not allowed to read this chart
+  notAllowedToReadNamespace: not allowed to read this namespace
+  notAllowedToSearch: not allowed to search or list charts
+  notAllowedToUndelete: not allowed to undelete this chart
+  notAllowedToUpdate: not allowed to update this chart
+  notFound: chart does not exist
+  staleData: stale data
