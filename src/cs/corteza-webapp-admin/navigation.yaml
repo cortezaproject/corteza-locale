@@ -1,41 +1,41 @@
 dashboard: Dashboard
 system:
-  group: Systém
+  group: System
   items:
-    users: Uživatelé
-    actionlog: Záznam událostí
-    apigw: Integrační brána
-    applications: Aplikace
-    authclients: Autorizovaní klienti
-    connections: Spojení
-    code-snippets: Výstřižky kódu
-    sensitivityLevel: Úrovně citlivosti
-    permissions: Oprávnění
-    queues: Fronty zpráv
-    roles: Role
-    settings: Nastavení autorizace
-    email: Nastavení emailu
-    stats: Statistiky
-    templates: Šablony
+    users: Users
+    actionlog: Action log
+    apigw: Integration Gateway
+    applications: Applications
+    authclients: Auth Clients
+    connections: Connections
+    code-snippets: Code Snippets
+    sensitivityLevel: Sensitivity Levels
+    permissions: Permissions
+    queues: Messaging Queues
+    roles: Roles
+    settings: Auth Settings
+    email: Email settings
+    stats: Stats
+    templates: Templates
 compose:
   group: Compose
   items:
-    automation: Automatizace
-    permissions: Oprávnění
-    settings: Nastavení
+    automation: Automation
+    permissions: Permissions
+    settings: Settings
 automation:
-  group: Automatizace
+  group: Automation
   items:
-    permissions: Oprávnění
-    scripts: Skript Corredor
-    sessions: Relace
+    permissions: Permissions
+    scripts: Corredor Scripts
+    sessions: Sessions
     workflows: Workflows
 federation:
-  group: Federace
+  group: Federation
   items:
-    nodes: Uzly
-    permissions: Oprávnění
+    nodes: Nodes
+    permissions: Permissions
 ui:
-  group: Uživatelské rozhraní
+  group: User interface
   items:
-    settings: Nastavení
+    settings: Settings
