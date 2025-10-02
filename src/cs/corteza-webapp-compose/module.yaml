@@ -1,238 +1,243 @@
 allRecords:
   create:
-    title: Vytvořit záznam pro modul "{{name}}"
+    title: Create record for module "{{name}}"
   edit:
-    title: Editovat záznam pro modul "{{name}}"
-  label: Všechny záznamy
+    title: Edit record for module "{{name}}"
+  label: All records
   list:
-    title: Všechny záznamy pro modul "{{name}}"
+    title: All records for module "{{name}}"
   columns:
-    title: Konfigurovat sloupce
-    description: Vybrané sloupce nebudou uloženy, když obnovíte stránku
+    title: Configure columns
+    description: The columns picked won't be saved after you refresh the page
   tooltip:
-    configureColumns: Výběr velkého počtu polí nebo zobrazení polí se záznamy nebo uživateli ovlivní výkon
+    configureColumns: Selecting a large number of fields or displaying record/user fields will impact performance
   view:
-    title: Zobrazit záznam pro modul "{{name}}"
+    title: View record for module "{{name}}"
 block:
   record:
-    recordDeleted: Tento záznam byl smazán
-    loadFailed: Nepovedlo se načíst záznam
-createLabel: Nový modul
+    recordDeleted: This record was deleted
+    loadFailed: Could not load record
+createLabel: New Module
 edit:
-  create: Vytvořit modul
-  edit: Editovat modul
+  create: Create module
+  edit: Edit module
   fields:
-    label: Pole
+    label: Fields
+    columns:
+      name:
+        label: Name
+      title:
+        label: Title
+      type:
+        label: Type
   federationSettings:
     downstream:
-      allFields: Všechna pole
-      description: 'Párovat federovaná pole s existujícími:'
-      title: Mapování
+      allFields: All Fields
+      description: 'Match federated fields with existing ones:'
+      title: Map
     error:
       fetch:
-        data: Chyba při získávání dat ze serveru
-        exposed: Chyba při získávání informací o vystaveném modulu
-        shared: Chyba při získávání informací o sdíleném modulu
-        mmap: Chyba při získávání informací o mapování modulu
-        node: Chyba při získávání informací o uzlech
+        data: Error fetching server data
+        exposed: Error fetching exposed module info
+        shared: Error fetching shared module info
+        mmap: Error fetching module mapping info
+        node: Error fetching nodes info
       persist:
-        exposed: Chyba při ukládání informací o vystaveném modulu
-        shared: Chyba při ukládání informací o sdíleném modulu
-        mmap: Chyba při ukládání informací o mapování modulu
+        exposed: Error persisting exposed module info
+        shared: Error persisting shared module info
+        mmap: Error persisting module mapping info
     general:
-      receive: Získat nové záznamy z jiné organizace (příjem)
-      send: Poslat nové záznamy do federované sítě (odeslání)
-      title: Obecné
-    noNodes: Nejsou dostupné žádné federované servery
-    noPermission: Chybí právo spravovat vystavený modul
-    pickModule: Vyberte federovaný modul
-    pickModuleField: Vyberte pole modulu
-    pickServer: Vyberte federovaný server
-    specificTitle: Nastavení federace ({{handle}})
-    title: Nastavení federace
+      receive: Receive new records from another organization (downstream)
+      send: Send new records to the federated network (upstream)
+      title: General
+    noNodes: No federated servers available
+    noPermission: No permission to manage exposed module
+    pickModule: Pick a federated module
+    pickModuleField: Pick a module field
+    pickServer: Pick a federated server
+    specificTitle: Federation Settings ({{handle}})
+    title: Federation Settings
     upstream:
-      copyFrom: Kopírovat nastavení z
-      allFields: Všechna pole
-      description: Vyberte pole které sdílení s vybranou sítí
-      title: Vystavit
+      copyFrom: Copy settings from
+      allFields: All Fields
+      description: Select the fields you want to share with the selected network
+      title: Expose
   discoverySettings:
-    title: Nastavení zjišťování
-    public: Veřejné
-    private: Soukromé
-    protected: Chráněné
-  fieldPermissions: Práva na pole
-  manageRecordFields: Spravovat pole záznamu
-  moduleFieldSettings: Nastavení polí modulu
-  moduleInfo: Informace o modulu
-  newField: Přidat nové pole
-  recordPermissions: Práva na záznam
-  reorderFields: Pole záznamu
-  specificFieldSettings: Nastavení pole ({{name}})
+    title: Discovery settings
+    public: Public
+    private: Private
+    protected: Protected
+  fieldPermissions: Field permissions
+  manageRecordFields: Manage record fields
+  moduleFieldSettings: Module field settings
+  moduleInfo: Module info
+  newField: Add new field
+  recordPermissions: Record permissions
+  reorderFields: Reorder fields
+  specificFieldSettings: Field settings ({{name}})
   steps:
-    recordList: Stránka se seznamem záznamů
-    recordPage: Stránka záznamu
-  systemFields: 'Systémová pole'
+    recordList: Page with record list
+    recordPage: Record page
+  systemFields: 'System fields'
   tooltip:
-    attributes: Vyberte, jestli pole může mít několik hodnot, jestli je povinné nebo jestli obsahuje citlivá data
-    name: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a pomlčky. Musí končit písmenem nebo číslicí.
-    private: Citlivá data
-    required: Povinné pole
-    title: Název zobrazený ve formuláři / výpisu dat
+    attributes: Select if the field can hold multiple values, if it's required field or if contains sensitive data
+    name: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dashes. Must end with letter or number.
+    private: Sensitive data
+    required: Required field
+    title: The name displayed in form input / data lists
   issues:
-    label: Problémy ({{count}})
+    label: Issues ({{count}})
   schemaAlterations:
-    title: Změny schématu
-    resolve: Vyřešit
-    resolveAuto: Vyřešit automaticky
-    resolved: Vyřešeno
-    dismiss: Zahodit
-    waitingFor: 'Čeká na {{id}}'
-    noAlterations: Žádná změna schématu nemusí být vyřešena
+    title: Schema alterations
+    resolve: Resolve
+    resolveAuto: Resolve automatically
+    resolved: Resolved
+    dismiss: Dismiss
+    waitingFor: 'Waiting for {{id}}'
+    noAlterations: No schema alterations need to be resolved
     columns:
-      alteration: Změna
-      change: Změna
+      alteration: Alteration
+      change: Change
       status: Status
     params:
       attribute:
-        add: Přidat sloupec {{ident}} kódovaný jako {{storeType}} typu {{attrType}}
-        delete: Smazat sloupec {{ident}} kódovaný jako {{storeType}}
-        reType: Změnit typ sloupce {{ident}} na {{toType}}
-        reEncode: Změnit kódování sloupce {{ident}} na {{toType}}
+        add: Add column {{ident}} encoded as {{storeType}} of type {{attrType}}
+        delete: Delete column {{ident}} encoded as {{storeType}}
+        reType: Changing type of column {{ident}} to {{toType}}
+        reEncode: Changing encoding of column {{ident}} to {{toType}}
       model:
-        add: Přidat schéma pro model {{ident}}
-        delete: Smazat schéma pro model {{ident}}
+        add: Add schema for model {{ident}}
+        delete: Delete schema for model {{ident}}
   config:
     dal:
-      title: Úložiště dat
+      title: Data store
       connection:
-        label: Databázové spojení
-        placeholder: Vybrat databázové spojení
-        description: Změna spojení resetuje konfiguraci úrovně citlivosti modulu a polí, pokud je úroveň citlivosti nekompatibilní s novým spojením
+        label: Database connection
+        placeholder: Select a database connection
+        description: Changing the connection will reset the sensitivity level configuration on the module and fields, if the sensitivity level is incompatible with the new connection
       ident:
-        label: Kolekce nebo jméno databázové tabulky
-        placeholder: compose_zaznam
-        description: "Jméno databázové tabulky nebo kolekce, kde se ukládají záznamy. Podporuje dělení pomocí proměnných {{module}} pro id modulu a {{namespace}} pro jmenný prostor"
+        label: Collection or database table name
+        placeholder: compose_record
+        description: "Name of the database table or collection where records can be accessed and stored. Supports partitioning placeholders: {{module}} for module handle and {{namespace}} for namespace handle"
       connections:
-        fetch-failed: Nepovedlo se získat dostupná spojení
+        fetch-failed: Could not fetch available connections
       module-fields:
-        label: Mapování a kódování pole modulu
+        label: Module field mapping and encoding
         description: |
-          Nastavte, jak se v databázi ukládají a čtou pole záznamu.
-          Výchozí chování je kódovat hodnoty do JSON a ukládat je v jednom společném poli.
-          Alternativně lze použít sloupce se stejným názvem jako je název pole (Sloupec)
-          nebo použít Alias a uložit hodnotu přímo do sloupce.
+          Configure how record fields are stored and read from the database.
+          Default behaviour is to encode values into JSON and store them in a single field.
+          Alternatively you can use columns with the same name as the field name (Column)
+          or use an Alias and store the value directly in the column.
       system-fields:
-        label: Mapování a kódování systémového pole
+        label: System field mapping and encoding
         description: |
-          Systémová pole se používají pro ukládání metadat o záznamu. Nastavte jejich vynechání nebo ukládání do sloupce se stejným názvem (Sloupec),
-          jiného sloupce (Alias), nebo kódování do JSON.
+          System fields are used to store metadata about the record.
+          Configure to skip or store them into a column with the same name (Column),
+          a different column (Alias) or encode them into JSON.
         grouptypes:
-          all: Vše
-          partition: Oddíl
-          userReference: Odkaz na uživatele
-          timestamps: Časové značky
-          extras: Extra
+          all: All
+          partition: Partition
+          userReference: User reference
+          timestamps: Timestamps
+          extras: Extras
       encoding-strategy:
-        unavailable: nedostupné
+        unavailable: unavailable
         ident:
-          placeholder: Pole nebo název sloupce databázové tabulky
+          placeholder: Field or database table column name
         strategies:
           plain:
-            label: Sloupec
+            label: Column
           alias:
             label: Alias
           json:
             label: JSON
     privacy:
-      title: Soukromí
+      title: Privacy
       sensitivity-level:
-        label: Nejvyšší povolená úroveň citlivosti
-        placeholder: Vyberte úroveň citlivosti
-        description: Nejvyšší povolená úroveň citlivosti pro pole v tomto modulu. Změna této hodnoty resetuje úroveň citlivosti polí, pokud není kompatibilní.
+        label: Highest allowed sensitivity level
+        placeholder: Select a sensitivity level
+        description: Highest allowed level of sensitivity for fields on this module, changing this value will reset the sensitivity level of fields if they are incompatible.
       usage-disclosure:
-        label: Informace o použití citlivých dat (viditelné v konzoli ochrany soukromí)
+        label: Sensitive data usage disclosure (visible on data-privacy console)
       sensitivity-levels:
-        fetch-failed: Nepovedlo se získat úrovně citlivosti
+        fetch-failed: Could not fetch sensitivity levels
     record-revisions:
-      title: Revize záznamu
-      enabled: Povolit revize záznamu
+      title: Record Revisions
+      enabled: Enable record revisions
       ident:
-        label: Identifikátor
-        placeholder: revize_zaznamu_compose
-        description: 'Jméno databázové tabulky nebo kolekce, kde se ukládají revize záznamů. Podporuje dělení pomocí proměnných {{module}} pro id modulu a {{namespace}} pro jmenný prostor'
+        label: Identifier
+        placeholder: compose_record_revisions
+        description: 'Name of the database table or collection where revisions records can be accessed and stored. Supports partitioning placeholders: {{module}} for module handle and {{namespace}} for namespace handle'
     validation:
-      title: Validace
+      title: Validation
       record-duplication:
-        title: Detekce duplicitních záznamů
+        title: Record duplication detection
         strict-fields:
-          label: Striktní validace duplicitních hodnot
-          description: Záznam nebude uložen, pokud je detekována duplicitní hodnota ve vybraných polích v některém jiném záznamu v tomto modulu
+          label: Strict duplicate value validation
+          description: Record will not be saved when a duplicate value is detected in the selected fields in any existing record of this module
         non-strict-fields:
-          label: Varování u duplicitních hodnot
-          description: Záznam bude uložen a uživatel dostane varování, pokud je detekována duplicitní hodnota ve vybraných polích v jakémkoliv existujícím záznamu tohoto modulu
+          label: Soft duplicate value validation
+          description: Record will be saved and user will be presented with a warning when a duplicate value is detected in the selected fields in any existing record of this module
     uniqueValues:
-      title: Unikátní hodnoty
-      duplicationDetection: Detekce duplicit
-      preventRecordsSave: Nedovolit uložení záznamu, pokud je detekována duplicita
-      warningLabel: Varování nebo chybová hláška, když je shoda omezení
-      valueModifiers: Modifikace hodnoty
-      multiValues: Hodnoty z více polí
-      add: Přidat
-      searchFields: Přidat pole do omezení
-      ignoreCase: Ignorovat velikost písmen
-      fuzzyMatch: Přibližná shoda
-      soundsLike: Zní jako
-      caseSensitive: Rozlišovat velikost písmen
-      oneOf: Jedno z
-      equal: Je rovno
-      warningMessage: Varování nebo chybová hláška, pokud se omezení shoduje
-      field: Pole
-      type: Typ
-      none: Nic
-      addNewConstraint: Přidat nové omezení
-      uniqueValueConstraint: "Omezení unikátní hodnoty #{{index}}"
+      title: Unique values
+      duplicationDetection: Duplication detection
+      preventRecordsSave: Prevent record saving if duplicate values are found
+      warningLabel: Warning or error message toast when constraint matches
+      valueModifiers: Value modifiers
+      multiValues: Multi-field values
+      add: Add
+      searchFields: Add field(s) to constraint
+      ignoreCase: Ignore case
+      fuzzyMatch: Fuzzy match
+      soundsLike: Sounds like
+      caseSensitive: Case sensitive
+      oneOf: One of
+      equal: Equal
+      warningMessage: Warning or error message toast when constraint matches
+      field: Field
+      type: Type
+      none: None
+      addNewConstraint: Add new constraint
+      uniqueValueConstraint: "Unique value constraint #{{index}}"
       tooltip:
-        performance: Použití detekce duplicit ovlivní výkon
-federated: Federované
+        performance: Using duplication detection will impact performance
+federated: Federated
 forModule:
-  recordList: Seznam záznamů pro modul
-  recordListPage: Stránka seznamu záznamů
-  recordPage: Stránka záznamu pro modul
+  recordPage: '{{name}} - Record Page'
 general:
-  fields: Pole modulu
-  unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+  fields: Module fields
   label:
-    attributes: Atributy
-    handle: Identifikátor
-    name: Jméno modulu *
-    permissions: Oprávnění
-    title: Nadpis
-    type: Typ
-    saveAndClose: Uložit a zavřít
+    attributes: Attributes
+    handle: Handle
+    name: Module Name *
+    permissions: Permissions
+    title: Title
+    type: Type
+    saveAndClose: Save and close
   placeholder:
-    name: Jméno (např. "Poptávky")
-    handle: Unikátní identifikátor (a-z, 0-9, podtržítko, pomlčka)
-    sample: Příklad
-    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
-import: Import modulu
+    name: Name (e.g. "Leads")
+    handle: Unique identifier (a - z, 0 - 9, underscore, dash)
+    sample: Sample
+    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+import: Module import
 navigation:
-  module: Moduly
-noModule: Žádné moduly
-noModuleFilter: Žádné moduly neodpovídají vyhledávání
+  module: Modules
+noModule: No modules
+noModuleFilter: No module matches your search
 list:
   columns:
-    name: Jméno
-    handle: Identifikátor
-    changedAt: Poslední změna
-  delete: Smazat
+    name: Name
+    handle: Handle
+    changedAt: Last change
+  delete: Delete
 recordPage:
-  create: Vytvořit stránku záznamu
-  edit: Editovat stránku záznamu
+  create: Create record page
+  edit: Edit record page
 recordListPage:
-  create: Vytvořit stránku seznamu záznamů
-  edit: Editovat stránku seznamu záznamů
-related-pages: Související stránky
-searchPlaceholder: Hledání ve všech modulech tohoto jmenného prostoru
-title: Seznam modulů
+  create: Create record list page
+  edit: Edit record list page
+related-pages: Related Pages
+searchPlaceholder: Search modules in this namespace
+title: List of Modules
 tooltip:
-  permissions: Práva na modul
+  permissions: Module permissions
