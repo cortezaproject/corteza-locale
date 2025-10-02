@@ -1,7 +1,7 @@
 template:
-  authorize-client: Dokončit autorizaci
+  authorize-client: Finalize the authorization of
   class:
-    your-profile: Váš profil
-    security: Zabezpečení
-    login-session: Zabezpečení přihlašování
-    authorized-clients: Autorizovaní klienti
+    your-profile: Your profile
+    security: Security
+    login-session: Login sessions
+    authorized-clients: Authorized clients
