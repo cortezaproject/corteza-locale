@@ -4,19 +4,15 @@ ui:
   set-for: Set permissions for {{target}}
   loading: Loading permissions
   label: Permissions
-
   notification:
     save:
       success: Permissions saved
       failed: Failed to save permissions
-
   edit:
     label: User roles
     description: Select role to set permissions
-
   evaluate:
     description: Evaluate applied permissions
-
   add:
     label: Add
     title: Evaluate permissions
@@ -27,17 +23,14 @@ ui:
     user:
       label: Users
       placeholder: Search or select a user
-
   tooltip:
     unknown-context:
       user: Can not evaluate permission for a user with contextual role on a non-specific resource
       role: Can not evaluate permission for contextual role on a non-specific resource
-
   access:
     allow: Allow
     inherit: Inherit
     deny: Deny
-
 resources:
   system:
     report:
