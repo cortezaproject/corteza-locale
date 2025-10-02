@@ -62,3 +62,7 @@ themes:
   labels:
     light: Light
     dark: Dark
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds
