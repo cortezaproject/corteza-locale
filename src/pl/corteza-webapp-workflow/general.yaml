@@ -24,7 +24,7 @@ now: Now
 offset: Offset
 offset-expression: Offset (expression)
 permissions: Permissions
-searchPlaceholder: Type here to search all workflows...
+searchPlaceholder: Search workflows
 subworkflow: Subworkflow
 subworkflows: Subworkflows
 deleted: Deleted
@@ -46,8 +46,8 @@ resourceList:
     next: Next
     prev: Previous
     showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single: 'One {{data}}'
-    single_plural: '{{count}} {{data}}'
+    single_one: 'One {{data}}'
+    single_other: '{{count}} {{data}}'
     recordsPerPage: Per Page
 tooltip:
   permissions: Workflow permissions
@@ -60,3 +60,7 @@ themes:
   labels:
     light: Light
     dark: Dark
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds
