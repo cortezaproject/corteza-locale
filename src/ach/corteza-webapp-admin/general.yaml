@@ -1,64 +1,68 @@
 label:
-  add: crwdns103784:0crwdne103784:0
+  add: crwdns171489:0crwdne171489:0
   general:
     yes: Yes
     no: No
   template:
-    single: crwdns103786:0crwdne103786:0
-    plural: crwdns103788:0crwdne103788:0
+    single: crwdns171491:0crwdne171491:0
+    plural: crwdns171493:0crwdne171493:0
   user:
-    single: crwdns103790:0crwdne103790:0
-    plural: crwdns103792:0crwdne103792:0
+    single: crwdns171495:0crwdne171495:0
+    plural: crwdns171497:0crwdne171497:0
   role:
-    single: crwdns103794:0crwdne103794:0
-    plural: crwdns103796:0crwdne103796:0
+    single: crwdns171499:0crwdne171499:0
+    plural: crwdns171501:0crwdne171501:0
   application:
-    single: crwdns103798:0crwdne103798:0
-    plural: crwdns103800:0crwdne103800:0
+    single: crwdns171503:0crwdne171503:0
+    plural: crwdns171505:0crwdne171505:0
   auth_client:
-    single: crwdns103802:0crwdne103802:0
-    plural: crwdns103804:0crwdne103804:0
+    single: crwdns171507:0crwdne171507:0
+    plural: crwdns171509:0crwdne171509:0
   queue:
-    single: crwdns103806:0crwdne103806:0
-    plural: crwdns103808:0crwdne103808:0
+    single: crwdns171511:0crwdne171511:0
+    plural: crwdns171513:0crwdne171513:0
   route:
-    single: crwdns103810:0crwdne103810:0
-    plural: crwdns103812:0crwdne103812:0
+    single: crwdns171515:0crwdne171515:0
+    plural: crwdns171517:0crwdne171517:0
   connection:
-    single: crwdns103814:0crwdne103814:0
-    plural: crwdns103816:0crwdne103816:0
+    single: crwdns171519:0crwdne171519:0
+    plural: crwdns171521:0crwdne171521:0
   sensitivity_level:
-    single: crwdns103818:0crwdne103818:0
-    plural: crwdns103820:0crwdne103820:0
+    single: crwdns171523:0crwdne171523:0
+    plural: crwdns171525:0crwdne171525:0
   session:
-    single: crwdns103822:0crwdne103822:0
-    plural: crwdns103824:0crwdne103824:0
+    single: crwdns171527:0crwdne171527:0
+    plural: crwdns171529:0crwdne171529:0
   workflow:
-    single: crwdns103826:0crwdne103826:0
-    plural: crwdns103828:0crwdne103828:0
-  plus-add: crwdns103830:0crwdne103830:0
-  clear: crwdns103832:0crwdne103832:0
-  all: crwdns103834:0crwdne103834:0
-  none: crwdns103836:0crwdne103836:0
-  now: crwdns103838:0crwdne103838:0
-  today: crwdns103840:0crwdne103840:0
-  routes: crwdns103842:0crwdne103842:0
-  requests: crwdns103844:0crwdne103844:0
-  refresh: crwdns103846:0crwdne103846:0
-  loadMore: crwdns103848:0crwdne103848:0
-  loading: crwdns103850:0crwdne103850:0
-  saveAndClose: crwdns103852:0crwdne103852:0
-  cancel: crwdns103854:0crwdne103854:0
-  submit: crwdns103856:0crwdne103856:0
-  delete: crwdns103858:0crwdne103858:0
-  undelete: crwdns103860:0crwdne103860:0
-  fileTypeNotAllowed: crwdns103862:0crwdne103862:0
+    single: crwdns171531:0crwdne171531:0
+    plural: crwdns171533:0crwdne171533:0
+  plus-add: crwdns171535:0crwdne171535:0
+  clear: crwdns171537:0crwdne171537:0
+  all: crwdns171539:0crwdne171539:0
+  none: crwdns171541:0crwdne171541:0
+  now: crwdns171543:0crwdne171543:0
+  today: crwdns171545:0crwdne171545:0
+  routes: crwdns171547:0crwdne171547:0
+  requests: crwdns171549:0crwdne171549:0
+  refresh: crwdns171551:0crwdne171551:0
+  loadMore: crwdns171553:0crwdne171553:0
+  loading: crwdns171555:0crwdne171555:0
+  saveAndClose: crwdns171557:0crwdne171557:0
+  cancel: crwdns171559:0crwdne171559:0
+  submit: crwdns171561:0crwdne171561:0
+  delete: crwdns171563:0crwdne171563:0
+  undelete: crwdns171565:0crwdne171565:0
+  fileTypeNotAllowed: crwdns171567:0crwdne171567:0
 editor:
-  unsavedChanges: crwdns103864:0crwdne103864:0
+  unsavedChanges: crwdns171569:0crwdne171569:0
 resourceList:
   pagination:
-    recordsPerPage: crwdns103866:0crwdne103866:0
+    recordsPerPage: crwdns171571:0crwdne171571:0
 themes:
   labels:
-    light: crwdns103868:0crwdne103868:0
-    dark: crwdns103870:0crwdne103870:0
+    light: crwdns171573:0crwdne171573:0
+    dark: crwdns171575:0crwdne171575:0
+extendSession:
+  labels:
+    extend: crwdns171577:0crwdne171577:0
+    warning: crwdns171579:0{{ countdownTime }}crwdne171579:0
