@@ -55,6 +55,14 @@ editor:
         expires:
           description: How long will password be valid before it expires
           label: Valid for
+    auto-logout:
+      title: Auto logout
+      enabled:
+        label: Enabled
+        description: Automatically log out users after a certain period of inactivity
+      timeout:
+        label: Timeout
+        description: The period of inactivity in seconds before a user is logged out
 
   external:
     title: External Authentication Providers
