@@ -86,8 +86,8 @@ general:
     next: Next
     prev: Previous
     showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single: 'One {{data}}'
-    single_plural: '{{count}} {{data}}'
+    single_one: 'One {{data}}'
+    single_other: '{{count}} {{data}}'
 navigation:
   appMenu: Menu
   adminPanel: Admin panel
@@ -110,6 +110,7 @@ navigation:
     loggedInAs: Logged in as {{user}}
     logout: Logout
     profile: Profile
+    theme: Theme
 picker:
   role:
     placeholder: Start typing to search for roles
