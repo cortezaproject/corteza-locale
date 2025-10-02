@@ -1,3 +1,3 @@
 errors:
-  unauthorized: neoprávněný přístup
-  unauthorizedScope: neoprávněný rozsah (scope)
+  unauthorized: unauthorized
+  unauthorizedScope: unauthorized scope
