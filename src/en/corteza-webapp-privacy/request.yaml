@@ -9,18 +9,15 @@ comments:
   unknown:
     date: Unknown date
     user: Unknown user
-
 kind:
   correct: Correction Request
   delete: Deletion Request
   export: Export Request
-
 status:
   canceled: Canceled
   pending: Pending
   rejected: Rejected
   approved: Approved
-
 list:
   title: Privacy Requests
   export: Export
@@ -33,7 +30,6 @@ list:
     approve: Approve Requests
     cancel: Cancel Request
     reject: Reject Requests
-
 edit:
   correct:
     private-fields: Private Fields
@@ -62,7 +58,6 @@ edit:
       label: File Format
       json: JSON
       csv: CSV
-
 view:
   approve: Approve request
   cancel: Cancel request
