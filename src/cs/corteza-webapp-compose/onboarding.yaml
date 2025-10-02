@@ -1,28 +1,28 @@
 message:
-  noPages: Vypadá to, že tento jmenný prostor zatím nemá žádné stránky k zobrazení
-  notifyAdministrator: Notifikujte svého administrátora systému
-  startBuilding: Následujte tyto kroky a začněte tvořit
+  noPages: It seems this namespace has no visible pages yet
+  notifyAdministrator: Notify your system administrator
+  startBuilding: Follow these steps to start building
 label:
-  pageBuilder: Tvoření stránek
-  welcome: Vítejte!
+  pageBuilder: Page builder
+  welcome: Welcome!
 navigation:
-  noPageTitle: Žádný nadpis stránky
+  noPageTitle: No page title
 notification:
   module:
-    createFailed: Nepovedlo se vytvořit modul
-    saveFailed: Nepovedlo se uložit tento modul
+    createFailed: Could not create a module
+    saveFailed: Could not save this module
 step:
   chart:
-    create: Vytvořit graf
-    view: Vaše grafy
+    create: Make Chart
+    view: Your Charts
   module:
-    create: Vytvořit modul
-    view: Vaše modulu
-  optional: Tento krok je nepovinný!
+    create: Create Module
+    view: Your Modules
+  optional: This step is optional!
   page:
-    create: Sestavit stránku
-    view: Vaše stránky
+    create: Build Page
+    view: Your Pages
 tooltip:
   page-configuration:
-    edit: Editovat stránku
-    list: Překlady stránky
+    edit: Edit page
+    list: Page translations
