@@ -1,17 +1,17 @@
 editor:
-  title: crwdns101712:0crwdne101712:0
+  title: crwdns172953:0crwdne172953:0
   code-snippets:
-    add: crwdns101714:0crwdne101714:0
-    empty: crwdns101716:0crwdne101716:0
-    enabled: crwdns101718:0crwdne101718:0
+    add: crwdns172955:0crwdne172955:0
+    empty: crwdns172957:0crwdne172957:0
+    enabled: crwdns172959:0crwdne172959:0
     table-headers:
-      name: crwdns101720:0crwdne101720:0
-      enabled: crwdns101722:0crwdne101722:0
-      script: crwdns101724:0crwdne101724:0
+      name: crwdns172961:0crwdne172961:0
+      enabled: crwdns172963:0crwdne172963:0
+      script: crwdns172965:0crwdne172965:0
     form:
-      title: crwdns101726:0crwdne101726:0
+      title: crwdns172967:0crwdne172967:0
       name:
-        label: crwdns101728:0crwdne101728:0
-      value:
-        label: crwdns101730:0crwdne101730:0
-        description: crwdns101732:0crwdne101732:0
+        label: crwdns172969:0crwdne172969:0
+      code:
+        label: crwdns172971:0crwdne172971:0
+        description: crwdns172973:0crwdne172973:0
