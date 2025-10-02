@@ -1,6 +1,6 @@
 general:
-  error: Chyba
-  success: Úspěch
-  warning: Varování
+  error: Error
+  success: Success
+  warning: Warning
 search:
-  failed: Vyhledávání selhalo
+  failed: Search failed
