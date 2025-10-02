@@ -13,6 +13,6 @@ editor:
       title: Add Code Snippet
       name:
         label: Name
-      value:
+      code:
         label: Code
-        description: Add external script or code snippets for services. The script must include a valid <script> tag to function.
+        description: Add external script or code snippet. The script must include a valid <script> tag to function.
