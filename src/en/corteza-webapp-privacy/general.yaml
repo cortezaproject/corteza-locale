@@ -13,12 +13,12 @@ resourceList:
   noItems: No items
   notFound: Not found
   search:
-    placeholder: Type here to search items
+    placeholder: Search
   pagination:
     next: Next
     prev: Previous
     showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single: 'One {{data}}'
+    single_one: 'One {{data}}'
     single_plural: '{{count}} {{data}}'
     recordsPerPage: Per Page
 
@@ -26,3 +26,8 @@ themes:
   labels:
     light: Light
     dark: Dark
+
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds
