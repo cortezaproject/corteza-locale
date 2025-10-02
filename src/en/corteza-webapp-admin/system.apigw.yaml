@@ -25,7 +25,6 @@ list:
       placeholder: Filter endpoints by path
   delete: Delete
   undelete: Undelete
-
   columns:
     endpoint: Endpoint
     createdAt: Created
@@ -36,7 +35,6 @@ list:
   rows:
     filters:
       deleted: Deleted
-
 settings:
   title: Settings
   profiler:
@@ -46,36 +44,28 @@ settings:
   proxy:
     label: Proxy
     follow: Follow redirects
-
 editor:
   title: Edit route
   new: New Route
   permissions: Permissions
-
   info:
     title: Basic information
-
     id: ID
     endpoint: Endpoint
     method: Method
     description: Description
     enabled: Enabled
-
     delete: Delete
     undelete: Undelete
     deletedAt: Deleted at
-
     updatedAt: Updated at
     createdAt: Created at
-
     createdBy: Created by
-
     tooltip: Endpoint must begin with a slash "/" and can not contain any special characters except for the underscore "_" and hyphen "-"
     validation:
       slash: Endpoint must begin with a slash "/"
       minLength: Endpoint must contain at least one character
       invalidCharacters: Endpoint contains invalid characters
-
   filters:
     title: Filter list
     enabled: Enabled
@@ -85,16 +75,13 @@ editor:
     addHeader: Add header
     params: Params
     filterListEmpty: Filter list is empty!
-
     modal:
       title: Query parameters verifier
       ok: Save & Close
-
     step_title:
       prefilter: Prefiltering
       processer: Processing
       postfilter: Postfiltering
-
     list:
       remove: Remove
       filters: Filters
@@ -102,7 +89,6 @@ editor:
       actions: Actions
       active: Active
       noFilters: No filters
-
     labels:
       expr: Expression
       location: URL
@@ -113,7 +99,6 @@ editor:
       header: Headers
       name: Name
       value: Value
-
     httpStatus:
       none: No Status
       '300': 300 - Multiple Choices
@@ -123,15 +108,12 @@ editor:
       '304': 304 - Not Modified
       '307': 307 - Temporary Redirect
       '308': 308 - Permanent Redirect
-
     placeholders:
       workflow: Select a workflow
-
     help:
       expression:
         example: Example == "match string" && match(SecondParam, "^foo\\s.*$")
         link: Documentation
-
 profiler:
   label: Profiler
   title: Integration Gateway Profiler
@@ -142,7 +124,6 @@ profiler:
   purge:
     all: Purge requests for all routes
     this: Purge requests for this route
-
   hit:
     title: Request Details
     general:
@@ -162,7 +143,6 @@ profiler:
       label: Headers
     body:
       label: Body
-
   columns:
     actions: ''
     path: Route
