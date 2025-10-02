@@ -152,7 +152,7 @@ general:
   customID:
     label: Custom ID
     placeholder: customID
-    description: Used to reference the block in Custom CSS (#customID). Must be unique on the page.
+    description: 'Used to reference the block in Custom CSS (#customID). Must be unique on the page.'
     invalid-state: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dashes. Must end with letter or number
   customCSSClass:
     label: Custom CSS Class
@@ -370,7 +370,6 @@ recordList:
     dateRange: Select date range
     multiValueDelimiter:
       label: Multi value delimiter
-
       semicolon:
         label: value 1;value 2;...;value n
       comma:
@@ -495,7 +494,6 @@ recordList:
     idFieldDescription: Records with matching ID's will be updated.
     multiValueDelimiter:
       label: Multi value delimiter
-
       semicolon:
         label: value 1;value 2;...;value n
       comma:
@@ -524,7 +522,7 @@ recordList:
   label: Record list
   modulePlaceholder: Select a module
   moduleFootnote: Modules without a {{0}} can only be used in a record list as an inline editor
-  moduleFieldsFootnote : If no fields are selected, the default fields will be shown
+  moduleFieldsFootnote: If no fields are selected, the default fields will be shown
   noRecords: There are no records matching your request
   pagination:
     next: Next
@@ -690,26 +688,21 @@ recordOrganizer:
     label: 'Record Organizer block for module {{0}}. Label field {{1}}, Description field {{2}}. Value setting field: {{3}}, Sorted by position field: {{4}}.'
     moduleNotSelected: Record Organizer module not selected
   addNewRecord: + Add
-
 recordRevisions:
   label: Record revisions
-
   viewer:
     errors:
       no-record: No record found to display revisions for
       no-revisions: No record revisions found
       disabled-on-module: Record revisions are disabled on this module
-
     show-revisions: Show record revisions ({{ revision }})
     show-changes: "{{ count }} change(s)"
-
     operations:
       created: Created
       updated: Updated
       soft-deleted: Soft deleted
       undeleted: Restored
       hard-deleted: Hard deleted
-
     revisions:
       columns:
         timestamp:
@@ -726,7 +719,6 @@ recordRevisions:
           label: Old value
         new-value:
           label: New value
-
   configurator:
     label: Record revisions
     preload: Preload record revisions
@@ -745,7 +737,6 @@ recordRevisions:
           label: Show
         expanded-references:
           label: Expand references
-
 socialFeed:
   label: Twitter feed
   noInput: No input for displaying social feed...
@@ -851,7 +842,6 @@ report:
     label: Scenario
   element:
     label: Display element
-
 progress:
   add: + Add
   count: Count
@@ -897,7 +887,6 @@ progress:
     secondary: Secondary
     success: Success
     warning: Warning
-
 geometry:
   label: Map
   viewLabel: Map
@@ -938,7 +927,6 @@ geometry:
     lowerRight: Bounds lower right
   tooltip:
       goToCurrentLocation: Go to current location
-
 tabs:
   label: Tabs
   alertTitle: Set a title for your block
@@ -988,6 +976,5 @@ tabs:
     delete: Delete tab
     editDisabled: Editing tabbed blocks is disabled until you save this block
     addBlock: Add new block
-
 noConfiguration: Block not configured correctly
 interpolationFootnote: Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
