@@ -23,6 +23,13 @@ edit:
   edit: Edit module
   fields:
     label: Fields
+    columns:
+      name:
+        label: Name
+      title:
+        label: Title
+      type:
+        label: Type
   federationSettings:
     downstream:
       allFields: All Fields
@@ -214,12 +221,9 @@ edit:
 
 federated: Federated
 forModule:
-  recordList: Record List for module
-  recordListPage: Record List page for module
-  recordPage: Record page for module
+  recordPage: '{{name}} - Record Page'
 general:
   fields: Module fields
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
   label:
     attributes: Attributes
     handle: Handle
@@ -253,7 +257,7 @@ recordListPage:
   create: Create record list page
   edit: Edit record list page
 related-pages: Related Pages
-searchPlaceholder: Type here to search all modules in this namespace
+searchPlaceholder: Search modules in this namespace
 title: List of Modules
 tooltip:
   permissions: Module permissions
