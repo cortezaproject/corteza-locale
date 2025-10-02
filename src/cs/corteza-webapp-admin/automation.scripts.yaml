@@ -1,17 +1,17 @@
 list:
   columns:
-    name: Jméno
-    updatedAt: Poslední aktualizace
+    name: Name
+    updatedAt: Last update
   filter:
-    absoluteTime: Zobrazit absolutní čas
-    incScriptsWithErrors: Chyby ({{ count }})
-    incScriptsWithIterator: Iterátor ({{ count }})
-    incScriptsWithSecurity: Bezpečnost ({{ count }})
-    incScriptsWithTriggers: Spouštěče ({{ count }})
-    searchQuery: Vyhledávací dotaz
+    absoluteTime: Show absolute time
+    incScriptsWithErrors: Errors ({{ count }})
+    incScriptsWithIterator: Iterator ({{ count }})
+    incScriptsWithSecurity: Security ({{ count }})
+    incScriptsWithTriggers: Triggers ({{ count }})
+    searchQuery: Search query
   flags:
-    iterator: Iterátor
-    security: Bezpečnost
-    triggers: Spouštěče
-  labelMissing: <popisek chybí>
-  title: Corredor skripty
+    iterator: Iterator
+    security: Security
+    triggers: Triggers
+  labelMissing: <label missing>
+  title: Corredor Scripts
