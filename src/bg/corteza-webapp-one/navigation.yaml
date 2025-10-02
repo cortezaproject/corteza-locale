@@ -19,7 +19,12 @@ userSettings:
   loggedInAs: Logged in as {{user}}
   logout: Logout
   profile: Profile
+  theme: Theme
 themes:
   labels:
     light: Light
     dark: Dark
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds
