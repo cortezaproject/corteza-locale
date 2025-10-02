@@ -1,28 +1,28 @@
 translator:
-  save-changes: Uložit
-  add-language: Přidat jazyk
-  missing-translation: Chybějící překlad
+  save-changes: Save
+  add-language: Add language
+  missing-translation: Missing translation
 resources:
   chart:
-    title: Graf "{{ handle }}"
-    tooltip: Překlady grafu
+    title: Chart "{{ handle }}"
+    tooltip: Chart translations
   namespace:
-    title: Jmenný prostor "{{ handle }}"
-    tooltip: Překlady jmenného prostoru
+    title: Namespace "{{ handle }}"
+    tooltip: Namespace translations
   module:
-    title: Modul "{{ handle }}"
-    tooltip: Překlady modulu
+    title: Module "{{ handle }}"
+    tooltip: Module translations
     field:
-      title: Pole "{{ name }}" modulu
-      tooltip: Překlady pole
+      title: Module field "{{ name }}"
+      tooltip: Field translations
   page:
-    title: Stránka "{{ handle }}"
-    tooltip: Překlady stránky
+    title: Page "{{ handle }}"
+    tooltip: Page translations
     block:
-      title: "Blok #{{ blockID }} stránky"
-      tooltip: Překlady bloku
+      title: "Page block #{{ blockID }}"
+      tooltip: Block translations
     layout:
-      title: Rozložení "{{ handle }}" stránky
+      title: Page layout "{{ handle }}"
   page-layout:
-    title: Rozložení "{{ handle }}" stránky
-    tooltip: Překlady rozložení stránky
+    title: Page layout "{{ handle }}"
+    tooltip: Page layout translations
