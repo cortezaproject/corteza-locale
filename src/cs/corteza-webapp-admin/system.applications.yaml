@@ -1,68 +1,68 @@
 editor:
   info:
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
-    delete: Smazat
-    deletedAt: Čas odstranění
-    enabled: Povoleno
+    createdAt: Created at
+    createdBy: Created by
+    delete: Delete
+    deletedAt: Deleted at
+    enabled: Enabled
     id: ID
-    name: Jméno *
-    title: Základní informace
-    undelete: Obnovit smazané
-    updatedAt: Čas aktualizace
-  new: Nová aplikace
-  permissions: Oprávnění
+    name: Name *
+    title: Basic information
+    undelete: Undelete
+    updatedAt: Updated at
+  new: New Application
+  permissions: Permissions
   title:
-    create: Vytvořit aplikaci
-    edit: Editovat aplikaci
+    create: Create application
+    edit: Edit application
   unify:
     config:
-      description: Konfigurace aplikace (JSON)
-      label: Konfigurace
-    listed: V seznamu
+      description: Application configuration (JSON)
+      label: Configuration
+    listed: Listed
     logo:
       label: Logo
-      description: Logo ve výběru aplikací
-      placeholder: Vyberte logo nebo ho sem přetáhněte...
-      reset: Resetovat
+      description: Logo used in the application selector
+      placeholder: Choose a logo or drop it here...
+      reset: Reset
     name:
-      description: Jméno použité ve výběru aplikací
-      label: Jméno
-    pinned: Připnuto
-    title: Výběr aplikací
+      description: Name used in the application selector
+      label: Name
+    pinned: Pinned
+    title: App selector
     url:
-      description: URL aplikace
+      description: Application URL
       label: URL
 list:
   columns:
     actions: ""
-    createdAt: Vytvořeno
-    enabled: Povoleno
-    name: Jméno
-    appListName: Jméno ve výběru aplikací
-    state: Stav
+    createdAt: Created
+    enabled: Enabled
+    name: Name
+    appListName: App selector name
+    state: State
   export: Export
   rows:
     filters:
-      deleted: Odstraněno
+      deleted: Deleted
   filterForm:
     deleted:
-      label: smazané aplikace
+      label: deleted applications
     excluded:
-      label: Bez
+      label: Without
     exclusive:
-      label: Pouze
+      label: Only
     inclusive:
-      label: Včetně
+      label: Including
     query:
-      label: Filtrovat seznam aplikací
-      placeholder: Filtrovat aplikace podle názvu
-  loading: Načítání aplikací
-  new: Nová aplikace
-  numFound: 'Nalezena {{count}} aplikace'
-  numFound_plural: 'Nalezeno {{count}} aplikací'
-  permissions: Oprávnění
-  title: Aplikace
+      label: Filter applications list
+      placeholder: Filter applications by name
+  loading: Loading applications
+  new: New Application
+  numFound: '{{count}} application found'
+  numFound_plural: '{{count}} applications found'
+  permissions: Permissions
+  title: Applications
   yaml: YAML
-  delete: Smazat
-  undelete: Obnovit smazané
+  delete: Delete
+  undelete: Undelete
