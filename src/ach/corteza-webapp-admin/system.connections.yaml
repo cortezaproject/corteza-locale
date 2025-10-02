@@ -1,105 +1,105 @@
 primary:
-  title: crwdns105440:0crwdne105440:0
-  name: crwdns105442:0crwdne105442:0
-  handle: crwdns105444:0crwdne105444:0
-  location: crwdns105446:0crwdne105446:0
-  ownership: crwdns105448:0crwdne105448:0
-  sensitivity-level: crwdns105450:0crwdne105450:0
+  title: crwdns172011:0crwdne172011:0
+  name: crwdns172013:0crwdne172013:0
+  handle: crwdns172015:0crwdne172015:0
+  location: crwdns172017:0crwdne172017:0
+  ownership: crwdns172019:0crwdne172019:0
+  sensitivity-level: crwdns172021:0crwdne172021:0
 list:
-  title: crwdns105452:0crwdne105452:0
-  add-button: crwdns105454:0crwdne105454:0
-  loading: crwdns105456:0crwdne105456:0
+  title: crwdns172023:0crwdne172023:0
+  add-button: crwdns172025:0crwdne172025:0
+  loading: crwdns172027:0crwdne172027:0
   filterForm:
     deleted:
-      label: crwdns105458:0crwdne105458:0
+      label: crwdns172029:0crwdne172029:0
     excluded:
-      label: crwdns105460:0crwdne105460:0
+      label: crwdns172031:0crwdne172031:0
     exclusive:
-      label: crwdns105462:0crwdne105462:0
+      label: crwdns172033:0crwdne172033:0
     inclusive:
-      label: crwdns105464:0crwdne105464:0
+      label: crwdns172035:0crwdne172035:0
   columns:
-    name: crwdns105466:0crwdne105466:0
-    location: crwdns105468:0crwdne105468:0
-    ownership: crwdns105470:0crwdne105470:0
-    createdAt: crwdns105472:0crwdne105472:0
-    actions: 'crwdns105474:0crwdne105474:0'
-  delete: crwdns105476:0crwdne105476:0
-  undelete: crwdns105478:0crwdne105478:0
+    name: crwdns172037:0crwdne172037:0
+    location: crwdns172039:0crwdne172039:0
+    ownership: crwdns172041:0crwdne172041:0
+    createdAt: crwdns172043:0crwdne172043:0
+    actions: 'crwdns172045:0crwdne172045:0'
+  delete: crwdns172047:0crwdne172047:0
+  undelete: crwdns172049:0crwdne172049:0
 editor:
   title:
-    edit: crwdns105480:0crwdne105480:0
-    create: crwdns105482:0crwdne105482:0
+    edit: crwdns172051:0crwdne172051:0
+    create: crwdns172053:0crwdne172053:0
   basic:
-    title: crwdns105484:0crwdne105484:0
+    title: crwdns172055:0crwdne172055:0
     form:
       name:
-        label: crwdns105486:0crwdne105486:0
-        placeholder: crwdns105488:0crwdne105488:0
-        description: 'crwdns105490:0crwdne105490:0'
+        label: crwdns172057:0crwdne172057:0
+        placeholder: crwdns172059:0crwdne172059:0
+        description: 'crwdns172061:0crwdne172061:0'
       handle:
-        label: crwdns105492:0crwdne105492:0
-        placeholder: crwdns105494:0crwdne105494:0
-        description: crwdns105496:0crwdne105496:0
-        invalid-characters: crwdns105498:0crwdne105498:0
+        label: crwdns172063:0crwdne172063:0
+        placeholder: crwdns172065:0crwdne172065:0
+        description: crwdns172067:0crwdne172067:0
+        invalid-characters: crwdns172069:0crwdne172069:0
       location-name:
-        label: crwdns105500:0crwdne105500:0
-        placeholder: crwdns105502:0crwdne105502:0
-        description: crwdns105504:0crwdne105504:0
+        label: crwdns172071:0crwdne172071:0
+        placeholder: crwdns172073:0crwdne172073:0
+        description: crwdns172075:0crwdne172075:0
       location-geometry:
-        label: crwdns105506:0crwdne105506:0
-        description: crwdns105508:0crwdne105508:0
-        placeholder: crwdns105510:0crwdne105510:0
+        label: crwdns172077:0crwdne172077:0
+        description: crwdns172079:0crwdne172079:0
+        placeholder: crwdns172081:0crwdne172081:0
       ownership:
-        label: crwdns105512:0crwdne105512:0
-        placeholder: crwdns105514:0crwdne105514:0
-        description: crwdns105516:0crwdne105516:0
+        label: crwdns172083:0crwdne172083:0
+        placeholder: crwdns172085:0crwdne172085:0
+        description: crwdns172087:0crwdne172087:0
       sensitivity-level:
-        label: crwdns105518:0crwdne105518:0
-        placeholder: crwdns105520:0crwdne105520:0
-        description: crwdns105522:0crwdne105522:0
+        label: crwdns172089:0crwdne172089:0
+        placeholder: crwdns172091:0crwdne172091:0
+        description: crwdns172093:0crwdne172093:0
   properties:
-    title: crwdns105524:0crwdne105524:0
+    title: crwdns172095:0crwdne172095:0
     form:
       data-at-rest-encryption:
         checkbox:
-          label: crwdns105526:0crwdne105526:0
+          label: crwdns172097:0crwdne172097:0
         notes:
-          label: crwdns105528:0crwdne105528:0
-          description: crwdns105530:0crwdne105530:0
+          label: crwdns172099:0crwdne172099:0
+          description: crwdns172101:0crwdne172101:0
       data-at-rest-protection:
         checkbox:
-          label: crwdns105532:0crwdne105532:0
+          label: crwdns172103:0crwdne172103:0
         notes:
-          label: crwdns105534:0crwdne105534:0
-          description: crwdns105536:0crwdne105536:0
+          label: crwdns172105:0crwdne172105:0
+          description: crwdns172107:0crwdne172107:0
       data-at-transit-encryption:
         checkbox:
-          label: crwdns105538:0crwdne105538:0
+          label: crwdns172109:0crwdne172109:0
         notes:
-          label: crwdns105540:0crwdne105540:0
-          description: crwdns105542:0crwdne105542:0
+          label: crwdns172111:0crwdne172111:0
+          description: crwdns172113:0crwdne172113:0
       data-restoration:
         checkbox:
-          label: crwdns105544:0crwdne105544:0
+          label: crwdns172115:0crwdne172115:0
         notes:
-          label: crwdns105546:0crwdne105546:0
-          description: crwdns105548:0crwdne105548:0
+          label: crwdns172117:0crwdne172117:0
+          description: crwdns172119:0crwdne172119:0
   dal:
-    title: crwdns105550:0crwdne105550:0
+    title: crwdns172121:0crwdne172121:0
     form:
       model-ident:
-        label: crwdns105552:0crwdne105552:0
-        placeholder: crwdns105554:0crwdne105554:0
+        label: crwdns172123:0crwdne172123:0
+        placeholder: crwdns172125:0crwdne172125:0
         description: |
-          crwdns105556:0{{module}}crwdnd105556:0{{namespace}}crwdne105556:0
+          crwdns172127:0{{module}}crwdnd172127:0{{namespace}}crwdne172127:0
       type:
-        label: crwdns105558:0crwdne105558:0
-        placeholder: crwdns105560:0crwdne105560:0
-        description: crwdns105562:0crwdne105562:0
+        label: crwdns172129:0crwdne172129:0
+        placeholder: crwdns172131:0crwdne172131:0
+        description: crwdns172133:0crwdne172133:0
       params:
-        label: crwdns105564:0crwdne105564:0
-        placeholder: crwdns105566:0crwdne105566:0
-        description: 'crwdns105568:0crwdne105568:0'
-    connectivity-issues: crwdns105570:0crwdne105570:0
-    no-access-warning: crwdns105572:0crwdne105572:0
+        label: crwdns172135:0crwdne172135:0
+        placeholder: crwdns172137:0crwdne172137:0
+        description: 'crwdns172139:0crwdne172139:0'
+    connectivity-issues: crwdns172141:0crwdne172141:0
+    no-access-warning: crwdns172143:0crwdne172143:0
