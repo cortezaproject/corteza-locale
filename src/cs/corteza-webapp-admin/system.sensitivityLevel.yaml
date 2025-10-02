@@ -1,44 +1,44 @@
 editor:
-  new: Nová úroveň citlivosti
+  new: New Sensitivity Level
   title:
-    create: Vytvořit úroveň citlivosti
-    edit: Editovat úroveň citlivosti
+    create: Create sensitivity level
+    edit: Edit sensitivity level
   info:
-    title: Základní informace
+    title: Basic Information
     handle:
-      label: Identifikátor
-      placeholder: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
-      invalid-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
-    name: Jméno *
-    description: Popis
-    level: Úroveň {{level}}
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
-    delete: Smazat
-    deletedAt: Čas odstranění
-    undelete: Obnovit smazané
-    updatedAt: Čas aktualizace
+      label: Handle
+      placeholder: handle (a - z, 0 - 9, underscore, dash)
+      invalid-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+    name: Name *
+    description: Description
+    level: Level {{level}}
+    createdAt: Created at
+    createdBy: Created by
+    delete: Delete
+    deletedAt: Deleted at
+    undelete: Undelete
+    updatedAt: Updated at
 list:
-  title: Úrovně citlivosti
-  loading: Načítání úrovní citlivosti
-  new: Nová úroveň citlivosti
+  title: Sensitivity Levels
+  loading: Loading sensitivity levels
+  new: New Sensitivity Level
   columns:
     actions: ''
-    'meta.name': Jméno
-    level: Úroveň
-    createdAt: Vytvořeno
-    state: Stav
-  delete: Smazat
-  undelete: Obnovit smazané
+    'meta.name': Name
+    level: Level
+    createdAt: Created
+    state: State
+  delete: Delete
+  undelete: Undelete
   rows:
     filters:
-      deleted: Odstraněno
+      deleted: Deleted
   filterForm:
     deleted:
-      label: smazané úrovně citlivosti
+      label: deleted sensitivity levels
     excluded:
-      label: Bez
+      label: Without
     exclusive:
-      label: Pouze
+      label: Only
     inclusive:
-      label: Včetně
+      label: Including
