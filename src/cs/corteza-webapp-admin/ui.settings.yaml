@@ -1,85 +1,87 @@
 editor:
-  title: Nastavení uživatelského rozhraní
+  title: User Interface Settings
   corteza-studio:
-    title: Témata
-    colorPicker: Vybrat barvu
-    sassNotInstalled: Nenalezeny žádné dart-sass binárky. Tady je návod pro nastavení
-    installSassDocs: tuto dokumentaci
-    custom-css: Vlastní CSS
+    title: Theming
+    colorPicker: Choose a color
+    sassNotInstalled: No dart-sass binaries were detected. For guidance on how to set it up, refer to
+    installSassDocs: docs here
+    custom-css: Custom CSS
     mainLogo:
-      title: Hlavní logo
+      title: Main logo
       uploader:
-        instructions: Pro náhradní hlavního loga klikněte zde nebo přetáhněte soubor
-        uploading: Nahrávání hlavního loga
+        instructions: Click or drop main logo here to upload
+        uploading: Uploading main logo
     iconLogo:
-      title: Ikona
+      title: Icon logo
       uploader:
-        instructions: Pro náhradní ikony klikněte zde nebo přetáhněte soubor
-        uploading: Nahrávání ikony
+        instructions: Click or drop icon logo image here to upload
+        uploading: Uploading icon logo
     label:
-      default: Výchozí
+      default: Default
     tabs:
-      general: Obecné
-      light: Světlé
-      dark: Tmavé
+      general: General
+      light: Light
+      dark: Dark
     theme:
       variables:
         white:
-          label: Bílá
-          description: Barva pozadí elementů
+          label: White
+          description: Element background color
         black:
-          label: Černá
-          description: Barva textu elementů
+          label: Black
+          description: Element text color
         primary:
-          label: Primární
-          description: Primární tlačítka akcí, odkazy
+          label: Primary
+          description: Primary action buttons, links
         secondary:
-          label: Sekundární
-          description: Barva deaktivovaných elementů a zastupných textů
+          label: Secondary
+          description: Disabled and placeholder text color
         success:
-          label: Úspěch
-          description: Barva notifikace úspěchu
+          label: Success
+          description: Success notification color
         warning:
-          label: Varování
-          description: Barva notifikace varování
+          label: Warning
+          description: Warning notification color
         danger:
-          label: Pozor
-          description: Barva notifikace chyby
+          label: Danger
+          description: Error notification color
         light:
-          label: Světlé
-          description: Sekundární tlačítka akcí, záhlaví tabulek
+          label: Light
+          description: Secondary action buttons, table headers
         extra-light:
-          label: Extra světlé
-          description: Tlačítka ikon, okraje
+          label: Extra light
+          description: Icon buttons, borders
         body-bg:
-          label: Pozadí těla
-          description: Barva pozadí aplikace
+          label: Body background
+          description: Background color of the application
         sidebar-bg:
-          label: Pozadí boční lišty
-          description: Barva pozadí boční lišty
+          label: Sidebar background
+          description: Background color of the sidebar
         topbar-bg:
-          label: Pozadí horní lišty
-          description: Barva pozadí horní lišty
+          label: Topbar background
+          description: Background color of the topbar
   topbar:
-    title: Horní lišta
-    general: Obecné
+    title: Topbar
+    general: General
     app-selector:
-      hide: Skrýt výběr aplikací
+      hide: Hide app selector
     help:
-      title: Pomoc
-      hide: Skrýt nápovědu
-      hide-forum-link: Skrýt odkaz na fórum
-      hide-documentation-link: Skrýt odkaz na dokumentaci
-      hide-feedback-link: Skrýt odkaz na zpětnou vazbu
+      title: Help
+      hide: Hide help
+      hide-forum-link: Hide forum link
+      hide-documentation-link: Hide documentation link
+      hide-feedback-link: Hide feedback link
     profile:
-      title: Profil
-      hide: Skrýt profil
-      hide-profile-link: Skrýt odkaz na profil
-      hide-change-password-link: Skrýt odkaz na změnu hesla
-      hide-theme-selector: Skrýt výběr barevného schématu
+      title: Profile
+      hide: Hide profile
+      hide-profile-link: Hide profile link
+      hide-change-password-link: Hide change password link
+      hide-theme-selector: Hide theme selector
+    notifications:
+      hide: Hide notifications
     links:
-      title: Vlastní odkazy
-      handle: Jméno
-      invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+      title: Custom links
+      handle: Name
+      invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
       url: URL
-      new-tab: Nová karta
+      new-tab: New tab
