@@ -1,50 +1,50 @@
 editor:
   info:
-    consumer: Spotřebitel
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
-    delete: Smazat
-    deletedAt: Čas odstranění
-    dispatch_events: Vypravit události
-    dispatch_events_desc: Vypravení události notifikujte sběrnici událostí o změnách zpráv ve frontě (nové, zpracované, ...)
-    name: Název fronty *
-    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
-    poll_delay: Zpoždění načítání změn
-    poll_delay_empty: 'Zpoždění se nepoužije; pro povolení použijte formát časového intervalu (např. 1h / 1m15s / 1h90s)'
-    poll_delay_set: Zpoždění se použije; nepoužilo by se, kdyby hodnota byla prázdná.
-    title: Základní informace
-    undelete: Obnovit smazané
-    updatedAt: Čas aktualizace
-  new: Nová fronta
+    consumer: Consumer
+    createdAt: Created at
+    createdBy: Created by
+    delete: Delete
+    deletedAt: Deleted at
+    dispatch_events: Dispatch events
+    dispatch_events_desc: Dispatch events notifies the eventbus of queue message changes (new, processed, ...)
+    name: Queue name *
+    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+    poll_delay: Polling changes delay
+    poll_delay_empty: 'Poll delay will not be used; to enable, use duration format (ie: 1h / 1m15s / 1h90s)'
+    poll_delay_set: Poll delay will be used; if empty, it will not be used.
+    title: Basic information
+    undelete: Undelete
+    updatedAt: Updated at
+  new: New Queue
   title:
-    edit: Upravit frontu
-    new: Přidat frontu
+    edit: Edit queue
+    new: Add a queue
 list:
   columns:
     actions: ''
-    consumer: Spotřebitel
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
-    state: Stav
-    queue: Fronta
+    consumer: Consumer
+    createdAt: Created At
+    createdBy: Created by
+    state: State
+    queue: Queue
   export: Export
-  delete: Smazat
-  undelete: Obnovit smazané
+  delete: Delete
+  undelete: Undelete
   rows:
     filters:
-      deleted: Odstraněno
+      deleted: Deleted
   filterForm:
     deleted:
-      label: smazané fronty
+      label: deleted queues
     excluded:
-      label: Bez
+      label: Without
     exclusive:
-      label: Pouze
+      label: Only
     handle:
-      label: Filtrovat seznam front
-      placeholder: Filtrovat fronty podle názvu
+      label: Filter queues list
+      placeholder: Filter queues by name
     inclusive:
-      label: Včetně
-  loading: Načítání front
-  new: Nová fronta
-  title: Fronty zpráv 
+      label: Including
+  loading: Loading messaging queues
+  new: New Queue
+  title: Messaging queues
