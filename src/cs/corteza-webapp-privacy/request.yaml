@@ -1,76 +1,76 @@
 comments:
-  enter: Zadejte komentář...
-  label: Komentáře
+  enter: Enter comment...
+  label: Comments
   sort:
     first:
-      newest: Nejnovější první
-      oldest: Nejstarší první
-  submit: Odeslat
+      newest: Newest first
+      oldest: Oldest first
+  submit: Submit
   unknown:
-    date: Neznámé datum
-    user: Neznámý uživatel
+    date: Unknown date
+    user: Unknown user
 kind:
-  correct: Žádost o opravu
-  delete: Žádost o smazání
-  export: Exportovat žádost
+  correct: Correction Request
+  delete: Deletion Request
+  export: Export Request
 status:
-  canceled: Stornováno
-  pending: Čekající
-  rejected: Zamítnuto
-  approved: Schváleno
+  canceled: Canceled
+  pending: Pending
+  rejected: Rejected
+  approved: Approved
 list:
-  title: Požadavky na ochranu soukromí
+  title: Privacy Requests
   export: Export
   columns:
-    kind: Typ
-    requestedAt: Čas žádosti
-    requestedBy: Žadatel
+    kind: Type
+    requestedAt: Requested at
+    requestedBy: Requested by
     status: Status
   request:
-    approve: Potvrdit žádost
-    cancel: Stornovat žádost
-    reject: Zamítnout žádost
+    approve: Approve Requests
+    cancel: Cancel Request
+    reject: Reject Requests
 edit:
   correct:
-    private-fields: Soukromá pole
-    no-data-available: Žádné údaje nejsou dostupné
-    submit: Odeslat žádost o opravu
+    private-fields: Private Fields
+    no-data-available: No data available
+    submit: Submit Correction Request
     connection:
-      label: Spojení
-      placeholder: Vybrat spojení
+      label: Connection
+      placeholder: Select a Connection
   delete:
-    private-fields: Soukromá pole
-    no-data-available: Žádné údaje nejsou dostupné
-    submit: Smazat vybraný sloupec
+    private-fields: Private Fields
+    no-data-available: No data available
+    submit: Delete Selected Data
     connection:
-      label: Spojení
-      placeholder: Vybrat spojení
+      label: Connection
+      placeholder: Select a Connection
   export:
-    submit: Exportovat vybrané údaje
+    submit: Export Selected Data
     data-type:
-      label: Datový typ pro export
-      profile-information: Informace o profilu
-      application-data: Data aplikace
+      label: Data Type to export
+      profile-information: Profile Information
+      application-data: Application Data
     date-range:
-      label: Rozsah údajů
-      all: Všechny moje údaje
+      label: Date Range
+      all: All of my data
     file-format:
-      label: Formát souboru
+      label: File Format
       json: JSON
       csv: CSV
 view:
-  approve: Potvrdit žádost
-  cancel: Stornovat žádost
-  reject: Zamítnout žádost
+  approve: Approve request
+  cancel: Cancel request
+  reject: Reject request
   export:
     data-type:
-      label: Datový typ pro export
-      profile-information: Informace o profilu
-      application-data: Data aplikace
+      label: Data Type to export
+      profile-information: Profile Information
+      application-data: Application Data
     date-range:
-      label: Rozsah údajů
-      all: Všechny moje údaje
+      label: Date Range
+      all: All of my data
     file-format:
-      label: Formát souboru
+      label: File Format
       json: JSON
       csv: CSV
