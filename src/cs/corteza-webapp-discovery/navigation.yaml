@@ -1,12 +1,13 @@
-discovery: Vyhledávání
+discovery: Discovery
 help:
-  documentation: Dokumentace
-  feedback: Odeslat zpětnou vazbu
-  forum: Pomoc
-  version: 'Verze:'
+  documentation: Documentation
+  feedback: Send feedback
+  forum: Help
+  version: 'Version:'
 appMenu: Menu
 userSettings:
-  changePassword: Změna hesla
-  loggedInAs: Přihlášený uživatel {{user}}
-  logout: Odhlásit
-  profile: Profil
+  changePassword: Change password
+  loggedInAs: Logged in as {{user}}
+  logout: Logout
+  profile: Profile
+  theme: Theme
