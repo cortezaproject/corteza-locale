@@ -1,31 +1,31 @@
-title: crwdns101276:0crwdne101276:0
-connection-location: crwdns101278:0crwdne101278:0
+title: crwdns179219:0crwdne179219:0
+connection-location: crwdns179221:0crwdne179221:0
 description:
-  first: crwdns101280:0crwdne101280:0
-  second: crwdns101282:0crwdne101282:0
+  first: crwdns179223:0crwdne179223:0
+  second: crwdns179225:0crwdne179225:0
 user-options:
   data-overview:
-    title: crwdns101284:0crwdne101284:0
-    description: crwdns101286:0crwdne101286:0
-    button-label: crwdns101288:0crwdne101288:0
+    title: crwdns179227:0crwdne179227:0
+    description: crwdns179229:0crwdne179229:0
+    button-label: crwdns179231:0crwdne179231:0
   privacy-requests:
-    title: crwdns101290:0crwdne101290:0
-    description: crwdns101292:0crwdne101292:0
-    button-label: crwdns101294:0crwdne101294:0
+    title: crwdns179233:0crwdne179233:0
+    description: crwdns179235:0crwdne179235:0
+    button-label: crwdns179237:0crwdne179237:0
   export:
-    title: crwdns101296:0crwdne101296:0
-    description: crwdns101298:0crwdne101298:0
-    button-label: crwdns101300:0crwdne101300:0
+    title: crwdns179239:0crwdne179239:0
+    description: crwdns179241:0crwdne179241:0
+    button-label: crwdns179243:0crwdne179243:0
   delete:
-    title: crwdns101302:0crwdne101302:0
-    description: crwdns101304:0crwdne101304:0
-    button-label: crwdns101306:0crwdne101306:0
+    title: crwdns179245:0crwdne179245:0
+    description: crwdns179247:0crwdne179247:0
+    button-label: crwdns179249:0crwdne179249:0
 dc-options:
   privacy-requests:
-    title: crwdns101308:0crwdne101308:0
-    description: crwdns101310:0crwdne101310:0
-    button-label: crwdns101312:0crwdne101312:0
+    title: crwdns179251:0crwdne179251:0
+    description: crwdns179253:0crwdne179253:0
+    button-label: crwdns179255:0crwdne179255:0
   sensitive-data:
-    title: crwdns101314:0crwdne101314:0
-    description: crwdns101316:0crwdne101316:0
-    button-label: crwdns101318:0crwdne101318:0
+    title: crwdns179257:0crwdne179257:0
+    description: crwdns179259:0crwdne179259:0
+    button-label: crwdns179261:0crwdne179261:0
