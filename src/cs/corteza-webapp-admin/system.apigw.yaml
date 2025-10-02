@@ -1,161 +1,161 @@
-title: Brána integrace
+title: Integration Gateway
 list:
   export: Export
-  title: Cesty
-  new: Nová cesta
-  permissions: Oprávnění
-  profiler: Profilování
+  title: Routes
+  new: New Route
+  permissions: Permissions
+  profiler: Profiler
   yaml: YAML
-  loading: Načítání cest
-  numFound: 'Nalezena {{count}} cesta'
-  numFound_plural: 'Nalezeno {{count}} cest'
+  loading: Loading routes
+  numFound: '{{count}} route found'
+  numFound_plural: '{{count}} routes found'
   filterForm:
     query:
-      label: Filtrování seznamu cest
-      placeholder: Filtrování cest podle názvu
+      label: Filter route list
+      placeholder: Filter routes by name
     excluded:
-      label: Bez
+      label: Without
     inclusive:
-      label: Včetně
+      label: Including
     exclusive:
-      label: Pouze
+      label: Only
     deleted:
-      label: smazané cesty
+      label: deleted routes
     handle:
-      placeholder: Filtrovat koncové body podle cesty
-  delete: Smazat
-  undelete: Obnovit smazané
+      placeholder: Filter endpoints by path
+  delete: Delete
+  undelete: Undelete
   columns:
-    endpoint: Koncový bod
-    createdAt: Vytvořeno
-    enabled: Povoleno
-    method: Metoda
+    endpoint: Endpoint
+    createdAt: Created
+    enabled: Enabled
+    method: Method
     actions: ''
-    state: Stav
+    state: State
   rows:
     filters:
-      deleted: Odstraněno
+      deleted: Deleted
 settings:
-  title: Nastavení
+  title: Settings
   profiler:
-    label: Profilování
-    enabled: Povoleno
-    global: Povolené globálně
+    label: Profiler
+    enabled: Enabled
+    global: Enabled globally
   proxy:
     label: Proxy
-    follow: Následovat přesměrování
+    follow: Follow redirects
 editor:
-  title: Editovat cestu
-  new: Nová cesta
-  permissions: Oprávnění
+  title: Edit route
+  new: New Route
+  permissions: Permissions
   info:
-    title: Základní informace
+    title: Basic information
     id: ID
-    endpoint: Koncový bod
-    method: Metoda
-    description: Popis
-    enabled: Povoleno
-    delete: Smazat
-    undelete: Obnovit smazané
-    deletedAt: Čas odstranění
-    updatedAt: Čas aktualizace
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
-    tooltip: Koncový bod musí začínat lomítkem "/" a nesmí obsahovat speciální znaky kromě podtržítka "_" a pomlčky "-"
+    endpoint: Endpoint
+    method: Method
+    description: Description
+    enabled: Enabled
+    delete: Delete
+    undelete: Undelete
+    deletedAt: Deleted at
+    updatedAt: Updated at
+    createdAt: Created at
+    createdBy: Created by
+    tooltip: Endpoint must begin with a slash "/" and can not contain any special characters except for the underscore "_" and hyphen "-"
     validation:
-      slash: Koncový bod musí začínat lomítkem "/"
-      minLength: Koncový bod musí obsahovat ahoj jeden znak
-      invalidCharacters: Koncový bod obsahuje nevalidní znaky
+      slash: Endpoint must begin with a slash "/"
+      minLength: Endpoint must contain at least one character
+      invalidCharacters: Endpoint contains invalid characters
   filters:
-    title: Filtrovat seznam
-    enabled: Povoleno
-    disabled: Vypnuto
-    add: Přidat
-    addFilter: Přidat filtr
-    addHeader: Přidat hlavičku
-    params: Parametry
-    filterListEmpty: Seznam filtrů je prázdný!
+    title: Filter list
+    enabled: Enabled
+    disabled: Disabled
+    add: Add
+    addFilter: Add filter
+    addHeader: Add header
+    params: Params
+    filterListEmpty: Filter list is empty!
     modal:
-      title: Ověřovač parametrů požadavku
-      ok: Uložit a zavřít
+      title: Query parameters verifier
+      ok: Save & Close
     step_title:
-      prefilter: Předfiltrování
-      processer: Zpracování
-      postfilter: Následné filtrování
+      prefilter: Prefiltering
+      processer: Processing
+      postfilter: Postfiltering
     list:
-      remove: Odebrat
-      filters: Filtry
+      remove: Remove
+      filters: Filters
       status: Status
-      actions: Akce
-      active: Aktivní
-      noFilters: Žádný filtr
+      actions: Actions
+      active: Active
+      noFilters: No filters
     labels:
-      expr: Výraz
+      expr: Expression
       location: URL
       workflow: Workflow
-      status: HTTP status
-      jsfunc: Funkce
-      input: Vstup
-      header: Hlavičky
-      name: Jméno
-      value: Hodnota
+      status: HTTP Status
+      jsfunc: Function
+      input: Input
+      header: Headers
+      name: Name
+      value: Value
     httpStatus:
-      none: Žádný status
-      '300': 300 - několik umístění
-      '301': 301 - trvale přemístěno
-      '302': 302 - nalezeno
-      '303': 303 - viz jinde
-      '304': 304 - beze změny
-      '307': 307 - dočasně přesunuto
-      '308': 308 - trvale přemístěno
+      none: No Status
+      '300': 300 - Multiple Choices
+      '301': 301 - Moved Permanently
+      '302': 302 - Found
+      '303': 303 - See Other
+      '304': 304 - Not Modified
+      '307': 307 - Temporary Redirect
+      '308': 308 - Permanent Redirect
     placeholders:
-      workflow: Vyberte workflow
+      workflow: Select a workflow
     help:
       expression:
-        example: Příklad == "odpovídající řetězec" && match(DruhýParametr, "^příklad\\s.*$")
-        link: Dokumentace
+        example: Example == "match string" && match(SecondParam, "^foo\\s.*$")
+        link: Documentation
 profiler:
-  label: Profilovač
-  title: Profilovač integrační brány
-  refreshingIn: Obnovení za {{seconds}}s
+  label: Profiler
+  title: Integration Gateway Profiler
+  refreshingIn: Refreshing in {{seconds}}s
   description:
-    globalEnabled: Zobrazení cest pro všechny příchozí požadavky
-    globalDisabled: Zobrazení pouze registrovaných cest s profilovacím předfiltrem
+    globalEnabled: Showing routes for all incoming requests
+    globalDisabled: Showing only registered routes with profiler prefilter
   purge:
-    all: Vyčistit požadavky pro všechny cesty
-    this: Vyčistit požadavky pro tuto cestu
+    all: Purge requests for all routes
+    this: Purge requests for this route
   hit:
-    title: Detaily požadavku
+    title: Request Details
     general:
-      label: Obecné
-      id: ID požadavku
-      route: Cesta požadavku
-      URL: URL požadavku
-      method: Metoda požadavku
-      statusCode: Status kód
-      headers: Hlavičky požadavku
-      remoteAddress: Vzdálená adresa
-      duration: Trvání
-      start: Začátek
-      end: Konec
-      openRoute: Otevřít cestu
+      label: General
+      id: Request ID
+      route: Request Route
+      URL: Request URL
+      method: Request Method
+      statusCode: Status Code
+      headers: Request Headers
+      remoteAddress: Remote Address
+      duration: Duration
+      start: Start
+      end: End
+      openRoute: Open Route
     headers:
-      label: Hlavičky
+      label: Headers
     body:
-      label: Tělo
+      label: Body
   columns:
     actions: ''
-    path: Cesta
-    count: Počet
-    content_length: Délka obsahu
-    http_method: Metoda
-    http_status_code: Status kód
-    size_min: Minimální velikost
-    size_max: Maximální velikost
-    size_avg: Průměrná velikost
-    time_min: Minimální čas
-    time_max: Maximální čas
-    time_avg: Průměrný čas
-    time_start: Čas zahájení
-    time_finish: Čas dokončení
-    time_duration: Doba trvání
+    path: Route
+    count: Count
+    content_length: Content Length
+    http_method: Method
+    http_status_code: Status Code
+    size_min: Size (min)
+    size_max: Size (max)
+    size_avg: Size (avg)
+    time_min: Time (min)
+    time_max: Time (max)
+    time_avg: Time (avg)
+    time_start: Start time
+    time_finish: Finish time
+    time_duration: Duration
