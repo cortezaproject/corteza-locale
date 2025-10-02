@@ -48,9 +48,9 @@ calendar:
   hideTitle: Hide title text
   hideToday: Hide today button
   label: Calendar
+  colorPicker: Choose a color
+  colorLabel: Event color
   recordFeed:
-    colorPicker: Choose a color
-    colorLabel: Event color
     eventAllDay: Show as all-day-events
     eventEndFieldLabel: Event end
     eventEndFieldPlaceholder: Event will last 1 hour
@@ -64,7 +64,6 @@ calendar:
     titleLabel: Event title
     titlePlaceholder: Field used as event title
   reminderFeed:
-    colorLabel: Event color
     optionLabel: Reminders
   today: Today
   view:
@@ -324,6 +323,7 @@ record:
   recordSelectorCanAddRecord: Can add records via record selector
   recordSelectorAddRecordDisplayOption: When adding a record via record selector
 recordList:
+  noModule: No module selected
   addRecord: Add
   cancelSelection: Cancel
   customFilter: Custom filter
@@ -338,6 +338,9 @@ recordList:
   inlineEdit:
     enabled: Inline value editing enabled
     allowAddField: Allow adding fields to inline edit
+    fields:
+      configure:
+        tooltip: Configure the fields for inline editing
     button:
       title: Edit value
     modal:
@@ -365,6 +368,20 @@ recordList:
     allow: Users will be able to export records
     csv: CSV Export
     dateRange: Select date range
+    multiValueDelimiter:
+      label: Multi value delimiter
+      semicolon:
+        label: value 1;value 2;...;value n
+      comma:
+        label: value 1,value 2,...,value n
+      pipe:
+        label: value 1|value 2|...|value n
+      semicolonArray:
+        label: "[value 1;value 2;...;value n]"
+      commaArray:
+        label: "[value 1,value 2,...,value n]"
+      pipeArray:
+        label: "[value 1|value 2|...|value n]"
     query:
       label: Search query
       placeholder: Search...
@@ -475,6 +492,20 @@ recordList:
     to: Import to {{modulename}}
     uploadFile: Upload the file you want to import (.csv or JSON format)
     idFieldDescription: Records with matching ID's will be updated.
+    multiValueDelimiter:
+      label: Multi value delimiter
+      semicolon:
+        label: value 1;value 2;...;value n
+      comma:
+        label: value 1,value 2,...,value n
+      pipe:
+        label: value 1|value 2|...|value n
+      semicolonArray:
+        label: "[value 1;value 2;...;value n]"
+      commaArray:
+        label: "[value 1,value 2,...,value n]"
+      pipeArray:
+        label: "[value 1|value 2|...|value n]"
     report:
       count: Number of records
       detectedErrors: Detected errors
@@ -497,8 +528,8 @@ recordList:
     next: Next
     prev: Previous
     showing: '{{from}} - {{to}} of {{count}} records'
-    single: One record
-    single_plural: '{{count}} records'
+    single_one: One record
+    single_other: '{{count}} records'
     recordsPerPage: Per page
     selectLabel: Select an option
   positionField:
@@ -577,7 +608,6 @@ recordList:
     addRecordOptions: On add record click
     textStyles: Text Styles
     configureWrappedFields: Select fields that will be wrapped
-    showFullText: Show full text
   recordPage: record page
   refField:
     footnote: Field that links records with the parent record
@@ -592,6 +622,42 @@ recordList:
   showRecords:
     deleted: Show deleted records
     existing: Show existing records
+  summaries:
+    label: Summaries
+    customSummaries:
+      label: Custom Summaries
+      description: Users will be able to set custom summaries
+      add:
+        label: Add
+        tooltip: Add a custom summary
+    param:
+      label:
+        label: Label
+        placeholder: Summary Label
+      field:
+        label: Field
+        placeholder: Module Field
+      metric:
+        label: Metric
+        placeholder: Summary Metric
+      role:
+        label: Role
+        placeholder: Roles that will be able to see the summary
+    metrics:
+      sum:
+        label: Sum
+      min:
+        label: Min
+      max:
+        label: Max
+      avg:
+        label: Avg
+      emptyCount:
+        label: Empty count
+      notEmptyCount:
+        label: Not empty count
+      uniqueCount:
+        label: Unique count
 recordOrganizer:
   onRecordClick: Record display mode
   openInSameTab: Open in the same tab
@@ -631,6 +697,12 @@ recordRevisions:
       disabled-on-module: Record revisions are disabled on this module
     show-revisions: Show record revisions ({{ revision }})
     show-changes: "{{ count }} change(s)"
+    operations:
+      created: Created
+      updated: Updated
+      soft-deleted: Soft deleted
+      undeleted: Restored
+      hard-deleted: Hard deleted
     revisions:
       columns:
         timestamp:
@@ -688,17 +760,28 @@ comment:
   contentField:
     label: Content field *
     footnote: Field value will be used as record content
-  titleInput: Enter comment title
-  contentInput: Enter comment content
+  replyField:
+    label: Reply field
+    footnote: Field value will be used as record reply
+  title:
+    placeholder: Title
+  content:
+    placeholder: Comment here...
   submit: Submit
+  noComments: No comments yet
+  load:
+    older: Load older comments
+    newer: Load newer comments
   sortDirection:
     label: Sort direction
     footnote: Sort comments by when they were created
-    asc: Ascending
-    desc: Descending
+    asc: Newest first
+    desc: Oldest first
   referenceField:
     label: Reference field
     footnote: Field that links comments with the parent record
+  today: Today
+  yesterday: Yesterday
 navigation:
   chart: Charts
   colorPicker: Choose a color
@@ -759,7 +842,6 @@ report:
     label: Scenario
   element:
     label: Display element
-    description: Display elements are grouped by their respective block
 progress:
   add: + Add
   count: Count
@@ -805,31 +887,6 @@ progress:
     secondary: Secondary
     success: Success
     warning: Warning
-nylas:
-  label: Office365/Google
-  viewer:
-    connect: Connect with Nylas
-    noExternal: Nylas external provider is not configured
-    noComponentID: Nylas component ID is not configured
-  configurator:
-    label: Office365/Google
-    kind: Component kind
-    componentID: Component ID
-    accessTokenRequired: Access token required
-    prefill:
-      title: Prefill values
-      selectField: Select field
-      body: Body
-      subject: Subject
-      queryString: Query string
-      to: To
-    kinds:
-      agenda: Agenda
-      composer: Composer
-      contactList: Contact List
-      conversation: Conversation
-      email: Email
-      mailbox: Mailbox
 geometry:
   label: Map
   viewLabel: Map
@@ -843,6 +900,7 @@ geometry:
   openInSameTab: Open in the same tab
   openInNewTab: Open in a new tab
   openInModal: Open in a modal
+  hideGeoSearch: Hide location search
   recordFeed:
     colorPicker: Choose a color
     moduleLabel: Module*
@@ -880,7 +938,6 @@ tabs:
   displayTitle: Display Options
   preview: Live example
   newBlockModal: Add new block
-  unsavedChanges: Unsaved Changes
   placeholder:
     block: Select a block to tab
   style:
