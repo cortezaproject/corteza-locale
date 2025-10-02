@@ -1,16 +1,16 @@
 errors:
-  disabled: vypnuté workflow nebo trigger
-  handleNotUnique: identifikátor workflow není unikátní
-  invalidHandle: nevalidní identifikátor
-  invalidID: nevalidní ID
-  notAllowedToCreate: není povoleno vytváření workflow
-  notAllowedToDelete: není povoleno smazat toto workflow
-  notAllowedToExecute: není povoleno spustit toto workflow
-  notAllowedToExecuteCorredorStep: není povoleno spustit funkci corredorExec, Corredor je vypnutý
-  notAllowedToRead: není povoleno zobrazit toto workflow
-  notAllowedToSearch: není povoleno hledat nebo procházet workflow
-  notAllowedToUndelete: není povoleno obnovit toto smazané workflow
-  notAllowedToUpdate: není povoleno aktualizovat toto workflow
-  notFound: workflow nenalezeno
-  staleData: zastaralá data
-  unknownWorkflowStep: neznámý krok workflow
+  disabled: disabled workflow or trigger
+  handleNotUnique: workflow handle not unique
+  invalidHandle: invalid handle
+  invalidID: invalid ID
+  notAllowedToCreate: not allowed to create workflows
+  notAllowedToDelete: not allowed to delete this workflow
+  notAllowedToExecute: not allowed to execute this workflow
+  notAllowedToExecuteCorredorStep: not allowed to run corredorExec function, corredor is disabled
+  notAllowedToRead: not allowed to read this workflow
+  notAllowedToSearch: not allowed to search or list workflows
+  notAllowedToUndelete: not allowed to undelete this workflow
+  notAllowedToUpdate: not allowed to update this workflow
+  notFound: workflow not found
+  staleData: stale data
+  unknownWorkflowStep: unknown workflow step
