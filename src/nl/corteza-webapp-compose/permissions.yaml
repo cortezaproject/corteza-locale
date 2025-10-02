@@ -12,7 +12,6 @@ ui:
     label: User roles
     description: Select role to set permissions
   evaluate:
-    label: Evaluate
     description: Evaluate applied permissions
   add:
     label: Add
