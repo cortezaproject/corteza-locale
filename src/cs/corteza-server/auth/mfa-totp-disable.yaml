@@ -1,5 +1,5 @@
 template:
-  title: Vypnout dvoufaktorové přihlášení s TOTP
-  instructions: Vypnout po zadání existujícího kódu
+  title: Disable two-factor authentication with TOTP
+  instructions: Disable by entering existing code
   button:
-    remove: Odebrat
+    remove: Remove
