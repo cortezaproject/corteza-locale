@@ -1,24 +1,24 @@
 editor:
-  title: crwdns101734:0crwdne101734:0
+  title: crwdns172145:0crwdne172145:0
   server:
-    title: crwdns101736:0crwdne101736:0
+    title: crwdns172147:0crwdne172147:0
     host:
-      label: crwdns101738:0crwdne101738:0
-      description: crwdns101740:0crwdne101740:0
+      label: crwdns172149:0crwdne172149:0
+      description: crwdns172151:0crwdne172151:0
     user:
-      label: crwdns101742:0crwdne101742:0
-      description: crwdns101744:0crwdne101744:0
+      label: crwdns172153:0crwdne172153:0
+      description: crwdns172155:0crwdne172155:0
     password:
-      label: crwdns101746:0crwdne101746:0
-      description: crwdns101748:0crwdne101748:0
+      label: crwdns172157:0crwdne172157:0
+      description: crwdns172159:0crwdne172159:0
     from:
-      label: crwdns101750:0crwdne101750:0
-      description: crwdns101752:0crwdne101752:0
+      label: crwdns172161:0crwdne172161:0
+      description: crwdns172163:0crwdne172163:0
     tlsInsecure:
-      label: crwdns101754:0crwdne101754:0
-      description: crwdns101756:0crwdne101756:0
+      label: crwdns172165:0crwdne172165:0
+      description: crwdns172167:0crwdne172167:0
     tlsServerName:
-      label: crwdns101758:0crwdne101758:0
-      description: crwdns101760:0crwdne101760:0
+      label: crwdns172169:0crwdne172169:0
+      description: crwdns172171:0crwdne172171:0
     testSmtpConfigs:
-      button: crwdns101762:0crwdne101762:0
+      button: crwdns172173:0crwdne172173:0
