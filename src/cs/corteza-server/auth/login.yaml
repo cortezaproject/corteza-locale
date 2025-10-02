@@ -1,21 +1,21 @@
 template:
-  title: Pro pokračování se přihlaste
+  title: Log in to continue
   form:
     email:
       label: Email
-      placeholder: email@domena.tld
+      placeholder: email@domain.tld
     password:
-      label: Heslo
-      placeholder: heslo
+      label: Password
+      placeholder: password
     button:
-      login-and-remember: Přihlásit a zapamatovat
-      login: Přihlásit
-      continue: Pokračovat
+      login-and-remember: Log in and remember me
+      login: Log in
+      continue: Continue
   links:
-    request-password-reset: Zapomněli jste heslo?
-    signup: Vytvořit nový účet
+    request-password-reset: Forgot your password?
+    signup: Create a new account
     external:
-      login-with: Přihlásit pomocí {{idp}}
+      login-with: Login with {{idp}}
 alerts:
-  logged-in: Nyní jste přihlášeni
-  local-disabled: Místní účet zablokován
+  logged-in: You are now logged-in
+  local-disabled: Local accounts disabled
