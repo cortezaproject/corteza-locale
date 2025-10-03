@@ -24,6 +24,7 @@ label:
   report:
     single: Report
     plural: Reports
+
 resourceList:
   notFound: Not found
   noItems: No items to show
@@ -35,11 +36,14 @@ resourceList:
     single_other: '{{count}} {{data}}'
     recordsPerPage: Per Page
   clone: Clone
+
 themes:
   labels:
     light: Light
     dark: Dark
+
 cloneSuffix: copy
+
 extendSession:
   labels:
     extend: Extend Session
