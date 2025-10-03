@@ -1,26 +1,26 @@
 editor:
-  title: crwdns103652:0crwdne103652:0
+  title: crwdns172739:0crwdne172739:0
   basic:
     attachments:
-      max-size: crwdns103654:0crwdne103654:0
-      page: crwdns103656:0crwdne103656:0
-      record: crwdns103658:0crwdne103658:0
-      icon: crwdns103660:0crwdne103660:0
+      max-size: crwdns172741:0crwdne172741:0
+      page: crwdns172743:0crwdne172743:0
+      record: crwdns172745:0crwdne172745:0
+      icon: crwdns172747:0crwdne172747:0
       type:
-        description: 'crwdns103662:0crwdne103662:0'
-        whitelist: crwdns103664:0crwdne103664:0
-    title: crwdns103666:0crwdne103666:0
+        description: 'crwdns172749:0crwdne172749:0'
+        whitelist: crwdns172751:0crwdne172751:0
+    title: crwdns172753:0crwdne172753:0
   ui:
-    title: crwdns103668:0crwdne103668:0
+    title: crwdns172755:0crwdne172755:0
     sidebar:
-      title: crwdns103670:0crwdne103670:0
-      hide-namespace-list: crwdns103672:0crwdne103672:0
-      hide-namespace-list-link: crwdns103674:0crwdne103674:0
+      title: crwdns172757:0crwdne172757:0
+      hide-namespace-list: crwdns172759:0crwdne172759:0
+      hide-namespace-list-link: crwdns172761:0crwdne172761:0
     record-toolbar:
-      title: crwdns103676:0crwdne103676:0
-      hide-submit: crwdns103678:0crwdne103678:0
-      hide-delete: crwdns103680:0crwdne103680:0
-      hide-edit: crwdns103682:0crwdne103682:0
-      hide-new: crwdns103684:0crwdne103684:0
-      hide-clone: crwdns103686:0crwdne103686:0
-      hide-back: crwdns103688:0crwdne103688:0
+      title: crwdns172763:0crwdne172763:0
+      hide-submit: crwdns172765:0crwdne172765:0
+      hide-delete: crwdns172767:0crwdne172767:0
+      hide-edit: crwdns172769:0crwdne172769:0
+      hide-new: crwdns172771:0crwdne172771:0
+      hide-clone: crwdns172773:0crwdne172773:0
+      hide-back: crwdns172775:0crwdne172775:0

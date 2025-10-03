@@ -105,8 +105,8 @@ trigger:
     like: Like
     not-like: Not like
     operator: Operator
-    resource:  Resource
-    resource*:  Resource*
+    resource: Resource
+    resource*: Resource*
     select-constraint-type: Select constraint type
     select-operator: Select operator
     select-event-type: Select event type

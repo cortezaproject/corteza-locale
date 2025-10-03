@@ -1,14 +1,14 @@
 template:
-  title: Přijmout pozvánku
+  title: Accept Invite
   form:
     email:
       label: Email
-      placeholder: email@domena.tld
+      placeholder: email@domain.tld
     new-password:
-      label: Heslo
-      placeholder: heslo
+      label: Password
+      placeholder: password
     buttons:
-      password: Nastavit heslo
+      password: Set password
 alert:
-  invalid-expired-invite-token: Nevalidní token pozvánky nebo jeho platnost vypršela, požádejte prosím o reset hesla.
-  success: Heslo úspěšně aktualizováno
+  invalid-expired-invite-token: Invalid or expired user invite token, please request a password reset.
+  success: Password successfully updated

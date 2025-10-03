@@ -40,7 +40,7 @@ name:
   label: Full namespace name *
   placeholder: Enter namespace name
 noResults: No namespaces found
-searchPlaceholder: Type here to search among all namespaces...
+searchPlaceholder: Search namespaces
 setPermissions: Set namespace permissions
 slug:
   description: The short name will be used in the URL
@@ -55,27 +55,21 @@ tooltip:
   translations: Namespace translations
 visit: View namespace
 configure: Configure namespace
-
 manage:
   title: Manage namespaces
   list-view: Back to namespace list
   delete: Delete
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
-
   disabled: Disabled
-
   toolbar:
     buttons:
       create: New Namespace
       permissions: Permissions
-
   table:
     columns:
       enabled: Enabled
       name: Name
       slug: Short name
       changedAt: Last change
-
 sidebar:
   configure: Namespace pages
   hide: Hide sidebar on namespace public pages

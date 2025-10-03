@@ -1,7 +1,23 @@
 label:
   app-name:
-    public: Namespaces
-    private: Namespaces - Admin
+    namespace:
+      list: Namespaces
+      create: Create Namespace
+      edit: 'Edit Namespace - {{label}}'
+      view: Namespace
+    module:
+      list: 'Modules - {{label}}'
+      create: Create Module
+      edit: 'Edit Module - {{label}}'
+    page:
+      list: 'Pages - {{label}}'
+      builder: 'PageBuilder - {{label}}'
+      edit: 'Edit Page - {{label}}'
+      record: 'Record - {{label}}'
+    chart:
+      list: 'Charts - {{label}}'
+      edit: 'Edit Chart - {{label}}'
+      create: Create Chart
   actions: Actions
   active: Active
   add: Add
@@ -77,6 +93,7 @@ label:
   updatedAt: Updated at
   uploadError: 'Issue with file upload: "{{message}}"'
   uploading: Uploading
+  unsavedChanges: Unsaved Changes
   urlPlaceholder: https://example.tld
   validation: Validation
   view: View
@@ -162,8 +179,8 @@ resourceList:
     next: Next
     prev: Previous
     showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single: 'One {{data}}'
-    single_plural: '{{count}} {{data}}'
+    single_one: 'One {{data}}'
+    single_other: '{{count}} {{data}}'
     recordsPerPage: Per Page
 recordNavigation:
   next: Next record
@@ -179,9 +196,22 @@ variants:
   warning: Warning
 editor:
   unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
+webcam:
+  title: Webcam
+  tooltip: Open webcam to capture photo
+  buttons:
+    cancel: Cancel
+    capture: Capture photo
+    confirm: Upload photo
+  errors:
+    camera: Unable to access the camera. Please make sure you have granted camera permissions.
 record:
   unsavedChanges: Unsaved changes will be lost. Do you wish to close the record?
 themes:
   labels:
     light: Light
     dark: Dark
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds

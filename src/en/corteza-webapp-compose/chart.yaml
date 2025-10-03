@@ -237,7 +237,7 @@ edit:
       placeholder: '#'
     suffix:
       label: Suffix
-      placeholder: $
+      placeholder: '$'
     presetFormats:
       label: Format
       options:
@@ -252,12 +252,11 @@ name: Chart name *
 handle: Handle
 generalSettings: General settings
 notification:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
   loadFailed: Could not load chart
   saveFailed: Could not save this chart
   saved: Chart saved
   deleteFailed: Could not delete this chart
   deleted: Chart deleted
-searchPlaceholder: Type here to search all charts in this namespace
+searchPlaceholder: Search charts in this namespace
 title: List of Charts
 undefined: undefined

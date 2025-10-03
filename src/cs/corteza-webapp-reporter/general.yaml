@@ -1,42 +1,46 @@
 label:
-  add: Přidat
-  and: A
-  all: Vše
-  ascending: Vzrůstající
-  back: Zpět
-  clear: Vyčistit
-  cancel: Storno
-  delete: Smazat
-  descending: Klesající
-  loading: Načítání
-  name: Jméno
-  none: Nic
-  now: Nyní
+  add: Add
+  and: And
+  all: All
+  ascending: Ascending
+  back: Back
+  clear: Clear
+  cancel: Cancel
+  delete: Delete
+  descending: Descending
+  loading: Loading
+  name: Name
+  none: None
+  now: Now
   ok: Ok
-  or: Nebo
-  openLinkInNewTab: Otevřít odkaz v nové kartě
-  save: Uložit
-  saveAndClose: Uložit a zavřít
-  clone: Uložit jako kopii
-  today: Dnes
-  urlPlaceholder: https://priklad.tld
-  default: Výchozí
+  or: Or
+  openLinkInNewTab: Open link in a new tab
+  save: Save
+  saveAndClose: Save and close
+  clone: Save as copy
+  today: Today
+  urlPlaceholder: https://example.tld
+  default: Default
   report:
     single: Report
-    plural: Reporty
+    plural: Reports
 resourceList:
-  notFound: Nenalezeno
-  noItems: Žádné položky k zobrazení
+  notFound: Not found
+  noItems: No items to show
   pagination:
-    next: Další
-    prev: Předchozí
-    showing: '{{from}} - {{to}} z {{count}} {{data}}'
-    single: '1 {{data}}'
-    single_plural: '{{count}} {{data}}'
-    recordsPerPage: Na stránku
-  clone: Klonovat
+    next: Next
+    prev: Previous
+    showing: '{{from}} - {{to}} of {{count}} {{data}}'
+    single_one: 'One {{data}}'
+    single_other: '{{count}} {{data}}'
+    recordsPerPage: Per Page
+  clone: Clone
 themes:
   labels:
-    light: Světlé
-    dark: Tmavé
-cloneSuffix: kopie
+    light: Light
+    dark: Dark
+cloneSuffix: copy
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds

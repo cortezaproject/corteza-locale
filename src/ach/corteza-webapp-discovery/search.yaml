@@ -1,18 +1,20 @@
 notification:
-  search-error: crwdns110558:0crwdne110558:0
-input-placeholder: crwdns110560:0crwdne110560:0
+  search-error: crwdns178753:0crwdne178753:0
+input-placeholder: crwdns178755:0crwdne178755:0
 card:
-  button-text: crwdns110562:0crwdne110562:0
-  type: crwdns110564:0crwdne110564:0
-  handle: crwdns110566:0crwdne110566:0
-  namespace: crwdns110568:0crwdne110568:0
-  module: crwdns110570:0crwdne110570:0
-  user: crwdns110572:0crwdne110572:0
-  email: crwdns110574:0crwdne110574:0
-  record: crwdns110576:0crwdne110576:0
-  fields: crwdns110578:0crwdne110578:0
-tooltip:
-  map: crwdns110580:0crwdne110580:0
-range: crwdns110582:0{{actual}}crwdnd110582:0{{all}}crwdne110582:0
-discovering: crwdns110584:0crwdne110584:0
-no-results: crwdns110586:0crwdne110586:0
+  button-text: crwdns178757:0crwdne178757:0
+  type: crwdns178759:0crwdne178759:0
+  handle: crwdns178761:0crwdne178761:0
+  namespace: crwdns178763:0crwdne178763:0
+  module: crwdns178765:0crwdne178765:0
+  user: crwdns178767:0crwdne178767:0
+  email: crwdns178769:0crwdne178769:0
+  record: crwdns178771:0crwdne178771:0
+  fields: crwdns178773:0crwdne178773:0
+range: crwdns178775:0{{actual}}crwdnd178775:0{{all}}crwdne178775:0
+discovering: crwdns178777:0crwdne178777:0
+no-results: crwdns178779:0crwdne178779:0
+show-more: crwdns178781:0crwdne178781:0
+loading-more: crwdns178783:0crwdne178783:0
+show-map: crwdns178785:0crwdne178785:0
+hide-map: crwdns178787:0crwdne178787:0

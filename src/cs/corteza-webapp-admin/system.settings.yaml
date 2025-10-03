@@ -1,137 +1,145 @@
 editor:
-  title: Nastavení systému
+  title: System settings
   auth:
-    title: Autentizace
+    title: Authentication
     url: URL
     internal:
-      title: Interní
-      enabled: Interní autentizace povolena
+      title: Internal
+      enabled: Internal authentication enabled
       password-reset:
-        enabled: Reset hesla povolen
+        enabled: Password reset enabled
       password-constraints:
-        title: Požadavky na heslo
-        ignored-security: Systém je nakonfigurovaný tak, že ignoruje bezpečnostní požadavky na heslo. To je v produkčním prostředí nebezpečné. Pokud je toto produkční prostředí, kontaktujte prosím administrátora, aby upravil konfiguraci systému (proměnná prostředí AUTH_PASSWORD_SECURITY).
-        min-length: Minimální délka
-        min-length-description: Musí být aspoň 8 znaků
-        min-num-count: Minimální počet číslic
-        min-num-count-description: Heslo musí obsahovat daný počet číslic (vypnete nastavením 0)
-        min-special-count: Minimální počet speciálních znaků
-        min-special-count-description: Heslo musí obsahovat daný počet speciálních znaků (vypnete nastavením 0)
-        min-upper-case-length: Minimální počet velkých písmen
-        min-upper-case-description: Heslo musí obsahovat daný počet velkých písmen (vypnete nastavením 0)
-        min-lower-case-length: Minimální počet malých písmen
-        min-lower-case-description: Heslo musí obsahovat daný počet malých písmen (vypnete nastavením 0)
+        title: Password constraints
+        ignored-security: The system is configured to ignore password security constraints which is insecure on production deployments. If this is a production deployment, please contact your administrator to update the system configuration (the AUTH_PASSWORD_SECURITY .env variable).
+        min-length: Minimum length
+        min-length-description: Must be at least 8 characters
+        min-num-count: Minimum number of digits
+        min-num-count-description: The password must include the specified number of digits (disabled if set to 0)
+        min-special-count: Minimum number of special characters
+        min-special-count-description: The password must include the specified number of special characters (disabled if set to 0)
+        min-upper-case-length: Minimum number of upper case characters
+        min-upper-case-description: The password must include the specified number of upper case characters (disabled if set to 0)
+        min-lower-case-length: Minimum number of lower case characters
+        min-lower-case-description: The password must include the specified number of lower case characters (disabled if set to 0)
       signup:
-        email-confirmation-required: Vyžadováno potvrzení emailu při registraci
-        enabled: Registrace povolena
+        email-confirmation-required: Signup email confirmation required
+        enabled: Signup enabled
         split-credentials-check:
-          description: 'Rozdělit přihlášení do dvou kroků: první zadat email a na druhé obrazovce zobrazit pole pro heslo. Automaticky přesměrovat uživatele na externí přihlášení, pokud uživatel nemá heslo a existuje jen jeden poskytovatel identity'
-          label: Povolit rozdělené přihlášení
+          description: 'Split login into two steps: collect the email input first and show the input for the password on the 2nd screen. Automatically forward user to external identity provider when user does not have his password set and there is only one IdP present'
+          label: Enable split-credentials check
       profile-avatar:
-        enabled: Profilový obrázek povolen
+        enabled: Profile avatar enabled
       send-user-invite-email:
-        title: Uvítací email
-        enabled: Odeslat uvítací email při vytvoření uživatele
-        description: Pokud je povoleno, tato konfigurace odešle email uživateli nově vytvořenému přes příkazovou řádku
+        title: Invite email
+        enabled: Send invite email on user creation
+        description: When enabled, this configuration sends an invite email to a newly created user via the CLI
         expires:
-          label: Délka platnosti
-          description: Jak dlouho bude token pozvánky platný
+          label: Valid for
+          description: How long will the invite token be valid before it expires
     mail:
-      title: Odesílající adresa autentizačního emailu
-      from-address: Adresa odesílatele
-      from-name: Jméno odesílatele
-      validate-email: Zadejte prosím validní emailovou adresu
+      title: Authentication email sender mail
+      from-address: Sender's address
+      from-name: Sender's name
+      validate-email: Please enter valid email address
     mfa:
-      title: Vícefaktorová autentizace
+      title: Multi-factor authentication
       TOTP:
-        enabled: Povolit použití TOTP (časově omezené jednorázové kódy z mobilní aplikace)
-        enforced: Vynutit použití TOTP (časově omezené jednorázové kódy z mobilní aplikace)
+        enabled: Allow users to use time based one-time-password (using mobile application)
+        enforced: Force users to use time based one-time-password (using mobile application)
         issuer:
-          description: Jméno vydavatele se předvyplní v autentizační aplikaci 
-          label: Vydavatel
+          description: Issuer name will be send to authenticator app when user configures it
+          label: Issuer
       emailOTP:
-        enabled: Povolit použití OTP (jednorázových kódů) zaslaných přes email
-        enforced: Vynutit použití OTP (jednorázových kódů) zaslaných přes email
+        enabled: Allow users to use one-time-password over email
+        enforced: Force users to use one-time-password over email
         expires:
-          description: Jak dlouho bude kód platný
-          label: Délka platnosti
+          description: How long will password be valid before it expires
+          label: Valid for
+    auto-logout:
+      title: Auto logout
+      enabled:
+        label: Enabled
+        description: Automatically log out users after a certain period of inactivity
+      timeout:
+        label: Timeout
+        description: The period of inactivity in seconds before a user is logged out
   external:
-    title: Externí poskytovatelé identity
-    enabled: Povolit externí autentizaci
+    title: External Authentication Providers
+    enabled: Enable external authentication
     table:
       header:
-        enabled: Povoleno
-        provider: Poskytovatel
-        info: Vydavatel, ID klienta
+        enabled: Enabled
+        provider: Provider
+        info: Issuer, client ID
     standard:
-      enabled: Povoleno
-      apiAccess: Přístup přes API
-      clientKey: Klíč klienta
-      clientSecret: Tajemství
+      enabled: Enabled
+      apiAccess: Api access
+      clientKey: Client key
+      clientSecret: Secret
     oidc:
-      add: Přidat OIDC poskytovatele
-      enabled: Povoleno
-      handle: Identifikátor
+      add: Add an OIDC provider
+      enabled: Enabled
+      handle: Handle
       title: OpenID Connect
-      issuer: URL OIDC vydavatele
-      issuerHint: Prefix adresy před /.well-known/openid-configuration (bez /.well-known/openid-configuration)
-      clientKey: Klíč klienta
-      clientSecret: Tajemství
-      scope: Rámec (scope)
-      scopePlaceholder: Zadejte seznam podporovaných OAuth scope hodnot
-      scopeHint: Použijte řetězec oddělený mezerami
+      issuer: OIDC Issuer URL
+      issuerHint: Where to find the /.well-known/openid-configuration (without the /.well-known/openid-configuration part)
+      clientKey: Client key
+      clientSecret: Secret
+      scope: Scope
+      scopePlaceholder: List out supported OAuth scope values
+      scopeHint: Use space delimited string
     saml:
-      enabled: Povoleno
+      enabled: Enabled
       title: SAML
       requests:
-        title: Požadavky
-        sign-requests: Podepsat požadavky
-        sign-method: Podpisová metoda
-        binding: Párování
-        binding-redirect: HTTP přesměrování
+        title: Requests
+        sign-requests: Sign requests
+        sign-method: Signature method
+        binding: Binding
+        binding-redirect: HTTP Redirect
         binding-post: HTTP POST
       cert:
-        public: Veřejný klíč
-        private: Soukromý klíč
-      name: Jméno
-      certificate: Certifikát
+        public: Public key
+        private: Private key
+      name: Name
+      certificate: Certificate
       idp:
-        title: Poskytovatel identity
-        ident-handle: Pole identifikátoru
-        ident-identifier: Pole identifikátoru
-        ident-name: Pole jména
+        title: Identity provider
+        ident-handle: Handle field
+        ident-identifier: Identifier field
+        ident-name: Name field
         url: URL
       desc:
-        name: Název poskytovatele, který se použije na přihlašovací obrazovce (Přihlásit přes <name>)
+        name: IdP name used on the login screen (Login with <name>)
         cert:
-          public: Obsah bude minimalizován
-          private: Obsah bude minimalizován
+          public: Content will be minimized
+          private: Content will be minimized
         requests:
-          sign-requests: Podepsat AuthnRequest a Assertion
-          sign-method: Metoda podpisu požadavků
-          binding: Typ HTTP binding, který se použije pro AuthNRequest, výchozí je HTTP přesměrování (GET)
+          sign-requests: Sign AuthNRequest and assertion
+          sign-method: Method to use on signed requests
+          binding: The type of HTTP binding to use on AuthNRequest, defaults to HTTP Redirect (GET)
         idp:
-          url: Adresa metadat poskytovatele identity
-          ident-handle: Název pole poskytovatele, které se použije jako ID nebo přezdívka uživatele v Corteza
-          ident-identifier: Název pole poskytovatele, které se použije jako email uživatele v Corteza
-          ident-name: Název pole poskytovatele, které se použije jako celé jméno uživatele v Corteza
+          url: Location of IdP metadata
+          ident-handle: Name of the IdP field used for filling Corteza user handle or nickname
+          ident-identifier: Name of the IdP field used for filling and matching Corteza user email
+          ident-name: Name of the IdP field used for filling Corteza user full name
     security:
-      title: Zabezpečení
+      title: Security
       prohibited-roles:
-        description: Role z tohoto seznamu budou odebrány z bezpečnostního kontextu, když se uživatel autentizuje pomocí tohoto poskytovatele
-        label: Zakázané role
+        description: Roles from this list will be removed from security context when authenticates with this provider
+        label: Prohibited roles
       forced-roles:
-        description: Role z tohoto seznamu budou vždy přidány do bezpečnostního kontextu, když se uživatel autentizuje pomocí tohoto poskytovatele
-        label: Vynucené role
+        description: Roles from this list will be always added to security context when authenticates with this provider
+        label: Forced roles
       permitted-roles:
-        description: Role z tohoto seznamu budou přidány do bezpečnostního kontextu, když se uživatel autentizuje pomocí tohoto poskytovatele
-        label: Povolené role
+        description: Only roles in this list will be added into security context when authenticates with this provider
+        label: Permitted roles
   bgScreen:
-    title: Pozadí přihlašovacího okna
+    title: Auth background screen
     image:
       uploader:
-        label: Obrázek na pozadí
-        instructions: Nahrajte obrázek pozadí kliknutím nebo přetáhnutím
-        uploading: Nahrávání obrázku pozadí
+        label: Background image
+        instructions: Click or drop background image here to upload
+        uploading: Uploading auth background image
       editor:
-        label: Vlastní CSS
+        label: Custom CSS

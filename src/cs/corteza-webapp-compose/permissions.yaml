@@ -1,242 +1,241 @@
 ui:
-  save: Uložit změny
-  cancel: Storno
-  set-for: Konfigurovat oprávnění pro {{target}}
-  loading: Načítání práv
-  label: Oprávnění
+  save: Save changes
+  cancel: Cancel
+  set-for: Set permissions for {{target}}
+  loading: Loading permissions
+  label: Permissions
   notification:
     save:
-      success: Oprávnění uložena
-      failed: Uložení oprávnění selhalo
+      success: Permissions saved
+      failed: Failed to save permissions
   edit:
-    label: Role uživatelů
-    description: Vyberte role k nastavení oprávnění
+    label: User roles
+    description: Select role to set permissions
   evaluate:
-    label: Vyhodnotit
-    description: Vyhodnotit aplikovaná oprávnění
+    description: Evaluate applied permissions
   add:
-    label: Přidat
-    title: Vyhodnotit oprávnění
-    save: Uložit a zavřít
+    label: Add
+    title: Evaluate permissions
+    save: Save & Close
     role:
-      label: Role
-      placeholder: Vybrat role
+      label: Roles
+      placeholder: Select role(s)
     user:
-      label: Uživatelé
-      placeholder: Hledat nebo vybrat uživatele
+      label: Users
+      placeholder: Search or select a user
   tooltip:
     unknown-context:
-      user: Nejde vyhodnotit oprávnění pro uživatele s kontextovou rolí pro nespecifický zdroj
-      role: Nejde vyhodnotit oprávnění pro kontextovou roli pro nespecifický zdroj
+      user: Can not evaluate permission for a user with contextual role on a non-specific resource
+      role: Can not evaluate permission for contextual role on a non-specific resource
   access:
-    allow: Povolit
-    inherit: Zdědit
-    deny: Zamítnout
+    allow: Allow
+    inherit: Inherit
+    deny: Deny
 resources:
   compose:
     namespace:
-      all: všechny jmenné prostory
-      specific: jmenný prostor "{{target}}"
-      tooltip: Práva ke jmenným prostorům
+      all: all namespaces
+      specific: namespace "{{target}}"
+      tooltip: Namespace permissions
       operations:
         read:
           description: ""
-          specific: Zobrazit jmenný prostor "{{target}}"
-          title: Zobrazit každý jmenný prostor
+          specific: Read namespace "{{target}}"
+          title: Read any namespace
         update:
           description: ""
-          specific: Aktualizovat jmenný prostor "{{target}}"
-          title: Aktualizovat každý jmenný prostor
+          specific: Update namespace "{{target}}"
+          title: Update any namespace
         delete:
           description: ""
-          specific: Smazat jmenný prostor "{{target}}"
-          title: Smazat každý jmenný prostor
+          specific: Delete namespace "{{target}}"
+          title: Delete any namespace
         manage:
-          description: Povolit přístup k administraci jmenného prostoru
-          specific: Spravovat jmenný prostor "{{target}}"
-          title: Spravovat každý jmenný prostor
+          description: Allow access to namespace's admin pages
+          specific: Manage namespace "{{target}}"
+          title: Manage any namespace
         export:
           description: ""
-          specific: Exportovat jmenný prostor "{{target}}"
-          title: Exportovat každý jmenný prostor
+          specific: Export namespace "{{target}}"
+          title: Export any namespace
         module.create:
           description: ""
-          specific: Vytvářet moduly ve jmenném prostoru "{{target}}"
-          title: Vytvářet moduly v každém jmenném prostoru
+          specific: Create modules under namespace "{{target}}"
+          title: Create modules under any namespace
         modules.export:
           description: ""
-          specific: Exportovat moduly ve jmenném prostoru "{{target}}"
-          title: Exportovat moduly v každém jmenném prostoru
+          specific: Export modules in namespace "{{target}}"
+          title: Export modules in any namespace
         modules.search:
           description: ""
-          specific: Prohledávat moduly ve jmenném prostoru "{{target}}"
-          title: Prohledávat moduly v každém jmenném prostoru
+          specific: List and search modules under namespace "{{target}}"
+          title: List and search modules under any namespace
         page.create:
           description: ""
-          specific: Vytvářet stránky ve jmenném prostoru "{{target}}"
-          title: Vytvářet stránky v každém jmenném prostoru
+          specific: Create pages under namespace "{{target}}"
+          title: Create pages under any namespace
         pages.search:
           description: ""
-          specific: Prohledávat stránky ve jmenném prostoru "{{target}}"
-          title: Prohledávat stránky v každém jmenném prostoru
+          specific: List and search pages under namespace "{{target}}"
+          title: List and search pages under any namespace
         pages.export:
           description: ""
-          specific: Exportovat stránky ve jmenném prostoru "{{target}}"
-          title: Exportovat stránky v každém jmenném prostoru
+          specific: Export pages in namespace "{{target}}"
+          title: Export pages in any namespace
         chart.create:
           description: ""
-          specific: Vytvářet grafy ve jmenném prostoru "{{target}}" 
-          title: Vytvářet grafy v každém jmenném prostoru
+          specific: Create charts under namespace "{{target}}"
+          title: Create charts under any namespace
         charts.search:
           description: ""
-          specific: Prohledávat grafy ve jmenném prostoru "{{target}}"
-          title: Prohledávat grafy v každém jmenném prostoru
+          specific: List and search charts under namespace "{{target}}"
+          title: List and search charts under any namespace
         charts.export:
           description: ""
-          specific: Exportovat grafy ve jmenném prostoru "{{target}}"
-          title: Exportovat grafy v každém jmenném prostoru
+          specific: Export charts in namespace "{{target}}"
+          title: Export charts in any namespace
     chart:
-      all: všechny grafy
-      specific: graf "{{target}}"
-      tooltip: Práva ke grafu
+      all: all charts
+      specific: chart "{{target}}"
+      tooltip: Chart permissions
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat graf "{{target}}"
-          title: Smazat každý graf
+          description: 'Default: deny'
+          specific: Delete chart "{{target}}"
+          title: Delete any chart
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit graf "{{target}}"
-          title: Zobrazit každý graf
+          description: 'Default: deny'
+          specific: Read chart "{{target}}"
+          title: Read any chart
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat graf "{{target}}"
-          title: Aktualizovat každý graf
+          description: 'Default: deny'
+          specific: Update chart "{{target}}"
+          title: Update any chart
     module:
-      all: všechny moduly
-      specific: modul "{{target}}"
-      tooltip: Práva k modulu
+      all: all modules
+      specific: module "{{target}}"
+      tooltip: Module permissions
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat modul "{{target}}"
-          title: Smazat každý modul
+          description: 'Default: deny'
+          specific: Delete module "{{target}}"
+          title: Delete any module
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit modul "{{target}}"
-          title: Zobrazit každý modul
+          description: 'Default: deny'
+          specific: Read module "{{target}}"
+          title: Read any module
         record.create:
-          description: 'Výchozí: zamítnuto'
-          specific: Vytvořit záznam modulu "{{target}}"
-          title: Vytvořit záznam jakéhokoliv modulu
+          description: 'Default: deny'
+          specific: Create record of module "{{target}}"
+          title: Create record of any module
         records.search:
-          description: 'Výchozí: zamítnuto'
-          specific: Prohledávat záznamy modulu "{{target}}"
-          title: Prohledávat záznamy každého modulu
+          description: 'Default: deny'
+          specific: List and search records of module "{{target}}"
+          title: List and search records of any module
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat modul "{{target}}"
-          title: Aktualizovat každý modul
+          description: 'Default: deny'
+          specific: Update module "{{target}}"
+          title: Update any module
         'owned-record.create':
-          description: 'Výchozí: zamítnuto'
-          specific: Spravovat vlastníka při vytváření záznamu modulu "{{target}}"
-          title: Spravovat vlastníka při vytváření záznamu jakéhokoliv modulu
-          all-specific: Spravovat vlastníka při vytváření záznamu modulu "{{ target }}"
+          description: 'Default: deny'
+          specific: Manage owner when creating record for module "{{target}}"
+          title: Manage owner when creating record for any module
+          all-specific: Manage owner when creating record for module "{{ target }}"
     module-field:
-      all: všechna pole modulu
-      specific: pole "{{target}}"
-      all-specific: všechna pole modulu "{{ target }}"
-      tooltip: Práva k polím modulu
+      all: all module fields
+      specific: field "{{target}}"
+      all-specific: all module fields of module "{{ target }}"
+      tooltip: Module field permissions
       operations:
         record.value.read:
-          description: 'Výchozí: zamítnuto'
-          specific: 'Zobrazit pole záznamů modulu "{{target}}"'
-          title: Zobrazit pole záznamů každého modulu
-          all-specific: Zobrazit pole záznamů modulu "{{ target }}"
+          description: 'Default: deny'
+          specific: 'Read "{{target}}" record fields '
+          title: Read record fields of any module
+          all-specific: Read record fields of module "{{ target }}"
         record.value.update:
-          description: 'Výchozí: zamítnuto'
-          specific: 'Aktualizovat hodnoty polí záznamu "{{target}}"'
-          title: Aktualizovat hodnoty polí záznamu každého modulu
-          all-specific: Aktualizovat hodnoty polí záznamu modulu "{{ target }}"
+          description: 'Default: deny'
+          specific: 'Update "{{target}}" record field values'
+          title: Update record field values of any module
+          all-specific: Update record field values of module "{{ target }}"
     page:
-      all: všechny stránky
-      specific: stránka "{{target}}"
-      tooltip: Práva ke stránce
+      all: all pages
+      specific: page "{{target}}"
+      tooltip: Page permissions
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat stránku "{{target}}"
-          title: Smazat každou stránku
+          description: 'Default: deny'
+          specific: Delete page "{{target}}"
+          title: Delete any page
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit stránku "{{target}}"
-          title: Zobrazit každou stránku
+          description: 'Default: deny'
+          specific: Read page "{{target}}"
+          title: Read any page
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat stránku "{{target}}"
-          title: Aktualizovat každou stránku
+          description: 'Default: deny'
+          specific: Update page "{{target}}"
+          title: Update any page
         page-layout.create:
-          description: 'Výchozí: zamítnuto'
-          specific: Vytvářet rozložení stránky "{{target}}"
-          title: Vytvářet rozložení stránky
+          description: 'Default: deny'
+          specific: Create page layouts for page "{{target}}"
+          title: Create page layout
         page-layouts.search:
-          description: 'Výchozí: zamítnuto'
-          specific: Procházet rozložení stránky "{{target}}"
-          title: Procházet rozložení stránky
+          description: 'Default: deny'
+          specific: List page layouts for page "{{target}}"
+          title: List page layout
     page-layout:
-      all: všechna rozložení stránky
-      specific: rozložení stránky "{{target}}"
-      tooltip: Práva pro rozložení stránky
-      all-specific: všechna rozložení stránky "{{ target }}"
+      all: all page layouts
+      specific: page layout "{{target}}"
+      tooltip: Page layout permissions
+      all-specific: all page layouts of page "{{ target }}"
       operations:
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit rozložení stránky "{{target}}"
-          title: Zobrazit každé rozložení stránky
-          all-specific: Zobrazit rozložení stránky "{{ target }}"
+          description: 'Default: deny'
+          specific: Read page layout "{{target}}"
+          title: Read any page layout
+          all-specific: Read page layouts of page "{{ target }}"
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat rozložení stránky "{{target}}"
-          title: Aktualizovat každé rozložení stránky
-          all-specific: Aktualizovat rozložení stránky "{{ target }}"
+          description: 'Default: deny'
+          specific: Update page layout "{{target}}"
+          title: Update any page layout
+          all-specific: Update page layouts of page "{{ target }}"
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat rozložení stránky "{{target}}"
-          title: Smazat každé rozložení stránky
-          all-specific: Smazat rozložení stránky "{{ target }}"
+          description: 'Default: deny'
+          specific: Delete page layout "{{target}}"
+          title: Delete any page layout
+          all-specific: Delete page layouts of page "{{ target }}"
     record:
-      all: všechny záznamy
-      specific: záznam "{{target}}"
-      all-specific: všechny záznamy modulu "{{ target }}"
-      tooltip: Práva k záznamu
+      all: all records
+      specific: record "{{target}}"
+      all-specific: all records of module "{{ target }}"
+      tooltip: Record permissions
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat záznam "{{target}}"
-          title: Mazat záznamy každého modulu
-          all-specific: Mazat záznamy modulu "{{ target }}"
+          description: 'Default: deny'
+          specific: Delete record "{{target}}"
+          title: Delete records of any module
+          all-specific: Delete records of module "{{ target }}"
         undelete:
-          description: 'Výchozí: zamítnuto'
-          specific: Obnovit záznam "{{target}}"
-          title: Obnovit záznamy každého modulu
-          all-specific: Obnovit záznamy modulu "{{ target }}"
+          description: 'Default: deny'
+          specific: Restore record "{{target}}"
+          title: Restore records of any module
+          all-specific: Restore records of module "{{ target }}"
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit záznam "{{target}}"
-          title: Zobrazit záznamy každého modulu
-          all-specific: Zobrazit záznamy modulu "{{ target }}"
+          description: 'Default: deny'
+          specific: Read record "{{target}}"
+          title: Read records of any module
+          all-specific: Read records of module "{{ target }}"
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat záznam "{{target}}"
-          title: Aktualizovat záznamy každého modulu
-          all-specific: Aktualizovat záznamy modulu "{{ target }}"
+          description: 'Default: deny'
+          specific: Update record "{{target}}"
+          title: Update records of any module
+          all-specific: Update records of module "{{ target }}"
         'owner.manage':
-          description: 'Výchozí: zamítnuto'
-          specific: Spravovat vlastníka záznamu "{{target}}"
-          title: Spravovat vlastníky záznamů každého modulu
-          all-specific: Spravovat vlastníky záznamů modulu "{{ target }}"
+          description: 'Default: deny'
+          specific: Manage owner of record "{{target}}"
+          title: Manage record owners of any module
+          all-specific: Manage record owners of module "{{ target }}"
         'revisions.search':
-          description: 'Výchozí: zamítnuto'
-          specific: Přistupovat k revizím záznamu "{{target}}"
-          title: Přistupovat k revizím záznamu
-          all-specific: Přistupovat k revizím záznamu
+          description: 'Default: deny'
+          specific: Access revisions of record "{{target}}"
+          title: Access record revisions
+          all-specific: Access record revisions

@@ -3,540 +3,541 @@
 #  - inline permission table (admin interface only)
 #  - modal permission table (common perm. interface)
 ui:
-  save: Uložit změny
-  cancel: Storno
-  set-for: Konfigurovat oprávnění pro {{target}}
-  loading: Načítání oprávnění
+  save: Save changes
+  cancel: Cancel
+  set-for: Set permissions for {{target}}
+  loading: Loading permissions
   notification:
     save:
-      success: Oprávnění uložena
-      failed: Uložení oprávnění selhalo
+      success: Permissions saved
+      failed: Failed to save permissions
   edit:
-    title: Editace oprávnění
-    label: Role uživatelů
-    description: Vyberte role k nastavení oprávnění
+    title: Edit permissions
+    label: User roles
+    description: Select role to set permissions
   evaluate:
-    title: Vyhodnocená oprávnění
-    description: Vyhodnotit aplikovaná oprávnění
+    description: Evaluate applied permissions
   add:
-    label: Přidat
-    title: Vyhodnotit oprávnění
-    save: Uložit a zavřít
+    label: Add
+    title: Evaluate permissions
+    save: Save & Close
     edit:
-      description: Vyberte roli, pro kterou chcete editovat oprávnění
+      description: Select a role that you wish to edit permissions for
     evaluate:
-      description: Vyberte kombinaci roli nebo uživatele pro vyhodnocení
+      description: Select a combination of roles or a user to evaluate
     role:
-      label: Role
-      placeholder: Vybrat role
+      label: Roles
+      placeholder: Select role(s)
     user:
-      label: Uživatelé
-      placeholder: Hledat nebo vybrat uživatele
+      label: Users
+      placeholder: Search or select a user
   tooltip:
     unknown-context:
-      user: Nejde vyhodnotit oprávnění pro uživatele s kontextovou rolí pro nespecifický zdroj
-      role: Nejde vyhodnotit oprávnění pro kontextovou roli pro nespecifický zdroj
+      user: Can not evaluate permission for a user with contextual role on a non-specific resource
+      role: Can not evaluate permission for contextual role on a non-specific resource
   access:
-    allow: Povolit
-    inherit: Zdědit
-    deny: Zamítnout
+    allow: Allow
+    inherit: Inherit
+    deny: Deny
   #############################################################################
   # Inline permission table UI:
-  click-on-cell-to-allow: Klikněte na buňku oprávnění/role pro povolení dané operace
-  edit-or-eval: Editovat nebo vyhodnotit oprávnění
+  click-on-cell-to-allow: Click on permission/role cell to allow a specific operation
+  edit-or-eval: Edit or evaluate permissions
   title:
-    automation: Oprávnění automatizace
-    system: Systémová oprávnění
-    compose: Oprávnění Compose
-    federation: Oprávnění federace
+    automation: Automation permissions
+    system: System permissions
+    compose: Compose permissions
+    federation: Federation permissions
   clone:
-    clone: Klonovat
-    label: Klonovat oprávnění
-    pick-role: Vyhledávejte role
-    title: Aplikovat oprávnění na
-    description: Tímto se naklonují všechna oprávnění dané role a aplikují se na vybrané
+    clone: Clone
+    label: Clone permissions
+    pick-role: Start typing to search for roles
+    title: Apply permissions to
+    description: This will clone all the permissions of the current role and apply them  to the selected
 resources:
   automation:
     component:
-      label: Komponenta automatizace
+      label: Automation component
       operations:
         grant:
-          title: Přidělit oprávnění pro automatizaci
+          title: Grant permissions on automation
         sessions.search:
-          title: Hledání relací
+          title: Search sessions
         triggers.search:
-          title: Hledání spouštěčů
+          title: Search triggers
         workflow.create:
-          title: Vytvořit nové workflow
+          title: Create new workflow
         workflows.search:
-          title: Hledání workflow
+          title: Search workflows
         resource-translations.manage:
-          title: Správa překladů
+          title: Manage resource translations
     workflow:
       label: Workflows
-      all: všechna workflow
+      all: all workflows
       specific: workflow "{{target}}"
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat toto workflow
-          title: Smazat každé workflow
+          description: 'Default: deny'
+          specific: Delete this workflow
+          title: Delete any workflow
         execute:
-          description: 'Výchozí: zamítnuto'
-          specific: Spustit toto workflow
-          title: Spustit každé workflow
+          description: 'Default: deny'
+          specific: Execute this workflow
+          title: Execute any workflow
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit toto workflow
-          title: Zobrazit každé workflow
+          description: 'Default: deny'
+          specific: Read this workflow
+          title: Read any workflow
         sessions.manage:
-          description: 'Výchozí: zamítnuto'
-          specific: Spravovat relace pro toto workflow
-          title: Spravovat všechny relace
+          description: 'Default: deny'
+          specific: Manage sessions for this workflow
+          title: Manage all sessions
         triggers.manage:
-          description: 'Výchozí: zamítnuto'
-          specific: Spravovat spouštěče pro toto workflow
-          title: Spravovat všechny spouštěče
+          description: 'Default: deny'
+          specific: Manage triggers for this workflow
+          title: Manage all triggers
         undelete:
-          description: 'Výchozí: zamítnuto'
-          specific: Obnovit toto smazané workflow
-          title: Obnovit každé smazané workflow
+          description: 'Default: deny'
+          specific: Undelete this workflow
+          title: Undelete any workflow
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat toto workflow
-          title: Aktualizovat každé workflow
+          description: 'Default: deny'
+          specific: Update this workflow
+          title: Update any workflow
   system:
     component:
-      label: Komponenta systému
+      label: System component
       operations:
         action-log.read:
-          title: Přistupovat k záznamu akcí
+          title: Access action log
         application.create:
-          title: Vytvořit novou aplikaci
+          title: Create new application
         application.flag.global:
-          title: Může připnout aplikaci pro všechny
+          title: Can pin application for everyone
         application.flag.self:
-          title: Může připnout aplikaci pro sebe
+          title: Can pin application for themselves
         applications.search:
-          title: Prohledávat aplikace
+          title: List and search applications
         auth-client.create:
-          title: Vytvořit nového autorizovaného klienta
+          title: Create new auth client
         auth-clients.search:
-          title: Prohledávat autorizované klienty
+          title: List and search auth clients
         apigw-route.create:
-          title: Vytvořit novou cestu
+          title: Create new route
         apigw-routes.search:
-          title: Prohledávat cesty
+          title: List and search routes
         apigw-filter.create:
-          title: Vytvořit nový filtr
+          title: Create new filter
         apigw-filters.search:
-          title: Prohledávat filtry
+          title: List and search filters
         grant:
-          title: Přidělit oprávnění pro systémovou komponentu
+          title: Grant permission on system component
         queue.create:
-          title: Vytvořit novou frontu zpráv
+          title: Create new messaging queue
         queues.search:
-          title: Prohledávat fronty zpráv
+          title: List and search messaging queues
         reminder.assign:
-          title: Povolit přidělení upomínky
+          title: Allow reminder assignment
+        notification.assign:
+          title: Allow notification assignment
         role.create:
-          title: Vytvořit novou roli
+          title: Create new role
         roles.search:
-          title: Prohledávat role
+          title: List and search roles
         settings.manage:
-          title: Spravovat všechna nastavení
+          title: Manage all settings
         settings.read:
-          title: Číst všechna nastavení
+          title: Access all settings
         template.create:
-          title: Vytvářet nové šablony
+          title: Create new template
         templates.search:
-          title: Prohledávat šablony
+          title: List and search templates
         user.create:
-          title: Vytvořit uživatele
+          title: Create new user
         users.search:
-          title: Prohledávat uživatele
+          title: List and search users
         resource-translations.manage:
-          title: Spravovat překlady
+          title: Manage resource translations
         dal-schema-alterations.manage:
-          title: Provádět úpravy schématu
+          title: Manage schema alterations
         report.create:
-          title: Vytvořit nový report
+          title: Create new report
         reports.search:
-          title: Prohledávat reporty
+          title: List and search reports
         dal-connections.search:
-          title: Prohledávat spojení
+          title: Search connections
         dal-connection.create:
-          title: Vytvářet spojení
+          title: Create connections
         dal-sensitivity-level.manage:
-          title: Spravovat úroveň citlivosti spojení
+          title: Manage connection sensitivity level
         data-privacy-requests.search:
-          title: Prohledávat požadavky ochrany soukromí
+          title: Search data privacy requests
         data-privacy-request.create:
-          title: Vytvářet požadavky ochrany soukromí
+          title: Create data privacy requests
     application:
-      label: Aplikace
-      all: všechny aplikace
-      specific: aplikace "{{target}}"
+      label: Applications
+      all: all applications
+      specific: application "{{target}}"
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat {{target}}
-          title: Smazat každou aplikaci
+          description: 'Default: deny'
+          specific: Delete {{target}}
+          title: Delete any application
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit {{target}}
-          title: Zobrazit každou aplikaci
+          description: 'Default: deny'
+          specific: Read {{target}}
+          title: Read any application
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat {{target}}
-          title: Aktualizovat každou aplikaci
+          description: 'Default: deny'
+          specific: Update {{target}}
+          title: Update any application
     apigw-route:
-      label: Cesty API brány
-      all: všechny cesty
-      specific: cesta "{{target}}"
+      label: Gateway routes
+      all: all routes
+      specific: route "{{target}}"
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat {{target}}
-          title: Smazat každou cestu
+          description: 'Default: deny'
+          specific: Delete {{target}}
+          title: Delete any route
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit {{target}}
-          title: Zobrazit každou cestu
+          description: 'Default: deny'
+          specific: Read {{target}}
+          title: Read any route
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat {{target}}
-          title: Aktualizovat každou cestu
+          description: 'Default: deny'
+          specific: Update {{target}}
+          title: Update any route
     auth-client:
-      label: Autorizovaní klienti
-      all: všichni autorizovaní klienti
-      specific: autorizovaný klient "{{target}}"
+      label: Auth Clients
+      all: all auth clients
+      specific: auth client "{{target}}"
       operations:
         authorize:
-          description: 'Uživatel může autorizovat (použít) tohoto klienta. Výchozí: zakázáno'
-          specific: Autorizovat klienta "{{target}}"
-          title: Autorizovat každého klienta
+          description: 'User can authorize (use) this client. Default: deny'
+          specific: Authorize client "{{target}}
+          title: Authorize any client
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat klienta "{{target}}"
-          title: Smazat každého klienta
+          description: 'Default: deny'
+          specific: Delete client "{{target}}
+          title: Delete any client
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit klienta "{{target}}"
-          title: Zobrazit každého klienta
+          description: 'Default: deny'
+          specific: Read client "{{target}}
+          title: Read any client
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat klienta "{{target}}"
-          title: Aktualizovat každého klienta
+          description: 'Default: deny'
+          specific: Update client "{{target}}
+          title: Update any client
     dal-connection:
-      label: Spojení
-      all: všechna spojení
-      specific: spojení "{{target}}"
+      label: Connections
+      all: all connections
+      specific: connection "{{target}}"
       operations:
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit spojení "{{target}}"
-          title: Zobrazit každé spojení
+          description: 'Default: deny'
+          specific: Read connection "{{target}}
+          title: Read any connection
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat spojení "{{target}}"
-          title: Aktualizovat každé spojení
+          description: 'Default: deny'
+          specific: Update connection "{{target}}
+          title: Update any connection
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat spojení "{{target}}"
-          title: Smazat každé spojení
+          description: 'Default: deny'
+          specific: Delete connection "{{target}}
+          title: Delete any connection
         dal-config:
           manage:
-            title: Spravovat každé spojení
+            title: Manage any connections
     role:
-      label: Role
-      all: všechny role
+      label: Roles
+      all: all roles
       specific: role "{{target}}"
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat {{target}}
-          title: Smazat každou roli
+          description: 'Default: deny'
+          specific: Delete {{target}}
+          title: Delete any role
         members.manage:
-          description: 'Výchozí: zamítnuto'
-          specific: Spravovat členy pro "{{target}}"
-          title: Spravovat členy pro každou roli
+          description: 'Default: deny'
+          specific: Manage members for {{target}}
+          title: Manage members for any role
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit {{target}}
-          title: Z zobrazit každou roli
+          description: 'Default: deny'
+          specific: Read {{target}}
+          title: Read any role
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat {{target}}
-          title: Aktualizovat každou roli
+          description: 'Default: deny'
+          specific: Update {{target}}
+          title: Update any role
     queue:
-      label: Fronty
-      all: všechny fronty
-      specific: fronta "{{target}}"
+      label: Queues
+      all: all queues
+      specific: queue "{{target}}"
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat {{target}}
-          title: Smazat každou roli
+          description: 'Default: deny'
+          specific: Delete {{target}}
+          title: Delete any queue
         members.manage:
-          description: 'Výchozí: zamítnuto'
-          specific: Spravovat členy pro "{{target}}"
-          title: Spravovat členy pro každou frontu
+          description: 'Default: deny'
+          specific: Manage members for {{target}}
+          title: Manage members for any queue
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit {{target}}
-          title: Zobrazit každou frontu
+          description: 'Default: deny'
+          specific: Read {{target}}
+          title: Read any queue
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat {{target}}
-          title: Aktualizovat každou frontu
+          description: 'Default: deny'
+          specific: Update {{target}}
+          title: Update any queue
         queue.read:
-          description: 'Výchozí: zamítnuto'
-          specific: Číst zprávy z {{target}}
-          title: Číst zprávy z každé fronty
+          description: 'Default: deny'
+          specific: Read messages from {{target}}
+          title: Read messages from any queue
         queue.write:
-          description: 'Výchozí: zamítnuto'
-          specific: Psát zprávy do {{target}}
-          title: Psát zprávy do každé fronty
+          description: 'Default: deny'
+          specific: Write messages to {{target}}
+          title: Write messages to any queue
     template:
-      label: Šablony
-      all: všechny šablony
-      specific: šablona "{{target}}"
+      label: Templates
+      all: all templates
+      specific: template "{{target}}"
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat {{target}}
-          title: Smazat každou šablonu
+          description: 'Default: deny'
+          specific: Delete {{target}}
+          title: Delete any template
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit {{target}}
-          title: Zobrazit každou šablonu
+          description: 'Default: deny'
+          specific: Read {{target}}
+          title: Read any template
         render:
-          description: 'Výchozí: zamítnuto'
-          specific: Vykreslit {{target}}
-          title: Vykreslit každou šablonu
+          description: 'Default: deny'
+          specific: Render {{target}}
+          title: Render any template
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat {{target}}
-          title: Aktualizovat každou šablonu
+          description: 'Default: deny'
+          specific: Update {{target}}
+          title: Update any template
     report:
-      label: Reporty
-      all: všechny reporty
+      label: Reports
+      all: all reports
       specific: report "{{target}}"
       operations:
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat {{target}}
-          title: Smazat každý report
+          description: 'Default: deny'
+          specific: Delete {{target}}
+          title: Delete any report
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit {{target}}
-          title: Zobrazit každý report
+          description: 'Default: deny'
+          specific: Read {{target}}
+          title: Read any report
         run:
-          description: 'Výchozí: zamítnuto'
-          specific: Spustit {{target}}
-          title: Spustit každý report
+          description: 'Default: deny'
+          specific: Run {{target}}
+          title: Run any report
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat {{target}}
-          title: Aktualizovat každý report
+          description: 'Default: deny'
+          specific: Update {{target}}
+          title: Update any report
     user:
-      label: Uživatelé
-      all: všichni uživatelé
-      specific: uživatel "{{target}}"
+      label: Users
+      all: all users
+      specific: user "{{target}}"
       operations:
         credentials:
           manage:
-            specific: Spravovat přihlašovací údaje {{target}}
-            title: Spravovat každého uživatele
+            specific: Manage {{target}}'s credentials
+            title: Manage any user
         delete:
-          description: 'Výchozí: zamítnuto'
-          specific: Smazat {{target}}
-          title: Smazat každého uživatele
+          description: 'Default: deny'
+          specific: Delete {{target}}
+          title: Delete any user
         email.unmask:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit detaily emailu pro {{target}}
-          title: Zobrazit detaily emailu pro každého uživatele
+          description: 'Default: deny'
+          specific: Show email details for {{target}}
+          title: Show email details for any user
         name.unmask:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit detaily jména pro {{target}}
-          title: Zobrazit detaily jména pro každého uživatele
+          description: 'Default: deny'
+          specific: Show name details for {{target}}
+          title: Show name details for any user
         impersonate:
-          description: 'Výchozí: zamítnuto'
-          specific: Přepnout se do uživatele {{target}}
-          title: Přepnout se do každého uživatele
+          description: 'Default: deny'
+          specific: Impersonate this user {{target}}
+          title: Impersonate any user
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit {{target}}
-          title: Zobrazit každého uživatele
+          description: 'Default: deny'
+          specific: Read {{target}}
+          title: Read any user
         suspend:
-          description: 'Výchozí: zamítnuto'
-          specific: Zablokovat {{target}}
-          title: Zablokovat každého uživatele
+          description: 'Default: deny'
+          specific: Suspend {{target}}
+          title: Suspend any user
         unsuspend:
-          description: 'Výchozí: zamítnuto'
-          specific: Odblokovat {{target}}
-          title: Odblokovat každého uživatele
+          description: 'Default: deny'
+          specific: Unsuspend {{target}}
+          title: Unsuspend any user
         update:
-          description: 'Výchozí: zamítnuto'
-          specific: Aktualizovat {{target}}
-          title: Aktualizovat každého uživatele
+          description: 'Default: deny'
+          specific: Update {{target}}
+          title: Update any user
     data-privacy-request:
-      label: Požadavky na ochranu soukromí
-      all: všechny požadavky
-      specific: požadavek "{{target}}"
+      label: Privacy Requests
+      all: all requests
+      specific: request "{{target}}"
       operations:
         read:
-          description: 'Výchozí: zamítnuto'
-          specific: Zobrazit {{target}}
-          title: Zobrazit každý požadavek
+          description: 'Default: deny'
+          specific: Read {{target}}
+          title: Read any request
         approve:
-          description: 'Výchozí: zamítnuto'
-          specific: Schválit {{target}}
-          title: Schválit každý požadavek
+          description: 'Default: deny'
+          specific: Approve {{target}}
+          title: Approve any request
   federation:
     component:
-      label: Komponenta federace
+      label: Federation component
       operations:
         grant:
-          title: Udělat oprávnění pro komponentu federace
+          title: Grant permissions on federation component
         node.create:
-          title: Vytvořit uzly
+          title: Create nodes
         nodes.search:
-          title: Prohledávat uzly
+          title: List or search nodes
         pair:
-          title: Párovat uzly
+          title: Pair nodes
         settings.manage:
-          title: Spravovat všechna nastavení
+          title: Manage all settings
         settings.read:
-          title: Zobrazit všechna nastavení
+          title: Access all settings
     node:
-      label: Uzly
+      label: Nodes
       operations:
         manage:
-          title: Spravovat každý uzel
+          title: Manage any node
         module.create:
-          title: Vytvářet moduly
+          title: Create modules
     exposed-module:
-      label: Moduly
+      label: Modules
       operations:
         manage:
-          title: Spravovat každý modul
+          title: Manage any module
     shared-module:
-      label: Moduly
+      label: Modules
       operations:
         map:
-          title: Mapovat každý modul
+          title: Map any module
   compose:
     component:
-      label: Komponenta Compose
+      label: Compose component
       operations:
         grant:
-          title: Udělat oprávnění pro komponentu Compose
+          title: Grant permissions on compose component
         namespace.create:
-          title: Vytvořit jmenný prostor
+          title: Create namespaces
         namespaces.search:
-          title: Prohledávat jmenné prostory
+          title: List and search namespaces
         settings.manage:
-          title: Spravovat všechna nastavení
+          title: Manage all settings
         settings.read:
-          title: Číst všechna nastavení
+          title: Access all settings
         resource-translations.manage:
-          title: Spravovat překlady
+          title: Manage resource translations
     chart:
-      label: Grafy
+      label: Charts
       operations:
         delete:
-          title: Smazat každý graf
+          title: Delete any chart
         read:
-          title: Zobrazit každý graf
+          title: Read any chart
         update:
-          title: Aktualizovat každý graf
+          title: Update any chart
     module:
-      label: Moduly
+      label: Modules
       operations:
         delete:
-          title: Smazat každý modul
+          title: Delete any module
         owned-record.create:
-          title: Spravovat vlastníka při vytváření záznamu pro každý modul
+          title: Manage owner when creating records for any module
         read:
-          title: Zobrazit každý modul
+          title: Read any module
         record.create:
-          title: Vytvořit záznam v každém modulu
+          title: Create record under any module
         records.search:
-          title: Prohledávat záznamy v každém modulu
+          title: List and search records under any module
         update:
-          title: Aktualizovat každý modul
+          title: Update any module
     module-field:
-      label: Pole modulu
+      label: Module fields
       operations:
         record.value.read:
-          title: Zobrazit každé pole modulu
+          title: Read any module field
         record.value.update:
-          title: Aktualizovat každé pole modulu
+          title: Update any module field
     namespace:
-      label: Jmenný prostor
+      label: Namespaces
       operations:
         chart.create:
-          title: Vytvořit graf v každém jmenném prostoru
+          title: Create charts under any namespace
         charts.search:
-          title: Prohledávat grafy v každém jmenném prostoru
+          title: List and search charts under any namespace
         charts.export:
-          title: Exportovat grafy v každém jmenném prostoru
+          title: Export charts under any namespace
         delete:
-          title: Smazat každý jmenný prostor
+          title: Delete any namespace
         manage:
-          title: Spravovat každý jmenný prostor
+          title: Manage any namespace
         module.create:
-          title: Vytvářet moduly v každém jmenném prostoru
+          title: Create modules under any namespace
         modules.search:
-          title: Prohledávat moduly v každém jmenném prostoru
+          title: List and search modules under any namespace
         modules.export:
-          title: Exportovat moduly v každém jmenném prostoru
+          title: Export modules under any namespace
         page.create:
-          title: Vytvářet stránky v každém jmenném prostoru
+          title: Create pages under any namespace
         pages.search:
-          title: Prohledávat sušenky v každém jmenném prostoru
+          title: List and search pages under any namespace
         read:
-          title: Zobrazit každý jmenný prostor
+          title: Access any namespace
         update:
-          title: Aktualizovat každý jmenný prostor
+          title: Update any namespace
         export:
-          title: Exportovat každý jmenný prostor
+          title: Export any namespace
     page:
-      label: Stránky
+      label: Pages
       operations:
         delete:
-          title: Smazat každou stránku
+          title: Delete any page
         read:
-          title: Zobrazit každou stránku
+          title: Read any page
         update:
-          title: Aktualizovat každou stránku
+          title: Update any page
         page-layout.create:
-          title: Vytvářet rozložení stránky pro každou stránku
+          title: Create page layouts under any page
         page-layouts.search:
-          title: Prohledávat rozložení stránky pro každou stránku
+          title: List and search page layouts under any page
     page-layout:
-      label: Rozložení stránky
+      label: Page layouts
       operations:
         delete:
-          title: Smazat každé rozložení stránky
+          title: Delete any page layout
         read:
-          title: Zobrazit každé rozložení stránky
+          title: Read any page layout
         update:
-          title: Aktualizovat každé rozložení stránky
+          title: Update any page layout
     record:
-      label: Záznamy
+      label: Records
       operations:
         delete:
-          title: Smazat každý záznam
+          title: Delete any record
         undelete:
-          title: Obnovit každý smazaný záznam
+          title: Undelete any record
         read:
-          title: Zobrazit každý záznam
+          title: Read any record
         update:
-          title: Aktualizovat každý záznam
+          title: Update any record
         owner.manage:
-          title: Spravovat vlastníka každého záznamu
+          title: Manage ownership of any record
         revisions.search:
-          title: Prohlížet revize každého záznamu
+          title: Access revisions of any record

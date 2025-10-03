@@ -1,23 +1,23 @@
 template:
-  title: Registrace
+  title: Sign up
   form:
     email:
       label: Email
-      placeholder: email@domena.tld
+      placeholder: email@domain.tld
     password:
-      label: Heslo
-      placeholder: Heslo
+      label: Password
+      placeholder: Password
     name:
-      label: Celé jméno
-      placeholder: Vaše celé jméno
+      label: Full name
+      placeholder: Your full name
     nickname:
-      label: Krátké jméno nebo přezdívka
-      placeholder: Krátké jméno nebo přezdívka
+      label: Short name, nickname or handle
+      placeholder: Short name, nickname or handle
     button:
-      sign-up: Odeslat
-  log-in: Už máte účet? <a data-test-id="link-login" href="{{link}}">Přihlaste se</a>
+      sign-up: Submit
+  log-in: Already have an account? <a data-test-id="link-login" href="{{link}}">Log in</a>
 alerts:
-  signup-successful: Registrace byla úspěšná
-  email-confirmed-logged-in: Emailová adresa potvrzena, nyní jste přihlášeni.
-  invalid-expired-token: Neplatný token pro potvrzení emailu nebo jeho platnost vypršela, pošlete prosím novou žádost o potvrzení.
-  signup-disabled: Registrace je vypnutá 
+  signup-successful: Sign-up successful
+  email-confirmed-logged-in: Email address confirmed, you're now logged-in.
+  invalid-expired-token: Invalid or expired email confirmation token, please resend confirmation request.
+  signup-disabled: Signup disabled

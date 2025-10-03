@@ -1,64 +1,68 @@
 label:
-  add: Přidat
+  add: Add
   general:
     yes: Yes
     no: No
   template:
-    single: Šablona
-    plural: Šablony
+    single: Template
+    plural: Templates
   user:
-    single: Uživatel
-    plural: Uživatelé
+    single: User
+    plural: Users
   role:
     single: Role
-    plural: Role
+    plural: Roles
   application:
-    single: Aplikace
-    plural: Aplikace
+    single: Application
+    plural: Applications
   auth_client:
-    single: Autorizovaný klient
-    plural: Autorizovaní klienti
+    single: Auth Client
+    plural: Auth Clients
   queue:
-    single: Fronta zpráv
-    plural: Fronty zpráv
+    single: Messaging Queue
+    plural: Messaging Queues
   route:
-    single: Cesta
-    plural: Cesty
+    single: Route
+    plural: Routes
   connection:
-    single: Databázové spojení
-    plural: Databázová spojení
+    single: Database Connection
+    plural: Database Connections
   sensitivity_level:
-    single: Úroveň citlivosti
-    plural: Úrovně citlivosti
+    single: Sensitivity Level
+    plural: Sensitivity Levels
   session:
-    single: Relace
-    plural: Relace
+    single: Session
+    plural: Sessions
   workflow:
     single: Workflow
     plural: Workflows
-  plus-add: + Přidat
-  clear: Vyčistit
-  all: Vše
-  none: Nic
-  now: Nyní
-  today: Dnes
-  routes: Cesty
-  requests: Požadavky
-  refresh: Obnovit
-  loadMore: Načíst více
-  loading: Načítání
-  saveAndClose: Uložit a zavřít
-  cancel: Storno
-  submit: Odeslat
-  delete: Smazat
-  undelete: Obnovit smazané
-  fileTypeNotAllowed: Nepovolený typ souboru
+  plus-add: + Add
+  clear: Clear
+  all: All
+  none: None
+  now: Now
+  today: Today
+  routes: Routes
+  requests: Requests
+  refresh: Refresh
+  loadMore: Load more
+  loading: Loading
+  saveAndClose: Save and close
+  cancel: Cancel
+  submit: Submit
+  delete: Delete
+  undelete: Undelete
+  fileTypeNotAllowed: File type not allowed
 editor:
-  unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
+  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
 resourceList:
   pagination:
-    recordsPerPage: Na stránku
+    recordsPerPage: Per page
 themes:
   labels:
-    light: Světlé
-    dark: Tmavé
+    light: Light
+    dark: Dark
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds

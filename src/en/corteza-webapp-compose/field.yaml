@@ -29,7 +29,7 @@ kind:
     label: Date and time
     outputFormat: Output format
     outputFormatFootnote: See {{0}} for formatting options
-    relativeOutput: 'Output Relative value (eg: 3 days ago)'
+    relativeOutput: 'Output Relative value (eg: 3 days ago, 15 minutes ago)'
     warning:
       futureValuesOnly: Only dates in the future will be saved
       pastValuesOnly: Only dates in the past will be saved
@@ -42,8 +42,12 @@ kind:
       gallery: Gallery of images
       grid: Grid
       list: List
-      maxSizeLabel: Maximum file size
+      maxSizeLabel: Maximum file size (MB)
       mimetypesFootnote: 'MIME types, separated with ",". Example: "text/plain,text/csv"'
+      webcam:
+        enable:
+          label: Enable Webcam Capture
+          footnote: Use the webcam to capture a picture and upload it
       mimetypesLabel: File type allow list
       modeFootnote: How files are represented in page blocks
       modeLabel: View mode
@@ -165,7 +169,7 @@ kind:
     label: URL
     preventToLink: Don't turn Url into a link
     sshOnly: Only allow SSL (https) Url
-    trimHash: Trim '#' from the Url
+    trimHash: 'Trim ''#'' from the Url'
     trimQuestionMark: Trim '?' from the Url
     trimToDomain: Trim Url down to domain only
   user:

@@ -10,3 +10,4 @@ userSettings:
   loggedInAs: Logged in as {{user}}
   logout: Logout
   profile: Profile
+  theme: Theme

@@ -23,6 +23,13 @@ edit:
   edit: Edit module
   fields:
     label: Fields
+    columns:
+      name:
+        label: Name
+      title:
+        label: Title
+      type:
+        label: Type
   federationSettings:
     downstream:
       allFields: All Fields
@@ -78,10 +85,8 @@ edit:
     private: Sensitive data
     required: Required field
     title: The name displayed in form input / data lists
-
   issues:
     label: Issues ({{count}})
-
   schemaAlterations:
     title: Schema alterations
     resolve: Resolve
@@ -103,7 +108,6 @@ edit:
       model:
         add: Add schema for model {{ident}}
         delete: Delete schema for model {{ident}}
-
   config:
     dal:
       title: Data store
@@ -115,11 +119,8 @@ edit:
         label: Collection or database table name
         placeholder: compose_record
         description: "Name of the database table or collection where records can be accessed and stored. Supports partitioning placeholders: {{module}} for module handle and {{namespace}} for namespace handle"
-
       connections:
         fetch-failed: Could not fetch available connections
-
-
       module-fields:
         label: Module field mapping and encoding
         description: |
@@ -127,7 +128,6 @@ edit:
           Default behaviour is to encode values into JSON and store them in a single field.
           Alternatively you can use columns with the same name as the field name (Column)
           or use an Alias and store the value directly in the column.
-
       system-fields:
         label: System field mapping and encoding
         description: |
@@ -140,13 +140,10 @@ edit:
           userReference: User reference
           timestamps: Timestamps
           extras: Extras
-
-
       encoding-strategy:
         unavailable: unavailable
         ident:
           placeholder: Field or database table column name
-
         strategies:
           plain:
             label: Column
@@ -154,8 +151,6 @@ edit:
             label: Alias
           json:
             label: JSON
-
-
     privacy:
       title: Privacy
       sensitivity-level:
@@ -164,10 +159,8 @@ edit:
         description: Highest allowed level of sensitivity for fields on this module, changing this value will reset the sensitivity level of fields if they are incompatible.
       usage-disclosure:
         label: Sensitive data usage disclosure (visible on data-privacy console)
-
       sensitivity-levels:
         fetch-failed: Could not fetch sensitivity levels
-
     record-revisions:
       title: Record Revisions
       enabled: Enable record revisions
@@ -175,10 +168,8 @@ edit:
         label: Identifier
         placeholder: compose_record_revisions
         description: 'Name of the database table or collection where revisions records can be accessed and stored. Supports partitioning placeholders: {{module}} for module handle and {{namespace}} for namespace handle'
-
     validation:
       title: Validation
-
       record-duplication:
         title: Record duplication detection
         strict-fields:
@@ -187,7 +178,6 @@ edit:
         non-strict-fields:
           label: Soft duplicate value validation
           description: Record will be saved and user will be presented with a warning when a duplicate value is detected in the selected fields in any existing record of this module
-
     uniqueValues:
       title: Unique values
       duplicationDetection: Duplication detection
@@ -211,15 +201,11 @@ edit:
       uniqueValueConstraint: "Unique value constraint #{{index}}"
       tooltip:
         performance: Using duplication detection will impact performance
-
 federated: Federated
 forModule:
-  recordList: Record List for module
-  recordListPage: Record List page for module
-  recordPage: Record page for module
+  recordPage: '{{name}} - Record Page'
 general:
   fields: Module fields
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
   label:
     attributes: Attributes
     handle: Handle
@@ -238,14 +224,12 @@ navigation:
   module: Modules
 noModule: No modules
 noModuleFilter: No module matches your search
-
 list:
   columns:
     name: Name
     handle: Handle
     changedAt: Last change
   delete: Delete
-
 recordPage:
   create: Create record page
   edit: Edit record page
@@ -253,7 +237,7 @@ recordListPage:
   create: Create record list page
   edit: Edit record list page
 related-pages: Related Pages
-searchPlaceholder: Type here to search all modules in this namespace
+searchPlaceholder: Search modules in this namespace
 title: List of Modules
 tooltip:
   permissions: Module permissions

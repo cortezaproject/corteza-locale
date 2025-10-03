@@ -1,187 +1,217 @@
 label:
   app-name:
-    public: crwdns108732:0crwdne108732:0
-    private: crwdns108734:0crwdne108734:0
-  actions: crwdns108736:0crwdne108736:0
-  active: crwdns108738:0crwdne108738:0
-  add: crwdns108740:0crwdne108740:0
-  add-with-plus: crwdns108742:0crwdne108742:0
-  addNew: crwdns108744:0crwdne108744:0
-  addValue: crwdns108746:0crwdne108746:0
-  ascending: crwdns108748:0crwdne108748:0
-  attachmentFileInfo: 'crwdns108750:0{{0}}crwdnd108750:0{{1}}crwdne108750:0'
-  attributes: crwdns108752:0crwdne108752:0
-  back: crwdns108754:0crwdne108754:0
-  backWithoutSave: crwdns108756:0crwdne108756:0
-  block: crwdns108758:0crwdne108758:0
-  browse: crwdns108760:0crwdne108760:0
-  buttons: crwdns108762:0crwdne108762:0
-  cancel: crwdns108764:0crwdne108764:0
-  clear: crwdns108766:0crwdne108766:0
-  clone: crwdns108768:0crwdne108768:0
-  close: crwdns108770:0crwdne108770:0
-  create: crwdns108772:0crwdne108772:0
-  delete: crwdns108774:0crwdne108774:0
-  default: crwdns108776:0crwdne108776:0
-  restore: crwdns108778:0crwdne108778:0
-  descending: crwdns108780:0crwdne108780:0
-  description: crwdns108782:0crwdne108782:0
-  download: crwdns108784:0crwdne108784:0
-  dropFiles: crwdns108786:0crwdne108786:0
-  edit: crwdns108788:0crwdne108788:0
-  enabled: crwdns108790:0crwdne108790:0
-  export: crwdns108792:0crwdne108792:0
-  fileTypeNotAllowed: crwdns108794:0crwdne108794:0
-  general: crwdns108796:0crwdne108796:0
-  handle: crwdns108798:0crwdne108798:0
-  here: crwdns108800:0crwdne108800:0
-  home: crwdns108802:0crwdne108802:0
-  import: crwdns108804:0crwdne108804:0
-  all: crwdns108806:0crwdne108806:0
-  importPlaceholder: crwdns108808:0crwdne108808:0
-  loading: crwdns108810:0crwdne108810:0
-  makeDefault: crwdns108812:0crwdne108812:0
-  moduleName: crwdns108814:0crwdne108814:0
-  multi: crwdns108816:0crwdne108816:0
-  name: crwdns108818:0crwdne108818:0
-  next: crwdns108820:0crwdne108820:0
+    namespace:
+      list: crwdns174503:0crwdne174503:0
+      create: crwdns174505:0crwdne174505:0
+      edit: 'crwdns174507:0{{label}}crwdne174507:0'
+      view: crwdns174509:0crwdne174509:0
+    module:
+      list: 'crwdns174511:0{{label}}crwdne174511:0'
+      create: crwdns174513:0crwdne174513:0
+      edit: 'crwdns174515:0{{label}}crwdne174515:0'
+    page:
+      list: 'crwdns174517:0{{label}}crwdne174517:0'
+      builder: 'crwdns174519:0{{label}}crwdne174519:0'
+      edit: 'crwdns174521:0{{label}}crwdne174521:0'
+      record: 'crwdns174523:0{{label}}crwdne174523:0'
+    chart:
+      list: 'crwdns174525:0{{label}}crwdne174525:0'
+      edit: 'crwdns174527:0{{label}}crwdne174527:0'
+      create: crwdns174529:0crwdne174529:0
+  actions: crwdns174531:0crwdne174531:0
+  active: crwdns174533:0crwdne174533:0
+  add: crwdns174535:0crwdne174535:0
+  add-with-plus: crwdns174537:0crwdne174537:0
+  addNew: crwdns174539:0crwdne174539:0
+  addValue: crwdns174541:0crwdne174541:0
+  ascending: crwdns174543:0crwdne174543:0
+  attachmentFileInfo: 'crwdns174545:0{{0}}crwdnd174545:0{{1}}crwdne174545:0'
+  attributes: crwdns174547:0crwdne174547:0
+  back: crwdns174549:0crwdne174549:0
+  backWithoutSave: crwdns174551:0crwdne174551:0
+  block: crwdns174553:0crwdne174553:0
+  browse: crwdns174555:0crwdne174555:0
+  buttons: crwdns174557:0crwdne174557:0
+  cancel: crwdns174559:0crwdne174559:0
+  clear: crwdns174561:0crwdne174561:0
+  clone: crwdns174563:0crwdne174563:0
+  close: crwdns174565:0crwdne174565:0
+  create: crwdns174567:0crwdne174567:0
+  delete: crwdns174569:0crwdne174569:0
+  default: crwdns174571:0crwdne174571:0
+  restore: crwdns174573:0crwdne174573:0
+  descending: crwdns174575:0crwdne174575:0
+  description: crwdns174577:0crwdne174577:0
+  download: crwdns174579:0crwdne174579:0
+  dropFiles: crwdns174581:0crwdne174581:0
+  edit: crwdns174583:0crwdne174583:0
+  enabled: crwdns174585:0crwdne174585:0
+  export: crwdns174587:0crwdne174587:0
+  fileTypeNotAllowed: crwdns174589:0crwdne174589:0
+  general: crwdns174591:0crwdne174591:0
+  handle: crwdns174593:0crwdne174593:0
+  here: crwdns174595:0crwdne174595:0
+  home: crwdns174597:0crwdne174597:0
+  import: crwdns174599:0crwdne174599:0
+  all: crwdns174601:0crwdne174601:0
+  importPlaceholder: crwdns174603:0crwdne174603:0
+  loading: crwdns174605:0crwdne174605:0
+  makeDefault: crwdns174607:0crwdne174607:0
+  moduleName: crwdns174609:0crwdne174609:0
+  multi: crwdns174611:0crwdne174611:0
+  name: crwdns174613:0crwdne174613:0
+  next: crwdns174615:0crwdne174615:0
   no: No
-  noHandle: crwdns108822:0crwdne108822:0
-  none: crwdns108824:0crwdne108824:0
-  now: crwdns108826:0crwdne108826:0
-  ok: crwdns108828:0crwdne108828:0
-  page: crwdns108830:0crwdne108830:0
-  pageLayout: crwdns108832:0crwdne108832:0
-  pageBuilder: crwdns108834:0crwdne108834:0
-  permissions: crwdns108836:0crwdne108836:0
-  private: crwdns108838:0crwdne108838:0
-  privacy: crwdns108840:0crwdne108840:0
-  processing: crwdns108842:0crwdne108842:0
-  record: crwdns108844:0crwdne108844:0
-  recordPage: crwdns108846:0crwdne108846:0
-  field: crwdns108848:0crwdne108848:0
-  remove: crwdns108850:0crwdne108850:0
-  removeDefault: crwdns108852:0crwdne108852:0
-  required: crwdns108854:0crwdne108854:0
-  reset: crwdns108856:0crwdne108856:0
-  sensitive: crwdns108858:0crwdne108858:0
-  save: crwdns108860:0crwdne108860:0
-  saveAndClose: crwdns108862:0crwdne108862:0
-  saveAsCopy: crwdns108864:0crwdne108864:0
-  status: crwdns108866:0crwdne108866:0
-  timeHour: 'crwdns108868:0{{t}}crwdne108868:0'
-  timeMinute: 'crwdns108870:0{{t}}crwdne108870:0'
-  today: crwdns108872:0crwdne108872:0
-  title: crwdns108874:0crwdne108874:0
-  type: crwdns108876:0crwdne108876:0
-  updatedAt: crwdns108878:0crwdne108878:0
-  uploadError: 'crwdns108880:0{{message}}crwdne108880:0'
-  uploading: crwdns108882:0crwdne108882:0
-  urlPlaceholder: crwdns108884:0crwdne108884:0
-  validation: crwdns108886:0crwdne108886:0
-  view: crwdns108888:0crwdne108888:0
+  noHandle: crwdns174617:0crwdne174617:0
+  none: crwdns174619:0crwdne174619:0
+  now: crwdns174621:0crwdne174621:0
+  ok: crwdns174623:0crwdne174623:0
+  page: crwdns174625:0crwdne174625:0
+  pageLayout: crwdns174627:0crwdne174627:0
+  pageBuilder: crwdns174629:0crwdne174629:0
+  permissions: crwdns174631:0crwdne174631:0
+  private: crwdns174633:0crwdne174633:0
+  privacy: crwdns174635:0crwdne174635:0
+  processing: crwdns174637:0crwdne174637:0
+  record: crwdns174639:0crwdne174639:0
+  recordPage: crwdns174641:0crwdne174641:0
+  field: crwdns174643:0crwdne174643:0
+  remove: crwdns174645:0crwdne174645:0
+  removeDefault: crwdns174647:0crwdne174647:0
+  required: crwdns174649:0crwdne174649:0
+  reset: crwdns174651:0crwdne174651:0
+  sensitive: crwdns174653:0crwdne174653:0
+  save: crwdns174655:0crwdne174655:0
+  saveAndClose: crwdns174657:0crwdne174657:0
+  saveAsCopy: crwdns174659:0crwdne174659:0
+  status: crwdns174661:0crwdne174661:0
+  timeHour: 'crwdns174663:0{{t}}crwdne174663:0'
+  timeMinute: 'crwdns174665:0{{t}}crwdne174665:0'
+  today: crwdns174667:0crwdne174667:0
+  title: crwdns174669:0crwdne174669:0
+  type: crwdns174671:0crwdne174671:0
+  updatedAt: crwdns174673:0crwdne174673:0
+  uploadError: 'crwdns174675:0{{message}}crwdne174675:0'
+  uploading: crwdns174677:0crwdne174677:0
+  unsavedChanges: crwdns174679:0crwdne174679:0
+  urlPlaceholder: crwdns174681:0crwdne174681:0
+  validation: crwdns174683:0crwdne174683:0
+  view: crwdns174685:0crwdne174685:0
   yes: Yes
   chart:
-    single: crwdns108890:0crwdne108890:0
-    plural: crwdns108892:0crwdne108892:0
+    single: crwdns174687:0crwdne174687:0
+    plural: crwdns174689:0crwdne174689:0
   namespace:
-    single: crwdns108894:0crwdne108894:0
-    plural: crwdns108896:0crwdne108896:0
+    single: crwdns174691:0crwdne174691:0
+    plural: crwdns174693:0crwdne174693:0
   module:
-    single: crwdns108898:0crwdne108898:0
-    plural: crwdns108900:0crwdne108900:0
+    single: crwdns174695:0crwdne174695:0
+    plural: crwdns174697:0crwdne174697:0
 navigation:
-  chart: crwdns108902:0crwdne108902:0
-  namespace: crwdns108904:0crwdne108904:0
-  module: crwdns108906:0crwdne108906:0
-  page: crwdns108908:0crwdne108908:0
-  pageLayout: crwdns108910:0crwdne108910:0
+  chart: crwdns174699:0crwdne174699:0
+  namespace: crwdns174701:0crwdne174701:0
+  module: crwdns174703:0crwdne174703:0
+  page: crwdns174705:0crwdne174705:0
+  pageLayout: crwdns174707:0crwdne174707:0
 placeholder:
-  handle: crwdns108912:0crwdne108912:0
-  sample: crwdns108914:0crwdne108914:0
+  handle: crwdns174709:0crwdne174709:0
+  sample: crwdns174711:0crwdne174711:0
 reminder:
-  add: crwdns108916:0crwdne108916:0
-  dismiss: crwdns108918:0crwdne108918:0
-  dismissed: crwdns108920:0crwdne108920:0
-  dismissedAt: crwdns108922:0crwdne108922:0
-  undismiss: crwdns108924:0crwdne108924:0
-  delete: crwdns108926:0crwdne108926:0
-  recordPageLink: crwdns108928:0crwdne108928:0
+  add: crwdns174713:0crwdne174713:0
+  dismiss: crwdns174715:0crwdne174715:0
+  dismissed: crwdns174717:0crwdne174717:0
+  dismissedAt: crwdns174719:0crwdne174719:0
+  undismiss: crwdns174721:0crwdne174721:0
+  delete: crwdns174723:0crwdne174723:0
+  recordPageLink: crwdns174725:0crwdne174725:0
   edit:
-    label: crwdns108930:0crwdne108930:0
-    assigneeLabel: crwdns108932:0crwdne108932:0
-    assigneePlaceholder: crwdns108934:0crwdne108934:0
-    notesLabel: crwdns108936:0crwdne108936:0
-    notesPlaceholder: crwdns108938:0crwdne108938:0
-    remindAtLabel: crwdns108940:0crwdne108940:0
-    remindAtNone: crwdns108942:0crwdne108942:0
-    titleLabel: crwdns108944:0crwdne108944:0
-    titlePlaceholder: crwdns108946:0crwdne108946:0
-  listLabel: crwdns108948:0crwdne108948:0
-  routesTo: crwdns108950:0crwdne108950:0
+    label: crwdns174727:0crwdne174727:0
+    assigneeLabel: crwdns174729:0crwdne174729:0
+    assigneePlaceholder: crwdns174731:0crwdne174731:0
+    notesLabel: crwdns174733:0crwdne174733:0
+    notesPlaceholder: crwdns174735:0crwdne174735:0
+    remindAtLabel: crwdns174737:0crwdne174737:0
+    remindAtNone: crwdns174739:0crwdne174739:0
+    titleLabel: crwdns174741:0crwdne174741:0
+    titlePlaceholder: crwdns174743:0crwdne174743:0
+  listLabel: crwdns174745:0crwdne174745:0
+  routesTo: crwdns174747:0crwdne174747:0
   snooze:
-    label: crwdns108952:0crwdne108952:0
-    count: crwdns108954:0{{count}}crwdne108954:0
+    label: crwdns174749:0crwdne174749:0
+    count: crwdns174751:0{{count}}crwdne174751:0
 tooltip:
-  dragAndDrop: crwdns108956:0crwdne108956:0
+  dragAndDrop: crwdns174753:0crwdne174753:0
 fieldKinds:
   Bool:
-    label: crwdns108958:0crwdne108958:0
+    label: crwdns174755:0crwdne174755:0
   DateTime:
-    label: crwdns108960:0crwdne108960:0
+    label: crwdns174757:0crwdne174757:0
   Email:
-    label: crwdns108962:0crwdne108962:0
+    label: crwdns174759:0crwdne174759:0
   File:
-    label: crwdns108964:0crwdne108964:0
+    label: crwdns174761:0crwdne174761:0
   Number:
-    label: crwdns108966:0crwdne108966:0
+    label: crwdns174763:0crwdne174763:0
   Record:
-    label: crwdns108968:0crwdne108968:0
+    label: crwdns174765:0crwdne174765:0
   Select:
-    label: crwdns108970:0crwdne108970:0
+    label: crwdns174767:0crwdne174767:0
   String:
-    label: crwdns108972:0crwdne108972:0
+    label: crwdns174769:0crwdne174769:0
   Url:
-    label: crwdns108974:0crwdne108974:0
+    label: crwdns174771:0crwdne174771:0
   User:
-    label: crwdns108976:0crwdne108976:0
+    label: crwdns174773:0crwdne174773:0
   Geometry:
-    label: crwdns108978:0crwdne108978:0
+    label: crwdns174775:0crwdne174775:0
 field:
-  selectAll: crwdns108980:0crwdne108980:0
+  selectAll: crwdns174777:0crwdne174777:0
   tooltip:
-    permissions: crwdns108982:0crwdne108982:0
-  unselectAll: crwdns108984:0crwdne108984:0
+    permissions: crwdns174779:0crwdne174779:0
+  unselectAll: crwdns174781:0crwdne174781:0
   kind:
     user:
-      suggestionPlaceholder: crwdns108986:0crwdne108986:0
+      suggestionPlaceholder: crwdns174783:0crwdne174783:0
 resourceList:
-  notFound: crwdns108988:0crwdne108988:0
-  noItems: crwdns108990:0crwdne108990:0
+  notFound: crwdns174785:0crwdne174785:0
+  noItems: crwdns174787:0crwdne174787:0
   pagination:
-    next: crwdns108992:0crwdne108992:0
-    prev: crwdns108994:0crwdne108994:0
-    showing: 'crwdns108996:0{{from}}crwdnd108996:0{{to}}crwdnd108996:0{{count}}crwdnd108996:0{{data}}crwdne108996:0'
-    single: 'crwdns108998:0{{data}}crwdne108998:0'
-    single_plural: 'crwdns109000:0{{count}}crwdnd109000:0{{data}}crwdne109000:0'
-    recordsPerPage: crwdns109002:0crwdne109002:0
+    next: crwdns174789:0crwdne174789:0
+    prev: crwdns174791:0crwdne174791:0
+    showing: 'crwdns174793:0{{from}}crwdnd174793:0{{to}}crwdnd174793:0{{count}}crwdnd174793:0{{data}}crwdne174793:0'
+    single_one: 'crwdns174795:0{{data}}crwdne174795:0'
+    single_other: 'crwdns174797:0{{count}}crwdnd174797:0{{data}}crwdne174797:0'
+    recordsPerPage: crwdns174799:0crwdne174799:0
 recordNavigation:
-  next: crwdns109004:0crwdne109004:0
-  prev: crwdns109006:0crwdne109006:0
+  next: crwdns174801:0crwdne174801:0
+  prev: crwdns174803:0crwdne174803:0
 variants:
-  primary: crwdns109008:0crwdne109008:0
-  secondary: crwdns109010:0crwdne109010:0
-  light: crwdns109012:0crwdne109012:0
-  dark: crwdns109014:0crwdne109014:0
-  info: crwdns109016:0crwdne109016:0
-  success: crwdns109018:0crwdne109018:0
-  danger: crwdns109020:0crwdne109020:0
-  warning: crwdns109022:0crwdne109022:0
+  primary: crwdns174805:0crwdne174805:0
+  secondary: crwdns174807:0crwdne174807:0
+  light: crwdns174809:0crwdne174809:0
+  dark: crwdns174811:0crwdne174811:0
+  info: crwdns174813:0crwdne174813:0
+  success: crwdns174815:0crwdne174815:0
+  danger: crwdns174817:0crwdne174817:0
+  warning: crwdns174819:0crwdne174819:0
 editor:
-  unsavedChanges: crwdns109024:0crwdne109024:0
+  unsavedChanges: crwdns174821:0crwdne174821:0
+webcam:
+  title: crwdns174823:0crwdne174823:0
+  tooltip: crwdns174825:0crwdne174825:0
+  buttons:
+    cancel: crwdns174827:0crwdne174827:0
+    capture: crwdns174829:0crwdne174829:0
+    confirm: crwdns174831:0crwdne174831:0
+  errors:
+    camera: crwdns174833:0crwdne174833:0
 record:
-  unsavedChanges: crwdns109026:0crwdne109026:0
+  unsavedChanges: crwdns174835:0crwdne174835:0
 themes:
   labels:
-    light: crwdns109028:0crwdne109028:0
-    dark: crwdns109030:0crwdne109030:0
+    light: crwdns174837:0crwdne174837:0
+    dark: crwdns174839:0crwdne174839:0
+extendSession:
+  labels:
+    extend: crwdns174841:0crwdne174841:0
+    warning: crwdns174843:0{{ countdownTime }}crwdne174843:0

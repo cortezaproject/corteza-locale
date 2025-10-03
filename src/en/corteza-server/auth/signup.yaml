@@ -2,8 +2,8 @@ template:
   title: Sign up
   form:
     email:
-      label: E-mail
-      placeholder: email@domain.ltd
+      label: Email
+      placeholder: email@domain.tld
     password:
       label: Password
       placeholder: Password
@@ -16,7 +16,6 @@ template:
     button:
       sign-up: Submit
   log-in: Already have an account? <a data-test-id="link-login" href="{{link}}">Log in</a>
-
 alerts:
   signup-successful: Sign-up successful
   email-confirmed-logged-in: Email address confirmed, you're now logged-in.

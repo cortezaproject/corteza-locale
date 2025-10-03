@@ -1,11 +1,19 @@
-federated: crwdns110518:0crwdne110518:0
-no-values: crwdns110520:0crwdne110520:0
+federated: crwdns178683:0crwdne178683:0
+no-values: crwdns178685:0crwdne178685:0
 label:
-  all: crwdns110522:0crwdne110522:0
+  all: crwdns178687:0crwdne178687:0
 resourceList:
   pagination:
-    recordsPerPage: crwdns110524:0crwdne110524:0
+    recordsPerPage: crwdns178689:0crwdne178689:0
 themes:
   labels:
-    light: crwdns110526:0crwdne110526:0
-    dark: crwdns110528:0crwdne110528:0
+    light: crwdns178691:0crwdne178691:0
+    dark: crwdns178693:0crwdne178693:0
+extendSession:
+  labels:
+    extend: crwdns178695:0crwdne178695:0
+    warning: crwdns178697:0{{ countdownTime }}crwdne178697:0
+recordID: crwdns178699:0crwdne178699:0
+createdBy: crwdns178701:0crwdne178701:0
+createdAt: crwdns178703:0crwdne178703:0
+updatedAt: crwdns178705:0crwdne178705:0

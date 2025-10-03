@@ -1,62 +1,66 @@
-clear: Vyčistit
-description: Popis
-enabled: Povoleno
-enable: Povoleno
-disable: Vypnuto
-error: Chyba
-error-expression: Chybová hláška (výraz)
+clear: Clear
+description: Description
+enabled: Enabled
+enable: Enable
+disable: Disable
+error: Error
+error-expression: Error message (expression)
 export: Export
-general: Obecné
-handle: Identifikátor
+general: General
+handle: Handle
 import:
-  json: Importovat JSON
+  json: Import JSON
   label: Import
-  reassign-run-as: "POZNÁMKA: Vlastnost workflow \"spustit jako\" nebude importovaná a myši se nastavit znovu"
-  upload-files: Procházet nebo přetáhnout soubory k nahrání...
+  reassign-run-as: "NOTE: the Run as workflow property won't be imported and should be reassigned"
+  upload-files: Browse or drop files to upload...
 label:
-  all: Vše
-  label: Popisek
-loading: Načítání
-name: Jméno
-new-workflow: Nové workflow
-none: Nic
-now: Nyní
+  all: All
+  label: Label
+loading: Loading
+name: Name
+new-workflow: New Workflow
+none: None
+now: Now
 offset: Offset
-offset-expression: Offset (výraz)
-permissions: Oprávnění
-searchPlaceholder: Hledat workflow...
+offset-expression: Offset (expression)
+permissions: Permissions
+searchPlaceholder: Search workflows
 subworkflow: Subworkflow
 subworkflows: Subworkflows
-deleted: Odstraněno
-disabled: Vypnuto
-without: Bez
-only: Pouze
-including: Včetně
-workflow-list: Seznam workflow
+deleted: Deleted
+disabled: Disabled
+without: Without
+only: Only
+including: Including
+workflow-list: List of Workflows
 workflow:
   single: Workflow
   plural: Workflows
-save: Uložit
-today: Dnes
-cancel: Storno
+save: Save
+today: Today
+cancel: Cancel
 resourceList:
-  notFound: Nenalezeno
-  noItems: Žádné položky k zobrazení
+  notFound: Not found
+  noItems: No items to show
   pagination:
-    next: Další
-    prev: Předchozí
-    showing: '{{from}} - {{to}} z {{count}} {{data}}'
-    single: '1 {{data}}'
-    single_plural: '{{count}} {{data}}'
-    recordsPerPage: Na stránku
+    next: Next
+    prev: Previous
+    showing: '{{from}} - {{to}} of {{count}} {{data}}'
+    single_one: 'One {{data}}'
+    single_other: '{{count}} {{data}}'
+    recordsPerPage: Per Page
 tooltip:
-  permissions: Oprávnění workflow
+  permissions: Workflow permissions
 columns:
-  name: Jméno
-  enabled: Povoleno
-  steps: Kroky
-  changedAt: Poslední změna
+  name: Name
+  enabled: Enabled
+  steps: Steps
+  changedAt: Last change
 themes:
   labels:
-    light: Světlé
-    dark: Tmavé
+    light: Light
+    dark: Dark
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds

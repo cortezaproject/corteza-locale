@@ -36,6 +36,7 @@ editor:
         label: Forced roles
       impersonateUser:
         description: When authenticating with client credentials, act in the name of the impersonated user
+        placeholder: Select user
         label: Impersonate user
       permittedRoles:
         description: Only roles in this list will be added into security context when user authorizes this client
@@ -44,6 +45,10 @@ editor:
     tooltip:
       regenerate-secret: Regenerate secret
       reset-value: Reset value
+      show-client-secret: Show client secret
+      hide-client-secret: Hide client secret
+      copy-access-token: Copy access token
+      copy-cURL: Copy cURL
     trusted:
       description: When client is trusted users do not see authorization step
       label: Trusted
@@ -54,10 +59,9 @@ editor:
     validFrom:
       description: If not defined the client is valid until expiration
       label: Valid from
-    generateCurl: Generate cURL snippet
-    hideCurl: Hide cURL snippet
-    cUrl: Generated cURL
-    testCurl: Test auth
+    cUrl: Example cURL
+    accessToken: Access token
+    generateAccessToken: Generate access token
     discovery: Allow client access to Corteza Discovery API on behalf of user
     openid: Allow client to use OIDC and verify the user's identity
   new: New Auth Client

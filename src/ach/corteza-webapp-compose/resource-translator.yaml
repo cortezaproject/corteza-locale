@@ -1,28 +1,28 @@
 translator:
-  save-changes: crwdns110442:0crwdne110442:0
-  add-language: crwdns110444:0crwdne110444:0
-  missing-translation: crwdns110446:0crwdne110446:0
+  save-changes: crwdns177303:0crwdne177303:0
+  add-language: crwdns177305:0crwdne177305:0
+  missing-translation: crwdns177307:0crwdne177307:0
 resources:
   chart:
-    title: crwdns110448:0{{ handle }}crwdne110448:0
-    tooltip: crwdns110450:0crwdne110450:0
+    title: crwdns177309:0{{ handle }}crwdne177309:0
+    tooltip: crwdns177311:0crwdne177311:0
   namespace:
-    title: crwdns110452:0{{ handle }}crwdne110452:0
-    tooltip: crwdns110454:0crwdne110454:0
+    title: crwdns177313:0{{ handle }}crwdne177313:0
+    tooltip: crwdns177315:0crwdne177315:0
   module:
-    title: crwdns110456:0{{ handle }}crwdne110456:0
-    tooltip: crwdns110458:0crwdne110458:0
+    title: crwdns177317:0{{ handle }}crwdne177317:0
+    tooltip: crwdns177319:0crwdne177319:0
     field:
-      title: crwdns110460:0{{ name }}crwdne110460:0
-      tooltip: crwdns110462:0crwdne110462:0
+      title: crwdns177321:0{{ name }}crwdne177321:0
+      tooltip: crwdns177323:0crwdne177323:0
   page:
-    title: crwdns110464:0{{ handle }}crwdne110464:0
-    tooltip: crwdns110466:0crwdne110466:0
+    title: crwdns177325:0{{ handle }}crwdne177325:0
+    tooltip: crwdns177327:0crwdne177327:0
     block:
-      title: "crwdns110468:0{{ blockID }}crwdne110468:0"
-      tooltip: crwdns110470:0crwdne110470:0
+      title: "crwdns177329:0{{ blockID }}crwdne177329:0"
+      tooltip: crwdns177331:0crwdne177331:0
     layout:
-      title: crwdns110472:0{{ handle }}crwdne110472:0
+      title: crwdns177333:0{{ handle }}crwdne177333:0
   page-layout:
-    title: crwdns110474:0{{ handle }}crwdne110474:0
-    tooltip: crwdns110476:0crwdne110476:0
+    title: crwdns177335:0{{ handle }}crwdne177335:0
+    tooltip: crwdns177337:0crwdne177337:0

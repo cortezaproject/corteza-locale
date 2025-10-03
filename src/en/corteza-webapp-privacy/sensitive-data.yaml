@@ -5,7 +5,7 @@ list:
     namespace: Namespace
     connection: Connection
     location: Location
-    ownership:  Ownership
+    ownership: Ownership
   module:
     enable: Enable modules
     disable: Disable modules

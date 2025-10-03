@@ -16,7 +16,6 @@ ui:
     label: User roles
     description: Select role to set permissions
   evaluate:
-    title: Evaluated permissions
     description: Evaluate applied permissions
   add:
     label: Add
@@ -139,6 +138,8 @@ resources:
           title: List and search messaging queues
         reminder.assign:
           title: Allow reminder assignment
+        notification.assign:
+          title: Allow notification assignment
         role.create:
           title: Create new role
         roles.search:
@@ -403,7 +404,7 @@ resources:
         node.create:
           title: Create nodes
         nodes.search:
-          title: List or create nodes
+          title: List or search nodes
         pair:
           title: Pair nodes
         settings.manage:
