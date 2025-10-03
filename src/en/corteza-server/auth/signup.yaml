@@ -16,6 +16,7 @@ template:
     button:
       sign-up: Submit
   log-in: Already have an account? <a data-test-id="link-login" href="{{link}}">Log in</a>
+
 alerts:
   signup-successful: Sign-up successful
   email-confirmed-logged-in: Email address confirmed, you're now logged-in.
