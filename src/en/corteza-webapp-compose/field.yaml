@@ -169,7 +169,7 @@ kind:
     label: URL
     preventToLink: Don't turn Url into a link
     sshOnly: Only allow SSL (https) Url
-    trimHash: 'Trim ''#'' from the Url'
+    trimHash: Trim '#' from the Url
     trimQuestionMark: Trim '?' from the Url
     trimToDomain: Trim Url down to domain only
   user:
