@@ -1,3 +1,4 @@
+
 'auto-initialize-empty-variable': Variables that can't be loaded will be auto initialized as empty
 back: Back
 'click-to-save': Click here to save
@@ -16,7 +17,7 @@ id: "ID:"
 issues: Issues
 'load-and-configure': Load and Configure
 'modify-initial-scope-if-no-variables-are-loaded': If you do not wish to load any variables, click "Configure" to modify the initial scope before running workflow
-'open-webapp-on-prompt-use': "WARNING: If prompts are used in the workflow, make sure that the related webapp is also opened. Otherwise workflow will timeout"
+'open-webapp-on-prompt-use' : "WARNING: If prompts are used in the workflow, make sure that the related webapp is also opened. Otherwise workflow will timeout"
 reset: Reset
 'run-as': "Run as:"
 'run-workflow': Run Workflow
