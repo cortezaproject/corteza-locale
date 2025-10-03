@@ -63,19 +63,23 @@ editor:
       timeout:
         label: Timeout
         description: The period of inactivity in seconds before a user is logged out
+
   external:
     title: External Authentication Providers
     enabled: Enable external authentication
+
     table:
       header:
         enabled: Enabled
         provider: Provider
         info: Issuer, client ID
+
     standard:
       enabled: Enabled
       apiAccess: Api access
       clientKey: Client key
       clientSecret: Secret
+
     oidc:
       add: Add an OIDC provider
       enabled: Enabled
@@ -88,6 +92,7 @@ editor:
       scope: Scope
       scopePlaceholder: List out supported OAuth scope values
       scopeHint: Use space delimited string
+
     saml:
       enabled: Enabled
       title: SAML
@@ -123,6 +128,8 @@ editor:
           ident-handle: Name of the IdP field used for filling Corteza user handle or nickname
           ident-identifier: Name of the IdP field used for filling and matching Corteza user email
           ident-name: Name of the IdP field used for filling Corteza user full name
+
+
     security:
       title: Security
       prohibited-roles:
@@ -134,12 +141,15 @@ editor:
       permitted-roles:
         description: Only roles in this list will be added into security context when authenticates with this provider
         label: Permitted roles
+
   bgScreen:
     title: Auth background screen
+
     image:
       uploader:
         label: Background image
         instructions: Click or drop background image here to upload
         uploading: Uploading auth background image
+
       editor:
         label: Custom CSS
