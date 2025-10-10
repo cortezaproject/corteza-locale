@@ -5,6 +5,7 @@ primary:
   location: Location
   ownership: Ownership
   sensitivity-level: Sensitivity level
+
 list:
   title: List of database connections
   add-button: New Connection
@@ -26,6 +27,7 @@ list:
     actions: ''
   delete: Delete
   undelete: Undelete
+
 editor:
   title:
     edit: Edit connection
@@ -58,6 +60,7 @@ editor:
         label: Highest allowed sensitivity level
         placeholder: Select a sensitivity level
         description: Highest allowed level of sensitivity for the data stored (as set on fields of the module that uses this connection)
+
   properties:
     title: Connection and database properties
     form:
@@ -85,6 +88,7 @@ editor:
         notes:
           label: Notes on data restoration
           description: Internal notes on data-restoration
+
   dal:
     title: Data access layer configuration and connection parameters
     form:
@@ -94,13 +98,16 @@ editor:
         description: |
           Identifier can contain placeholders like {{module}} (replaced with module handle) and/or {{namespace}} (replace with namespace handle).
           When set it is used as a default for modules without configure ident.
+
       type:
         label: Connection and parameter type
         placeholder: corteza::dal:connection:dsn
         description: Type of the connection and parameter, e.g. corteza::dal:connection:dsn
+
       params:
         label: Connection parameters
         placeholder: postgres://user:pass@host:port/dbname
         description: 'Connection parameters, e.g.: {"dsn": "postgres://user:pass@host:port/dbname"}'
+
     connectivity-issues: Connection issues
     no-access-warning: No permissions to manage data access layer configuration and connection parameters for this connection

@@ -195,7 +195,7 @@ variants:
   danger: Danger
   warning: Warning
 editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
+  unsavedChanges:  Unsaved changes will be lost. Do you wish to leave the page?
 webcam:
   title: Webcam
   tooltip: Open webcam to capture photo
@@ -205,12 +205,15 @@ webcam:
     confirm: Upload photo
   errors:
     camera: Unable to access the camera. Please make sure you have granted camera permissions.
+
 record:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to close the record?
+  unsavedChanges:  Unsaved changes will be lost. Do you wish to close the record?
+
 themes:
   labels:
     light: Light
     dark: Dark
+
 extendSession:
   labels:
     extend: Extend Session

@@ -1,4 +1,5 @@
 title: Data Overview
+
 data-types:
   profile-information:
     title: Profile Information
@@ -6,6 +7,7 @@ data-types:
   application-data:
     title: Application Data
     description: Your personal data stored in Corteza
+
 application:
   title: Application Data
   connection:

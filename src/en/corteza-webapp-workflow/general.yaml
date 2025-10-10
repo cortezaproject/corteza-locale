@@ -49,6 +49,7 @@ resourceList:
     single_one: 'One {{data}}'
     single_other: '{{count}} {{data}}'
     recordsPerPage: Per Page
+
 tooltip:
   permissions: Workflow permissions
 columns:
@@ -56,10 +57,12 @@ columns:
   enabled: Enabled
   steps: Steps
   changedAt: Last change
+
 themes:
   labels:
     light: Light
     dark: Dark
+
 extendSession:
   labels:
     extend: Extend Session

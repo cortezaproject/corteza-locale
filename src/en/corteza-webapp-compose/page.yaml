@@ -57,6 +57,7 @@ page-layout:
       toURL:
         label: Redirect to URL
         placeholder: No URL specified
+
 block:
   general:
     label:

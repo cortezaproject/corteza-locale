@@ -24,6 +24,7 @@ themes:
   labels:
     light: Light
     dark: Dark
+
 extendSession:
   labels:
     extend: Extend Session

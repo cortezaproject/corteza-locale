@@ -1,5 +1,6 @@
 editor:
   title: Code Snippets
+
   code-snippets:
     add: Add Code Snippet
     empty: No snippets yet

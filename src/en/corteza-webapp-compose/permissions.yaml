@@ -4,15 +4,19 @@ ui:
   set-for: Set permissions for {{target}}
   loading: Loading permissions
   label: Permissions
+
   notification:
     save:
       success: Permissions saved
       failed: Failed to save permissions
+
   edit:
     label: User roles
     description: Select role to set permissions
+
   evaluate:
     description: Evaluate applied permissions
+
   add:
     label: Add
     title: Evaluate permissions
@@ -23,14 +27,17 @@ ui:
     user:
       label: Users
       placeholder: Search or select a user
+
   tooltip:
     unknown-context:
       user: Can not evaluate permission for a user with contextual role on a non-specific resource
       role: Can not evaluate permission for contextual role on a non-specific resource
+
   access:
     allow: Allow
     inherit: Inherit
     deny: Deny
+
 resources:
   compose:
     namespace:
@@ -94,6 +101,7 @@ resources:
           description: ""
           specific: Export charts in namespace "{{target}}"
           title: Export charts in any namespace
+
     chart:
       all: all charts
       specific: chart "{{target}}"
@@ -111,6 +119,7 @@ resources:
           description: 'Default: deny'
           specific: Update chart "{{target}}"
           title: Update any chart
+
     module:
       all: all modules
       specific: module "{{target}}"
@@ -141,6 +150,7 @@ resources:
           specific: Manage owner when creating record for module "{{target}}"
           title: Manage owner when creating record for any module
           all-specific: Manage owner when creating record for module "{{ target }}"
+
     module-field:
       all: all module fields
       specific: field "{{target}}"
@@ -157,6 +167,7 @@ resources:
           specific: 'Update "{{target}}" record field values'
           title: Update record field values of any module
           all-specific: Update record field values of module "{{ target }}"
+
     page:
       all: all pages
       specific: page "{{target}}"
@@ -182,6 +193,7 @@ resources:
           description: 'Default: deny'
           specific: List page layouts for page "{{target}}"
           title: List page layout
+
     page-layout:
       all: all page layouts
       specific: page layout "{{target}}"
@@ -203,6 +215,7 @@ resources:
           specific: Delete page layout "{{target}}"
           title: Delete any page layout
           all-specific: Delete page layouts of page "{{ target }}"
+
     record:
       all: all records
       specific: record "{{target}}"

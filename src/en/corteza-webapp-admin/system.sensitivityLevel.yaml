@@ -18,6 +18,7 @@ editor:
     deletedAt: Deleted at
     undelete: Undelete
     updatedAt: Updated at
+
 list:
   title: Sensitivity Levels
   loading: Loading sensitivity levels

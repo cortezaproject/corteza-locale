@@ -7,6 +7,7 @@ label:
   sensitive_module:
     single: Sensitive Module
     plural: Sensitive Modules
+
 resourceList:
   loading: Loading
   noItems: No items
@@ -20,10 +21,12 @@ resourceList:
     single_one: 'One {{data}}'
     single_plural: '{{count}} {{data}}'
     recordsPerPage: Per Page
+
 themes:
   labels:
     light: Light
     dark: Dark
+
 extendSession:
   labels:
     extend: Extend Session
