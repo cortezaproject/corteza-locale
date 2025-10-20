@@ -1,23 +1,13 @@
-configuration: Configuration
-edge: Edge
+configuration: Configuração
+edge: Borda
 name:
-  label: Name *
-  placeholder: Workflow name
+  label: Nome *
 handle:
-  label: Handle
-  placeholder: handle (a - z, 0 - 9, underscore, dash)
-  invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+  label: Identificador
+  placeholder: identificador (a - z, 0 - 9, sublinha, hífen)
 description:
-  label: Description
-  placeholder: Describe what this workflow does
-target: Target
-tooltip:
-  run-workflow: Run workflow
-  configure-step: Configure step
+  label: Descrição
+target: Alvo
 run-as:
-  label: Run as
-  placeholder: User that will execute the workflow
-  description: When not explicitly set, workflow will be executed by user that invoked it
-sub-workflow:
-  label: Subworkflow
-  description: Subworkflows can't have enabled triggers
+  label: Correr como
+  description: Quando não definido explicitamente, o fluxo de trabalho será executado pelo usuário que o invocou
