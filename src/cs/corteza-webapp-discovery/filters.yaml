@@ -1,11 +1,11 @@
-title: Filter
+title: Filtr
 types:
-  title: Types
-  namespace: Namespace
-  module: Module
-  user: User
-  record: Record
+  title: Typy
+  namespace: Jmenný prostor
+  module: Modul
+  user: Uživatel
+  record: Záznam
 aggregation-groups:
-  modules: Modules
-  namespaces: Namespaces
-reset: Reset
+  modules: Moduly
+  namespaces: Jmenný prostor
+reset: Resetovat
