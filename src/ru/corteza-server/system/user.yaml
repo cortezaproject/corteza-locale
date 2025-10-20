@@ -1,20 +1,20 @@
 errors:
-  emailNotUnique: email not unique
-  handleNotUnique: handle not unique
-  invalidEmail: invalid email
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create users
-  notAllowedToCreateSystem: not allowed to create system users
-  notAllowedToDelete: not allowed to delete this user
-  notAllowedToListUsers: not allowed to list users
-  notAllowedToRead: not allowed to read this user
-  notAllowedToSearch: not allowed to list or search users
-  notAllowedToSuspend: not allowed to suspend this user
-  notAllowedToUndelete: not allowed to undelete this user
-  notAllowedToUnsuspend: not allowed to unsuspend this user
-  notAllowedToUpdate: not allowed to update this user
-  notAllowedToUpdateSystem: not allowed to update system users
-  notFound: user not found
-  passwordNotSecure: provided password is not secure; use longer password with more special characters
-  usernameNotUnique: username not unique
+  emailNotUnique: email не уникален
+  handleNotUnique: handle  не уникален
+  invalidEmail: Неверный email
+  invalidHandle: Неверный handle
+  invalidID: неверный ID
+  notAllowedToCreate: не разрешено создавать пользователя
+  notAllowedToCreateSystem: не разрешено создавать системного пользователя
+  notAllowedToDelete: не разрешено удалять пользователя
+  notAllowedToListUsers: не разрешено перечислять пользователя
+  notAllowedToRead: не разрешено читать этого пользователя
+  notAllowedToSearch: не разрешено перечислять и искать пользователя
+  notAllowedToSuspend: не разрешено приостановить этого пользователя
+  notAllowedToUndelete: не разрешено восстановить пользователя
+  notAllowedToUnsuspend: не разрешено возобновить этого пользователя
+  notAllowedToUpdate: не разрешено обновлять пользователя
+  notAllowedToUpdateSystem: не разрешено обновлять системного пользователя
+  notFound: пользователь не найден
+  passwordNotSecure: Пароль не является безопасным; используйте более длинный пароль с специальными символами
+  usernameNotUnique: Пользователь не уникальный
