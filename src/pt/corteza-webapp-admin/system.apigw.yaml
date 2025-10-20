@@ -1,161 +1,109 @@
-title: Integration Gateway
+title: Gateway de integração
 list:
-  export: Export
-  title: Routes
-  new: New Route
-  permissions: Permissions
-  profiler: Profiler
+  export: Exportar
+  permissions: Permissões
   yaml: YAML
-  loading: Loading routes
-  numFound: '{{count}} route found'
-  numFound_plural: '{{count}} routes found'
+  loading: Carregando rotas
+  numFound: '{{count}} rota encontrada'
+  numFound_plural: '{{count}} rotas encontradas'
   filterForm:
     query:
-      label: Filter route list
-      placeholder: Filter routes by name
+      label: Filtrar lista de rotas
+      placeholder: Filtrar rotas por nome
     excluded:
-      label: Without
+      label: Sem
     inclusive:
-      label: Including
+      label: Incluindo
     exclusive:
-      label: Only
+      label: Apenas
     deleted:
-      label: deleted routes
-    handle:
-      placeholder: Filter endpoints by path
-  delete: Delete
-  undelete: Undelete
+      label: rotas excluídas
+  delete: Excluir
+  undelete: Recuperar
   columns:
-    endpoint: Endpoint
-    createdAt: Created
-    enabled: Enabled
-    method: Method
-    actions: ''
-    state: State
+    endpoint: Ponto de extremidade
+    createdAt: Criado
+    enabled: Habilitado
+    method: Método
   rows:
     filters:
-      deleted: Deleted
+      deleted: Excluído
 settings:
-  title: Settings
+  title: Configurações
   profiler:
-    label: Profiler
-    enabled: Enabled
-    global: Enabled globally
-  proxy:
-    label: Proxy
-    follow: Follow redirects
+    enabled: Habilitado
 editor:
-  title: Edit route
-  new: New Route
-  permissions: Permissions
+  title: Editar rota
+  permissions: Permissões
   info:
-    title: Basic information
-    id: ID
-    endpoint: Endpoint
-    method: Method
-    description: Description
-    enabled: Enabled
-    delete: Delete
-    undelete: Undelete
-    deletedAt: Deleted at
-    updatedAt: Updated at
-    createdAt: Created at
-    createdBy: Created by
-    tooltip: Endpoint must begin with a slash "/" and can not contain any special characters except for the underscore "_" and hyphen "-"
+    title: Informação básica
+    id: IDENTIFICAÇÃO
+    endpoint: Ponto de extremidade
+    method: Método
+    description: Descrição
+    enabled: Habilitado
+    delete: Excluir
+    undelete: Recuperar
+    deletedAt: Excluído em
+    updatedAt: Atualizado em
+    createdAt: Criado em
+    createdBy: Criado por
+    tooltip: O endpoint deve começar com uma barra "/" e não pode conter nenhum caractere especial, exceto a sublinha "_" e o hífen "-"
     validation:
-      slash: Endpoint must begin with a slash "/"
-      minLength: Endpoint must contain at least one character
-      invalidCharacters: Endpoint contains invalid characters
+      slash: O endpoint deve começar com uma barra "/"
+      minLength: O endpoint deve conter pelo menos um caractere
+      invalidCharacters: O terminal contém caracteres inválidos
   filters:
-    title: Filter list
-    enabled: Enabled
-    disabled: Disabled
-    add: Add
-    addFilter: Add filter
-    addHeader: Add header
-    params: Params
-    filterListEmpty: Filter list is empty!
+    title: Lista de filtros
+    enabled: Habilitado
+    disabled: Desabilitado
+    add: Adicionar
+    addFilter: Adicionar filtro
+    params: Param
+    filterListEmpty: A lista de filtros está vazia!
     modal:
-      title: Query parameters verifier
-      ok: Save & Close
+      title: Verificador de parâmetros de consulta
+      ok: Salvar fechar
     step_title:
-      prefilter: Prefiltering
-      processer: Processing
-      postfilter: Postfiltering
+      prefilter: Pré-filtragem
+      processer: Em processamento
+      postfilter: Pós-filtragem
     list:
-      remove: Remove
-      filters: Filters
+      remove: Remover
+      filters: Filtros
       status: Status
-      actions: Actions
-      active: Active
-      noFilters: No filters
+      actions: Ações
+      active: Ativo
+      noFilters: Sem filtros
     labels:
-      expr: Expression
+      expr: Expressão
       location: URL
-      workflow: Workflow
-      status: HTTP Status
-      jsfunc: Function
-      input: Input
-      header: Headers
-      name: Name
-      value: Value
+      workflow: Fluxo de trabalho
+      status: Estado HTTP
+      jsfunc: Função
+      input: Entrada
+      name: Nome
+      value: Valor
     httpStatus:
-      none: No Status
-      '300': 300 - Multiple Choices
-      '301': 301 - Moved Permanently
-      '302': 302 - Found
-      '303': 303 - See Other
-      '304': 304 - Not Modified
-      '307': 307 - Temporary Redirect
-      '308': 308 - Permanent Redirect
+      none: Sem status
+      '300': 300 - Múltiplas Escolhas
+      '301': 301 mudou-se permanentemente
+      '302': 302 - Encontrado
+      '303': 303 - Ver Outros
+      '304': 304 - Não Modificado
+      '307': 307 - Redirecionamento Temporário
+      '308': 308 - Redirecionamento Permanente
     placeholders:
-      workflow: Select a workflow
+      workflow: Selecione um fluxo de trabalho
     help:
       expression:
-        example: Example == "match string" && match(SecondParam, "^foo\\s.*$")
-        link: Documentation
+        example: Exemplo == "match string" && match(SecondParam, "^foo\\s.*$")
+        link: Documentação
 profiler:
-  label: Profiler
-  title: Integration Gateway Profiler
-  refreshingIn: Refreshing in {{seconds}}s
-  description:
-    globalEnabled: Showing routes for all incoming requests
-    globalDisabled: Showing only registered routes with profiler prefilter
-  purge:
-    all: Purge requests for all routes
-    this: Purge requests for this route
   hit:
-    title: Request Details
     general:
-      label: General
-      id: Request ID
-      route: Request Route
-      URL: Request URL
-      method: Request Method
-      statusCode: Status Code
-      headers: Request Headers
-      remoteAddress: Remote Address
-      duration: Duration
-      start: Start
-      end: End
-      openRoute: Open Route
-    headers:
-      label: Headers
-    body:
-      label: Body
+      label: Em geral
+      id: Identificação do Pedido
+      end: Fim
   columns:
-    actions: ''
-    path: Route
-    count: Count
-    content_length: Content Length
-    http_method: Method
-    http_status_code: Status Code
-    size_min: Size (min)
-    size_max: Size (max)
-    size_avg: Size (avg)
-    time_min: Time (min)
-    time_max: Time (max)
-    time_avg: Time (avg)
-    time_start: Start time
-    time_finish: Finish time
-    time_duration: Duration
+    http_method: Método
