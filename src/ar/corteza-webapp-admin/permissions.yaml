@@ -3,210 +3,174 @@
 #  - inline permission table (admin interface only)
 #  - modal permission table (common perm. interface)
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
-  notification:
-    save:
-      success: Permissions saved
-      failed: Failed to save permissions
+  save: حفظ التغييرات
+  cancel: الغاء
+  set-for: ضبط الصلاحيات لـ {{target}}
+  loading: تحميل الصلاحيات
   edit:
-    title: Edit permissions
-    label: User roles
-    description: Select role to set permissions
-  evaluate:
-    description: Evaluate applied permissions
+    label: أدوار المستخدمين
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
-    edit:
-      description: Select a role that you wish to edit permissions for
-    evaluate:
-      description: Select a combination of roles or a user to evaluate
+    label: أضف
+    save: حفظ وإغلاق
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: ادوار
     user:
-      label: Users
-      placeholder: Search or select a user
-  tooltip:
-    unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      label: مستخدمين
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: سماح
+    inherit: يرث
+    deny: منع
   #############################################################################
   # Inline permission table UI:
-  click-on-cell-to-allow: Click on permission/role cell to allow a specific operation
-  edit-or-eval: Edit or evaluate permissions
+  click-on-cell-to-allow: انقر فوق خلية الإذن / الدور للسماح بعملية معينة
   title:
-    automation: Automation permissions
-    system: System permissions
+    automation: صلاحيات الاتمتتة
+    system: صلاحيات النظام
     compose: Compose permissions
     federation: Federation permissions
   clone:
-    clone: Clone
-    label: Clone permissions
-    pick-role: Start typing to search for roles
-    title: Apply permissions to
-    description: This will clone all the permissions of the current role and apply them  to the selected
+    clone: نسخ
+    label: صلاحيات النسخ
+    description: سيؤدي هذا إلى استنساخ جميع أذونات الدور الحالي وتطبيقها على المحدد
 resources:
   automation:
     component:
-      label: Automation component
+      label: عنصر اتمتتة
       operations:
         grant:
-          title: Grant permissions on automation
+          title: منح صلاحية الاتمتتة
         sessions.search:
-          title: Search sessions
+          title: بحث الصلاحيات
         triggers.search:
-          title: Search triggers
+          title: بحص المشغلات
         workflow.create:
-          title: Create new workflow
+          title: انشاء سير عمل
         workflows.search:
-          title: Search workflows
+          title: بحث سير العمل
         resource-translations.manage:
-          title: Manage resource translations
+          title: ادارة ترجمة الموارد
     workflow:
-      label: Workflows
-      all: all workflows
-      specific: workflow "{{target}}"
+      label: سيور عمل
+      all: جميع سيور العمل
+      specific: سير العمل "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete this workflow
-          title: Delete any workflow
+          description: 'الافتراضي: رفض'
+          specific: احذف سير العمل هذا
+          title: احذف أي سير عمل
         execute:
-          description: 'Default: deny'
-          specific: Execute this workflow
-          title: Execute any workflow
+          description: 'الافتراضي: رفض'
+          specific: نفذ سير العمل هذا
+          title: نفذ أي سير عمل
         read:
-          description: 'Default: deny'
-          specific: Read this workflow
-          title: Read any workflow
+          description: 'الافتراضي: رفض'
+          specific: أقرأ سير العمل هذا
+          title: أقرأ أي سير عمل
         sessions.manage:
-          description: 'Default: deny'
-          specific: Manage sessions for this workflow
-          title: Manage all sessions
+          description: 'الافتراضي: رفض'
+          specific: إدارة الجلسات لسير العمل هذا
+          title: إدارة كافة الجلسات
         triggers.manage:
-          description: 'Default: deny'
-          specific: Manage triggers for this workflow
-          title: Manage all triggers
+          description: 'الافتراضي: رفض'
+          specific: إدارة المشغلات لسير العمل هذا
+          title: إدارة كافة المشغلات
         undelete:
-          description: 'Default: deny'
-          specific: Undelete this workflow
-          title: Undelete any workflow
+          description: 'الافتراضي: رفض'
+          specific: استعادة سير العمل هذا
+          title: استعادة أي سير عمل
         update:
-          description: 'Default: deny'
-          specific: Update this workflow
-          title: Update any workflow
+          description: 'الافتراضي: رفض'
+          specific: تحديث سير العمل هذا
+          title: تحديث أي سير عمل
   system:
     component:
-      label: System component
+      label: مكون النظام
       operations:
         action-log.read:
-          title: Access action log
+          title: الوصول إلى سجل الإجراءات
         application.create:
-          title: Create new application
+          title: إنشاء تطبيق جديد
         application.flag.global:
-          title: Can pin application for everyone
+          title: يمكن تثبيت التطبيق للجميع
         application.flag.self:
-          title: Can pin application for themselves
+          title: يمكن تثبيت التطبيق لأنفسهم
         applications.search:
-          title: List and search applications
+          title: قائمة والبحث في التطبيقات
         auth-client.create:
           title: Create new auth client
         auth-clients.search:
           title: List and search auth clients
         apigw-route.create:
-          title: Create new route
+          title: إنشاء طريق جديد
         apigw-routes.search:
-          title: List and search routes
+          title: عرض والبحث عن الطرق
         apigw-filter.create:
-          title: Create new filter
+          title: إنشاء مرشح جديد
         apigw-filters.search:
-          title: List and search filters
+          title: قائمة والبحث عن عوامل التصفية
         grant:
-          title: Grant permission on system component
+          title: منح الإذن لمكون النظام
         queue.create:
-          title: Create new messaging queue
+          title: إنشاء قائمة انتظار رسائل جديدة
         queues.search:
-          title: List and search messaging queues
+          title: قائمة والبحث في قوائم انتظار الرسائل
         reminder.assign:
-          title: Allow reminder assignment
-        notification.assign:
-          title: Allow notification assignment
+          title: السماح بتعيين التذكير
         role.create:
-          title: Create new role
+          title: أنشئ دورًا جديدًا
         roles.search:
-          title: List and search roles
+          title: قائمة والبحث عن الأدوار
         settings.manage:
-          title: Manage all settings
+          title: إدارة كافة الاعدادات
         settings.read:
-          title: Access all settings
+          title: الوصول لكافة الاعدادات
         template.create:
-          title: Create new template
+          title: أنشئ قالب جديد
         templates.search:
-          title: List and search templates
+          title: قائمة والبحث في القوالب
         user.create:
-          title: Create new user
+          title: إنشاء مستخدم جديد
         users.search:
-          title: List and search users
+          title: قائمة والبحث عن المستخدمين
         resource-translations.manage:
-          title: Manage resource translations
-        dal-schema-alterations.manage:
-          title: Manage schema alterations
+          title: ادارة ترجمة الموارد
         report.create:
-          title: Create new report
+          title: إنشاء تقرير جديد
         reports.search:
-          title: List and search reports
-        dal-connections.search:
-          title: Search connections
-        dal-connection.create:
-          title: Create connections
-        dal-sensitivity-level.manage:
-          title: Manage connection sensitivity level
-        data-privacy-requests.search:
-          title: Search data privacy requests
-        data-privacy-request.create:
-          title: Create data privacy requests
+          title: قائمة والبحث في التقارير
     application:
-      label: Applications
-      all: all applications
-      specific: application "{{target}}"
+      label: التطبيقات
+      all: كل التطبيقات
+      specific: التطبيق "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete {{target}}
-          title: Delete any application
+          description: 'الافتراضي: رفض'
+          specific: حذف {{target}}
+          title: احذف أي تطبيق
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
-          title: Read any application
+          description: 'الافتراضي: رفض'
+          specific: قراءة {{target}}
+          title: اقرأ أي تطبيق
         update:
-          description: 'Default: deny'
-          specific: Update {{target}}
-          title: Update any application
+          description: 'الافتراضي: رفض'
+          specific: تحديث {{target}}
+          title: بتحديث أي تطبيق
     apigw-route:
-      label: Gateway routes
-      all: all routes
-      specific: route "{{target}}"
+      label: طرق البوابة
+      all: كل الطرق
+      specific: طريق "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete {{target}}
-          title: Delete any route
+          description: 'الافتراضي: رفض'
+          specific: حذف {{target}}
+          title: حذف اي طريق
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
-          title: Read any route
+          description: 'الافتراضي: رفض'
+          specific: قراءة {{target}}
+          title: اقرأ اي طريق
         update:
-          description: 'Default: deny'
-          specific: Update {{target}}
+          description: 'الافتراضي: رفض'
+          specific: تحديث {{target}}
           title: Update any route
     auth-client:
       label: Auth Clients
@@ -214,187 +178,165 @@ resources:
       specific: auth client "{{target}}"
       operations:
         authorize:
-          description: 'User can authorize (use) this client. Default: deny'
+          description: 'يمكن للمستخدم التصريح لهذا العميل. الافتراضي: منع'
           specific: Authorize client "{{target}}
           title: Authorize any client
         delete:
-          description: 'Default: deny'
-          specific: Delete client "{{target}}
-          title: Delete any client
+          description: 'الافتراضي: رفض'
+          specific: حذف "{{target}}
+          title: حذف اي عميل
         read:
-          description: 'Default: deny'
-          specific: Read client "{{target}}
-          title: Read any client
+          description: 'الافتراضي: رفض'
+          specific: قراءة العميل "{{target}}
+          title: قراءة اي عميل
         update:
-          description: 'Default: deny'
-          specific: Update client "{{target}}
-          title: Update any client
+          description: 'الافتراضي: رفض'
+          specific: تحديث العميل "{{target}}
+          title: تحديث اي العميل
     dal-connection:
-      label: Connections
-      all: all connections
-      specific: connection "{{target}}"
       operations:
         read:
-          description: 'Default: deny'
-          specific: Read connection "{{target}}
-          title: Read any connection
+          description: 'الافتراضي: رفض'
         update:
-          description: 'Default: deny'
-          specific: Update connection "{{target}}
-          title: Update any connection
+          description: 'الافتراضي: رفض'
         delete:
-          description: 'Default: deny'
-          specific: Delete connection "{{target}}
-          title: Delete any connection
-        dal-config:
-          manage:
-            title: Manage any connections
+          description: 'الافتراضي: رفض'
     role:
-      label: Roles
-      all: all roles
-      specific: role "{{target}}"
+      label: ادوار
+      all: كافة الادوار
+      specific: دور "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete {{target}}
-          title: Delete any role
+          description: 'الافتراضي: رفض'
+          specific: حذف {{target}}
+          title: حذف اي دور
         members.manage:
-          description: 'Default: deny'
-          specific: Manage members for {{target}}
-          title: Manage members for any role
+          description: 'الافتراضي: رفض'
+          specific: ادارة اعضاء {{target}}
+          title: ادارة اعضاء اي دور
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
-          title: Read any role
+          description: 'الافتراضي: رفض'
+          specific: قراءة {{target}}
+          title: اقرأ اي دور
         update:
-          description: 'Default: deny'
-          specific: Update {{target}}
-          title: Update any role
+          description: 'الافتراضي: رفض'
+          specific: تحديث {{target}}
+          title: تحديث أي دور
     queue:
-      label: Queues
-      all: all queues
-      specific: queue "{{target}}"
+      label: قوائم الانتظار
+      all: كل القوائم
+      specific: قائمة "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete {{target}}
-          title: Delete any queue
+          description: 'الافتراضي: رفض'
+          specific: حذف {{target}}
+          title: حذف اي قائمة
         members.manage:
-          description: 'Default: deny'
-          specific: Manage members for {{target}}
-          title: Manage members for any queue
+          description: 'الافتراضي: رفض'
+          specific: ادارة اعضاء {{target}}
+          title: ادارة اعضاء اي قائمة
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
-          title: Read any queue
+          description: 'الافتراضي: رفض'
+          specific: قراءة {{target}}
+          title: اقرأ اي قائمة
         update:
-          description: 'Default: deny'
-          specific: Update {{target}}
-          title: Update any queue
+          description: 'الافتراضي: رفض'
+          specific: تحديث {{target}}
+          title: تحديث أي قائمة
         queue.read:
-          description: 'Default: deny'
-          specific: Read messages from {{target}}
-          title: Read messages from any queue
+          description: 'الافتراضي: رفض'
+          specific: قراءة رسائل من {{target}}
+          title: قراءة الرسائل من أي قائمة انتظار
         queue.write:
-          description: 'Default: deny'
-          specific: Write messages to {{target}}
-          title: Write messages to any queue
+          description: 'الافتراضي: رفض'
+          specific: اكتب رسائل إلى {{target}}
+          title: اكتب رسائل إلى أي قائمة انتظار
     template:
-      label: Templates
-      all: all templates
-      specific: template "{{target}}"
+      label: كل القوالب
+      all: كل القوالب
+      specific: قالب "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete {{target}}
-          title: Delete any template
+          description: 'الافتراضي: رفض'
+          specific: حذف {{target}}
+          title: حذف اي قالب
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
-          title: Read any template
+          description: 'الافتراضي: رفض'
+          specific: قراءة {{target}}
+          title: قراءة اي قالب
         render:
-          description: 'Default: deny'
-          specific: Render {{target}}
-          title: Render any template
+          description: 'الافتراضي: رفض'
+          specific: قراءة {{target}}
+          title: قراءة اي قالب
         update:
-          description: 'Default: deny'
-          specific: Update {{target}}
-          title: Update any template
+          description: 'الافتراضي: رفض'
+          specific: تحديث {{target}}
+          title: تحديث أي قالب
     report:
-      label: Reports
-      all: all reports
-      specific: report "{{target}}"
+      label: التقارير
+      all: كل التقارير
+      specific: تقرير "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete {{target}}
-          title: Delete any report
+          description: 'الافتراضي: رفض'
+          specific: حذف {{target}}
+          title: حذف اي تقرير
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
-          title: Read any report
+          description: 'الافتراضي: رفض'
+          specific: قراءة {{target}}
+          title: اقرأ اي تقرير
         run:
-          description: 'Default: deny'
-          specific: Run {{target}}
-          title: Run any report
+          description: 'الافتراضي: رفض'
+          specific: تشغيل {{target}}
+          title: تشغيل اي تقرير
         update:
-          description: 'Default: deny'
-          specific: Update {{target}}
-          title: Update any report
+          description: 'الافتراضي: رفض'
+          specific: تحديث {{target}}
+          title: تحديث أي تقرير
     user:
-      label: Users
-      all: all users
-      specific: user "{{target}}"
+      label: مستخدمين
+      all: كل المستخدمين
+      specific: مستخدم "{{target}}"
       operations:
-        credentials:
-          manage:
-            specific: Manage {{target}}'s credentials
-            title: Manage any user
         delete:
-          description: 'Default: deny'
-          specific: Delete {{target}}
-          title: Delete any user
+          description: 'الافتراضي: رفض'
+          specific: حذف {{target}}
+          title: حذف اي مستخدم
         email.unmask:
-          description: 'Default: deny'
-          specific: Show email details for {{target}}
-          title: Show email details for any user
+          description: 'الافتراضي: رفض'
+          specific: إظهار تفاصيل البريد الإلكتروني لـ {{target}}
+          title: إظهار تفاصيل البريد الإلكتروني لأي مستخدم
         name.unmask:
-          description: 'Default: deny'
-          specific: Show name details for {{target}}
-          title: Show name details for any user
+          description: 'الافتراضي: رفض'
+          specific: إظهار تفاصيل الاسم لـ {{target}}
+          title: إظهار تفاصيل الاسم لأي مستخدم
         impersonate:
-          description: 'Default: deny'
-          specific: Impersonate this user {{target}}
-          title: Impersonate any user
+          description: 'الافتراضي: رفض'
+          specific: انتحال شخصية هذا المستخدم {{target}}
+          title: انتحال شخصية أي مستخدم
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
-          title: Read any user
+          description: 'الافتراضي: رفض'
+          specific: قراءة {{target}}
+          title: اقرأ اي مستخدم
         suspend:
-          description: 'Default: deny'
-          specific: Suspend {{target}}
-          title: Suspend any user
+          description: 'الافتراضي: رفض'
+          specific: ايقاف {{target}}
+          title: ايقاف اي مستخدم
         unsuspend:
-          description: 'Default: deny'
-          specific: Unsuspend {{target}}
-          title: Unsuspend any user
+          description: 'الافتراضي: رفض'
+          specific: الغاء ايقاف {{target}}
+          title: الغاء ايقاف اي مستخدم
         update:
-          description: 'Default: deny'
-          specific: Update {{target}}
-          title: Update any user
+          description: 'الافتراضي: رفض'
+          specific: تحديث {{target}}
+          title: تحديث أي مستخدم
     data-privacy-request:
-      label: Privacy Requests
-      all: all requests
-      specific: request "{{target}}"
       operations:
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
-          title: Read any request
+          description: 'الافتراضي: رفض'
+          specific: قراءة {{target}}
         approve:
-          description: 'Default: deny'
-          specific: Approve {{target}}
-          title: Approve any request
+          description: 'الافتراضي: رفض'
   federation:
     component:
       label: Federation component
@@ -402,32 +344,30 @@ resources:
         grant:
           title: Grant permissions on federation component
         node.create:
-          title: Create nodes
-        nodes.search:
-          title: List or search nodes
+          title: انشاء عقدة
         pair:
-          title: Pair nodes
+          title: ربط عقد
         settings.manage:
-          title: Manage all settings
+          title: إدارة كافة الاعدادات
         settings.read:
-          title: Access all settings
+          title: الوصول لكافة الاعدادات
     node:
-      label: Nodes
+      label: العقدات
       operations:
         manage:
-          title: Manage any node
+          title: تحكم بأي عقدة
         module.create:
-          title: Create modules
+          title: انشاء موديولز
     exposed-module:
-      label: Modules
+      label: الموديولز
       operations:
         manage:
-          title: Manage any module
+          title: ادارة اي موديول
     shared-module:
-      label: Modules
+      label: الموديولز
       operations:
         map:
-          title: Map any module
+          title: ربط اي موديول
   compose:
     component:
       label: Compose component
@@ -439,105 +379,78 @@ resources:
         namespaces.search:
           title: List and search namespaces
         settings.manage:
-          title: Manage all settings
+          title: إدارة كافة الاعدادات
         settings.read:
-          title: Access all settings
+          title: الوصول لكافة الاعدادات
         resource-translations.manage:
-          title: Manage resource translations
+          title: ادارة ترجمة الموارد
     chart:
-      label: Charts
+      label: الرسوم البيانية
       operations:
         delete:
-          title: Delete any chart
+          title: حذف اي رسم
         read:
-          title: Read any chart
+          title: قراءة اي تقرير
         update:
-          title: Update any chart
+          title: تحديث اي رسم
     module:
-      label: Modules
+      label: الموديولز
       operations:
         delete:
-          title: Delete any module
-        owned-record.create:
-          title: Manage owner when creating records for any module
+          title: حذف اي موديول
         read:
-          title: Read any module
+          title: اقرأ اي موديول
         record.create:
-          title: Create record under any module
+          title: انشاء سجل في اي موديول
         records.search:
-          title: List and search records under any module
+          title: قائمة والبحث عن السجلات تحت أي موديول
         update:
-          title: Update any module
+          title: تحديث أي موديول
     module-field:
-      label: Module fields
+      label: خانات الموديول
       operations:
         record.value.read:
-          title: Read any module field
+          title: اقرأ اي موديول
         record.value.update:
-          title: Update any module field
+          title: تحديث أي موديول
     namespace:
       label: Namespaces
       operations:
         chart.create:
-          title: Create charts under any namespace
+          title: انشاء ريم بياني تحت أي namespace
         charts.search:
-          title: List and search charts under any namespace
-        charts.export:
-          title: Export charts under any namespace
+          title: قائمة والبحث عن السجلات تحت أي namespace
         delete:
-          title: Delete any namespace
+          title: حذف أي namespace
         manage:
-          title: Manage any namespace
+          title: تحكم أي namespace
         module.create:
-          title: Create modules under any namespace
+          title: انشاء رسم بياني تحت أي namespace
         modules.search:
-          title: List and search modules under any namespace
-        modules.export:
-          title: Export modules under any namespace
+          title: قائمة والبحث عن السجلات تحت أي namespace
         page.create:
-          title: Create pages under any namespace
+          title: انشاء رسم بياني تحت أي namespace
         pages.search:
-          title: List and search pages under any namespace
+          title: قائمة والبحث عن السجلات تحت أي namespace
         read:
-          title: Access any namespace
+          title: الوصول لأي namespace
         update:
-          title: Update any namespace
-        export:
-          title: Export any namespace
+          title: تحديث أي namespace
     page:
-      label: Pages
+      label: الصفحات
       operations:
         delete:
-          title: Delete any page
+          title: حذف اي صفحة
         read:
-          title: Read any page
+          title: اقرأ اي صفحة
         update:
-          title: Update any page
-        page-layout.create:
-          title: Create page layouts under any page
-        page-layouts.search:
-          title: List and search page layouts under any page
-    page-layout:
-      label: Page layouts
-      operations:
-        delete:
-          title: Delete any page layout
-        read:
-          title: Read any page layout
-        update:
-          title: Update any page layout
+          title: تحديث أي صفحة
     record:
-      label: Records
+      label: سجلات
       operations:
         delete:
-          title: Delete any record
-        undelete:
-          title: Undelete any record
+          title: حذف اي سجل
         read:
-          title: Read any record
+          title: اقرأ اي سجل
         update:
-          title: Update any record
-        owner.manage:
-          title: Manage ownership of any record
-        revisions.search:
-          title: Access revisions of any record
+          title: تحديث أي سجل
