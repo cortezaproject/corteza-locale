@@ -1,18 +1,16 @@
 template:
-  title: Your session
+  title: Ваша сессия
   list:
-    current: Current session
-    authorized-on: Authorized on
-    same-machine: This machine
-    ip-address: IP Address
-    same-browser: This browser
-    browser: Browser
-    expires: Expires
-    expired: Expired
-    today: Today
-    tomorrow: In 1 day
-    soon: In {{days}} days
-  delete-all: Logout from everywhere
+    current: Текущий сеанс
+    authorized-on: Авторизован
+    same-machine: Этот компьютер
+    ip-address: IP Адрес
+    same-browser: Этот браузер
+    browser: Браузер
+    expires: Истекает
+    expired: Истекло
+    today: Сегодня
+    tomorrow: Через 1 день
+    soon: Через {{days}} дней
 alerts:
-  session-deleted: Session deleted
-  delete-sessions-but-current: All but current login sessions deleted
+  session-deleted: Сессия удалена
