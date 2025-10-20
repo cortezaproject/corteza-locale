@@ -1,4 +1,3 @@
 template:
-  title: Confirm your email
-  instructions: You should receive email confirmation link to your inbox in a few moments
-  links: <a data-test-id="link-signup" href="{{signup}}">Create new account</a> or <a data-test-id="link-login" href="{{login}}">log in</a>
+  title: Подтвердите ваш email
+  instructions: Через несколько минут вы должны получить ссылку для подтверждения  на свой e-mail
