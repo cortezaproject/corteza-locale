@@ -1,17 +1,8 @@
 description: Description
-handle-with-star: Handle
-invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-name: Name
-name-with-star: 'Name*'
-new-report: New Report
+handle-with-star: Identifiant
+invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+name: Nom
+name-with-star: 'Nom*'
 permissions: Permissions
-unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
-report:
-  create: Create Report
-  builder: Report Builder
-  description: Report description...
-  edit: Edit Report
-placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-title: Edit report
-tooltip:
-  view-report: View report
+unsavedChanges: Les changements non enregistrés seront perdus. Voulez-vous quitter la page ?
+placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
