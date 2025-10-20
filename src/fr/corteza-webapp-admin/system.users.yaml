@@ -1,127 +1,74 @@
 editor:
   external-auth-providers:
-    label: Label
-    title: Manage external auth providers
+    label: Étiquette
     type: Type
   info:
-    confirmEmail: Confirm email address
-    id: ID
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    email: Email *
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Full name
-    revokeAllSession: Revoke all active sessions
-    suspend: Suspend
-    suspendedAt: Suspended at
-    title: Basic information
-    undelete: Undelete
-    unsuspend: Unsuspend
-    updatedAt: Updated at
+    createdAt: Créer à
+    createdBy: Créer par
+    delete: Supprimer
+    deletedAt: Supprimer à
+    email: Courriel *
+    handle: Identifiant
+    placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+    invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+    name: Nom complet
+    revokeAllSession: Révoquer toutes les sessions actives
+    undelete: Annuler suppression
+    updatedAt: Mis à jour à
   avatar:
-    title: Profile avatar
     preview:
       label: Avatar
       title: Avatar
     initial:
-      color: Text color
-      backgroundColor: Background color
+      color: Couleur de texte
+      backgroundColor: Couleur de fond
     uploader:
-      instructions: Upload avatar
-      uploading: Uploading user avatar
-    colorPicker: Choose a color
+      instructions: Téléverser avatar
+    colorPicker: Choisissez une couleur
   mfa:
     TOTP:
       disabled:
-        text: User did not configure TOTP protection
+        text: L'utilisateur n'a pas configuré la protection TOTP
       enabled:
-        text: User configured TOTP protection auth mobile app
+        text: L'utilisateur a configuré la protection TOTP par application d'auth mobile
       remove:
-        label: Remove
+        label: Supprimer
     emailOTP:
       disable:
-        label: Disable
+        label: Désactiver
       disabled:
         text: |-
-          Email OTP protection is disabled for this user
-          Email with the security code on each login will not be sent
-      enable:
-        label: Enable
+          La protection OTP par courriel est désactivé pour cet utilisateur
+          Les courriels de code de sécurité à chaque connexion ne seront pas envoyés
       enabled:
         text: |-
-          Email OTP protection is enabled for this user
-          User will receive email with the security code on each login
-    title: Multi-factor authentication
-  new: New User
+          La protection OTP par courriel est activé pour cet utilisateur
+          L'utilisateur recevra un code de sécurité par courriel à chaque connexion
+    title: Authentification multi-facteurs
+  new: Nouvel utilisateur
   password:
-    confirm: Confirm password
-    length: The passwords must be at least {{length}} characters long!
-    missmatch: The passwords must match
-    new: New password
-    title: Password
-    removePassword: Remove password
+    missmatch: Le mot de passe doit correspondre
+    new: Nouveau mot de passe
+    title: Mot de passe
   permissions: Permissions
   roles:
-    add: Add
-    count: roles
-    remove: Remove
-    title: Role membership
-    unnamed: Unnamed role
-  title:
-    create: Create user
-    edit: Edit user
+    add: + Ajouter
+    count: Roles ({{count}})
+    remove: Supprimer
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    email: Email
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  suspend: Suspend
-  unsuspend: Unsuspend
-  delete: Delete
-  undelete: Undelete
-  revokeActiveSession: Revoke Session
-  export: Export
-  rows:
-    filters:
-      deleted: Deleted
-      suspended: Suspended
-  filterForm:
-    deleted:
-      label: deleted users
-    excluded:
-      label: Without
-    exclusive:
-      label: Only
-    inclusive:
-      label: Including
-    query:
-      label: Filter users list
-      placeholder: Filter users by name, email
-    suspended:
-      label: suspended users
-  loading: Loading users
-  new: New User
-  numFound: '{{count}} user found'
-  numFound_plural: '{{count}} users found'
+    email: Courriel
+    enabled: Activé
+    handle: Identifiant
+    name: Nom
+  delete: Supprimer
+  undelete: Annuler suppression
+  export: Exporter
+  new: Nouvel utilisateur
   permissions: Permissions
-  title: Users
-  yaml: YAML
+  title: Utilisateurs
 export:
-  buttonLabel: Export
-  title: Export users
-  inclRoleMembership: Include role membership
-  inclRoles: Include roles
-  membershipRequiredLabel: Roles can only be exported when role membership is selected
-  export: Export
+  buttonLabel: Exporter
+  export: Exporter
 import:
-  buttonLabel: Import
-  title: Import users
-  uploadFilePlaceholder: Click or drop files here to import
+  buttonLabel: Importer
