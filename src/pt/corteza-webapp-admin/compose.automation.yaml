@@ -1,6 +1,6 @@
 list:
   columns:
-    events: Triggered on events
-    label: Label
-    name: Name
-  title: Compose Automation
+    events: Acionado em eventos
+    label: Rótulo
+    name: Nome
+  title: Automação de composição
