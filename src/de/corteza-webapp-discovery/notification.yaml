@@ -1,6 +1,4 @@
 general:
-  error: Error
-  success: Success
+  error: Fehler
+  success: Erfolgreich
   warning: Warning
-search:
-  failed: Search failed
