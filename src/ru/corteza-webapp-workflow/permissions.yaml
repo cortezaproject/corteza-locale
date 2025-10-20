@@ -1,68 +1,35 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
-  label: Permissions
-  notification:
-    save:
-      success: Permissions saved
-      failed: Failed to save permissions
+  save: Сохранение изменений
+  cancel: Отменить
+  set-for: Настройка разрешений для {{target}}
+  label: Разрешения
   edit:
-    label: User roles
-    description: Select role to set permissions
-  evaluate:
-    description: Evaluate applied permissions
+    label: Роли пользователя
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: Добавить
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: Роль
     user:
-      label: Users
-      placeholder: Search or select a user
-  tooltip:
-    unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      label: Пользователи
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: Разрешать
+    inherit: наследовать
+    deny: Запретить
 resources:
   automation:
     workflow:
-      all: all workflows
-      specific: workflow "{{target}}"
-      tooltip: Workflow permissions
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete this workflow
-          title: Delete any workflow
+          description: 'По умолчанию: запретить'
         execute:
-          description: 'Default: deny'
-          specific: Execute this workflow
-          title: Execute any workflow
+          description: 'По умолчанию: запретить'
         read:
-          description: 'Default: deny'
-          specific: Read this workflow
-          title: Read any workflow
+          description: 'По умолчанию: запретить'
         sessions.manage:
-          description: 'Default: deny'
-          specific: Manage sessions for this workflow
-          title: Manage all sessions
+          description: 'По умолчанию: запретить'
         triggers.manage:
-          description: 'Default: deny'
-          specific: Manage triggers for this workflow
-          title: Manage all triggers
+          description: 'По умолчанию: запретить'
         undelete:
-          description: 'Default: deny'
-          specific: Undelete this workflow
-          title: Undelete any workflow
+          description: 'По умолчанию: запретить'
         update:
-          description: 'Default: deny'
-          specific: Update this workflow
-          title: Update any workflow
+          description: 'По умолчанию: запретить'
