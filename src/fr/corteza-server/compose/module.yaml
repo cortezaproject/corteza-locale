@@ -1,19 +1,19 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  invalidNamespaceID: invalid or missing namespace ID
-  nameNotUnique: name not unique
-  fieldNameReserved: field name reserved
-  namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create modules
-  notAllowedToDelete: not allowed to delete this module
-  notAllowedToListModules: not allowed to list modules
-  notAllowedToRead: not allowed to read this module
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list modules
-  notAllowedToUndelete: not allowed to undelete this module
-  notAllowedToUpdate: not allowed to update this module
-  notFound: module does not exist
-  staleData: stale data
-  dedupConfigurationInvalidMissingConstraint: missing constraints on deduplication configuration
+  handleNotUnique: l'identifiant n'est pas unique
+  invalidHandle: identifiant invalide
+  invalidID: ID invalide
+  invalidNamespaceID: ID de namespace invalide ou manquant
+  nameNotUnique: nom n'est pas unique
+  fieldNameReserved: nom de champ est réservé
+  namespaceNotFound: ce namespace n'existe pas
+  notAllowedToCreate: non autorisé à créer des modules
+  notAllowedToDelete: non autorisé à supprimer ce module
+  notAllowedToListModules: non autorisé à lister les modules
+  notAllowedToRead: non autorisé à lire ce module
+  notAllowedToReadNamespace: non autorisé à lire ce namespace
+  notAllowedToSearch: non autorisé pour rechercher ou lister les modules
+  notAllowedToUndelete: non autorisé à annuler la suppression de ce module
+  notAllowedToUpdate: non autorisé à mettre à jour ce module
+  notFound: ce module n'existe pas
+  staleData: données obsolètes
+  dedupConfigurationInvalidMissingConstraint: contraintes manquantes dans la configuration de déduplication
