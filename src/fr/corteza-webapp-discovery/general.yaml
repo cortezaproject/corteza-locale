@@ -1,19 +1,19 @@
-federated: Federated
-no-values: No values
+federated: Fédéré
+no-values: Pas de valeurs
 label:
-  all: All
+  all: Tous
 resourceList:
   pagination:
-    recordsPerPage: Per Page
+    recordsPerPage: Par Page
 themes:
   labels:
-    light: Light
-    dark: Dark
+    light: Clair
+    dark: Sombre
 extendSession:
   labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
-recordID: Record ID
-createdBy: Created By
-createdAt: Created At
-updatedAt: Updated At
+    extend: Étendre la session
+    warning: Vous serez déconnecté(e) dans {{ countdownTime }} secondes
+recordID: ID d'élément
+createdBy: Créer par
+createdAt: Créer à
+updatedAt: Mis à jour à
