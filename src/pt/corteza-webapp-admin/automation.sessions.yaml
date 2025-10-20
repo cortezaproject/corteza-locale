@@ -1,57 +1,51 @@
 editor:
   info:
-    completedAt: Completed at
-    createdAt: Created at
-    createdBy: Created by - ID
-    createdByUserName: Created by - Name
-    delete: Delete
-    deletedAt: Deleted at
-    suspendedAt: Suspended at
-    error: Error
-    eventType: Event type
-    id: ID
-    resourceType: Resource type
+    completedAt: Concluído em
+    createdAt: Criado em
+    createdBy: Criado por - ID
+    createdByUserName: Criado por - Nome
+    delete: Excluir
+    deletedAt: Excluído em
+    suspendedAt: Suspenso em
+    error: Erro
+    eventType: Tipo de evento
+    id: IDENTIFICAÇÃO
+    resourceType: Tipo de recurso
     status: Status
-    title: Basic information
-    workflowID: WorkflowID
-    openWorkflow: Open workflow
-    cancel: Cancel session
-  title: Session
+    title: Informação básica
+    workflowID: Código do fluxo de trabalho
+  title: Sessão
 list:
   columns:
-    actions: ""
-    createdAt: Created At
-    eventType: Event type
-    sessionID: SessionID
-    state: State
+    createdAt: Criado em
+    eventType: Tipo de evento
+    sessionID: Identificação de sessão
     status: Status
-    workflowID: WorkflowID
+    workflowID: Código do fluxo de trabalho
   filterForm:
     all:
-      label: All
+      label: Todo
     completed:
-      label: Completed
+      label: Concluído
     excluded:
-      label: Without
+      label: Sem
     exclusive:
-      label: Only
+      label: Apenas
     failed:
-      label: Failed
+      label: Fracassado
     inProgress:
-      label: completed sessions
+      label: sessões concluídas
     inclusive:
-      label: Including
+      label: Incluindo
     prompted:
-      label: Prompted
+      label: Solicitado
     sessions:
-      label: sessions
+      label: sessões
     started:
-      label: Started
+      label: Iniciado
     suspended:
-      label: Suspended
-    canceled:
-      label: Canceled
-  loading: Loading sessions
-  numFound: '{{count}} session found'
-  numFound_plural: '{{count}} sessions found'
-  title: Sessions
+      label: Suspenso
+  loading: Carregando sessões
+  numFound: '{{count}} sessão encontrada'
+  numFound_plural: '{{count}} sessões encontradas'
+  title: Sessões
