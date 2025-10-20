@@ -1,11 +1,11 @@
 errors:
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create applications
-  notAllowedToDelete: not allowed to delete this application
-  notAllowedToManageFlag: not allowed to manage flags for applications
-  notAllowedToManageFlagGlobal: not allowed to manage global flags for applications
-  notAllowedToRead: not allowed to read this application
-  notAllowedToSearch: not allowed to search or list applications
-  notAllowedToUndelete: not allowed to undelete this application
-  notAllowedToUpdate: not allowed to update this application
-  notFound: application not found
+  invalidID: неверный ID
+  notAllowedToCreate: не разрешено создавать приложение
+  notAllowedToDelete: не разрешено удалять это приложение
+  notAllowedToManageFlag: не разрешено управлять флагами для приложений
+  notAllowedToManageFlagGlobal: не разрешено управлять глобальными флагами для приложений
+  notAllowedToRead: не разрешено читать это приложение
+  notAllowedToSearch: не разрешено искать или перечислять приложения
+  notAllowedToUndelete: не разрешено восстанавливать это приложение
+  notAllowedToUpdate: не разрешено обновлять это приложение
+  notFound: Приложение не найдено
