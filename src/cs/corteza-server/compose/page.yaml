@@ -1,17 +1,17 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  invalidNamespaceID: invalid or missing namespace ID
-  moduleNotFound: module does not exist
-  namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create pages
-  notAllowedToDelete: not allowed to delete this page
-  notAllowedToListPages: not allowed to list pages
-  notAllowedToRead: not allowed to read this page
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list pages
-  notAllowedToUndelete: not allowed to undelete this page
-  notAllowedToUpdate: not allowed to update this page
-  notFound: page does not exist
-  staleData: stale data
+  handleNotUnique: identifikátor není unikátní
+  invalidHandle: nevalidní identifikátor
+  invalidID: nevalidní ID
+  invalidNamespaceID: nevalidní nebo chybějící ID jmenného prostoru 
+  moduleNotFound: modul neexistuje
+  namespaceNotFound: jmenný prostor neexistuje
+  notAllowedToCreate: není povoleno vytvářet stránky
+  notAllowedToDelete: není povoleno smazat tuto stránku
+  notAllowedToListPages: není povoleno procházet stránky
+  notAllowedToRead: není povoleno zobrazit tuto stránku
+  notAllowedToReadNamespace: chybí povolení ke čtení tohoto jmenného prostoru
+  notAllowedToSearch: není povoleno hledat nebo procházet stránky
+  notAllowedToUndelete: není povoleno obnovit tuto smazanou stránku
+  notAllowedToUpdate: není povoleno aktualizovat tuto stránku
+  notFound: stránka neexistuje
+  staleData: zastaralá data
