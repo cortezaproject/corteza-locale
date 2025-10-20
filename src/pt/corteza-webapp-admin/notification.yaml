@@ -1,305 +1,226 @@
 general:
-  error: Error
-  success: Success
-  warning: Warning
-notAllowed: Not allowed to access Admin Area. Redirecting
+  error: Erro
+  success: Sucesso
+  warning: Aviso
+notAllowed: Não é permitido acessar a Área Administrativa. Redirecionando
 list:
   load:
-    error: 'Failed to load resource list'
+    error: 'Falha ao carregar a lista de recursos'
 user:
-  external-auth-providers:
-    error: External auth providers fetch failed
-    success: External auth providers updated
   fetch:
-    error: User fetch failed
+    error: Falha na busca do usuário
   roles:
-    error: Role fetch failed
+    error: Falha na busca de função
   update:
-    success: User updated
-    error: User update failed
+    success: Usuário atualizado
+    error: Falha na atualização do usuário
   create:
-    success: User created
-    error: User create failed
+    success: Usuário criado
+    error: Falha na criação do usuário
   delete:
-    success: User deleted
-    error: User delete failed
+    success: Usuário excluído
+    error: Falha na exclusão do usuário
   undelete:
-    success: User restored
-    error: User restore failed
+    success: Usuário restaurado
+    error: Falha na restauração do usuário
   membershipUpdate:
-    success: Membership updated
-    error: Membership update failed
+    success: Associação atualizada
+    error: Falha na atualização da associação
   passwordChange:
-    success: Password changed
-    error: Password change failed
+    success: Senha alterada
+    error: Falha na mudança de senha
   sessionsRevoke:
-    success: Sessions revoked
-    error: Session revoke failed
+    success: Sessões revogadas
+    error: Falha na revogação da sessão
   suspend:
-    success: User suspended
-    error: User suspension failed
+    success: Usuário suspenso
+    error: Falha na suspensão do usuário
   unsuspend:
-    success: User unsuspended
-    error: User suspension failed
-  import:
-    success: Users imported successfully
-  avatarUpload:
-    success: Avatar updated
-    error: Avatar upload failed
-  avatarSettings:
-    success: Avatar settings updated
-    error: Avatar settings update failed
-  avatarDelete:
-    success: Avatar deleted
-    error: Avatar delete failed
+    success: Usuário cancelado
+    error: Falha na suspensão do usuário
 role:
   fetch:
-    error: Role fetch failed
+    error: Falha na busca de função
   create:
-    success: Role created
-    error: Role create failed
+    success: Função criada
+    error: Falha ao criar função
   update:
-    success: Role updated
-    error: Role update failed
+    success: Função atualizada
+    error: Falha na atualização da função
   delete:
-    success: Role deleted
-    error: Role delete failed
+    success: Função excluída
+    error: Falha na exclusão da função
   undelete:
-    success: Role restored
-    error: Role restore failed
+    success: Função restaurada
+    error: Falha na restauração da função
   archive:
-    success: Role archived
-    error: Role archive failed
+    success: Função arquivada
+    error: Falha no arquivamento de papéis
   unarchive:
-    success: Role unarchived
-    error: Role unarchive failed
+    success: Função desarquivada
+    error: Falha ao desarquivar a função
   membershipUpdate:
-    success: Membership updated
-    error: Membership update failed
+    success: Associação atualizada
+    error: Falha na atualização da associação
 application:
   fetch:
-    error: Application fetch failed
+    error: Falha na busca do aplicativo
   update:
-    success: Application updated
-    error: Application update failed
+    success: Aplicativo atualizado
+    error: Falha na atualização do aplicativo
   create:
-    success: Application created
-    error: Application create failed
+    success: Aplicativo criado
+    error: Falha na criação do aplicativo
   delete:
-    success: Application deleted
-    error: Application delete failed
+    success: Aplicativo excluído
+    error: Falha na exclusão do aplicativo
   undelete:
-    success: Application restored
-    error: Application restore failed
+    success: Aplicativo restaurado
+    error: Falha na restauração do aplicativo
   assetsUpload:
-    error: Application assets upload failed
+    error: Falha no upload dos recursos do aplicativo
 template:
   fetch:
-    error: Template fetch failed
+    error: Falha na busca do modelo
   fetchPartials:
-    error: Partial templates fetch failed
+    error: Falha na busca parcial de modelos
   create:
-    success: Template created
-    error: Template create failed
+    success: Modelo criado
+    error: Falha na criação do modelo
   update:
-    success: Template updated
-    error: Template update failed
+    success: Modelo atualizado
+    error: Falha na atualização do modelo
   delete:
-    success: Template deleted
-    error: Template delete failed
+    success: Modelo excluído
+    error: Falha na exclusão do modelo
   undelete:
-    success: Template restored
-    error: Template restore failed
+    success: Modelo restaurado
+    error: Falha na restauração do modelo
   driver:
-    error: Template render drivers fetch failed
+    error: Falha na busca de drivers de renderização de modelo
   preview:
-    error: Template preview fetch failed
+    error: Falha na busca de visualização do modelo
 authclient:
   fetch:
-    error: Auth Client fetch failed
+    error: Falha na busca do cliente de autenticação
   create:
-    success: Auth Client created
-    error: Auth Client create failed
+    success: Cliente de autenticação criado
+    error: Falha na criação do cliente de autenticação
   update:
-    success: Auth Client updated
-    error: Auth Client update failed
+    success: Cliente de autenticação atualizado
+    error: Falha na atualização do cliente de autenticação
   delete:
-    success: Auth Client deleted
-    error: Auth Client delete failed
+    success: Cliente de autenticação excluído
+    error: Falha na exclusão do cliente de autenticação
   undelete:
-    success: Auth Client restored
-    error: Auth Client restore failed
+    success: Cliente de autenticação restaurado
+    error: Falha na restauração do cliente de autenticação
 queue:
   fetch:
-    error: Queue fetch failed
+    error: Falha na busca da fila
   create:
-    success: Queue created
-    error: Queue create failed
+    success: Fila criada
+    error: Falha na criação da fila
   update:
-    success: Queue updated
-    error: Queue update failed
+    success: Fila atualizada
+    error: Falha na atualização da fila
   delete:
-    success: Queue deleted
-    error: Queue delete failed
-  undelete:
-    success: Queue restored
-    error: Queue restore failed
+    success: Fila excluída
+    error: Falha na exclusão da fila
 gateway:
   fetch:
-    error: Route fetch failed
+    error: Falha na busca de rota
   create:
-    success: Route created
-    error: Route create failed
+    success: Rota criada
+    error: Falha na criação da rota
   update:
-    success: Route updated
-    error: Route update failed
+    success: Rota atualizada
+    error: Falha na atualização da rota
   filter:
     fetch:
-      error: Filter fetch failed
+      error: Falha na busca do filtro
     update:
-      success: Filters updated
-      error: Filters update failed
+      success: Filtros atualizados
+      error: Falha na atualização dos filtros
   delete:
-    success: Route deleted
-    error: Route delete failed
+    success: Rota excluída
+    error: Falha na exclusão da rota
   undelete:
-    success: Route restored
-    error: Route restore failed
-  profiler:
-    fetch:
-      error: Requests fetch failed
-    purge:
-      success: Requests purged
-      error: Requests purge failed
+    success: Rota restaurada
+    error: Falha na restauração da rota
 workflow:
   fetch:
-    error: Workflow fetch failed
+    error: Falha na busca do fluxo de trabalho
   create:
-    success: Workflow created
-    error: Workflow create failed
+    success: Fluxo de trabalho criado
+    error: Falha na criação do fluxo de trabalho
   update:
-    success: Workflow updated
-    error: Workflow update failed
+    success: Fluxo de trabalho atualizado
+    error: Falha na atualização do fluxo de trabalho
   delete:
-    success: Workflow deleted
-    error: Workflow delete failed
+    success: Fluxo de trabalho excluído
+    error: Falha na exclusão do fluxo de trabalho
   undelete:
-    success: Workflow restored
-    error: Workflow restore failed
+    success: Fluxo de trabalho restaurado
+    error: Falha na restauração do fluxo de trabalho
 session:
   fetch:
-    error: Session fetch failed
+    error: Falha na busca de sessão
   trigger:
-    error: Trigger fetch failed
-  cancel:
-    success: Session canceled
-    error: Session cancel failed
+    error: Falha na busca do gatilho
 federation:
   fetch:
-    error: Node fetch failed
+    error: Falha na busca do nó
   create:
-    success: Node created
-    error: Node create failed
+    success: Nó criado
+    error: Falha na criação do nó
   update:
-    success: Node updated
-    error: Node update failed
+    success: Nó atualizado
+    error: Falha na atualização do nó
   delete:
-    success: Node deleted
-    error: Node delete failed
+    success: Nó excluído
+    error: Falha na exclusão do nó
   undelete:
-    success: Node restored
-    error: Node restore failed
+    success: Nó restaurado
+    error: Falha na restauração do nó
   url:
-    error: Generated URL fetch failed
+    error: Falha na busca de URL gerada
   email:
-    success: Email sent
-    error: Failed to send email
+    success: E-mail enviado
+    error: Falha ao enviar e-mail
   pair:
-    success: Node paired
-    error: Failed to pair node
+    success: Nó pareado
+    error: Falha ao emparelhar o nó
   handshake:
-    success: Handshake complete paired
-    error: Handshake failed
-sensitivityLevel:
-  create:
-    success: Sensitivity level created
-    error: Sensitivity level create failed
-  delete:
-    success: Sensitivity level deleted
-    error: Sensitivity level delete failed
-  fetch:
-    success: Sensitivity level fetched
-    error: Sensitivity level fetch failed
-  undelete:
-    success: Sensitivity level restored
-    error: Sensitivity level restore failed
-  update:
-    success: Sensitivity level updated
-    error: Sensitivity level update failed
+    success: Aperto de mão completo emparelhado
+    error: Falha no aperto de mão
 settings:
   system:
     fetch:
-      error: System settings fetch failed
+      error: Falha na busca das configurações do sistema
     auth:
-      success: Auth settings updated
-      error: Auth settings update failed
+      success: Configurações de autenticação atualizadas
+      error: Falha na atualização das configurações de autenticação
     external:
-      success: External settings updated
-      error: External settings update failed
-    bgScreen:
-      style:
-        success: Auth background styles updated
-        error: Auth background styles update failed
-    smtpCheck:
-      success: SMTP configuration check  passed
-      error: SMTP configuration check failed
-    apigw:
-      success: Integration gateway settings saved
-      error: Integration gateway settings update failed
+      success: Configurações externas atualizadas
+      error: Falha na atualização das configurações externas
   compose:
     fetch:
-      error: Compose settings fetch failed
+      error: Falha na busca das configurações de composição
     update:
-      success: Compose settings updated
-      error: Compose settings update failed
+      success: Configurações de composição atualizadas
+      error: Falha na atualização das configurações de composição
   ui:
     fetch:
-      error: UI settings fetch failed
-    update:
-      success: UI settings updated
-      error: UI settings update failed
-  code-snippet:
-    fetch:
-      error: Code snippets fetch failed
-    update:
-      success: Code snippets updated, refresh the page to see the changes
-      error: Code snippets update failed
-    delete:
-      success: Code snippet deleted, refresh the page to see the changes
-      error: Code snippet delete failed
+      error: Falha na busca das configurações da interface do usuário
 permissions:
   fetch:
-    error: Permissions fetch failed
+    error: Falha na busca de permissões
   update:
-    success: Permissions updated
-    error: Permissions update failed
+    success: Permissões atualizadas
+    error: Falha na atualização de permissões
   clone:
-    success: Permissions cloned
-    error: Permissions clone failed
+    success: Permissões clonadas
+    error: Falha na clonagem de permissões
   role:
-    error: Failed to add role
-connection:
-  fetch:
-    error: Connection fetch failed
-  update:
-    success: Connection updated
-    error: Connection update failed
-  create:
-    success: Connection created
-    error: Connection create failed
-  delete:
-    success: Connection deleted
-    error: Connection delete failed
-  undelete:
-    success: Connection restored
-    error: Connection restore failed
+    error: Falha ao adicionar função
