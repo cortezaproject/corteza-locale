@@ -1,11 +1,10 @@
-title: Filter
+title: مرشح
 types:
-  title: Types
-  namespace: Namespace
-  module: Module
-  user: User
-  record: Record
+  namespace: Namespaces
+  module: موديول
+  user: مستخدم
+  record: سجل
 aggregation-groups:
-  modules: Modules
+  modules: الموديولز
   namespaces: Namespaces
-reset: Reset
+reset: اعادة تعيين
