@@ -1,14 +1,14 @@
 general:
   label:
-    attachmentFileInfo: '(File size: {{0}}, uploaded {{1}})'
-    download: Download
+    attachmentFileInfo: '(حجم الملف: {{0}}, تم رفع {{1}})'
+    download: تحميل
   tooltip:
-    dragAndDrop: Drag and drop to change order
+    dragAndDrop: قم بالسحب والإفلات لتغيير النظام
 pdf:
-  clickToRetry: Click to retry
-  downloadForAll: Download to see all pages
-  firstPagePreview: First page preview
-  loading: Loading
-  noPages: This document is empty
-  pageLoadFailed: Page failed to load
-  pageLoading: Loading
+  clickToRetry: انقر لإعادة المحاولة
+  downloadForAll: تحميل لرؤية كل الصفحات
+  firstPagePreview: معاينة الصفحة الأولى
+  loading: تحميل
+  noPages: هذا المستند فارغ
+  pageLoadFailed: فشل تحميل الصفحة
+  pageLoading: تحميل
