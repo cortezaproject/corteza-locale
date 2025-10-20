@@ -1,70 +1,69 @@
 editor:
   info:
-    archive: Archive
-    archivedAt: Archived at
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Role name *
-    title: Basic information
-    unarchive: Unarchive
-    undelete: Undelete
-    updatedAt: Updated at
-    description: Description
+    archive: Archivovat
+    archivedAt: Čas archivace
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    handle: Identifikátor
+    placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    name: Název role
+    title: Základní informace
+    unarchive: Obnovit z archivu
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+    description: Popis
     context:
-      label: Contextual role
-      expression-label: Expression
-      resource-types-label: Resource type
+      label: Role v kontextu
+      expression-label: Výraz
+      resource-types-label: Typ zdroje
   members:
-    add: Add
-    count: Members ({{count}})
-    remove: Remove
-    searchUsers: Search users
-    title: Role members
-    unnamed: Unnamed user
-  new: New Role
-  permissions: Permissions
+    add: Přidat
+    count: Členové ({{count}})
+    remove: Odebrat
+    searchUsers: Hledat uživatele
+    title: Členové role
+    unnamed: Bezejmenný uživatel
+  new: Nová role
+  permissions: Oprávnění
   title:
-    create: Create role
-    edit: Edit role
+    create: Vytvořit roli
+    edit: Editovat roli
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  archive: Archive
-  unarchive: Unarchive
+    createdAt: Vytvořeno
+    enabled: Povoleno
+    handle: Identifikátor
+    name: Jméno
+    state: Stav
+  delete: Smazat
+  undelete: Obnovit smazané
+  archive: Archivovat
+  unarchive: Obnovit z archivu
   rows:
     filters:
-      archived: Archived
-      deleted: Deleted
+      archived: Archivováno
+      deleted: Odstraněno
   filterForm:
     archived:
-      label: archived roles
+      label: archivované role
     deleted:
-      label: deleted roles
+      label: smazané role
     excluded:
-      label: Without
+      label: Bez
     exclusive:
-      label: Only
+      label: Pouze
     inclusive:
-      label: Including
+      label: Včetně
     query:
-      label: Filter roles list
-      placeholder: Filter roles by name
-  loading: Loading roles
-  new: New Role
-  numFound: '{{count}} role found'
-  numFound_plural: '{{count}} roles found'
-  permissions: Permissions
-  title: Roles
+      label: Filtrovat seznam rolí
+      placeholder: Filtrovat role podle názvu
+  loading: Načítání rolí
+  new: Nová role
+  numFound: 'Nalezena {{count}} role'
+  numFound_plural: 'Nalezeno {{count}} rolí'
+  permissions: Oprávnění
+  title: Role
   yaml: YAML
