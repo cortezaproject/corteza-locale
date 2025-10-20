@@ -1,23 +1,22 @@
 template:
-  title: Sign up
+  title: تسجيل
   form:
     email:
-      label: Email
+      label: البريد الالكتروني
       placeholder: email@domain.tld
     password:
-      label: Password
-      placeholder: Password
+      label: كلمة المرور
+      placeholder: كلمة المرور
     name:
-      label: Full name
-      placeholder: Your full name
+      label: الأسم كامل
+      placeholder: أسمك الكامل
     nickname:
-      label: Short name, nickname or handle
-      placeholder: Short name, nickname or handle
+      label: الأسم، الكنية أو المعرف
+      placeholder: الأسم، الكنية أو المعرف
     button:
-      sign-up: Submit
-  log-in: Already have an account? <a data-test-id="link-login" href="{{link}}">Log in</a>
+      sign-up: إرسال
 alerts:
-  signup-successful: Sign-up successful
-  email-confirmed-logged-in: Email address confirmed, you're now logged-in.
-  invalid-expired-token: Invalid or expired email confirmation token, please resend confirmation request.
-  signup-disabled: Signup disabled
+  signup-successful: تم التسجيل بنجاح
+  email-confirmed-logged-in: تم تأكيد البريد الالكتروني، تم تسجيل الدخول.
+  invalid-expired-token: رمز تأكيد البريد الالكتروني منتهي أو خاطئ، يرجى اعادة محاولة ارسال التأكيد.
+  signup-disabled: التسجيل معطل
