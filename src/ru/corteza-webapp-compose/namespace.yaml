@@ -1,75 +1,58 @@
-manage-view:
-  label: Manage namespaces
 application:
-  label: Enable on application list
-clickOpen: Click to open
+  label: Включать в список приложений
+clickOpen: Щелкните для открытия
 import:
-  buttonLabel: Import
-  title: Import namespace
-  uploadFileLabel: Upload the file you want to import (.zip format)
-  uploadFilePlaceholder: Click or drop file here to upload (.zip format)
-  back: Back
-  import: Import
+  buttonLabel: Импорт
+  title: Импорт пространства имен
+  uploadFileLabel: Загрузите файл, который вы хотите импортировать (формат ZIP)
+  uploadFilePlaceholder: Нажмите или перетащите файл сюда, чтобы загрузить (формат.zip)
+  back: Назад
+  import: Импорт
   slug:
-    label: Short name *
+    label: Короткое имя *
 description:
-  label: Namespace description
-  placeholder: Enter namespace description
-disabled: Namespace is disabled
-edit: Edit namespace
-clone: Clone namespace
-cloneSuffix: copy
+  label: Описание пространства имен
+  placeholder: Введите описание пространства имен
+disabled: Пространство имен выключено
+edit: Изменить пространство имен.
+clone: Копировать пространство имен
+cloneSuffix: копировать
 cloneWarning:
-  wfInclusion: Workflows and other automation are not cloned. Use the workflow editor interface to clone the ones you need.
-create: Create namespace
-export: Export
+  wfInclusion: Рабочие процессы и другая автоматизация не клонируются. Используйте интерфейс редактора рабочих процессов для клонирования тех, которые вам нужны.
+export: Экспорт
 enabled:
-  label: Enable namespace
+  label: Включить пространство имен
 icon:
-  label: Icon
-  placeholder: Choose an image for namespace icon or drop it here...
+  label: Иконка
+  placeholder: Выберите изображение для значка пространства имен или оставьте его здесь...
 label:
-  permissions: Permissions
+  permissions: Разрешения
 logo:
-  label: Logo
-  placeholder: Choose an image for namespace logo or drop it here...
-  show: Show logo
-  preview: Preview
-  reset: Reset
+  label: Логотип
+  placeholder: Выберите изображение для логотипа пространства имен или оставьте его здесь...
+  show: Показать логотип
+  preview: Просмотр
+  reset: Перезагрузка
 name:
-  label: Full namespace name *
-  placeholder: Enter namespace name
-noResults: No namespaces found
-searchPlaceholder: Search namespaces
-setPermissions: Set namespace permissions
+  label: Полное имя пространства имен *
+  placeholder: Введите имя пространства имен
+noResults: Не найдено пространство имен
+setPermissions: Задать разрешения пространства имен
 slug:
-  description: The short name will be used in the URL
-  label: Short name
-  placeholder: Enter a short name for the namespace
-  invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+  description: Краткое имя будет использоваться в URL
+  label: Короткое имя
+  placeholder: Введите краткое имя для пространства имен
 subtitle:
-  label: Subtitle
-  placeholder: Enter namespace subtitle
-title: Namespaces
-tooltip:
-  translations: Namespace translations
-visit: View namespace
-configure: Configure namespace
+  label: Подзаголовок
+  placeholder: Вводите подзаголовок пространства имен
+title: Пространство имен
 manage:
-  title: Manage namespaces
-  list-view: Back to namespace list
-  delete: Delete
-  disabled: Disabled
+  delete: Удалить
   toolbar:
     buttons:
-      create: New Namespace
-      permissions: Permissions
+      permissions: Разрешения
   table:
     columns:
-      enabled: Enabled
-      name: Name
-      slug: Short name
-      changedAt: Last change
-sidebar:
-  configure: Namespace pages
-  hide: Hide sidebar on namespace public pages
+      enabled: Включено
+      name: Имя
+      slug: Короткое имя
