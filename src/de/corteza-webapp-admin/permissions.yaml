@@ -4,37 +4,18 @@
 #  - modal permission table (common perm. interface)
 ui:
   save: Save changes
-  cancel: Cancel
+  cancel: Abbrechen
   set-for: Set permissions for {{target}}
   loading: Loading permissions
-  notification:
-    save:
-      success: Permissions saved
-      failed: Failed to save permissions
   edit:
-    title: Edit permissions
-    label: User roles
-    description: Select role to set permissions
-  evaluate:
-    description: Evaluate applied permissions
+    label: Benutzerrollen
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
-    edit:
-      description: Select a role that you wish to edit permissions for
-    evaluate:
-      description: Select a combination of roles or a user to evaluate
+    label: + Hinzufügen
+    save: Speichern und schließen
     role:
       label: Roles
-      placeholder: Select role(s)
     user:
       label: Users
-      placeholder: Search or select a user
-  tooltip:
-    unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
   access:
     allow: Allow
     inherit: Inherit
@@ -42,18 +23,13 @@ ui:
   #############################################################################
   # Inline permission table UI:
   click-on-cell-to-allow: Click on permission/role cell to allow a specific operation
-  edit-or-eval: Edit or evaluate permissions
   title:
     automation: Automation permissions
     system: System permissions
     compose: Compose permissions
     federation: Federation permissions
   clone:
-    clone: Clone
-    label: Clone permissions
-    pick-role: Start typing to search for roles
-    title: Apply permissions to
-    description: This will clone all the permissions of the current role and apply them  to the selected
+    clone: Klonen
 resources:
   automation:
     component:
@@ -77,33 +53,33 @@ resources:
       specific: workflow "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Delete this workflow
           title: Delete any workflow
         execute:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Execute this workflow
           title: Execute any workflow
         read:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Read this workflow
           title: Read any workflow
         sessions.manage:
-          description: 'Default: deny'
-          specific: Manage sessions for this workflow
-          title: Manage all sessions
+          description: 'Standard: Verweigern'
+          specific: Verwalten von Sitzungen für diesen Workflow
+          title: Verwalten aller Sitzungen
         triggers.manage:
-          description: 'Default: deny'
-          specific: Manage triggers for this workflow
-          title: Manage all triggers
+          description: 'Standard: Verweigern'
+          specific: Trigger für diesen Workflow verwalten
+          title: Alle Trigger verwalten
         undelete:
-          description: 'Default: deny'
-          specific: Undelete this workflow
-          title: Undelete any workflow
+          description: 'Standard: Verweigern'
+          specific: Diesen Workflow wiederherstellen
+          title: Jeden Workflow wiederherstellen
         update:
-          description: 'Default: deny'
-          specific: Update this workflow
-          title: Update any workflow
+          description: 'Standard: Verweigern'
+          specific: Diesen Workflow aktualisieren
+          title: Jeden Workflow aktualisieren
   system:
     component:
       label: System component
@@ -138,8 +114,6 @@ resources:
           title: List and search messaging queues
         reminder.assign:
           title: Allow reminder assignment
-        notification.assign:
-          title: Allow notification assignment
         role.create:
           title: Create new role
         roles.search:
@@ -153,42 +127,30 @@ resources:
         templates.search:
           title: List and search templates
         user.create:
-          title: Create new user
+          title: Neuen Nutzer erstellen
         users.search:
           title: List and search users
         resource-translations.manage:
           title: Manage resource translations
-        dal-schema-alterations.manage:
-          title: Manage schema alterations
         report.create:
           title: Create new report
         reports.search:
           title: List and search reports
-        dal-connections.search:
-          title: Search connections
-        dal-connection.create:
-          title: Create connections
-        dal-sensitivity-level.manage:
-          title: Manage connection sensitivity level
-        data-privacy-requests.search:
-          title: Search data privacy requests
-        data-privacy-request.create:
-          title: Create data privacy requests
     application:
       label: Applications
       all: all applications
       specific: application "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Delete {{target}}
           title: Delete any application
         read:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Read {{target}}
           title: Read any application
         update:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Update {{target}}
           title: Update any application
     apigw-route:
@@ -197,15 +159,15 @@ resources:
       specific: route "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Delete {{target}}
-          title: Delete any route
+          title: Jede Route löschen
         read:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Read {{target}}
           title: Read any route
         update:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Update {{target}}
           title: Update any route
     auth-client:
@@ -218,56 +180,44 @@ resources:
           specific: Authorize client "{{target}}
           title: Authorize any client
         delete:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Delete client "{{target}}
           title: Delete any client
         read:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Read client "{{target}}
           title: Read any client
         update:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Update client "{{target}}
           title: Update any client
     dal-connection:
-      label: Connections
-      all: all connections
-      specific: connection "{{target}}"
       operations:
         read:
-          description: 'Default: deny'
-          specific: Read connection "{{target}}
-          title: Read any connection
+          description: 'Standard: Verweigern'
         update:
-          description: 'Default: deny'
-          specific: Update connection "{{target}}
-          title: Update any connection
+          description: 'Standard: Verweigern'
         delete:
-          description: 'Default: deny'
-          specific: Delete connection "{{target}}
-          title: Delete any connection
-        dal-config:
-          manage:
-            title: Manage any connections
+          description: 'Standard: Verweigern'
     role:
       label: Roles
       all: all roles
       specific: role "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Delete {{target}}
           title: Delete any role
         members.manage:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Manage members for {{target}}
           title: Manage members for any role
         read:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Read {{target}}
           title: Read any role
         update:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Update {{target}}
           title: Update any role
     queue:
@@ -276,48 +226,42 @@ resources:
       specific: queue "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Delete {{target}}
-          title: Delete any queue
         members.manage:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Manage members for {{target}}
-          title: Manage members for any queue
         read:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Read {{target}}
-          title: Read any queue
         update:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Update {{target}}
-          title: Update any queue
         queue.read:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Read messages from {{target}}
-          title: Read messages from any queue
         queue.write:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Write messages to {{target}}
-          title: Write messages to any queue
     template:
       label: Templates
       all: all templates
       specific: template "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Delete {{target}}
           title: Delete any template
         read:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Read {{target}}
           title: Read any template
         render:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Render {{target}}
           title: Render any template
         update:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Update {{target}}
           title: Update any template
     report:
@@ -326,75 +270,65 @@ resources:
       specific: report "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete {{target}}
+          description: 'Standard: Verweigern'
+          specific: Bericht "{{target}}" löschen
           title: Delete any report
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
+          description: 'Standard: Verweigern'
+          specific: Bericht "{{target}}" lesen
           title: Read any report
         run:
-          description: 'Default: deny'
-          specific: Run {{target}}
+          description: 'Standard: Verweigern'
+          specific: Bericht "{{target}}" ausführen
           title: Run any report
         update:
-          description: 'Default: deny'
-          specific: Update {{target}}
+          description: 'Standard: Verweigern'
+          specific: Bericht "{{target}}" aktualisieren
           title: Update any report
     user:
       label: Users
       all: all users
       specific: user "{{target}}"
       operations:
-        credentials:
-          manage:
-            specific: Manage {{target}}'s credentials
-            title: Manage any user
         delete:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Delete {{target}}
           title: Delete any user
         email.unmask:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Show email details for {{target}}
           title: Show email details for any user
         name.unmask:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Show name details for {{target}}
           title: Show name details for any user
         impersonate:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Impersonate this user {{target}}
           title: Impersonate any user
         read:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Read {{target}}
           title: Read any user
         suspend:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Suspend {{target}}
           title: Suspend any user
         unsuspend:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Unsuspend {{target}}
           title: Unsuspend any user
         update:
-          description: 'Default: deny'
+          description: 'Standard: Verweigern'
           specific: Update {{target}}
           title: Update any user
     data-privacy-request:
-      label: Privacy Requests
-      all: all requests
-      specific: request "{{target}}"
       operations:
         read:
-          description: 'Default: deny'
-          specific: Read {{target}}
-          title: Read any request
+          description: 'Standard: Verweigern'
+          specific: Bericht "{{target}}" lesen
         approve:
-          description: 'Default: deny'
-          specific: Approve {{target}}
-          title: Approve any request
+          description: 'Standard: Verweigern'
   federation:
     component:
       label: Federation component
@@ -403,8 +337,6 @@ resources:
           title: Grant permissions on federation component
         node.create:
           title: Create nodes
-        nodes.search:
-          title: List or search nodes
         pair:
           title: Pair nodes
         settings.manage:
@@ -419,12 +351,12 @@ resources:
         module.create:
           title: Create modules
     exposed-module:
-      label: Modules
+      label: Module
       operations:
         manage:
           title: Manage any module
     shared-module:
-      label: Modules
+      label: Module
       operations:
         map:
           title: Map any module
@@ -445,7 +377,7 @@ resources:
         resource-translations.manage:
           title: Manage resource translations
     chart:
-      label: Charts
+      label: Graphen
       operations:
         delete:
           title: Delete any chart
@@ -454,27 +386,25 @@ resources:
         update:
           title: Update any chart
     module:
-      label: Modules
+      label: Module
       operations:
         delete:
           title: Delete any module
-        owned-record.create:
-          title: Manage owner when creating records for any module
         read:
           title: Read any module
         record.create:
-          title: Create record under any module
+          title: Create record of any module
         records.search:
-          title: List and search records under any module
+          title: List and search records of any module
         update:
           title: Update any module
     module-field:
       label: Module fields
       operations:
         record.value.read:
-          title: Read any module field
+          title: Read record fields of any module
         record.value.update:
-          title: Update any module field
+          title: Update record fields of any module
     namespace:
       label: Namespaces
       operations:
@@ -482,8 +412,6 @@ resources:
           title: Create charts under any namespace
         charts.search:
           title: List and search charts under any namespace
-        charts.export:
-          title: Export charts under any namespace
         delete:
           title: Delete any namespace
         manage:
@@ -492,18 +420,14 @@ resources:
           title: Create modules under any namespace
         modules.search:
           title: List and search modules under any namespace
-        modules.export:
-          title: Export modules under any namespace
         page.create:
           title: Create pages under any namespace
         pages.search:
           title: List and search pages under any namespace
         read:
-          title: Access any namespace
+          title: Read any namespace
         update:
           title: Update any namespace
-        export:
-          title: Export any namespace
     page:
       label: Pages
       operations:
@@ -513,31 +437,12 @@ resources:
           title: Read any page
         update:
           title: Update any page
-        page-layout.create:
-          title: Create page layouts under any page
-        page-layouts.search:
-          title: List and search page layouts under any page
-    page-layout:
-      label: Page layouts
-      operations:
-        delete:
-          title: Delete any page layout
-        read:
-          title: Read any page layout
-        update:
-          title: Update any page layout
     record:
       label: Records
       operations:
         delete:
-          title: Delete any record
-        undelete:
-          title: Undelete any record
+          title: Delete records of any module
         read:
-          title: Read any record
+          title: Read records of any module
         update:
-          title: Update any record
-        owner.manage:
-          title: Manage ownership of any record
-        revisions.search:
-          title: Access revisions of any record
+          title: Update records of any module
