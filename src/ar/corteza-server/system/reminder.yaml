@@ -1,6 +1,6 @@
 errors:
-  invalidID: invalid ID
-  notAllowedToAssign: not allowed to assign reminders to other users
-  notAllowedToDismiss: not allowed to dismiss reminders of other users
-  notAllowedToRead: not allowed to read reminders of other users
-  notFound: reminder not found
+  invalidID: معرف خاطئ
+  notAllowedToAssign: لا يسمح بتعيين تذكيرات للمستخدمين الآخرين
+  notAllowedToDismiss: لا يسمح بايقاف تذكيرات للمستخدمين الآخرين
+  notAllowedToRead: لا يسمح بالاطلاع على تذكيرات للمستخدمين الآخرين
+  notFound: التذكير غير موجود
