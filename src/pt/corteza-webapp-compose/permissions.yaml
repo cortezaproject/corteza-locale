@@ -1,241 +1,165 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
-  label: Permissions
-  notification:
-    save:
-      success: Permissions saved
-      failed: Failed to save permissions
+  save: Salvar alterações
+  cancel: Cancelar
+  set-for: Definir permissões para {{target}}
+  loading: Carregando permissões
+  label: Permissões
   edit:
-    label: User roles
-    description: Select role to set permissions
-  evaluate:
-    description: Evaluate applied permissions
+    label: Funções do usuário
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: Adicionar
+    save: Salvar fechar
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: Funções
     user:
-      label: Users
-      placeholder: Search or select a user
-  tooltip:
-    unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      label: Comercial
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: Permitir
+    inherit: Herdar
+    deny: Negar
 resources:
   compose:
     namespace:
-      all: all namespaces
+      all: todos os namespaces
       specific: namespace "{{target}}"
-      tooltip: Namespace permissions
       operations:
         read:
-          description: ""
-          specific: Read namespace "{{target}}"
-          title: Read any namespace
+          specific: Leia o namespace "{{target}}"
+          title: Leia qualquer namespace
         update:
-          description: ""
-          specific: Update namespace "{{target}}"
-          title: Update any namespace
+          specific: Atualizar namespace "{{target}}"
+          title: Atualizar qualquer namespace
         delete:
-          description: ""
-          specific: Delete namespace "{{target}}"
-          title: Delete any namespace
+          specific: Excluir namespace "{{target}}"
+          title: Excluir qualquer namespace
         manage:
-          description: Allow access to namespace's admin pages
-          specific: Manage namespace "{{target}}"
-          title: Manage any namespace
-        export:
-          description: ""
-          specific: Export namespace "{{target}}"
-          title: Export any namespace
+          description: Permitir acesso às páginas de administração do namespace
+          specific: Gerenciar namespace "{{target}}"
+          title: Gerencie qualquer namespace
         module.create:
-          description: ""
-          specific: Create modules under namespace "{{target}}"
-          title: Create modules under any namespace
-        modules.export:
-          description: ""
-          specific: Export modules in namespace "{{target}}"
-          title: Export modules in any namespace
+          specific: Crie módulos no namespace "{{target}}"
+          title: Crie módulos em qualquer namespace
         modules.search:
-          description: ""
-          specific: List and search modules under namespace "{{target}}"
-          title: List and search modules under any namespace
+          specific: Listar e pesquisar módulos no namespace "{{target}}"
+          title: Listar e pesquisar módulos em qualquer namespace
         page.create:
-          description: ""
-          specific: Create pages under namespace "{{target}}"
-          title: Create pages under any namespace
+          specific: Crie páginas no namespace "{{target}}"
+          title: Crie páginas em qualquer namespace
         pages.search:
-          description: ""
-          specific: List and search pages under namespace "{{target}}"
-          title: List and search pages under any namespace
-        pages.export:
-          description: ""
-          specific: Export pages in namespace "{{target}}"
-          title: Export pages in any namespace
+          specific: Listar e pesquisar páginas no namespace "{{target}}"
+          title: Listar e pesquisar páginas em qualquer namespace
         chart.create:
-          description: ""
-          specific: Create charts under namespace "{{target}}"
-          title: Create charts under any namespace
+          specific: Crie gráficos no namespace "{{target}}"
+          title: Crie gráficos em qualquer namespace
         charts.search:
-          description: ""
-          specific: List and search charts under namespace "{{target}}"
-          title: List and search charts under any namespace
-        charts.export:
-          description: ""
-          specific: Export charts in namespace "{{target}}"
-          title: Export charts in any namespace
+          specific: Liste e pesquise gráficos no namespace "{{target}}"
+          title: Liste e pesquise gráficos em qualquer namespace
     chart:
-      all: all charts
-      specific: chart "{{target}}"
-      tooltip: Chart permissions
+      all: todos os gráficos
+      specific: gráfico "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete chart "{{target}}"
-          title: Delete any chart
+          description: 'Negação padrão'
+          specific: Excluir gráfico "{{target}}"
+          title: Excluir qualquer gráfico
         read:
-          description: 'Default: deny'
-          specific: Read chart "{{target}}"
-          title: Read any chart
+          description: 'Negação padrão'
+          specific: Leia o gráfico "{{target}}"
+          title: Leia qualquer gráfico
         update:
-          description: 'Default: deny'
-          specific: Update chart "{{target}}"
-          title: Update any chart
+          description: 'Negação padrão'
+          specific: Atualizar gráfico "{{target}}"
+          title: Atualizar qualquer gráfico
     module:
-      all: all modules
-      specific: module "{{target}}"
-      tooltip: Module permissions
+      all: todos os módulos
+      specific: módulo "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete module "{{target}}"
-          title: Delete any module
+          description: 'Negação padrão'
+          specific: Excluir módulo "{{target}}"
+          title: Excluir qualquer módulo
         read:
-          description: 'Default: deny'
-          specific: Read module "{{target}}"
-          title: Read any module
+          description: 'Negação padrão'
+          specific: Leia o módulo "{{target}}"
+          title: Leia qualquer módulo
         record.create:
-          description: 'Default: deny'
-          specific: Create record of module "{{target}}"
-          title: Create record of any module
+          description: 'Negação padrão'
+          specific: Criar registro do módulo "{{target}}"
+          title: Criar registro de qualquer módulo
         records.search:
-          description: 'Default: deny'
-          specific: List and search records of module "{{target}}"
-          title: List and search records of any module
+          description: 'Negação padrão'
+          specific: Listar e pesquisar registros do módulo "{{target}}"
+          title: Liste e pesquise registros de qualquer módulo
         update:
-          description: 'Default: deny'
-          specific: Update module "{{target}}"
-          title: Update any module
+          description: 'Negação padrão'
+          specific: Atualizar módulo "{{target}}"
+          title: Atualize qualquer módulo
         'owned-record.create':
-          description: 'Default: deny'
-          specific: Manage owner when creating record for module "{{target}}"
-          title: Manage owner when creating record for any module
-          all-specific: Manage owner when creating record for module "{{ target }}"
+          description: 'Padrão: negar'
     module-field:
-      all: all module fields
-      specific: field "{{target}}"
-      all-specific: all module fields of module "{{ target }}"
-      tooltip: Module field permissions
+      all: todos os campos do módulo
+      specific: campo "{{target}}"
+      all-specific: todos os campos de módulo do módulo "{{ target }}"
       operations:
         record.value.read:
-          description: 'Default: deny'
-          specific: 'Read "{{target}}" record fields '
-          title: Read record fields of any module
-          all-specific: Read record fields of module "{{ target }}"
+          description: 'Negação padrão'
+          specific: 'Ler campos de registro "{{target}}" '
+          title: Ler campos de registro de qualquer módulo
+          all-specific: Ler campos de registro do módulo "{{ target }}"
         record.value.update:
-          description: 'Default: deny'
-          specific: 'Update "{{target}}" record field values'
-          title: Update record field values of any module
-          all-specific: Update record field values of module "{{ target }}"
+          description: 'Negação padrão'
     page:
-      all: all pages
-      specific: page "{{target}}"
-      tooltip: Page permissions
+      all: todas as páginas
+      specific: página "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete page "{{target}}"
-          title: Delete any page
+          description: 'Negação padrão'
+          specific: Excluir página "{{target}}"
+          title: Excluir qualquer página
         read:
-          description: 'Default: deny'
-          specific: Read page "{{target}}"
-          title: Read any page
+          description: 'Negação padrão'
+          specific: Leia a página "{{target}}"
+          title: Leia qualquer página
         update:
-          description: 'Default: deny'
-          specific: Update page "{{target}}"
-          title: Update any page
+          description: 'Negação padrão'
+          specific: Atualizar página "{{target}}"
+          title: Atualizar qualquer página
         page-layout.create:
-          description: 'Default: deny'
-          specific: Create page layouts for page "{{target}}"
-          title: Create page layout
+          description: 'Padrão: negar'
         page-layouts.search:
-          description: 'Default: deny'
-          specific: List page layouts for page "{{target}}"
-          title: List page layout
+          description: 'Padrão: negar'
     page-layout:
-      all: all page layouts
-      specific: page layout "{{target}}"
-      tooltip: Page layout permissions
-      all-specific: all page layouts of page "{{ target }}"
       operations:
         read:
-          description: 'Default: deny'
-          specific: Read page layout "{{target}}"
-          title: Read any page layout
-          all-specific: Read page layouts of page "{{ target }}"
+          description: 'Padrão: negar'
         update:
-          description: 'Default: deny'
-          specific: Update page layout "{{target}}"
-          title: Update any page layout
-          all-specific: Update page layouts of page "{{ target }}"
+          description: 'Padrão: negar'
         delete:
-          description: 'Default: deny'
-          specific: Delete page layout "{{target}}"
-          title: Delete any page layout
-          all-specific: Delete page layouts of page "{{ target }}"
+          description: 'Padrão: negar'
     record:
-      all: all records
-      specific: record "{{target}}"
-      all-specific: all records of module "{{ target }}"
-      tooltip: Record permissions
+      all: todos os registros
+      specific: registro "{{target}}"
+      all-specific: todos os registros do módulo "{{ target }}"
+      tooltip: Permissões de gravação
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete record "{{target}}"
-          title: Delete records of any module
-          all-specific: Delete records of module "{{ target }}"
+          description: 'Negação padrão'
+          specific: Excluir registro "{{target}}"
+          title: Excluir registros de qualquer módulo
+          all-specific: Excluir registros do módulo "{{ target }}"
         undelete:
-          description: 'Default: deny'
-          specific: Restore record "{{target}}"
-          title: Restore records of any module
-          all-specific: Restore records of module "{{ target }}"
+          description: 'Padrão: negar'
         read:
-          description: 'Default: deny'
-          specific: Read record "{{target}}"
-          title: Read records of any module
-          all-specific: Read records of module "{{ target }}"
+          description: 'Negação padrão'
+          specific: Ler registro "{{target}}"
+          title: Ler registros de qualquer módulo
+          all-specific: Ler registros do módulo "{{ target }}"
         update:
-          description: 'Default: deny'
-          specific: Update record "{{target}}"
-          title: Update records of any module
-          all-specific: Update records of module "{{ target }}"
+          description: 'Negação padrão'
+          specific: Atualizar registro "{{target}}"
+          title: Atualizar registros de qualquer módulo
+          all-specific: Atualizar registros do módulo "{{ target }}"
         'owner.manage':
-          description: 'Default: deny'
-          specific: Manage owner of record "{{target}}"
-          title: Manage record owners of any module
-          all-specific: Manage record owners of module "{{ target }}"
+          description: 'Padrão: negar'
         'revisions.search':
-          description: 'Default: deny'
-          specific: Access revisions of record "{{target}}"
-          title: Access record revisions
-          all-specific: Access record revisions
+          description: 'Padrão: negar'
