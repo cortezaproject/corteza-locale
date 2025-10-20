@@ -1,28 +1,15 @@
 translator:
-  save-changes: Save
-  add-language: Add language
-  missing-translation: Missing translation
+  save-changes: Сохранить
+  add-language: Добавить язык
+  missing-translation: Перевод отсутствует
 resources:
-  chart:
-    title: Chart "{{ handle }}"
-    tooltip: Chart translations
   namespace:
-    title: Namespace "{{ handle }}"
-    tooltip: Namespace translations
+    title: Пространство имен "{{ handle }}"
   module:
-    title: Module "{{ handle }}"
-    tooltip: Module translations
+    title: Модуль "{{ handle }}"
     field:
-      title: Module field "{{ name }}"
-      tooltip: Field translations
+      title: Поле модуля "{{ name }}"
   page:
-    title: Page "{{ handle }}"
-    tooltip: Page translations
+    title: Страница "{{ handle }}"
     block:
-      title: "Page block #{{ blockID }}"
-      tooltip: Block translations
-    layout:
-      title: Page layout "{{ handle }}"
-  page-layout:
-    title: Page layout "{{ handle }}"
-    tooltip: Page layout translations
+      title: "Страница блока #{{ blockID }}"
