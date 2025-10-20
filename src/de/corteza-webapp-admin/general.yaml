@@ -1,68 +1,42 @@
 label:
-  add: Add
+  add: + Hinzufügen
   general:
     yes: Yes
     no: No
   template:
-    single: Template
     plural: Templates
   user:
     single: User
     plural: Users
   role:
-    single: Role
     plural: Roles
   application:
-    single: Application
     plural: Applications
   auth_client:
-    single: Auth Client
     plural: Auth Clients
   queue:
-    single: Messaging Queue
-    plural: Messaging Queues
+    plural: Message Queues
   route:
-    single: Route
-    plural: Routes
-  connection:
-    single: Database Connection
-    plural: Database Connections
-  sensitivity_level:
-    single: Sensitivity Level
-    plural: Sensitivity Levels
+    plural: API Gateway
   session:
-    single: Session
-    plural: Sessions
+    single: Sitzung
+    plural: Sitzungen
   workflow:
     single: Workflow
     plural: Workflows
-  plus-add: + Add
-  clear: Clear
-  all: All
-  none: None
-  now: Now
-  today: Today
-  routes: Routes
-  requests: Requests
-  refresh: Refresh
-  loadMore: Load more
-  loading: Loading
-  saveAndClose: Save and close
-  cancel: Cancel
-  submit: Submit
-  delete: Delete
-  undelete: Undelete
-  fileTypeNotAllowed: File type not allowed
-editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
-resourceList:
-  pagination:
-    recordsPerPage: Per page
+  plus-add: + Hinzufügen
+  all: Alle
+  none: Kein
+  today: Heute
+  routes: API Gateway
+  loading: Lade
+  saveAndClose: Speichern und schließen
+  cancel: Abbrechen
+  submit: Absenden
+  delete: Löschen
+  undelete: Wiederherstellen
+  fileTypeNotAllowed: Dateityp nicht erlaubt
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: Hell
+    dark: Dunkel
