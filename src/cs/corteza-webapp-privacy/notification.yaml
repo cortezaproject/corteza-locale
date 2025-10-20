@@ -1,11 +1,11 @@
 general:
-  error: Error
-  success: Success
-  warning: Warning
+  error: Chyba
+  success: Úspěch
+  warning: Varování
 search:
-  failed: Search failed
+  failed: Vyhledávání selhalo
 list:
   load:
-    error: Failed to load resource list
-connection-load-failed: Failed to load connections
-sensitive-data-fetch-failed: Failed to fetch sensitive data
+    error: Nepovedlo se načíst seznam zdrojů
+connection-load-failed: Nepovedlo se načíst spojení
+sensitive-data-fetch-failed: Nepovedlo se stáhnout citlivé údaje
