@@ -1,17 +1,17 @@
 errors:
-  badSinkParamEncoding: bad encoding of sink parameters
-  contentLengthExceedsMaxAllowedSize: content length exceeds max size limit
-  failedToCreateEvent: failed to create sink event from request
-  failedToProcess: failed to process request
-  failedToRespond: failed to respond to request
-  failedToSign: 'could not sign request params: {err}'
-  invalidContentType: invalid content-type header
-  invalidHttpMethod: invalid HTTP method
-  invalidPath: invalid path
-  invalidSignature: invalid signature
-  invalidSignatureParam: invalid sink signature parameter
-  invalidSinkRequestUrlParams: invalid sink request url params
-  misplacedSignature: signature misplaced
-  missingSignature: missing sink signature parameter
-  processingError: sink request process error
-  signatureExpired: signature expired
+  badSinkParamEncoding: fehlerhafte Kodierung der Sink Parameter
+  contentLengthExceedsMaxAllowedSize: Inhaltslänge überschreitet maximal zulässige Größe
+  failedToCreateEvent: Sink-Ereignis konnte nicht aus Anfrage erstellt werden
+  failedToProcess: Fehler bei der Verarbeitung der Anforderung
+  failedToRespond: Anforderung ist fehlgeschlagen
+  failedToSign: 'Anforderungsparameter konnten nicht signiert werden: {err}'
+  invalidContentType: ungültiger Content-Type-Header
+  invalidHttpMethod: ungültige HTTP-Methode
+  invalidPath: ungültiger Pfad
+  invalidSignature: ungültige Signatur
+  invalidSignatureParam: ungültige Senkensignatur-Parameter
+  invalidSinkRequestUrlParams: Ungültige Sink-Anfrage URL Parameter
+  misplacedSignature: Signatur falsch eingefügt
+  missingSignature: fehlender Senkensignatur-Parameter
+  processingError: Prozessfehler bei Sinkanforderung
+  signatureExpired: Signatur ist abgelaufen
