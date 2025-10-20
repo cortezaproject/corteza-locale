@@ -1,16 +1,16 @@
 errors:
-  disabled: disabled workflow or trigger
-  handleNotUnique: workflow handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create workflows
-  notAllowedToDelete: not allowed to delete this workflow
-  notAllowedToExecute: not allowed to execute this workflow
-  notAllowedToExecuteCorredorStep: not allowed to run corredorExec function, corredor is disabled
-  notAllowedToRead: not allowed to read this workflow
-  notAllowedToSearch: not allowed to search or list workflows
-  notAllowedToUndelete: not allowed to undelete this workflow
-  notAllowedToUpdate: not allowed to update this workflow
-  notFound: workflow not found
-  staleData: stale data
-  unknownWorkflowStep: unknown workflow step
+  disabled: deshabilitado el workflow o trigger
+  handleNotUnique: el identificador del workflow no es único
+  invalidHandle: identificador inválido
+  invalidID: ID inválido
+  notAllowedToCreate: no tiene permitido crear workflows
+  notAllowedToDelete: no tiene permitido eliminar este workflow
+  notAllowedToExecute: no tiene permitido ejecutar este workflow
+  notAllowedToExecuteCorredorStep: no tiene permitido ejecutar la función corredorExec, corredor está deshabilitado
+  notAllowedToRead: no tiene permitido leer este workflow
+  notAllowedToSearch: no tiene permitido buscar o listar workflows
+  notAllowedToUndelete: no tiene permitido deshacer la eliminación de este workflow
+  notAllowedToUpdate: no tiene permitido actualizar este workflow
+  notFound: workflow no encontrado
+  staleData: datos obsoletos
+  unknownWorkflowStep: paso del workflow desconocido
