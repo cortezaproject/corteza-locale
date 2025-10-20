@@ -1,23 +1,23 @@
-add: Add
-aggregate: Aggregate
-compose-records: Compose records
-datasource-name: 'Datasource Name...'
-expression: Expression
-group-by: Group by
-label: Label
-module: Module
-name-required: Name *
-name: Name
-namespace: Namespace
+add: أضف
+aggregate: تجميع
+compose-records: انشاء سجل
+datasource-name: 'اسم مصدر البيانات...'
+expression: وصف
+group-by: تجميع بـ
+label: وصف
+module: موديول
+name-required: اسم *
+name: اسم
+namespace: Namespaces
 new:
-  label: New label
-  name: New name
-none: None
-prefilter: Prefilter
+  label: وصف جديد
+  name: اسم جديد
+none: لايوجد
+prefilter: التصفية المسبقة
 primary:
-  column: Primary Column
-  source: Primary Source
+  column: العمود الأساسي
+  source: المصدر الأساسي
 secondary:
-  column: Secondary Column
-  source: Secondary Source
-source: Source
+  column: العمود الثانوي
+  source: المصدر الثانوي
+source: المصدر
