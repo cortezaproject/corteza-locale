@@ -1,118 +1,58 @@
 automation:
-  add: Add script
   edit:
-    asyncHelp: Do not wait for results and ignore errors. Incompatible with critical flag.
-    asyncLabel: Run this script asynchronously
+    asyncLabel: Exécuter ce script de manière asynchrone
     codeTabLabel: Code
-    criticalHelp: Wait until this script is executed. In case of errors, abort execution of other scripts and before* trigger
-    criticalLabel: Critical script
-    delete: Delete script
-    enabledHelp: Disabled scripts will be ignored
-    enabledLabel: Enabled
+    enabledLabel: Activé
     mailAutomationTriggers:
-      addMatcher: Add condition
-      addTrigger: Add trigger
-      delete: Delete trigger
-      deleteTrigger: Delete
-      enable: Enable trigger
-      matchAll: Must match all conditions
+      deleteTrigger: Supprimer
       matcher:
         fields:
-          bcc: BCC
-          cc: CC
-          from: From
-          placeholder: Mail header field
-          replyTo: Reply To
-          subject: Subject
-          to: To
-        match: Value to match
+          from: Depuis
+          subject: Sujet
+          to: A
         operators:
-          equal-ci: Match full
-          placeholder: Operator
-          prefix-ci: Match prefix
-          regex: Regex
-          suffix-ci: Match suffix
-          user: Existing user
-      tabLabel: Mail triggers
-    nameLabel: Name
-    namePlaceholder: Automation script name
-    runAsCurrentUser: Run as "{{ user }}"
-    runAsHelp: Script runner
-    scheduledTriggers:
-      tabLabel: Scheduled
-    securityLabel: Security
-    settingsTabLabel: Settings
-    timeoutHelp: How much time do we wait before aborting the script? Value in milliseconds (1000ms = 1s). It defaults (when 0) to 2s with 30s as maximum. Consult with your administrator for exact numbers and limitations.
-    timeoutLabel: Script execution timeout
-    timeoutPlaceholder: "1500"
-    title: Automation script
-    userPickerPlaceholder: Select user
-  import: Import automation script(s)
+          equal-ci: Correspondance complète
+    nameLabel: Nom
+    runAsCurrentUser: Exécuter en tant que "{{ user }}"
+    runAsHelp: Exécuteur du script
+    securityLabel: Sécurité
   list:
     column:
       label:
-        async: Async
-        critical: Critical
-        enabled: Enabled
-        runAs: Run As
-        runInUA: In browser
-    unnamed: (Unnamed script)
-  manage: Manage automation scripts ({{count}})
-  manage-id-permissions: Manage permissions for this script
-  manage-wc-permissions: Manage permissions for all scripts
-  newLabel: Create a new script
-  newPlaceholder: Script name
-  testing:
-    load: Load
-    parametersHeadline: 'Parameters & payload:'
-    resultsHeadline: 'Results:'
-    testInBrowser: Test in Browser
-    testInCorredor: Test in Corredor
-    warning: ""
-  title: List of automation script
+        async: Asynchrone
+        enabled: Activé
+        runAs: Exécuter en tant que
 general:
-  resource-list:
-    no-items: No matches for your search
-  notFound: 'Not found'
-  loading: Loading
+  notFound: 'Introuvable'
+  loading: Chargement
   label:
-    "no": "No"
-    submit: Submit
-    "yes": "Yes"
-    selectOption: "Please select an option"
-  logout: Logout
-  noAccess: You do not have permissions to access Admin panel
+    submit: Envoyer
+  logout: Se déconnecter
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
+    next: Suivant
+    prev: Précédent
+    showing: '{{from}} - {{to}} sur {{count}} {{data}}'
+    single_one: '1 {{data}}'
     single_other: '{{count}} {{data}}'
 navigation:
   appMenu: Menu
-  adminPanel: Admin panel
-  automation: Automation
-  chart: Charts
+  adminPanel: Panneau d'administration
+  automation: Automatisme
+  chart: Graphiques
   configuration: Configuration
   help:
     documentation: Documentation
-    feedback: Send feedback
-    forum: Help
-    version: 'Version:'
+    feedback: Envoyer un retour
+    forum: Aide
+    version: 'Version :'
   module: Modules
-  more: More
+  more: Plus
   namespace: Namespaces
-  noPageTitle: No page title
+  noPageTitle: Pas de titre de page
   page: Pages
-  publicPages: Public pages
+  publicPages: Pages publiques
   userSettings:
-    changePassword: Change password
-    loggedInAs: Logged in as {{user}}
-    logout: Logout
-    profile: Profile
-    theme: Theme
-picker:
-  role:
-    placeholder: Start typing to search for roles
-  member:
-    placeholder: Start typing to search for users
+    changePassword: Changer mot de passe
+    loggedInAs: Connecté en tant que {{user}}
+    logout: Se déconnecter
+    profile: Profil
