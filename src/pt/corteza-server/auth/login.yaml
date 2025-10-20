@@ -1,21 +1,19 @@
 template:
-  title: Log in to continue
   form:
     email:
-      label: Email
-      placeholder: email@domain.tld
+      label: E-mail
     password:
-      label: Password
-      placeholder: password
+      label: Senha
+      placeholder: senha
     button:
-      login-and-remember: Log in and remember me
-      login: Log in
-      continue: Continue
+      login-and-remember: Entrar e lembrar-se de mim
+      login: Entrar
+      continue: Continuar
   links:
-    request-password-reset: Forgot your password?
-    signup: Create a new account
+    request-password-reset: Esqueceu sua senha?
+    signup: Criar uma conta
     external:
-      login-with: Login with {{idp}}
+      login-with: Entrar com {{idp}}
 alerts:
-  logged-in: You are now logged-in
-  local-disabled: Local accounts disabled
+  logged-in: Você está logado
+  local-disabled: Contas locais desabilitadas
