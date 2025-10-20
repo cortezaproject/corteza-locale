@@ -1,6 +1,6 @@
 list:
   columns:
-    events: Triggered on events
-    label: Label
-    name: Name
-  title: Compose Automation
+    events: يشغل من احداث
+    label: وصف
+    name: اسم
+  title: Compose اتمتتة
