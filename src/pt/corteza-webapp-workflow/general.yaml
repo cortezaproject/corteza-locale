@@ -1,66 +1,48 @@
-clear: Clear
-description: Description
-enabled: Enabled
-enable: Enable
-disable: Disable
-error: Error
-error-expression: Error message (expression)
-export: Export
-general: General
-handle: Handle
+description: Descrição
+enabled: Habilitado
+enable: Habilitar
+disable: Desabilitar
+error: Erro
+export: Exportar
+general: Em geral
+handle: Identificador
 import:
-  json: Import JSON
-  label: Import
-  reassign-run-as: "NOTE: the Run as workflow property won't be imported and should be reassigned"
-  upload-files: Browse or drop files to upload...
+  json: Importar JSON
+  label: Importar
+  reassign-run-as: "OBSERVE que a propriedade Executar como fluxo de trabalho não será importada e deverá ser reatribuída"
+  upload-files: Procure ou solte arquivos para fazer upload...
 label:
-  all: All
-  label: Label
-loading: Loading
-name: Name
-new-workflow: New Workflow
-none: None
-now: Now
-offset: Offset
-offset-expression: Offset (expression)
-permissions: Permissions
-searchPlaceholder: Search workflows
-subworkflow: Subworkflow
-subworkflows: Subworkflows
-deleted: Deleted
-disabled: Disabled
-without: Without
-only: Only
-including: Including
-workflow-list: List of Workflows
+  all: Todo
+  label: Rótulo
+loading: Carregando
+name: Nome
+new-workflow: Novo fluxo de trabalho
+none: Nenhum
+offset: Desvio
+permissions: Permissões
+searchPlaceholder: Fluxos de trabalho de pesquisa
+deleted: Excluído
+disabled: Desabilitado
+without: Sem
+only: Apenas
+including: Incluindo
+workflow-list: Lista de fluxos de trabalho
 workflow:
-  single: Workflow
-  plural: Workflows
-save: Save
-today: Today
-cancel: Cancel
+  single: Fluxo de trabalho
+  plural: Fluxos de trabalho
+save: Salvar
+today: Hoje
+cancel: Cancelar
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: Não encontrado
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
-tooltip:
-  permissions: Workflow permissions
+    next: Próximo
+    prev: Anterior
 columns:
-  name: Name
-  enabled: Enabled
-  steps: Steps
-  changedAt: Last change
+  name: Nome
+  enabled: Habilitado
+  steps: Degraus
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: Luz
+    dark: Escuro
