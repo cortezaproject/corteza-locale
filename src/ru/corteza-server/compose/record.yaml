@@ -1,25 +1,24 @@
 errors:
-  fieldNotFound: no such field {field}
-  importSessionAlreadActive: import session already active
-  invalidID: invalid ID
-  invalidModuleID: invalid or missing module ID
-  invalidNamespaceID: invalid or missing namespace ID
-  invalidReferenceFormat: invalid reference format
-  invalidValueStructure: more than one value for a single-value field {field}
-  moduleNotFoundModule: module not found
-  namespaceNotFound: namespace not found
-  notAllowedToChangeFieldValue: not allowed to change value of field {field}
-  notAllowedToCreate: not allowed to create records
-  notAllowedToDelete: not allowed to delete this record
-  notAllowedToListRecords: not allowed to list records
-  notAllowedToRead: not allowed to read this record
-  notAllowedToReadModule: not allowed to read module
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list records
-  notAllowedToUndelete: not allowed to undelete this record
-  notAllowedToUpdate: not allowed to update this record
-  notFound: record not found
-  staleData: stale data
-  unknownBulkOperation: unknown bulk operation {bulkOperation}
-  valueInput: invalid record value input
-  maxRecordsReached: maximum number of records per namespace reached
+  fieldNotFound: поле не найдено {field}
+  importSessionAlreadActive: импорт уже активен
+  invalidID: неверный ID
+  invalidModuleID: неверный или отсутствующий модуль ID
+  invalidNamespaceID: неверное или отсутствующее пространство имен ID
+  invalidReferenceFormat: неверный формат ссылки
+  invalidValueStructure: более одного значения для поля с одним значением {field}
+  moduleNotFoundModule: модуль не найден
+  namespaceNotFound: пространство имен не найдено
+  notAllowedToChangeFieldValue: не разрешено изменять значение поля {field}
+  notAllowedToCreate: не разрешено создавать запись
+  notAllowedToDelete: не разрешено удалять эту запись
+  notAllowedToListRecords: не разрешено перечислять запись
+  notAllowedToRead: не разрешено читать эту запись
+  notAllowedToReadModule: не разрешено читать модуль
+  notAllowedToReadNamespace: не разрешено читать это пространство имен
+  notAllowedToSearch: не разрешено искать или перечислять записи
+  notAllowedToUndelete: не разрешено восстанавливать эту запись
+  notAllowedToUpdate: не разрешено обновлять эту запись
+  notFound: запись не найдена
+  staleData: устаревшие данные
+  unknownBulkOperation: неизвестная массовая операция {bulkOperation}
+  valueInput: Неверное значение записи
