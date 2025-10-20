@@ -1,16 +1,16 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  invalidNamespaceID: invalid or missing namespace ID
-  moduleNotFound: module does not exist
-  namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create charts
-  notAllowedToDelete: not allowed to delete this chart
-  notAllowedToRead: not allowed to read this chart
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list charts
-  notAllowedToUndelete: not allowed to undelete this chart
-  notAllowedToUpdate: not allowed to update this chart
-  notFound: chart does not exist
-  staleData: stale data
+  handleNotUnique: Handle nicht eindeutig
+  invalidHandle: ungültiger Handle
+  invalidID: ungültige ID
+  invalidNamespaceID: ungültige oder fehlende Namespace-ID
+  moduleNotFound: Modul nicht vorhanden
+  namespaceNotFound: Namespace nicht vorhanden
+  notAllowedToCreate: Erstellen von Charts ist nicht zulässig
+  notAllowedToDelete: dieser Chart kann nicht gelöscht werden
+  notAllowedToRead: dieser Chart kann nicht gelesen werden
+  notAllowedToReadNamespace: dieser Namespace kann nicht gelesen werden
+  notAllowedToSearch: Charts können nicht gesucht oder aufgelistet werden
+  notAllowedToUndelete: dieser Chart kann nicht wiederhergestellt werden
+  notAllowedToUpdate: dieser Chart kann nicht aktualisiert werden
+  notFound: Chart nicht vorhanden
+  staleData: alte Daten
