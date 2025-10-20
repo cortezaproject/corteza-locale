@@ -1,68 +1,68 @@
 label:
-  add: Add
+  add: + Ajouter
   general:
     yes: Yes
     no: No
   template:
-    single: Template
-    plural: Templates
+    single: Modèle
+    plural: Modèles
   user:
-    single: User
-    plural: Users
+    single: Utilisateur
+    plural: Utilisateurs
   role:
-    single: Role
-    plural: Roles
+    single: Rôle
+    plural: Rôles
   application:
     single: Application
     plural: Applications
   auth_client:
-    single: Auth Client
-    plural: Auth Clients
+    single: Client d'authentification
+    plural: Clients d'authentification
   queue:
-    single: Messaging Queue
-    plural: Messaging Queues
+    single: File de messages
+    plural: Files de messages
   route:
     single: Route
     plural: Routes
   connection:
-    single: Database Connection
-    plural: Database Connections
+    single: Connexion à la base de données
+    plural: Connexions aux bases de données
   sensitivity_level:
-    single: Sensitivity Level
-    plural: Sensitivity Levels
+    single: Niveau de sensibilité
+    plural: Niveaux de sensibilité
   session:
     single: Session
     plural: Sessions
   workflow:
-    single: Workflow
-    plural: Workflows
-  plus-add: + Add
-  clear: Clear
-  all: All
-  none: None
-  now: Now
-  today: Today
+    single: Processus
+    plural: Processus
+  plus-add: + Ajouter
+  clear: Vider
+  all: Tous
+  none: Aucun
+  now: Maintenant
+  today: Aujourd'hui
   routes: Routes
-  requests: Requests
-  refresh: Refresh
-  loadMore: Load more
-  loading: Loading
-  saveAndClose: Save and close
-  cancel: Cancel
-  submit: Submit
-  delete: Delete
-  undelete: Undelete
-  fileTypeNotAllowed: File type not allowed
+  requests: Requêtes
+  refresh: Rafraichir
+  loadMore: Charger plus
+  loading: Chargement
+  saveAndClose: Enregistrer et fermer
+  cancel: Annuler
+  submit: Envoyer
+  delete: Supprimer
+  undelete: Annuler suppression
+  fileTypeNotAllowed: Type de fichier non autorisé
 editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
+  unsavedChanges: Les changements non enregistrés seront perdus. Voulez-vous vraiment quitter la page ?
 resourceList:
   pagination:
-    recordsPerPage: Per page
+    recordsPerPage: Par Page
 themes:
   labels:
-    light: Light
-    dark: Dark
+    light: Clair
+    dark: Sombre
 extendSession:
   labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    extend: Étendre la session
+    warning: Vous serez déconnecté(e) dans {{ countdownTime }} secondes
