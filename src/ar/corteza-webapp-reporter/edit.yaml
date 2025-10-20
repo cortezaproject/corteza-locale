@@ -1,17 +1,13 @@
-description: Description
-handle-with-star: Handle
-invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-name: Name
-name-with-star: 'Name*'
-new-report: New Report
-permissions: Permissions
-unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
+description: وصف
+handle-with-star: المعرف
+name: اسم
+name-with-star: 'اسم*'
+new-report: تقرير جديد
+permissions: الصلاحيات
 report:
-  create: Create Report
-  builder: Report Builder
-  description: Report description...
-  edit: Edit Report
-placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-title: Edit report
-tooltip:
-  view-report: View report
+  create: إنشاء تقرير
+  builder: محرك التقارير
+  description: وصف التقرير...
+  edit: تحرير التقرير
+placeholder-handle: المعرف (a - z, 0 - 9, _, -)
+title: تحرير التقرير
