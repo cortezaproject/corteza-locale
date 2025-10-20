@@ -1,17 +1,6 @@
 errors:
-  badSinkParamEncoding: bad encoding of sink parameters
-  contentLengthExceedsMaxAllowedSize: content length exceeds max size limit
-  failedToCreateEvent: failed to create sink event from request
-  failedToProcess: failed to process request
-  failedToRespond: failed to respond to request
-  failedToSign: 'could not sign request params: {err}'
-  invalidContentType: invalid content-type header
-  invalidHttpMethod: invalid HTTP method
-  invalidPath: invalid path
-  invalidSignature: invalid signature
-  invalidSignatureParam: invalid sink signature parameter
-  invalidSinkRequestUrlParams: invalid sink request url params
-  misplacedSignature: signature misplaced
-  missingSignature: missing sink signature parameter
-  processingError: sink request process error
-  signatureExpired: signature expired
+  badSinkParamEncoding: mauvais encodage des paramètres du récepteur
+  failedToCreateEvent: échec de la création d'un événement récepteur à partir de la requête
+  invalidSinkRequestUrlParams: paramètres d'URL de demande de récepteur non valides
+  missingSignature: paramètre de signature de récepteur manquant
+  processingError: erreur de processus durant la requête du récepteur
