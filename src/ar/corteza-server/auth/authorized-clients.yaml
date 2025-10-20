@@ -1,9 +1,9 @@
 template:
-  title: Authorized clients
+  title: مستخدم مصرح
   list:
-    authorized-on: Authorized on
+    authorized-on: مصرح منذ
     buttons:
-      revoke: Revoke access
-    empty: No authorized clients found
+      revoke: إلغاء صلاحية الدخول
+    empty: لا يوجد مستخدم مصرح
 alerts:
-  removed: Client authorization removed
+  removed: تمت إلغاء تصريح المستخدم
