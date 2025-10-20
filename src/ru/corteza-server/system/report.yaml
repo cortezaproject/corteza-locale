@@ -1,12 +1,12 @@
 errors:
-  invalidConfiguration: Invalid report configuration
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create reports
-  notAllowedToDelete: not allowed to delete this report
-  notAllowedToListReports: not allowed to list reports
-  notAllowedToRead: not allowed to read this report
-  notAllowedToRun: not allowed to run this report
-  notAllowedToSearch: not allowed to list or search reports
-  notAllowedToUndelete: not allowed to undelete this report
-  notAllowedToUpdate: not allowed to update this report
-  notFound: report not found
+  invalidConfiguration: Неверная конфигурация отчета
+  invalidID: неверный ID
+  notAllowedToCreate: не разрешено создавать отчеты
+  notAllowedToDelete: не разрешено удалять  отчет
+  notAllowedToListReports: не разрешено перечислять  отчет
+  notAllowedToRead: не разрешено читать  отчет
+  notAllowedToRun: не разрешено запускать отчет
+  notAllowedToSearch: не разрешено перечислять и искать отчет
+  notAllowedToUndelete: не разрешено восстанавливать  отчет
+  notAllowedToUpdate: не разрешено обновлять  отчет
+  notFound: ' отчет не найден'
