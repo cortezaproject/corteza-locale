@@ -1,19 +1,9 @@
-federated: Federated
-no-values: No values
+federated: Federation
 label:
-  all: All
-resourceList:
-  pagination:
-    recordsPerPage: Per Page
+  all: الكل
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
-recordID: Record ID
-createdBy: Created By
-createdAt: Created At
-updatedAt: Updated At
+    light: فاتح
+    dark: غامق
+recordID: معرف التسجيل
+createdAt: تم انشائه في
