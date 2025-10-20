@@ -1,50 +1,45 @@
 editor:
   info:
-    consumer: Consumer
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    dispatch_events: Dispatch events
-    dispatch_events_desc: Dispatch events notifies the eventbus of queue message changes (new, processed, ...)
-    name: Queue name *
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    poll_delay: Polling changes delay
-    poll_delay_empty: 'Poll delay will not be used; to enable, use duration format (ie: 1h / 1m15s / 1h90s)'
-    poll_delay_set: Poll delay will be used; if empty, it will not be used.
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Queue
+    consumer: Consumidor
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    dispatch_events: Eventos de despacho
+    dispatch_events_desc: Os eventos de despacho notificam o eventbus sobre as alterações nas mensagens da fila (novas, processadas, ...)
+    name: Nome da fila *
+    poll_delay: Atraso nas alterações de sondagem
+    poll_delay_empty: 'O atraso da votação não será usado; para ativar, use o formato de duração (ou seja, 1h / 1m15s / 1h90s)'
+    poll_delay_set: O atraso da votação será usado; se estiver vazio, não será usado.
+    title: Informação básica
+    undelete: Recuperar
+    updatedAt: Atualizado em
   title:
-    edit: Edit queue
-    new: Add a queue
+    edit: Editar fila
+    new: Adicionar uma fila
 list:
   columns:
-    actions: ''
-    consumer: Consumer
-    createdAt: Created At
-    createdBy: Created by
-    state: State
-    queue: Queue
-  export: Export
-  delete: Delete
-  undelete: Undelete
+    consumer: Consumidor
+    createdAt: Criado em
+    createdBy: Criado por
+    queue: Fila
+  export: Exportar
+  delete: Excluir
+  undelete: Recuperar
   rows:
     filters:
-      deleted: Deleted
+      deleted: Excluído
   filterForm:
     deleted:
-      label: deleted queues
+      label: filas excluídas
     excluded:
-      label: Without
+      label: Sem
     exclusive:
-      label: Only
+      label: Apenas
     handle:
-      label: Filter queues list
-      placeholder: Filter queues by name
+      label: Filtrar lista de filas
+      placeholder: Filtrar filas por nome
     inclusive:
-      label: Including
-  loading: Loading messaging queues
-  new: New Queue
-  title: Messaging queues
+      label: Incluindo
+  loading: Carregando filas de mensagens
+  title: Filas de mensagens
