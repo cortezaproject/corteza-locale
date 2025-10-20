@@ -1,19 +1,12 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  invalidNamespaceID: invalid or missing namespace ID
-  nameNotUnique: name not unique
-  fieldNameReserved: field name reserved
-  namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create modules
-  notAllowedToDelete: not allowed to delete this module
-  notAllowedToListModules: not allowed to list modules
-  notAllowedToRead: not allowed to read this module
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list modules
-  notAllowedToUndelete: not allowed to undelete this module
-  notAllowedToUpdate: not allowed to update this module
-  notFound: module does not exist
-  staleData: stale data
-  dedupConfigurationInvalidMissingConstraint: missing constraints on deduplication configuration
+  handleNotUnique: el identificador no es único
+  invalidHandle: identificador inválido
+  invalidID: ID inválido
+  invalidNamespaceID: ID de namespace ausente o inválido
+  namespaceNotFound: el namespace no existe
+  notAllowedToRead: no tiene permitido leer este módulo
+  notAllowedToReadNamespace: no tiene permitido leer este namespace
+  notAllowedToSearch: no tiene permitido buscar o listar módulos
+  notAllowedToUpdate: no tiene permitido actualizar este módulo
+  notFound: el módulo no existe
+  staleData: datos obsoletos
