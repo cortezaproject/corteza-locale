@@ -1,50 +1,45 @@
 editor:
   info:
     consumer: Consumer
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    dispatch_events: Dispatch events
-    dispatch_events_desc: Dispatch events notifies the eventbus of queue message changes (new, processed, ...)
-    name: Queue name *
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    poll_delay: Polling changes delay
-    poll_delay_empty: 'Poll delay will not be used; to enable, use duration format (ie: 1h / 1m15s / 1h90s)'
-    poll_delay_set: Poll delay will be used; if empty, it will not be used.
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Queue
+    createdAt: تم انشائه في
+    createdBy: انشأ من قبل
+    delete: حذف
+    deletedAt: محذوف في
+    dispatch_events: أحداث الإرسال
+    dispatch_events_desc: تقوم أحداث الإرسال بإعلام ناقل الحدث بتغييرات رسالة قائمة الانتظار (جديد ، معالج ، ...)
+    name: اسم قائمة الانتظار *
+    poll_delay: تأخر تغييرات الاستطلاع
+    poll_delay_empty: 'لن يتم استخدام تأخير الاستطلاع ؛ للتمكين ، استخدم تنسيق المدة (مثل: 1h / 1m15s / 1h90s)'
+    poll_delay_set: سيتم استخدام تأخير الاستطلاع ؛ إذا كانت فارغة ، فلن يتم استخدامها.
+    title: معلومات مبدئية
+    undelete: استعادة
+    updatedAt: تم تحديثه في
   title:
-    edit: Edit queue
-    new: Add a queue
+    edit: تحرير قائمة الانتظار
+    new: أضف قائمة انتظار
 list:
   columns:
-    actions: ''
     consumer: Consumer
-    createdAt: Created At
-    createdBy: Created by
-    state: State
-    queue: Queue
-  export: Export
-  delete: Delete
-  undelete: Undelete
+    createdAt: تم انشائه في
+    createdBy: انشأ من قبل
+    queue: قوائم الانتظار
+  export: تصدير
+  delete: حذف
+  undelete: استعادة
   rows:
     filters:
-      deleted: Deleted
+      deleted: محذوف
   filterForm:
     deleted:
-      label: deleted queues
+      label: قوائم الانتظار المحذوفة
     excluded:
-      label: Without
+      label: بدون
     exclusive:
-      label: Only
+      label: فقط
     handle:
-      label: Filter queues list
-      placeholder: Filter queues by name
+      label: تصفية قائمة الانتظار
+      placeholder: تصفية قوائم الانتظار بالاسم
     inclusive:
-      label: Including
-  loading: Loading messaging queues
-  new: New Queue
-  title: Messaging queues
+      label: يشمل
+  loading: تحميل قوائم انتظار الرسائل
+  title: قوائم الارسال
