@@ -1,140 +1,74 @@
 chart:
   configurator:
-    begin-axis-at-zero: Always begin axis scale at zero
-    chart-title: Chart title
-    color-scheme: Color scheme
-    data: Data
-    data-columns: Data columns
-    default: Default
-    default-value: Default value
-    general: General
-    label-column: Label column
-    logarithmic-scale: Logarithmic scale
-    position-description: Values can be set as pixels (20) or as percentages (20%)
-    none: None
-    place-axis-on-right-side: Place axis on the right side
-    skip-missing-values: Skip missing values
-    step-size: Step size
-    animation:
-      enabled: Animation enabled
+    default-value: Standard Wert
+    general: Allgemeines
+    none: Kein
     metrics:
-      label: Metrics
-      field: Field
-      stack:
-        label: Stack
-        description: Metrics with same value will be stacked
+      label: Metrics (numeric fields)
+      field: Feld
       label-field:
         label: Label
     time:
-      label: Time
       unit:
-        label: Time unit
         types:
-          date: Date
-          month: Month
-          quarter: Quarter
-          week: Week
-          year: Year
-    type: Type
+          date: DATE
+          month: MONTH
+          quarter: QUARTER
+          week: WEEK
+          year: YEAR
+    type: Typ
     types:
-      bar: Bar
-      doughnut: Doughnut
-      funnel: Funnel
-      line: Line
-      pie: Pie
-    value:
-      max: Max value
-      min: Min value
-    x-axis:
-      name: X-Axis
-      label: Axis label
-      type: Axis type
-      labelRotation:
-        label: Rotate labels
+      bar: Balken
+      line: Linie
+      pie: Kuchen
     y-axis:
-      name: Y-Axis
-      label: Axis label
       labelPosition:
-        label: Label position
-        top: Top
-        center: Center
-        bottom: Bottom
-      labelRotation:
-        label: Rotate labels
+        top: Oben
+        bottom: Unten
     legend:
-      name: Legend
-      hide: Hide legend
-      scrollable: Scrollable
-      orientation:
-        label: Orientation
-        horizontal: Horizontal
-        vertical: Vertical
       align:
-        label: Align
-        left: Left
-        right: Right
-        center: Center
+        left: Links
+        right: Rechts
       position:
-        description: Values c
-        default: Default position
-        top: Top
-        right: Right
-        bottom: Bottom
-        left: Left
+        top: Oben
+        right: Rechts
+        bottom: Unten
+        left: Links
     tooltips:
-      name: Tooltips
       show:
-        always: Always show labels
+        always: Always show tooltips
     offset:
-      name: Offset
-      default: Default offset
-      top: Top
-      right: Right
-      bottom: Bottom
-      left: Left
+      top: Oben
+      right: Rechts
+      bottom: Unten
+      left: Links
 metric:
   configurator:
     color:
-      background: Background color
-      text: Text color
-      picker: Choose a color
+      background: Hintergrundfarbe
+      text: Textfarbe
     format: Format
-    label-column: Label column
-    none: None
-    prefix: Prefix
+    none: Kein
+    prefix: Präfix
     suffix: Suffix
 table:
   configurator:
-    general: General
-    data: Data
-    columns: Columns
-    dark: Dark
-    head-variant: Head Variant
-    joined-datasource-handling: Joined datasource handling
-    light: Light
-    none: None
+    general: Allgemeines
+    dark: Dunkel
+    light: Hell
+    none: Kein
     table:
       options:
-        bordered: Bordered
-        borderless: Borderless
-        dark: Dark
-        fixed: Fixed
-        hover: Hover
-        label: Table Options
-        no-collapse: No border collapse
-        responsive: Responsive
-        small: Small
-        striped: Striped
-      variant: Table Variant
+        dark: Dunkel
       variants:
-        danger: Danger
-        dark: Dark
+        danger: Gefährlich
+        dark: Dunkel
         info: Info
-        light: Light
-        primary: Primary
-        secondary: Secondary
-        success: Success
+        light: Hell
+        primary: Primär
+        secondary: Sekundär
+        success: Erfolgreich
         warning: Warning
   view:
-    next: Next
-    previous: Previous
+    next: Nächste
+    previous: Prev
