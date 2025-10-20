@@ -1,5 +1,5 @@
-datasource: Datasource
-label: Label
-none: None
-prefilter: Prefilter
-scenario-name: 'Scenario Name...'
+datasource: مصدر بيانات
+label: وصف
+none: لايوجد
+prefilter: التصفية المسبقة
+scenario-name: 'اسم السيناريو...'
