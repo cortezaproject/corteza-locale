@@ -1,24 +1,21 @@
 editor:
-  title: Email settings
+  title: اعدادات البريد الالكتروني
   server:
-    title: SMTP Server
+    title: خادم SMTP
     host:
-      label: Server
-      description: Server name and port. Port are usually 25 (insecure), 465 or 587 (secure).
+      label: خادم
+      description: اسم الخادم والمنفذ. عادة ما يكون المنفذ 25 (غير آمن) ، 465 أو 587 (آمن).
     user:
-      label: User
-      description: Optional, authentication credentials for your email server.
+      label: مستخدم
+      description: بيانات اعتماد المصادقة الاختيارية لخادم البريد الإلكتروني الخاص بك.
     password:
-      label: Password
-      description: Optional, authentication credentials for your email server.
+      label: كلمة المرور
+      description: بيانات اعتماد المصادقة الاختيارية لخادم البريد الإلكتروني الخاص بك.
     from:
-      label: Sender address
-      description: Default sender address (FROM header) used when sending emails.
+      label: عنوان المرسل
     tlsInsecure:
-      label: Allow use of invalid certificates
-      description: Suppress error if Corteza can not verify the TLS certificate used by SMTP server.
+      label: السماح باستخدام الشهادات غير الصالحة
+      description: قم بإيقاف الخطأ إذا لم يتمكن Corteza من التحقق من شهادة TLS التي يستخدمها خادم SMTP.
     tlsServerName:
-      label: TLS Server name
-      description: Optional, If SMTP server uses a different value than used for the server name.
-    testSmtpConfigs:
-      button: Test SMTP Server
+      label: اسم خادم TLS
+      description: اختياري ، إذا كان خادم SMTP يستخدم قيمة مختلفة عن تلك المستخدمة لاسم الخادم.
