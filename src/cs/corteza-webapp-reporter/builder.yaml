@@ -1,89 +1,89 @@
 add:
-  datasource: Add datasource
-  display-element: Add display element
-available: Available
+  datasource: Přidat zdroj dat
+  display-element: Přidat element zobrazení
+available: Dostupné
 block:
-  description: Block description
-  save: Save Block
-  title: Block title
-  configuration: Block configuration
+  description: Popisek bloku
+  save: Uložit blok
+  title: Nadpis bloku
+  configuration: Konfigurace bloku
 datasource:
-  label: Datasource
+  label: Zdroj dat
   types:
     load:
-      label: Load
-      data-from-resource: Loads data from a specified resource, such as Compose records
+      label: Načíst
+      data-from-resource: Načítá data z daného zdroje, jako třeba Compose záznamy
     link:
-      label: Link
-      load-datasources: Links two Load datasources with a unique column that links them together, such as a Compose record selector
+      label: Spojit
+      load-datasources: Spojí dva zdroje dat pomocí unikátního sloupce, jako třeba identifikátor záznamu Compose
     join:
-      label: Join
-      load-datasources: Joins two datasources with a unique column that joins them together, such as a Compose record selector. The join step produces a single set of rows in contrast to the link step which produces an independent data frame for each local row
+      label: Sloučit
+      load-datasources: Sloučí dva zdroje dat s unikátním sloupcem, který je propojuje, jako třeba identifikátor záznamu Compose. Sloučení vytvoří jednu množinu řádků na rozdíl od spojení, které vytvoří nezávislý datový rámec pro každý lokální řádek
     aggregate:
-      label: Aggregate
-      load-datasource: Aggregates data from a load datasource based on a column value and aggregates it, such as counting the number of Accounts with the same status
+      label: Agregovat
+      load-datasource: Agreguje data z načteného zdroje podle hodnoty sloupce, jako třeba počet účtu se stejným stavem
 datasources:
-  label: Datasources
-  save: Save Datasources
-description: Description
+  label: Zdroje dat
+  save: Uložit zdroje dat
+description: Popis
 display-elements:
   types:
     text: Text
-    metric: Metric
-    table: Table
-    chart: Chart
+    metric: Metrika
+    table: Tabulka
+    chart: Graf
 element: Element
-elements: Elements
-filter-expression: Filter expression
-general: General
-joined-datasource-handling: Joined datasource handling
+elements: Elementy
+filter-expression: Výraz pro filtrování
+general: Obecné
+joined-datasource-handling: Práce se sloučenými zdroji dat
 layout: Layout
 layout-options:
-  horizontal: Horizontal
-  vertical: Vertical
+  horizontal: Horizontální
+  vertical: Vertikální
 limit: Limit
-no-blocks-added: No blocks added yet
-or: Or
-pick-scenario: Pick a scenario
-prefilter: Prefilter
-presort-order: Presort order
+no-blocks-added: Ještě nebyly přidány žádné bloky
+or: Nebo
+pick-scenario: Vybrat scénář
+prefilter: Před-filtr
+presort-order: Pořadí řazení
 report:
-  builder: Report Builder
-  view: View Report
-save-button: Save
+  builder: Vytváření reportů
+  view: Zobrazit report
+save-button: Uložit
 scenarios:
-  label: Scenarios
-  save: Save Scenarios
-title: Title
+  label: Scénáře
+  save: Uložit scénář
+title: Nadpis
 tooltip:
   edit:
-    report: Edit report
-    block: Edit block
+    report: Editovat report
+    block: Editovat blok
   add:
-    displayElement: Add display element
+    displayElement: Přidat element zobrazení
   delete:
-    block: Delete block
-  configure-scenarios: Configure scenarios
-  unsavedChanges: Unsaved changes
-available-columns: Available columns
-selected-columns: Selected columns
-no-columns-found: No columns found
-type-to-search: Type here to search among columns
-selected: Selected
-select-all: Select all
-unselect-all: Unselect all
-value: Value
-name: Name
-unsaved-changes: Unsaved changes will be lost. Do you wish to leave the page?
+    block: Smazat blok
+  configure-scenarios: Konfigurovat scénáře
+  unsavedChanges: Neuložené změny
+available-columns: Dostupné sloupce
+selected-columns: Vybrané sloupce
+no-columns-found: Nenalezeny žádné sloupce
+type-to-search: Vyhledávání mezi sloupci
+selected: Vybrané
+select-all: Vybrat vše
+unselect-all: Od-vybrat vše
+value: Hodnota
+name: Jméno
+unsaved-changes: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
 filter:
   operators:
-    like: Like
-    notLike: Not Like
-    contains: Contains
-    notContains: Not contains
-    equal: Equal
-    greaterThan: Greater than
-    greaterThanEqualTo: Greater than or equal to
-    lessThanEqualTo: Less than or equal to
-    lessThan: Less than
-    notEqual: Not equal
+    like: Jako
+    notLike: Ne jako
+    contains: Obsahuje
+    notContains: Neobsahuje
+    equal: Je rovno
+    greaterThan: Větší než
+    greaterThanEqualTo: Větší než nebo rovno
+    lessThanEqualTo: Menší než nebo rovno
+    lessThan: Menší než
+    notEqual: Nerovno
