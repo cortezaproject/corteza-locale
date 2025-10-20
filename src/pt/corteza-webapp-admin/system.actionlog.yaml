@@ -1,47 +1,45 @@
 list:
   columns:
-    action: Action
-    actor: User
-    description: Description
-    requestOrigin: Origin
-    resource: Resource
-    severity: Severity
-    timestamp: Timestamp
-  loading: Loading actions
+    action: Açao
+    actor: Do utilizador
+    description: Descrição
+    requestOrigin: Origem
+    resource: Recurso
+    severity: Gravidade
+    timestamp: Carimbo de data e hora
   details:
-    id: ID
-    header: Details
-    timestamp: Timestamp
-    requestOrigin: Request Origin
-    requestID: Request ID
-    actorIPAddr: Actor/User
-    actor: User
-    actorID: User ID
-    severity: Severity
-    resource: Resource
-    action: Action
-    headerAdditional: Additional information
-    description: Description
-    error: Error
-    meta: Meta
+    id: IDENTIFICAÇÃO
+    header: Detalhes
+    timestamp: Carimbo de data e hora
+    requestOrigin: Solicitar Origem
+    requestID: Identificação do Pedido
+    actorIPAddr: Ator/Usuário
+    actor: Do utilizador
+    actorID: ID do usuário
+    severity: Gravidade
+    resource: Recurso
+    action: Açao
+    headerAdditional: Informações adicionais
+    description: Descrição
+    error: Erro
   severity:
-    emergency: Emergency
-    alert: Alert
-    critical: Critical
-    error: Error
-    warning: Warning
-    notice: Notice
-    info: Info
-    debug: Debug
+    emergency: Emergência
+    alert: Alerta
+    critical: Crítico
+    error: Erro
+    warning: Aviso
+    notice: Perceber
+    info: Informações
+    debug: Depurar
   filter:
-    action: Action
-    actor: User ID
-    choose-date: Choose a date
-    from: Starting from
-    no-time: No time selected
-    resource: Resource
-    search: Search
-    to: Ending at
-    today: Today
-  loadOlder: Load older actions
-  title: Action log
+    action: Açao
+    actor: ID do usuário
+    choose-date: Escolha uma data
+    from: Começando de
+    no-time: Nenhum horário selecionado
+    resource: Recurso
+    search: Procurar
+    to: Terminando em
+    today: Hoje
+  loadOlder: Carregar ações mais antigas
+  title: Registro de ações
