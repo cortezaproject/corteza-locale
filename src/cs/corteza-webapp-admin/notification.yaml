@@ -1,305 +1,305 @@
 general:
-  error: Error
-  success: Success
-  warning: Warning
-notAllowed: Not allowed to access Admin Area. Redirecting
+  error: Chyba
+  success: Úspěch
+  warning: Varování
+notAllowed: Není povolen vstup do administrace. Přesměrovávám
 list:
   load:
-    error: 'Failed to load resource list'
+    error: 'Nepovedlo se načíst seznam zdrojů'
 user:
   external-auth-providers:
-    error: External auth providers fetch failed
-    success: External auth providers updated
+    error: Nepovedlo se získání externích poskytovatelů identit
+    success: Externí poskytovatele identity aktualizováni
   fetch:
-    error: User fetch failed
+    error: Nepovedlo se získání uživatelů
   roles:
-    error: Role fetch failed
+    error: Nepovedlo se získání rolí
   update:
-    success: User updated
-    error: User update failed
+    success: Uživatel aktualizován
+    error: Nepovedlo se aktualizování uživatele
   create:
-    success: User created
-    error: User create failed
+    success: Uživatel vytvořen
+    error: Nepovedlo se vytvoření uživatele
   delete:
-    success: User deleted
-    error: User delete failed
+    success: Uživatel smazán
+    error: Nepovedlo se smazání uživatele
   undelete:
-    success: User restored
-    error: User restore failed
+    success: Uživatel obnoven
+    error: Nepovedlo se obnovení uživatele
   membershipUpdate:
-    success: Membership updated
-    error: Membership update failed
+    success: Členství aktualizováno
+    error: Nepovedlo se aktualizování členství
   passwordChange:
-    success: Password changed
-    error: Password change failed
+    success: Heslo změněno
+    error: Nepovedla se změna hesla
   sessionsRevoke:
-    success: Sessions revoked
-    error: Session revoke failed
+    success: Relace zrušena
+    error: Nepovedlo se zrušení relace
   suspend:
-    success: User suspended
-    error: User suspension failed
+    success: Uživatel zablokován
+    error: Nepovedlo se zablokování uživatele
   unsuspend:
-    success: User unsuspended
-    error: User suspension failed
+    success: Uživatel odblokován
+    error: Nepovedlo se odblokování uživatele
   import:
-    success: Users imported successfully
+    success: Uživatelé úspěšně importováni
   avatarUpload:
-    success: Avatar updated
-    error: Avatar upload failed
+    success: Avatar aktualizován
+    error: Nepovedlo se nahrání avatára
   avatarSettings:
-    success: Avatar settings updated
-    error: Avatar settings update failed
+    success: Nastavení avatara aktualizováno
+    error: Nepovedlo se aktualizování nastavení avatara
   avatarDelete:
-    success: Avatar deleted
-    error: Avatar delete failed
+    success: Avatar smazán
+    error: Nepovedlo se smazání avatara
 role:
   fetch:
-    error: Role fetch failed
+    error: Nepovedlo se získání rolí
   create:
-    success: Role created
-    error: Role create failed
+    success: Role vytvořena
+    error: Nepovedlo se vytvoření role
   update:
-    success: Role updated
-    error: Role update failed
+    success: Role aktualizována
+    error: Nepovedlo se aktualizování role
   delete:
-    success: Role deleted
-    error: Role delete failed
+    success: Role smazána
+    error: Nepovedlo se smazání role
   undelete:
-    success: Role restored
-    error: Role restore failed
+    success: Role obnovena
+    error: Nepovedlo se obnovení role
   archive:
-    success: Role archived
-    error: Role archive failed
+    success: Role archivována
+    error: Nepovedlo se archivování role
   unarchive:
-    success: Role unarchived
-    error: Role unarchive failed
+    success: Role obnovena z archivu
+    error: Nepovedlo se obnovení role z archivu
   membershipUpdate:
-    success: Membership updated
-    error: Membership update failed
+    success: Členství aktualizováno
+    error: Nepovedlo se aktualizování členství
 application:
   fetch:
-    error: Application fetch failed
+    error: Nepovedlo se získání aplikace
   update:
-    success: Application updated
-    error: Application update failed
+    success: Aplikace aktualizována
+    error: Nepovedlo se aktualizování aplikace
   create:
-    success: Application created
-    error: Application create failed
+    success: Aplikace vytvořena
+    error: Nepovedlo se vytvoření aplikace
   delete:
-    success: Application deleted
-    error: Application delete failed
+    success: Aplikace smazána
+    error: Nepovedlo se smazání aplikace
   undelete:
-    success: Application restored
-    error: Application restore failed
+    success: Aplikace obnovena
+    error: Nepovedlo se obnovení aplikace
   assetsUpload:
-    error: Application assets upload failed
+    error: Nepovedlo se nahrání prvků aplikace
 template:
   fetch:
-    error: Template fetch failed
+    error: Nepovedlo se získání šablony
   fetchPartials:
-    error: Partial templates fetch failed
+    error: Nepovedlo se získání částečných šablon
   create:
-    success: Template created
-    error: Template create failed
+    success: Šablona vytvořena
+    error: Nepovedlo se vytvoření šablony
   update:
-    success: Template updated
-    error: Template update failed
+    success: Šablona aktualizována
+    error: Nepovedlo se aktualizování šablony
   delete:
-    success: Template deleted
-    error: Template delete failed
+    success: Šablona smazána
+    error: Nepovedlo se smazání šablony
   undelete:
-    success: Template restored
-    error: Template restore failed
+    success: Šablona obnovena
+    error: Nepovedlo se obnovení šablony
   driver:
-    error: Template render drivers fetch failed
+    error: Nepovedlo se získání ovladačů vykreslení šablony
   preview:
-    error: Template preview fetch failed
+    error: Nepovedlo se získání náhledu šablony
 authclient:
   fetch:
-    error: Auth Client fetch failed
+    error: Nepovedlo se získání autorizovaného klienta
   create:
-    success: Auth Client created
-    error: Auth Client create failed
+    success: Autorizovaný klient vytvořen
+    error: Nepovedlo se vytvoření autorizovaného klienta
   update:
-    success: Auth Client updated
-    error: Auth Client update failed
+    success: Autorizovaný klient aktualizován
+    error: Nepovedlo se aktualizování autorizovaného klienta
   delete:
-    success: Auth Client deleted
-    error: Auth Client delete failed
+    success: Autorizovaný klient smazán
+    error: Nepovedlo se smazání autorizovaného klienta
   undelete:
-    success: Auth Client restored
-    error: Auth Client restore failed
+    success: Autorizovaný klient obnoven
+    error: Nepovedlo se obnovení autorizovaného klienta
 queue:
   fetch:
-    error: Queue fetch failed
+    error: Nepovedlo se získání fronty
   create:
-    success: Queue created
-    error: Queue create failed
+    success: Fronta vytvořena
+    error: Nepovedlo se vytvoření fronty
   update:
-    success: Queue updated
-    error: Queue update failed
+    success: Fronta aktualizována
+    error: Nepovedlo se aktualizování fronty
   delete:
-    success: Queue deleted
-    error: Queue delete failed
+    success: Fronta smazána
+    error: Nepovedlo se smazání fronty
   undelete:
-    success: Queue restored
-    error: Queue restore failed
+    success: Fronta obnovena
+    error: Nepovedlo se obnovení fronty
 gateway:
   fetch:
-    error: Route fetch failed
+    error: Nepovedlo se získání cesty
   create:
-    success: Route created
-    error: Route create failed
+    success: Cesta vytvořena
+    error: Nepovedlo se vytvoření cesty
   update:
-    success: Route updated
-    error: Route update failed
+    success: Cesta aktualizována
+    error: Nepovedlo se aktualizování cesty
   filter:
     fetch:
-      error: Filter fetch failed
+      error: Nepovedlo se získání filtru
     update:
-      success: Filters updated
-      error: Filters update failed
+      success: Filtry aktualizovány
+      error: Nepovedlo se aktualizovat filtry
   delete:
-    success: Route deleted
-    error: Route delete failed
+    success: Cesta smazána
+    error: Nepovedlo se smazání cesty
   undelete:
-    success: Route restored
-    error: Route restore failed
+    success: Cesta obnovena
+    error: Nepovedlo se obnovení cesty
   profiler:
     fetch:
-      error: Requests fetch failed
+      error: Nepovedlo se získání požadavků
     purge:
-      success: Requests purged
-      error: Requests purge failed
+      success: Požadavky vyčištěny
+      error: Nepovedlo se vyčištění požadavků
 workflow:
   fetch:
-    error: Workflow fetch failed
+    error: Nepovedlo se získání workflow
   create:
-    success: Workflow created
-    error: Workflow create failed
+    success: Workflow vytvořeno
+    error: Nepovedlo se vytvoření workflow
   update:
-    success: Workflow updated
-    error: Workflow update failed
+    success: Workflow aktualizováno
+    error: Nepovedlo se aktualizovat workflow
   delete:
-    success: Workflow deleted
-    error: Workflow delete failed
+    success: Workflow smazáno
+    error: Nepovedlo se smazání workflow
   undelete:
-    success: Workflow restored
-    error: Workflow restore failed
+    success: Workflow obnoveno
+    error: Nepovedlo se obnovení workflow
 session:
   fetch:
-    error: Session fetch failed
+    error: Nepovedlo se získání relace
   trigger:
-    error: Trigger fetch failed
+    error: Nepovedlo se získání spouštěče
   cancel:
-    success: Session canceled
-    error: Session cancel failed
+    success: Relace stornována
+    error: Nepovedlo se stornování relace
 federation:
   fetch:
-    error: Node fetch failed
+    error: Nepovedlo se získání uzlu
   create:
-    success: Node created
-    error: Node create failed
+    success: Uzel vytvořen
+    error: Nepovedlo se vytvoření uzlu
   update:
-    success: Node updated
-    error: Node update failed
+    success: Uzel aktualizován
+    error: Nepovedlo se aktualizování uzlu
   delete:
-    success: Node deleted
-    error: Node delete failed
+    success: Uzel smazán
+    error: Nepovedlo se smazání uzlu
   undelete:
-    success: Node restored
-    error: Node restore failed
+    success: Uzel obnoven
+    error: Nepovedlo se obnovení uzlu
   url:
-    error: Generated URL fetch failed
+    error: Nepovedlo se získání generované URL
   email:
-    success: Email sent
-    error: Failed to send email
+    success: Email odeslán
+    error: Nepovedlo se odeslání emailu
   pair:
-    success: Node paired
-    error: Failed to pair node
+    success: Uzel spárován
+    error: Nepovedlo se párování uzlu
   handshake:
-    success: Handshake complete paired
-    error: Handshake failed
+    success: Propojení navázáno
+    error: Nepovedlo se navázat propojení
 sensitivityLevel:
   create:
-    success: Sensitivity level created
-    error: Sensitivity level create failed
+    success: Úroveň citlivosti vytvořena
+    error: Nepovedlo se vytvoření úrovně citlivosti
   delete:
-    success: Sensitivity level deleted
-    error: Sensitivity level delete failed
+    success: Úroveň citlivosti smazána
+    error: Nepovedlo se smazání úrovně citlivosti
   fetch:
-    success: Sensitivity level fetched
-    error: Sensitivity level fetch failed
+    success: Získána úroveň citlivosti
+    error: Nepovedlo se získání úrovně citlivosti
   undelete:
-    success: Sensitivity level restored
-    error: Sensitivity level restore failed
+    success: Smazaná úroveň citlivosti obnovena
+    error: Nepovedlo se obnovit smazanou úroveň citlivosti
   update:
-    success: Sensitivity level updated
-    error: Sensitivity level update failed
+    success: Úroveň citlivosti aktualizována
+    error: Nepovedlo se aktualizování úrovně citlivosti
 settings:
   system:
     fetch:
-      error: System settings fetch failed
+      error: Nepovedlo se získání nastavení systému
     auth:
-      success: Auth settings updated
-      error: Auth settings update failed
+      success: Nastavení přihlášení aktualizováno
+      error: Nepovedlo se aktualizování nastavení přihlášení
     external:
-      success: External settings updated
-      error: External settings update failed
+      success: Externí nastavení aktualizováno
+      error: Nepovedlo se aktualizování externího nastavení
     bgScreen:
       style:
-        success: Auth background styles updated
-        error: Auth background styles update failed
+        success: Styly pozadí přihlášení aktualizovány
+        error: Nepovedlo se aktualizování stylů pozadí přihlášení
     smtpCheck:
-      success: SMTP configuration check  passed
-      error: SMTP configuration check failed
+      success: Kontrola konfigurace SMTP byla úspěšná
+      error: Nepovedla se kontrola konfigurace SMTP
     apigw:
-      success: Integration gateway settings saved
-      error: Integration gateway settings update failed
+      success: Nastavení integrační brány aktualizováno
+      error: Nepovedlo se aktualizování nastavení integrační brány
   compose:
     fetch:
-      error: Compose settings fetch failed
+      error: Nepovedlo se získání nastavení Compose
     update:
-      success: Compose settings updated
-      error: Compose settings update failed
+      success: Nastavení Compose aktualizováno
+      error: Nepovedlo se aktualizování nastavení Compose
   ui:
     fetch:
-      error: UI settings fetch failed
+      error: Nepovedlo se získání nastavení UI
     update:
-      success: UI settings updated
-      error: UI settings update failed
+      success: Nastavení UI aktualizováno
+      error: Nepovedlo se aktualizování nastavení UI
   code-snippet:
     fetch:
-      error: Code snippets fetch failed
+      error: Nepovedlo se získání výstřižků kódu
     update:
-      success: Code snippets updated, refresh the page to see the changes
-      error: Code snippets update failed
+      success: Výstřižky kódu aktualizovány, obnovte stránku, aby se změny projevily
+      error: Nepovedlo se aktualizování výstřižků kódu
     delete:
-      success: Code snippet deleted, refresh the page to see the changes
-      error: Code snippet delete failed
+      success: Výstřižek kódu smazán, obnovte stránku, aby se změny projevily
+      error: Nepovedlo se smazání výstřižku kódu
 permissions:
   fetch:
-    error: Permissions fetch failed
+    error: Nepovedlo se získání informací o oprávnění
   update:
-    success: Permissions updated
-    error: Permissions update failed
+    success: Oprávnění aktualizována
+    error: Nepovedlo se aktualizování oprávnění
   clone:
-    success: Permissions cloned
-    error: Permissions clone failed
+    success: Oprávnění naklonována
+    error: Nepovedlo se klonování oprávnění
   role:
-    error: Failed to add role
+    error: Nepovedlo se přidání role
 connection:
   fetch:
-    error: Connection fetch failed
+    error: Nepovedlo se získání spojení
   update:
-    success: Connection updated
-    error: Connection update failed
+    success: Spojení aktualizováno
+    error: Nepovedlo se aktualizování spojení
   create:
-    success: Connection created
-    error: Connection create failed
+    success: Spojení vytvořeno
+    error: Nepovedlo se vytvoření spojení
   delete:
-    success: Connection deleted
-    error: Connection delete failed
+    success: Spojení smazáno
+    error: Nepovedlo se smazat spojení
   undelete:
-    success: Connection restored
-    error: Connection restore failed
+    success: Smazané spojení obnoveno
+    error: Nepovedlo se obnovit spojení
