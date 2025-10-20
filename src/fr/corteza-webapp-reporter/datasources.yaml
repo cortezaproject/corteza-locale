@@ -1,23 +1,10 @@
-add: Add
-aggregate: Aggregate
-compose-records: Compose records
-datasource-name: 'Datasource Name...'
+add: + Ajouter
 expression: Expression
-group-by: Group by
-label: Label
+label: Étiquette
 module: Module
-name-required: Name *
-name: Name
+name-required: Nom *
+name: Nom
 namespace: Namespace
-new:
-  label: New label
-  name: New name
-none: None
-prefilter: Prefilter
-primary:
-  column: Primary Column
-  source: Primary Source
-secondary:
-  column: Secondary Column
-  source: Secondary Source
+none: Aucune
+prefilter: Préfiltre
 source: Source
