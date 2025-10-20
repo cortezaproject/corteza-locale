@@ -1,17 +1,16 @@
 list:
   columns:
-    name: Name
-    updatedAt: Last update
+    name: Nome
+    updatedAt: Última atualização
   filter:
-    absoluteTime: Show absolute time
-    incScriptsWithErrors: Errors ({{ count }})
-    incScriptsWithIterator: Iterator ({{ count }})
-    incScriptsWithSecurity: Security ({{ count }})
-    incScriptsWithTriggers: Triggers ({{ count }})
-    searchQuery: Search query
+    absoluteTime: Mostrar tempo absoluto
+    incScriptsWithErrors: Erros ({{ count }})
+    incScriptsWithIterator: Iterador ({{ count }})
+    incScriptsWithSecurity: Segurança ({{ count }})
+    incScriptsWithTriggers: Gatilhos ({{ count }})
+    searchQuery: Consulta de pesquisa
   flags:
-    iterator: Iterator
-    security: Security
-    triggers: Triggers
-  labelMissing: <label missing>
-  title: Corredor Scripts
+    iterator: Iterador
+    security: Segurança
+    triggers: Gatilhos
+  title: Scripts Corredor
