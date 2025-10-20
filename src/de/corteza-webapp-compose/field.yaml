@@ -1,293 +1,149 @@
-available-items: Available fields
-selected-items: Selected fields
-defaultFieldValue: Default field value
-defaultValue: Default value
-required-field: This field is required
-not-configurable: Cannot change settings that affect data storage
+available-items: Columns available
+selected-items: Columns selected
+defaultFieldValue: Standard-Feldwert
+defaultValue: Standard Wert
 kind:
   bool:
-    checkedValueLabel: Value when checked
+    checkedValueLabel: Wert wenn checked
     checkedValuePlaceholder: Yes
-    label: Checkbox (Y/N)
-    uncheckedValueLabel: Value when unchecked
+    label: Kontrollkästchen (J/N)
+    uncheckedValueLabel: Wert wenn ungechecked
     uncheckedValuePlaceholder: No
-    toggleTypeLabel: Checkbox Type
-    toggleType: Display as switch
   dateTime:
     type:
-      label: Value Type
       options:
-        dateTime: Date & Time
-        date: Date
-        time: Time
-    constraints:
-      label: Allowed values
-      options:
-        all: All values
-        futureValuesOnly: Future Values Only
-        pastValuesOnly: Past Values Only
-    label: Date and time
-    outputFormat: Output format
-    outputFormatFootnote: See {{0}} for formatting options
-    relativeOutput: 'Output Relative value (eg: 3 days ago, 15 minutes ago)'
+        date: DATE
+    label: Datum und Uhrzeit
+    outputFormat: 'Output format:'
     warning:
-      futureValuesOnly: Only dates in the future will be saved
-      pastValuesOnly: Only dates in the past will be saved
+      futureValuesOnly: Es werden nur Termine in der Zukunft gespeichert
+      pastValuesOnly: Es werden nur Daten in der Vergangenheit gespeichert
   email:
-    label: Email
-    preventToLink: Don't turn email into a link
+    label: E-Mail
+    preventToLink: Verwandle die Link nicht in eine E-Mail
   file:
-    label: File
+    label: Datei
     view:
-      gallery: Gallery of images
-      grid: Grid
-      list: List
-      maxSizeLabel: Maximum file size (MB)
-      mimetypesFootnote: 'MIME types, separated with ",". Example: "text/plain,text/csv"'
-      webcam:
-        enable:
-          label: Enable Webcam Capture
-          footnote: Use the webcam to capture a picture and upload it
-      mimetypesLabel: File type allow list
-      modeFootnote: How files are represented in page blocks
-      modeLabel: View mode
-      showName: Hide file name
-      enableDownload: Enable download
-      single: Single image
-      previewStyle: Preview style
-      height: Height
-      width: Width
-      maxHeight: Max height
-      maxWidth: Max width
-      borderRadius: Border radius
-      background: Background color
-      colorPicker: Choose a color
-      margin: Margin
-      unitType: Unit type
-      px: px
-      clickToView: Click to view file
-      description: 'Add unit after value to set it. For example: 50px or 50%'
+      gallery: Galerie
+      grid: Raster
+      list: Liste
+      mimetypesFootnote: 'MIME types, sepparated with ",". Example: "text/plain,text/csv"'
+      modeFootnote: How files are represented in record page blocks
+      showName: Dateiname ausblenden
+      single: Einzelnes Bild
+      background: Hintergrundfarbe
   number:
     exampleFormat: Format
-    exampleInput: Input
-    exampleResult: Result
-    examplesLabel: Format examples
-    formatLabel: Custom format
+    exampleInput: Eingabe
+    exampleResult: Ergebnis
+    examplesLabel: 'Format examples:'
+    formatLabel: Format
     formatPlaceholder: Format
-    label: Number
-    liveExample: Live example
-    precisionLabel: Scale
-    precisionTooltip: Number of decimal places
-    prefixLabel: Prefix
-    prefixPlaceholder: Prefix
+    label: Nummer
+    liveExample: Live-Beispiel
+    precisionLabel: Precision
+    prefixLabel: Präfix
+    prefixPlaceholder: Präfix
     suffixLabel: Suffix
     suffixPlaceholder: Suffix
     displayType:
-      label: Display type
-      number: Number
-      progress: Progress bar
+      number: Nummer
     progress:
-      maximumValue: Maximum value
-      minimumValue: Minimum value
-      animated: Animated
-      show:
-        value: Show value
-        relative: Show relative
-        progress: Show progress
-      showRelative: Show relative
       variants:
-        default: Default variant
-        danger: Danger
-        dark: Dark
+        danger: Gefährlich
+        dark: Dunkel
         info: Info
-        light: Light
-        primary: Primary
-        secondary: Secondary
-        success: Success
+        light: Hell
+        primary: Primär
+        secondary: Sekundär
+        success: Erfolgreich
         warning: Warning
-      thresholds:
-        label: Thresholds
-        description: Set which variant to show if value is equal or larger than the threshold
     presetFormats:
       label: Format
       options:
-        custom: Custom
-        accounting: Accounting
-      description:
-        custom: ''
-        accounting: Negative numbers are transformed into positive and added in brackets and the value 0 is substituted by a dash
+        custom: Benutzerdefiniert
   record:
-    currentUnnamedModule: (Current unnamed module)
-    label: Record
-    moduleLabel: Module
-    modulePlaceholder: Select a module
-    queryFieldsLabel: Query fields on search
-    queryFieldsPlaceholder: If no fields are picked the Label field will be used
-    moduleField: Label field
-    variantField: Variant field
-    fieldFromModuleField: Label field from related module field
-    pickField: Pick field
-    suggestionPlaceholder: Start typing to search for records
-    prefilterFootnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
-    prefilterLabel: Prefilter records
-    prefilterPlaceholder: field1 = 1 AND field2 = 232
-    tooltip:
-      moduleField: Selecting a record field will impact performance
-      addRecord: Add a record
+    currentUnnamedModule: (Derzeit nicht benannte Module)
+    label: Datensatz
+    moduleLabel: Module name
+    modulePlaceholder: Pick module
+    suggestionPlaceholder: Tippen Sie, um nach Datensätzen zu suchen
+    prefilterFootnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}} and {{2}} are evaluated (when available)
+    prefilterLabel: Vorfilter-Datensätze
+    prefilterPlaceholder: feld1 = 1 AND feld2 = 232
   select:
-    allow-duplicates: Allow duplicates
-    label: Select
-    optionAdd: Add
+    label: Auswählen
+    optionAdd: Hinzufügen
     options:
-      value: Value
+      value: Wert
       label: Label
       style:
-        textColor: Text color
-        backgroundColor: Background color
-    optionNotSelected: No option selected
-    optionRemove: Remove
+        textColor: Textfarbe
+        backgroundColor: Hintergrundfarbe
+    optionRemove: Entfernen
     optionType:
-      default: Single input
-      each: Input for each value
-      label: Select type
-      multiple: Multiple select
-      checkbox: Checkbox Group
-      radio: Radio Group
-    displayType:
-      label: Display value as
-      text: Text
-      badge: Badge
-    optionsLabel: Options to select from
-    showAsBadge: Show as badge
-    placeholder: Select an option by clicking here
+      label: Multiple value input type
   string:
-    label: String
-    multiLine: Multi line
-    richText: Use Rich Text Editor
+    label: Zeichenfolge
+    multiLine: Mehrzeilig
+    richText: Rich-Text-Editor verwenden
   url:
-    example: 'Example URL: https://example.com'
     label: URL
-    preventToLink: Don't turn Url into a link
-    sshOnly: Only allow SSL (https) Url
-    trimHash: 'Trim ''#'' from the Url'
-    trimQuestionMark: Trim '?' from the Url
-    trimToDomain: Trim Url down to domain only
+    preventToLink: Url nicht in einen Link umwandeln
   user:
-    label: User
-    na: N/A
-    presetWithCurrentUser: Preset with current user
-    suggestionPlaceholder: Start typing to search for users by email or name
+    label: Benutzer
+    na: K.A.
+    presetWithCurrentUser: Voreinstellung mit aktuellem Benutzer
+    suggestionPlaceholder: Tippen Sie, um nach Benutzern per E-Mail oder Name zu suchen
     roles:
-      label: User roles
-      placeholder: Filter by user roles
+      label: Benutzerrollen
+      placeholder: Filter nach Benutzerrollen
   geometry:
-    label: Location
-    latitude: Latitude
-    longitude: Longitude
-    clickToPlaceMarker: Click to place/remove a marker
-    initialZoomAndPosition: Set initial map zoom and position
-    prefillWithCurrentLocation: Prefill with current location
-    hideCurrentLocationButton: Hide current location button
-    hideGeoSearch: Hide location search
-    tooltip:
-      goToCurrentLocation: Go to current location
-      useCurrentLocation: Use current location
-      openMap: Open map
-    geosearchInputPlaceholder: Enter address, place or postcode
-noPermission: No permission to read field value
-no-items-found: No items found
+    label: Geometry
+noPermission: Keine Berechtigung zum Lesen des Feldwertes
 options:
   description:
     label:
-      default: Description
-      edit: Description edit
-      view: Description view
+      default: Beschreibung
+      edit: Beschreibung bearbeiten
+      view: Beschreibung anzeigen
     placeholder:
-      default: Description text...
-      edit: Description when editing record field...
-      view: Description when viewing record field...
-    same: Show same description on view and edit
+      default: Beschreibungstext...
   hint:
     label:
-      default: Hint
-      edit: Hint edit
-      view: Hint view
+      default: Hinweis
+      edit: Hinweis bearbeiten
+      view: Hinweis anzeigen
     placeholder:
-      default: Hint text...
-      edit: Hint when editing record field...
-      view: Hint when viewing record field...
-    same: Show same hint on view and edit
+      default: Hinweistext...
   multiDelimiter:
-    comma: Separated by a comma
-    custom: A custom delimiter
-    customLabel: Or use a custom delimiter
-    customPlaceholder: Enter a custom delimiter
-    label: Multiple value delimiter
-    newline: Each value in a new line
+    comma: Getrennt durch ein Komma
 sanitizers:
-  description: Trim spaces from text or do other kinds of value manipulation before validation
-  examples: Examples
-  expression:
-    placeholder: trim(value)
-  label: Value sanitization
+  examples: Beispiele
 selector:
-  search: Type here to search among module fields
-  available: Available fields
-  selectAll: Select all
-  selected: Selected fields
-  systemField: (system field)
-  unselectAll: Unselect all
-privacy:
-  sensitivity-level:
-    label: Sensitivity level
-    placeholder: Select a sensitivity level
-  usage-disclosure:
-    label: Sensitive field usage disclosure (visible on data-privacy console)
+  available: Columns available
+  selectAll: Alle auswählen
+  selected: Columns selected
+  systemField: (Systemfeld)
+  unselectAll: Alle abwählen
 system:
-  id: Record ID
-  ID: Record ID
-  moduleID: Module ID
-  namespaceID: Namespace ID
-  revision: Record revision
-  meta: Meta data
-  recordID: Record ID
-  createdAt: Created at
-  createdBy: Created by
-  deletedAt: Deleted at
-  deletedBy: Deleted by
-  ownedBy: Owned by
-  updatedAt: Updated at
-  updatedBy: Updated by
+  createdAt: Erstellt am
+  createdBy: Erstellt bei
+  deletedAt: Gelöscht am
+  deletedBy: Gelöscht von
+  ownedBy: Im Besitz von
+  updatedAt: Aktualisiert am
 validators:
-  description: Set of expressions and error pairs that test validity of the input value
-  disableBuiltIn: Disable built-in validators
-  error:
-    placeholder: Text displayed when expression is true
-    tooltip: Warning text
+  description: Set of expressions and error pairs that test validity of the input value.
   expression:
-    placeholder: value == ""
-    tooltip: Expression
-  label: Value validation
+    placeholder: Wert == ""
+  label: Validierung der Werte
 valueExpr:
-  description: Insert a formula or expression that calculates numeric values or combines and manipulates text values
-  label: Field value expression
+  description: Einfügen einer Formel oder eines Ausdrucks, der numerische Werte berechnet oder Textwerte kombiniert und manipuliert
   placeholder: ((floor(numField1) + numField2) / 10) + 0.5
 label:
-  required: Required
-  multi: Multi value
+  required: Erforderlich
+  multi: Mehrfacher Wert
 constraints:
-  label: Unique value constraints
-  description: Use unique value constraints for this field
-  ignoreCase: Ignore case
-  fuzzyMatch: Fuzzy match
-  soundsLike: Sounds like
-  caseSensitive: Case sensitive
-  oneOf: One of
-  none: None
-  equal: Equal
-  valueModifiers: Value modifiers
-  multiValues: Multi-field values
-  totalFieldConstraintCount: The field is used in {{total}} other unique value constraint. See "unique values" tab on module editor.
-  tooltip:
-    performance: Using unique value constraints will impact performance
+  none: Kein
 
