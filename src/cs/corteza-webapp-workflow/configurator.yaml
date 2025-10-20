@@ -1,23 +1,23 @@
-configuration: Configuration
+configuration: Konfigurace
 edge: Edge
 name:
-  label: Name *
-  placeholder: Workflow name
+  label: Jméno *
+  placeholder: Jméno workflow
 handle:
-  label: Handle
-  placeholder: handle (a - z, 0 - 9, underscore, dash)
-  invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+  label: Identifikátor
+  placeholder: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+  invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
 description:
-  label: Description
-  placeholder: Describe what this workflow does
-target: Target
+  label: Popis
+  placeholder: Popis, co toto workflow dělá
+target: Cíl
 tooltip:
-  run-workflow: Run workflow
-  configure-step: Configure step
+  run-workflow: Spustit workflow
+  configure-step: Konfigurovat kroky
 run-as:
-  label: Run as
-  placeholder: User that will execute the workflow
-  description: When not explicitly set, workflow will be executed by user that invoked it
+  label: Spustit jako
+  placeholder: Uživatel, který spustí toto workflow
+  description: Pokud není explicitně nastaveno jinak, workflow se spustí pod uživatelem, který ho vyvolal
 sub-workflow:
   label: Subworkflow
-  description: Subworkflows can't have enabled triggers
+  description: Subworkflow nemůžou but povolený trigger
