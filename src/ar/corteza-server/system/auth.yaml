@@ -1,25 +1,25 @@
 errors:
-  credentialsLinkedToInvalidUser: credentials {credentials.kind} linked to disabled or deleted user {user}
-  disabledMFAWithEmailOTP: multi factor authentication with email OTP is disabled
-  disabledMFAWithTOTP: multi factor authentication with TOTP is disabled
-  enforcedMFAWithEmailOTP: OTP over email is enforced and cannot be disabled
-  enforcedMFAWithTOTP: TOTP is enforced and cannot be disabled
-  externalDisabledByConfig: external authentication (using external authentication provider) is disabled
-  failedUnconfirmedEmail: system requires confirmed email before logging in
-  internalLoginDisabledByConfig: internal login (username/password) is disabled
-  internalSignupDisabledByConfig: internal sign-up (username/password) is disabled
-  invalidCredentials: invalid username and password combination
-  invalidEmailFormat: invalid email
-  invalidEmailOTP: invalid code
-  invalidHandle: invalid handle
-  invalidTOTP: invalid code
-  invalidToken: invalid token
-  notAllowedToConfigureTOTP: not allowed to configure TOTP
-  notAllowedToImpersonate: not allowed to impersonate this user
-  notAllowedToRemoveTOTP: not allowed to remove TOTP
-  passwodResetFailedOldPasswordCheckFailed: failed to change password, old password does not match
-  passwordChangeFailedForUnknownUser: failed to change password for the unknown user
-  passwordNotSecure: provided password is not secure; use longer password with more special characters
-  passwordResetDisabledByConfig: password reset is disabled
-  profileWithoutValidEmail: external authentication provider returned profile without valid email
-  unconfiguredTOTP: TOTP not configured
+  credentialsLinkedToInvalidUser: معلومات الدخول {credentials.kind} مرتبطة بالمستخدم المعطل أو المحذوف {user}
+  disabledMFAWithEmailOTP: التحقق الثنائي بكلمة مرور مؤقته معطل
+  disabledMFAWithTOTP: التحقق الثنائي بكلمة مرور مؤقته مرتبطة بوقت معطل
+  enforcedMFAWithEmailOTP: كلمة المرور المؤقته عن طريق البريد الالكتروني مفعله ولا يمكن تعطيلها
+  enforcedMFAWithTOTP: كلمة المرور المؤقته المرتبطة بوقت مفعله ولا يمكن تعطيلها
+  externalDisabledByConfig: تم تعطيل المصادقة الخارجية (باستخدام موفر المصادقة الخارجية)
+  failedUnconfirmedEmail: يتطلب النظام بريدًا إلكترونيًا مؤكدًا قبل تسجيل الدخول
+  internalLoginDisabledByConfig: تم تعطيل تسجيل الدخول الداخلي (اسم المستخدم / كلمة المرور)
+  internalSignupDisabledByConfig: تم تعطيل التسجيل الداخلي (اسم المستخدم / كلمة المرور)
+  invalidCredentials: اسم مستخدم وكلمة مرور غير صالحة
+  invalidEmailFormat: بريد إلكتروني خاطئ
+  invalidEmailOTP: رمز خاطئ
+  invalidHandle: المعرف غير صحيح
+  invalidTOTP: رمز خاطئ
+  invalidToken: رمز خاطئ
+  notAllowedToConfigureTOTP: غير مسموح اعداد كلمة مرور مؤقته مرتبطة بوقت
+  notAllowedToImpersonate: لا يسمح بانتحال شخصية هذا المستخدم
+  notAllowedToRemoveTOTP: غير مسموح خذف كلمة مرور مؤقته مرتبطة بوقت
+  passwodResetFailedOldPasswordCheckFailed: فشل في تغيير كلمة المرور ، كلمة المرور القديمة غير متطابقة
+  passwordChangeFailedForUnknownUser: فشل في تغيير كلمة المرور للمستخدم المجهول
+  passwordNotSecure: كلمة المرور المقدمة ليست آمنة ؛ استخدم كلمة مرور أطول بأحرف خاصة أكثر
+  passwordResetDisabledByConfig: اعادة تعيين كلمة المرور معطل
+  profileWithoutValidEmail: أعاد موفر المصادقة الخارجية ملفًا شخصيًا بدون بريد إلكتروني صالح
+  unconfiguredTOTP: كلمة مرور مؤقته مرتبطة بوقت غير مفعل
