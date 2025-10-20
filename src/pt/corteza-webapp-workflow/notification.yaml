@@ -1,51 +1,43 @@
-'configure-triggers': Make sure all trigger steps are properly configured
-'confirm-unsaved-changes': You have unsaved changes, are you sure you want to exit?
-error: " - ERROR: "
-'event-type-not-found': Event type not found
-'event-type-fetch-failed': Failed to fetch event types
-'failed-fetch-functions': Failed to fetch functions
-'failed-fetch-triggers': Failed to fetch triggers
-'failed-fetch-workflow': Failed to fetch workflow
-'failed-fetch-workflows': Failed to fetch workflows
-'failed-load-file': Failed to load file
-'failed-save': Save failed
-'failed-test': Test failed
-'fetch-types-failed': Failed to fetch types
+'configure-triggers': Certifique-se de que todas as etapas do gatilho estejam configuradas corretamente
+'confirm-unsaved-changes': Você tem alterações não salvas. Tem certeza de que deseja sair?
+error: " - ERRO "
+'event-type-not-found': Tipo de evento não encontrado
+'event-type-fetch-failed': Falha ao buscar tipos de eventos
+'failed-fetch-functions': Falha ao buscar funções
+'failed-fetch-triggers': Falha ao buscar acionadores
+'failed-fetch-workflow': Falha ao buscar fluxo de trabalho
+'failed-fetch-workflows': Falha ao buscar fluxos de trabalho
+'failed-load-file': Falha ao carregar o arquivo
+'failed-save': Falha ao salvar
+'failed-test': Teste falhou
+'fetch-types-failed': Falha ao buscar tipos
 general:
-  error: Error
-  success: Success
-  warning: Warning
-  info: Info
+  error: Erro
+  success: Sucesso
+  warning: Aviso
+  info: Informações
 list:
   load:
-    error: Failed to fetch workflows
-  enable:
-    success: Workflow enabled
-    failed: Failed to enable workflow
-  disable:
-    success: Workflow disabled
-    failed: Failed to disable workflow
+    error: Falha ao buscar fluxos de trabalho
 import:
-  'failed-import': Failed to import
-  'imported-workflows': Workflows imported
-  'skipped-workflows': Skipped workflows
-'imported-workflow': Workflow imported
-'import-failed': Import failed
-'initial-scope-load-failed': Failed to load initial scope
-'resolve-issues': Resolve issues to test workflow
-'save-workflow': Save workflow first to test it
-'started-test': Workflow test started
-'test-completed': Test completed
-'test-in-progress': Test in progress
-'trace-unavailable': Trace not available
-'trigger-paths-changed': Trigger paths changed
-'workflow-test-completed': Workflow test completed
+  'failed-import': Falha ao importar
+  'imported-workflows': Fluxos de trabalho importados
+  'skipped-workflows': Fluxos de trabalho ignorados
+'imported-workflow': Fluxo de trabalho importado
+'import-failed': Falha na importação
+'initial-scope-load-failed': Falha ao carregar o escopo inicial
+'resolve-issues': Resolver problemas para testar o fluxo de trabalho
+'save-workflow': Salve o fluxo de trabalho primeiro para testá-lo
+'started-test': Teste de fluxo de trabalho iniciado
+'test-completed': Teste concluído
+'test-in-progress': Teste em andamento
+'trace-unavailable': Rastreamento não disponível
+'trigger-paths-changed': Caminhos de gatilho alterados
+'workflow-test-completed': Teste de fluxo de trabalho concluído
 update:
-  success: Workflow updated
-  failed: Failed to update workflow
+  success: Fluxo de trabalho atualizado
 delete:
-  success: Workflow deleted
-  failed: Failed to delete workflow
+  success: Fluxo de trabalho excluído
+  failed: Falha ao excluir fluxo de trabalho
 undelete:
-  success: Workflow restored
-  failed: Failed to restore workflow
+  success: Fluxo de trabalho restaurado
