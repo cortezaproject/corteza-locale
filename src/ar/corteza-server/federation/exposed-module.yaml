@@ -1,11 +1,11 @@
 errors:
   composeModuleNotFound: compose module not found
   composeNamespaceNotFound: compose namespace not found
-  invalidID: invalid ID
-  nodeNotFound: node does not exist
-  notAllowedToCreate: not allowed to create modules
-  notAllowedToManage: not allowed to manage this module
-  notFound: module does not exist
-  notUnique: node not unique
+  invalidID: معرف خاطئ
+  nodeNotFound: العقدة غير موجودة
+  notAllowedToCreate: غير مسموح انشاء هذا الموديول
+  notAllowedToManage: غير مسموح التحكم بهذا الموديول
+  notFound: الموديول غير موجود
+  notUnique: العقدة غير فريدة
   requestParametersInvalid: request parameters invalid
-  staleData: stale data
+  staleData: بيانات تالفة
