@@ -1,118 +1,105 @@
 automation:
-  add: Add script
+  add: اضافة سكربت
   edit:
-    asyncHelp: Do not wait for results and ignore errors. Incompatible with critical flag.
-    asyncLabel: Run this script asynchronously
-    codeTabLabel: Code
-    criticalHelp: Wait until this script is executed. In case of errors, abort execution of other scripts and before* trigger
-    criticalLabel: Critical script
-    delete: Delete script
-    enabledHelp: Disabled scripts will be ignored
-    enabledLabel: Enabled
+    asyncHelp: لا تنتظر النتائج وتجاهل الأخطاء. غير متوافق مع العلم الحرج.
+    asyncLabel: قم بتشغيل هذا السكربت بشكل غير متزامن
+    codeTabLabel: كود
+    criticalHelp: انتظر حتى يتم تنفيذ هذا السكربت. في حالة وجود أخطاء ، قم بإلغاء تنفيذ السكربتات الأخرى وقبل * المشغل
+    criticalLabel: سكربت هام
+    delete: حذف سكربت
+    enabledHelp: السكربتات الموقفة سيتم تجاهلها
+    enabledLabel: مفعل
     mailAutomationTriggers:
-      addMatcher: Add condition
-      addTrigger: Add trigger
-      delete: Delete trigger
-      deleteTrigger: Delete
-      enable: Enable trigger
-      matchAll: Must match all conditions
+      addMatcher: اضافى شرط
+      addTrigger: اضافة مشغل
+      delete: حذف مشغل
+      deleteTrigger: حذف
+      enable: تمكين مشغل
+      matchAll: يجب تطابق كافة الشروط
       matcher:
         fields:
           bcc: BCC
           cc: CC
-          from: From
-          placeholder: Mail header field
-          replyTo: Reply To
-          subject: Subject
-          to: To
-        match: Value to match
+          from: من
+          placeholder: ترويسة الايميل
+          replyTo: الرد على
+          subject: الموضوع
+          to: الى
+        match: مطابقة القيمة
         operators:
-          equal-ci: Match full
-          placeholder: Operator
-          prefix-ci: Match prefix
+          equal-ci: مطابقة الكل
+          placeholder: معامل
+          prefix-ci: طابق المقدمة
           regex: Regex
-          suffix-ci: Match suffix
-          user: Existing user
-      tabLabel: Mail triggers
-    nameLabel: Name
-    namePlaceholder: Automation script name
-    runAsCurrentUser: Run as "{{ user }}"
-    runAsHelp: Script runner
+          suffix-ci: طابق المؤخرة
+          user: المستخدمين الحاليين
+      tabLabel: مشغل الايميل
+    nameLabel: الاسم
+    namePlaceholder: اسم سكربت الاتمتتة
+    runAsCurrentUser: شغله كـ "{{ user }}"
+    runAsHelp: مشغل السكربت
     scheduledTriggers:
-      tabLabel: Scheduled
-    securityLabel: Security
-    settingsTabLabel: Settings
-    timeoutHelp: How much time do we wait before aborting the script? Value in milliseconds (1000ms = 1s). It defaults (when 0) to 2s with 30s as maximum. Consult with your administrator for exact numbers and limitations.
-    timeoutLabel: Script execution timeout
+      tabLabel: مجدول
+    securityLabel: الأمان
+    settingsTabLabel: الاعدادات
+    timeoutHelp: كم من الوقت ننتظر قبل ايقاف السكربت؟ القيمة بالميلي ثانية (1000 مللي ثانية = 1 ثانية). يتم تعيينه افتراضيًا (عند 0) إلى 2 ثانية بحد أقصى 30 ثانية. استشر المسؤول للحصول على الأرقام والقيود الدقيقة.
+    timeoutLabel: مهلة ايقاف تنفيذ السكربت
     timeoutPlaceholder: "1500"
-    title: Automation script
-    userPickerPlaceholder: Select user
-  import: Import automation script(s)
+    title: سكربت الاتمتتة
+    userPickerPlaceholder: اختر مستخدم
+  import: استيراد سكربتات الاتمتتة
   list:
     column:
       label:
-        async: Async
-        critical: Critical
-        enabled: Enabled
-        runAs: Run As
-        runInUA: In browser
-    unnamed: (Unnamed script)
-  manage: Manage automation scripts ({{count}})
-  manage-id-permissions: Manage permissions for this script
-  manage-wc-permissions: Manage permissions for all scripts
-  newLabel: Create a new script
-  newPlaceholder: Script name
+        async: غير متزامن
+        critical: هام
+        enabled: مفعل
+        runAs: تشغيل كـ
+        runInUA: في المتصفح
+    unnamed: (سكربت بدون اسم)
+  manage: ادارة سكربتات الاتمتتة ({{count}})
+  manage-id-permissions: ادارة الصلاحيات لهذا السكربت
+  manage-wc-permissions: ادارة الصلاحيات لكل السكربتات
+  newLabel: إنشاء سكربت جديد
+  newPlaceholder: اسم السكربت
   testing:
-    load: Load
+    load: تحميل
     parametersHeadline: 'Parameters & payload:'
-    resultsHeadline: 'Results:'
-    testInBrowser: Test in Browser
-    testInCorredor: Test in Corredor
-    warning: ""
-  title: List of automation script
+    resultsHeadline: 'النتائج:'
+    testInBrowser: اختبر في المتصفح
+    testInCorredor: اختبر في Corredor
+  title: قائمة بسكربتات الاتمتتة
 general:
-  resource-list:
-    no-items: No matches for your search
-  notFound: 'Not found'
-  loading: Loading
+  notFound: 'غير موجود'
+  loading: تحميل
   label:
-    "no": "No"
-    submit: Submit
-    "yes": "Yes"
-    selectOption: "Please select an option"
-  logout: Logout
-  noAccess: You do not have permissions to access Admin panel
+    "no": "لا"
+    submit: ارسال
+    "yes": "نعم"
+    selectOption: "يرجى اختيار خيار"
+  logout: تسجيل خروج
+  noAccess: ليس لديك أذونات للوصول إلى لوحة المسؤول
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
+    next: التالي
+    prev: السابق
 navigation:
-  appMenu: Menu
-  adminPanel: Admin panel
-  automation: Automation
-  chart: Charts
-  configuration: Configuration
+  adminPanel: لوحة الادارة
+  automation: أتمتة
+  chart: الرسوم البيانية
+  configuration: اعدادات
   help:
-    documentation: Documentation
-    feedback: Send feedback
-    forum: Help
-    version: 'Version:'
-  module: Modules
-  more: More
+    documentation: المراجع
+    feedback: ارسال افادة
+    forum: مساعدة
+    version: 'النسخة:'
+  module: الموديولز
+  more: مزيد
   namespace: Namespaces
-  noPageTitle: No page title
-  page: Pages
-  publicPages: Public pages
+  noPageTitle: لايوجد عنوان
+  page: الصفحات
+  publicPages: الصفحات المنشورة
   userSettings:
-    changePassword: Change password
-    loggedInAs: Logged in as {{user}}
-    logout: Logout
-    profile: Profile
-    theme: Theme
-picker:
-  role:
-    placeholder: Start typing to search for roles
-  member:
-    placeholder: Start typing to search for users
+    changePassword: تغيير كلمة المرور
+    loggedInAs: مسجل كـ {{user}}
+    logout: تسجيل خروج
+    profile: الملف الشخصي
