@@ -1,16 +1,9 @@
 permissions: Permissions
 report:
-  builder: Report Builder
-  edit: Edit
-  list: List of Reports
-  new: New Report
-  delete: Delete
-searchPlaceholder: Search reports
-title: Reports
-tooltip:
-  permissions: Report permissions
-untitledTitle: Untitled report
+  edit: Éditer
+  delete: Supprimer
+title: Rapports
 columns:
-  name: Name
-  handle: Handle
-  changedAt: Last change
+  name: Nom
+  handle: Identifiant
+  changedAt: Dernier changement
