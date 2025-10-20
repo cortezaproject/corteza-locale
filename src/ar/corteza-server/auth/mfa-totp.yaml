@@ -1,25 +1,18 @@
 template:
-  title: Configure two-factor authentication with TOTP
+  title: اعداد التحقق الثنائي
   enforced: |
-    TOTP multi factor authentication is enforced by Corteza administrator.
-    Please configure it right away.
+    التحقق الثنائي اجباري من مدير النظام.
+    يرجى اعداده الان.
   instructions: |
-    Corteza uses time based one time passwords (TOTP) as one of the underlying technologies for two-factor authentication. Use one of the applications listed below and type in the secret or scan the QR code.
+    تستخدم كورتيزا كلمات مرور لمرة واحدة قائمة على الوقت كأحد التقنيات الأساسية للمصادقة الثنائية. استخدم أحد التطبيقات المدرجة أدناه واكتب السر أو امسح رمز الاستجابة السريعة ضوئيًا.
     <br />
     <br />
-    This will enable additional security for your account.
+    سيؤدي هذا إلى تمكين أمان إضافي لحسابك.<br />
     <br />
-    <br />
-    You can use one of the following applications:
-  lastpass: <a target="_blank" href="{{ link }}">LastPass Authenticator</a>
-  gauth: Google Authenticator for <a target="_blank" href="{{ android }}">Android</a> or <a target="_blank" href="{{ iphone }}">iPhone</a>
-  authy: <a target="_blank" href="{{ link }}">Authy</a>
+    يمكنك استخدام أحد التطبيقات التالية:
   form:
-    title: "Complete the configuration by entering code from the authenticator application:"
-    button: Submit
+    title: "أكمل الاعداد عن طريق إدخال رمز من تطبيق المصادقة:"
+    button: إرسال
 alerts:
-  text-MFA-enabled: Two factor authentication with TOTP enabled
-  text-MFA-disabled: Two factor authentication with TOTP disabled
-errors:
-  invalid-code-format: "Invalid code format"
-  invalid-code: "Invalid code"
+  text-MFA-enabled: التحقق الثنائي بكلمة مرور مؤقته مفعل
+  text-MFA-disabled: التحقق الثنائي بكلمة مرور مؤقته معطل
