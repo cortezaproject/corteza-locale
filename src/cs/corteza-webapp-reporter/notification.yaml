@@ -1,29 +1,29 @@
 datasource:
-  describe-failed: Failed to describe datasource
+  describe-failed: Nepovedlo se popsat zdroj dat
 general:
-  error: Error
-  success: Success
-  warning: Warning
+  error: Chyba
+  success: Úspěch
+  warning: Varování
 list:
   load:
-    error: Failed to load resource list
+    error: Nepovedlo se načíst seznam zdrojů
 module:
-  fetch-failed: Failed to fetch modules
+  fetch-failed: Nepovedlo se načíst moduly
 namespace:
-  fetch-failed: Failed to fetch namespaces
+  fetch-failed: Nepovedlo se načíst jmenné prostory
 report:
-  createFailed: Failed to create report
-  loadFailed: Loading the report failed
-  created: Report created
-  delete: Report deleted
-  deleteFailed: Failed to delete report
-  fetchFailed: Failed to fetch report
-  listFetchFailed: Failed to fetch reports
-  runFailed: Failed to run report
-  updateFailed: Failed to update report
-  updated: Report updated
+  createFailed: Nepovedlo se vytvořit report
+  loadFailed: Načítání reportu selhalo
+  created: Report vytvořen
+  delete: Report smazán
+  deleteFailed: Nepovedlo se smazat report
+  fetchFailed: Nepovedlo se získat report
+  listFetchFailed: Nepovedlo se získat reporty
+  runFailed: Nepovedlo se spustit report
+  updateFailed: Nepovedlo se aktualizovat report
+  updated: Report aktualizován
   notAllowed:
-    read: Not allowed to read report
+    read: Není povoleno zobrazit report
   datasources:
-    updated: Datasources updated
-    updateFailed: Failed to update datasources
+    updated: Zdroje dat aktualizovány
+    updateFailed: Nepovedlo se aktualizovat zdroje dat
