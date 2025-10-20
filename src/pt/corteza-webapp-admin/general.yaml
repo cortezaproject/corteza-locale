@@ -1,4 +1,40 @@
 label:
+  add: Adicionar
   general:
     yes: Yes
     no: No
+  template:
+    plural: Modelos
+  user:
+    single: Do utilizador
+    plural: Comercial
+  role:
+    plural: Funções
+  application:
+    plural: Formulários
+  auth_client:
+    plural: Clientes de autenticação
+  queue:
+    plural: Filas de mensagens
+  session:
+    single: Sessão
+    plural: Sessões
+  workflow:
+    single: Fluxo de trabalho
+    plural: Fluxos de trabalho
+  plus-add: + Adicionar
+  all: Todo
+  none: Nenhum
+  today: Hoje
+  requests: Requisições
+  loading: Carregando
+  saveAndClose: Salvar e fechar
+  cancel: Cancelar
+  submit: Enviar
+  delete: Excluir
+  undelete: Recuperar
+  fileTypeNotAllowed: Tipo de arquivo não permitido
+themes:
+  labels:
+    light: Luz
+    dark: Escuro
