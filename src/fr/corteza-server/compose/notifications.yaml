@@ -1,5 +1,5 @@
 errors:
-  failedToDownloadAttachment: 'could not download attachment from {attachmentURL}: {err}'
-  failedToLoadUser: could not load user for {recipient}
-  invalidReceipientFormat: invalid recipient format ({recipient})
-  noRecipients: cannot send email message without recipients
+  failedToDownloadAttachment: 'impossible de télécharger la pièce jointe depuis {attachmentURL}: {err}'
+  failedToLoadUser: impossible de charger l'utilisateur pour {recipient}
+  invalidReceipientFormat: format de destinataire invalide ({recipient})
+  noRecipients: impossible d'envoyer un courriel sans destinataires
