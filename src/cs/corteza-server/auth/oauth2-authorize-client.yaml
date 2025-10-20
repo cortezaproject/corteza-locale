@@ -1,14 +1,14 @@
 template:
-  title: Authorize
+  title: Autorizovat
   form:
-    greeting-paragraph: Hello
-    question-for-client: would like to perform actions on this Corteza server on your behalf.
+    greeting-paragraph: Dobrý den
+    question-for-client: chce na tomto Corteza serveru provést akce vaším jménem.
     buttons:
-      allow: Allow
-      deny: Deny
+      allow: Povolit
+      deny: Zamítnout
   links:
-    mistake: If this is a mistake, please <a data-test-id="link-logout" href="{{link}}">log out</a>.
+    mistake: Pokud je to omyl, <a data-test-id="link-logout" href="{{link}}">odhlaste se</a> prosím.
   errors:
-    invalid-user: Cannot continue with unauthorized email, visit <a data-test-id="link-redirect-to-profile" href="{{link}}">your profile</a> and resolve the issue.
+    invalid-user: Není možné pokračovat s neautorizovaným emailem, navštivte <a data-test-id="link-redirect-to-profile" href="{{link}}">svůj profil</a> a vyřešte problém.
 alerts:
-  denied: 'Failed to authorize {{client}}: insufficient permissions'
+  denied: 'Nepovedlo se autorizovat {{client}}: nedostatečná oprávnění'
