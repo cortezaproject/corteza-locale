@@ -1,23 +1,23 @@
-add: Add
-aggregate: Aggregate
-compose-records: Compose records
-datasource-name: 'Datasource Name...'
-expression: Expression
-group-by: Group by
-label: Label
-module: Module
-name-required: Name *
-name: Name
-namespace: Namespace
+add: Přidat
+aggregate: Agregovat
+compose-records: Sestavení záznamů
+datasource-name: 'Název zdroje dat...'
+expression: Výraz
+group-by: Seskupit podle
+label: Popisek
+module: Modul
+name-required: Jméno *
+name: Jméno
+namespace: Jmenný prostor
 new:
-  label: New label
-  name: New name
-none: None
-prefilter: Prefilter
+  label: Nový popisek
+  name: Nový název
+none: Nic
+prefilter: Před-filtr
 primary:
-  column: Primary Column
-  source: Primary Source
+  column: Primární sloupec
+  source: Primární zdroj
 secondary:
-  column: Secondary Column
-  source: Secondary Source
-source: Source
+  column: Sekundární sloupec
+  source: Sekundární zdroj
+source: Zdroj
