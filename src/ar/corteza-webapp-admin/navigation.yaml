@@ -1,41 +1,37 @@
-dashboard: Dashboard
+dashboard: لوحة البيانات
 system:
-  group: System
+  group: نظام
   items:
-    users: Users
-    actionlog: Action log
-    apigw: Integration Gateway
-    applications: Applications
+    users: مستخدمين
+    actionlog: سجل الاحداث
+    apigw: واجهة الربط
+    applications: التطبيقات
     authclients: Auth Clients
-    connections: Connections
-    code-snippets: Code Snippets
-    sensitivityLevel: Sensitivity Levels
-    permissions: Permissions
-    queues: Messaging Queues
-    roles: Roles
-    settings: Auth Settings
-    email: Email settings
-    stats: Stats
-    templates: Templates
+    permissions: الصلاحيات
+    queues: قوائم الارسال
+    roles: ادوار
+    email: اعدادات البريد الالكتروني
+    stats: احصائيات
+    templates: قوالب
 compose:
   group: Compose
   items:
-    automation: Automation
-    permissions: Permissions
-    settings: Settings
+    automation: أتمتة
+    permissions: الصلاحيات
+    settings: الاعدادات
 automation:
-  group: Automation
+  group: أتمتة
   items:
-    permissions: Permissions
+    permissions: الصلاحيات
     scripts: Corredor Scripts
-    sessions: Sessions
-    workflows: Workflows
+    sessions: جلسات
+    workflows: سيور عمل
 federation:
   group: Federation
   items:
     nodes: Nodes
-    permissions: Permissions
+    permissions: الصلاحيات
 ui:
-  group: User interface
+  group: واجهة المستخدم
   items:
-    settings: Settings
+    settings: الاعدادات
