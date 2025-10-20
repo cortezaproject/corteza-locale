@@ -1,80 +1,75 @@
 editor:
   content:
     editor:
-      unsupported: Unsupported editor
-    partial: Partial template
+      unsupported: Editor não compatível
+    partial: Modelo parcial
     preview:
-      html: Preview HTML
-      pdf: Preview PDF
-      title: Preview output
-    title: Template content
+      html: Visualizar HTML
+      pdf: Pré-visualização PDF
+      title: Saída de visualização
+    title: Conteúdo do modelo
     toolbox:
-      partials: Partials
+      partials: Parciais
       samples:
-        defaultHTML: Default HTML
-        label: Samples
+        defaultHTML: HTML padrão
+        label: Amostras
       snippets:
-        funcCall: Call a function
-        interpolate: Interpolate value
-        iterator: Iterate over a set
-        label: Snippets
-      title: Toolbox
+        funcCall: Chamar uma função
+        interpolate: Interpolar valor
+        iterator: Iterar sobre um conjunto
+        label: Trechos
+      title: Caixa de ferramentas
   info:
     contentType:
       text_html: HTML
-      text_plain: Plain text
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+      text_plain: Texto simples
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    handle: Identificador
+    placeholder-handle: identificador (a - z, 0 - 9, sublinhado, hífen)
     meta:
-      description: Description
-      short: Short name *
-    partial: Partial template
-    partialDescription: Partial templates may be used inside other templates such as headers and footers. Partial templates may not be used on their own.
-    title: Basic information
-    type: Template type
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Template
-  permissions: Permissions
+      description: Descrição
+      short: Nome curto *
+    partial: Modelo parcial
+    partialDescription: Modelos parciais podem ser usados ​​dentro de outros modelos, como cabeçalhos e rodapés. Os modelos parciais não podem ser usados ​​sozinhos.
+    title: Informação básica
+    type: Tipo de modelo
+    undelete: Recuperar
+    updatedAt: Atualizado em
+  permissions: Permissões
   title:
-    create: Create template
-    edit: Edit template
+    create: Criar modelo
+    edit: Editar modelo
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    handle: Handle
-    language: Language
+    createdAt: Criado
+    handle: Identificador
+    language: Linguagem
     meta:
-      short: Short name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  export: Export
+      short: Nome curto
+  delete: Excluir
+  undelete: Recuperar
+  export: Exportar
   rows:
     filters:
-      deleted: Deleted
+      deleted: Excluído
   filterForm:
     deleted:
-      label: deleted templates
+      label: modelos excluídos
     excluded:
-      label: Without
+      label: Sem
     exclusive:
-      label: Only
+      label: Apenas
     handle:
-      label: Filter templates list
-      placeholder: Filter templates by handle
+      label: Lista de modelos de filtro
+      placeholder: Filtrar modelos por identificador
     inclusive:
-      label: Including
-  loading: Loading templates
-  new: New Template
-  numFound: '{{count}} template found'
-  numFound_plural: '{{count}} templates found'
-  permissions: Permissions
-  title: Templates
+      label: Incluindo
+  loading: Carregando modelos
+  numFound: '{{count}} modelo encontrado'
+  numFound_plural: '{{count}} modelos encontrados'
+  permissions: Permissões
+  title: Modelos
   yaml: YAML
