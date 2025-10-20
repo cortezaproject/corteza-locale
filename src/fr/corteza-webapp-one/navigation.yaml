@@ -1,30 +1,30 @@
-adminPanel: Admin panel
-automation: Automation
-chart: Charts
+adminPanel: Panneau d'administration
+automation: Automatisme
+chart: Graphiques
 configuration: Configuration
 help:
   documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
+  feedback: Envoyer un retour
+  forum: Aide
+  version: 'Version :'
 module: Modules
-more: More
+more: Plus
 namespace: Namespaces
-noPageTitle: No page title
+noPageTitle: Pas de titre de page
 page: Pages
-publicPages: Public pages
+publicPages: Pages publiques
 appMenu: Menu
 userSettings:
-  changePassword: Change password
-  loggedInAs: Logged in as {{user}}
-  logout: Logout
-  profile: Profile
-  theme: Theme
+  changePassword: Changer mot de passe
+  loggedInAs: Connecté en tant que {{user}}
+  logout: Se déconnecter
+  profile: Profil
+  theme: Thème
 themes:
   labels:
-    light: Light
-    dark: Dark
+    light: Clair
+    dark: Sombre
 extendSession:
   labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    extend: Étendre la session
+    warning: Vous serez déconnecté(e) dans {{ countdownTime }} secondes
