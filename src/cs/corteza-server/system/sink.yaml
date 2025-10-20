@@ -1,17 +1,17 @@
 errors:
-  badSinkParamEncoding: bad encoding of sink parameters
-  contentLengthExceedsMaxAllowedSize: content length exceeds max size limit
-  failedToCreateEvent: failed to create sink event from request
-  failedToProcess: failed to process request
-  failedToRespond: failed to respond to request
-  failedToSign: 'could not sign request params: {err}'
-  invalidContentType: invalid content-type header
-  invalidHttpMethod: invalid HTTP method
-  invalidPath: invalid path
-  invalidSignature: invalid signature
-  invalidSignatureParam: invalid sink signature parameter
-  invalidSinkRequestUrlParams: invalid sink request url params
-  misplacedSignature: signature misplaced
-  missingSignature: missing sink signature parameter
-  processingError: sink request process error
-  signatureExpired: signature expired
+  badSinkParamEncoding: špatné kódování parametrů cílového bodu
+  contentLengthExceedsMaxAllowedSize: content length překračuje maximální délku
+  failedToCreateEvent: nepovedlo se vytvořit událost cílového bodu z žádosti
+  failedToProcess: nepovedlo se zpracovat žádost
+  failedToRespond: nepovedlo se odpovědět na žádost
+  failedToSign: 'nepovedlo se podepsat parametr žádosti: {err}'
+  invalidContentType: nevalidní hlavička content-type
+  invalidHttpMethod: nevalidní HTTP metoda
+  invalidPath: nevalidní cesta
+  invalidSignature: nevalidní signatura
+  invalidSignatureParam: nevalidní parametr signatury cílového bodu
+  invalidSinkRequestUrlParams: nevalidní URL parametry v requestu na cílovýbod
+  misplacedSignature: signatura neodpovídá
+  missingSignature: chybí parametr signatury cílového bodu
+  processingError: chyba zpracování cílového bodu
+  signatureExpired: expirovaná signatura
