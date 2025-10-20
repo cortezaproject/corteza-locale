@@ -1,57 +1,51 @@
 editor:
   info:
-    completedAt: Completed at
-    createdAt: Created at
-    createdBy: Created by - ID
-    createdByUserName: Created by - Name
-    delete: Delete
-    deletedAt: Deleted at
-    suspendedAt: Suspended at
-    error: Error
-    eventType: Event type
+    completedAt: تم اكماله في
+    createdAt: تم انشائه في
+    createdBy: منشئ بواسطة - المعرف
+    createdByUserName: منشئ بواسطة - الاسم
+    delete: حذف
+    deletedAt: محذوف في
+    suspendedAt: موقف
+    error: خطأ
+    eventType: نوع الحدث
     id: ID
-    resourceType: Resource type
-    status: Status
-    title: Basic information
-    workflowID: WorkflowID
-    openWorkflow: Open workflow
-    cancel: Cancel session
-  title: Session
+    resourceType: نوع المورد
+    status: الحالة
+    title: معلومات مبدئية
+    workflowID: رقم سير العمل
+  title: الجلسة
 list:
   columns:
-    actions: ""
-    createdAt: Created At
-    eventType: Event type
-    sessionID: SessionID
-    state: State
-    status: Status
-    workflowID: WorkflowID
+    createdAt: تم انشائه في
+    eventType: نوع الحدث
+    sessionID: معرف الجلسة
+    status: الحالة
+    workflowID: رقم سير العمل
   filterForm:
     all:
-      label: All
+      label: الكل
     completed:
-      label: Completed
+      label: مكتمل
     excluded:
-      label: Without
+      label: بدون
     exclusive:
-      label: Only
+      label: فقط
     failed:
-      label: Failed
+      label: فاشل
     inProgress:
-      label: completed sessions
+      label: جلسات مكتملة
     inclusive:
-      label: Including
+      label: يشمل
     prompted:
-      label: Prompted
+      label: بطلب
     sessions:
-      label: sessions
+      label: جلسات
     started:
-      label: Started
+      label: بدأ
     suspended:
-      label: Suspended
-    canceled:
-      label: Canceled
-  loading: Loading sessions
-  numFound: '{{count}} session found'
-  numFound_plural: '{{count}} sessions found'
-  title: Sessions
+      label: موقف
+  loading: تحميل الجلسات
+  numFound: '{{count}} جلسة'
+  numFound_plural: '{{count}} جلسات'
+  title: جلسات
