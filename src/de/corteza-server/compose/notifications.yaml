@@ -1,5 +1,5 @@
 errors:
-  failedToDownloadAttachment: 'could not download attachment from {attachmentURL}: {err}'
-  failedToLoadUser: could not load user for {recipient}
-  invalidReceipientFormat: invalid recipient format ({recipient})
-  noRecipients: cannot send email message without recipients
+  failedToDownloadAttachment: 'Anlage konnte nicht heruntergeladen werden von {attachmentURL}: {err}'
+  failedToLoadUser: Nutzer konnte nicht geladen werden für {recipient}
+  invalidReceipientFormat: ungültiges Empfängerformat ({recipient})
+  noRecipients: E-Mail-Nachrichten ohne Empfänger können nicht gesendet werden
