@@ -1,12 +1,11 @@
 errors:
-  invalidConfiguration: Invalid report configuration
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create reports
-  notAllowedToDelete: not allowed to delete this report
-  notAllowedToListReports: not allowed to list reports
-  notAllowedToRead: not allowed to read this report
-  notAllowedToRun: not allowed to run this report
-  notAllowedToSearch: not allowed to list or search reports
-  notAllowedToUndelete: not allowed to undelete this report
-  notAllowedToUpdate: not allowed to update this report
-  notFound: report not found
+  invalidID: ungültige ID
+  notAllowedToCreate: Erstellen von Berichten ist nicht zulässig
+  notAllowedToDelete: dieser Bericht kann nicht gelöscht werden
+  notAllowedToListReports: Berichte können nicht aufgelistet werden
+  notAllowedToRead: dieser Bericht kann nicht gelesen werden
+  notAllowedToRun: dieser Bericht kann nicht ausgeführt werden
+  notAllowedToSearch: "Berichte können nicht aufgelistet oder gesucht werden\n"
+  notAllowedToUndelete: dieser Bericht kann nicht wiederhergestellt werden
+  notAllowedToUpdate: dieser Bericht kann nicht aktualisiert werden
+  notFound: Bericht nicht gefunden
