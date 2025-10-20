@@ -1,145 +1,116 @@
 editor:
-  title: System settings
+  title: Настройки системы
   auth:
-    title: Authentication
+    title: Аутентификация
     url: URL
     internal:
-      title: Internal
-      enabled: Internal authentication enabled
+      title: Внутренний
+      enabled: Встроенная аутентификация включена
       password-reset:
-        enabled: Password reset enabled
+        enabled: Сброс пароля включен
       password-constraints:
-        title: Password constraints
-        ignored-security: The system is configured to ignore password security constraints which is insecure on production deployments. If this is a production deployment, please contact your administrator to update the system configuration (the AUTH_PASSWORD_SECURITY .env variable).
-        min-length: Minimum length
-        min-length-description: Must be at least 8 characters
-        min-num-count: Minimum number of digits
-        min-num-count-description: The password must include the specified number of digits (disabled if set to 0)
-        min-special-count: Minimum number of special characters
-        min-special-count-description: The password must include the specified number of special characters (disabled if set to 0)
-        min-upper-case-length: Minimum number of upper case characters
-        min-upper-case-description: The password must include the specified number of upper case characters (disabled if set to 0)
-        min-lower-case-length: Minimum number of lower case characters
-        min-lower-case-description: The password must include the specified number of lower case characters (disabled if set to 0)
+        title: Пароль ограничен
+        ignored-security: Система настроена так, чтобы игнорировать ограничения безопасности паролей, которые небезопасны при развертываниях производства. Если это производственное развертывание, пожалуйста, свяжитесь с администратором для обновления конфигурации системы (переменная AUTH_PASSWORD_SECURITY .env). (...)
+        min-length: Минимальная длина
+        min-length-description: Должно быть не менее 8 символов
+        min-special-count: Минимальное количество специальных символов
+        min-special-count-description: Пароль должен содержать указанное число символов (отключено, если установлено значение 0)
       signup:
-        email-confirmation-required: Signup email confirmation required
-        enabled: Signup enabled
+        email-confirmation-required: Требуется подтверждение по электронной почте
+        enabled: Регистрация включена
         split-credentials-check:
-          description: 'Split login into two steps: collect the email input first and show the input for the password on the 2nd screen. Automatically forward user to external identity provider when user does not have his password set and there is only one IdP present'
-          label: Enable split-credentials check
-      profile-avatar:
-        enabled: Profile avatar enabled
+          description: 'Разделите вход на два шага: сначала соберите входную почту и покажите ввод пароля на 2-ом экране Автоматически перенаправлять пользователя к внешнему поставщику удостоверений, когда пользователь не имеет его пароль и есть только один IdP присутствует'
+          label: Включить проверку раздельных учетных данных
       send-user-invite-email:
-        title: Invite email
-        enabled: Send invite email on user creation
-        description: When enabled, this configuration sends an invite email to a newly created user via the CLI
         expires:
-          label: Valid for
-          description: How long will the invite token be valid before it expires
+          label: Проверка для
     mail:
-      title: Authentication email sender mail
-      from-address: Sender's address
-      from-name: Sender's name
-      validate-email: Please enter valid email address
+      title: Почта отправителя электронной почты аутентификации
+      from-address: Адрес отправителя
+      from-name: Имя отправителя
     mfa:
-      title: Multi-factor authentication
+      title: Многофакторная аутентификация
       TOTP:
-        enabled: Allow users to use time based one-time-password (using mobile application)
-        enforced: Force users to use time based one-time-password (using mobile application)
+        enabled: Разрешить пользователям использовать одноразовый пароль (с помощью мобильного приложения)
+        enforced: Заставить пользователей использовать одноразовый пароль (с помощью мобильного приложения)
         issuer:
-          description: Issuer name will be send to authenticator app when user configures it
-          label: Issuer
+          description: Имя поставщика будет отправлено в приложение проверки подлинности при настройке пользователем
+          label: Издатель
       emailOTP:
-        enabled: Allow users to use one-time-password over email
-        enforced: Force users to use one-time-password over email
+        enabled: Разрешить пользователям использовать одноразовый пароль по электронной почте
+        enforced: Заставить пользователям использовать одноразовый пароль по электронной почте
         expires:
-          description: How long will password be valid before it expires
-          label: Valid for
+          description: Срок действия пароля до его истечения
+          label: Проверка для
     auto-logout:
-      title: Auto logout
       enabled:
-        label: Enabled
-        description: Automatically log out users after a certain period of inactivity
-      timeout:
-        label: Timeout
-        description: The period of inactivity in seconds before a user is logged out
+        label: Включено
   external:
-    title: External Authentication Providers
-    enabled: Enable external authentication
+    title: Поставщики внешней аутентификации
+    enabled: Включить внешнюю аутентификации
     table:
       header:
-        enabled: Enabled
-        provider: Provider
-        info: Issuer, client ID
+        enabled: Включено
+        provider: Провайдер
+        info: Внутренний,  ID клиента
     standard:
-      enabled: Enabled
-      apiAccess: Api access
-      clientKey: Client key
-      clientSecret: Secret
+      enabled: Включено
+      clientKey: ' Ключ клиента'
+      clientSecret: Секретный
     oidc:
-      add: Add an OIDC provider
-      enabled: Enabled
-      handle: Handle
-      title: OpenID Connect
-      issuer: OIDC Issuer URL
-      issuerHint: Where to find the /.well-known/openid-configuration (without the /.well-known/openid-configuration part)
-      clientKey: Client key
-      clientSecret: Secret
+      add: Добавление поставщика OIDC
+      enabled: Включено
+      handle: Указатель
+      title: OpenID Подключить
+      issuer: OIDC Внутренний URL
+      issuerHint: Где найти общеизвестную/openid-конфигурацию (без /.общеизвестной/openid-конфигурации)
+      clientKey: ' Ключ клиента'
+      clientSecret: Секретный
       scope: Scope
-      scopePlaceholder: List out supported OAuth scope values
-      scopeHint: Use space delimited string
+      scopePlaceholder: Список поддерживаемых значений области OAuth
+      scopeHint: Использовать строку с разделителями пространства
     saml:
-      enabled: Enabled
+      enabled: Включено
       title: SAML
       requests:
-        title: Requests
-        sign-requests: Sign requests
-        sign-method: Signature method
-        binding: Binding
+        title: Запросы
+        sign-requests: Сбор заявок
+        sign-method: Саособ подписания
+        binding: Обязательный
         binding-redirect: HTTP Redirect
         binding-post: HTTP POST
       cert:
-        public: Public key
-        private: Private key
-      name: Name
-      certificate: Certificate
+        public: Публичный ключ
+        private: Приватный ключ
+      name: Имя
+      certificate: Сертификат
       idp:
         title: Identity provider
-        ident-handle: Handle field
-        ident-identifier: Identifier field
-        ident-name: Name field
+        ident-handle: Поле
+        ident-identifier: Внутреннее поле
+        ident-name: Поле метки
         url: URL
       desc:
-        name: IdP name used on the login screen (Login with <name>)
+        name: IdP используемое в окне входа в систему (Login with <name>)
         cert:
-          public: Content will be minimized
-          private: Content will be minimized
+          public: Содержание будет минимизировано
+          private: Содержание будет минимизировано
         requests:
-          sign-requests: Sign AuthNRequest and assertion
-          sign-method: Method to use on signed requests
-          binding: The type of HTTP binding to use on AuthNRequest, defaults to HTTP Redirect (GET)
+          sign-requests: Подписать AuthNRequest и утверждение
+          sign-method: Способ использования на подписанных запросах
+          binding: Тип привязки НТТР для использования в AuthNRequest по умолчанию для HTTP Redirect (GET)
         idp:
-          url: Location of IdP metadata
-          ident-handle: Name of the IdP field used for filling Corteza user handle or nickname
-          ident-identifier: Name of the IdP field used for filling and matching Corteza user email
-          ident-name: Name of the IdP field used for filling Corteza user full name
+          url: Расположение метаданных IdP
+          ident-handle: Название поля IdP, используемое для заполнения nickname
+          ident-identifier: Имя поля IdP, используемого для заполнения и соответствия электронной почты пользователя
+          ident-name: Имя поля IdP, используемого для заполнения полного имени пользователя
     security:
-      title: Security
+      title: Безопасность
       prohibited-roles:
-        description: Roles from this list will be removed from security context when authenticates with this provider
-        label: Prohibited roles
+        description: Роли из этого списка будут удалены из контекста безопасности при проверке подлинности с этим поставщиком
       forced-roles:
-        description: Roles from this list will be always added to security context when authenticates with this provider
-        label: Forced roles
+        description: Роли из этого списка всегда добавляются в контекст безопасности при проверке подлинности с этим поставщиком
+        label: Принудительная роль
       permitted-roles:
-        description: Only roles in this list will be added into security context when authenticates with this provider
-        label: Permitted roles
-  bgScreen:
-    title: Auth background screen
-    image:
-      uploader:
-        label: Background image
-        instructions: Click or drop background image here to upload
-        uploading: Uploading auth background image
-      editor:
-        label: Custom CSS
+        description: Только роли в этом списке будут добавлены в контекст безопасности при проверке подлинности с этим поставщиком
+        label: Разрешено ролям
