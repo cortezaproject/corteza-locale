@@ -1,6 +1,6 @@
 errors:
-  invalidID: invalid ID
-  notAllowedToAssign: not allowed to assign reminders to other users
-  notAllowedToDismiss: not allowed to dismiss reminders of other users
-  notAllowedToRead: not allowed to read reminders of other users
-  notFound: reminder not found
+  invalidID: ID inválida
+  notAllowedToAssign: não tem permissão para atribuir lembretes a outros usuários
+  notAllowedToDismiss: não tem permissão para dispensar lembretes de outros usuários
+  notAllowedToRead: não tem permissão para ler lembretes de outros usuários
+  notFound: lembrete não encontrado
