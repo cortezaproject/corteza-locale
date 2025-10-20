@@ -1,140 +1,140 @@
 chart:
   configurator:
-    begin-axis-at-zero: Always begin axis scale at zero
-    chart-title: Chart title
-    color-scheme: Color scheme
+    begin-axis-at-zero: Vždy začít osu na nule
+    chart-title: Nadpis grafu
+    color-scheme: Barevné schéma
     data: Data
-    data-columns: Data columns
-    default: Default
-    default-value: Default value
-    general: General
-    label-column: Label column
-    logarithmic-scale: Logarithmic scale
-    position-description: Values can be set as pixels (20) or as percentages (20%)
-    none: None
-    place-axis-on-right-side: Place axis on the right side
-    skip-missing-values: Skip missing values
-    step-size: Step size
+    data-columns: Sloupce dat
+    default: Výchozí
+    default-value: Výchozí hodnota
+    general: Obecné
+    label-column: Popisek sloupce
+    logarithmic-scale: Logaritmické měřítko
+    position-description: Hodnoty můžou být v pixelech (20) nebo v procentech (20%)
+    none: Nic
+    place-axis-on-right-side: Umístil osu na pravou stranu
+    skip-missing-values: Vynechat chybějící hodnoty
+    step-size: Velikost kroku
     animation:
-      enabled: Animation enabled
+      enabled: Animace povolena
     metrics:
-      label: Metrics
-      field: Field
+      label: Hodnoty
+      field: Pole
       stack:
-        label: Stack
-        description: Metrics with same value will be stacked
+        label: Spojit
+        description: Hodnoty se stejnými hodnotami budou spojeny
       label-field:
-        label: Label
+        label: Popisek
     time:
-      label: Time
+      label: Čas
       unit:
-        label: Time unit
+        label: Jednotka času
         types:
-          date: Date
-          month: Month
-          quarter: Quarter
-          week: Week
-          year: Year
-    type: Type
+          date: Datum
+          month: Měsíc
+          quarter: Čtvrtletí
+          week: Týden
+          year: Rok
+    type: Typ
     types:
-      bar: Bar
-      doughnut: Doughnut
-      funnel: Funnel
-      line: Line
-      pie: Pie
+      bar: Sloupec
+      doughnut: Kobliha
+      funnel: Trychtýř
+      line: Spojnice
+      pie: Koláč
     value:
-      max: Max value
-      min: Min value
+      max: Maximální hodnota
+      min: Minimální hodnota
     x-axis:
-      name: X-Axis
-      label: Axis label
-      type: Axis type
+      name: Osa X
+      label: Popisek osy
+      type: Typ osy
       labelRotation:
-        label: Rotate labels
+        label: Rotace popisků
     y-axis:
-      name: Y-Axis
-      label: Axis label
+      name: Osa Y
+      label: Popisek osy Y
       labelPosition:
-        label: Label position
-        top: Top
-        center: Center
-        bottom: Bottom
+        label: Umístění popisku
+        top: Nahoře
+        center: Uprostřed
+        bottom: Dole
       labelRotation:
-        label: Rotate labels
+        label: Rotace popisků
     legend:
-      name: Legend
-      hide: Hide legend
-      scrollable: Scrollable
+      name: Legenda
+      hide: Skrýt legendu
+      scrollable: Posuvné
       orientation:
-        label: Orientation
-        horizontal: Horizontal
-        vertical: Vertical
+        label: Orientace
+        horizontal: Horizontální
+        vertical: Vertikální
       align:
-        label: Align
-        left: Left
-        right: Right
-        center: Center
+        label: Zarovnání
+        left: Vlevo
+        right: Vpravo
+        center: Uprostřed
       position:
-        description: Values c
-        default: Default position
-        top: Top
-        right: Right
-        bottom: Bottom
-        left: Left
+        description: Hodnoty c
+        default: Výchozí pozice
+        top: Nahoře
+        right: Vpravo
+        bottom: Dole
+        left: Vlevo
     tooltips:
-      name: Tooltips
+      name: Detail
       show:
-        always: Always show labels
+        always: Vždy zobrazit popisky
     offset:
       name: Offset
-      default: Default offset
-      top: Top
-      right: Right
-      bottom: Bottom
-      left: Left
+      default: Výchozí offset
+      top: Nahoře
+      right: Vpravo
+      bottom: Dole
+      left: Vlevo
 metric:
   configurator:
     color:
-      background: Background color
-      text: Text color
-      picker: Choose a color
-    format: Format
-    label-column: Label column
-    none: None
-    prefix: Prefix
-    suffix: Suffix
+      background: Barva pozadí
+      text: Barva textu
+      picker: Vybrat barvu
+    format: Formát
+    label-column: Popisek sloupce
+    none: Nic
+    prefix: Předpona
+    suffix: Přípona
 table:
   configurator:
-    general: General
+    general: Obecné
     data: Data
-    columns: Columns
-    dark: Dark
-    head-variant: Head Variant
-    joined-datasource-handling: Joined datasource handling
-    light: Light
-    none: None
+    columns: Sloupce
+    dark: Tmavé
+    head-variant: Varianta hlavičky
+    joined-datasource-handling: Práce se sloučenými zdroji dat
+    light: Světlé
+    none: Nic
     table:
       options:
-        bordered: Bordered
-        borderless: Borderless
-        dark: Dark
-        fixed: Fixed
+        bordered: S ohraničením
+        borderless: Bez ohraničení
+        dark: Tmavé
+        fixed: Fixováno
         hover: Hover
-        label: Table Options
-        no-collapse: No border collapse
-        responsive: Responsive
-        small: Small
+        label: Možnosti tabulky
+        no-collapse: Bez sloučení okrajů
+        responsive: Responsivní
+        small: Malé
         striped: Striped
-      variant: Table Variant
+      variant: Varianta tabulky
       variants:
-        danger: Danger
-        dark: Dark
-        info: Info
-        light: Light
-        primary: Primary
-        secondary: Secondary
-        success: Success
-        warning: Warning
+        danger: Pozor
+        dark: Tmavé
+        info: Informace
+        light: Světlé
+        primary: Primární
+        secondary: Sekundární
+        success: Úspěch
+        warning: Varování
   view:
-    next: Next
-    previous: Previous
+    next: Další
+    previous: Předchozí
