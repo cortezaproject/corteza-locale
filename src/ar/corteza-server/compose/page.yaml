@@ -1,17 +1,17 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  invalidNamespaceID: invalid or missing namespace ID
-  moduleNotFound: module does not exist
-  namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create pages
-  notAllowedToDelete: not allowed to delete this page
-  notAllowedToListPages: not allowed to list pages
-  notAllowedToRead: not allowed to read this page
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list pages
-  notAllowedToUndelete: not allowed to undelete this page
-  notAllowedToUpdate: not allowed to update this page
-  notFound: page does not exist
-  staleData: stale data
+  handleNotUnique: المعرف غير فريد
+  invalidHandle: المعرف غير صحيح
+  invalidID: معرف خاطئ
+  invalidNamespaceID: معرف namespace خاطئ او مفقود
+  moduleNotFound: الموديول غير موجود
+  namespaceNotFound: الـ namespace غير موجود
+  notAllowedToCreate: غير مسموح انشاء صفحات
+  notAllowedToDelete: غير مسموح حذف هذه الصفحة
+  notAllowedToListPages: غير مسموح عرض صفحات
+  notAllowedToRead: غير مسموح قراءة هذه الصفحة
+  notAllowedToReadNamespace: غير مسموح قراءة هذا الـ namespace
+  notAllowedToSearch: غير مسموح البحث او عرض هذا الصفحات
+  notAllowedToUndelete: غير مسموح اعادة هذه الصفحة
+  notAllowedToUpdate: غير مسموح تحديث الصفحة
+  notFound: الصفحة غير موجوده
+  staleData: بيانات تالفة
