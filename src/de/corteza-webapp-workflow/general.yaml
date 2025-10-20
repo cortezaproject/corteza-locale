@@ -1,66 +1,42 @@
-clear: Clear
-description: Description
-enabled: Enabled
-enable: Enable
-disable: Disable
-error: Error
-error-expression: Error message (expression)
-export: Export
-general: General
-handle: Handle
+description: '$t(general.label.description)'
+enabled: Aktiviert
+disable: Deaktivieren
+error: Fehler
+export: Exportieren
+general: Allgemeines
+handle: Name
 import:
-  json: Import JSON
-  label: Import
-  reassign-run-as: "NOTE: the Run as workflow property won't be imported and should be reassigned"
-  upload-files: Browse or drop files to upload...
+  label: Importieren
 label:
-  all: All
+  all: Alle
   label: Label
-loading: Loading
+loading: Lade
 name: Name
-new-workflow: New Workflow
-none: None
-now: Now
-offset: Offset
-offset-expression: Offset (expression)
-permissions: Permissions
+new-workflow: Neu
+none: Kein
+permissions: Berechtigungen
 searchPlaceholder: Search workflows
-subworkflow: Subworkflow
-subworkflows: Subworkflows
-deleted: Deleted
-disabled: Disabled
-without: Without
-only: Only
-including: Including
-workflow-list: List of Workflows
+deleted: Gelöscht
+disabled: Deaktivieren
+without: Ohne
+only: Nur
+including: Einschließlich
+workflow-list: Liste der Workflows
 workflow:
   single: Workflow
   plural: Workflows
-save: Save
-today: Today
-cancel: Cancel
+save: Speichern
+today: Heute
+cancel: Abbrechen
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: Nicht gefunden
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
-tooltip:
-  permissions: Workflow permissions
+    next: Nächste
+    prev: Prev
 columns:
   name: Name
-  enabled: Enabled
-  steps: Steps
-  changedAt: Last change
+  enabled: Aktiviert
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: Hell
+    dark: Dunkel
