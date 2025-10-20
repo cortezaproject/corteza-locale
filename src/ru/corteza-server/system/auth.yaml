@@ -1,25 +1,25 @@
 errors:
-  credentialsLinkedToInvalidUser: credentials {credentials.kind} linked to disabled or deleted user {user}
-  disabledMFAWithEmailOTP: multi factor authentication with email OTP is disabled
-  disabledMFAWithTOTP: multi factor authentication with TOTP is disabled
-  enforcedMFAWithEmailOTP: OTP over email is enforced and cannot be disabled
-  enforcedMFAWithTOTP: TOTP is enforced and cannot be disabled
-  externalDisabledByConfig: external authentication (using external authentication provider) is disabled
-  failedUnconfirmedEmail: system requires confirmed email before logging in
-  internalLoginDisabledByConfig: internal login (username/password) is disabled
-  internalSignupDisabledByConfig: internal sign-up (username/password) is disabled
-  invalidCredentials: invalid username and password combination
-  invalidEmailFormat: invalid email
-  invalidEmailOTP: invalid code
-  invalidHandle: invalid handle
-  invalidTOTP: invalid code
-  invalidToken: invalid token
-  notAllowedToConfigureTOTP: not allowed to configure TOTP
-  notAllowedToImpersonate: not allowed to impersonate this user
-  notAllowedToRemoveTOTP: not allowed to remove TOTP
-  passwodResetFailedOldPasswordCheckFailed: failed to change password, old password does not match
-  passwordChangeFailedForUnknownUser: failed to change password for the unknown user
-  passwordNotSecure: provided password is not secure; use longer password with more special characters
-  passwordResetDisabledByConfig: password reset is disabled
+  credentialsLinkedToInvalidUser: Данные для входа {credentials.kind} принадлежат отключенному или удалённому пользователю {user}
+  disabledMFAWithEmailOTP: Многофакторная аутентификация с электронной почтой отключена 
+  disabledMFAWithTOTP: Многофакторная аутентификация с TOTP отключена 
+  enforcedMFAWithEmailOTP: ОТР по электронной почте обязателен и не может быть отключен
+  enforcedMFAWithTOTP: TОТР по электронной почте обязателен и не может быть отключен
+  externalDisabledByConfig: внешняя аутентификация (с использованием внешнего поставщика аутентификации) отключена
+  failedUnconfirmedEmail: система требует подтверждения электронной почты перед входом в систему
+  internalLoginDisabledByConfig: Отключен внутренний логин/пароль
+  internalSignupDisabledByConfig: Отключено имя/пароль внутренней регистрации
+  invalidCredentials: Неверная комбинация имени пользователя и пароля
+  invalidEmailFormat: Неверный email
+  invalidEmailOTP: Неверный code
+  invalidHandle: Неверный handle
+  invalidTOTP: Неверный code
+  invalidToken: Неверный token
+  notAllowedToConfigureTOTP: Не разрешается настраивать TOTP
+  notAllowedToImpersonate: не разрешается олицетворять этого пользователя
+  notAllowedToRemoveTOTP: не разрешается удалять TOTP
+  passwodResetFailedOldPasswordCheckFailed: не удалось изменить пароль, старый пароль не совпадает
+  passwordChangeFailedForUnknownUser: не удалось изменить пароль для неизвестного пользователя
+  passwordNotSecure: Пароль не является безопасным; используйте более длинный пароль с специальными символами
+  passwordResetDisabledByConfig: сброс пароля отключен
   profileWithoutValidEmail: external authentication provider returned profile without valid email
-  unconfiguredTOTP: TOTP not configured
+  unconfiguredTOTP: TOTP не настроен
