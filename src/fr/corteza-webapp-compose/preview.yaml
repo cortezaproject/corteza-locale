@@ -1,14 +1,14 @@
 general:
   label:
-    attachmentFileInfo: '(File size: {{0}}, uploaded {{1}})'
-    download: Download
+    attachmentFileInfo: '(Taille de fichier : {{0}}, téléversé {{1}})'
+    download: Télécharger
   tooltip:
-    dragAndDrop: Drag and drop to change order
+    dragAndDrop: Glisser et déposer pour changer l'ordre
 pdf:
-  clickToRetry: Click to retry
-  downloadForAll: Download to see all pages
-  firstPagePreview: First page preview
-  loading: Loading
-  noPages: This document is empty
-  pageLoadFailed: Page failed to load
-  pageLoading: Loading
+  clickToRetry: Cliquez pour réessayer
+  downloadForAll: Télécharger pour voir toutes les pages
+  firstPagePreview: Prévisualisation 1ère page
+  loading: Chargement
+  noPages: Ce document est vide
+  pageLoadFailed: Le chargement de la page a échoué
+  pageLoading: Chargement
