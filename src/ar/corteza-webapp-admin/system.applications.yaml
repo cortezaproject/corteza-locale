@@ -1,68 +1,64 @@
 editor:
   info:
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    enabled: Enabled
+    createdAt: تم انشائه في
+    createdBy: انشأ من قبل
+    delete: حذف
+    deletedAt: محذوف في
+    enabled: مفعل
     id: ID
-    name: Name *
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Application
-  permissions: Permissions
+    name: اسم *
+    title: معلومات مبدئية
+    undelete: استعادة
+    updatedAt: تم تحديثه في
+  permissions: الصلاحيات
   title:
-    create: Create application
-    edit: Edit application
+    create: إنشاء تطبيق جديد
+    edit: تحرير تطبيق
   unify:
     config:
       description: Application configuration (JSON)
-      label: Configuration
-    listed: Listed
+      label: اعدادات
+    listed: مدرج
     logo:
-      label: Logo
-      description: Logo used in the application selector
-      placeholder: Choose a logo or drop it here...
-      reset: Reset
+      label: شعار
+      description: الشعار المستخدم في محدد التطبيق
+      placeholder: اختر شعارًا أو أسقطه هنا...
+      reset: اعادة تعيين
     name:
-      description: Name used in the application selector
-      label: Name
-    pinned: Pinned
-    title: App selector
+      description: الاسم المستخدم في محدد التطبيق
+      label: اسم
+    pinned: مثبت
+    title: محدد التطبيق
     url:
       description: Application URL
       label: URL
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    name: Name
-    appListName: App selector name
-    state: State
-  export: Export
+    createdAt: تم انشائه
+    enabled: مفعل
+    name: اسم
+    appListName: محدد التطبيق
+  export: تصدير
   rows:
     filters:
-      deleted: Deleted
+      deleted: محذوف
   filterForm:
     deleted:
-      label: deleted applications
+      label: التطبيقات المحذوف
     excluded:
-      label: Without
+      label: بدون
     exclusive:
-      label: Only
+      label: فقط
     inclusive:
-      label: Including
+      label: يشمل
     query:
-      label: Filter applications list
-      placeholder: Filter applications by name
-  loading: Loading applications
-  new: New Application
-  numFound: '{{count}} application found'
-  numFound_plural: '{{count}} applications found'
-  permissions: Permissions
-  title: Applications
+      label: قائمة التطبيقات المرشحة
+      placeholder: قائمة التطبيقات المرشحة بالاسم
+  loading: تحميل التطبيقات
+  numFound: '{{count}} تطبيق'
+  numFound_plural: '{{count}} تطبيقات'
+  permissions: الصلاحيات
+  title: التطبيقات
   yaml: YAML
-  delete: Delete
-  undelete: Undelete
+  delete: حذف
+  undelete: استعادة
