@@ -1,57 +1,50 @@
 editor:
   info:
-    completedAt: Completed at
-    createdAt: Created at
-    createdBy: Created by - ID
-    createdByUserName: Created by - Name
-    delete: Delete
-    deletedAt: Deleted at
-    suspendedAt: Suspended at
-    error: Error
-    eventType: Event type
+    completedAt: Abgeschlossen am
+    createdAt: Erstellt am
+    createdBy: Erstellt bei - ID
+    createdByUserName: Erstellt bei - Name
+    delete: Löschen
+    deletedAt: Gelöscht am
+    error: Fehler
+    eventType: Ereignistyp
     id: ID
-    resourceType: Resource type
+    resourceType: Ressourcentyp
     status: Status
-    title: Basic information
+    title: Grundlegende Informationen
     workflowID: WorkflowID
-    openWorkflow: Open workflow
-    cancel: Cancel session
-  title: Session
+  title: Sitzung
 list:
   columns:
-    actions: ""
-    createdAt: Created At
-    eventType: Event type
-    sessionID: SessionID
-    state: State
+    createdAt: Erstellt am
+    eventType: Ereignistyp
+    sessionID: SitzungsID
     status: Status
     workflowID: WorkflowID
   filterForm:
     all:
-      label: All
+      label: Alle
     completed:
-      label: Completed
+      label: Abgeschlossen
     excluded:
-      label: Without
+      label: Ohne
     exclusive:
-      label: Only
+      label: Nur
     failed:
-      label: Failed
+      label: Fehlgeschlagen
     inProgress:
-      label: completed sessions
+      label: Abgeschlossene Sitzungen
     inclusive:
-      label: Including
+      label: Einschließlich
     prompted:
-      label: Prompted
+      label: Aufgefordert
     sessions:
-      label: sessions
+      label: Sitzungen
     started:
-      label: Started
+      label: Gestartet
     suspended:
-      label: Suspended
-    canceled:
-      label: Canceled
-  loading: Loading sessions
-  numFound: '{{count}} session found'
-  numFound_plural: '{{count}} sessions found'
-  title: Sessions
+      label: Gesperrt
+  loading: Sitzungen werden geladen
+  numFound: '{{count}} Sitzung gefunden'
+  numFound_plural: '{{count}} Sitzungen gefunden'
+  title: Sitzungen
