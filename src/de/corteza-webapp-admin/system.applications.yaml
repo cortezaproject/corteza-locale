@@ -1,68 +1,47 @@
 editor:
   info:
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    enabled: Enabled
+    createdAt: Erstellt am
+    createdBy: Erstellt bei
+    delete: Löschen
+    deletedAt: Gelöscht am
+    enabled: Aktiviert
     id: ID
-    name: Name *
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Application
-  permissions: Permissions
-  title:
-    create: Create application
-    edit: Edit application
+    name: Name
+    title: Grundlegende Informationen
+    undelete: Wiederherstellen
+    updatedAt: Aktualisiert am
+  new: New
+  permissions: Berechtigungen
   unify:
     config:
-      description: Application configuration (JSON)
-      label: Configuration
-    listed: Listed
+      label: Konfiguration
     logo:
       label: Logo
-      description: Logo used in the application selector
-      placeholder: Choose a logo or drop it here...
       reset: Reset
     name:
-      description: Name used in the application selector
       label: Name
-    pinned: Pinned
-    title: App selector
+    title: Unify app selector
     url:
-      description: Application URL
-      label: URL
+      label: Location
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
+    createdAt: Erstellt
+    enabled: Aktiviert
     name: Name
-    appListName: App selector name
-    state: State
-  export: Export
+  export: Exportieren
   rows:
     filters:
-      deleted: Deleted
+      deleted: Gelöscht
   filterForm:
-    deleted:
-      label: deleted applications
     excluded:
-      label: Without
+      label: Ohne
     exclusive:
-      label: Only
+      label: Nur
     inclusive:
-      label: Including
-    query:
-      label: Filter applications list
-      placeholder: Filter applications by name
-  loading: Loading applications
-  new: New Application
-  numFound: '{{count}} application found'
-  numFound_plural: '{{count}} applications found'
-  permissions: Permissions
+      label: Einschließlich
+  new: New
+  permissions: Berechtigungen
   title: Applications
   yaml: YAML
-  delete: Delete
-  undelete: Undelete
+  delete: Löschen
+  undelete: Wiederherstellen
