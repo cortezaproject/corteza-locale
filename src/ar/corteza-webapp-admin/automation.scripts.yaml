@@ -1,17 +1,16 @@
 list:
   columns:
-    name: Name
-    updatedAt: Last update
+    name: اسم
+    updatedAt: اخر تحديث
   filter:
-    absoluteTime: Show absolute time
-    incScriptsWithErrors: Errors ({{ count }})
-    incScriptsWithIterator: Iterator ({{ count }})
-    incScriptsWithSecurity: Security ({{ count }})
-    incScriptsWithTriggers: Triggers ({{ count }})
-    searchQuery: Search query
+    absoluteTime: عرض الوقت الاصلي
+    incScriptsWithErrors: الاخطاء ({{ count }})
+    incScriptsWithIterator: المكرر ({{ count }})
+    incScriptsWithSecurity: الامان ({{ count }})
+    incScriptsWithTriggers: المشغلين ({{ count }})
+    searchQuery: بحث
   flags:
-    iterator: Iterator
-    security: Security
-    triggers: Triggers
-  labelMissing: <label missing>
+    iterator: مكرر
+    security: الأمان
+    triggers: مشغل
   title: Corredor Scripts
