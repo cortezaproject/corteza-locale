@@ -1,23 +1,23 @@
 configuration: Configuration
-edge: Edge
+edge: Bord
 name:
-  label: Name *
-  placeholder: Workflow name
+  label: Nom *
+  placeholder: Nom de processus
 handle:
-  label: Handle
-  placeholder: handle (a - z, 0 - 9, underscore, dash)
-  invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+  label: Identifiant
+  placeholder: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+  invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
 description:
   label: Description
-  placeholder: Describe what this workflow does
-target: Target
+  placeholder: Décrivez ce que fait ce processus
+target: Cible
 tooltip:
-  run-workflow: Run workflow
-  configure-step: Configure step
+  run-workflow: Exécuter processus
+  configure-step: Configurer l'étape
 run-as:
-  label: Run as
-  placeholder: User that will execute the workflow
-  description: When not explicitly set, workflow will be executed by user that invoked it
+  label: Exécuter en tant que
+  placeholder: Utilisateur qui exécutera le processus
+  description: Quand non défini, le processus sera exécuté par l'utilisateur l'ayant déclenché
 sub-workflow:
-  label: Subworkflow
-  description: Subworkflows can't have enabled triggers
+  label: Sous processus
+  description: Les sous-processus ne peuvent pas avoir de déclencheurs
