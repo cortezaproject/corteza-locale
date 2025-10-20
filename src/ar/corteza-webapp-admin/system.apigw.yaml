@@ -1,104 +1,89 @@
-title: Integration Gateway
+title: واجهة الربط
 list:
-  export: Export
-  title: Routes
-  new: New Route
-  permissions: Permissions
-  profiler: Profiler
+  export: تصدير
+  permissions: الصلاحيات
   yaml: YAML
-  loading: Loading routes
-  numFound: '{{count}} route found'
-  numFound_plural: '{{count}} routes found'
+  loading: تحميل الطرق
+  numFound: '{{count}} طريق'
+  numFound_plural: '{{count}} طرق'
   filterForm:
     query:
-      label: Filter route list
-      placeholder: Filter routes by name
+      label: تصفية قائمة الطرق
+      placeholder: تصفية قائمة الطرق بالاسم
     excluded:
-      label: Without
+      label: بدون
     inclusive:
-      label: Including
+      label: يشمل
     exclusive:
-      label: Only
+      label: فقط
     deleted:
-      label: deleted routes
-    handle:
-      placeholder: Filter endpoints by path
-  delete: Delete
-  undelete: Undelete
+      label: طرق محذوفة
+  delete: حذف
+  undelete: استعادة
   columns:
-    endpoint: Endpoint
-    createdAt: Created
-    enabled: Enabled
-    method: Method
-    actions: ''
-    state: State
+    endpoint: نهاية
+    createdAt: تم انشائه
+    enabled: مفعل
+    method: طريقة
   rows:
     filters:
-      deleted: Deleted
+      deleted: محذوف
 settings:
-  title: Settings
+  title: الاعدادات
   profiler:
-    label: Profiler
-    enabled: Enabled
-    global: Enabled globally
-  proxy:
-    label: Proxy
-    follow: Follow redirects
+    enabled: مفعل
 editor:
-  title: Edit route
-  new: New Route
-  permissions: Permissions
+  title: تحرير الطريق
+  permissions: الصلاحيات
   info:
-    title: Basic information
+    title: معلومات مبدئية
     id: ID
-    endpoint: Endpoint
-    method: Method
-    description: Description
-    enabled: Enabled
-    delete: Delete
-    undelete: Undelete
-    deletedAt: Deleted at
-    updatedAt: Updated at
-    createdAt: Created at
-    createdBy: Created by
-    tooltip: Endpoint must begin with a slash "/" and can not contain any special characters except for the underscore "_" and hyphen "-"
+    endpoint: نهاية
+    method: طريقة
+    description: وصف
+    enabled: مفعل
+    delete: حذف
+    undelete: استعادة
+    deletedAt: محذوف في
+    updatedAt: تم تحديثه في
+    createdAt: تم انشائه في
+    createdBy: انشأ من قبل
+    tooltip: يجب أن تبدأ نقطة النهاية بشرطة مائلة "/" ولا يمكن أن تحتوي على أي أحرف خاصة باستثناء الشرطة السفلية "_" والواصلة "-"
     validation:
-      slash: Endpoint must begin with a slash "/"
-      minLength: Endpoint must contain at least one character
-      invalidCharacters: Endpoint contains invalid characters
+      slash: يجب أن تبدأ نقطة النهاية بشرطة مائلة "/"
+      minLength: يجب أن تحتوي نقطة النهاية على حرف واحد على الأقل
+      invalidCharacters: تحتوي نقطة النهاية على أحرف غير صالحة
   filters:
-    title: Filter list
-    enabled: Enabled
-    disabled: Disabled
-    add: Add
-    addFilter: Add filter
-    addHeader: Add header
+    title: قائمة الفلاتر
+    enabled: مفعل
+    disabled: معطل
+    add: أضف
+    addFilter: أضف عامل تصفية
     params: Params
     filterListEmpty: Filter list is empty!
     modal:
-      title: Query parameters verifier
-      ok: Save & Close
+      title: مدقق معلمات الاستعلام
+      ok: حفظ وإغلاق
     step_title:
-      prefilter: Prefiltering
-      processer: Processing
-      postfilter: Postfiltering
+      prefilter: التصفية المسبقة
+      processer: يعالج
+      postfilter: التصفية اللاحقة
     list:
-      remove: Remove
-      filters: Filters
-      status: Status
-      actions: Actions
-      active: Active
-      noFilters: No filters
+      remove: الغاء
+      filters: المرشحات
+      status: الحالة
+      actions: عمل
+      active: نشط
+      noFilters: بدون المرشحات
     labels:
-      expr: Expression
+      expr: وصف
       location: URL
-      workflow: Workflow
+      workflow: سيور عمل
       status: HTTP Status
-      jsfunc: Function
+      jsfunc: دالة
       input: Input
-      header: Headers
-      name: Name
-      value: Value
+      name: اسم
+      value: قيمة
     httpStatus:
       none: No Status
       '300': 300 - Multiple Choices
@@ -109,53 +94,16 @@ editor:
       '307': 307 - Temporary Redirect
       '308': 308 - Permanent Redirect
     placeholders:
-      workflow: Select a workflow
+      workflow: اختر سير عمل
     help:
       expression:
         example: Example == "match string" && match(SecondParam, "^foo\\s.*$")
-        link: Documentation
+        link: المراجع
 profiler:
-  label: Profiler
-  title: Integration Gateway Profiler
-  refreshingIn: Refreshing in {{seconds}}s
-  description:
-    globalEnabled: Showing routes for all incoming requests
-    globalDisabled: Showing only registered routes with profiler prefilter
-  purge:
-    all: Purge requests for all routes
-    this: Purge requests for this route
   hit:
-    title: Request Details
     general:
-      label: General
-      id: Request ID
-      route: Request Route
-      URL: Request URL
-      method: Request Method
-      statusCode: Status Code
-      headers: Request Headers
-      remoteAddress: Remote Address
-      duration: Duration
-      start: Start
-      end: End
-      openRoute: Open Route
-    headers:
-      label: Headers
-    body:
-      label: Body
+      label: عام
+      id: رقم الطلب
+      end: انهاء
   columns:
-    actions: ''
-    path: Route
-    count: Count
-    content_length: Content Length
-    http_method: Method
-    http_status_code: Status Code
-    size_min: Size (min)
-    size_max: Size (max)
-    size_avg: Size (avg)
-    time_min: Time (min)
-    time_max: Time (max)
-    time_avg: Time (avg)
-    time_start: Start time
-    time_finish: Finish time
-    time_duration: Duration
+    http_method: طريقة
