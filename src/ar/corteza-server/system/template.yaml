@@ -1,12 +1,12 @@
 errors:
   cannotRenderPartial: cannot render partial templates
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create templates
-  notAllowedToDelete: not allowed to delete this template
-  notAllowedToRead: not allowed to read this template
-  notAllowedToRender: not allowed to render this template
-  notAllowedToSearch: not allowed to search or list templates
-  notAllowedToUndelete: not allowed to undelete this template
-  notAllowedToUpdate: not allowed to update this template
-  notFound: template not found
+  invalidHandle: المعرف غير صحيح
+  invalidID: معرف خاطئ
+  notAllowedToCreate: غير مسموح انشاء قالب
+  notAllowedToDelete: غير مسموح حذف هذا القالب
+  notAllowedToRead: غير مسموح قراءة هذا القالب
+  notAllowedToRender: لا يسمح بعرض هذا القالب
+  notAllowedToSearch: غير مسموح البحث او عرض هذا القالب
+  notAllowedToUndelete: غير مسموح اعادة هذا القالب
+  notAllowedToUpdate: غير مسموح تحديث هذا القالب
+  notFound: القالب غير موجود
