@@ -1,980 +1,542 @@
-selector:
-  selectableBlocks:
-    placeholder: Blocks from other layouts
-  tooltip:
-    clone:
-      ref: Clone with references
-      noRef: Clone without references
 automation:
-  addPlaceholderLabel: Add placeholder (dummy button)
-  availableScriptsAndWorkflow: Available scripts and workflows ({{count}})
+  addPlaceholderLabel: Adicionar espaço reservado (botão fictício)
+  availableScriptsAndWorkflow: Scripts e fluxos de trabalho disponíveis ({{count}})
   badge:
-    script: script
-    workflow: workflow
-  buttonLabel: Label
-  buttonVariant: Variant
-  configuredButtons: Configured buttons
-  dummyButtonLabel: Dummy
-  editButton: Edit
+    script: roteiro
+    workflow: fluxo de trabalho
+  buttonLabel: Rótulo
+  buttonVariant: Variante
+  configuredButtons: Botões configurados
+  dummyButtonLabel: Fictício
+  editButton: Editar
   editTitle:
-    script: Edit automation script button
-    workflow: Edit workflow button
-  label: Automation
-  noDescription: No description
-  noLabel: Unlabeled
-  noScript: There is no script or workflow configured for this button
-  noScripts: There are no manual scripts compatible with this page block
-  removeAll: Remove all
-  searchPlaceholder: Filter available scripts by label, script name and description
-  stepID: 'Starting step ID: {{stepID}}'
+    script: Botão Editar script de automação
+    workflow: Botão Editar fluxo de trabalho
+  label: Automação
+  noDescription: Sem descrição
+  noLabel: Sem rótulo
+  noScript: Não há script ou fluxo de trabalho configurado para este botão
+  noScripts: Não há scripts manuais compatíveis com este bloco de página
+  removeAll: Deletar tudo
+  searchPlaceholder: Filtre os scripts disponíveis por rótulo, nome do script e descrição
   variants:
-    primary: Primary
-    secondary: Secondary
-    light: Light
-    dark: Dark
-    success: Success
-    danger: Danger
-    warning: Warning
+    primary: Primário
+    secondary: Secundário
+    light: Luz
+    dark: Escuro
+    success: Sucesso
+    danger: Perigo
+    warning: Aviso
 calendar:
   source:
-    label: Source
-  addEventsSource: Add events source
-  calendarHeader: Calendar header
-  feedLabel: Configure events source
-  feedPlaceholder: Select an event source
-  eventSource: Event source
-  hideHeader: Hide calendar header
-  hideNavigation: Hide prev/next button
-  hideTitle: Hide title text
-  hideToday: Hide today button
-  label: Calendar
-  colorPicker: Choose a color
-  colorLabel: Event color
+    label: Fonte
+  addEventsSource: Adicionar origem de eventos
+  calendarHeader: Cabeçalho do calendário
+  feedLabel: Configurar fonte de eventos
+  hideHeader: Ocultar cabeçalho do calendário
+  hideNavigation: Ocultar botão anterior/próximo
+  hideTitle: Ocultar texto do título
+  hideToday: Ocultar botão hoje
+  label: Calendário
+  colorLabel: Cor do evento
   recordFeed:
-    eventAllDay: Show as all-day-events
-    eventEndFieldLabel: Event end
-    eventEndFieldPlaceholder: Event will last 1 hour
-    eventStartFieldLabel: Event start
-    eventStartFieldPlaceholder: Field with event start date
-    moduleLabel: Module
-    modulePlaceholder: Select a module
-    optionLabel: Records
-    prefilterLabel: Prefilter events
-    prefilterPlaceholder: field1 = 1 AND field2 = 232
-    titleLabel: Event title
-    titlePlaceholder: Field used as event title
+    eventAllDay: Mostrar como eventos de dia inteiro
+    eventEndFieldLabel: Fim do evento
+    eventStartFieldLabel: Início do evento
+    moduleLabel: Módulo
+    optionLabel: Registros
+    prefilterLabel: Eventos de pré-filtro
+    prefilterPlaceholder: campo1 = 1 E campo2 = 232
   reminderFeed:
-    optionLabel: Reminders
-  today: Today
+    optionLabel: Lembretes
+  today: Hoje
   view:
-    dayGridMonth: Month
-    default: Default view
-    enabled: Enabled views
-    footnote: Make sure default is one of the available views
+    dayGridMonth: Mês
+    default: Visualização padrão
+    enabled: Visualizações ativadas
+    footnote: Certifique-se de que o padrão seja uma das visualizações disponíveis
     listMonth: Agenda
-    timeGridDay: Day
-    timeGridWeek: Week
-    onEventClick: On event click
-    openInSameTab: Open record in the same tab
-    openInNewTab: Open record in a new tab
-    openInModal: Open record in a modal
-  viewLabel: Calendar
+    timeGridDay: Dia
+    timeGridWeek: Semana
+  viewLabel: Calendário
 chart:
-  add: New Chart
-  addFunnel: Funnel chart
-  addGauge: Gauge chart
-  addRadar: Radar chart
-  addGeneric: Generic chart
-  createFailed: Could not create a chart
-  enableLiveFilter: Enable live filter
+  add: Novo gráfico
+  addFunnel: Gráfico de funil
+  addGauge: Gráfico de medidor
+  addGeneric: Gráfico genérico
+  createFailed: Não foi possível criar um gráfico
   columns:
-    name: Name
-    handle: Handle
-    changedAt: Last change
+    name: Nome
+    handle: Identificador
   configure:
-    label: Configure chart
-    reportLabel: Report {{l}}
-    reportsLabel: Reports
-  display: Chart to display inside this block
-  drillDown:
-    label: Drill down
-    description: If a record list is selected, it will be used to display the drill down data. If no record list is selected, the drill down data will be shown in a modal.
-    openInModal: Open in modal
-    configureColumns: Choose the default fields
+    label: Configurar gráfico
+    reportLabel: Relatório {{l}}
+    reportsLabel: Relatórios
+  display: Gráfico para exibir dentro deste bloco
   edit:
-    label: Edit chart
+    label: Editar gráfico
     dimension:
       function:
-        date: DATE
-        label: Function
-        month: MONTH
-        none: (no grouping / buckets)
-        placeholder: Select dimension modifier (bucket size)
-        quarter: QUARTER
-        week: WEEK
-        year: YEAR
-  label: Chart
-  pick: Pick a chart
-  delete: Delete
+        date: DATA
+        label: Função
+        month: MÊS
+        none: (sem agrupamento / buckets)
+        placeholder: Selecione o modificador de dimensão (tamanho do bucket)
+        quarter: TRIMESTRE
+        week: SEMANA
+        year: ANO
+  label: Gráfico
+  pick: Escolha um gráfico
+  delete: Excluir
   preview:
-    chartId: Chart preview (ID {{0}})
-  searchPlaceholder: Type here to search all charts in this namespace
-  openInBuilder: Open in chart builder
-  openChartList: Open chart list
-  filter:
-    modal:
-      title: Chart Filter
-      originalFilter:
-        label: Original filter
-      liveFilter:
-        label: Live filter
-        placeholder: Select a filter
-      filterPreview:
-        label: Filter Preview
-      options:
-        label: Filter options
-        and: Join filters with AND
-        or: Join filters with OR
-        overwrite: Overwrite original filter
+    chartId: Visualização do gráfico (ID {{0}})
+  searchPlaceholder: Digite aqui para pesquisar todos os gráficos neste namespace
 content:
-  ok: Ok
-  label: Content
-  urlPlaceholder: https://example.tld
+  ok: OK
+  label: Contente
+  urlPlaceholder: https://exemplo.tld
 file:
-  label: File
+  label: Arquivo
   preview:
-    label: File block
+    label: Bloco de arquivo
 general:
-  descriptionLabel: Description
-  descriptionPlaceholder: Block description
-  headerStyle: Block header style (color)
-  magnifyLabel: Block Magnification
-  customID:
-    label: Custom ID
-    placeholder: customID
-    description: 'Used to reference the block in Custom CSS (#customID). Must be unique on the page.'
-    invalid-state: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dashes. Must end with letter or number
-  customCSSClass:
-    label: Custom CSS Class
-    placeholder: custom-class-1   custom-class-2
-    description: Used to reference the block in Custom CSS (.custom-class)
-    invalid-state: Can contain only letters, numbers, underscores and dashes. Must end with letter or number. Use spaces to separate multiple classes
+  descriptionLabel: Descrição
+  descriptionPlaceholder: Descrição do bloco
+  headerStyle: Estilo do cabeçalho do bloco (cor)
   visibility:
-    label: Visibility
     roles:
-      label: Roles
-      placeholder: Pick roles that the block will be shown to
+      label: Funções
     condition:
-      label: Condition
-      placeholder: When will the block be shown
-      description:
-        record-page: "You can use {{0}}, {{1}}, {{2}}, {{3}} inside  the expression, for example: {{4}} or {{5}}"
-        non-record-page: "You can use {{0}}, {{1}} inside  the expression, for example: {{2}} or {{3}}"
-    tooltip:
-      performance:
-        condition: Using visibility conditions will impact performance
+      label: Doença
   magnifyOptions:
-    disabled: Disabled
-    modal: Modal
-    fullscreen: Fullscreen
-  wrap: Display block as a card
+    disabled: Desabilitado
   hidden:
-    label: Hidden
-  refresh:
-    label: Refresh
-    auto: Auto refresh
-    show: Show refresh button
-    description: Setting value to 5 seconds or more enables auto-refresh
-    rate: seconds
-  border:
-    show: Show border
+    label: Escondido
   label:
-    add: Add
-    back: Back
-    edit: Edit
-    general: General
-    import: Import
-    next: Next
-    none: None
-    ok: Ok
-    permissions: Permissions
-    remove: Remove
-    save: Save
-    cancel: Cancel
-    search: Search
-    refresh: Refresh block
-    magnify: Magnify block
-    and: And
-  module: Module
+    add: Adicionar
+    back: Voltar
+    edit: Editar
+    general: Em geral
+    import: Importar
+    next: Próximo
+    none: Nenhum
+    ok: OK
+    permissions: Permissões
+    remove: Remover
+    save: Salvar
+    cancel: Cancelar
+    search: Procurar
+  module: Módulo
   style:
-    danger: Danger variant
-    default: Dark variant
-    primary: Primary variant
-    secondary: Secondary variant
-    success: Success variant
-    warning: Warning variant
-  title: Add new block
-  titleLabel: Title
-  titlePlaceholder: Block title
+    danger: Variante de perigo
+    default: Variante escura
+    primary: Variante primária
+    secondary: Variante secundária
+    success: Variante de sucesso
+    warning: Variante de aviso
+  title: Adicionar novo bloco
+  titleLabel: Título
+  titlePlaceholder: Título do bloco
   tooltip:
-    dragAndDrop: Drag and drop to change order
-    translations: Field translations
+    dragAndDrop: Arraste e solte para alterar a ordem
 iframe:
   label: IFrame
-  pickURLField: Pick an URL field
-  srcDesc: Used as a fallback when set in combination with record field.
-  srcFieldDesc: Only available on record pages and on modules with existing "url" field kind
-  srcFieldLabel: Field (URL) from record to use for the iframe
-  srcLabel: URL to show in the iframe
+  pickURLField: Escolha um campo de URL
+  srcDesc: Usado como fallback quando definido em combinação com o campo de registro.
+  srcFieldDesc: Disponível apenas em páginas de registro e em módulos com tipo de campo "url" existente
+  srcFieldLabel: Campo (URL) do registro a ser usado para o iframe
+  srcLabel: URL para mostrar no iframe
 metric:
-  metricDrillDown: Metric drill down
-  defaultMetricLabel: Unnamed metric
-  drillDown:
-    label: Drill down
-    description: If a record list is selected, it will be used to display the drill down data. If no record list is selected, the drill down data will be shown in a modal.
-    openInModal: Open in modal
+  defaultMetricLabel: Métrica sem nome
   edit:
-    bucketLabel: Bucket size
-    bucketPlaceholder: Select a bucket size
-    dateFormat: Date format
-    dimensionFieldLabel: Field
-    dimensionFieldPlaceholder: Dimension field
-    dimensionLabel: Dimension
-    filterLabel: Filter
-    filterFootnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
-    transformFootnote: Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available). Make sure to wrap the variables with quotes ("")
-    labelLabel: Label
-    labelPlaceholder: Label
-    metricFieldLabel: Field
-    metricFieldPlaceholder: Dimension field
-    metricLabel: Metric
-    metricFieldSelect: Select field
-    metricSelectAggregate: Select aggregation operation
-    metricAggregateLabel: Aggregation operation
-    moduleLabel: Module
-    modulePlaceholder: Pick a module
-    numberFormat: Number format
-    operationAvg: Avg
-    operationLabel: Aggregation operation
-    operationMax: Max
-    operationMin: Min
-    operationPlaceholder: Aggregation operation
-    operationStd: Std
-    operationSum: Sum
-    prefixLabel: Prefix
-    refreshData: Refresh data
-    suffixLabel: Suffix
-    tabTitle: Metric
-    transformFunctionDescription: v - current value; label - current value's label
-    transformFunctionLabel: Transform value
+    bucketLabel: Tamanho do balde
+    bucketPlaceholder: Selecione um tamanho de bucket
+    dateFormat: Formato de data
+    dimensionFieldLabel: Campo
+    dimensionFieldPlaceholder: Campo de dimensão
+    dimensionLabel: Dimensão
+    filterLabel: Filtro
+    labelLabel: Rótulo
+    labelPlaceholder: Rótulo
+    metricFieldLabel: Campo
+    metricFieldPlaceholder: Campo de dimensão
+    metricLabel: Métrica
+    metricAggregateLabel: Operação de agregação
+    moduleLabel: Módulo
+    modulePlaceholder: Escolha um módulo
+    numberFormat: Formato numérico
+    operationAvg: Média
+    operationLabel: Operação de agregação
+    operationMax: Máx.
+    operationMin: Mín.
+    operationPlaceholder: Operação de agregação
+    operationStd: Padrão
+    operationSum: Soma
+    prefixLabel: Prefixo
+    refreshData: Atualizar dados
+    suffixLabel: Sufixo
+    tabTitle: Métrica
+    transformFunctionDescription: v - valor atual; label - rótulo do valor atual
+    transformFunctionLabel: Valor de transformação
   editStyle:
-    backgroundColor: Background color
-    color: Text color
-    colorPicker: Choose a color
-    fontSize: Font size in pixels
-    labelLabel: Label style
-    valueLabel: Value style
-  label: Metric
+    backgroundColor: Cor de fundo
+    color: Cor do texto
+    fontSize: Tamanho da fonte em pixels
+    labelLabel: Estilo do rótulo
+    valueLabel: Estilo de valor
+  label: Métrica
 record:
-  referenceRecordField: Reference record
-  referenceRecordFieldPlaceholder: Select reference record field
-  referenceRecordFieldDescription: Used to show record details of reference record. Multi value record selector fields are not available
-  confirmDelete: Are you sure you want to delete this record?
-  deleteFailed: Could not delete record
-  deleteRecord: Delete record
-  invalidOwnerVar: Can not use ${ownerID} variable in non-record pages
-  invalidRecordVar: Can not use ${record...} variable in non-record pages
-  label: Record
-  listLoadFailed: Could not load record list
-  moduleOrPageNotSet: 'RecordList block error: module or page option not set'
-  moduleMismatch: Module incompatible, module mismatch
-  horizontalFormLayout: Horizontal form layout
-  inlineEdit:
-    enabled: Inline value editing enabled
-    allowAddField: Allow adding fields to inline edit
-    button:
-      title: Edit value
-    modal:
-      title: Update record values
+  confirmDelete: Tem certeza de que deseja excluir este registro?
+  deleteFailed: Não foi possível excluir o registro
+  deleteRecord: Apagar registro
+  invalidOwnerVar: Não é possível usar a variável ${ownerID} em páginas não registradas
+  invalidRecordVar: Não é possível usar a variável ${record...} em páginas sem registro
+  label: Registro
+  listLoadFailed: Não foi possível carregar a lista de registros
+  moduleOrPageNotSet: 'Módulo de erro do bloco RecordList ou opção de página não definida'
+  moduleMismatch: Módulo incompatível, incompatibilidade de módulo
   fieldsLayoutMode:
-    label: Fields layout mode
-    default: Default
-    noWrap: No wrap
-    wrap: Wrap
+    default: Predefinição
   preview:
-    blockNoRecord: Cannot render this block without a record
-    fieldsFromModule: Single record block, displaying fields ({{0}}) from module {{1}}
-    untitled: Untitled
-  recordDeleted: This record was deleted
-  recordSelectorDisplayOptions: When clicking on record field value
-  openInSameTab: Open record in the same tab
-  openInNewTab: Open record in a new tab
-  openInModal: Open record in a modal
+    fieldsFromModule: Bloco de registro único, exibindo campos ({{0}}) do módulo {{1}}
+    untitled: Sem título
+  recordDeleted: Este registro foi excluído
   fieldConditions:
-    label: Conditional fields
-    action: + Add
-    placeholder: When should this field be displayed?
-    selectPlaceholder: Select field
-    help: Example
-    field: Field
-    condition: Condition
-    tooltip:
-      performance: Using conditional fields will impact performance
-  recordSelectorCanAddRecord: Can add records via record selector
-  recordSelectorAddRecordDisplayOption: When adding a record via record selector
+    action: + Adicionar
+    field: Campo
+    condition: Doença
 recordList:
-  noModule: No module selected
-  addRecord: Add
-  cancelSelection: Cancel
-  customFilter: Custom filter
-  prefilter:
-    toggleInputType: Toggle input type
-  filterByValue: Filter by value
-  filterPresets:
-    filterName: Filter name
-    saveFilterAsPreset: Save filter as preset
-  inlineValueFilter:
-    enabled: Enable inline value filtering
-  inlineEdit:
-    enabled: Inline value editing enabled
-    allowAddField: Allow adding fields to inline edit
-    fields:
-      configure:
-        tooltip: Configure the fields for inline editing
-    button:
-      title: Edit value
-    modal:
-      title: Update record values
+  addRecord: Adicionar
+  cancelSelection: Cancelar
   bulkRecord:
-    title: Update selected records
-    field:
-      add: Add a field to update
-      addAnother: Add another field to update
-      remove: Remove field
-    reset: Reset
-  drillDown:
-    filter:
-      label: Drill down filter
-  tooltip:
-    deleteSelected: Delete selected records
-    performance:
-      impact: Using this feature will impact performance
-      moduleFields: Selecting a large number of fields or displaying record/user fields will impact performance
-      perPage: Displaying a large amount of records per page will impact performance, especially if you are displaying record/user fields
-    restoreSelected: Restore selected records
-  editFields: Editable module fields
+    reset: Redefinir
+  editFields: Campos de módulo editáveis
   export:
-    all: Export all records
-    allow: Users will be able to export records
-    csv: CSV Export
-    dateRange: Select date range
-    multiValueDelimiter:
-      label: Multi value delimiter
-      semicolon:
-        label: value 1;value 2;...;value n
-      comma:
-        label: value 1,value 2,...,value n
-      pipe:
-        label: value 1|value 2|...|value n
-      semicolonArray:
-        label: "[value 1;value 2;...;value n]"
-      commaArray:
-        label: "[value 1,value 2,...,value n]"
-      pipeArray:
-        label: "[value 1|value 2|...|value n]"
+    all: Exportar todos os registros
+    csv: Exportação CSV
+    dateRange: Selecionar intervalo de datas
     query:
-      label: Search query
-      placeholder: Search...
+      label: Consulta de pesquisa
+      placeholder: Procurar...
     filter:
-      label: Record filter
-      placeholder: field1 = 1 AND field2 = 232
-      footnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
-      createdAt: Record created
-      custom: Custom
-      lastMonth: Last month
-      lastWeek: Last week
-      thisMonth: This month
-      thisWeek: This week
-      today: Today
-      from: From
-      to: To
-      updatedAt: Record updated
-    inRange: Date range
-    includeQuery: Filter by search query
-    json: JSON Export
-    limitations: 'CSV export limitation: only the first value in the multi value fields will be exported'
-    rangeBy: Set range by
-    recordCount: '{{count}} records ready for export'
-    selectFields: 'Select fields you want to export:'
-    selection: Selected records
-    specifyTimezone: Export to timezone
-    timezonePlaceholder: Select timezone
-    datePresetUndefined: Unknown date preset
-  federated: Federated
-  fields: Module fields
+      placeholder: campo1 = 1 E campo2 = 232
+      createdAt: Registro criado
+      custom: Personalizado
+      lastMonth: Mês passado
+      lastWeek: Semana Anterior
+      thisMonth: Este mês
+      thisWeek: Essa semana
+      today: Hoje
+      from: A partir de
+      to: Para
+      updatedAt: Registro atualizado
+    includeQuery: Filtrar por consulta de pesquisa
+    json: Exportação JSON
+    limitations: 'Limitação de exportação de CSV apenas o primeiro valor nos campos de vários valores será exportado'
+    rangeBy: Definir intervalo por
+    recordCount: '{{count}} registros prontos para exportação'
+    selectFields: 'Selecione os campos que deseja exportar:'
+    selection: Registros selecionados
+    specifyTimezone: Exportar para fuso horário
+    timezonePlaceholder: Selecionar fuso horário
+    datePresetUndefined: Predefinição de data desconhecida
+  federated: Federado
+  fields: Campos do módulo
   filter:
-    addField: Add new filter field
-    byValue: Filter records based on field value
-    addFilterToPreset: Save as preset
-    nil: 'NULL'
+    addField: Adicionar novo campo de filtro
+    byValue: Filtrar registros com base no valor do campo
     conditions:
-      and: AND
-      or: OR
+      and: E
+      or: OU
     operatorLabels:
-      is: is
-      equal: is equal
-      notEqual: is not equal
-      in: contains
-      notIn: does not contain
-      greaterThan: is greater than
-      lessThan: is less than
-      like: is like
-      notLike: not like
-      between: is between
-      notBetween: is not between
-    deletedRecords: Deleted records
-    field: Filter field
-    fieldPlaceholder: Pick a field
-    fieldValue: Field value
-    fieldValuePlaceholder: Input field filter
-    including: Including
-    label: Filter
-    note: 'Note: If Field value is undefined, the filter will look for records where that field value is undefined.'
-    only: Only
+      in: contém
+      notLike: não parece
+    deletedRecords: Registros excluídos
+    field: Campo de filtro
+    fieldPlaceholder: Escolha um campo
+    fieldValue: Valor do campo
+    fieldValuePlaceholder: Filtro de campo de entrada
+    including: Incluindo
+    label: Filtro
+    note: 'Observação Se o valor do campo for indefinido, o filtro procurará registros em que o valor do campo seja indefinido.'
+    only: Apenas
     operators:
-      like: Like
-      notLike: Not Like
-      contains: Contains
-      notContains: Not contains
-      equal: Equal
-      greaterThan: Greater than
-      lessThan: Less than
-      notEqual: Not equal
-      between: Between
-      notBetween: Not between
-    title: Record list filter
-    update: Update filter
-    where: Where
-    without: Without
-    presets: Filter presets
-    reset: Reset Filter
+      like: Como
+      contains: Contém
+      equal: Igual
+      greaterThan: Maior que
+      lessThan: Menor que
+      notEqual: Não igual
+    title: Filtro da lista de registros
+    update: Atualizar filtro
+    where: Onde
+    without: Sem
     filters:
-      label: Filters
-      active: 'Active filters:'
+      label: Filtros
     name:
-      label: Name
-      placeholder: Filter name
+      label: Nome
     role:
-      label: Role(s)
-      placeholder: Select role(s) that will be able to use preset
-  hideRecordCloneButton: Hide clone record button
-  hideRecordEditButton: Hide edit record button
-  hideRecordPermissionsButton: Hide record permissions button
-  hideRecordReminderButton: Hide record reminder button
-  hideRecordViewButton: Hide view record button
-  hideConfigureFieldsButton: Users will be able to configure which fields to display
-  enableRecordPageNavigation: Users will be able to navigate to previous/next record
+      label: Funções
+  hideRecordCloneButton: Ocultar botão de registro de clone
+  hideRecordEditButton: Ocultar botão de edição de registro
+  hideRecordPermissionsButton: Ocultar botão de permissões de gravação
+  hideRecordReminderButton: Ocultar botão de lembrete de gravação
+  hideRecordViewButton: Ocultar botão de registro de visualização
   import:
-    dropzoneFileAdded: '{{name}} was uploaded and is ready for import ({{count}} record)'
-    dropzoneFileAdded_plural: '{{name}} was uploaded and is ready for import ({{count}} records)'
-    dropzoneLabel: Click or drop file here to upload (.csv or JSON)
-    failed: 'Something went wrong during the import. Please try again: {{failReason}}'
-    fileColumns: File columns
-    hasRequiredFileFields: 'This module has required file upload fields'
-    matchFields: 'Match imported columns with existing ones'
-    moduleFields: Module fields
-    onError: If any record fails to import
-    onErrorFail: Cancel import
-    onErrorSkip: Skip record
-    pickModuleField: Pick a module field
-    importing: Importing records
-    success: Import successful
-    to: Import to {{modulename}}
-    uploadFile: Upload the file you want to import (.csv or JSON format)
-    idFieldDescription: Records with matching ID's will be updated.
-    multiValueDelimiter:
-      label: Multi value delimiter
-      semicolon:
-        label: value 1;value 2;...;value n
-      comma:
-        label: value 1,value 2,...,value n
-      pipe:
-        label: value 1|value 2|...|value n
-      semicolonArray:
-        label: "[value 1;value 2;...;value n]"
-      commaArray:
-        label: "[value 1,value 2,...,value n]"
-      pipeArray:
-        label: "[value 1|value 2|...|value n]"
+    dropzoneFileAdded: '{{name}} foi carregado e está pronto para importação ({{count}} registro)'
+    dropzoneFileAdded_plural: '{{name}} foi carregado e está pronto para importação ({{count}} registros)'
+    dropzoneLabel: Clique ou solte o arquivo aqui para fazer upload (.csv ou JSON)
+    failed: 'Algo deu errado durante a importação. Por favor, tente novamente {{failReason}}'
+    fileColumns: Colunas de arquivo
+    hasRequiredFileFields: 'Este módulo tem campos de upload de arquivo obrigatórios'
+    matchFields: 'Combinar colunas importadas com as existentes'
+    moduleFields: Campos do módulo
+    onError: Se algum registro falhar na importação
+    onErrorFail: Cancelar importação
+    onErrorSkip: Pular registro
+    pickModuleField: Escolha um campo de módulo
+    success: Importação bem-sucedida
+    to: Importar para {{modulename}}
+    uploadFile: Faça upload do arquivo que deseja importar (formato .csv ou JSON)
     report:
-      count: Number of records
-      detectedErrors: Detected errors
-      error: Error
-      failedEntries: Failed source entries
-      failedEntriesLine: Entry
-      failedEntriesLines: Entries from to (inclusive)
-      failedRecords: Failed records
-      finishedAt: Finished At
-      importedRecords: Imported records
-      startedAt: Started At
-      title: Record import error report
-      totalRecords: Total records
-  label: Record list
-  modulePlaceholder: Select a module
-  moduleFootnote: Modules without a {{0}} can only be used in a record list as an inline editor
-  moduleFieldsFootnote: If no fields are selected, the default fields will be shown
-  noRecords: There are no records matching your request
+      count: Número de registros
+      detectedErrors: Erros detectados
+      error: Erro
+      failedEntries: Entradas de origem com falha
+      failedEntriesLine: Entrada
+      failedEntriesLines: Entradas de até (inclusive)
+      failedRecords: Registros com falha
+      finishedAt: Terminado em
+      importedRecords: Registros importados
+      startedAt: Começou às
+      title: Relatório de erro de importação de registro
+      totalRecords: Registros totais
+  label: Lista de registros
+  moduleFootnote: Módulos sem um {{0}} só podem ser usados ​​em uma lista de registros como editor embutido
+  noRecords: Não há registros correspondentes à sua solicitação
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} records'
-    single_one: One record
-    single_other: '{{count}} records'
-    recordsPerPage: Per page
-    selectLabel: Select an option
+    next: Próximo
+    prev: Anterior
+    showing: '{{from}} - {{to}} de {{count}} registros'
+    single_one: Um registro
+    single_other: '{{count}} registros'
+    selectLabel: Selecione uma opção
   positionField:
-    footnote: Records will be sorted based on this field
-    placeholder: Field that will hold the record position
-    label: Record sort field
+    footnote: Os registros serão classificados com base neste campo
+    label: Campo de classificação de registro
   preview:
-    addRecordButton: Add record button
-    bePaged: '{{0}} be paged.'
-    isDisabled: '{{0}} is disabled.'
-    isEnabled: '{{0}} is enabled.'
-    isHidden: '{{0}} is hidden.'
-    isShown: '{{0}} is shown'
-    moduleNotSelected: Block with table of records, module not selected.
-    recordFromModule: 'Showing records from {{0}} module with columns: {{1}}'
-    recordsPerPage: '{{0}} records are shown per page.'
-    resultsCan: Results can
-    resultsCant: Results can not
-    resultsPrefiltered: 'Results are prefiltered:'
-    searchInput: Search inputbox
-    sorting: Sorting
-    tableHeader: Table header
-    usersSearchThrough: Users search through the records
-    usersSee: Users see {{0}}
-    withPresortedRecords: with presorted ({{0}}) record
+    addRecordButton: Adicionar botão de registro
+    bePaged: '{{0}} ser paginado.'
+    isDisabled: '{{0}} está desativado.'
+    isEnabled: '{{0}} está ativado.'
+    isHidden: '{{0}} está oculto.'
+    isShown: '{{0}} é exibido'
+    moduleNotSelected: Bloco com tabela de registros, módulo não selecionado.
+    recordFromModule: 'Mostrando registros do módulo {{0}} com colunas {{1}}'
+    recordsPerPage: '{{0}} registros são mostrados por página.'
+    resultsCan: Os resultados podem
+    resultsCant: Os resultados não podem
+    resultsPrefiltered: 'Os resultados são pré-filtrados:'
+    searchInput: Caixa de entrada de pesquisa
+    sorting: Ordenação
+    tableHeader: Cabeçalho da tabela
+    usersSearchThrough: Os usuários pesquisam nos registros
+    usersSee: Os usuários veem {{0}}
   record:
-    draggable: Can drag & drop records to order them
-    editMode: Open records in edit mode by default
-    fullPageNavigation: Full page navigation
-    hideAddButton: Users will be able to add new records
-    hideImportButton: Users will be able to import records
-    pagingLabel: Paging
-    pagingOptions: Paging Options
-    moreOptions: More Options
-    hidePaging: User will be able to navigate through pages
-    inlineEditor: Inline Options
-    inlineEditorAllow: Inline record editor
-    recordsLabel: Records
-    noPermission: No permission to read record
-    perPage: Records per page
-    prefilterFootnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
-    prefilterHideSearch: Users will be able to search the record list
-    filterHide: Users will be able to filter the list
-    prefilterLabel: Filtering
-    generalLabel: General Settings
-    prefilterCommand: Prefilter
-    prefilterPlaceholder: field1 = 1 AND field2 = 232
-    presortFootnote: Simplified SQL condition (ORDER BY ...) syntax is supported
-    presortToggleInput: Toggle input type
-    presortHideSort: Users will be able to sort the list
-    presortLabel: Sorting
-    presortInputLabel: Presort
-    presortPlaceholder: field1 DESC, field2 ASC
-    showTotalCount: Show total record count
-    showRecordPerPageOption: User will be able to select records per page
-    showDeletedRecordsOption: Show option to see deleted records
-    setCustomFilterPresets: User will be able to set custom filter presets
-    openInSameTab: Open record in the same tab
-    openInNewTab: Open record in a new tab
-    openInModal: Open record in a modal
-    createInSameTab: Create record in the same tab
-    createInNewTab: Create record in a new tab
-    createInModal: Create record in a modal
-    enableBulkRecordEdit: Enable bulk record edit
-    buttons: Record buttons
+    draggable: Pode arrastar e soltar registros para ordená-los
+    fullPageNavigation: Navegação de página inteira
+    recordsLabel: Registros
+    noPermission: Sem permissão para ler o registro
+    perPage: Registros por página
+    prefilterCommand: Pré-filtro
+    prefilterPlaceholder: campo1 = 1 E campo2 = 232
+    presortFootnote: A sintaxe de condição SQL simplificada (ORDER BY ...) é suportada
+    presortLabel: Ordenação
+    presortPlaceholder: campo1 DESC, campo2 ASC
+    showTotalCount: Mostrar contagem total de registros
     tooltip:
-      clone: Clone
-      edit: Edit
-      delete: Delete
-      restore: Restore
-      reminder: Reminder
-      view: View
-      permissions: Permissions
-    recordDisplayOptions: On record click
-    recordSelectorDisplayOptions: On record value click
-    addRecordOptions: On add record click
-    textStyles: Text Styles
-    configureWrappedFields: Select fields that will be wrapped
-  recordPage: record page
+      clone: Clonar
+      edit: Editar
+      delete: Excluir
+      view: Visualizar
+      permissions: Permissões
+  recordPage: página de registro
   refField:
-    footnote: Field that links records with the parent record
-    label: Parent field
-  selectable: Users will be able to select records
-  selected: '{{count}} of {{total}} records selected'
-  selectedFromAllPages: 'All {{count}} records from all pages selected'
-  selectAllRecords: Select all records on all pages
-  unselectAllRecords: Clear selection
-  sort:
-    tooltip: Sort column
-  showRecords:
-    deleted: Show deleted records
-    existing: Show existing records
+    footnote: Campo que vincula registros com o registro pai
+    label: Campo pai
+  selected: '{{count}} de {{total}} registros selecionados'
   summaries:
-    label: Summaries
     customSummaries:
-      label: Custom Summaries
-      description: Users will be able to set custom summaries
       add:
-        label: Add
-        tooltip: Add a custom summary
+        label: Adicionar
     param:
       label:
-        label: Label
-        placeholder: Summary Label
+        label: Rótulo
       field:
-        label: Field
-        placeholder: Module Field
+        label: Campo
       metric:
-        label: Metric
-        placeholder: Summary Metric
-      role:
-        label: Role
-        placeholder: Roles that will be able to see the summary
+        label: Métrica
     metrics:
       sum:
-        label: Sum
+        label: Soma
       min:
-        label: Min
+        label: Mín.
       max:
-        label: Max
+        label: Máx.
       avg:
-        label: Avg
-      emptyCount:
-        label: Empty count
-      notEmptyCount:
-        label: Not empty count
-      uniqueCount:
-        label: Unique count
+        label: Média
 recordOrganizer:
-  onRecordClick: Record display mode
-  openInSameTab: Open in the same tab
-  openInNewTab: Open in a new tab
-  openInModal: Open in a modal
-  module:
-    placeholder: Select a module
   descriptionField:
-    footnote: Field value will be used as record description
-    label: Description field
+    footnote: O valor do campo será usado como descrição do registro
+    label: Campo de descrição
   group:
-    footnote: Value that will be set to the key field. The records will be filtered based on this value, if it's defined.
-    label: Key value
+    label: Valor chave
   groupField:
-    footnote: Field whose value will change when a record is moved into the record organizer
-    label: Key field
-  label: Record organizer
+    footnote: Campo cujo valor mudará quando um registro for movido para o organizador de registros
+    label: Campo-chave
+  label: Organizador de registros
   labelField:
-    footnote: Field value will be used as record label
-    label: Label field
-  noRecords: No records in module linked with record organizer. Drag and drop records here.
-  notConfigured: Record organizer is not configured correctly
+    footnote: O valor do campo será usado como etiqueta de registro
+    label: Campo de rótulo
+  noRecords: Não há registros no módulo vinculado ao organizador de registros. Arraste e solte registros aqui.
+  notConfigured: O organizador de registros não está configurado corretamente
   positionField:
-    footnote: Records will be sorted based on this field. That field value will be updated based on the position of the record.
-    placeholder: Field that will hold the record position
-    label: Record sort field
+    label: Campo de classificação de registro
   preview:
-    label: 'Record Organizer block for module {{0}}. Label field {{1}}, Description field {{2}}. Value setting field: {{3}}, Sorted by position field: {{4}}.'
-    moduleNotSelected: Record Organizer module not selected
-  addNewRecord: + Add
+    label: 'Bloco Organizador de Registros para o módulo {{0}}. Campo de etiqueta {{1}}, campo de descrição {{2}}. Campo de configuração de valor {{3}}, classificado por campo de posição {{4}}.'
+    moduleNotSelected: Módulo do organizador de registros não selecionado
+  addNewRecord: + Adicionar
 recordRevisions:
-  label: Record revisions
   viewer:
-    errors:
-      no-record: No record found to display revisions for
-      no-revisions: No record revisions found
-      disabled-on-module: Record revisions are disabled on this module
-    show-revisions: Show record revisions ({{ revision }})
-    show-changes: "{{ count }} change(s)"
     operations:
-      created: Created
-      updated: Updated
-      soft-deleted: Soft deleted
-      undeleted: Restored
-      hard-deleted: Hard deleted
+      created: Criado
     revisions:
       columns:
         timestamp:
-          label: Timestamp
-        operation:
-          label: Operation
+          label: Carimbo de data e hora
         user:
-          label: User
+          label: Do utilizador
     changes:
       columns:
         field:
-          label: Field
-        old-value:
-          label: Old value
-        new-value:
-          label: New value
+          label: Campo
   configurator:
-    label: Record revisions
-    preload: Preload record revisions
-    errors:
-      invalid-module-id: Field does not contain a valid module ID.
     fields:
-      label: Configure fields to display in record revisions changes
-      show-all:
-        label: Show changes for all fields
       columns:
         label:
-          label: Label
+          label: Rótulo
         kind:
-          label: Type
-        displayed-fields:
-          label: Show
-        expanded-references:
-          label: Expand references
+          label: Tipo
 socialFeed:
-  label: Twitter feed
-  noInput: No input for displaying social feed...
+  label: Feed do Twitter
+  noInput: Nenhuma entrada para exibir o feed social...
   preview:
-    socialFeed: Twitterblo feed
-  twitterProfileField: Field that contains Twitter Profile URL for a record
-  twitterProfileLabel: Twitter Profile URL for list pages i.e (https://twitter.com/bloomberg)
-selectBlockFootnote: Some types might be disabled for non-record pages
+    socialFeed: feed do Twitterblo
+  twitterProfileField: Campo que contém a URL do perfil do Twitter para um registro
+  twitterProfileLabel: URL do perfil do Twitter para páginas de lista, ou seja, (https//twitter.com/bloomberg)
+selectBlockFootnote: Alguns tipos podem ser desativados para páginas não registradas
 field:
-  noPermission: No permission to read field value
+  noPermission: Sem permissão para ler o valor do campo
   selector:
-    available: Available fields
-    systemField: (system field)
+    available: Campos disponíveis
+    systemField: (campo do sistema)
 comment:
-  label: Comments
-  module:
-    placeholder: Select a module
+  label: Comentários
   titleField:
-    label: Title field
-    footnote: Field value will be used as record title
+    label: Campo de título
+    footnote: Valor do campo será usado como título do registro
   contentField:
-    label: Content field *
-    footnote: Field value will be used as record content
-  replyField:
-    label: Reply field
-    footnote: Field value will be used as record reply
+    label: Campo de conteúdo *
+    footnote: O valor do campo será usado como conteúdo do registro
   title:
-    placeholder: Title
-  content:
-    placeholder: Comment here...
-  submit: Submit
-  noComments: No comments yet
-  load:
-    older: Load older comments
-    newer: Load newer comments
+    placeholder: Título
+  submit: Enviar
   sortDirection:
-    label: Sort direction
-    footnote: Sort comments by when they were created
-    asc: Newest first
-    desc: Oldest first
+    label: Ordenar direção
   referenceField:
-    label: Reference field
-    footnote: Field that links comments with the parent record
-  today: Today
-  yesterday: Yesterday
+    label: Campo de referência
+  today: Hoje
 navigation:
-  chart: Charts
-  colorPicker: Choose a color
-  noNavigationItems: No navigation item configured
-  label: Navigation
-  displayOptions: Display options
-  appearance: Appearance
-  alignment: Alignment
-  justify: Justify
-  fieldLabel: Label
-  enabled: Enabled
-  openIn: Open in
-  navigationItems: Navigation items
-  type: Type
-  disabled: Disabled
-  color: Color
-  background: Background
+  chart: Gráficos
+  fieldLabel: Rótulo
+  enabled: Habilitado
+  type: Tipo
+  disabled: Desabilitado
+  color: Cor
   url: URL
-  drop: Dropdown position
-  add: Add navigation item
-  addDropdown: Add dropdown item
-  composePage: Compose page
-  tabs: Tabs
-  pills: Pills
-  small: Small
-  center: Center
-  left: Left
-  right: Right
-  bottom: Bottom
-  top: Top
-  None: None
-  primary: Primary
-  secondary: Secondary
-  success: Success
-  warning: Warning
-  danger: Danger
-  info: Info
-  text: Text
-  dropdown: Dropdown
-  multi: Multiline
-  sameTab: Same tab
-  selectOpenInType: Select open in type
-  newTab: New tab
-  dropdownItems: Dropdown items
-  delimiter: Delimiter
-  none: None
-  displaySubPages: Display sub-pages
-  selectBackground: Select background
+  small: Pequeno
+  left: Deixou
+  right: Certo
+  bottom: Inferior
+  top: Topo
+  None: Nenhum
+  primary: Primário
+  secondary: Secundário
+  success: Sucesso
+  warning: Aviso
+  danger: Perigo
+  info: Informações
+  text: Texto
+  none: Nenhum
   preview:
-    preview: Preview
-    label: Label
-    home: Home
-    dropdown: dropdown
-    about: about
-report:
-  label: Report
-  scenario:
-    label: Scenario
-  element:
-    label: Display element
+    preview: Visualizar
+    label: Rótulo
 progress:
-  add: + Add
-  count: Count
+  add: + Adicionar
   aggregate:
-    label: Aggregation operation
-    select: Select aggregation operation
-  animated: Animated
-  default-variant: Default variant
-  display-options: Display options
-  fetch-failed: Failed to fetch progress bar report
+    label: Operação de agregação
   field:
-    label: Field
-    select: Select field
-  label: Progress bar
+    label: Campo
   module:
-    select: Select module
-    label: Module
-  preview: Live example
-  show:
-    value: Show value
-    relative: Show relative
-    progress: Show progress
-  tab:
-    label: Progress
-  thresholds: Thresholds
-  threshold:
-    label: Threshold
-    variant: Set which variant to show if value is equal or larger than the threshold
+    select: Selecionar módulo
+    label: Módulo
+  preview: Exemplo instantâneo
   value:
-    label: Value
-    min: Minimum value
-    max: Maximum value
+    label: Valor
+    min: Valor mínimo
+    max: Valor máximo
     default:
-      label: Default value
-      description: This value will be used if metric is not configured
+      label: Valor padrão
   variant:
-    default: Dark
-    danger: Danger
-    dark: Dark
-    info: Info
-    light: Light
-    primary: Primary
-    secondary: Secondary
-    success: Success
-    warning: Warning
+    default: Escuro
+    danger: Perigo
+    dark: Escuro
+    info: Informações
+    light: Luz
+    primary: Primário
+    secondary: Secundário
+    success: Sucesso
+    warning: Aviso
 geometry:
-  label: Map
-  viewLabel: Map
-  feedLabel: Configure Sources
+  label: Mapa
+  viewLabel: Mapa
   source:
-    label: Source
-  addSource: Add source
-  lock: Lock
-  mapHelpText: Move and scroll the map to the position that will be used as a default. You can also lock the position or zoom to prevent users from moving too far.
-  onMarkerClick: On marker click
-  openInSameTab: Open in the same tab
-  openInNewTab: Open in a new tab
-  openInModal: Open in a modal
-  hideGeoSearch: Hide location search
+    label: Fonte
   recordFeed:
-    colorPicker: Choose a color
-    moduleLabel: Module*
-    modulePlaceholder: (No module)
-    optionLabel: Records
-    prefilterLabel: Prefilter sources
-    colorLabel: Marker color
-    geometryFieldLabel: Location field*
-    titleLabel: Title
-    titlePlaceholder: Title
-    geometryFieldPlaceholder: Location field
-    displayMarker: Display marker
-    displayPolygon: Display polygon
-  centerLabel: Center
-  zoom:
-    zoomLabel: Zoom
-    zoomMinLabel: Zoom min
-    zoomMaxLabel: Zoom max
-    zoomStartingLabel: Zoom Starting
-  bounds:
-    boundsLabel: Bounds
-    lockBounds: Lock bounds
-    topLeft: Bounds top left
-    lowerRight: Bounds lower right
-  tooltip:
-      goToCurrentLocation: Go to current location
+    moduleLabel: Módulo*
+    modulePlaceholder: (Sem módulo)
+    optionLabel: Registros
+    titleLabel: Título
+    titlePlaceholder: Título
 tabs:
-  label: Tabs
-  alertTitle: Set a title for your block
-  title: Tabs
-  tab: Tab
-  selectBlock: Choose a block
-  noTabs: No tabs configured
-  noBlock: No block configured
-  displayTitle: Display Options
-  preview: Live example
-  newBlockModal: Add new block
-  placeholder:
-    block: Select a block to tab
+  preview: Exemplo instantâneo
+  newBlockModal: Adicionar novo bloco
   style:
     appearance:
-      label: Appearance
-      tabs: Tabs
-      pills: Pills
-      small: Small
+      small: Pequeno
     alignment:
-      label: Alignment
-      left: Left
-      center: Center
-      right: Right
+      left: Deixou
+      right: Certo
     justify:
-      label: Justify
-      justify: Justify
-      none: None
+      none: Nenhum
     orientation:
-      label: Orientation
       vertical: Vertical
       horizontal: Horizontal
     position:
-      label: Position
-      start: Start
-      end: End
+      end: Fim
   table:
     columns:
       title:
-        label: Title
-      block:
-        label: Block
+        label: Título
   tooltip:
-    edit: Edit block
-    clone: Clone block & tab
-    copy: Copy block
-    delete: Delete tab
-    editDisabled: Editing tabbed blocks is disabled until you save this block
-    addBlock: Add new block
-noConfiguration: Block not configured correctly
-interpolationFootnote: Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
+    addBlock: Adicionar novo bloco
