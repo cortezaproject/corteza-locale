@@ -1,217 +1,158 @@
 label:
   app-name:
     namespace:
-      list: Namespaces
-      create: Create Namespace
-      edit: 'Edit Namespace - {{label}}'
-      view: Namespace
+      list: Low Code Namespaces
     module:
-      list: 'Modules - {{label}}'
-      create: Create Module
-      edit: 'Edit Module - {{label}}'
-    page:
-      list: 'Pages - {{label}}'
-      builder: 'PageBuilder - {{label}}'
-      edit: 'Edit Page - {{label}}'
-      record: 'Record - {{label}}'
-    chart:
-      list: 'Charts - {{label}}'
-      edit: 'Edit Chart - {{label}}'
-      create: Create Chart
-  actions: Actions
-  active: Active
-  add: Add
-  add-with-plus: + Add
-  addNew: Add new
-  addValue: Add new value
-  ascending: Ascending
-  attachmentFileInfo: '(File size: {{0}}, uploaded {{1}})'
-  attributes: Attributes
-  back: Back
-  backWithoutSave: Back (without saving changes)
-  block: Block
-  browse: Browse
-  buttons: Buttons
-  cancel: Cancel
-  clear: Clear
-  clone: Clone
-  close: Close
-  create: Create
-  delete: Delete
-  default: Default
-  restore: Restore
-  descending: Descending
-  description: Description
-  download: Download
-  dropFiles: Click or drop files here to upload
-  edit: Edit
-  enabled: Enabled
-  export: Export
-  fileTypeNotAllowed: File type not allowed
-  general: General
-  handle: Handle
-  here: here
-  home: Home
-  import: Import
-  all: All
-  importPlaceholder: Upload files to import
-  loading: Loading
-  makeDefault: Make default
-  moduleName: Module name
-  multi: Multi
+      create: Modul erstellen
+  actions: Aktionen
+  active: Aktiv
+  add: + Hinzufügen
+  add-with-plus: + Hinzufügen
+  addNew: Neu hinzufügen
+  addValue: Neue Variable hinzufügen
+  attachmentFileInfo: '(Dateigöße {{0}}, hochgeladen am {{1}})'
+  attributes: Eigenschaften
+  back: Hinzufügen
+  backWithoutSave: Zurück (ohne zu Speichern)
+  browse: Durchsuchen
+  buttons: Knöpfe
+  cancel: Abbrechen
+  clone: Klonen
+  close: Schließen
+  create: Erstellen
+  delete: Löschen
+  description: Beschreibung
+  download: Herunterladen
+  dropFiles: Zum Hochladen hier klicken oder Dateien ablegen
+  edit: Bearbeiten
+  enabled: Aktiviert
+  export: Exportieren
+  fileTypeNotAllowed: Dateityp nicht erlaubt
+  general: Allgemeines
+  handle: Alias
+  here: hier
+  import: Importieren
+  all: Alle
+  importPlaceholder: Hochladen von Dateien zum Importieren
+  loading: Lade
+  makeDefault: Standard machen
+  moduleName: Modulname
+  multi: Multi value
   name: Name
-  next: Next
+  next: Nächste
   no: No
-  noHandle: No handle
-  none: None
-  now: Now
+  noHandle: Keine Bezeichnung
+  none: Kein
   ok: Ok
-  page: Page
-  pageLayout: Page layout
-  pageBuilder: Page builder
-  permissions: Permissions
-  private: Private
-  privacy: Privacy
-  processing: Processing...
-  record: Record
-  recordPage: Record page
-  field: Field
-  remove: Remove
-  removeDefault: Remove default
-  required: Required
+  pageBuilder: Seitenbaukasten
+  permissions: Berechtigungen
+  private: Privat
+  processing: Verarbeitung...
+  record: Datensatz
+  recordPage: Datensatz-Seite
+  field: Feld
+  remove: Entfernen
+  removeDefault: Entferne Standard
+  required: Erforderlich
   reset: Reset
-  sensitive: Sensitive
-  save: Save
-  saveAndClose: Save and close
-  saveAsCopy: Save as copy
+  save: Speichern
+  saveAndClose: Speichern und schließen
   status: Status
-  timeHour: '{{t}}h'
+  timeHour: '{{t}}Std'
   timeMinute: '{{t}}min'
-  today: Today
-  title: Title
-  type: Type
-  updatedAt: Updated at
-  uploadError: 'Issue with file upload: "{{message}}"'
-  uploading: Uploading
-  unsavedChanges: Unsaved Changes
-  urlPlaceholder: https://example.tld
-  validation: Validation
-  view: View
+  today: Heute
+  title: Titel
+  type: Typ
+  updatedAt: '$t(field.system.updatedAt)'
+  uploadError: 'Problem mit Datei-Upload: "{{message}}"'
+  uploading: Hochladen
+  urlPlaceholder: https://beispiel.tld
+  validation: Validierung
+  view: Ansicht
   yes: Yes
   chart:
-    single: Chart
-    plural: Charts
+    single: Graph
+    plural: Diagramme
   namespace:
-    single: Namespace
-    plural: Namespaces
+    plural: Low Code Namespaces
   module:
-    single: Module
-    plural: Modules
+    single: Module name
+    plural: Module
 navigation:
-  chart: Charts
-  namespace: Namespaces
-  module: Modules
-  page: Pages
-  pageLayout: Page Layouts
+  chart: Graphen
+  namespace: Namensraum
+  module: Module
+  page: Seiten
 placeholder:
-  handle: handle (a - z, 0 - 9, underscore, dash)
-  sample: Sample
+  handle: Bezeichnung (a - z, 0 - 9, Unterstrich, Bindestrich)
+  sample: Muster
 reminder:
-  add: Add a reminder
-  dismiss: Dismiss
-  dismissed: Dismissed
-  dismissedAt: Dismissed at
-  undismiss: Undismiss
-  delete: Delete reminder
-  recordPageLink: View record
+  add: Add a new reminder
+  dismiss: Ablehnen
   edit:
-    label: Edit reminder
-    assigneeLabel: Assignee
-    assigneePlaceholder: Myself (default)
-    notesLabel: Notes
-    notesPlaceholder: Notes
-    remindAtLabel: Remind me at
-    remindAtNone: Never
-    titleLabel: Title
-    titlePlaceholder: Title
-  listLabel: Reminders
-  routesTo: Label for page link
+    assigneeLabel: Beauftragter
+    assigneePlaceholder: Ich selbst (Standard)
+    notesLabel: Hinweis
+    notesPlaceholder: Hinweis
+    remindAtLabel: Notify me
+    remindAtNone: Niemals
+    titleLabel: Titel
+    titlePlaceholder: Titel
+  listLabel: Erinnerungshilfen
+  routesTo: Link label
   snooze:
-    label: Snooze
-    count: Snooze count {{count}}
+    label: Schlummern
 tooltip:
-  dragAndDrop: Drag and drop to change order
+  dragAndDrop: Ziehen und Ablegen zum Ändern der Reihenfolge
 fieldKinds:
   Bool:
-    label: Checkbox (Y/N)
+    label: Kontrollkästchen (J/N)
   DateTime:
-    label: Date and time
+    label: Datum und Uhrzeit
   Email:
-    label: Email input
+    label: E-Mail-Eingabe
   File:
-    label: File upload
+    label: Datei hochladen
   Number:
-    label: Number input
+    label: Nummerneingabe
   Record:
-    label: Record selector
+    label: Datensatz-Selektor
   Select:
-    label: Select / dropdown
+    label: Auswählen / Dropdown
   String:
-    label: Text input (string)
+    label: Texteingabe (String)
   Url:
-    label: URL input
+    label: URL-Eingabe
   User:
-    label: User selector
+    label: Benutzerwähler
   Geometry:
-    label: Location
+    label: Geometry
 field:
-  selectAll: Select all
+  selectAll: Alle auswählen
   tooltip:
-    permissions: Field permissions
-  unselectAll: Unselect all
+    permissions: Feldberechtigungen
+  unselectAll: Alle abwählen
   kind:
     user:
-      suggestionPlaceholder: Start typing to search for users by email or name
+      suggestionPlaceholder: Tippen Sie, um nach Benutzern per E-Mail oder Name zu suchen
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: Nicht gefunden
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
-recordNavigation:
-  next: Next record
-  prev: Previous record
+    next: Nächste
+    prev: Prev
 variants:
-  primary: Primary
-  secondary: Secondary
-  light: Light
-  dark: Dark
+  primary: Primär
+  secondary: Sekundär
+  light: Hell
+  dark: Dunkel
   info: Info
-  success: Success
-  danger: Danger
+  success: Erfolgreich
+  danger: Gefährlich
   warning: Warning
-editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
 webcam:
-  title: Webcam
-  tooltip: Open webcam to capture photo
   buttons:
-    cancel: Cancel
-    capture: Capture photo
-    confirm: Upload photo
-  errors:
-    camera: Unable to access the camera. Please make sure you have granted camera permissions.
-record:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to close the record?
+    cancel: Abbrechen
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: Hell
+    dark: Dunkel
