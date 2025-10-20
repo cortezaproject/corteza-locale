@@ -1,12 +1,11 @@
 appMenu: Menu
 help:
-  documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
+  documentation: Dokumentace
+  feedback: Odeslat zpětnou vazbu
+  forum: Pomoc
+  version: 'Verze:'
 userSettings:
-  changePassword: Change password
-  loggedInAs: Logged in as {{user}}
-  logout: Logout
-  profile: Profile
-  theme: Theme
+  changePassword: Změna hesla
+  loggedInAs: Přihlášený uživatel {{user}}
+  logout: Odhlásit
+  profile: Profil
