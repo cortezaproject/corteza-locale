@@ -1,9 +1,9 @@
 errors:
-  failedToExtractMimeType: could not extract mime type
-  failedToProcessImage: could not process image
-  failedToStoreFile: could not extract store file
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create attachments
-  notAllowedToCreateEmptyAttachment: not allowed to create empty attachments
-  notAllowedToListAttachments: not allowed to list attachments
-  notFound: attachment not found
+  failedToExtractMimeType: لا يمكن استخراج نوع الملف Mime
+  failedToProcessImage: لا يمكن معالجة الصورة
+  failedToStoreFile: لا يمكن استخراج ملف التخزين
+  invalidID: معرف خاطئ
+  notAllowedToCreate: غير مسموح انشاء مرفقات
+  notAllowedToCreateEmptyAttachment: غير مسموح انشاء مرفقات فارغة
+  notAllowedToListAttachments: غير مسموح عرض المرفقات
+  notFound: المرفق غير موجود

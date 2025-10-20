@@ -1,217 +1,194 @@
 label:
   app-name:
     namespace:
-      list: Namespaces
-      create: Create Namespace
-      edit: 'Edit Namespace - {{label}}'
-      view: Namespace
+      list: Jmenný prostor
+      view: Jmenný prostor
     module:
-      list: 'Modules - {{label}}'
-      create: Create Module
-      edit: 'Edit Module - {{label}}'
-    page:
-      list: 'Pages - {{label}}'
-      builder: 'PageBuilder - {{label}}'
-      edit: 'Edit Page - {{label}}'
-      record: 'Record - {{label}}'
-    chart:
-      list: 'Charts - {{label}}'
-      edit: 'Edit Chart - {{label}}'
-      create: Create Chart
-  actions: Actions
-  active: Active
-  add: Add
-  add-with-plus: + Add
-  addNew: Add new
-  addValue: Add new value
-  ascending: Ascending
-  attachmentFileInfo: '(File size: {{0}}, uploaded {{1}})'
-  attributes: Attributes
-  back: Back
-  backWithoutSave: Back (without saving changes)
-  block: Block
-  browse: Browse
-  buttons: Buttons
-  cancel: Cancel
-  clear: Clear
-  clone: Clone
-  close: Close
-  create: Create
-  delete: Delete
-  default: Default
-  restore: Restore
-  descending: Descending
-  description: Description
-  download: Download
-  dropFiles: Click or drop files here to upload
-  edit: Edit
-  enabled: Enabled
+      create: Vytvořit modul
+  actions: Akce
+  active: Aktivní
+  add: Přidat
+  add-with-plus: + Přidat
+  addNew: Přidat nové
+  addValue: Přidat novou hodnotu
+  ascending: Vzrůstající
+  attachmentFileInfo: '(Velikost souboru: {{0}}, nahráno {{1}})'
+  attributes: Atributy
+  back: Zpět
+  backWithoutSave: Zpět (bez uložení změn)
+  block: Blok
+  browse: Procházet
+  buttons: Tlačítka
+  cancel: Storno
+  clear: Vyčistit
+  clone: Klonovat
+  close: Zavřít
+  create: Vytvořit
+  delete: Smazat
+  default: Výchozí
+  restore: Obnovit smazané
+  descending: Klesající
+  description: Popis
+  download: Stáhnout
+  dropFiles: Přetáhněte sem soubory k nahrání
+  edit: Editovat
+  enabled: Povoleno
   export: Export
-  fileTypeNotAllowed: File type not allowed
-  general: General
-  handle: Handle
-  here: here
-  home: Home
+  fileTypeNotAllowed: Nepovolený typ souboru
+  general: Obecné
+  handle: Identifikátor
+  here: zde
+  home: Domů
   import: Import
-  all: All
-  importPlaceholder: Upload files to import
-  loading: Loading
-  makeDefault: Make default
-  moduleName: Module name
-  multi: Multi
-  name: Name
-  next: Next
+  all: Vše
+  importPlaceholder: Nahrajte soubory k importu
+  loading: Načítání
+  makeDefault: Nastavit jako výchozí
+  moduleName: Jméno modulu
+  multi: Vícenásobné
+  name: Jméno
+  next: Další
   no: No
-  noHandle: No handle
-  none: None
-  now: Now
+  noHandle: Žádný identifikátor
+  none: Nic
+  now: Nyní
   ok: Ok
-  page: Page
-  pageLayout: Page layout
-  pageBuilder: Page builder
-  permissions: Permissions
-  private: Private
-  privacy: Privacy
-  processing: Processing...
-  record: Record
-  recordPage: Record page
-  field: Field
-  remove: Remove
-  removeDefault: Remove default
-  required: Required
-  reset: Reset
-  sensitive: Sensitive
-  save: Save
-  saveAndClose: Save and close
-  saveAsCopy: Save as copy
+  page: Stránka
+  pageLayout: Rozložení stránky
+  pageBuilder: Editor stránek
+  permissions: Oprávnění
+  private: Soukromé
+  privacy: Soukromí
+  processing: Zpracování...
+  record: Záznam
+  recordPage: Stránka záznamu
+  field: Pole
+  remove: Odebrat
+  removeDefault: Smazat výchozí
+  required: Vyžadováno
+  reset: Resetovat
+  sensitive: Citlivé
+  save: Uložit
+  saveAndClose: Uložit a zavřít
+  saveAsCopy: Uložit kopii
   status: Status
-  timeHour: '{{t}}h'
-  timeMinute: '{{t}}min'
-  today: Today
-  title: Title
-  type: Type
-  updatedAt: Updated at
-  uploadError: 'Issue with file upload: "{{message}}"'
-  uploading: Uploading
-  unsavedChanges: Unsaved Changes
-  urlPlaceholder: https://example.tld
-  validation: Validation
-  view: View
+  timeHour: '{{t}} h'
+  timeMinute: '{{t}} min'
+  today: Dnes
+  title: Nadpis
+  type: Typ
+  updatedAt: Čas aktualizace
+  uploadError: 'Problem s náhradním souboru: "{{message}}"'
+  uploading: Nahrávání
+  unsavedChanges: Neuložené změny
+  urlPlaceholder: https://priklad.tld
+  validation: Validace
+  view: Zobrazení
   yes: Yes
   chart:
-    single: Chart
-    plural: Charts
+    single: Graf
+    plural: Grafy
   namespace:
-    single: Namespace
-    plural: Namespaces
+    single: Jmenný prostor
+    plural: Jmenný prostor
   module:
-    single: Module
-    plural: Modules
+    single: Modul
+    plural: Moduly
 navigation:
-  chart: Charts
-  namespace: Namespaces
-  module: Modules
-  page: Pages
-  pageLayout: Page Layouts
+  chart: Grafy
+  namespace: Jmenný prostor
+  module: Moduly
+  page: Stránky
+  pageLayout: Rozložení stránek
 placeholder:
-  handle: handle (a - z, 0 - 9, underscore, dash)
-  sample: Sample
+  handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+  sample: Příklad
 reminder:
-  add: Add a reminder
-  dismiss: Dismiss
-  dismissed: Dismissed
-  dismissedAt: Dismissed at
-  undismiss: Undismiss
-  delete: Delete reminder
-  recordPageLink: View record
+  add: Přidat upomínku
+  dismiss: Zahodit
+  dismissed: Zahozeno
+  dismissedAt: Zahozeno v
+  undismiss: Obnovit
+  delete: Smazat upomínku
+  recordPageLink: Zobrazit záznam
   edit:
-    label: Edit reminder
-    assigneeLabel: Assignee
-    assigneePlaceholder: Myself (default)
-    notesLabel: Notes
-    notesPlaceholder: Notes
-    remindAtLabel: Remind me at
-    remindAtNone: Never
-    titleLabel: Title
-    titlePlaceholder: Title
-  listLabel: Reminders
-  routesTo: Label for page link
+    label: Editovat upomínku
+    assigneeLabel: Řešitel
+    assigneePlaceholder: Já (výchozí)
+    notesLabel: Poznámky
+    notesPlaceholder: Poznámky
+    remindAtLabel: Připomenout mi v
+    remindAtNone: Nikdy
+    titleLabel: Nadpis
+    titlePlaceholder: Nadpis
+  listLabel: Upomínky
+  routesTo: Popisek odkazu na stránku
   snooze:
-    label: Snooze
-    count: Snooze count {{count}}
+    label: Odložit
+    count: Počítadlo odložení {{count}}
 tooltip:
-  dragAndDrop: Drag and drop to change order
+  dragAndDrop: Přetáhněte pro změnu pořadí
 fieldKinds:
   Bool:
-    label: Checkbox (Y/N)
+    label: Checkbox (A/N)
   DateTime:
-    label: Date and time
+    label: Datum a čas
   Email:
-    label: Email input
+    label: Zadání emailu
   File:
-    label: File upload
+    label: Nahrání souboru
   Number:
-    label: Number input
+    label: Zadání čísla
   Record:
-    label: Record selector
+    label: Výběr záznamu
   Select:
-    label: Select / dropdown
+    label: Výběr ze seznamu
   String:
-    label: Text input (string)
+    label: Zadání textu
   Url:
-    label: URL input
+    label: Zadání URL
   User:
-    label: User selector
+    label: Výběr uživatele
   Geometry:
-    label: Location
+    label: Umístění
 field:
-  selectAll: Select all
+  selectAll: Vybrat vše
   tooltip:
-    permissions: Field permissions
-  unselectAll: Unselect all
+    permissions: Práva pole
+  unselectAll: Zrušit výběr
   kind:
     user:
-      suggestionPlaceholder: Start typing to search for users by email or name
+      suggestionPlaceholder: Hledejte uživatel podle emailu nebo jména
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: Nenalezeno
+  noItems: Žádné položky k zobrazení
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
+    next: Další
+    prev: Předchozí
+    showing: '{{from}} - {{to}} z {{count}} {{data}}'
+    single_one: '1 {{data}}'
     single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
+    recordsPerPage: Na stránku
 recordNavigation:
-  next: Next record
-  prev: Previous record
+  next: Další záznam
+  prev: Předchozí záznam
 variants:
-  primary: Primary
-  secondary: Secondary
-  light: Light
-  dark: Dark
-  info: Info
-  success: Success
-  danger: Danger
-  warning: Warning
+  primary: Primární
+  secondary: Sekundární
+  light: Světlé
+  dark: Tmavé
+  info: Informace
+  success: Úspěch
+  danger: Pozor
+  warning: Varování
 editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
+  unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
 webcam:
-  title: Webcam
-  tooltip: Open webcam to capture photo
   buttons:
-    cancel: Cancel
-    capture: Capture photo
-    confirm: Upload photo
-  errors:
-    camera: Unable to access the camera. Please make sure you have granted camera permissions.
+    cancel: Storno
 record:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to close the record?
+  unsavedChanges: Neuložené změny budou ztraceny. Chcete záznam zavřít?
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: Světlé
+    dark: Tmavé

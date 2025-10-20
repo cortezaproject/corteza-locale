@@ -1,68 +1,68 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
-  label: Permissions
+  save: Uložit změny
+  cancel: Storno
+  set-for: Konfigurovat oprávnění pro {{target}}
+  loading: Načítání práv
+  label: Oprávnění
   notification:
     save:
-      success: Permissions saved
-      failed: Failed to save permissions
+      success: Oprávnění uložena
+      failed: Uložení oprávnění selhalo
   edit:
-    label: User roles
-    description: Select role to set permissions
+    label: Role uživatelů
+    description: Vyberte role k nastavení oprávnění
   evaluate:
-    description: Evaluate applied permissions
+    description: Vyhodnotit aplikovaná oprávnění
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: Přidat
+    title: Vyhodnotit oprávnění
+    save: Uložit a zavřít
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: Role
+      placeholder: Vybrat role
     user:
-      label: Users
-      placeholder: Search or select a user
+      label: Uživatelé
+      placeholder: Hledat nebo vybrat uživatele
   tooltip:
     unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      user: Nejde vyhodnotit oprávnění pro uživatele s kontextovou rolí pro nespecifický zdroj
+      role: Nejde vyhodnotit oprávnění pro kontextovou roli pro nespecifický zdroj
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: Povolit
+    inherit: Zdědit
+    deny: Zamítnout
 resources:
   automation:
     workflow:
-      all: all workflows
+      all: všechna workflow
       specific: workflow "{{target}}"
-      tooltip: Workflow permissions
+      tooltip: Oprávnění k workflow
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete this workflow
-          title: Delete any workflow
+          description: 'Výchozí: zamítnuto'
+          specific: Smazat toto workflow
+          title: Smazat každé workflow
         execute:
-          description: 'Default: deny'
-          specific: Execute this workflow
-          title: Execute any workflow
+          description: 'Výchozí: zamítnuto'
+          specific: Spustit toto workflow
+          title: Spustit každé workflow
         read:
-          description: 'Default: deny'
-          specific: Read this workflow
-          title: Read any workflow
+          description: 'Výchozí: zamítnuto'
+          specific: Zobrazit toto workflow
+          title: Zobrazit každé workflow
         sessions.manage:
-          description: 'Default: deny'
-          specific: Manage sessions for this workflow
-          title: Manage all sessions
+          description: 'Výchozí: zamítnuto'
+          specific: Spravovat relace pro toto workflow
+          title: Spravovat všechny relace
         triggers.manage:
-          description: 'Default: deny'
-          specific: Manage triggers for this workflow
-          title: Manage all triggers
+          description: 'Výchozí: zamítnuto'
+          specific: Spravovat spouštěče pro toto workflow
+          title: Spravovat všechny spouštěče
         undelete:
-          description: 'Default: deny'
-          specific: Undelete this workflow
-          title: Undelete any workflow
+          description: 'Výchozí: zamítnuto'
+          specific: Obnovit toto smazané workflow
+          title: Obnovit každé smazané workflow
         update:
-          description: 'Default: deny'
-          specific: Update this workflow
-          title: Update any workflow
+          description: 'Výchozí: zamítnuto'
+          specific: Aktualizovat toto workflow
+          title: Aktualizovat každé workflow

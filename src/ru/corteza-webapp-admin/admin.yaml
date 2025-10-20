@@ -1,118 +1,105 @@
 automation:
-  add: Add script
+  add: Добавить script
   edit:
-    asyncHelp: Do not wait for results and ignore errors. Incompatible with critical flag.
-    asyncLabel: Run this script asynchronously
-    codeTabLabel: Code
-    criticalHelp: Wait until this script is executed. In case of errors, abort execution of other scripts and before* trigger
-    criticalLabel: Critical script
-    delete: Delete script
-    enabledHelp: Disabled scripts will be ignored
-    enabledLabel: Enabled
+    asyncHelp: Не ждите результатов и игнорируйте ошибки. Несовместимо с критическим флагом.
+    asyncLabel: script выполняется асинхронно
+    codeTabLabel: Код
+    criticalHelp: Дождитесь выполнения этого сценария. В случае ошибок завершите выполнение других сценариев и до* триггера
+    criticalLabel: Критический script
+    delete: Удалить script
+    enabledHelp: Отключенные скрипты будут игнорироваться
+    enabledLabel: Отключено
     mailAutomationTriggers:
-      addMatcher: Add condition
-      addTrigger: Add trigger
-      delete: Delete trigger
-      deleteTrigger: Delete
-      enable: Enable trigger
-      matchAll: Must match all conditions
+      addMatcher: Добавить условие
+      addTrigger: Добавить триггер
+      delete: Удалить триггер
+      deleteTrigger: Удалить
+      enable: Отключить триггер
+      matchAll: Должны соответствовать всем условиям
       matcher:
         fields:
           bcc: BCC
           cc: CC
           from: From
-          placeholder: Mail header field
-          replyTo: Reply To
-          subject: Subject
-          to: To
-        match: Value to match
+          placeholder: Поле заголовка почты
+          replyTo: Ответить на
+          subject: Тема
+          to: К
+        match: Соответствующее значение
         operators:
-          equal-ci: Match full
-          placeholder: Operator
-          prefix-ci: Match prefix
-          regex: Regex
-          suffix-ci: Match suffix
-          user: Existing user
-      tabLabel: Mail triggers
-    nameLabel: Name
-    namePlaceholder: Automation script name
-    runAsCurrentUser: Run as "{{ user }}"
+          equal-ci: Полное совпадение
+          placeholder: Оператор
+          prefix-ci: Префикс совпадения
+          regex: Регулярное выражение
+          suffix-ci: Суффикс совпадения
+          user: Существующий пользователь
+      tabLabel: Почтовый триггер
+    nameLabel: Имя
+    namePlaceholder: Автоматизация script name
+    runAsCurrentUser: Выполнить от "{{ user }}"
     runAsHelp: Script runner
     scheduledTriggers:
-      tabLabel: Scheduled
-    securityLabel: Security
-    settingsTabLabel: Settings
-    timeoutHelp: How much time do we wait before aborting the script? Value in milliseconds (1000ms = 1s). It defaults (when 0) to 2s with 30s as maximum. Consult with your administrator for exact numbers and limitations.
-    timeoutLabel: Script execution timeout
+      tabLabel: Запланированный
+    securityLabel: Безопасность
+    settingsTabLabel: Настройки
+    timeoutHelp: Сколько времени мы ждем, прежде чем прервать работу скрипта? Значение в миллисекундах (1000ms = 1s). По умолчанию (0) - 2s с максимальным значением 30 с. Проконсультироваться (...)
+    timeoutLabel: Время ожидания выполнения скрипта
     timeoutPlaceholder: "1500"
     title: Automation script
-    userPickerPlaceholder: Select user
-  import: Import automation script(s)
+    userPickerPlaceholder: Выберете user
+  import: Импортировать скрипты автоматизации
   list:
     column:
       label:
-        async: Async
-        critical: Critical
-        enabled: Enabled
-        runAs: Run As
-        runInUA: In browser
-    unnamed: (Unnamed script)
-  manage: Manage automation scripts ({{count}})
-  manage-id-permissions: Manage permissions for this script
-  manage-wc-permissions: Manage permissions for all scripts
-  newLabel: Create a new script
-  newPlaceholder: Script name
+        async: Асинх
+        critical: Критический
+        enabled: Включено
+        runAs: Запуск от имени
+        runInUA: в браузере
+    unnamed: ' (скрипт без имени)'
+  manage: Управлять скриптами автоматизации ({{count}})
+  manage-id-permissions: Управление разрешениями для этого сценария
+  manage-wc-permissions: Управление разрешениями для всех сценариев
+  newLabel: Создать новый скрипт
+  newPlaceholder: Имя скрипта
   testing:
-    load: Load
+    load: Загрузить
     parametersHeadline: 'Parameters & payload:'
-    resultsHeadline: 'Results:'
-    testInBrowser: Test in Browser
-    testInCorredor: Test in Corredor
-    warning: ""
-  title: List of automation script
+    resultsHeadline: 'Результат:'
+    testInBrowser: Тест в браузере
+    testInCorredor: Тест в приложении
+  title: Список сценариев автоматизации
 general:
-  resource-list:
-    no-items: No matches for your search
-  notFound: 'Not found'
-  loading: Loading
+  notFound: 'Не найден'
+  loading: Загрузка
   label:
-    "no": "No"
-    submit: Submit
-    "yes": "Yes"
-    selectOption: "Please select an option"
-  logout: Logout
-  noAccess: You do not have permissions to access Admin panel
+    "no": "Нет"
+    submit: Применить
+    "yes": "Да"
+    selectOption: "Пожалуйста, выберите один из вариантов"
+  logout: Выйти
+  noAccess: У вас нет прав доступа к панели администратора
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
+    next: Следующий
+    prev: предыдущий
 navigation:
-  appMenu: Menu
-  adminPanel: Admin panel
-  automation: Automation
-  chart: Charts
-  configuration: Configuration
+  adminPanel: Административная панель
+  automation: Автоматизация
+  chart: Диаграммы
+  configuration: Конфигурация
   help:
-    documentation: Documentation
-    feedback: Send feedback
-    forum: Help
-    version: 'Version:'
-  module: Modules
-  more: More
-  namespace: Namespaces
-  noPageTitle: No page title
-  page: Pages
-  publicPages: Public pages
+    documentation: Документация
+    feedback: Обратная связь
+    forum: Помощь
+    version: 'Версия:'
+  module: Модули
+  more: Подробнее
+  namespace: Пространство имен
+  noPageTitle: Нет названия страницы
+  page: Страницы
+  publicPages: Публичная страница
   userSettings:
-    changePassword: Change password
-    loggedInAs: Logged in as {{user}}
-    logout: Logout
-    profile: Profile
-    theme: Theme
-picker:
-  role:
-    placeholder: Start typing to search for roles
-  member:
-    placeholder: Start typing to search for users
+    changePassword: Смена пароля
+    loggedInAs: Вы вошли как {{user}}
+    logout: Выйти
+    profile: Профиль

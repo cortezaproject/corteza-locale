@@ -1,13 +1,13 @@
 errors:
   badSinkParamEncoding: bad encoding of sink parameters
-  contentLengthExceedsMaxAllowedSize: content length exceeds max size limit
+  contentLengthExceedsMaxAllowedSize: длина контента превышает максимальное ограничение по размеру
   failedToCreateEvent: failed to create sink event from request
-  failedToProcess: failed to process request
-  failedToRespond: failed to respond to request
+  failedToProcess: не удалось обработать запрос
+  failedToRespond: не ответил на запрос
   failedToSign: 'could not sign request params: {err}'
-  invalidContentType: invalid content-type header
-  invalidHttpMethod: invalid HTTP method
-  invalidPath: invalid path
+  invalidContentType: недопустимый заголовок типа содержимого
+  invalidHttpMethod: недопустимый метод НТТР
+  invalidPath: Неправильный путь
   invalidSignature: invalid signature
   invalidSignatureParam: invalid sink signature parameter
   invalidSinkRequestUrlParams: invalid sink request url params

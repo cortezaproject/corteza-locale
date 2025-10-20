@@ -1,68 +1,48 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
+  save: Enregistrer changements
+  cancel: Annuler
   label: Permissions
-  notification:
-    save:
-      success: Permissions saved
-      failed: Failed to save permissions
   edit:
-    label: User roles
-    description: Select role to set permissions
-  evaluate:
-    description: Evaluate applied permissions
+    label: Rôles utilisateur
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: + Ajouter
     role:
-      label: Roles
-      placeholder: Select role(s)
-    user:
-      label: Users
-      placeholder: Search or select a user
-  tooltip:
-    unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      label: Rôles
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: Autoriser
+    deny: Interdire
 resources:
   automation:
     workflow:
-      all: all workflows
-      specific: workflow "{{target}}"
-      tooltip: Workflow permissions
+      all: tous les processus
+      specific: processus "{{target}}"
+      tooltip: Permissions de processus
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete this workflow
-          title: Delete any workflow
+          description: 'Défaut : refuser'
+          specific: Supprimer ce processus
+          title: Supprimer n'importe quel processus
         execute:
-          description: 'Default: deny'
-          specific: Execute this workflow
-          title: Execute any workflow
+          description: 'Défaut : refuser'
+          specific: Exécuter ce processus
+          title: Exécuter n'importe quel processus
         read:
-          description: 'Default: deny'
-          specific: Read this workflow
-          title: Read any workflow
+          description: 'Défaut : refuser'
+          specific: Lire ce processus
+          title: Lire n'importe quel processus
         sessions.manage:
-          description: 'Default: deny'
-          specific: Manage sessions for this workflow
-          title: Manage all sessions
+          description: 'Défaut : refuser'
+          specific: Gérer toutes les sessions de ce processus
+          title: Gérer toutes les sessions
         triggers.manage:
-          description: 'Default: deny'
-          specific: Manage triggers for this workflow
-          title: Manage all triggers
+          description: 'Défaut : refuser'
+          specific: Gérer les déclencheurs de ce processus
+          title: Gérer tous les déclencheurs
         undelete:
-          description: 'Default: deny'
-          specific: Undelete this workflow
-          title: Undelete any workflow
+          description: 'Défaut : refuser'
+          specific: Annuler suppression de ce processus
+          title: Annuler suppression de n'importe quel processus
         update:
-          description: 'Default: deny'
-          specific: Update this workflow
-          title: Update any workflow
+          description: 'Défaut : refuser'
+          specific: Mettre à jour ce processus
+          title: Mettre à jour n'importe quel processus

@@ -1,80 +1,79 @@
 editor:
   content:
     editor:
-      unsupported: Unsupported editor
-    partial: Partial template
+      unsupported: Nepodporovaný editor
+    partial: Částečná šablona
     preview:
-      html: Preview HTML
-      pdf: Preview PDF
-      title: Preview output
-    title: Template content
+      html: Náhled HTML
+      pdf: Náhled PDF
+      title: Výstup náhledu
+    title: Obsah šablony
     toolbox:
-      partials: Partials
+      partials: Součásti
       samples:
-        defaultHTML: Default HTML
-        label: Samples
+        defaultHTML: Výchozí HTML
+        label: Příklady
       snippets:
-        funcCall: Call a function
-        interpolate: Interpolate value
-        iterator: Iterate over a set
-        label: Snippets
-      title: Toolbox
+        funcCall: Zavolat funkci
+        interpolate: Interpolace hodnoty
+        iterator: Iterace přes množinu
+        label: Výstřižky
+      title: Nástroje
   info:
     contentType:
       text_html: HTML
-      text_plain: Plain text
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+      text_plain: Prostý text
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    handle: Identifikátor
+    placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
     meta:
-      description: Description
-      short: Short name *
-    partial: Partial template
-    partialDescription: Partial templates may be used inside other templates such as headers and footers. Partial templates may not be used on their own.
-    title: Basic information
-    type: Template type
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Template
-  permissions: Permissions
+      description: Popis
+      short: Krátký název *
+    partial: Částečná šablona
+    partialDescription: Částečně šablony se můžou použít v jiných šablonách jako například záhlaví nebo zápatí. Částečně šablony se nedají použít samostatně.
+    title: Základní informace
+    type: Typ šablony
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+  new: Nová šablona
+  permissions: Oprávnění
   title:
-    create: Create template
-    edit: Edit template
+    create: Vytvořit šablonu
+    edit: Editovat šablonu
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    handle: Handle
-    language: Language
+    createdAt: Vytvořeno
+    handle: Identifikátor
+    language: Jazyk
     meta:
-      short: Short name
-    state: State
-  delete: Delete
-  undelete: Undelete
+      short: Krátký název
+    state: Stav
+  delete: Smazat
+  undelete: Obnovit smazané
   export: Export
   rows:
     filters:
-      deleted: Deleted
+      deleted: Odstraněno
   filterForm:
     deleted:
-      label: deleted templates
+      label: smazané šablony
     excluded:
-      label: Without
+      label: Bez
     exclusive:
-      label: Only
+      label: Pouze
     handle:
-      label: Filter templates list
-      placeholder: Filter templates by handle
+      label: Filtrovat seznam šablon
+      placeholder: Filtrovat šablony podle identifikátoru
     inclusive:
-      label: Including
-  loading: Loading templates
-  new: New Template
-  numFound: '{{count}} template found'
-  numFound_plural: '{{count}} templates found'
-  permissions: Permissions
-  title: Templates
+      label: Včetně
+  loading: Načítání šablon
+  new: Nová šablona
+  numFound: 'Nalezena {{count}} šablona'
+  numFound_plural: 'Nalezeno {{count}} šablon'
+  permissions: Oprávnění
+  title: Šablony
   yaml: YAML

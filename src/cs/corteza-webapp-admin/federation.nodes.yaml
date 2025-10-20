@@ -1,65 +1,63 @@
 editor:
   generate:
-    body: '{{ userLabel }} is sending you an invitation for Corteza Federated Network. To start sharing data between organizations, go to the admin panel of your Corteza application, click on “Federation” and select “Pair Federation Network” on top right corner. Copy the link below and await confirmation from another administrator.'
-    description: To add your organization to a federated network send an email invite or share the link below with an administrator of another organization.
-    hello: Hello,
-    invitation: Invitation to Federated Network
-    kindRegards: Kind regards, Corteza team.
-    notGenerated: Link not generated
-    sendEmail: Send Email
-    subject: 'Subject:'
-  generateUri: Generate Federation Link
+    body: '{{ userLabel }} posílá pozvánku do federované sítě Corteza. Pro zahájení sdílení dat mezi organizacemi běžte do administračního panelu vaší Corteza aplikace, klikněte na "Federace" a vyberte "Párovat federovanou sit" v pravém horním rohu. Zkopírujte odkaz níže a počkejte na potvrzení od druhého administrátora.'
+    description: Pro přidání vaší organizace do federované sítě pošlete emailovou pozvánku nebo nasdílejte odkaz níže s administrátorem jiné organizace.
+    hello: Dobrý den,
+    invitation: Pozvánka do federované sítě
+    kindRegards: S pozdravem, Corteza tým.
+    notGenerated: Odkaz nebyl vygenerován
+    sendEmail: Odeslat email
+    subject: 'Předmět:'
+  generateUri: Generovat federační odkaz
   info:
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
     email: Admin Email
-    enabled: Enabled
-    name: Server name *
+    enabled: Povoleno
+    name: Název serveru *
     status: Status
     tags:
-      label: Tags
-      placeholder: +Add
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-    url: Server URL *
+      label: Značky
+      placeholder: +Přidat
+    title: Základní informace
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+    url: URL serveru *
   title:
-    create: Create Federated Node
-    edit: Edit Federated Node
+    create: Vytvořit federovaný uzel
+    edit: Upravit federovaný uzel
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    name: Name
+    createdAt: Vytvořeno
+    enabled: Povoleno
+    name: Jméno
     status: Status
-    tags: ""
   filterForm:
     query:
-      label: Filter servers list
-      placeholder: Filter servers by name
-  loading: Loading federated nodes
-  new: New Federated Node
-  numFound: '{{count}} server found'
-  numFound_plural: '{{count}} servers found'
+      label: Filtrovat seznam serverů
+      placeholder: Filtrovat servery podle názvu
+  loading: Načítání federovaných uzlů
+  new: Nový federovaný uzel
+  numFound: 'Nalezen {{count}} server'
+  numFound_plural: 'Nalezeno {{count}} serverů'
   pair:
-    confirm: Confirm
-    label: Pair Federated Node
-    networkEstablished: Federated network will be established after the final confirmation from the administrator of another Corteza Federation Node.
-    note: 'Note:'
+    confirm: Potvrdit
+    label: Párovat federovaný uzel
+    networkEstablished: Federovaná síť bude navázána po potvrzení od administrátora druhého federovaného uzlu Corteza.
+    note: 'Poznámka:'
     status:
       confirmPending:
         description: |-
-          {{ email }} accepted the invitation to join “{{ name }}” Federated Network.
-          Click on “Confirm” to start sharing the data.
+          {{ email }} přijímá pozvánku k připojení do federované sítě "{{ name }}".
+          Klikněte na "Potvrdit" pro zahájení sdílení dat.
         descriptionNoMail: |-
-          Admin of “{{ name }}” accepted the invitation to join the Federated Network.
-          Click on “Confirm” to start sharing the data
+          Administrátor z "{{ name }}" přijímá pozvánku k připojení do federované sítě. 
+          Klikněte na "Potvrdit" pro zahájení sdílení dat
       none:
-        description: To pair your organization with a federated network, paste the generated URL of another organization below.
+        description: Pro spárování vaší organizace s federovanou sítí, vložte níže vygenerovanou URL druhé organizace.
       pending:
-        description: Pairing successful, pending final confirmation by administrator
-  title: Federated Networks
+        description: Párování úspěšné, čeká na finální potvrzení administrátorem
+  title: Federované sítě
   yaml: YAML

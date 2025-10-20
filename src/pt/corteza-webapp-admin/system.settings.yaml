@@ -1,145 +1,117 @@
 editor:
-  title: System settings
+  title: Configurações de sistema
   auth:
-    title: Authentication
+    title: Autenticação
     url: URL
     internal:
-      title: Internal
-      enabled: Internal authentication enabled
+      title: Interna
+      enabled: Autenticação interna ativada
       password-reset:
-        enabled: Password reset enabled
+        enabled: Redefinição de senha ativada
       password-constraints:
-        title: Password constraints
-        ignored-security: The system is configured to ignore password security constraints which is insecure on production deployments. If this is a production deployment, please contact your administrator to update the system configuration (the AUTH_PASSWORD_SECURITY .env variable).
-        min-length: Minimum length
-        min-length-description: Must be at least 8 characters
-        min-num-count: Minimum number of digits
-        min-num-count-description: The password must include the specified number of digits (disabled if set to 0)
-        min-special-count: Minimum number of special characters
-        min-special-count-description: The password must include the specified number of special characters (disabled if set to 0)
-        min-upper-case-length: Minimum number of upper case characters
-        min-upper-case-description: The password must include the specified number of upper case characters (disabled if set to 0)
-        min-lower-case-length: Minimum number of lower case characters
-        min-lower-case-description: The password must include the specified number of lower case characters (disabled if set to 0)
+        title: Restrições de senha
+        ignored-security: O sistema está configurado para ignorar as restrições de segurança de senha que são inseguras em implementações de produção. Se esta for uma implantação de produção, entre em contato com seu administrador para atualizar a configuração do sistema (a variável AUTH_PASSWORD_SECURITY .env).
+        min-length: Comprimento mínimo
+        min-length-description: Deve ter pelo menos 8 caracteres
+        min-special-count: Número mínimo de caracteres especiais
+        min-special-count-description: A senha deve incluir a quantidade de caracteres especiais especificado (desativado se definido como 0)
       signup:
-        email-confirmation-required: Signup email confirmation required
-        enabled: Signup enabled
+        email-confirmation-required: Confirmação de cadastro por e-mail obrigatória
+        enabled: Cadastro habilitado
         split-credentials-check:
-          description: 'Split login into two steps: collect the email input first and show the input for the password on the 2nd screen. Automatically forward user to external identity provider when user does not have his password set and there is only one IdP present'
-          label: Enable split-credentials check
-      profile-avatar:
-        enabled: Profile avatar enabled
+          description: 'Divida o login em duas etapas, colete a entrada de e-mail primeiro e mostre a entrada para a senha na segunda tela. Encaminhe automaticamente o usuário para o provedor de identidade externo quando o usuário não tiver sua senha definida e houver apenas um IdP presente'
+          label: Ativar verificação de credenciais divididas
       send-user-invite-email:
-        title: Invite email
-        enabled: Send invite email on user creation
-        description: When enabled, this configuration sends an invite email to a newly created user via the CLI
         expires:
-          label: Valid for
-          description: How long will the invite token be valid before it expires
+          label: Valido para
     mail:
-      title: Authentication email sender mail
-      from-address: Sender's address
-      from-name: Sender's name
-      validate-email: Please enter valid email address
+      title: Email do remetente do e-mail de autenticação
+      from-address: Endereço do remetente
+      from-name: Nome do remetente
+      validate-email: Por favor insira o endereço de e-mail válido
     mfa:
-      title: Multi-factor authentication
+      title: Autenticação multifator
       TOTP:
-        enabled: Allow users to use time based one-time-password (using mobile application)
-        enforced: Force users to use time based one-time-password (using mobile application)
+        enabled: Permitir que os usuários utilizem TOTP (pelo aplicativo móvel)
+        enforced: Forçar os usuários a usar TOTP (pelo aplicativo móvel)
         issuer:
-          description: Issuer name will be send to authenticator app when user configures it
-          label: Issuer
+          description: O nome do emissor será enviado ao aplicativo autenticador quando o usuário o configurar
+          label: Emissor
       emailOTP:
-        enabled: Allow users to use one-time-password over email
-        enforced: Force users to use one-time-password over email
+        enabled: Permitir que os usuários utilizem uma senha de uso único por e-mail
+        enforced: Forçar os usuários a utilizar uma senha de uso único por e-mail
         expires:
-          description: How long will password be valid before it expires
-          label: Valid for
+          description: Por quanto tempo a senha será válida antes de expirar
+          label: Valido para
     auto-logout:
-      title: Auto logout
       enabled:
-        label: Enabled
-        description: Automatically log out users after a certain period of inactivity
-      timeout:
-        label: Timeout
-        description: The period of inactivity in seconds before a user is logged out
+        label: Habilitado
   external:
-    title: External Authentication Providers
-    enabled: Enable external authentication
+    title: Provedores de autenticação externa
+    enabled: Ativar autenticação externa
     table:
       header:
-        enabled: Enabled
-        provider: Provider
-        info: Issuer, client ID
+        enabled: Habilitado
+        provider: Fornecedor
+        info: Emissor, ID do cliente
     standard:
-      enabled: Enabled
-      apiAccess: Api access
-      clientKey: Client key
-      clientSecret: Secret
+      enabled: Habilitado
+      clientKey: Chave do cliente
+      clientSecret: Segredo
     oidc:
-      add: Add an OIDC provider
-      enabled: Enabled
-      handle: Handle
-      title: OpenID Connect
-      issuer: OIDC Issuer URL
-      issuerHint: Where to find the /.well-known/openid-configuration (without the /.well-known/openid-configuration part)
-      clientKey: Client key
-      clientSecret: Secret
-      scope: Scope
-      scopePlaceholder: List out supported OAuth scope values
-      scopeHint: Use space delimited string
+      add: Adicionar um provedor OIDC
+      enabled: Habilitado
+      handle: Identificador
+      title: Conexão com OpenID
+      issuer: URL do emissor OIDC
+      issuerHint: Onde encontrar a /.well-known/openid-configuration (sem a parte /.well-known/openid-configuration)
+      clientKey: Chave do cliente
+      clientSecret: Segredo
+      scope: Alcance
+      scopePlaceholder: Listar os valores de escopo OAuth compatíveis
+      scopeHint: Usar string delimitada por espaço
     saml:
-      enabled: Enabled
+      enabled: Habilitado
       title: SAML
       requests:
-        title: Requests
-        sign-requests: Sign requests
-        sign-method: Signature method
-        binding: Binding
-        binding-redirect: HTTP Redirect
+        title: Requisições
+        sign-requests: Solicitações de assinatura
+        sign-method: Método de assinatura
+        binding: Vinculativo
+        binding-redirect: Redirecionamento HTTP
         binding-post: HTTP POST
       cert:
-        public: Public key
-        private: Private key
-      name: Name
-      certificate: Certificate
+        public: Chave pública
+        private: Chave privada
+      name: Nome
+      certificate: Certificado
       idp:
-        title: Identity provider
-        ident-handle: Handle field
-        ident-identifier: Identifier field
-        ident-name: Name field
+        title: Provedor de identidade
+        ident-handle: Campo do identificador
+        ident-identifier: Campo identificador
+        ident-name: Campo de nome
         url: URL
       desc:
-        name: IdP name used on the login screen (Login with <name>)
+        name: Nome IdP utilizado na tela de login (Entrar como <name>)
         cert:
-          public: Content will be minimized
-          private: Content will be minimized
+          public: O conteúdo será minimizado
+          private: O conteúdo será minimizado
         requests:
-          sign-requests: Sign AuthNRequest and assertion
-          sign-method: Method to use on signed requests
-          binding: The type of HTTP binding to use on AuthNRequest, defaults to HTTP Redirect (GET)
+          sign-requests: Assinar AuthNRequest e afirmação
+          sign-method: Método a ser usado em solicitações assinadas
+          binding: O tipo de ligação HTTP a ser usado em AuthNRequest, o padrão é HTTP Redirect (GET)
         idp:
-          url: Location of IdP metadata
-          ident-handle: Name of the IdP field used for filling Corteza user handle or nickname
-          ident-identifier: Name of the IdP field used for filling and matching Corteza user email
-          ident-name: Name of the IdP field used for filling Corteza user full name
+          url: Localização dos metadados do IdP
+          ident-handle: Nome do campo IdP usado para preencher o identificador de usuário ou apelido do Corteza
+          ident-identifier: Nome do campo IdP usado para preencher e corresponder o e-mail do usuário do Corteza
+          ident-name: Nome do campo IdP usado para preencher o nome completo do usuário Corteza
     security:
-      title: Security
+      title: Segurança
       prohibited-roles:
-        description: Roles from this list will be removed from security context when authenticates with this provider
-        label: Prohibited roles
+        description: As funções desta lista serão removidas do contexto de segurança ao autenticar com este provedor
       forced-roles:
-        description: Roles from this list will be always added to security context when authenticates with this provider
-        label: Forced roles
+        description: As funções desta lista serão sempre adicionadas ao contexto de segurança ao autenticar com este provedor
+        label: Funções forçadas
       permitted-roles:
-        description: Only roles in this list will be added into security context when authenticates with this provider
-        label: Permitted roles
-  bgScreen:
-    title: Auth background screen
-    image:
-      uploader:
-        label: Background image
-        instructions: Click or drop background image here to upload
-        uploading: Uploading auth background image
-      editor:
-        label: Custom CSS
+        description: Somente as funções nesta lista serão adicionadas ao contexto de segurança quando autenticadas com este provedor
+        label: Funções permitidas

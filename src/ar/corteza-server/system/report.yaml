@@ -1,12 +1,12 @@
 errors:
-  invalidConfiguration: Invalid report configuration
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create reports
-  notAllowedToDelete: not allowed to delete this report
-  notAllowedToListReports: not allowed to list reports
-  notAllowedToRead: not allowed to read this report
-  notAllowedToRun: not allowed to run this report
-  notAllowedToSearch: not allowed to list or search reports
-  notAllowedToUndelete: not allowed to undelete this report
-  notAllowedToUpdate: not allowed to update this report
-  notFound: report not found
+  invalidConfiguration: اعدادات التقرير خاطئة
+  invalidID: معرف خاطئ
+  notAllowedToCreate: غير مسموح انشاء تقرير
+  notAllowedToDelete: غير مسموح حذف هذا التقرير
+  notAllowedToListReports: غير مسموح عرض التقارير
+  notAllowedToRead: غير مسموح قراءة هذا التقرير
+  notAllowedToRun: غير مسموح تشغيل هذا التقرير
+  notAllowedToSearch: غير مسموح البحث او عرض التقارير
+  notAllowedToUndelete: غير مسموح اعادة هذا التقرير
+  notAllowedToUpdate: غير مسموح تحديث هذا التقرير
+  notFound: التقرير غير موجود

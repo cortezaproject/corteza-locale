@@ -1,648 +1,648 @@
 selector:
   selectableBlocks:
-    placeholder: Blocks from other layouts
+    placeholder: Blocs d'autres dispositions de page
   tooltip:
     clone:
-      ref: Clone with references
-      noRef: Clone without references
+      ref: Cloner avec références
+      noRef: Cloner sans références
 automation:
-  addPlaceholderLabel: Add placeholder (dummy button)
-  availableScriptsAndWorkflow: Available scripts and workflows ({{count}})
+  addPlaceholderLabel: Ajouter substitut (bouton factice)
+  availableScriptsAndWorkflow: Scripts et processus disponibles ({{count}})
   badge:
     script: script
-    workflow: workflow
-  buttonLabel: Label
+    workflow: processus
+  buttonLabel: Étiquette
   buttonVariant: Variant
-  configuredButtons: Configured buttons
-  dummyButtonLabel: Dummy
-  editButton: Edit
+  configuredButtons: Boutons configurés
+  dummyButtonLabel: Factice
+  editButton: Éditer
   editTitle:
-    script: Edit automation script button
-    workflow: Edit workflow button
-  label: Automation
-  noDescription: No description
-  noLabel: Unlabeled
-  noScript: There is no script or workflow configured for this button
-  noScripts: There are no manual scripts compatible with this page block
-  removeAll: Remove all
-  searchPlaceholder: Filter available scripts by label, script name and description
-  stepID: 'Starting step ID: {{stepID}}'
+    script: Éditer bouton de script d'automatisme
+    workflow: Éditer bouton de processus
+  label: Automatisme
+  noDescription: Pas de description
+  noLabel: Non étiqueté
+  noScript: Il n'y a pas de script ou flux de travail configuré pour ce bouton
+  noScripts: Il n'y a pas de scripts manuels compatibles avec ce bloc de page
+  removeAll: Supprimer tout
+  searchPlaceholder: Filtrez les scripts disponibles par étiquette, nom de script et description
+  stepID: 'ID d''étape de début : {{stepID}}'
   variants:
-    primary: Primary
-    secondary: Secondary
-    light: Light
-    dark: Dark
-    success: Success
+    primary: Primaire
+    secondary: Secondaire
+    light: Clair
+    dark: Sombre
+    success: Succès
     danger: Danger
-    warning: Warning
+    warning: Avertissement
 calendar:
   source:
     label: Source
-  addEventsSource: Add events source
-  calendarHeader: Calendar header
-  feedLabel: Configure events source
-  feedPlaceholder: Select an event source
-  eventSource: Event source
-  hideHeader: Hide calendar header
-  hideNavigation: Hide prev/next button
-  hideTitle: Hide title text
-  hideToday: Hide today button
-  label: Calendar
-  colorPicker: Choose a color
-  colorLabel: Event color
+  addEventsSource: Ajouter une source d'évènement
+  calendarHeader: Entête de calendrier
+  feedLabel: Configurer source d'évènement
+  feedPlaceholder: Sélectionnez une source d'évènement
+  eventSource: Source d'évènement
+  hideHeader: Cacher entête de calendrier
+  hideNavigation: Cacher bouton précédent/suivant
+  hideTitle: Cacher texte de titre
+  hideToday: Cacher bouton "Aujourd'hui"
+  label: Calendrier
+  colorPicker: Choisissez une couleur
+  colorLabel: Couleur d'évènement
   recordFeed:
-    eventAllDay: Show as all-day-events
-    eventEndFieldLabel: Event end
-    eventEndFieldPlaceholder: Event will last 1 hour
-    eventStartFieldLabel: Event start
-    eventStartFieldPlaceholder: Field with event start date
+    eventAllDay: Afficher comme évènements de journée complète
+    eventEndFieldLabel: Fin d'évènement
+    eventEndFieldPlaceholder: L'évènement durera 1 heure
+    eventStartFieldLabel: Début d'évènement
+    eventStartFieldPlaceholder: Champ de date de début d'évènement
     moduleLabel: Module
-    modulePlaceholder: Select a module
-    optionLabel: Records
-    prefilterLabel: Prefilter events
-    prefilterPlaceholder: field1 = 1 AND field2 = 232
-    titleLabel: Event title
-    titlePlaceholder: Field used as event title
+    modulePlaceholder: Sélectionnez un module
+    optionLabel: Éléments
+    prefilterLabel: Préfiltrer évènements
+    prefilterPlaceholder: champ1 = 1 AND champ2 = 232
+    titleLabel: Titre d'évènement
+    titlePlaceholder: Champ utilisé comme titre d'évènement
   reminderFeed:
-    optionLabel: Reminders
-  today: Today
+    optionLabel: Rappels
+  today: Aujourd'hui
   view:
-    dayGridMonth: Month
-    default: Default view
-    enabled: Enabled views
-    footnote: Make sure default is one of the available views
+    dayGridMonth: Mois
+    default: Vue par défaut
+    enabled: Vues activées
+    footnote: Assurez-vous que la vue par défaut est l'une des vues disponibles
     listMonth: Agenda
-    timeGridDay: Day
-    timeGridWeek: Week
-    onEventClick: On event click
-    openInSameTab: Open record in the same tab
-    openInNewTab: Open record in a new tab
-    openInModal: Open record in a modal
-  viewLabel: Calendar
+    timeGridDay: Jour
+    timeGridWeek: Semaine
+    onEventClick: Au clic de l'évènement
+    openInSameTab: Ouvrir élément dans le même onglet
+    openInNewTab: Ouvrir élément dans un nouvel onglet
+    openInModal: Ouvrir élément dans une fenêtre
+  viewLabel: Calendrier
 chart:
-  add: New Chart
-  addFunnel: Funnel chart
-  addGauge: Gauge chart
-  addRadar: Radar chart
-  addGeneric: Generic chart
-  createFailed: Could not create a chart
-  enableLiveFilter: Enable live filter
+  add: Nouveau graphique
+  addFunnel: Graphique en entonnoir
+  addGauge: Graphique en jauge
+  addRadar: Graphique en radar
+  addGeneric: Graphique générique
+  createFailed: Impossible de créer le graphique
+  enableLiveFilter: Activer filtrage en direct
   columns:
-    name: Name
-    handle: Handle
-    changedAt: Last change
+    name: Nom
+    handle: Identifiant
+    changedAt: Dernier changement
   configure:
-    label: Configure chart
-    reportLabel: Report {{l}}
-    reportsLabel: Reports
-  display: Chart to display inside this block
+    label: Configurer graphique
+    reportLabel: Rapport {{l}}
+    reportsLabel: Rapports
+  display: Graphique à afficher dans ce bloc
   drillDown:
-    label: Drill down
-    description: If a record list is selected, it will be used to display the drill down data. If no record list is selected, the drill down data will be shown in a modal.
-    openInModal: Open in modal
-    configureColumns: Choose the default fields
+    label: Données détaillées
+    description: Si une liste d'élément est sélectionnée, elle sera utilisée pour afficher les données détaillées. Sinon, ces données détaillées seront affichés dans une fenêtre.
+    openInModal: Ouvrir dans une fenêtre
+    configureColumns: Choisissez les champs par défaut
   edit:
-    label: Edit chart
+    label: Éditer graphique
     dimension:
       function:
         date: DATE
-        label: Function
-        month: MONTH
-        none: (no grouping / buckets)
-        placeholder: Select dimension modifier (bucket size)
-        quarter: QUARTER
-        week: WEEK
-        year: YEAR
-  label: Chart
-  pick: Pick a chart
-  delete: Delete
+        label: Fonction
+        month: MOIS
+        none: (pas de groupement / intervalles)
+        placeholder: Sélectionnez le modificateur de dimension (taille de l'intervalle)
+        quarter: TRIMESTRE
+        week: SEMAINE
+        year: ANNEE
+  label: Graphique
+  pick: Choisissez un graphique
+  delete: Supprimer
   preview:
-    chartId: Chart preview (ID {{0}})
-  searchPlaceholder: Type here to search all charts in this namespace
-  openInBuilder: Open in chart builder
-  openChartList: Open chart list
+    chartId: Prévisualisation de graphique (ID {{0}})
+  searchPlaceholder: Tapez ici pour rechercher parmi tous les graphiques de ce namespace
+  openInBuilder: Ouvrir constructeur de graphique
+  openChartList: Ouvrir liste de graphique
   filter:
     modal:
-      title: Chart Filter
+      title: Filtre de graphique
       originalFilter:
-        label: Original filter
+        label: Filtre original
       liveFilter:
-        label: Live filter
-        placeholder: Select a filter
+        label: Filtre en direct
+        placeholder: Sélectionner un filtre
       filterPreview:
-        label: Filter Preview
+        label: Prévisualisation de filtre
       options:
-        label: Filter options
-        and: Join filters with AND
-        or: Join filters with OR
-        overwrite: Overwrite original filter
+        label: Options de filtre
+        and: Joindre les filtres avec AND
+        or: Joindre les filtres avec OR
+        overwrite: Écraser filtre original
 content:
   ok: Ok
-  label: Content
+  label: Contenu
   urlPlaceholder: https://example.tld
 file:
-  label: File
+  label: Fichier
   preview:
-    label: File block
+    label: Bloc de fichier
 general:
   descriptionLabel: Description
-  descriptionPlaceholder: Block description
-  headerStyle: Block header style (color)
-  magnifyLabel: Block Magnification
+  descriptionPlaceholder: Description de bloc
+  headerStyle: Style d'en-tête de bloc (couleur)
+  magnifyLabel: Zoom du bloc
   customID:
-    label: Custom ID
+    label: ID personnalisé
     placeholder: customID
-    description: 'Used to reference the block in Custom CSS (#customID). Must be unique on the page.'
-    invalid-state: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dashes. Must end with letter or number
+    description: 'Utilisé pour référencer le bloc dans le CSS personnalisé (#customID). Doit être unique sur la page.'
+    invalid-state: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre
   customCSSClass:
-    label: Custom CSS Class
+    label: Classe CSS personnalisée
     placeholder: custom-class-1   custom-class-2
-    description: Used to reference the block in Custom CSS (.custom-class)
-    invalid-state: Can contain only letters, numbers, underscores and dashes. Must end with letter or number. Use spaces to separate multiple classes
+    description: Utilisé pour référencer le bloc dans CSS personnalisé (.custom-class)
+    invalid-state: Ne peut contenir que des lettres, des chiffres, des traits de soulignement et des tirets. Doit se terminer par une lettre ou un chiffre. Utilisez des espaces pour séparer les classes
   visibility:
-    label: Visibility
+    label: Visibilité
     roles:
-      label: Roles
-      placeholder: Pick roles that the block will be shown to
+      label: Rôles
+      placeholder: Choisir les rôles pouvant voir ce bloc
     condition:
       label: Condition
-      placeholder: When will the block be shown
+      placeholder: Quand le bloc sera-t-il visible
       description:
-        record-page: "You can use {{0}}, {{1}}, {{2}}, {{3}} inside  the expression, for example: {{4}} or {{5}}"
-        non-record-page: "You can use {{0}}, {{1}} inside  the expression, for example: {{2}} or {{3}}"
+        record-page: "Vous pouvez utiliser {{0}}, {{1}}, {{2}}, {{3}} à l'intérieur de l'expression, par exemple : {{4}} ou {{5}}"
+        non-record-page: "Vous pouvez utiliser {{0}}, {{1}} à l'intérieur de l'expression, par exemple : {{2}} ou {{3}}"
     tooltip:
       performance:
-        condition: Using visibility conditions will impact performance
+        condition: Utiliser des conditions de visibilité impactera les performances
   magnifyOptions:
-    disabled: Disabled
-    modal: Modal
-    fullscreen: Fullscreen
-  wrap: Display block as a card
+    disabled: Désactivé
+    modal: Fenêtre
+    fullscreen: Plein écran
+  wrap: Afficher bloc comme une carte
   hidden:
-    label: Hidden
+    label: Caché
   refresh:
-    label: Refresh
-    auto: Auto refresh
-    show: Show refresh button
-    description: Setting value to 5 seconds or more enables auto-refresh
-    rate: seconds
+    label: Rafraichir
+    auto: Rafraichissement auto
+    show: Afficher bouton de rafraichissement
+    description: Définir une valeur de 5 ou supérieur activera le rafraichissement auto
+    rate: secondes
   border:
-    show: Show border
+    show: Afficher bordure
   label:
-    add: Add
-    back: Back
-    edit: Edit
-    general: General
-    import: Import
-    next: Next
-    none: None
+    add: Ajouter
+    back: Retour
+    edit: Éditer
+    general: Général
+    import: Importer
+    next: Suivant
+    none: Aucun
     ok: Ok
     permissions: Permissions
-    remove: Remove
-    save: Save
-    cancel: Cancel
-    search: Search
-    refresh: Refresh block
-    magnify: Magnify block
-    and: And
+    remove: Supprimer
+    save: Enregistrer
+    cancel: Annuler
+    search: Rechercher
+    refresh: Rafraichir bloc
+    magnify: Magnifier bloc
+    and: Et
   module: Module
   style:
-    danger: Danger variant
-    default: Dark variant
-    primary: Primary variant
-    secondary: Secondary variant
-    success: Success variant
-    warning: Warning variant
-  title: Add new block
-  titleLabel: Title
-  titlePlaceholder: Block title
+    danger: Variante "Danger"
+    default: Variante "Sombre"
+    primary: Variante "Primaire"
+    secondary: Variante "Secondaire"
+    success: Variante "Succès"
+    warning: Variante "Avertissement"
+  title: Ajouter nouveau bloc
+  titleLabel: Titre
+  titlePlaceholder: Titre de bloc
   tooltip:
-    dragAndDrop: Drag and drop to change order
-    translations: Field translations
+    dragAndDrop: Glisser et déposer pour changer l'ordre
+    translations: Traduction de champ
 iframe:
   label: IFrame
-  pickURLField: Pick an URL field
-  srcDesc: Used as a fallback when set in combination with record field.
-  srcFieldDesc: Only available on record pages and on modules with existing "url" field kind
-  srcFieldLabel: Field (URL) from record to use for the iframe
-  srcLabel: URL to show in the iframe
+  pickURLField: Choisissez un champ URL
+  srcDesc: Utilisé comme solution de secours lorsque défini en combinaison avec un champ d'élément.
+  srcFieldDesc: Uniquement disponible sur les pages d'élément pour les modules disposant d'un champ de type "url"
+  srcFieldLabel: Champ (URL) d'élément à utiliser pour l'iframe
+  srcLabel: URL à afficher dans l'iframe
 metric:
-  metricDrillDown: Metric drill down
-  defaultMetricLabel: Unnamed metric
+  metricDrillDown: Données détaillées de la métrique
+  defaultMetricLabel: Métrique sans nom
   drillDown:
-    label: Drill down
-    description: If a record list is selected, it will be used to display the drill down data. If no record list is selected, the drill down data will be shown in a modal.
-    openInModal: Open in modal
+    label: Données détaillées
+    description: Si une liste d'élément est sélectionnée, elle sera utilisée pour afficher les données détaillées. Sinon, ces données détaillées seront affichés dans une fenêtre.
+    openInModal: Ouvrir dans une fenêtre
   edit:
-    bucketLabel: Bucket size
-    bucketPlaceholder: Select a bucket size
-    dateFormat: Date format
-    dimensionFieldLabel: Field
-    dimensionFieldPlaceholder: Dimension field
+    bucketLabel: Taille d'intervalle
+    bucketPlaceholder: Sélectionnez une taille d'intervalle
+    dateFormat: Format de date
+    dimensionFieldLabel: Champ
+    dimensionFieldPlaceholder: Champ dimension
     dimensionLabel: Dimension
-    filterLabel: Filter
-    filterFootnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
-    transformFootnote: Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available). Make sure to wrap the variables with quotes ("")
-    labelLabel: Label
-    labelPlaceholder: Label
-    metricFieldLabel: Field
-    metricFieldPlaceholder: Dimension field
-    metricLabel: Metric
-    metricFieldSelect: Select field
-    metricSelectAggregate: Select aggregation operation
-    metricAggregateLabel: Aggregation operation
+    filterLabel: Filtrer
+    filterFootnote: Les syntaxes conditionnelles SQL simplifiées (WHERE ...) sont prises en charge. Les variables tels que {{0}}, {{1}}, {{2}} et {{3}} sont évaluées (lorsque disponible)
+    transformFootnote: Les variables comme {{0}}, {{1}}, {{2}} et {{3}} sont évaluées (lorsque disponible). Assurez-vous d'entourer les variables par des guillemets ("")
+    labelLabel: Étiquette
+    labelPlaceholder: Étiquette
+    metricFieldLabel: Champ
+    metricFieldPlaceholder: Champ dimension
+    metricLabel: Métrique
+    metricFieldSelect: Sélectionnez un champ
+    metricSelectAggregate: Sélectionnez l'opération d'agrégation
+    metricAggregateLabel: Opération d'agrégation
     moduleLabel: Module
-    modulePlaceholder: Pick a module
-    numberFormat: Number format
-    operationAvg: Avg
-    operationLabel: Aggregation operation
+    modulePlaceholder: Choisissez un module
+    numberFormat: Format de nombre
+    operationAvg: Moy
+    operationLabel: Opération d'agrégation
     operationMax: Max
     operationMin: Min
-    operationPlaceholder: Aggregation operation
+    operationPlaceholder: Opération d'agrégation
     operationStd: Std
     operationSum: Sum
-    prefixLabel: Prefix
-    refreshData: Refresh data
-    suffixLabel: Suffix
-    tabTitle: Metric
-    transformFunctionDescription: v - current value; label - current value's label
-    transformFunctionLabel: Transform value
+    prefixLabel: Préfixe
+    refreshData: Rafraichir données
+    suffixLabel: Suffixe
+    tabTitle: Métrique
+    transformFunctionDescription: v - valeur actuelle ; label - étiquette de la valeur actuelle
+    transformFunctionLabel: Transformation de valeur
   editStyle:
-    backgroundColor: Background color
-    color: Text color
-    colorPicker: Choose a color
-    fontSize: Font size in pixels
-    labelLabel: Label style
-    valueLabel: Value style
-  label: Metric
+    backgroundColor: Couleur de fond
+    color: Couleur de texte
+    colorPicker: Choisissez une couleur
+    fontSize: Taille de police en pixel
+    labelLabel: Style d'étiquette
+    valueLabel: Style de valeur
+  label: Métrique
 record:
-  referenceRecordField: Reference record
-  referenceRecordFieldPlaceholder: Select reference record field
-  referenceRecordFieldDescription: Used to show record details of reference record. Multi value record selector fields are not available
-  confirmDelete: Are you sure you want to delete this record?
-  deleteFailed: Could not delete record
-  deleteRecord: Delete record
-  invalidOwnerVar: Can not use ${ownerID} variable in non-record pages
-  invalidRecordVar: Can not use ${record...} variable in non-record pages
-  label: Record
-  listLoadFailed: Could not load record list
-  moduleOrPageNotSet: 'RecordList block error: module or page option not set'
-  moduleMismatch: Module incompatible, module mismatch
-  horizontalFormLayout: Horizontal form layout
+  referenceRecordField: Élément de référence
+  referenceRecordFieldPlaceholder: Sélectionnez le champ d'élément de référence
+  referenceRecordFieldDescription: Permet d'afficher les détails de l'élément de référence. Les champs de sélection d'élément multi-valeurs ne sont pas disponibles
+  confirmDelete: Êtes-vous de vouloir supprimer cet élément ?
+  deleteFailed: Impossible de supprimer l'élément
+  deleteRecord: Supprimer élément
+  invalidOwnerVar: Impossible d'utiliser la variable ${ownerID} dans les pages sans élément
+  invalidRecordVar: Impossible d'utiliser la variable ${record...} dans les pages sans élément
+  label: Élément
+  listLoadFailed: Impossible de charger la liste des éléments
+  moduleOrPageNotSet: 'Erreur de bloc RecordList : le module ou les options de page n''ont pas été définis'
+  moduleMismatch: Module incompatible, module incohérent
+  horizontalFormLayout: Disposition horizontale du formulaire
   inlineEdit:
-    enabled: Inline value editing enabled
-    allowAddField: Allow adding fields to inline edit
+    enabled: Édition de valeur en ligne activée
+    allowAddField: Autoriser l'ajout de champs à l'édition en ligne
     button:
-      title: Edit value
+      title: Éditer valeur
     modal:
-      title: Update record values
+      title: Mettre à jour valeurs de l'élément
   fieldsLayoutMode:
-    label: Fields layout mode
-    default: Default
-    noWrap: No wrap
-    wrap: Wrap
+    label: Mode de disposition des champs
+    default: Défaut
+    noWrap: Sans retour à la ligne automatique
+    wrap: Retour à la ligne automatique
   preview:
-    blockNoRecord: Cannot render this block without a record
-    fieldsFromModule: Single record block, displaying fields ({{0}}) from module {{1}}
-    untitled: Untitled
-  recordDeleted: This record was deleted
-  recordSelectorDisplayOptions: When clicking on record field value
-  openInSameTab: Open record in the same tab
-  openInNewTab: Open record in a new tab
-  openInModal: Open record in a modal
+    blockNoRecord: Impossible d'afficher ce bloc sans un élément
+    fieldsFromModule: Bloc d'élément seul, affichant les champs ({{0}}) du module {{1}}
+    untitled: Sans titre
+  recordDeleted: Cet enregistrement a été supprimé
+  recordSelectorDisplayOptions: Lors de clic sur une valeur de champ d'un élément
+  openInSameTab: Ouvrir élément dans le même onglet
+  openInNewTab: Ouvrir élément dans un nouvel onglet
+  openInModal: Ouvrir élément dans une fenêtre
   fieldConditions:
-    label: Conditional fields
-    action: + Add
-    placeholder: When should this field be displayed?
-    selectPlaceholder: Select field
-    help: Example
-    field: Field
+    label: Champs conditionnels
+    action: + Ajouter
+    placeholder: Quand ce champ doit être affiché ?
+    selectPlaceholder: Sélectionnez un champ
+    help: Exemple
+    field: Champ
     condition: Condition
     tooltip:
-      performance: Using conditional fields will impact performance
-  recordSelectorCanAddRecord: Can add records via record selector
-  recordSelectorAddRecordDisplayOption: When adding a record via record selector
+      performance: Utilisé des champs conditionnels impactera les performances
+  recordSelectorCanAddRecord: Peut ajouter un élément par le sélecteur d'élément
+  recordSelectorAddRecordDisplayOption: Lors de l'ajout d'élément par un sélecteur d'élément
 recordList:
-  noModule: No module selected
-  addRecord: Add
-  cancelSelection: Cancel
-  customFilter: Custom filter
+  noModule: Pas de module sélectionné
+  addRecord: Ajouter
+  cancelSelection: Annuler
+  customFilter: Filtre personnalisé
   prefilter:
-    toggleInputType: Toggle input type
-  filterByValue: Filter by value
+    toggleInputType: Basculer le type d'entrée
+  filterByValue: Filtrer par valeur
   filterPresets:
-    filterName: Filter name
-    saveFilterAsPreset: Save filter as preset
+    filterName: Nom de filtre
+    saveFilterAsPreset: Enregistrer filtre comme préréglage
   inlineValueFilter:
-    enabled: Enable inline value filtering
+    enabled: Activer filtrage de valeur en ligne
   inlineEdit:
-    enabled: Inline value editing enabled
-    allowAddField: Allow adding fields to inline edit
+    enabled: Édition de valeur en ligne activée
+    allowAddField: Autoriser l'ajout de champs à l'édition en ligne
     fields:
       configure:
-        tooltip: Configure the fields for inline editing
+        tooltip: Configurez les champs d'édition en ligne
     button:
-      title: Edit value
+      title: Éditer valeur
     modal:
-      title: Update record values
+      title: Mettre à jour valeurs de l'élément
   bulkRecord:
-    title: Update selected records
+    title: Mettre à jour l'élément sélectionné
     field:
-      add: Add a field to update
-      addAnother: Add another field to update
-      remove: Remove field
-    reset: Reset
+      add: Ajoutez un champ à mettre à jour
+      addAnother: Ajoutez un autre champ à mettre à jour
+      remove: Supprimer champ
+    reset: Réinitialiser
   drillDown:
     filter:
-      label: Drill down filter
+      label: Filtre de données détaillées
   tooltip:
-    deleteSelected: Delete selected records
+    deleteSelected: Supprimer l'élément sélectionné
     performance:
-      impact: Using this feature will impact performance
-      moduleFields: Selecting a large number of fields or displaying record/user fields will impact performance
-      perPage: Displaying a large amount of records per page will impact performance, especially if you are displaying record/user fields
-    restoreSelected: Restore selected records
-  editFields: Editable module fields
+      impact: Cette fonction impactera les performances
+      moduleFields: Sélectionner un nombre important de champs ou afficher les champs de type élément/utilisateur impactera les performances
+      perPage: Afficher un nombre important d'éléments par page impactera les performances, en particulier si vous affichez des champs d'élément/utilisateur
+    restoreSelected: Restaurer les éléments sélectionnés
+  editFields: Champs de module éditables
   export:
-    all: Export all records
-    allow: Users will be able to export records
-    csv: CSV Export
-    dateRange: Select date range
+    all: Exporter tous les éléments
+    allow: Les utilisateurs seront capables d'exporter des éléments
+    csv: Export CSV
+    dateRange: Sélectionnez la plage de date
     multiValueDelimiter:
-      label: Multi value delimiter
+      label: Délimiteur de valeurs multiples
       semicolon:
-        label: value 1;value 2;...;value n
+        label: valeur 1;valeur 2;...;valeur n
       comma:
-        label: value 1,value 2,...,value n
+        label: valeur 1,valeur 2,...,valeur n
       pipe:
-        label: value 1|value 2|...|value n
+        label: valeur 1|valeur 2|...|valeur n
       semicolonArray:
-        label: "[value 1;value 2;...;value n]"
+        label: "[valeur 1;valeur 2;...;valeur n]"
       commaArray:
-        label: "[value 1,value 2,...,value n]"
+        label: "[valeur 1,valeur 2,...,valeur n]"
       pipeArray:
-        label: "[value 1|value 2|...|value n]"
+        label: "[valeur 1|valeur 2|...|valeur n]"
     query:
-      label: Search query
-      placeholder: Search...
+      label: Requête de recherche
+      placeholder: Rechercher...
     filter:
-      label: Record filter
-      placeholder: field1 = 1 AND field2 = 232
-      footnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
-      createdAt: Record created
-      custom: Custom
-      lastMonth: Last month
-      lastWeek: Last week
-      thisMonth: This month
-      thisWeek: This week
-      today: Today
-      from: From
-      to: To
-      updatedAt: Record updated
-    inRange: Date range
-    includeQuery: Filter by search query
-    json: JSON Export
-    limitations: 'CSV export limitation: only the first value in the multi value fields will be exported'
-    rangeBy: Set range by
-    recordCount: '{{count}} records ready for export'
-    selectFields: 'Select fields you want to export:'
-    selection: Selected records
-    specifyTimezone: Export to timezone
-    timezonePlaceholder: Select timezone
-    datePresetUndefined: Unknown date preset
-  federated: Federated
-  fields: Module fields
+      label: Filtre d'élément
+      placeholder: champ1 = 1 AND champ2 = 232
+      footnote: Les syntaxes conditionnelles SQL simplifiées (WHERE ...) sont prises en charge. Les variables tels que {{0}}, {{1}}, {{2}} et {{3}} sont évaluées (lorsque disponible)
+      createdAt: Élément créé
+      custom: Personnalisé
+      lastMonth: Mois dernier
+      lastWeek: Semaine dernière
+      thisMonth: Ce mois
+      thisWeek: Cette semaine
+      today: Aujourd'hui
+      from: Depuis
+      to: A
+      updatedAt: Élément mis à jour
+    inRange: Plage de date
+    includeQuery: Filtrer par requête de recherche
+    json: Export JSON
+    limitations: 'Limitation export CSV : Seule la première valeur d''un champ à multiples valeurs sera exportée'
+    rangeBy: Définir plage par
+    recordCount: '{{count}} éléments prêts à être exportés'
+    selectFields: 'Sélectionnez les champs à exporter :'
+    selection: Éléments sélectionnés
+    specifyTimezone: Exporter à un fuseau horaire
+    timezonePlaceholder: Sélectionnez un fuseau horaire
+    datePresetUndefined: Préréglage de date inconnu
+  federated: Fédéré
+  fields: Champs de module
   filter:
-    addField: Add new filter field
-    byValue: Filter records based on field value
-    addFilterToPreset: Save as preset
+    addField: Ajouter nouveau champ de filtrage
+    byValue: Filtrer élément selon la valeur de champ
+    addFilterToPreset: Enregistrer comme préréglage
     nil: 'NULL'
     conditions:
       and: AND
       or: OR
     operatorLabels:
-      is: is
-      equal: is equal
-      notEqual: is not equal
-      in: contains
-      notIn: does not contain
-      greaterThan: is greater than
-      lessThan: is less than
-      like: is like
-      notLike: not like
-      between: is between
-      notBetween: is not between
-    deletedRecords: Deleted records
-    field: Filter field
-    fieldPlaceholder: Pick a field
-    fieldValue: Field value
-    fieldValuePlaceholder: Input field filter
-    including: Including
-    label: Filter
-    note: 'Note: If Field value is undefined, the filter will look for records where that field value is undefined.'
-    only: Only
+      is: est
+      equal: est égal
+      notEqual: est différent de
+      in: contient
+      notIn: ne contient pas
+      greaterThan: est plus grand que
+      lessThan: est plus petit que
+      like: est comme
+      notLike: n'est pas comme
+      between: est entre
+      notBetween: n'est pas entre
+    deletedRecords: Éléments supprimés
+    field: Champ de filtrage
+    fieldPlaceholder: Choisissez un champ
+    fieldValue: Valeur de champ
+    fieldValuePlaceholder: Saisissez champ de filtrage
+    including: Comprenant
+    label: Filtrer
+    note: 'Note : Si la valeur de champ n''est pas définie, le filtre cherchera des éléments dont la valeur de champ n''est également pas définie.'
+    only: Uniquement
     operators:
-      like: Like
-      notLike: Not Like
-      contains: Contains
-      notContains: Not contains
-      equal: Equal
-      greaterThan: Greater than
-      lessThan: Less than
-      notEqual: Not equal
-      between: Between
-      notBetween: Not between
-    title: Record list filter
-    update: Update filter
-    where: Where
-    without: Without
-    presets: Filter presets
-    reset: Reset Filter
+      like: Comme
+      notLike: Pas comme
+      contains: Contenant
+      notContains: Ne contenant pas
+      equal: Égal
+      greaterThan: Plus grand que
+      lessThan: Plus petit que
+      notEqual: Différent de
+      between: Entre
+      notBetween: Pas entre
+    title: Filtre de liste d'éléments
+    update: Mettre à jour filtre
+    where: Lorsque
+    without: Sans
+    presets: Filtres prédéfinis
+    reset: Réinitialiser filtre
     filters:
-      label: Filters
-      active: 'Active filters:'
+      label: Filtres
+      active: 'Filtres actifs :'
     name:
-      label: Name
-      placeholder: Filter name
+      label: Nom
+      placeholder: Nom de filtre
     role:
-      label: Role(s)
-      placeholder: Select role(s) that will be able to use preset
-  hideRecordCloneButton: Hide clone record button
-  hideRecordEditButton: Hide edit record button
-  hideRecordPermissionsButton: Hide record permissions button
-  hideRecordReminderButton: Hide record reminder button
-  hideRecordViewButton: Hide view record button
-  hideConfigureFieldsButton: Users will be able to configure which fields to display
-  enableRecordPageNavigation: Users will be able to navigate to previous/next record
+      label: Rôle(s)
+      placeholder: Sélectionnez le(s) rôle(s) qui pourront utiliser le filtre
+  hideRecordCloneButton: Cacher bouton de duplication d'élément
+  hideRecordEditButton: Cacher bouton d'édition d'élément
+  hideRecordPermissionsButton: Cacher bouton permissions d'élément
+  hideRecordReminderButton: Cacher bouton de rappel d'élément
+  hideRecordViewButton: Cacher bouton d'affichage d'élément
+  hideConfigureFieldsButton: Les utilisateurs pourront définir les champs à afficher
+  enableRecordPageNavigation: Les utilisateurs pourront naviguer vers l'élément précédent/suivant
   import:
-    dropzoneFileAdded: '{{name}} was uploaded and is ready for import ({{count}} record)'
-    dropzoneFileAdded_plural: '{{name}} was uploaded and is ready for import ({{count}} records)'
-    dropzoneLabel: Click or drop file here to upload (.csv or JSON)
-    failed: 'Something went wrong during the import. Please try again: {{failReason}}'
-    fileColumns: File columns
-    hasRequiredFileFields: 'This module has required file upload fields'
-    matchFields: 'Match imported columns with existing ones'
-    moduleFields: Module fields
-    onError: If any record fails to import
-    onErrorFail: Cancel import
-    onErrorSkip: Skip record
-    pickModuleField: Pick a module field
-    importing: Importing records
-    success: Import successful
-    to: Import to {{modulename}}
-    uploadFile: Upload the file you want to import (.csv or JSON format)
-    idFieldDescription: Records with matching ID's will be updated.
+    dropzoneFileAdded: '{{name}} a été téléversé et est prêt pour l''import ({{count}} élément)'
+    dropzoneFileAdded_plural: '{{name}} a été téléversé et est prêt pour l''import ({{count}} éléments)'
+    dropzoneLabel: Cliquer ou déposer un fichier pour téléverser (format .csv ou .zip)
+    failed: 'Une erreur s''est produite lors de l''import. Veuillez réessayer : {{failReason}}'
+    fileColumns: Colonnes du fichier
+    hasRequiredFileFields: 'Ce module à des champs de type "import de fichier" obligatoire'
+    matchFields: 'Faites correspondre les champs importés avec les champs existants'
+    moduleFields: Champs de module
+    onError: Si un élément ne parvient pas à être importé
+    onErrorFail: Annuler import
+    onErrorSkip: Ignorer élément
+    pickModuleField: Choisissez un champ de module
+    importing: Importation d'éléments
+    success: Importation réussie
+    to: Import dans {{modulename}}
+    uploadFile: Téléverser le fichier à importer (format .csv ou .zip)
+    idFieldDescription: Les éléments avec un ID correspondant seront mis à jour.
     multiValueDelimiter:
-      label: Multi value delimiter
+      label: Délimiteur de valeurs multiples
       semicolon:
-        label: value 1;value 2;...;value n
+        label: valeur 1;valeur 2;...;valeur n
       comma:
-        label: value 1,value 2,...,value n
+        label: valeur 1,valeur 2,...,valeur n
       pipe:
-        label: value 1|value 2|...|value n
+        label: valeur 1|valeur 2|...|valeur n
       semicolonArray:
-        label: "[value 1;value 2;...;value n]"
+        label: "[valeur 1;valeur 2;...;valeur n]"
       commaArray:
-        label: "[value 1,value 2,...,value n]"
+        label: "[valeur 1,valeur 2,...,valeur n]"
       pipeArray:
-        label: "[value 1|value 2|...|value n]"
+        label: "[valeur 1|valeur 2|...|valeur n]"
     report:
-      count: Number of records
-      detectedErrors: Detected errors
-      error: Error
-      failedEntries: Failed source entries
-      failedEntriesLine: Entry
-      failedEntriesLines: Entries from to (inclusive)
-      failedRecords: Failed records
-      finishedAt: Finished At
-      importedRecords: Imported records
-      startedAt: Started At
-      title: Record import error report
-      totalRecords: Total records
-  label: Record list
-  modulePlaceholder: Select a module
-  moduleFootnote: Modules without a {{0}} can only be used in a record list as an inline editor
-  moduleFieldsFootnote: If no fields are selected, the default fields will be shown
-  noRecords: There are no records matching your request
+      count: Nombre d'éléments
+      detectedErrors: Erreurs détéctées
+      error: Erreur
+      failedEntries: Entrées sources ayant échouées
+      failedEntriesLine: Entrée
+      failedEntriesLines: Entrées source destination (inclusive)
+      failedRecords: Éléments non importés
+      finishedAt: Terminé à
+      importedRecords: Éléments importés
+      startedAt: Débuté à
+      title: Rapport d'erreur d'import d'élément
+      totalRecords: Total d'éléments
+  label: Liste d'élément
+  modulePlaceholder: Sélectionnez un module
+  moduleFootnote: Les modules sans {{0}} peuvent uniquement être utilisés dans une liste d'éléments comme éditeur en ligne
+  moduleFieldsFootnote: Si aucun champ n'est sélectionné, les champs par défaut seront affichés
+  noRecords: Il n'y a aucun d'élément correspondant à votre requête
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} records'
-    single_one: One record
-    single_other: '{{count}} records'
-    recordsPerPage: Per page
-    selectLabel: Select an option
+    next: Suivant
+    prev: Précédent
+    showing: '{{from}} - {{to}} sur {{count}} éléments'
+    single_one: Un élément
+    single_other: '{{count}} éléments'
+    recordsPerPage: Par Page
+    selectLabel: Sélectionnez une option
   positionField:
-    footnote: Records will be sorted based on this field
-    placeholder: Field that will hold the record position
-    label: Record sort field
+    footnote: Les éléments seront triés selon ce champ
+    placeholder: Champ qui contiendra la position de l'élément
+    label: Champ de tri d'élément
   preview:
-    addRecordButton: Add record button
-    bePaged: '{{0}} be paged.'
-    isDisabled: '{{0}} is disabled.'
-    isEnabled: '{{0}} is enabled.'
-    isHidden: '{{0}} is hidden.'
-    isShown: '{{0}} is shown'
-    moduleNotSelected: Block with table of records, module not selected.
-    recordFromModule: 'Showing records from {{0}} module with columns: {{1}}'
-    recordsPerPage: '{{0}} records are shown per page.'
-    resultsCan: Results can
-    resultsCant: Results can not
-    resultsPrefiltered: 'Results are prefiltered:'
-    searchInput: Search inputbox
-    sorting: Sorting
-    tableHeader: Table header
-    usersSearchThrough: Users search through the records
-    usersSee: Users see {{0}}
-    withPresortedRecords: with presorted ({{0}}) record
+    addRecordButton: Bouton d'ajout d'élément
+    bePaged: '{{0}} est paginé.'
+    isDisabled: '{{0}} est désactivé.'
+    isEnabled: '{{0}} est activé.'
+    isHidden: '{{0}} est caché.'
+    isShown: '{{0}} est affiché.'
+    moduleNotSelected: Bloc avec un tableau d'éléments, aucun module sélectionné.
+    recordFromModule: 'Affichage les éléments du module {{0}} avec les colonnes : {{1}}'
+    recordsPerPage: '{{0}} éléments seront visibles par page.'
+    resultsCan: Les résultats peuvent
+    resultsCant: Les résultats ne peuvent pas
+    resultsPrefiltered: 'Les résultats sont préfiltrés :'
+    searchInput: Zone de saisie de recherche
+    sorting: Tri
+    tableHeader: En-tête de tableau
+    usersSearchThrough: Les utilisateurs recherchent dans les éléments
+    usersSee: Les utilisateurs voient {{0}}
+    withPresortedRecords: avec élément pré-trié ({{0}})
   record:
-    draggable: Can drag & drop records to order them
-    editMode: Open records in edit mode by default
-    fullPageNavigation: Full page navigation
-    hideAddButton: Users will be able to add new records
-    hideImportButton: Users will be able to import records
-    pagingLabel: Paging
-    pagingOptions: Paging Options
-    moreOptions: More Options
-    hidePaging: User will be able to navigate through pages
-    inlineEditor: Inline Options
-    inlineEditorAllow: Inline record editor
-    recordsLabel: Records
-    noPermission: No permission to read record
-    perPage: Records per page
-    prefilterFootnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
-    prefilterHideSearch: Users will be able to search the record list
-    filterHide: Users will be able to filter the list
-    prefilterLabel: Filtering
-    generalLabel: General Settings
-    prefilterCommand: Prefilter
-    prefilterPlaceholder: field1 = 1 AND field2 = 232
-    presortFootnote: Simplified SQL condition (ORDER BY ...) syntax is supported
-    presortToggleInput: Toggle input type
-    presortHideSort: Users will be able to sort the list
-    presortLabel: Sorting
-    presortInputLabel: Presort
-    presortPlaceholder: field1 DESC, field2 ASC
-    showTotalCount: Show total record count
-    showRecordPerPageOption: User will be able to select records per page
-    showDeletedRecordsOption: Show option to see deleted records
-    setCustomFilterPresets: User will be able to set custom filter presets
-    openInSameTab: Open record in the same tab
-    openInNewTab: Open record in a new tab
-    openInModal: Open record in a modal
-    createInSameTab: Create record in the same tab
-    createInNewTab: Create record in a new tab
-    createInModal: Create record in a modal
-    enableBulkRecordEdit: Enable bulk record edit
-    buttons: Record buttons
+    draggable: Peux glisser-déposer les enregistrements pour les trier
+    editMode: Ouvrir éléments en mode édition par défaut
+    fullPageNavigation: Navigation paginée complète
+    hideAddButton: Les utilisateurs pourront ajouter des éléments
+    hideImportButton: Les utilisateurs seront capables d'importer des éléments
+    pagingLabel: Pagination
+    pagingOptions: Options de pagination
+    moreOptions: Plus d'options
+    hidePaging: L'utilisateur pourra naviguer à travers les pages
+    inlineEditor: Options "inline"
+    inlineEditorAllow: Éditeur d'élément "inline"
+    recordsLabel: Éléments
+    noPermission: Aucune autorisation de lecture de l'élément
+    perPage: Éléments par page
+    prefilterFootnote: Les syntaxes conditionnelles SQL simplifiées (WHERE ...) sont prises en charge. Les variables tels que {{0}}, {{1}}, {{2}} et {{3}} sont évaluées (lorsque disponible)
+    prefilterHideSearch: Les utilisateurs pourront rechercher dans la liste d'élément
+    filterHide: Les utilisateurs pourront filtrer la liste
+    prefilterLabel: Filtrage
+    generalLabel: Paramètres généraux
+    prefilterCommand: Préfiltre
+    prefilterPlaceholder: champ1 = 1 AND champ2 = 232
+    presortFootnote: Les syntaxes conditionnelles SQL simplifiées (ORDER BY ...) sont prises en charge
+    presortToggleInput: Basculer le type d'entrée
+    presortHideSort: Les utilisateurs pourront trier dans la liste d'élément
+    presortLabel: Tri
+    presortInputLabel: Pré-tri
+    presortPlaceholder: champ1 DESC, champ2 ASC
+    showTotalCount: Afficher nombre total d'élément
+    showRecordPerPageOption: L'utilisateur pourra sélectionner le nombre éléments par page
+    showDeletedRecordsOption: Afficher l'option de visualiser les éléments supprimés
+    setCustomFilterPresets: Les utilisateurs seront capables de définir des filtres prédéfinis
+    openInSameTab: Ouvrir élément dans le même onglet
+    openInNewTab: Ouvrir élément dans un nouvel onglet
+    openInModal: Ouvrir élément dans une fenêtre
+    createInSameTab: Créer élément dans le même onglet
+    createInNewTab: Créer élément dans un nouvel onglet
+    createInModal: Créer élément dans une fenêtre
+    enableBulkRecordEdit: Activer l'édition en masse d'élément
+    buttons: Boutons de gestion d'élément
     tooltip:
-      clone: Clone
-      edit: Edit
-      delete: Delete
-      restore: Restore
-      reminder: Reminder
-      view: View
+      clone: Cloner
+      edit: Éditer
+      delete: Supprimer
+      restore: Restaurer
+      reminder: Rappeler
+      view: Afficher
       permissions: Permissions
-    recordDisplayOptions: On record click
-    recordSelectorDisplayOptions: On record value click
-    addRecordOptions: On add record click
-    textStyles: Text Styles
-    configureWrappedFields: Select fields that will be wrapped
-  recordPage: record page
+    recordDisplayOptions: Au clic sur un élément
+    recordSelectorDisplayOptions: Au clic de la valeur d'un élément
+    addRecordOptions: Au clic d'ajout d'un élément
+    textStyles: Styles du texte
+    configureWrappedFields: Sélectionnez les champs avec retour à la ligne automatique
+  recordPage: page d'élément
   refField:
-    footnote: Field that links records with the parent record
-    label: Parent field
-  selectable: Users will be able to select records
-  selected: '{{count}} of {{total}} records selected'
-  selectedFromAllPages: 'All {{count}} records from all pages selected'
-  selectAllRecords: Select all records on all pages
-  unselectAllRecords: Clear selection
+    footnote: Champ associant les éléments à un élément parent
+    label: Champ parent
+  selectable: Les utilisateurs pourront sélectionner des éléments
+  selected: '{{count}} sur {{total}} éléments sélectionnés'
+  selectedFromAllPages: 'Tous les {{count}} éléments sur l''ensemble des pages ont été sélectionnés'
+  selectAllRecords: Sélectionner tous les éléments sur l'ensemble des pages
+  unselectAllRecords: Annuler la sélection
   sort:
-    tooltip: Sort column
+    tooltip: Trier colonne
   showRecords:
-    deleted: Show deleted records
-    existing: Show existing records
+    deleted: Afficher les éléments supprimés
+    existing: Afficher éléments existants
   summaries:
-    label: Summaries
+    label: Sommaires
     customSummaries:
-      label: Custom Summaries
-      description: Users will be able to set custom summaries
+      label: Sommaires personnalisés
+      description: Les utilisateurs seront capables de définir des sommaires personnalisés
       add:
-        label: Add
-        tooltip: Add a custom summary
+        label: + Ajouter
+        tooltip: Ajouter un sommaire dédié
     param:
       label:
-        label: Label
-        placeholder: Summary Label
+        label: Étiquette
+        placeholder: Titre de sommaire
       field:
-        label: Field
-        placeholder: Module Field
+        label: Champ
+        placeholder: Champ de module
       metric:
-        label: Metric
-        placeholder: Summary Metric
+        label: Métrique
+        placeholder: Métrique de sommaire
       role:
-        label: Role
-        placeholder: Roles that will be able to see the summary
+        label: Rôle
+        placeholder: Rôles capables d'afficher le sommaire
     metrics:
       sum:
         label: Sum
@@ -651,330 +651,330 @@ recordList:
       max:
         label: Max
       avg:
-        label: Avg
+        label: Moy
       emptyCount:
-        label: Empty count
+        label: Nombre de vides
       notEmptyCount:
-        label: Not empty count
+        label: Nombre de non vides
       uniqueCount:
-        label: Unique count
+        label: Nombre de valeurs uniques
 recordOrganizer:
-  onRecordClick: Record display mode
-  openInSameTab: Open in the same tab
-  openInNewTab: Open in a new tab
-  openInModal: Open in a modal
+  onRecordClick: Mode d'affichage d'élément
+  openInSameTab: Ouvrir dans le même onglet
+  openInNewTab: Ouvrir dans un nouvel onglet
+  openInModal: Ouvrir dans une fenêtre
   module:
-    placeholder: Select a module
+    placeholder: Sélectionnez un module
   descriptionField:
-    footnote: Field value will be used as record description
-    label: Description field
+    footnote: La valeur de ce champ sera utilisé comme description d'élément
+    label: Champ de description
   group:
-    footnote: Value that will be set to the key field. The records will be filtered based on this value, if it's defined.
-    label: Key value
+    footnote: Valeur qui sera définie par le champ clé. Les éléments seront filtrés selon cette valeur, si elle est définie.
+    label: Valeur de clé
   groupField:
-    footnote: Field whose value will change when a record is moved into the record organizer
-    label: Key field
-  label: Record organizer
+    footnote: Champ dont la valeur changera lorsqu'un élément sera déplacé dans l'organisateur d'éléments
+    label: Champ de clé
+  label: Organisateur d'élément
   labelField:
-    footnote: Field value will be used as record label
-    label: Label field
-  noRecords: No records in module linked with record organizer. Drag and drop records here.
-  notConfigured: Record organizer is not configured correctly
+    footnote: Valeur qui sera utilisée comme étiquette d'élément
+    label: Étiquette de champ
+  noRecords: Aucun élément dans le module lié à l'organisateur d'éléments. Glissez-déposez des éléments ici.
+  notConfigured: L'organisateur d'élément n'est pas configuré correctement
   positionField:
-    footnote: Records will be sorted based on this field. That field value will be updated based on the position of the record.
-    placeholder: Field that will hold the record position
-    label: Record sort field
+    footnote: Les éléments seront triés selon ce champ. La valeur de ce champ sera mise à jour selon la position de l'enregistrement.
+    placeholder: Champ qui contiendra la position de l'élément
+    label: Champ de tri d'élément
   preview:
-    label: 'Record Organizer block for module {{0}}. Label field {{1}}, Description field {{2}}. Value setting field: {{3}}, Sorted by position field: {{4}}.'
-    moduleNotSelected: Record Organizer module not selected
-  addNewRecord: + Add
+    label: 'Bloc organisateur d''éléments pour le module {{0}}. Champ d''étiquette {{1}}, champ description {{2}}. Champ de définition de valeur : {{3}}, trié par champ de position : {{4}}.'
+    moduleNotSelected: Le module de l'organisateur d'élément n'est pas sélectionné
+  addNewRecord: + Ajouter
 recordRevisions:
-  label: Record revisions
+  label: Révisions d'élément
   viewer:
     errors:
-      no-record: No record found to display revisions for
-      no-revisions: No record revisions found
-      disabled-on-module: Record revisions are disabled on this module
-    show-revisions: Show record revisions ({{ revision }})
-    show-changes: "{{ count }} change(s)"
+      no-record: Aucun élément trouvé pour en afficher les révisions
+      no-revisions: Aucune révision d'élément trouvée
+      disabled-on-module: Les révisions d'élément sont désactivées sur ce module
+    show-revisions: Afficher révisions d'élément ({{ revision }})
+    show-changes: "{{ count }} changement(s)"
     operations:
-      created: Created
-      updated: Updated
-      soft-deleted: Soft deleted
-      undeleted: Restored
-      hard-deleted: Hard deleted
+      created: Créé
+      updated: Mis à jour
+      soft-deleted: Supprimé logiciellement
+      undeleted: Restauré
+      hard-deleted: Supprimé physiquement
     revisions:
       columns:
         timestamp:
-          label: Timestamp
+          label: Horodatage
         operation:
-          label: Operation
+          label: Opération
         user:
-          label: User
+          label: Utilisateur
     changes:
       columns:
         field:
-          label: Field
+          label: Champ
         old-value:
-          label: Old value
+          label: Ancienne valeur
         new-value:
-          label: New value
+          label: Nouvelle valeur
   configurator:
-    label: Record revisions
-    preload: Preload record revisions
+    label: Révisions d'élément
+    preload: Précharger révisions d'élément
     errors:
-      invalid-module-id: Field does not contain a valid module ID.
+      invalid-module-id: Le champ ne contient pas un ID de module valide.
     fields:
-      label: Configure fields to display in record revisions changes
+      label: Configurer champs à afficher dans les révisions de modification d'élément
       show-all:
-        label: Show changes for all fields
+        label: Afficher modification pour tous les champs
       columns:
         label:
-          label: Label
+          label: Étiquette
         kind:
           label: Type
         displayed-fields:
-          label: Show
+          label: Afficher
         expanded-references:
-          label: Expand references
+          label: Étendre les références
 socialFeed:
-  label: Twitter feed
-  noInput: No input for displaying social feed...
+  label: Fil Twitter
+  noInput: Aucune entrée pour afficher le flux social...
   preview:
-    socialFeed: Twitterblo feed
-  twitterProfileField: Field that contains Twitter Profile URL for a record
-  twitterProfileLabel: Twitter Profile URL for list pages i.e (https://twitter.com/bloomberg)
-selectBlockFootnote: Some types might be disabled for non-record pages
+    socialFeed: Fil Twitterblo
+  twitterProfileField: Champ qui contient l'URL de profile Twitter pour un élément
+  twitterProfileLabel: 'URl de profile Twitter pour les pages de liste (exemple : https://x.com/bloomberg)'
+selectBlockFootnote: Certains types peuvent être désactivés pour les pages sans élément associé 
 field:
-  noPermission: No permission to read field value
+  noPermission: Aucune autorisation de lecture de la valeur du champ
   selector:
-    available: Available fields
-    systemField: (system field)
+    available: Champs disponibles
+    systemField: (champs système)
 comment:
-  label: Comments
+  label: Commentaires
   module:
-    placeholder: Select a module
+    placeholder: Sélectionnez un module
   titleField:
-    label: Title field
-    footnote: Field value will be used as record title
+    label: Champ de titre
+    footnote: La valeur de ce champ sera utilisé comme titre
   contentField:
-    label: Content field *
-    footnote: Field value will be used as record content
+    label: Champ de contenu
+    footnote: La valeur de ce champ sera utilisé comme contenu
   replyField:
-    label: Reply field
-    footnote: Field value will be used as record reply
+    label: Champ de réponse
+    footnote: La valeur de ce champ sera utilisé comme réponse
   title:
-    placeholder: Title
+    placeholder: Titre
   content:
-    placeholder: Comment here...
-  submit: Submit
-  noComments: No comments yet
+    placeholder: Commentez ici...
+  submit: Envoyer
+  noComments: Aucun commentaire pour le moment
   load:
-    older: Load older comments
-    newer: Load newer comments
+    older: Charger anciens commentaires
+    newer: Charger nouveaux commentaires
   sortDirection:
-    label: Sort direction
-    footnote: Sort comments by when they were created
-    asc: Newest first
-    desc: Oldest first
+    label: Direction de tri
+    footnote: Tri les commentaires par leurs dates de création
+    asc: Plus récent en premier
+    desc: Plus ancien en premier
   referenceField:
-    label: Reference field
-    footnote: Field that links comments with the parent record
-  today: Today
-  yesterday: Yesterday
+    label: Champ de référence
+    footnote: Champ associant les commentaires à l'élément parent
+  today: Aujourd'hui
+  yesterday: Hier
 navigation:
-  chart: Charts
-  colorPicker: Choose a color
-  noNavigationItems: No navigation item configured
+  chart: Graphiques
+  colorPicker: Choisissez une couleur
+  noNavigationItems: Aucun élément de navigation configuré
   label: Navigation
-  displayOptions: Display options
-  appearance: Appearance
-  alignment: Alignment
-  justify: Justify
-  fieldLabel: Label
-  enabled: Enabled
-  openIn: Open in
-  navigationItems: Navigation items
+  displayOptions: Options d'affichage
+  appearance: Apparence
+  alignment: Alignement
+  justify: Justification
+  fieldLabel: Étiquette
+  enabled: Activé
+  openIn: Ouvrir dans
+  navigationItems: Éléments de navigation
   type: Type
-  disabled: Disabled
-  color: Color
-  background: Background
+  disabled: Désactivé
+  color: Couleur
+  background: Fond
   url: URL
-  drop: Dropdown position
-  add: Add navigation item
-  addDropdown: Add dropdown item
-  composePage: Compose page
-  tabs: Tabs
-  pills: Pills
-  small: Small
-  center: Center
-  left: Left
-  right: Right
-  bottom: Bottom
-  top: Top
-  None: None
-  primary: Primary
-  secondary: Secondary
-  success: Success
-  warning: Warning
+  drop: Position de liste déroulante
+  add: Ajouter élément de navigation
+  addDropdown: Ajouter élément de liste déroulante
+  composePage: Page Compose
+  tabs: Onglets
+  pills: Pilules
+  small: Petit
+  center: Centre
+  left: Gauche
+  right: Droite
+  bottom: Bas
+  top: Haut
+  None: Aucune
+  primary: Primaire
+  secondary: Secondaire
+  success: Succès
+  warning: Avertissement
   danger: Danger
   info: Info
-  text: Text
-  dropdown: Dropdown
-  multi: Multiline
-  sameTab: Same tab
-  selectOpenInType: Select open in type
-  newTab: New tab
-  dropdownItems: Dropdown items
-  delimiter: Delimiter
-  none: None
-  displaySubPages: Display sub-pages
-  selectBackground: Select background
+  text: Texte
+  dropdown: Liste déroulante
+  multi: Multi-ligne
+  sameTab: Même onglet
+  selectOpenInType: Sélectionnez type d'ouverture
+  newTab: Nouvel onglet
+  dropdownItems: Élements de liste déroulante
+  delimiter: Délimiteur
+  none: Aucune
+  displaySubPages: Afficher sous-page
+  selectBackground: Sélectionnez fond
   preview:
-    preview: Preview
-    label: Label
-    home: Home
-    dropdown: dropdown
-    about: about
+    preview: Prévisualisation
+    label: Étiquette
+    home: Accueil
+    dropdown: liste déroulante
+    about: à propos
 report:
-  label: Report
+  label: Rapport
   scenario:
-    label: Scenario
+    label: Scénario
   element:
-    label: Display element
+    label: Afficher élément
 progress:
-  add: + Add
-  count: Count
+  add: + Ajouter
+  count: Compte
   aggregate:
-    label: Aggregation operation
-    select: Select aggregation operation
-  animated: Animated
-  default-variant: Default variant
-  display-options: Display options
-  fetch-failed: Failed to fetch progress bar report
+    label: Opération d'agrégation
+    select: Sélectionnez l'opération d'agrégation
+  animated: Animé
+  default-variant: Variante par défaut
+  display-options: Options d'affichage
+  fetch-failed: Échec de la récupération du rapport de la barre de progression
   field:
-    label: Field
-    select: Select field
-  label: Progress bar
+    label: Champ
+    select: Sélectionnez un champ
+  label: Barre de progrès
   module:
-    select: Select module
+    select: Sélectionnez un module
     label: Module
-  preview: Live example
+  preview: Exemple en direct
   show:
-    value: Show value
-    relative: Show relative
-    progress: Show progress
+    value: Afficher valeur
+    relative: Afficher relatif
+    progress: Afficher progrès
   tab:
-    label: Progress
-  thresholds: Thresholds
+    label: Progrès
+  thresholds: Seuils
   threshold:
-    label: Threshold
-    variant: Set which variant to show if value is equal or larger than the threshold
+    label: Seuil
+    variant: Défini quelle variante utiliser si la valeur est égale ou supérieur au seuil
   value:
-    label: Value
-    min: Minimum value
-    max: Maximum value
+    label: Valeur
+    min: Valeur minimale
+    max: Valeur maximale
     default:
-      label: Default value
-      description: This value will be used if metric is not configured
+      label: Valeur par défaut
+      description: Cette valeur sera utilisée si la métrique n'est pas configurée
   variant:
-    default: Dark
+    default: Sombre
     danger: Danger
-    dark: Dark
+    dark: Sombre
     info: Info
-    light: Light
-    primary: Primary
-    secondary: Secondary
-    success: Success
-    warning: Warning
+    light: Clair
+    primary: Primaire
+    secondary: Secondaire
+    success: Succès
+    warning: Avertissement
 geometry:
-  label: Map
-  viewLabel: Map
-  feedLabel: Configure Sources
+  label: Carte
+  viewLabel: Carte
+  feedLabel: Configurer les sources
   source:
     label: Source
-  addSource: Add source
-  lock: Lock
-  mapHelpText: Move and scroll the map to the position that will be used as a default. You can also lock the position or zoom to prevent users from moving too far.
-  onMarkerClick: On marker click
-  openInSameTab: Open in the same tab
-  openInNewTab: Open in a new tab
-  openInModal: Open in a modal
-  hideGeoSearch: Hide location search
+  addSource: Ajouter une source
+  lock: Verrouiller
+  mapHelpText: Déplacez et faites défiler la carte jusqu'à la position par défaut. Vous pouvez également verrouiller la position ou zoomer pour empêcher les utilisateurs de s'éloigner trop.
+  onMarkerClick: Au clic de marqueur
+  openInSameTab: Ouvrir dans le même onglet
+  openInNewTab: Ouvrir dans un nouvel onglet
+  openInModal: Ouvrir dans une fenêtre
+  hideGeoSearch: Cacher recherche de localisation
   recordFeed:
-    colorPicker: Choose a color
+    colorPicker: Choisissez une couleur
     moduleLabel: Module*
-    modulePlaceholder: (No module)
-    optionLabel: Records
-    prefilterLabel: Prefilter sources
-    colorLabel: Marker color
-    geometryFieldLabel: Location field*
-    titleLabel: Title
-    titlePlaceholder: Title
-    geometryFieldPlaceholder: Location field
-    displayMarker: Display marker
-    displayPolygon: Display polygon
-  centerLabel: Center
+    modulePlaceholder: (Aucun module)
+    optionLabel: Éléments
+    prefilterLabel: Préfiltrer sources
+    colorLabel: Couleur de marqueur
+    geometryFieldLabel: Champ localisation*
+    titleLabel: Titre
+    titlePlaceholder: Titre
+    geometryFieldPlaceholder: Champ localisation
+    displayMarker: Afficher marqueur
+    displayPolygon: Afficher polygone
+  centerLabel: Centre
   zoom:
     zoomLabel: Zoom
     zoomMinLabel: Zoom min
     zoomMaxLabel: Zoom max
-    zoomStartingLabel: Zoom Starting
+    zoomStartingLabel: Zoom à partir de
   bounds:
-    boundsLabel: Bounds
-    lockBounds: Lock bounds
-    topLeft: Bounds top left
-    lowerRight: Bounds lower right
+    boundsLabel: Limites
+    lockBounds: Verrouiller limites
+    topLeft: Limites en haut à gauche
+    lowerRight: Limites en bas à droite
   tooltip:
-      goToCurrentLocation: Go to current location
+      goToCurrentLocation: Aller à la localisation actuelle
 tabs:
-  label: Tabs
-  alertTitle: Set a title for your block
-  title: Tabs
-  tab: Tab
-  selectBlock: Choose a block
-  noTabs: No tabs configured
-  noBlock: No block configured
-  displayTitle: Display Options
-  preview: Live example
-  newBlockModal: Add new block
+  label: Onglets
+  alertTitle: Définissez un titre pour votre bloc
+  title: Onglets
+  tab: Onglet
+  selectBlock: Choisissez un bloc
+  noTabs: Aucun onglet configuré
+  noBlock: Aucun bloc configuré
+  displayTitle: Options d'affichage
+  preview: Exemple en direct
+  newBlockModal: Ajouter nouveau bloc
   placeholder:
-    block: Select a block to tab
+    block: Sélectionnez un bloc comme onglet
   style:
     appearance:
-      label: Appearance
-      tabs: Tabs
-      pills: Pills
-      small: Small
+      label: Apparence
+      tabs: Onglets
+      pills: Pilules
+      small: Petit
     alignment:
-      label: Alignment
-      left: Left
-      center: Center
-      right: Right
+      label: Alignement
+      left: Gauche
+      center: Centre
+      right: Droite
     justify:
-      label: Justify
-      justify: Justify
-      none: None
+      label: Justification
+      justify: Justification
+      none: Aucune
     orientation:
       label: Orientation
       vertical: Vertical
       horizontal: Horizontal
     position:
       label: Position
-      start: Start
-      end: End
+      start: Début
+      end: Fin
   table:
     columns:
       title:
-        label: Title
+        label: Titre
       block:
-        label: Block
+        label: Bloc
   tooltip:
-    edit: Edit block
-    clone: Clone block & tab
-    copy: Copy block
-    delete: Delete tab
-    editDisabled: Editing tabbed blocks is disabled until you save this block
-    addBlock: Add new block
-noConfiguration: Block not configured correctly
-interpolationFootnote: Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
+    edit: Éditer bloc
+    clone: Cloner bloc et onglet
+    copy: Copier bloc
+    delete: Supprimer onglet
+    editDisabled: L'édition des onglets est désactivé jusqu'à l'enregistrement de ce bloc
+    addBlock: Ajouter nouveau bloc
+noConfiguration: Le bloc n'est pas correctement configuré
+interpolationFootnote: Les variables comme {{0}}, {{1}}, {{2}} et {{3}} sont évaluées (quand disponible)

@@ -1,8 +1,8 @@
 errors:
-  composeModuleNotFound: compose module not found
-  composeNamespaceNotFound: compose namespace not found
-  federationModuleNotFound: federation module not found
-  moduleMappingExists: module mapping already exists
-  nodeNotFound: node does not exist
-  notAllowedToMap: not allowed to map this module
-  notFound: module mapping does not exist
+  composeModuleNotFound: módulo de composição não encontrado
+  composeNamespaceNotFound: namespace de composição não encontrado
+  federationModuleNotFound: módulo de federação não encontrado
+  moduleMappingExists: o mapeamento do módulo já existe
+  nodeNotFound: o nó não existe
+  notAllowedToMap: não permitido mapear este módulo
+  notFound: mapeamento de módulo não existe

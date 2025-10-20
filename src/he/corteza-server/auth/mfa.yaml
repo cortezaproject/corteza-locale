@@ -1,18 +1,14 @@
 template:
-  title: Multi-factor authentication
+  title: אימות רב שלבי
   email:
-    instructions: Check your inbox and enter the received code
-    code: Code
-    verify: Verify
-    resend: Resend
-    confirmed: Email OTP confirmed
+    instructions: בדוק את תיבת ה דוא"ל שלך והקש את הקוד שנשלח
+    code: קוד
+    verify: אימות
+    resend: שלח שוב
   totp:
-    instructions: Check your TOTP application and enter the code you received
-    code: Code
-    confirmed: TOTP confirmed
-    verify: Verify
+    code: קוד
+    confirmed: TOTP אושר
+    verify: מאומת
 alerts:
-  email:
-    resent: Email OTP resent
   topt:
-    valid: TOTP valid
+    valid: TOTP תקין

@@ -1,87 +1,34 @@
 editor:
-  title: User Interface Settings
   corteza-studio:
-    title: Theming
-    colorPicker: Choose a color
-    sassNotInstalled: No dart-sass binaries were detected. For guidance on how to set it up, refer to
-    installSassDocs: docs here
-    custom-css: Custom CSS
-    mainLogo:
-      title: Main logo
-      uploader:
-        instructions: Click or drop main logo here to upload
-        uploading: Uploading main logo
-    iconLogo:
-      title: Icon logo
-      uploader:
-        instructions: Click or drop icon logo image here to upload
-        uploading: Uploading icon logo
+    colorPicker: Choisissez une couleur
     label:
-      default: Default
+      default: Défaut
     tabs:
-      general: General
-      light: Light
-      dark: Dark
+      general: Général
+      light: Clair
+      dark: Sombre
     theme:
       variables:
-        white:
-          label: White
-          description: Element background color
-        black:
-          label: Black
-          description: Element text color
         primary:
-          label: Primary
-          description: Primary action buttons, links
+          label: Primaire
         secondary:
-          label: Secondary
-          description: Disabled and placeholder text color
+          label: Secondaire
         success:
-          label: Success
-          description: Success notification color
+          label: Succès
         warning:
-          label: Warning
-          description: Warning notification color
+          label: Avertissement
         danger:
           label: Danger
-          description: Error notification color
         light:
-          label: Light
-          description: Secondary action buttons, table headers
-        extra-light:
-          label: Extra light
-          description: Icon buttons, borders
-        body-bg:
-          label: Body background
-          description: Background color of the application
-        sidebar-bg:
-          label: Sidebar background
-          description: Background color of the sidebar
-        topbar-bg:
-          label: Topbar background
-          description: Background color of the topbar
+          label: Clair
   topbar:
-    title: Topbar
-    general: General
-    app-selector:
-      hide: Hide app selector
+    general: Général
     help:
-      title: Help
-      hide: Hide help
-      hide-forum-link: Hide forum link
-      hide-documentation-link: Hide documentation link
-      hide-feedback-link: Hide feedback link
+      title: Aide
     profile:
-      title: Profile
-      hide: Hide profile
-      hide-profile-link: Hide profile link
-      hide-change-password-link: Hide change password link
-      hide-theme-selector: Hide theme selector
-    notifications:
-      hide: Hide notifications
+      title: Profil
     links:
-      title: Custom links
-      handle: Name
-      invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+      handle: Nom
+      invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
       url: URL
-      new-tab: New tab
+      new-tab: Nouvel onglet

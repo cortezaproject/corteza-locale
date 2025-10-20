@@ -1,6 +1,6 @@
 errors:
-  invalidID: invalid ID
-  notAllowedToAssign: not allowed to assign reminders to other users
-  notAllowedToDismiss: not allowed to dismiss reminders of other users
-  notAllowedToRead: not allowed to read reminders of other users
-  notFound: reminder not found
+  invalidID: неверный ID
+  notAllowedToAssign: нельзя назначать напоминания другим пользователям
+  notAllowedToDismiss: не разрешено отклонять напоминания других пользователей
+  notAllowedToRead: нельзя читать напоминания других пользователям
+  notFound: напоминание не найдено

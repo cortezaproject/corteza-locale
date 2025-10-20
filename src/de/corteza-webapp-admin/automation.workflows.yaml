@@ -1,60 +1,57 @@
 editor:
   info:
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    enabled: Enabled
-    handle: Handle
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+    createdAt: Erstellt am
+    createdBy: Erstellt bei
+    delete: Löschen
+    deletedAt: Gelöscht am
+    enabled: Aktiviert
+    handle: Alias
     id: ID
-    name: Name *
-    openBuilder: Open builder
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Workflow
-  permissions: Permissions
+    name: Name
+    openBuilder: Builder öffnen
+    title: Grundlegende Informationen
+    undelete: Wiederherstellen
+    updatedAt: Aktualisiert am
+  new: Neu
+  permissions: Berechtigungen
   title:
-    create: Create workflow
-    edit: Edit workflow
+    create: Workflow erstellen
+    edit: Workflow bearbeiten
   triggers:
-    and: and
+    and: und
     columns:
-      constraints: Constraints
-      eventType: Event
-      resourceType: Resource
-    title: Triggers
+      constraints: Einschränkungen
+      eventType: Ereignis
+      resourceType: Ressource
+    title: Trigger
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
+    createdAt: Erstellt
+    enabled: Aktiviert
+    handle: Name
     name: Name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  export: Export
+  delete: Löschen
+  undelete: Wiederherstellen
+  export: Exportieren
   rows:
     filters:
-      deleted: Deleted
+      deleted: Gelöscht
   filterForm:
     deleted:
-      label: deleted workflows
+      label: gelöschte Workflows
     excluded:
-      label: Without
+      label: Ohne
     exclusive:
-      label: Only
+      label: Nur
     inclusive:
-      label: Including
+      label: Einschließlich
     query:
       label: Filter workflows list
-      placeholder: Filter workflows by name
-  loading: Loading workflows
-  new: New Workflow
-  numFound: '{{count}} workflow found'
-  numFound_plural: '{{count}} workflows found'
-  permissions: Permissions
+      placeholder: Workflows nach Name filtern
+  loading: Workflows werden geladen
+  new: Neu
+  numFound: '{{count}} Workflow gefunden'
+  numFound_plural: '{{count}} Workflows gefunden'
+  permissions: Berechtigungen
   title: Workflows
   yaml: YAML

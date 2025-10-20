@@ -1,51 +1,51 @@
-'configure-triggers': Make sure all trigger steps are properly configured
-'confirm-unsaved-changes': You have unsaved changes, are you sure you want to exit?
-error: " - ERROR: "
-'event-type-not-found': Event type not found
-'event-type-fetch-failed': Failed to fetch event types
-'failed-fetch-functions': Failed to fetch functions
-'failed-fetch-triggers': Failed to fetch triggers
-'failed-fetch-workflow': Failed to fetch workflow
-'failed-fetch-workflows': Failed to fetch workflows
-'failed-load-file': Failed to load file
-'failed-save': Save failed
-'failed-test': Test failed
-'fetch-types-failed': Failed to fetch types
+'configure-triggers': Ujistěte se, že všechny kroky triggeru jsou správně nakonfigurované
+'confirm-unsaved-changes': Máte neuložené změny, určitě chcete odejít?
+error: " - CHYBA: "
+'event-type-not-found': Typ události nenalezen
+'event-type-fetch-failed': Nepovedlo se získat typy událostí
+'failed-fetch-functions': Nepovedlo se získat funkce
+'failed-fetch-triggers': Nepovedlo se získat triggery
+'failed-fetch-workflow': Nepovedlo se získat workflow
+'failed-fetch-workflows': Nepovedlo se získat workflows
+'failed-load-file': Nepovedlo se načíst soubor
+'failed-save': Uložení selhalo
+'failed-test': Test selhal
+'fetch-types-failed': Nepovedlo se získat typy
 general:
-  error: Error
-  success: Success
-  warning: Warning
-  info: Info
+  error: Chyba
+  success: Úspěch
+  warning: Varování
+  info: Informace
 list:
   load:
-    error: Failed to fetch workflows
+    error: Nepovedlo se získat workflows
   enable:
-    success: Workflow enabled
-    failed: Failed to enable workflow
+    success: Workflow povoleno
+    failed: Nepovedlo se povolit workflow
   disable:
-    success: Workflow disabled
-    failed: Failed to disable workflow
+    success: Workflow vypnuto
+    failed: Nepovedlo se vypnout workflow
 import:
-  'failed-import': Failed to import
-  'imported-workflows': Workflows imported
-  'skipped-workflows': Skipped workflows
-'imported-workflow': Workflow imported
-'import-failed': Import failed
-'initial-scope-load-failed': Failed to load initial scope
-'resolve-issues': Resolve issues to test workflow
-'save-workflow': Save workflow first to test it
-'started-test': Workflow test started
-'test-completed': Test completed
-'test-in-progress': Test in progress
-'trace-unavailable': Trace not available
-'trigger-paths-changed': Trigger paths changed
-'workflow-test-completed': Workflow test completed
+  'failed-import': Nepovedlo se importovat
+  'imported-workflows': Workflow importováno
+  'skipped-workflows': Přeskočená workflow
+'imported-workflow': Workflow importováno
+'import-failed': Import selhal
+'initial-scope-load-failed': Nepovedlo se načíst iniciační scope
+'resolve-issues': Pro otestování workflow vyřešte problémy
+'save-workflow': Před odesláním workflow uložte
+'started-test': Test workflow zahájen
+'test-completed': Test dokončen
+'test-in-progress': Test probíhá
+'trace-unavailable': Trasování není dostupné
+'trigger-paths-changed': Cesty triggeru se změnily
+'workflow-test-completed': Test workflow dokončen
 update:
-  success: Workflow updated
-  failed: Failed to update workflow
+  success: Workflow aktualizováno
+  failed: Nepovedlo se aktualizovat workflow
 delete:
-  success: Workflow deleted
-  failed: Failed to delete workflow
+  success: Workflow smazáno
+  failed: Nepovedlo se smazat workflow
 undelete:
-  success: Workflow restored
-  failed: Failed to restore workflow
+  success: Workflow obnoveno
+  failed: Nepovedlo se obnovit workflow

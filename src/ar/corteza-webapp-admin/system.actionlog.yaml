@@ -1,47 +1,45 @@
 list:
   columns:
-    action: Action
-    actor: User
-    description: Description
-    requestOrigin: Origin
-    resource: Resource
-    severity: Severity
-    timestamp: Timestamp
-  loading: Loading actions
+    action: عمل
+    actor: مستخدم
+    description: وصف
+    requestOrigin: أصل
+    resource: الموارد
+    severity: خطورة
+    timestamp: الختم الزمني
   details:
     id: ID
-    header: Details
-    timestamp: Timestamp
-    requestOrigin: Request Origin
-    requestID: Request ID
-    actorIPAddr: Actor/User
-    actor: User
-    actorID: User ID
-    severity: Severity
-    resource: Resource
-    action: Action
-    headerAdditional: Additional information
-    description: Description
-    error: Error
-    meta: Meta
+    header: تفاصيل
+    timestamp: الختم الزمني
+    requestOrigin: أصل الطلب
+    requestID: رقم الطلب
+    actorIPAddr: الفاعل / المستخدم
+    actor: مستخدم
+    actorID: معرف المستخدم
+    severity: خطورة
+    resource: الموارد
+    action: عمل
+    headerAdditional: معلومات إضافية
+    description: وصف
+    error: خطأ
   severity:
-    emergency: Emergency
-    alert: Alert
-    critical: Critical
-    error: Error
-    warning: Warning
-    notice: Notice
-    info: Info
-    debug: Debug
+    emergency: طارئ
+    alert: انذار
+    critical: هام
+    error: خطأ
+    warning: انذار
+    notice: ملاحظة
+    info: معلومات
+    debug: تدقيق
   filter:
-    action: Action
-    actor: User ID
-    choose-date: Choose a date
-    from: Starting from
-    no-time: No time selected
-    resource: Resource
-    search: Search
-    to: Ending at
-    today: Today
-  loadOlder: Load older actions
-  title: Action log
+    action: عمل
+    actor: معرف المستخدم
+    choose-date: اختر التاريخ
+    from: بدءا من
+    no-time: لايوجد وقت محدد
+    resource: الموارد
+    search: بحث
+    to: ينتهي في
+    today: اليوم
+  loadOlder: تحميل الإجراءات الأقدم
+  title: سجل الاحداث

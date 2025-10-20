@@ -1,56 +1,52 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
-  label: Permissions
+  save: Uložit změny
+  cancel: Storno
+  set-for: Konfigurovat oprávnění pro {{target}}
+  loading: Načítání práv
+  label: Oprávnění
   notification:
     save:
-      success: Permissions saved
-      failed: Failed to save permissions
+      success: Oprávnění uložena
+      failed: Uložení oprávnění selhalo
   edit:
-    label: User roles
-    description: Select role to set permissions
+    label: Role uživatelů
+    description: Vyberte role k nastavení oprávnění
   evaluate:
-    description: Evaluate applied permissions
+    description: Vyhodnotit aplikovaná oprávnění
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: Přidat
+    title: Vyhodnotit oprávnění
+    save: Uložit a zavřít
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: Role
+      placeholder: Vybrat role
     user:
-      label: Users
-      placeholder: Search or select a user
+      label: Uživatelé
+      placeholder: Hledat nebo vybrat uživatele
   tooltip:
     unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      user: Nejde vyhodnotit oprávnění pro uživatele s kontextovou rolí pro nespecifický zdroj
+      role: Nejde vyhodnotit oprávnění pro kontextovou roli pro nespecifický zdroj
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: Povolit
+    inherit: Zdědit
+    deny: Zamítnout
 resources:
   system:
     report:
-      all: all reports
+      all: všechny reporty
       specific: report "{{target}}"
-      tooltip: Report permissions
+      tooltip: Report oprávnění
       operations:
         delete:
-          description: ""
-          specific: Delete report "{{target}}"
-          title: Delete any report
+          specific: Smazat report "{{target}}"
+          title: Smazat každý report
         read:
-          description: ""
-          specific: Read report "{{target}}"
-          title: Read any report
+          specific: Zobrazit report "{{target}}"
+          title: Zobrazit každý report
         run:
-          description: ""
-          specific: Run report "{{target}}"
-          title: Run any report
+          specific: Spustit report "{{target}}"
+          title: Spustit každý report
         update:
-          description: ""
-          specific: Update report "{{target}}"
-          title: Update any report
+          specific: Aktualizovat report "{{target}}"
+          title: Aktualizovat každý report

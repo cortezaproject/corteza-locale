@@ -1,19 +1,13 @@
-federated: Federated
-no-values: No values
+federated: Federované
+no-values: Žádné hodnoty
 label:
-  all: All
+  all: Vše
 resourceList:
   pagination:
-    recordsPerPage: Per Page
+    recordsPerPage: Na stránku
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
-recordID: Record ID
-createdBy: Created By
-createdAt: Created At
-updatedAt: Updated At
+    light: Světlé
+    dark: Tmavé
+recordID: ID záznamu
+createdAt: Čas vytvoření

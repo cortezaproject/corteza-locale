@@ -1,68 +1,40 @@
 label:
-  add: Add
+  add: Adicionar
   general:
     yes: Yes
     no: No
   template:
-    single: Template
-    plural: Templates
+    plural: Modelos
   user:
-    single: User
-    plural: Users
+    single: Do utilizador
+    plural: Comercial
   role:
-    single: Role
-    plural: Roles
+    plural: Funções
   application:
-    single: Application
-    plural: Applications
+    plural: Formulários
   auth_client:
-    single: Auth Client
-    plural: Auth Clients
+    plural: Clientes de autenticação
   queue:
-    single: Messaging Queue
-    plural: Messaging Queues
-  route:
-    single: Route
-    plural: Routes
-  connection:
-    single: Database Connection
-    plural: Database Connections
-  sensitivity_level:
-    single: Sensitivity Level
-    plural: Sensitivity Levels
+    plural: Filas de mensagens
   session:
-    single: Session
-    plural: Sessions
+    single: Sessão
+    plural: Sessões
   workflow:
-    single: Workflow
-    plural: Workflows
-  plus-add: + Add
-  clear: Clear
-  all: All
-  none: None
-  now: Now
-  today: Today
-  routes: Routes
-  requests: Requests
-  refresh: Refresh
-  loadMore: Load more
-  loading: Loading
-  saveAndClose: Save and close
-  cancel: Cancel
-  submit: Submit
-  delete: Delete
-  undelete: Undelete
-  fileTypeNotAllowed: File type not allowed
-editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
-resourceList:
-  pagination:
-    recordsPerPage: Per page
+    single: Fluxo de trabalho
+    plural: Fluxos de trabalho
+  plus-add: + Adicionar
+  all: Todo
+  none: Nenhum
+  today: Hoje
+  requests: Requisições
+  loading: Carregando
+  saveAndClose: Salvar e fechar
+  cancel: Cancelar
+  submit: Enviar
+  delete: Excluir
+  undelete: Recuperar
+  fileTypeNotAllowed: Tipo de arquivo não permitido
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: Luz
+    dark: Escuro

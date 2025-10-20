@@ -1,76 +1,76 @@
 comments:
-  enter: Enter comment...
-  label: Comments
+  enter: Entrez un commentaire...
+  label: Commentaires
   sort:
     first:
-      newest: Newest first
-      oldest: Oldest first
-  submit: Submit
+      newest: Plus récent en premier
+      oldest: Plus ancien en premier
+  submit: Envoyer
   unknown:
-    date: Unknown date
-    user: Unknown user
+    date: Date inconnue
+    user: Utilisateur inconnu
 kind:
-  correct: Correction Request
-  delete: Deletion Request
-  export: Export Request
+  correct: Demande de correction
+  delete: Demande de suppression
+  export: Demande d'export
 status:
-  canceled: Canceled
-  pending: Pending
-  rejected: Rejected
-  approved: Approved
+  canceled: Annulée
+  pending: En attente
+  rejected: Rejetée
+  approved: Approuvée
 list:
-  title: Privacy Requests
-  export: Export
+  title: Requêtes de confidentialité
+  export: Exporter
   columns:
     kind: Type
-    requestedAt: Requested at
-    requestedBy: Requested by
-    status: Status
+    requestedAt: Demandé à
+    requestedBy: Demandé par
+    status: Statut
   request:
-    approve: Approve Requests
-    cancel: Cancel Request
-    reject: Reject Requests
+    approve: Approuver les demandes
+    cancel: Annuler demande
+    reject: Rejeter les demandes
 edit:
   correct:
-    private-fields: Private Fields
-    no-data-available: No data available
-    submit: Submit Correction Request
+    private-fields: Champs privés
+    no-data-available: Aucune donnée disponible
+    submit: Envoyer demande de correction
     connection:
-      label: Connection
-      placeholder: Select a Connection
+      label: Connexion
+      placeholder: Sélectionnez une connexion
   delete:
-    private-fields: Private Fields
-    no-data-available: No data available
-    submit: Delete Selected Data
+    private-fields: Champs privés
+    no-data-available: Aucune donnée disponible
+    submit: Supprimer donnée sélectionnée
     connection:
-      label: Connection
-      placeholder: Select a Connection
+      label: Connexion
+      placeholder: Sélectionnez une connexion
   export:
-    submit: Export Selected Data
+    submit: Exporter donnée sélectionnée
     data-type:
-      label: Data Type to export
-      profile-information: Profile Information
-      application-data: Application Data
+      label: Type de donnée à exporter
+      profile-information: Information du profil
+      application-data: Données d'application
     date-range:
-      label: Date Range
-      all: All of my data
+      label: Plage de date
+      all: Toutes mes données
     file-format:
-      label: File Format
+      label: Format de fichier
       json: JSON
       csv: CSV
 view:
-  approve: Approve request
-  cancel: Cancel request
-  reject: Reject request
+  approve: Approuver demande
+  cancel: Annuler demande
+  reject: Rejeter demande
   export:
     data-type:
-      label: Data Type to export
-      profile-information: Profile Information
-      application-data: Application Data
+      label: Type de donnée à exporter
+      profile-information: Information du profil
+      application-data: Données d'application
     date-range:
-      label: Date Range
-      all: All of my data
+      label: Plage de date
+      all: Toutes mes données
     file-format:
-      label: File Format
+      label: Format de fichier
       json: JSON
       csv: CSV

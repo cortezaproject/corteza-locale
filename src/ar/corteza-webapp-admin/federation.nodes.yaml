@@ -1,65 +1,60 @@
 editor:
   generate:
-    body: '{{ userLabel }} is sending you an invitation for Corteza Federated Network. To start sharing data between organizations, go to the admin panel of your Corteza application, click on “Federation” and select “Pair Federation Network” on top right corner. Copy the link below and await confirmation from another administrator.'
-    description: To add your organization to a federated network send an email invite or share the link below with an administrator of another organization.
-    hello: Hello,
+    body: '{{ userLabel }} يرسل إليك دعوة إلى Corteza Federated Network. لبدء مشاركة البيانات بين المؤسسات ، انتقل إلى لوحة الإدارة لتطبيق Corteza ، وانقر فوق "الاتحاد" وحدد "إقران شبكة الاتحاد" في الزاوية اليمنى العليا. انسخ الرابط أدناه وانتظر التأكيد من مسؤول آخر.'
+    description: لإضافة منشئتك إلى شبكة موحدة ، أرسل دعوة بالبريد الإلكتروني أو شارك الرابط أدناه مع مسؤول منشأة أخرى.
+    hello: مرحبا,
     invitation: Invitation to Federated Network
     kindRegards: Kind regards, Corteza team.
-    notGenerated: Link not generated
-    sendEmail: Send Email
-    subject: 'Subject:'
-  generateUri: Generate Federation Link
+    notGenerated: لم يتم انشاء الرابط
+    sendEmail: ارسل ايميل
+    subject: 'الموضوع:'
+  generateUri: انشاء رابط Federation
   info:
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    email: Admin Email
-    enabled: Enabled
-    name: Server name *
-    status: Status
+    createdAt: تم انشائه في
+    createdBy: انشأ من قبل
+    delete: حذف
+    deletedAt: محذوف في
+    email: ايميل مدير النظام
+    enabled: مفعل
+    name: اسم الخادم *
+    status: الحالة
     tags:
-      label: Tags
-      placeholder: +Add
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-    url: Server URL *
+      label: الوسوم
+      placeholder: +أضف
+    title: معلومات مبدئية
+    undelete: استعادة
+    updatedAt: تم تحديثه في
+    url: رابط الخادم *
   title:
-    create: Create Federated Node
-    edit: Edit Federated Node
+    create: انشاء عقدة Federated
+    edit: تحرير عقدة Federated
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    name: Name
-    status: Status
-    tags: ""
+    createdAt: تم انشائه
+    enabled: مفعل
+    name: اسم
+    status: الحالة
   filterForm:
     query:
-      label: Filter servers list
-      placeholder: Filter servers by name
-  loading: Loading federated nodes
-  new: New Federated Node
-  numFound: '{{count}} server found'
-  numFound_plural: '{{count}} servers found'
+      label: تصفية قائمة الخوادم
+      placeholder: تصفية قائمة الخوادم بالاسم
+  numFound: '{{count}} خادم'
+  numFound_plural: '{{count}} خوادم'
   pair:
-    confirm: Confirm
-    label: Pair Federated Node
-    networkEstablished: Federated network will be established after the final confirmation from the administrator of another Corteza Federation Node.
-    note: 'Note:'
+    confirm: تاكيد
+    networkEstablished: سيتم إنشاء الشبكة الموحدة بعد التأكيد النهائي من المسؤول عن عقدة اتحاد Corteza أخرى.
+    note: 'ملاحظة:'
     status:
       confirmPending:
         description: |-
-          {{ email }} accepted the invitation to join “{{ name }}” Federated Network.
-          Click on “Confirm” to start sharing the data.
+          قبل {{ email }} الدعوة للانضمام إلى "{{ name }}" Federated Network.
+          انقر فوق "تأكيد" لبدء مشاركة البيانات.
         descriptionNoMail: |-
-          Admin of “{{ name }}” accepted the invitation to join the Federated Network.
-          Click on “Confirm” to start sharing the data
+          قبل مسؤول "{{ name }}" الدعوة للانضمام إلى الشبكة الفيدرالية.
+          انقر فوق "تأكيد" لبدء مشاركة البيانات
       none:
-        description: To pair your organization with a federated network, paste the generated URL of another organization below.
+        description: لإقران منشأتك بشبكة موحدة ، الصق عنوان URL الذي تم إنشاؤه لمنشأة أخرى أدناه.
       pending:
-        description: Pairing successful, pending final confirmation by administrator
+        description: تم الاقتران بنجاح ، في انتظار التأكيد النهائي من قبل المسؤول
   title: Federated Networks
   yaml: YAML

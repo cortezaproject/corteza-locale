@@ -1,13 +1,13 @@
-discovery: Discovery
+discovery: Découverte
 help:
   documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
+  feedback: Envoyer un retour
+  forum: Aide
+  version: 'Version :'
 appMenu: Menu
 userSettings:
-  changePassword: Change password
-  loggedInAs: Logged in as {{user}}
-  logout: Logout
-  profile: Profile
-  theme: Theme
+  changePassword: Changer mot de passe
+  loggedInAs: Connecté en tant que {{user}}
+  logout: Se déconnecter
+  profile: Profil
+  theme: Thème

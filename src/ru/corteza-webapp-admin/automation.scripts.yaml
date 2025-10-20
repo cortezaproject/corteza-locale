@@ -1,17 +1,16 @@
 list:
   columns:
-    name: Name
-    updatedAt: Last update
+    name: Имя
+    updatedAt: Обновлено
   filter:
-    absoluteTime: Show absolute time
+    absoluteTime: Показать абсолютное время
     incScriptsWithErrors: Errors ({{ count }})
     incScriptsWithIterator: Iterator ({{ count }})
     incScriptsWithSecurity: Security ({{ count }})
     incScriptsWithTriggers: Triggers ({{ count }})
-    searchQuery: Search query
+    searchQuery: Поисковый запрос
   flags:
-    iterator: Iterator
-    security: Security
-    triggers: Triggers
-  labelMissing: <label missing>
+    iterator: Итератор
+    security: Безопасность
+    triggers: Триггер
   title: Corredor Scripts

@@ -1,30 +1,21 @@
 template:
-  title: Your profile
+  title: Ihr Profil
   form:
     email:
-      label: Email
-      placeholder: email@domain.tld
-      resend-confirmation-link: Email is not verified, <a data-test-id="link-resend-confirmation" href="{{link}}?resend">resend confirmation link.</a>
+      label: E-Mail
+      resend-confirmation-link: Die E-Mail ist nicht verifiziert, <a href="{{link}}?resend">den Bestätigungslink erneut senden.</a>
     name:
-      label: Full name
-      placeholder: Your full name
+      label: Vollständiger Name
+      placeholder: Ihr Vollständiger Name
     handle:
-      label: Handle
-      placeholder: Short name, nickname or handle
+      label: Alias
+      placeholder: Kurzname, Nickname oder Alias
     avatar:
-      label: Avatar
-      delete: Delete
-      upload: Upload avatar
-    avatar-initial:
-      label: Avatar initial
-      color: Avatar text color
-      background-color: Avatar background color
+      delete: Löschen
     preferred-language:
-      label: Preferred language
+      label: Bevorzugte Sprache
     buttons:
-      submit: Update profile
+      submit: Profil Aktualisieren
 alerts:
-  profile-updated: Profile successfully updated
-  profile-update-fail: Could not update profile due to input errors
-  profile-avatar-uploaded: Profile avatar successfully uploaded
-  profile-avatar-deleted: Profile avatar successfully deleted
+  profile-updated: Das Profil wurde erfolgreich aktualisiert.
+  profile-update-fail: Das Profil konnte aufgrund von Eingabefehlern nicht aktualisiert werden.

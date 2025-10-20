@@ -1,75 +1,74 @@
 manage-view:
-  label: Manage namespaces
+  label: Spravovat jmenné prostory
 application:
-  label: Enable on application list
-clickOpen: Click to open
+  label: Povolit na seznamu aplikací
+clickOpen: Klikněte pro otevření
 import:
   buttonLabel: Import
-  title: Import namespace
-  uploadFileLabel: Upload the file you want to import (.zip format)
-  uploadFilePlaceholder: Click or drop file here to upload (.zip format)
-  back: Back
+  title: Importovat jmenný prostor
+  uploadFileLabel: Nahrajte soubor, který chcete importovat (formát .zip)
+  uploadFilePlaceholder: Klikněte nebo přetáhněte soubor (formát .zip)
+  back: Zpět
   import: Import
   slug:
-    label: Short name *
+    label: Krátký název *
 description:
-  label: Namespace description
-  placeholder: Enter namespace description
-disabled: Namespace is disabled
-edit: Edit namespace
-clone: Clone namespace
-cloneSuffix: copy
+  label: Popis jmenného prostoru
+  placeholder: Zadejte popis jmenného prostoru
+disabled: Jmenný prostor je zakázaný
+edit: Editovat jmenný prostor
+clone: Klonovat jmenný prostor
+cloneSuffix: kopie
 cloneWarning:
-  wfInclusion: Workflows and other automation are not cloned. Use the workflow editor interface to clone the ones you need.
-create: Create namespace
+  wfInclusion: Workflows a další automatizace se neklonují. Použijte editor workflow pro jejich klonování.
+create: Vytvořit jmenný prostor
 export: Export
 enabled:
-  label: Enable namespace
+  label: Povolit jmenný prostor
 icon:
-  label: Icon
-  placeholder: Choose an image for namespace icon or drop it here...
+  label: Ikona
+  placeholder: Vyberte obrázek pro jmenný prostor nebo ho sem přetáhněte...
 label:
-  permissions: Permissions
+  permissions: Oprávnění
 logo:
   label: Logo
-  placeholder: Choose an image for namespace logo or drop it here...
-  show: Show logo
-  preview: Preview
-  reset: Reset
+  placeholder: Vyberte obrázek pro logo jmenného prostoru nebo ho sem přetáhněte...
+  show: Zobrazit logo
+  preview: Náhled
+  reset: Resetovat
 name:
-  label: Full namespace name *
-  placeholder: Enter namespace name
-noResults: No namespaces found
-searchPlaceholder: Search namespaces
-setPermissions: Set namespace permissions
+  label: Celý název jmenného prostoru
+  placeholder: Zadejte název jmenného prostoru
+noResults: Nenalezen žádný jmenný prostor
+setPermissions: Nastavte práva k jmennému prostoru
 slug:
-  description: The short name will be used in the URL
-  label: Short name
-  placeholder: Enter a short name for the namespace
-  invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+  description: Krátký název se použije v URL
+  label: Krátký název
+  placeholder: Zadejte krátký název pro jmenný prostor
+  invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
 subtitle:
-  label: Subtitle
-  placeholder: Enter namespace subtitle
-title: Namespaces
+  label: Podnadpis
+  placeholder: Zadejte podnadpis jmenného prostoru
+title: Jmenný prostor
 tooltip:
-  translations: Namespace translations
-visit: View namespace
-configure: Configure namespace
+  translations: Překlady jmenného prostoru
+visit: Zobrazit jmenný prostor
+configure: Konfigurovat jmenný prostor
 manage:
-  title: Manage namespaces
-  list-view: Back to namespace list
-  delete: Delete
-  disabled: Disabled
+  title: Spravovat jmenné prostory
+  list-view: Zpět na seznam jmenných prostorů
+  delete: Smazat
+  disabled: Vypnuto
   toolbar:
     buttons:
-      create: New Namespace
-      permissions: Permissions
+      create: Nový jmenný prostor
+      permissions: Oprávnění
   table:
     columns:
-      enabled: Enabled
-      name: Name
-      slug: Short name
-      changedAt: Last change
+      enabled: Povoleno
+      name: Jméno
+      slug: Krátký název
+      changedAt: Poslední změna
 sidebar:
-  configure: Namespace pages
-  hide: Hide sidebar on namespace public pages
+  configure: Stránky jmenného prostoru
+  hide: Skrýt boční lištu na veřejných stránkách jmenného prostoru

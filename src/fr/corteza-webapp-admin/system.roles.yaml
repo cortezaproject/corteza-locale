@@ -1,70 +1,30 @@
 editor:
   info:
-    archive: Archive
-    archivedAt: Archived at
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Role name *
-    title: Basic information
-    unarchive: Unarchive
-    undelete: Undelete
-    updatedAt: Updated at
+    createdAt: Créer à
+    createdBy: Créer par
+    delete: Supprimer
+    deletedAt: Supprimer à
+    handle: Identifiant
+    placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+    invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+    name: Nom de rôle *
+    undelete: Annuler suppression
+    updatedAt: Mis à jour à
     description: Description
     context:
-      label: Contextual role
       expression-label: Expression
-      resource-types-label: Resource type
   members:
-    add: Add
-    count: Members ({{count}})
-    remove: Remove
-    searchUsers: Search users
-    title: Role members
-    unnamed: Unnamed user
-  new: New Role
+    add: + Ajouter
+    remove: Supprimer
+  new: Nouveau Rôle
   permissions: Permissions
-  title:
-    create: Create role
-    edit: Edit role
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  archive: Archive
-  unarchive: Unarchive
-  rows:
-    filters:
-      archived: Archived
-      deleted: Deleted
-  filterForm:
-    archived:
-      label: archived roles
-    deleted:
-      label: deleted roles
-    excluded:
-      label: Without
-    exclusive:
-      label: Only
-    inclusive:
-      label: Including
-    query:
-      label: Filter roles list
-      placeholder: Filter roles by name
-  loading: Loading roles
-  new: New Role
-  numFound: '{{count}} role found'
-  numFound_plural: '{{count}} roles found'
+    enabled: Activé
+    handle: Identifiant
+    name: Nom
+  delete: Supprimer
+  undelete: Annuler suppression
+  new: Nouveau Rôle
   permissions: Permissions
-  title: Roles
-  yaml: YAML
+  title: Rôles

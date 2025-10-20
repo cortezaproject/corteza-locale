@@ -1,60 +1,39 @@
 editor:
   info:
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    enabled: Enabled
-    handle: Handle
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    id: ID
-    name: Name *
-    openBuilder: Open builder
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Workflow
+    createdAt: Créer à
+    createdBy: Créer par
+    delete: Supprimer
+    deletedAt: Supprimer à
+    enabled: Activé
+    handle: Identifiant
+    invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+    name: Nom *
+    undelete: Annuler suppression
+    updatedAt: Mis à jour à
+  new: Nouveau processus
   permissions: Permissions
   title:
-    create: Create workflow
-    edit: Edit workflow
+    create: Créer processus
+    edit: Éditer processus
   triggers:
-    and: and
-    columns:
-      constraints: Constraints
-      eventType: Event
-      resourceType: Resource
-    title: Triggers
+    and: et
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  export: Export
-  rows:
-    filters:
-      deleted: Deleted
+    enabled: Activé
+    handle: Identifiant
+    name: Nom
+  delete: Supprimer
+  undelete: Annuler suppression
+  export: Exporter
   filterForm:
     deleted:
-      label: deleted workflows
-    excluded:
-      label: Without
-    exclusive:
-      label: Only
-    inclusive:
-      label: Including
+      label: processus supprimés
     query:
-      label: Filter workflows list
-      placeholder: Filter workflows by name
-  loading: Loading workflows
-  new: New Workflow
-  numFound: '{{count}} workflow found'
-  numFound_plural: '{{count}} workflows found'
+      label: Filtrer liste des processus
+      placeholder: Filtrez les processus par leurs noms
+  loading: Chargement des processus
+  new: Nouveau processus
+  numFound: '{{count}} processus trouvé'
+  numFound_plural: '{{count}} processus trouvés'
   permissions: Permissions
-  title: Workflows
-  yaml: YAML
+  title: Processus

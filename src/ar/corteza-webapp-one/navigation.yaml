@@ -1,30 +1,24 @@
-adminPanel: Admin panel
-automation: Automation
-chart: Charts
-configuration: Configuration
+adminPanel: لوحة الادارة
+automation: أتمتة
+chart: الرسوم البيانية
+configuration: اعدادات
 help:
-  documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
-module: Modules
-more: More
+  documentation: المراجع
+  feedback: ارسال افادة
+  forum: مساعدة
+  version: 'النسخة:'
+module: الموديولز
+more: مزيد
 namespace: Namespaces
-noPageTitle: No page title
-page: Pages
-publicPages: Public pages
-appMenu: Menu
+noPageTitle: لايوجد عنوان
+page: الصفحات
+publicPages: الصفحات المنشورة
 userSettings:
-  changePassword: Change password
-  loggedInAs: Logged in as {{user}}
-  logout: Logout
-  profile: Profile
-  theme: Theme
+  changePassword: تغيير كلمة المرور
+  loggedInAs: مسجل كـ {{user}}
+  logout: تسجيل خروج
+  profile: الملف الشخصي
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: فاتح
+    dark: غامق

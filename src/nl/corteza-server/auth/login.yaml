@@ -1,21 +1,17 @@
 template:
-  title: Log in to continue
   form:
-    email:
-      label: Email
-      placeholder: email@domain.tld
     password:
-      label: Password
-      placeholder: password
+      label: Wachtwoord
+      placeholder: wachtwoord
     button:
-      login-and-remember: Log in and remember me
+      login-and-remember: Log in en onthoud mij
       login: Log in
-      continue: Continue
+      continue: Ga verder
   links:
-    request-password-reset: Forgot your password?
-    signup: Create a new account
+    request-password-reset: Wachtwoord vergeten?
+    signup: Maak een nieuw account
     external:
-      login-with: Login with {{idp}}
+      login-with: Log in met {{idp}}
 alerts:
-  logged-in: You are now logged-in
-  local-disabled: Local accounts disabled
+  logged-in: Je bent nu ingelogd
+  local-disabled: Lokale accounts uitgeschakeld

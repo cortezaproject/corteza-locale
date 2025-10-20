@@ -1,47 +1,47 @@
 list:
   columns:
-    action: Action
-    actor: User
-    description: Description
-    requestOrigin: Origin
-    resource: Resource
-    severity: Severity
-    timestamp: Timestamp
-  loading: Loading actions
+    action: Akce
+    actor: Uživatel
+    description: Popis
+    requestOrigin: Původ
+    resource: Zdroj
+    severity: Závažnost
+    timestamp: Časová značka
+  loading: Načítání akci
   details:
     id: ID
-    header: Details
-    timestamp: Timestamp
-    requestOrigin: Request Origin
-    requestID: Request ID
-    actorIPAddr: Actor/User
-    actor: User
-    actorID: User ID
-    severity: Severity
-    resource: Resource
-    action: Action
-    headerAdditional: Additional information
-    description: Description
-    error: Error
+    header: Detaily
+    timestamp: Časová značka
+    requestOrigin: Původ požadavku
+    requestID: ID požadavku
+    actorIPAddr: Uživatel
+    actor: Uživatel
+    actorID: ID uživatele
+    severity: Závažnost
+    resource: Zdroj
+    action: Akce
+    headerAdditional: Další informace
+    description: Popis
+    error: Chyba
     meta: Meta
   severity:
-    emergency: Emergency
-    alert: Alert
-    critical: Critical
-    error: Error
-    warning: Warning
-    notice: Notice
-    info: Info
+    emergency: Nouze
+    alert: Poplach
+    critical: Kritické
+    error: Chyba
+    warning: Varování
+    notice: Oznámení
+    info: Informace
     debug: Debug
   filter:
-    action: Action
-    actor: User ID
-    choose-date: Choose a date
-    from: Starting from
-    no-time: No time selected
-    resource: Resource
-    search: Search
-    to: Ending at
-    today: Today
-  loadOlder: Load older actions
-  title: Action log
+    action: Akce
+    actor: ID uživatele
+    choose-date: Vybrané datum
+    from: Začátek od
+    no-time: Není vybraný čas
+    resource: Zdroj
+    search: Hledání
+    to: Konec do
+    today: Dnes
+  loadOlder: Načíst starší akce
+  title: Záznam akcí

@@ -1,15 +1,15 @@
 errors:
-  handleNotUnique: role handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  nameNotUnique: role name not unique
-  notAllowedToArchive: not allowed to archive this role
-  notAllowedToCreate: not allowed to create roles
-  notAllowedToDelete: not allowed to delete this role
-  notAllowedToManageMembers: not allowed to manage role members
-  notAllowedToRead: not allowed to read this role
-  notAllowedToSearch: not allowed to search or list roles
-  notAllowedToUnarchive: not allowed to unarchive this role
-  notAllowedToUndelete: not allowed to undelete this role
-  notAllowedToUpdate: not allowed to update this role
-  notFound: role not found
+  handleNotUnique: identificador do papel não é exclusivo
+  invalidHandle: identificador inválido
+  invalidID: ID inválida
+  nameNotUnique: nome da função não é exclusivo
+  notAllowedToArchive: não tem permissão para arquivar esta função
+  notAllowedToCreate: não tem permissão para criar funções
+  notAllowedToDelete: não tem permissão para excluir esta função
+  notAllowedToManageMembers: não tem permissão para gerenciar membros da função
+  notAllowedToRead: não é permitido ler este papel
+  notAllowedToSearch: não tem permissão para pesquisar ou listar funções
+  notAllowedToUnarchive: não é permitido desarquivar esta função
+  notAllowedToUndelete: não é permitido recuperar esta função
+  notAllowedToUpdate: não tem permissão para atualizar esta função
+  notFound: função não encontrada

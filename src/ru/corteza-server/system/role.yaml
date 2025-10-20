@@ -1,15 +1,15 @@
 errors:
   handleNotUnique: role handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  nameNotUnique: role name not unique
-  notAllowedToArchive: not allowed to archive this role
-  notAllowedToCreate: not allowed to create roles
-  notAllowedToDelete: not allowed to delete this role
-  notAllowedToManageMembers: not allowed to manage role members
-  notAllowedToRead: not allowed to read this role
-  notAllowedToSearch: not allowed to search or list roles
-  notAllowedToUnarchive: not allowed to unarchive this role
-  notAllowedToUndelete: not allowed to undelete this role
-  notAllowedToUpdate: not allowed to update this role
-  notFound: role not found
+  invalidHandle: Неверный handle
+  invalidID: неверный ID
+  nameNotUnique: Имя роли не уникально
+  notAllowedToArchive: не разрешено архивировать эту роль
+  notAllowedToCreate: не разрешено создавать роль
+  notAllowedToDelete: не разрешено удалять роль
+  notAllowedToManageMembers: не разрешено управлять членами ролей
+  notAllowedToRead: Не разрешено читать роль
+  notAllowedToSearch: не разрешено искать или перечислять роль
+  notAllowedToUnarchive: не разрешено разархивировать эту роль
+  notAllowedToUndelete: не разрешено восстанавливать роль
+  notAllowedToUpdate: не разрешено обновлять роль
+  notFound: роль не найдена

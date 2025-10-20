@@ -1,30 +1,21 @@
 template:
-  title: Your profile
+  title: Ваш профиль
   form:
     email:
       label: Email
       placeholder: email@domain.tld
-      resend-confirmation-link: Email is not verified, <a data-test-id="link-resend-confirmation" href="{{link}}?resend">resend confirmation link.</a>
     name:
-      label: Full name
-      placeholder: Your full name
+      label: Имя
+      placeholder: Фамилия
     handle:
-      label: Handle
-      placeholder: Short name, nickname or handle
+      label: Управлять
+      placeholder: Ник
     avatar:
-      label: Avatar
-      delete: Delete
-      upload: Upload avatar
-    avatar-initial:
-      label: Avatar initial
-      color: Avatar text color
-      background-color: Avatar background color
+      delete: Удалить
     preferred-language:
-      label: Preferred language
+      label: Язык
     buttons:
-      submit: Update profile
+      submit: Обновить профиль
 alerts:
-  profile-updated: Profile successfully updated
-  profile-update-fail: Could not update profile due to input errors
-  profile-avatar-uploaded: Profile avatar successfully uploaded
-  profile-avatar-deleted: Profile avatar successfully deleted
+  profile-updated: Профиль успешно обновлен
+  profile-update-fail: Не удалось обновить профиль из-за ошибок ввода

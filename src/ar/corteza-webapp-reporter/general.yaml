@@ -1,46 +1,31 @@
 label:
-  add: Add
-  and: And
-  all: All
-  ascending: Ascending
-  back: Back
-  clear: Clear
-  cancel: Cancel
-  delete: Delete
-  descending: Descending
-  loading: Loading
-  name: Name
-  none: None
-  now: Now
-  ok: Ok
-  or: Or
-  openLinkInNewTab: Open link in a new tab
-  save: Save
-  saveAndClose: Save and close
-  clone: Save as copy
-  today: Today
+  add: أضف
+  all: الكل
+  ascending: تصاعدي
+  back: عودة
+  cancel: الغاء
+  delete: حذف
+  descending: تنازلي
+  loading: تحميل
+  name: اسم
+  none: لايوجد
+  ok: موافق
+  or: أو
+  save: حفظ
+  saveAndClose: احفظ وأغلق
+  today: اليوم
   urlPlaceholder: https://example.tld
-  default: Default
+  default: افتراضي
   report:
-    single: Report
-    plural: Reports
+    plural: التقارير
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: غير موجود
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
-  clone: Clone
+    next: التالي
+    prev: السابق
+  clone: نسخ
 themes:
   labels:
-    light: Light
-    dark: Dark
-cloneSuffix: copy
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: فاتح
+    dark: غامق
+cloneSuffix: نسخ

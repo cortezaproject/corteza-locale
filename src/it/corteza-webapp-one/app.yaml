@@ -1,6 +1,5 @@
 jitsi:
-  create: Create
-  defaultLocalDisplayName: Anonymous
-  defaultRemoteDisplayName: Fellow Cortezer
-  roomName: Room name
-  toStart: To start a video call create a new room
+  create: Crea
+  defaultLocalDisplayName: Anonimo
+  roomName: Nome stanza
+  toStart: Per iniziare una video chiamata crea una nuova stanza

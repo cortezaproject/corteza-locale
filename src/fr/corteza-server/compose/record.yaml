@@ -1,25 +1,25 @@
 errors:
-  fieldNotFound: no such field {field}
-  importSessionAlreadActive: import session already active
-  invalidID: invalid ID
-  invalidModuleID: invalid or missing module ID
-  invalidNamespaceID: invalid or missing namespace ID
-  invalidReferenceFormat: invalid reference format
-  invalidValueStructure: more than one value for a single-value field {field}
-  moduleNotFoundModule: module not found
-  namespaceNotFound: namespace not found
-  notAllowedToChangeFieldValue: not allowed to change value of field {field}
-  notAllowedToCreate: not allowed to create records
-  notAllowedToDelete: not allowed to delete this record
-  notAllowedToListRecords: not allowed to list records
-  notAllowedToRead: not allowed to read this record
-  notAllowedToReadModule: not allowed to read module
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list records
-  notAllowedToUndelete: not allowed to undelete this record
-  notAllowedToUpdate: not allowed to update this record
-  notFound: record not found
-  staleData: stale data
-  unknownBulkOperation: unknown bulk operation {bulkOperation}
-  valueInput: invalid record value input
-  maxRecordsReached: maximum number of records per namespace reached
+  fieldNotFound: Aucun champ nommé {field}
+  importSessionAlreadActive: session d'importation déjà active
+  invalidID: ID invalide
+  invalidModuleID: ID de module invalide ou manquant
+  invalidNamespaceID: ID de namespace invalide ou manquant
+  invalidReferenceFormat: format de référence invalide
+  invalidValueStructure: plus d'une valeur pour le champ à valeur unique {field}
+  moduleNotFoundModule: module introuvable
+  namespaceNotFound: namespace introuvable
+  notAllowedToChangeFieldValue: non autorisé à changer la valeur du champ {field}
+  notAllowedToCreate: non autorisé à créer des éléments
+  notAllowedToDelete: non autorisé à supprimer cet élément
+  notAllowedToListRecords: non autorisé à lister les éléments
+  notAllowedToRead: non autorisé à lire cet élément
+  notAllowedToReadModule: non autorisé à lire ce module
+  notAllowedToReadNamespace: non autorisé à lire ce namespace
+  notAllowedToSearch: non autorisé à chercher ou lister des éléments
+  notAllowedToUndelete: non autorisé à annuler la suppression de cet élément
+  notAllowedToUpdate: non autorisé à mettre à jour cet élément
+  notFound: élément introuvable
+  staleData: données obsolètes
+  unknownBulkOperation: opération en masse inconnue {bulkOperation}
+  valueInput: valeur de saisie d'élément invalide
+  maxRecordsReached: nombre max d'élément par namespace atteint

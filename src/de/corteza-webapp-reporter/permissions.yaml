@@ -1,32 +1,18 @@
 ui:
   save: Save changes
-  cancel: Cancel
+  cancel: Abbrechen
   set-for: Set permissions for {{target}}
   loading: Loading permissions
-  label: Permissions
-  notification:
-    save:
-      success: Permissions saved
-      failed: Failed to save permissions
+  label: Berechtigungen
   edit:
-    label: User roles
-    description: Select role to set permissions
-  evaluate:
-    description: Evaluate applied permissions
+    label: Benutzerrollen
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: + Hinzufügen
+    save: Speichern und schließen
     role:
       label: Roles
-      placeholder: Select role(s)
     user:
       label: Users
-      placeholder: Search or select a user
-  tooltip:
-    unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
   access:
     allow: Allow
     inherit: Inherit
@@ -36,21 +22,16 @@ resources:
     report:
       all: all reports
       specific: report "{{target}}"
-      tooltip: Report permissions
       operations:
         delete:
-          description: ""
-          specific: Delete report "{{target}}"
+          specific: Bericht "{{target}}" löschen
           title: Delete any report
         read:
-          description: ""
-          specific: Read report "{{target}}"
+          specific: Bericht "{{target}}" lesen
           title: Read any report
         run:
-          description: ""
-          specific: Run report "{{target}}"
+          specific: Bericht "{{target}}" ausführen
           title: Run any report
         update:
-          description: ""
-          specific: Update report "{{target}}"
+          specific: Bericht "{{target}}" aktualisieren
           title: Update any report

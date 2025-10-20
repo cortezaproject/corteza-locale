@@ -1,57 +1,56 @@
 editor:
   info:
-    completedAt: Completed at
-    createdAt: Created at
-    createdBy: Created by - ID
-    createdByUserName: Created by - Name
-    delete: Delete
-    deletedAt: Deleted at
-    suspendedAt: Suspended at
-    error: Error
-    eventType: Event type
+    completedAt: Dokončeno v
+    createdAt: Čas vytvoření
+    createdBy: Vytvořil - ID
+    createdByUserName: Vytvořil - jméno
+    delete: Smazat
+    deletedAt: Čas odstranění
+    suspendedAt: Zablokovat vše
+    error: Chyba
+    eventType: Typ události
     id: ID
-    resourceType: Resource type
+    resourceType: Typ zdroje
     status: Status
-    title: Basic information
-    workflowID: WorkflowID
-    openWorkflow: Open workflow
-    cancel: Cancel session
-  title: Session
+    title: Základní informace
+    workflowID: IDWorkflow
+    openWorkflow: Otevřít workflow
+    cancel: Stornovat relaci
+  title: Relace
 list:
   columns:
-    actions: ""
-    createdAt: Created At
-    eventType: Event type
-    sessionID: SessionID
-    state: State
+    createdAt: Čas vytvoření
+    eventType: Typ události
+    sessionID: IDRelace
+    state: Stav
     status: Status
-    workflowID: WorkflowID
+    workflowID: IDWorkflow
   filterForm:
     all:
-      label: All
+      label: Vše
     completed:
-      label: Completed
+      label: Dokončeno
     excluded:
-      label: Without
+      label: Bez
     exclusive:
-      label: Only
+      label: Pouze
     failed:
-      label: Failed
+      label: Selhalo
     inProgress:
-      label: completed sessions
+      label: dokončené relace
     inclusive:
-      label: Including
+      label: Včetně
     prompted:
-      label: Prompted
+      label: Dotázáno
     sessions:
-      label: sessions
+      label: relace
     started:
-      label: Started
+      label: Spuštěno
     suspended:
-      label: Suspended
+      label: Pozastaveno
     canceled:
-      label: Canceled
-  loading: Loading sessions
-  numFound: '{{count}} session found'
-  numFound_plural: '{{count}} sessions found'
-  title: Sessions
+      label: Stornováno
+  loading: Načítání relací
+  numFound: 'Nalezena {{count}} relace'
+  numFound_plural: 'Nalezeno {{count}} relací'
+  title: Relace

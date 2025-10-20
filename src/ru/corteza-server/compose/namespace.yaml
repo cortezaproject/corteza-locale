@@ -1,16 +1,16 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create namespaces
-  notAllowedToDelete: not allowed to delete this namespace
-  notAllowedToRead: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list namespaces
-  notAllowedToUndelete: not allowed to undelete this namespace
-  notAllowedToUpdate: not allowed to update this namespace
+  handleNotUnique: handle  не уникален
+  invalidHandle: Неверный handle
+  invalidID: неверный ID
+  notAllowedToCreate: не разрешено создавать пространство имен
+  notAllowedToDelete: не разрешено удалять пространство имен
+  notAllowedToRead: не разрешено читать это пространство имен
+  notAllowedToSearch: не разрешено искать или перечислять пространство имен
+  notAllowedToUndelete: не разрешено восстановить это пространство имен
+  notAllowedToUpdate: не разрешено обновлять это пространство имен
   notFound: namespace does not exist
-  staleData: stale data
-  unsupportedExportFormat: unsupported export format
-  unsupportedImportFormat: unsupported import format
-  importMissingNamespace: the import source does not contain a namespace definition
-  cloneMultiple: not allowed to clone multiple namespaces at once
+  staleData: устаревшие данные
+  unsupportedExportFormat: неподдерживаемый формат экспорта
+  unsupportedImportFormat: неподдерживаемый формат импорта
+  importMissingNamespace: источник импорта не содержит определения пространства имен
+  cloneMultiple: не разрешается клонировать несколько пространств имен одновременно

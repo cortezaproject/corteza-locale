@@ -1,66 +1,60 @@
-clear: Clear
+clear: Vider
 description: Description
-enabled: Enabled
-enable: Enable
-disable: Disable
-error: Error
-error-expression: Error message (expression)
-export: Export
-general: General
-handle: Handle
+enabled: Activé
+enable: Activer
+disable: Désactiver
+error: Erreur
+error-expression: Message d'erreur (expression)
+export: Exporter
+general: Général
+handle: Identifiant
 import:
-  json: Import JSON
-  label: Import
-  reassign-run-as: "NOTE: the Run as workflow property won't be imported and should be reassigned"
-  upload-files: Browse or drop files to upload...
+  json: Importer JSON
+  label: Importer
+  reassign-run-as: "NOTE : la propriété 'Exécuter en tant que' ne sera pas importée et doit être réassignée"
+  upload-files: Parcourez ou déposez des fichiers à téléverser...
 label:
-  all: All
-  label: Label
-loading: Loading
-name: Name
-new-workflow: New Workflow
-none: None
-now: Now
-offset: Offset
-offset-expression: Offset (expression)
+  all: Tous
+  label: Étiquette
+loading: Chargement
+name: Nom
+new-workflow: Nouveau processus
+none: Aucune
+now: Maintenant
 permissions: Permissions
-searchPlaceholder: Search workflows
-subworkflow: Subworkflow
-subworkflows: Subworkflows
-deleted: Deleted
-disabled: Disabled
-without: Without
-only: Only
-including: Including
-workflow-list: List of Workflows
+searchPlaceholder: Recherchez des processus
+subworkflow: Sous-processus
+subworkflows: Sous-processus
+disabled: Désactivé
+workflow-list: Liste de processus
 workflow:
-  single: Workflow
-  plural: Workflows
-save: Save
-today: Today
-cancel: Cancel
+  single: Processus
+  plural: Processus
+save: Enregistrer
+today: Aujourd'hui
+cancel: Annuler
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: Introuvable
+  noItems: Aucun élément à afficher
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
+    next: Suivant
+    prev: Précédent
+    showing: '{{from}} - {{to}} sur {{count}} {{data}}'
+    single_one: '1 {{data}}'
     single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
+    recordsPerPage: Par Page
 tooltip:
-  permissions: Workflow permissions
+  permissions: Permissions de processus
 columns:
-  name: Name
-  enabled: Enabled
-  steps: Steps
-  changedAt: Last change
+  name: Nom
+  enabled: Activé
+  steps: Étapes
+  changedAt: Dernier changement
 themes:
   labels:
-    light: Light
-    dark: Dark
+    light: Clair
+    dark: Sombre
 extendSession:
   labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    extend: Étendre la session
+    warning: Vous serez déconnecté(e) dans {{ countdownTime }} secondes

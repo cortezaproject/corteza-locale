@@ -2,216 +2,156 @@ label:
   app-name:
     namespace:
       list: Namespaces
-      create: Create Namespace
-      edit: 'Edit Namespace - {{label}}'
-      view: Namespace
+      view: Namespaces
     module:
-      list: 'Modules - {{label}}'
-      create: Create Module
-      edit: 'Edit Module - {{label}}'
-    page:
-      list: 'Pages - {{label}}'
-      builder: 'PageBuilder - {{label}}'
-      edit: 'Edit Page - {{label}}'
-      record: 'Record - {{label}}'
-    chart:
-      list: 'Charts - {{label}}'
-      edit: 'Edit Chart - {{label}}'
-      create: Create Chart
-  actions: Actions
-  active: Active
-  add: Add
-  add-with-plus: + Add
-  addNew: Add new
-  addValue: Add new value
-  ascending: Ascending
-  attachmentFileInfo: '(File size: {{0}}, uploaded {{1}})'
-  attributes: Attributes
-  back: Back
-  backWithoutSave: Back (without saving changes)
-  block: Block
-  browse: Browse
-  buttons: Buttons
-  cancel: Cancel
-  clear: Clear
-  clone: Clone
-  close: Close
-  create: Create
-  delete: Delete
-  default: Default
-  restore: Restore
-  descending: Descending
-  description: Description
-  download: Download
-  dropFiles: Click or drop files here to upload
-  edit: Edit
-  enabled: Enabled
-  export: Export
-  fileTypeNotAllowed: File type not allowed
-  general: General
-  handle: Handle
-  here: here
-  home: Home
-  import: Import
-  all: All
-  importPlaceholder: Upload files to import
-  loading: Loading
-  makeDefault: Make default
-  moduleName: Module name
-  multi: Multi
-  name: Name
-  next: Next
+      create: إنشاء وحدة
+  actions: عمل
+  active: نشط
+  add: أضف
+  add-with-plus: +أضف
+  addNew: اضف جديد
+  addValue: أضف قيمة جديدة
+  ascending: تصاعدي
+  attachmentFileInfo: '(حجم الملف: {{0}}, تم رفع {{1}})'
+  attributes: صفات
+  back: عودة
+  backWithoutSave: رجوع (بدون حفظ التغييرات)
+  browse: تصفح
+  buttons: أزرار
+  cancel: الغاء
+  clone: نسخ
+  close: اغلاق
+  create: انشاء
+  delete: حذف
+  default: افتراضي
+  descending: تنازلي
+  description: وصف
+  download: تحميل
+  dropFiles: انقر أو أسقط الملفات هنا للتحميل
+  edit: تحرير
+  enabled: مفعل
+  export: تصدير
+  fileTypeNotAllowed: نوع الملف غير مسموح
+  general: عام
+  handle: المعرف
+  here: هنا
+  import: استيراد
+  all: الكل
+  importPlaceholder: تحميل الملفات للاستيراد
+  loading: تحميل
+  makeDefault: جعل الافتراضي
+  moduleName: اسم وحدة
+  name: اسم
+  next: التالي
   no: No
-  noHandle: No handle
-  none: None
-  now: Now
-  ok: Ok
-  page: Page
-  pageLayout: Page layout
-  pageBuilder: Page builder
-  permissions: Permissions
-  private: Private
-  privacy: Privacy
-  processing: Processing...
-  record: Record
-  recordPage: Record page
-  field: Field
-  remove: Remove
-  removeDefault: Remove default
-  required: Required
-  reset: Reset
-  sensitive: Sensitive
-  save: Save
-  saveAndClose: Save and close
-  saveAsCopy: Save as copy
-  status: Status
+  noHandle: لا يوجد معرف
+  none: لايوجد
+  ok: موافق
+  pageBuilder: منشئ الصفحة
+  permissions: الصلاحيات
+  private: خاص
+  processing: يعالج...
+  record: سجل
+  recordPage: صفحة التسجيل
+  field: حقل
+  remove: الغاء
+  removeDefault: إزالة الافتراضي
+  required: مطلوب
+  reset: اعادة تعيين
+  save: حفظ
+  saveAndClose: احفظ وأغلق
+  status: الحالة
   timeHour: '{{t}}h'
   timeMinute: '{{t}}min'
-  today: Today
-  title: Title
-  type: Type
-  updatedAt: Updated at
-  uploadError: 'Issue with file upload: "{{message}}"'
-  uploading: Uploading
-  unsavedChanges: Unsaved Changes
+  today: اليوم
+  title: عنوان
+  type: نوع
+  updatedAt: تم تحديثه في
+  uploadError: 'مشكلة في تحميل الملف: "{{message}}"'
+  uploading: تحميل
   urlPlaceholder: https://example.tld
-  validation: Validation
-  view: View
+  validation: تصديق
+  view: عرض
   yes: Yes
   chart:
-    single: Chart
-    plural: Charts
+    single: رسم بياني
+    plural: الرسوم البيانية
   namespace:
-    single: Namespace
+    single: Namespaces
     plural: Namespaces
   module:
-    single: Module
-    plural: Modules
+    single: موديول
+    plural: الموديولز
 navigation:
-  chart: Charts
+  chart: الرسوم البيانية
   namespace: Namespaces
-  module: Modules
-  page: Pages
-  pageLayout: Page Layouts
+  module: الموديولز
+  page: الصفحات
 placeholder:
-  handle: handle (a - z, 0 - 9, underscore, dash)
-  sample: Sample
+  handle: المعرف (a - z, 0 - 9, _, -)
+  sample: عينة
 reminder:
-  add: Add a reminder
-  dismiss: Dismiss
-  dismissed: Dismissed
-  dismissedAt: Dismissed at
-  undismiss: Undismiss
-  delete: Delete reminder
-  recordPageLink: View record
+  dismiss: رفض
   edit:
-    label: Edit reminder
-    assigneeLabel: Assignee
-    assigneePlaceholder: Myself (default)
-    notesLabel: Notes
-    notesPlaceholder: Notes
-    remindAtLabel: Remind me at
-    remindAtNone: Never
-    titleLabel: Title
-    titlePlaceholder: Title
-  listLabel: Reminders
-  routesTo: Label for page link
+    assigneeLabel: الوكيل
+    assigneePlaceholder: نفسي (افتراضي)
+    notesLabel: ملحوظات
+    notesPlaceholder: ملحوظات
+    remindAtNone: أبداً
+    titleLabel: عنوان
+    titlePlaceholder: عنوان
+  listLabel: تذكير
   snooze:
-    label: Snooze
-    count: Snooze count {{count}}
+    label: غفوة
 tooltip:
-  dragAndDrop: Drag and drop to change order
+  dragAndDrop: قم بالسحب والإفلات لتغيير النظام
 fieldKinds:
   Bool:
-    label: Checkbox (Y/N)
+    label: خانة الاختيار (نعم / لا)
   DateTime:
-    label: Date and time
+    label: التاريخ و الوقت
   Email:
-    label: Email input
+    label: إدخال البريد الإلكتروني
   File:
-    label: File upload
+    label: تحميل الملف
   Number:
-    label: Number input
+    label: إدخال الرقم
   Record:
-    label: Record selector
+    label: محدد التسجيل
   Select:
-    label: Select / dropdown
+    label: حدد / القائمة المنسدلة
   String:
-    label: Text input (string)
+    label: إدخال نص (سلسلة)
   Url:
-    label: URL input
+    label: إدخال URL
   User:
-    label: User selector
-  Geometry:
-    label: Location
+    label: محدد المستخدم
 field:
-  selectAll: Select all
+  selectAll: تحديد الكل
   tooltip:
-    permissions: Field permissions
-  unselectAll: Unselect all
+    permissions: أذونات المجال
+  unselectAll: الغاء تحديد الكل
   kind:
     user:
-      suggestionPlaceholder: Start typing to search for users by email or name
+      suggestionPlaceholder: ابدأ في الكتابة للبحث عن المستخدمين بالبريد الإلكتروني أو الاسم
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: غير موجود
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
-recordNavigation:
-  next: Next record
-  prev: Previous record
+    next: التالي
+    prev: السابق
 variants:
-  primary: Primary
-  secondary: Secondary
-  light: Light
-  dark: Dark
-  info: Info
-  success: Success
-  danger: Danger
-  warning: Warning
-editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
+  primary: اساسي
+  secondary: ثانوي
+  light: فاتح
+  dark: غامق
+  info: معلومات
+  success: ناجح
+  danger: خطر
+  warning: تنبيه
 webcam:
-  title: Webcam
-  tooltip: Open webcam to capture photo
   buttons:
-    cancel: Cancel
-    capture: Capture photo
-    confirm: Upload photo
-  errors:
-    camera: Unable to access the camera. Please make sure you have granted camera permissions.
-record:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to close the record?
+    cancel: الغاء
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: فاتح
+    dark: غامق

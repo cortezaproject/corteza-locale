@@ -1,57 +1,51 @@
 editor:
   info:
-    completedAt: Completed at
-    createdAt: Created at
-    createdBy: Created by - ID
-    createdByUserName: Created by - Name
-    delete: Delete
-    deletedAt: Deleted at
-    suspendedAt: Suspended at
+    completedAt: Завершено
+    createdAt: Создан
+    createdBy: Создан по - ID
+    createdByUserName: Создан по - Имени
+    delete: Удалить
+    deletedAt: Удалить
+    suspendedAt: Приостановить
     error: Error
-    eventType: Event type
+    eventType: Тип события
     id: ID
-    resourceType: Resource type
-    status: Status
-    title: Basic information
+    resourceType: Тип ресурса
+    status: Статус
+    title: Базовая информация
     workflowID: WorkflowID
-    openWorkflow: Open workflow
-    cancel: Cancel session
-  title: Session
+  title: Сессия
 list:
   columns:
-    actions: ""
-    createdAt: Created At
-    eventType: Event type
+    createdAt: Создан
+    eventType: Тип события
     sessionID: SessionID
-    state: State
-    status: Status
+    status: Статус
     workflowID: WorkflowID
   filterForm:
     all:
-      label: All
+      label: Все
     completed:
-      label: Completed
+      label: Завершено
     excluded:
       label: Without
     exclusive:
-      label: Only
+      label: Единственный
     failed:
-      label: Failed
+      label: Неудачно
     inProgress:
       label: completed sessions
     inclusive:
-      label: Including
+      label: Включая
     prompted:
-      label: Prompted
+      label: Подсказка
     sessions:
-      label: sessions
+      label: сессия
     started:
-      label: Started
+      label: Начать
     suspended:
-      label: Suspended
-    canceled:
-      label: Canceled
-  loading: Loading sessions
-  numFound: '{{count}} session found'
-  numFound_plural: '{{count}} sessions found'
-  title: Sessions
+      label: Приостановить
+  loading: Загрузка сессии
+  numFound: '{{count}} сессия найдена'
+  numFound_plural: '{{count}} сессии найдены'
+  title: Сессия

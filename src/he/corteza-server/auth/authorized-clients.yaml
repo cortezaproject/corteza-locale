@@ -1,9 +1,6 @@
 template:
-  title: Authorized clients
+  title: משתמש מאושר
   list:
-    authorized-on: Authorized on
     buttons:
-      revoke: Revoke access
-    empty: No authorized clients found
-alerts:
-  removed: Client authorization removed
+      revoke: בטל גישה
+    empty: לא נמצא משתמש מורשה

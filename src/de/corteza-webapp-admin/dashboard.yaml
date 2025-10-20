@@ -1,19 +1,18 @@
 applications:
-  applications: Application(s)
-  deleted: Deleted
-  title: Active application(s)
-  total: Total
+  applications: Anwendung(en)
+  deleted: Gelöscht
+  title: Aktive Anwendung(en)
+  total: Gesamt
 roles:
-  archived: Archived
-  deleted: Deleted
-  roles: Role(s)
-  title: Active role(s)
-  total: Total
+  archived: Archiviert
+  deleted: Gelöscht
+  roles: Rolle(n)
+  title: Aktive Rolle(n)
+  total: Gesamt
 title: Dashboard
 users:
-  created: Created users(s)
-  deleted: Deleted
-  suspended: Suspended
-  title: Active user(s)
-  total: Total
-  users: User(s)
+  deleted: Gelöscht
+  suspended: Gesperrt
+  title: Aktive(r) Benutzer
+  total: Gesamt
+  users: Benutzer

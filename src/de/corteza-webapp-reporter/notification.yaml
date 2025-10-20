@@ -1,29 +1,15 @@
-datasource:
-  describe-failed: Failed to describe datasource
 general:
-  error: Error
-  success: Success
+  error: Fehler
+  success: Erfolgreich
   warning: Warning
-list:
-  load:
-    error: Failed to load resource list
-module:
-  fetch-failed: Failed to fetch modules
-namespace:
-  fetch-failed: Failed to fetch namespaces
 report:
-  createFailed: Failed to create report
-  loadFailed: Loading the report failed
-  created: Report created
-  delete: Report deleted
-  deleteFailed: Failed to delete report
-  fetchFailed: Failed to fetch report
-  listFetchFailed: Failed to fetch reports
-  runFailed: Failed to run report
-  updateFailed: Failed to update report
-  updated: Report updated
+  createFailed: Fehler beim Erstellen des Berichts
+  created: Bericht erstellt
+  delete: Bericht gelöscht
+  deleteFailed: Fehler beim Löschen des Berichts
+  fetchFailed: Fehler beim Abrufen des Berichts
+  listFetchFailed: Fehler beim Abrufen von Berichten
+  updateFailed: Fehler beim Aktualisieren des Berichts
+  updated: Bericht aktualisiert
   notAllowed:
-    read: Not allowed to read report
-  datasources:
-    updated: Datasources updated
-    updateFailed: Failed to update datasources
+    read: Keine Erlaubnis um dem Bericht zu lesen

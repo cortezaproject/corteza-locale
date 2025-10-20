@@ -1,11 +1,11 @@
 list:
-  title: Sensitive Modules
+  title: Citlivé moduly
   columns:
-    module: Module
-    namespace: Namespace
-    connection: Connection
-    location: Location
-    ownership: Ownership
+    module: Modul
+    namespace: Jmenný prostor
+    connection: Spojení
+    location: Umístění
+    ownership: Vlastnictví
   module:
-    enable: Enable modules
-    disable: Disable modules
+    enable: Povolit moduly
+    disable: Zakázat moduly

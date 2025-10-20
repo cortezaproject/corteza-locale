@@ -1,5 +1,5 @@
 template:
-  title: Disable two-factor authentication with TOTP
-  instructions: Disable by entering existing code
+  title: Schakel tweevoudige verificatie uit met TOTP
+  instructions: Uitschakelen door bestaande code in te voeren
   button:
-    remove: Remove
+    remove: Weghalen

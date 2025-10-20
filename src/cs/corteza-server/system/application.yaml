@@ -1,11 +1,11 @@
 errors:
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create applications
-  notAllowedToDelete: not allowed to delete this application
-  notAllowedToManageFlag: not allowed to manage flags for applications
-  notAllowedToManageFlagGlobal: not allowed to manage global flags for applications
-  notAllowedToRead: not allowed to read this application
-  notAllowedToSearch: not allowed to search or list applications
-  notAllowedToUndelete: not allowed to undelete this application
-  notAllowedToUpdate: not allowed to update this application
-  notFound: application not found
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet aplikace
+  notAllowedToDelete: není povoleno smazat tuto aplikaci
+  notAllowedToManageFlag: není povoleno spravovat flagy pro aplikace
+  notAllowedToManageFlagGlobal: není povoleno spravovat globální flagy pro aplikace
+  notAllowedToRead: není povoleno zobrazit tuto aplikaci
+  notAllowedToSearch: není povoleno hledat nebo procházet aplikace
+  notAllowedToUndelete: není povoleno obnovit tuto smazanou aplikaci
+  notAllowedToUpdate: není povoleno aktualizovat tuto aplikaci
+  notFound: aplikace nenalezena

@@ -1,106 +1,102 @@
 primary:
-  title: Primary database
-  name: Name
-  handle: Handle
-  location: Location
-  ownership: Ownership
-  sensitivity-level: Sensitivity level
+  title: Primární databáze
+  name: Jméno
+  handle: Identifikátor
+  location: Umístění
+  ownership: Vlastnictví
+  sensitivity-level: Úroveň citlivosti
 list:
-  title: List of database connections
-  add-button: New Connection
-  loading: Loading connections
+  title: Seznam databázových spojení
+  add-button: Nové spojení
+  loading: Načítání spojení
   filterForm:
     deleted:
-      label: deleted connections
+      label: smazaná spojení
     excluded:
-      label: Without
+      label: Bez
     exclusive:
-      label: Only
+      label: Pouze
     inclusive:
-      label: Including
+      label: Včetně
   columns:
-    name: Name
-    location: Location
-    ownership: Ownership
-    createdAt: Created
-    actions: ''
-  delete: Delete
-  undelete: Undelete
+    name: Jméno
+    location: Umístění
+    ownership: Vlastnictví
+    createdAt: Vytvořeno
+  delete: Smazat
+  undelete: Obnovit smazané
 editor:
   title:
-    edit: Edit connection
-    create: New connection
+    edit: Editovat spojení
+    create: Nové spojení
   basic:
-    title: Basic settings
+    title: Základní nastavení
     form:
       name:
-        label: Name *
-        placeholder: Data lake
-        description: ''
+        label: Jméno *
+        placeholder: Data
       handle:
-        label: Handle
-        placeholder: simplified_connection_name
-        description:
-        invalid-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+        label: Identifikátor
+        placeholder: jednoduchy_nazev_spojeni
+        invalid-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
       location-name:
-        label: Location name
-        placeholder: Name of the location where the data is stored
-        description: Name of the city, country, continent, etc.
+        label: Název umístění
+        placeholder: Název umístění dat
+        description: Jméno města, státu, kontinentu, ...
       location-geometry:
-        label: Location coordinates
-        description: Coordinates of the location where the data is stored
-        placeholder:
+        label: Souřadnice umístění
+        description: Souřadnice umístění dat
       ownership:
-        label: Ownership
-        placeholder: ACME ltd.
-        description: Name of the company or person who owns the data
+        label: Vlastnictví
+        placeholder: ACME spol. s r.o.
+        description: Jméno právnické nebo fyzické osoby, která vlastní data
       sensitivity-level:
-        label: Highest allowed sensitivity level
-        placeholder: Select a sensitivity level
-        description: Highest allowed level of sensitivity for the data stored (as set on fields of the module that uses this connection)
+        label: Nejvyšší povolená úroveň citlivosti
+        placeholder: Vyberte úroveň citlivosti
+        description: Nejvyšší povolená úroveň citlivosti pro uložena data (podle nastavení polí modulů, které toto spojení používají)
   properties:
-    title: Connection and database properties
+    title: Vlastnosti spojení a databáze
     form:
       data-at-rest-encryption:
         checkbox:
-          label: Encrypt data at rest enabled
+          label: Povoleno šifrování data at rest
         notes:
-          label: Notes on encryption
-          description: Internal notes on data-at-rest encryption (disk encryption)
+          label: Poznámky k šifrování
+          description: Interní poznámky k šifrování data at rest (šifrování disku)
       data-at-rest-protection:
         checkbox:
-          label: Data at rest protection provided
+          label: Poskytnutá ochrana data at rest
         notes:
-          label: Notes on data at rest protection
-          description: Internal notes on data-at-rest protection (physical protection)
+          label: Poznámky k ochraně data at rest
+          description: Interní poznámky k ochraně data at rest (fyzická ochrana)
       data-at-transit-encryption:
         checkbox:
-          label: Encrypt data at transit enabled
+          label: Povoleno šifrování data at transit
         notes:
-          label: Notes on data at transit encryption (network encryption)
-          description: Internal notes on data-at-transit encryption (network encryption)
+          label: Poznámky k šifrování data at transit (šifrování spojení)
+          description: Interní poznámky k šifrování data at transit (šifrování spojení)
       data-restoration:
         checkbox:
-          label: Data at rest backup and restoration implemented
+          label: Implementována záloha a obnova dat
         notes:
-          label: Notes on data restoration
-          description: Internal notes on data-restoration
+          label: Poznámky k obnově dat
+          description: Interní poznámky k obnově dat
   dal:
-    title: Data access layer configuration and connection parameters
+    title: Parametry konfigurace vrstvy přístupu k datům
     form:
       model-ident:
-        label: Default table or container name
+        label: Výchozí název tabulky nebo kontejneru
         placeholder: compose_record
         description: |
-          Identifier can contain placeholders like {{module}} (replaced with module handle) and/or {{namespace}} (replace with namespace handle).
-          When set it is used as a default for modules without configure ident.
+          Identifikátor může obsahovat proměnné jako {{module}} (nahradí se identifikátorem modulu) a/nebo {{namespace}} (nahradí se identifikátorem jmenného prostoru).
+          Pokud je nastaveno, použije se jako výchozí hodnota pro moduly bez nastaveného identifikátoru.
       type:
-        label: Connection and parameter type
+        label: Typ parametru
         placeholder: corteza::dal:connection:dsn
-        description: Type of the connection and parameter, e.g. corteza::dal:connection:dsn
+        description: Typ spojení a parametru, např. corteza::dal:connection:dsn
       params:
-        label: Connection parameters
-        placeholder: postgres://user:pass@host:port/dbname
-        description: 'Connection parameters, e.g.: {"dsn": "postgres://user:pass@host:port/dbname"}'
-    connectivity-issues: Connection issues
-    no-access-warning: No permissions to manage data access layer configuration and connection parameters for this connection
+        label: Parametry spojení
+        placeholder: postgres://uzivatel:heslo@server:port/jmeno_databaze
+        description: 'Parametry spojení, např.: {"dns": "postgres://uzivatel:heslo@server:port/jmeno_databaze"}'
+    connectivity-issues: Problémy spojení
+    no-access-warning: Chybí oprávnění spravovat konfiguraci vrstvy přístupu k datům a parametrů spojení

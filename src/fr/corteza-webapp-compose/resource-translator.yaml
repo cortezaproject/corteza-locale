@@ -1,28 +1,28 @@
 translator:
-  save-changes: Save
-  add-language: Add language
-  missing-translation: Missing translation
+  save-changes: Enregistrer
+  add-language: Ajouter langage
+  missing-translation: Traduction manquante
 resources:
   chart:
-    title: Chart "{{ handle }}"
-    tooltip: Chart translations
+    title: Graphique "{{ handle }}"
+    tooltip: Traductions de graphique
   namespace:
     title: Namespace "{{ handle }}"
-    tooltip: Namespace translations
+    tooltip: Traductions de namespace
   module:
     title: Module "{{ handle }}"
-    tooltip: Module translations
+    tooltip: Traductions de module
     field:
-      title: Module field "{{ name }}"
-      tooltip: Field translations
+      title: Champ de module "{{ name }}"
+      tooltip: Traduction de champ
   page:
     title: Page "{{ handle }}"
-    tooltip: Page translations
+    tooltip: Traductions de page
     block:
-      title: "Page block #{{ blockID }}"
-      tooltip: Block translations
+      title: "Bloc de page #{{ blockID }}"
+      tooltip: Traductions de bloc
     layout:
-      title: Page layout "{{ handle }}"
+      title: Disposition de page "{{ handle }}"
   page-layout:
-    title: Page layout "{{ handle }}"
-    tooltip: Page layout translations
+    title: Disposition de page "{{ handle }}"
+    tooltip: Traductions de disposition de page

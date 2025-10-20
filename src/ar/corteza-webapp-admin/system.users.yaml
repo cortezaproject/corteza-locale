@@ -1,127 +1,98 @@
 editor:
   external-auth-providers:
-    label: Label
-    title: Manage external auth providers
-    type: Type
+    label: وصف
+    type: نوع
   info:
-    confirmEmail: Confirm email address
+    confirmEmail: تأكيد عنوان البريد
     id: ID
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    email: Email *
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Full name
-    revokeAllSession: Revoke all active sessions
-    suspend: Suspend
-    suspendedAt: Suspended at
-    title: Basic information
-    undelete: Undelete
-    unsuspend: Unsuspend
-    updatedAt: Updated at
+    createdAt: تم انشائه في
+    createdBy: انشأ من قبل
+    delete: حذف
+    deletedAt: محذوف في
+    email: البريد الالكتروني *
+    handle: المعرف
+    placeholder-handle: المعرف (a - z, 0 - 9, _, -)
+    name: الأسم كامل
+    revokeAllSession: إبطال جميع الجلسات النشطة
+    suspend: موقف
+    suspendedAt: موقف
+    title: معلومات مبدئية
+    undelete: استعادة
+    unsuspend: الغاء تعليق
+    updatedAt: تم تحديثه في
   avatar:
-    title: Profile avatar
-    preview:
-      label: Avatar
-      title: Avatar
     initial:
-      color: Text color
-      backgroundColor: Background color
-    uploader:
-      instructions: Upload avatar
-      uploading: Uploading user avatar
-    colorPicker: Choose a color
+      color: لون النص
+      backgroundColor: لون الخلفية
   mfa:
     TOTP:
       disabled:
-        text: User did not configure TOTP protection
+        text: لم يقم المستخدم بتكوين حماية كلمة مرور مرتبطه بالوقت
       enabled:
-        text: User configured TOTP protection auth mobile app
+        text: قام المستخدم بتكوين مصادقة حماية كلمة مرور مرتبطه بالوقت في التطبيق
       remove:
-        label: Remove
+        label: الغاء
     emailOTP:
       disable:
-        label: Disable
-      disabled:
-        text: |-
-          Email OTP protection is disabled for this user
-          Email with the security code on each login will not be sent
+        label: تعطيل
       enable:
-        label: Enable
-      enabled:
-        text: |-
-          Email OTP protection is enabled for this user
-          User will receive email with the security code on each login
-    title: Multi-factor authentication
-  new: New User
+        label: مفعل
+    title: التحقق الثنائي
   password:
-    confirm: Confirm password
-    length: The passwords must be at least {{length}} characters long!
-    missmatch: The passwords must match
-    new: New password
-    title: Password
-    removePassword: Remove password
-  permissions: Permissions
+    confirm: تأكيد كلمة المرور
+    length: يجب ألا يقل طول كلمات المرور عن {{length}} من الأحرف!
+    missmatch: يجب أن تتطابق كلمات المرور
+    new: كلمة مرور جديدة
+    title: كلمة المرور
+    removePassword: إزالة كلمة المرور
+  permissions: الصلاحيات
   roles:
-    add: Add
-    count: roles
-    remove: Remove
-    title: Role membership
-    unnamed: Unnamed role
+    add: أضف
+    count: ادوار
+    remove: الغاء
+    title: أعضاء الدور
+    unnamed: دور بدون اسم
   title:
-    create: Create user
-    edit: Edit user
+    create: إنشاء مستخدم
+    edit: تحرير مستخدم
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    email: Email
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  suspend: Suspend
-  unsuspend: Unsuspend
-  delete: Delete
-  undelete: Undelete
-  revokeActiveSession: Revoke Session
-  export: Export
+    createdAt: تم انشائه
+    email: البريد الالكتروني
+    enabled: مفعل
+    handle: المعرف
+    name: اسم
+  suspend: موقف
+  unsuspend: الغاء تعليق
+  delete: حذف
+  undelete: استعادة
+  export: تصدير
   rows:
     filters:
-      deleted: Deleted
-      suspended: Suspended
+      deleted: محذوف
+      suspended: موقف
   filterForm:
     deleted:
-      label: deleted users
+      label: المستخدمين المحذوفين
     excluded:
-      label: Without
+      label: بدون
     exclusive:
-      label: Only
+      label: فقط
     inclusive:
-      label: Including
+      label: يشمل
     query:
-      label: Filter users list
-      placeholder: Filter users by name, email
+      label: تصفية قائمة المستخدمين
+      placeholder: تصفية المستخدمين بالاسم والبريد الإلكتروني
     suspended:
-      label: suspended users
-  loading: Loading users
-  new: New User
-  numFound: '{{count}} user found'
-  numFound_plural: '{{count}} users found'
-  permissions: Permissions
-  title: Users
+      label: المستخدمين المعلقين
+  loading: تحميل المستخدمين
+  numFound: '{{count}} مستخدم'
+  numFound_plural: '{{count}} مستخدمين'
+  permissions: الصلاحيات
+  title: مستخدمين
   yaml: YAML
 export:
-  buttonLabel: Export
-  title: Export users
-  inclRoleMembership: Include role membership
-  inclRoles: Include roles
-  membershipRequiredLabel: Roles can only be exported when role membership is selected
-  export: Export
+  buttonLabel: تصدير
+  export: تصدير
 import:
-  buttonLabel: Import
-  title: Import users
-  uploadFilePlaceholder: Click or drop files here to import
+  buttonLabel: استيراد

@@ -1,17 +1,17 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  invalidNamespaceID: invalid or missing namespace ID
-  moduleNotFound: module does not exist
-  namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create pages
-  notAllowedToDelete: not allowed to delete this page
-  notAllowedToListPages: not allowed to list pages
-  notAllowedToRead: not allowed to read this page
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list pages
-  notAllowedToUndelete: not allowed to undelete this page
-  notAllowedToUpdate: not allowed to update this page
-  notFound: page does not exist
-  staleData: stale data
+  handleNotUnique: el identificador no es único
+  invalidHandle: identificador inválido
+  invalidID: ID inválido
+  invalidNamespaceID: ID de namespace ausente o inválido
+  moduleNotFound: el módulo no existe
+  namespaceNotFound: el namespace no existe
+  notAllowedToCreate: no tiene permitido crear páginas
+  notAllowedToDelete: no tiene permitido eliminar esta página
+  notAllowedToListPages: no tiene permitido listar páginas
+  notAllowedToRead: no tiene permitido leer esta página
+  notAllowedToReadNamespace: no tiene permitido leer este namespace
+  notAllowedToSearch: no tiene permitido buscar o listar páginas
+  notAllowedToUndelete: no tiene permitido deshacer la eliminación de esta página
+  notAllowedToUpdate: no tiene permitido actualizar esta página
+  notFound: la página no existe
+  staleData: datos obsoletos

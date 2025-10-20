@@ -1,31 +1,31 @@
-title: Data Privacy Console
-connection-location: Connection Location
+title: Konzole ochrany osobních údajů
+connection-location: Umístění spojení
 description:
-  first: The Data Privacy Console enables you to access the overview of your personal data, request data deletion or data export.
-  second: These actions are subject to validation by the DC (Data Controller) of your organization
+  first: Konzole ochrany osobních údajů umožňuje přistupovat k přehledu osobních údajů, žádat o smazání nebo export údajů.
+  second: Tyto operace podléhají validaci Správce Údajů ve vaší organizaci
 user-options:
   data-overview:
-    title: Data Overview
-    description: Review your profile information and your personal data stored in Corteza applications
-    button-label: View your data
+    title: Přehled údajů
+    description: Zkontrolujte svoje profilové informace a údaje uložené v Corteza aplikacích
+    button-label: Zobrazit moje údaje
   privacy-requests:
-    title: Privacy Requests
-    description: Access, manage or export a list of all your privacy-related (deletion, export, correction) requests
-    button-label: Your privacy requests
+    title: Požadavky na ochranu soukromí
+    description: Správa a export seznamu všech vašich žádostí týkajících se ochrany soukromí (smazání, export, oprava)
+    button-label: Vaše žádosti ochrany soukromí
   export:
-    title: Data Export
-    description: Open a new data export request by selecting the data type, date range and outcome file format
-    button-label: Request data export
+    title: Export údajů
+    description: Vytvořte novou žádost o export údajů vybráním typu a rozsahu údajů a výstupního formátu
+    button-label: Žádat o export údajů
   delete:
-    title: Data Deletion
-    description: Request for your selected personal data to be deleted from the system
-    button-label: Request data deletion
+    title: Smazání údajů
+    description: Žádost o smazání vybraných osobních údajů ze systému
+    button-label: Žádat o smazání údajů
 dc-options:
   privacy-requests:
-    title: Privacy Requests
-    description: Access, manage or export a list of all privacy-related (deletion, export, correction) requests
-    button-label: Incoming privacy requests
+    title: Požadavky na ochranu soukromí
+    description: Správa a export seznamu všech žádostí týkajících se ochrany soukromí (smazání, export, oprava)
+    button-label: Příchozí žádosti ochrany osobních údajů
   sensitive-data:
-    title: Sensitive Data
-    description: Overview of all modules with sensitive data fields
-    button-label: List of sensitive data
+    title: Citlivé údaje
+    description: Přehled všech modulů s poli pro citlivé údaje
+    button-label: Seznam všech citlivých údajů

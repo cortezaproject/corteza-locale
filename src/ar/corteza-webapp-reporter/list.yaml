@@ -1,16 +1,13 @@
-permissions: Permissions
+permissions: الصلاحيات
 report:
-  builder: Report Builder
-  edit: Edit
-  list: List of Reports
-  new: New Report
-  delete: Delete
-searchPlaceholder: Search reports
-title: Reports
-tooltip:
-  permissions: Report permissions
-untitledTitle: Untitled report
+  builder: محرك التقارير
+  edit: تحرير
+  list: قائمة التقارير
+  new: تقرير جديد
+  delete: حذف
+searchPlaceholder: بحث التقارير
+title: التقارير
+untitledTitle: تقرير بدون عنوان
 columns:
-  name: Name
-  handle: Handle
-  changedAt: Last change
+  name: اسم
+  handle: المعرف

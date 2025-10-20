@@ -1,41 +1,41 @@
-dashboard: Dashboard
+dashboard: Tableau de bord
 system:
-  group: System
+  group: Système
   items:
-    users: Users
-    actionlog: Action log
-    apigw: Integration Gateway
+    users: Utilisateurs
+    actionlog: Journaux d'action
+    apigw: Passerelle d'intégration
     applications: Applications
-    authclients: Auth Clients
-    connections: Connections
-    code-snippets: Code Snippets
-    sensitivityLevel: Sensitivity Levels
+    authclients: Clients d'authentification
+    connections: Connexions
+    code-snippets: Extraits de code
+    sensitivityLevel: Niveaux de sensibilité
     permissions: Permissions
-    queues: Messaging Queues
-    roles: Roles
-    settings: Auth Settings
-    email: Email settings
-    stats: Stats
-    templates: Templates
+    queues: Files de messages
+    roles: Rôles
+    settings: Paramètres d'authentification
+    email: Paramètres de courriel
+    stats: Statistiques
+    templates: Modèles
 compose:
   group: Compose
   items:
-    automation: Automation
+    automation: Automatisme
     permissions: Permissions
-    settings: Settings
+    settings: Paramètres
 automation:
-  group: Automation
+  group: Automatisme
   items:
     permissions: Permissions
-    scripts: Corredor Scripts
+    scripts: Scripts Corredor 
     sessions: Sessions
-    workflows: Workflows
+    workflows: Processus
 federation:
-  group: Federation
+  group: Fédération
   items:
-    nodes: Nodes
+    nodes: Nœuds
     permissions: Permissions
 ui:
-  group: User interface
+  group: Interface utilisateur
   items:
-    settings: Settings
+    settings: Paramètres

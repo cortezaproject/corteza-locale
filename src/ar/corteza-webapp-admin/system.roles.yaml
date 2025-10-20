@@ -1,70 +1,65 @@
 editor:
   info:
-    archive: Archive
-    archivedAt: Archived at
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Role name *
-    title: Basic information
-    unarchive: Unarchive
-    undelete: Undelete
-    updatedAt: Updated at
-    description: Description
+    archive: مؤرشف
+    archivedAt: مؤرشف في
+    createdAt: تم انشائه في
+    createdBy: انشأ من قبل
+    delete: حذف
+    deletedAt: محذوف في
+    handle: المعرف
+    placeholder-handle: المعرف (a - z, 0 - 9, _, -)
+    name: اسم الدور *
+    title: معلومات مبدئية
+    unarchive: الغاء الأرشفة
+    undelete: استعادة
+    updatedAt: تم تحديثه في
+    description: وصف
     context:
-      label: Contextual role
-      expression-label: Expression
-      resource-types-label: Resource type
+      label: الدور السياقي
+      expression-label: وصف
+      resource-types-label: نوع المورد
   members:
-    add: Add
-    count: Members ({{count}})
-    remove: Remove
-    searchUsers: Search users
-    title: Role members
-    unnamed: Unnamed user
-  new: New Role
-  permissions: Permissions
+    add: أضف
+    count: اعضاء ({{count}})
+    remove: الغاء
+    searchUsers: بحث المستخدمين
+    title: أعضاء الدور
+    unnamed: مستخدم بدون اسم
+  permissions: الصلاحيات
   title:
-    create: Create role
-    edit: Edit role
+    create: أنشئ دور
+    edit: تحرير الدور
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  archive: Archive
-  unarchive: Unarchive
+    createdAt: تم انشائه
+    enabled: مفعل
+    handle: المعرف
+    name: اسم
+  delete: حذف
+  undelete: استعادة
+  archive: مؤرشف
+  unarchive: الغاء الأرشفة
   rows:
     filters:
-      archived: Archived
-      deleted: Deleted
+      archived: مؤرشف
+      deleted: محذوف
   filterForm:
     archived:
-      label: archived roles
+      label: الأدوار المؤرشفة
     deleted:
-      label: deleted roles
+      label: طرق محذوفة
     excluded:
-      label: Without
+      label: بدون
     exclusive:
-      label: Only
+      label: فقط
     inclusive:
-      label: Including
+      label: يشمل
     query:
-      label: Filter roles list
-      placeholder: Filter roles by name
-  loading: Loading roles
-  new: New Role
-  numFound: '{{count}} role found'
-  numFound_plural: '{{count}} roles found'
-  permissions: Permissions
-  title: Roles
+      label: قائمة الأدوار تصفية
+      placeholder: أدوار تصفية بالاسم
+  loading: تحميل الأدوار
+  numFound: '{{count}} دور'
+  numFound_plural: '{{count}} أدوار'
+  permissions: الصلاحيات
+  title: ادوار
   yaml: YAML

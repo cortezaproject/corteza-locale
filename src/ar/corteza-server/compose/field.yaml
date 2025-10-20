@@ -1,14 +1,10 @@
 system:
-  ID: Record ID
-  moduleID: Module ID
-  namespaceID: Namespace ID
-  revision: Record revision
-  meta: Meta data
-  recordID: Record ID
-  createdAt: Created at
-  createdBy: Created by
-  deletedAt: Deleted at
-  deletedBy: Deleted by
-  ownedBy: Owned by
-  updatedAt: Updated at
-  updatedBy: Updated by
+  ID: معرف التسجيل
+  recordID: معرف التسجيل
+  createdAt: تم انشائه في
+  createdBy: انشأ من قبل
+  deletedAt: محذوف في
+  deletedBy: تم الحذف بواسطة
+  ownedBy: مملوكة من قبل
+  updatedAt: تم تحديثه في
+  updatedBy: تم التحديث بواسطة

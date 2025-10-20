@@ -1,80 +1,75 @@
 editor:
   content:
     editor:
-      unsupported: Unsupported editor
-    partial: Partial template
+      unsupported: محرر غير مدعوم
+    partial: قالب جزئي
     preview:
-      html: Preview HTML
-      pdf: Preview PDF
-      title: Preview output
-    title: Template content
+      html: معاينة HTML
+      pdf: معاينة PDF
+      title: معاينة المخرجات
+    title: محتوى القالب
     toolbox:
-      partials: Partials
+      partials: جزئيات
       samples:
-        defaultHTML: Default HTML
-        label: Samples
+        defaultHTML: الافتراضي HTML
+        label: عينات
       snippets:
-        funcCall: Call a function
-        interpolate: Interpolate value
-        iterator: Iterate over a set
+        funcCall: استدعاء دالة
+        interpolate: أقحم القيمة
+        iterator: كرر على مجموعة
         label: Snippets
-      title: Toolbox
+      title: صندوق الأدوات
   info:
     contentType:
       text_html: HTML
-      text_plain: Plain text
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+      text_plain: نص عادي
+    createdAt: تم انشائه في
+    createdBy: انشأ من قبل
+    delete: حذف
+    deletedAt: محذوف في
+    handle: المعرف
+    placeholder-handle: المعرف (a - z, 0 - 9, _, -)
     meta:
-      description: Description
-      short: Short name *
-    partial: Partial template
-    partialDescription: Partial templates may be used inside other templates such as headers and footers. Partial templates may not be used on their own.
-    title: Basic information
-    type: Template type
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Template
-  permissions: Permissions
+      description: وصف
+      short: اسم قصير *
+    partial: قالب جزئي
+    partialDescription: يمكن استخدام القوالب الجزئية داخل قوالب أخرى مثل الرؤوس والتذييلات. لا يجوز استخدام القوالب الجزئية بمفردها.
+    title: معلومات مبدئية
+    type: نوع القالب
+    undelete: استعادة
+    updatedAt: تم تحديثه في
+  permissions: الصلاحيات
   title:
-    create: Create template
-    edit: Edit template
+    create: أنشئ قالب
+    edit: تحرير القالب
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    handle: Handle
-    language: Language
+    createdAt: تم انشائه
+    handle: المعرف
+    language: لغة
     meta:
-      short: Short name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  export: Export
+      short: اسم قصير
+  delete: حذف
+  undelete: استعادة
+  export: تصدير
   rows:
     filters:
-      deleted: Deleted
+      deleted: محذوف
   filterForm:
     deleted:
-      label: deleted templates
+      label: القوالب المحذوفة
     excluded:
-      label: Without
+      label: بدون
     exclusive:
-      label: Only
+      label: فقط
     handle:
-      label: Filter templates list
-      placeholder: Filter templates by handle
+      label: تصفية قوالب بالقائمة
+      placeholder: تصفية القوالب بالمعرف
     inclusive:
-      label: Including
-  loading: Loading templates
-  new: New Template
-  numFound: '{{count}} template found'
-  numFound_plural: '{{count}} templates found'
-  permissions: Permissions
-  title: Templates
+      label: يشمل
+  loading: تحميل القوالب
+  numFound: '{{count}} قالب'
+  numFound_plural: '{{count}} قوالب'
+  permissions: الصلاحيات
+  title: القوالب
   yaml: YAML

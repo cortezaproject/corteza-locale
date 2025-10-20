@@ -1,121 +1,105 @@
 break:
-  label: Break
-  short: Break
-  tooltip: Stop iterator execution and continue with workflow
+  label: Pausa
+  short: Pausa
+  tooltip: Interrompa a execução do iterador e continue com o fluxo de trabalho
 content:
-  label: Content
-  short: Content
-  tooltip: Content block used for text annotations
+  label: Contente
+  short: Contente
   configurator:
-    ok: Ok
-    urlPlaceholder: https://example.tld
+    ok: OK
+    urlPlaceholder: https://exemplo.tld
 continue:
-  label: Continue
-  short: Continue
-  tooltip: Stop current iteration and continue with the next one
+  label: Continuar
+  short: Continuar
+  tooltip: Parar a iteração atual e continuar com a próxima
 debug:
-  label: Debug
-  short: Debug
-  tooltip: Logs current workflow scope into server logs. If workflow debug is enabled
+  label: Depurar
+  short: Depurar
+  tooltip: Registra o escopo do fluxo de trabalho atual nos logs do servidor. Se a depuração do fluxo de trabalho estiver habilitada
 delay:
-  label: Delay
-  short: Delay
-  tooltip: Delays workflow execution
+  label: Atraso
+  short: Atraso
+  tooltip: Atrasa a execução do fluxo de trabalho
 error:
-  label: Error
-  short: Error
-  tooltip: Throws error and stops workflow execution, also prevents saving of records triggered with before trigger
+  label: Erro
+  short: Erro
+  tooltip: Lança erro e interrompe a execução do fluxo de trabalho, também impede o salvamento de registros acionados com antes do acionador
 error-handler:
-  label: Error Handler
-  short: Error Handler
-  tooltip: Continue workflow from this step if an error is triggered
+  label: Manipulador de erros
+  short: Manipulador de erros
+  tooltip: Continue o fluxo de trabalho desta etapa se um erro for acionado
 expressions:
   configurator:
-    add-expression: + Add Expression
-    expression: Expression
-    expression-placeholder: Expression...
-    target: Target
-  label: Expressions
-  short: Expressions
-  tooltip: Define and mutate scope variables
+    add-expression: + Adicionar expressão
+    expression: Expressão
+    expression-placeholder: Expressão...
+    target: Alvo
+  label: Expressões
+  short: Expressões
+  tooltip: Definir e alterar variáveis ​​de escopo
 function:
   configurator:
-    arguments: Arguments
-    constant: Constant
-    expression: Expression
-    name: Name
-    option-select: Select an option
-    result: Result
-    results: Results
-    target: Target
-    add-result: + Add result
-    search-workflow: Search for a workflow
-    select-function: Select function
-    type: Type
-    type*: Type*
-  label: Function
-  short: Function
-  tooltip: Execute the chosen predefined function
+    arguments: Argumentos
+    constant: Constante
+    expression: Expressão
+    name: Nome
+    option-select: Selecione uma opção
+    result: Resultado
+    results: Resultados
+    target: Alvo
+    select-function: Selecionar função
+    type: Tipo
+    type*: Tipo*
+  label: Função
+  short: Função
+  tooltip: Execute a função predefinida escolhida
 exec-workflow:
-  label: Execute Workflow
-  short: Workflow
-  tooltip: Execute a workflow and map variables from its scope to the current one
+  short: Fluxo de trabalho
 gatewayExclusive:
-  label: Gateway (Exclusive)
-  short: Gateway
-  tooltip: Workflow execution can continue on first path that fits condition
+  label: Portão (Exclusivo)
+  tooltip: A execução do fluxo de trabalho pode continuar no primeiro caminho que se encaixa na condição
 gatewayInclusive:
-  label: Gateway (Inclusive)
-  short: Gateway
-  tooltip: Workflow execution can continue on all paths that fit condition
+  label: Portão (Incluso)
+  tooltip: A execução do fluxo de trabalho pode continuar em todos os caminhos que se ajustem à condição
 gatewayParallel:
   label: Gateway (Fork/Join)
-  short: Gateway
-  tooltip: Splits workflow execution into two parallel paths or merges multiple paths into one
+  tooltip: Divide a execução do fluxo de trabalho em dois caminhos paralelos ou mescla vários caminhos em um
 gateway:
   configurator:
-    condition: Condition
-    two-paths: Gateway must be source of at least two paths
+    condition: Doença
+    two-paths: O gateway deve ser a origem de pelo menos dois caminhos
 iterator:
-  label: Iterator
-  short: Iterator
-  tooltip: Iterate over items
+  label: Iterador
+  short: Iterador
+  tooltip: Iterar sobre os itens
 prompt:
-  label: Prompt
-  short: Prompt
-  tooltip: Prompts user and waits for input
+  label: Pronto
+  short: Pronto
+  tooltip: Solicita o usuário e aguarda a entrada
 swimlane:
-  label: Swimlane
-  short: Swimlane
-  tooltip: Visually group steps
+  label: Pista
+  short: Pista
+  tooltip: Etapas de grupo visualmente
 termination:
-  label: Termination (End)
-  short: Termination
-  tooltip: Terminate workflow execution
+  label: Rescisão (Fim)
+  tooltip: Encerrar a execução do fluxo de trabalho
 trigger:
   configurator:
-    add: + Add
-    add-constraints: + Add Constraints
-    constraints: Constraints
-    event*: Event*
-    failed-fetch-event-types: Failed to fetch event types
-    initial-scope: Initial Scope
-    equal: Equal
-    not-equal: Not equal
-    like: Like
-    not-like: Not like
-    operator: Operator
-    resource: Resource
-    resource*: Resource*
-    select-constraint-type: Select constraint type
-    select-operator: Select operator
-    select-event-type: Select event type
-    select-resource-type: Select resource type
-  label: Trigger (Start)
-  short: Trigger
-  tooltip: Trigger the workflow execution based on configuration
-tooltip:
-  configure-step: Configure step
-path:
-  label: Path
-  short: Path
+    add: acrescentar
+    add-constraints: + Adicionar restrições
+    constraints: Restrições
+    event*: Evento*
+    failed-fetch-event-types: Falha ao buscar tipos de eventos
+    initial-scope: Escopo inicial
+    equal: Igual
+    not-equal: Não igual
+    like: Como
+    not-like: Não parece
+    operator: Operador
+    resource: Recurso
+    resource*: Recurso*
+    select-constraint-type: Selecione o tipo de restrição
+    select-event-type: Selecione o tipo de evento
+    select-resource-type: Selecione o tipo de recurso
+  label: Acionador (Iniciar)
+  tooltip: Acionar a execução do fluxo de trabalho com base na configuração

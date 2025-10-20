@@ -1,28 +1,28 @@
 message:
-  noPages: It seems this namespace has no visible pages yet
-  notifyAdministrator: Notify your system administrator
-  startBuilding: Follow these steps to start building
+  noPages: Ce namespace n'a pas de pages visibles pour le moment
+  notifyAdministrator: Notifiez votre administrateur système
+  startBuilding: Suivez ces étapes pour commencer à construire
 label:
-  pageBuilder: Page builder
-  welcome: Welcome!
+  pageBuilder: Constructeur de page
+  welcome: Bienvenu !
 navigation:
-  noPageTitle: No page title
+  noPageTitle: Pas de titre de page
 notification:
   module:
-    createFailed: Could not create a module
-    saveFailed: Could not save this module
+    createFailed: Impossible de créer le module
+    saveFailed: Impossible d'enregistrer ce module
 step:
   chart:
-    create: Make Chart
-    view: Your Charts
+    create: Créer un graphique
+    view: Vos graphiques
   module:
-    create: Create Module
-    view: Your Modules
-  optional: This step is optional!
+    create: Créer un module
+    view: Vos modules
+  optional: Cette étape est optionnelle !
   page:
-    create: Build Page
-    view: Your Pages
+    create: Construire une page
+    view: Vos pages
 tooltip:
   page-configuration:
-    edit: Edit page
-    list: Page translations
+    edit: Éditer page
+    list: Traductions de page

@@ -1,25 +1,22 @@
 template:
-  title: Configure two-factor authentication with TOTP
+  title: Konfigurovat dvoufaktorové přihlášení s TOTP
   enforced: |
-    TOTP multi factor authentication is enforced by Corteza administrator.
-    Please configure it right away.
+    Vícefaktorové přihlášení s TOTP je vynuceno Corteza administrátorem.
+    Nakonfigurujte si ho ihned.
   instructions: |
-    Corteza uses time based one time passwords (TOTP) as one of the underlying technologies for two-factor authentication. Use one of the applications listed below and type in the secret or scan the QR code.
+    Corteza používá časově omezené jednorázové kódy (TOTP) jako jednu z technologií pro dvoufaktorové přihlášení. Použijte jednu z aplikací vyjmenovaných níže a opište v ní tajný kód nebo naskenujte QR kód.
     <br />
     <br />
-    This will enable additional security for your account.
+    Tímto se zvýší zabezpečení vašeho účtu.
     <br />
     <br />
-    You can use one of the following applications:
-  lastpass: <a target="_blank" href="{{ link }}">LastPass Authenticator</a>
-  gauth: Google Authenticator for <a target="_blank" href="{{ android }}">Android</a> or <a target="_blank" href="{{ iphone }}">iPhone</a>
-  authy: <a target="_blank" href="{{ link }}">Authy</a>
+    Můžete použít jednu z těchto aplikací:
   form:
-    title: "Complete the configuration by entering code from the authenticator application:"
-    button: Submit
+    title: "Konfiguraci dokončíte zadáním kódu z aplikace:"
+    button: Potvrdit
 alerts:
-  text-MFA-enabled: Two factor authentication with TOTP enabled
-  text-MFA-disabled: Two factor authentication with TOTP disabled
+  text-MFA-enabled: Dvoufaktorové přihlášení s TOTP je aktivní
+  text-MFA-disabled: Dvoufaktorové přihlášení s TOTP není aktivní
 errors:
-  invalid-code-format: "Invalid code format"
-  invalid-code: "Invalid code"
+  invalid-code-format: "Nesprávný formát kódu"
+  invalid-code: "Nesprávný kód"

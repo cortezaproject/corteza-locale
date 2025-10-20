@@ -1,20 +1,20 @@
 errors:
-  emailNotUnique: email not unique
-  handleNotUnique: handle not unique
-  invalidEmail: invalid email
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create users
-  notAllowedToCreateSystem: not allowed to create system users
-  notAllowedToDelete: not allowed to delete this user
-  notAllowedToListUsers: not allowed to list users
-  notAllowedToRead: not allowed to read this user
-  notAllowedToSearch: not allowed to list or search users
-  notAllowedToSuspend: not allowed to suspend this user
-  notAllowedToUndelete: not allowed to undelete this user
-  notAllowedToUnsuspend: not allowed to unsuspend this user
-  notAllowedToUpdate: not allowed to update this user
-  notAllowedToUpdateSystem: not allowed to update system users
-  notFound: user not found
-  passwordNotSecure: provided password is not secure; use longer password with more special characters
-  usernameNotUnique: username not unique
+  emailNotUnique: e-mail não exclusivo
+  handleNotUnique: identificador não é único
+  invalidEmail: e-mail inválido
+  invalidHandle: identificador inválido
+  invalidID: ID inválida
+  notAllowedToCreate: não tem permissão para criar usuários
+  notAllowedToCreateSystem: não tem permissão para criar usuários do sistema
+  notAllowedToDelete: não tem permissão para excluir este usuário
+  notAllowedToListUsers: não tem permissão para listar usuários
+  notAllowedToRead: não tem permissão para ler este usuário
+  notAllowedToSearch: não tem permissão para listar ou pesquisar usuários
+  notAllowedToSuspend: não tem permissão para suspender este usuário
+  notAllowedToUndelete: não tem permissão para recuperar este usuário
+  notAllowedToUnsuspend: não é permitido cancelar a suspensão deste usuário
+  notAllowedToUpdate: não tem permissão para atualizar este usuário
+  notAllowedToUpdateSystem: não tem permissão para atualizar usuários do sistema
+  notFound: usuário não encontrado
+  passwordNotSecure: a senha fornecida não é segura; use senha mais longa com mais caracteres especiais
+  usernameNotUnique: nome de usuário não exclusivo

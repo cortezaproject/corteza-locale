@@ -1,47 +1,16 @@
 list:
   columns:
-    action: Action
-    actor: User
+    actor: Utilisateur
     description: Description
-    requestOrigin: Origin
-    resource: Resource
-    severity: Severity
-    timestamp: Timestamp
-  loading: Loading actions
   details:
-    id: ID
-    header: Details
-    timestamp: Timestamp
-    requestOrigin: Request Origin
-    requestID: Request ID
-    actorIPAddr: Actor/User
-    actor: User
-    actorID: User ID
-    severity: Severity
-    resource: Resource
-    action: Action
-    headerAdditional: Additional information
+    actor: Utilisateur
     description: Description
-    error: Error
-    meta: Meta
+    error: Erreur
   severity:
-    emergency: Emergency
-    alert: Alert
-    critical: Critical
-    error: Error
-    warning: Warning
-    notice: Notice
+    error: Erreur
+    warning: Avertissement
+    notice: Information
     info: Info
-    debug: Debug
   filter:
-    action: Action
-    actor: User ID
-    choose-date: Choose a date
-    from: Starting from
-    no-time: No time selected
-    resource: Resource
-    search: Search
-    to: Ending at
-    today: Today
-  loadOlder: Load older actions
-  title: Action log
+    search: Rechercher
+    today: Aujourd'hui

@@ -1,127 +1,98 @@
 editor:
   external-auth-providers:
-    label: Label
-    title: Manage external auth providers
-    type: Type
+    label: Rótulo
+    type: Tipo
   info:
-    confirmEmail: Confirm email address
-    id: ID
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    email: Email *
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Full name
-    revokeAllSession: Revoke all active sessions
-    suspend: Suspend
-    suspendedAt: Suspended at
-    title: Basic information
-    undelete: Undelete
-    unsuspend: Unsuspend
-    updatedAt: Updated at
+    confirmEmail: Confirme o endereço de e-mail
+    id: IDENTIFICAÇÃO
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    email: E-mail *
+    handle: Identificador
+    placeholder-handle: identificador (a - z, 0 - 9, sublinhado, hífen)
+    name: Nome completo
+    revokeAllSession: Revogar todas as sessões ativas
+    suspend: Suspender
+    suspendedAt: Suspenso em
+    title: Informação básica
+    undelete: Recuperar
+    unsuspend: Cancelar suspensão
+    updatedAt: Atualizado em
   avatar:
-    title: Profile avatar
-    preview:
-      label: Avatar
-      title: Avatar
     initial:
-      color: Text color
-      backgroundColor: Background color
-    uploader:
-      instructions: Upload avatar
-      uploading: Uploading user avatar
-    colorPicker: Choose a color
+      color: Cor do texto
+      backgroundColor: Cor de fundo
   mfa:
     TOTP:
       disabled:
-        text: User did not configure TOTP protection
+        text: O usuário não configurou a proteção TOTP
       enabled:
-        text: User configured TOTP protection auth mobile app
+        text: Usuário configurou a proteção TOTP em aplicativo autenticador móvel
       remove:
-        label: Remove
+        label: Remover
     emailOTP:
       disable:
-        label: Disable
-      disabled:
-        text: |-
-          Email OTP protection is disabled for this user
-          Email with the security code on each login will not be sent
+        label: Desabilitar
       enable:
-        label: Enable
-      enabled:
-        text: |-
-          Email OTP protection is enabled for this user
-          User will receive email with the security code on each login
-    title: Multi-factor authentication
-  new: New User
+        label: Habilitar
+    title: Autenticação multifator
   password:
-    confirm: Confirm password
-    length: The passwords must be at least {{length}} characters long!
-    missmatch: The passwords must match
-    new: New password
-    title: Password
-    removePassword: Remove password
-  permissions: Permissions
+    confirm: Confirme a Senha
+    length: As senhas devem ter pelo menos {{length}} caracteres!
+    missmatch: As senhas devem corresponder
+    new: Nova Senha
+    title: Senha
+    removePassword: Remover senha
+  permissions: Permissões
   roles:
-    add: Add
-    count: roles
-    remove: Remove
-    title: Role membership
-    unnamed: Unnamed role
+    add: Adicionar
+    count: papéis
+    remove: Remover
+    title: Associação da função
+    unnamed: Função sem nome
   title:
-    create: Create user
-    edit: Edit user
+    create: Criar usuário
+    edit: Editar usuário
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    email: Email
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  suspend: Suspend
-  unsuspend: Unsuspend
-  delete: Delete
-  undelete: Undelete
-  revokeActiveSession: Revoke Session
-  export: Export
+    createdAt: Criado
+    email: E-mail
+    enabled: Habilitado
+    handle: Identificador
+    name: Nome
+  suspend: Suspender
+  unsuspend: Cancelar suspensão
+  delete: Excluir
+  undelete: Recuperar
+  export: Exportar
   rows:
     filters:
-      deleted: Deleted
-      suspended: Suspended
+      deleted: Excluído
+      suspended: Suspenso
   filterForm:
     deleted:
-      label: deleted users
+      label: usuários excluídos
     excluded:
-      label: Without
+      label: Sem
     exclusive:
-      label: Only
+      label: Apenas
     inclusive:
-      label: Including
+      label: Incluindo
     query:
-      label: Filter users list
-      placeholder: Filter users by name, email
+      label: Filtrar lista de usuários
+      placeholder: Filtrar usuários por nome, e-mail
     suspended:
-      label: suspended users
-  loading: Loading users
-  new: New User
-  numFound: '{{count}} user found'
-  numFound_plural: '{{count}} users found'
-  permissions: Permissions
-  title: Users
+      label: usuários suspensos
+  loading: Carregando usuários
+  numFound: '{{count}} usuário encontrado'
+  numFound_plural: '{{count}} usuários encontrados'
+  permissions: Permissões
+  title: Comercial
   yaml: YAML
 export:
-  buttonLabel: Export
-  title: Export users
-  inclRoleMembership: Include role membership
-  inclRoles: Include roles
-  membershipRequiredLabel: Roles can only be exported when role membership is selected
-  export: Export
+  buttonLabel: Exportar
+  export: Exportar
 import:
-  buttonLabel: Import
-  title: Import users
-  uploadFilePlaceholder: Click or drop files here to import
+  buttonLabel: Importar

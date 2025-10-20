@@ -1,23 +1,17 @@
 template:
-  title: Security
+  title: Seguridad
   password:
-    title: Password
-    change-link: Change your password
+    title: Contraseña
+    change-link: Cambia tu contraseña
   mfa:
-    title: Multi-factor authentication
+    title: Autenticación multi-factor
     totp:
-      title: Additional security with mobile app (time-based one-time-password)
-      enforced: Configured and required on login
-      configure: Configure
-      enable: Enable
-      disable: Disable
-      enabled: Time-based one-time-password enabled
-      disabled: Time-based one-time-password disabled
+      title: Seguridad adicional con app móvil (contraseña de un solo uso basada en el tiempo/TOTP)
+      enforced: Configurada y requerida al iniciar sesión
+      configure: Configurar
+      disable: Deshabilitar
     email:
-      title: Additional security with one-time-password over email
-      enforced: Enabled and required on login
-      enable: Enable
-      disable: Disable
-      enabled: Two factor authentication with over email enabled
-      disabled: Two factor authentication with over email disabled
-    all-disabled: All MFA methods are currently disabled. Ask your administrator to enable them.
+      title: Seguridad adicional con contraseña de un solo uso por correo electrónico
+      enforced: Habilitada y requerida al iniciar sesión
+      disable: Deshabilitar
+    all-disabled: Todos los métodos de autenticación multi-factor están deshabilitados. Pregunta a tu administrador para habilitarlos.

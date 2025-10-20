@@ -1,9 +1,8 @@
 errors:
-  failedToExtractMimeType: could not extract mime type
-  failedToProcessImage: could not process image
-  failedToStoreFile: could not extract store file
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create attachments
-  notAllowedToCreateEmptyAttachment: not allowed to create empty attachments
-  notAllowedToListAttachments: not allowed to list attachments
-  notFound: attachment not found
+  failedToExtractMimeType: n'a pas pu extraire le type mime
+  failedToProcessImage: n'a pas pu traiter l'image
+  failedToStoreFile: n'a pas pu extraire le fichier
+  invalidID: ID invalide
+  notAllowedToCreate: non autorisé à créer des pièces jointes
+  notAllowedToCreateEmptyAttachment: non autorisé à créer des pièces jointes vides
+  notAllowedToListAttachments: non autorisé à lister des pièces jointes

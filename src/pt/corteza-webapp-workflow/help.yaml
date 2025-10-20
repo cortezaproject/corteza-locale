@@ -1,37 +1,36 @@
 'basic-controls':
   action:
-    deselect: Deselect
-    pan: Pan
-    select: Select
-    'select-multiple': Select multiple
-    'zoom-in/out': Zoom in/out
+    deselect: Desmarcar
+    pan: Frigideira
+    select: Selecionar
+    'select-multiple': Selecione vários
+    'zoom-in/out': Ampliar/reduzir
   shortcut:
     'left-click':
-      background: Left click on background
-      drag: Left click & drag
-      label: Left click
-    'mouse-wheel': Mouse wheel
-    'right-click-drag': Right click & drag
-'basic-controls-label': Basic controls
+      background: Clique com o botão esquerdo no fundo
+      drag: Clique com o botão esquerdo e arraste
+      label: Clique esquerdo
+    'mouse-wheel': Roda do mouse
+    'right-click-drag': Clique com o botão direito e arraste
+'basic-controls-label': Controles básicos
 'keyboard-shortcuts':
   action:
-    'add-selection': Add to selection
-    copy: Copy
-    cut: Cut
-    'delete-selected-elements': Delete selected elements
-    nudge: Nudge
-    paste: Paste
-    redo: Redo
-    save: Save
-    'hide-guides': Hide guides
-    'show-help': Show help
-    'reset-view-to-start-point': Reset view to starting point
-    'select-all': Select all
-    undo: Undo
+    'add-selection': Adicionar à seleção
+    copy: cópia de
+    cut: Cortar
+    'delete-selected-elements': Excluir elementos selecionados
+    nudge: Empurrar
+    paste: Colar
+    redo: Refazer
+    save: Salvar
+    'show-help': Mostre ajuda
+    'reset-view-to-start-point': Redefinir a visualização para o ponto de partida
+    'select-all': Selecionar tudo
+    undo: Desfazer
   shortcut:
-    'adjust-distance': to adjust distance
-    'arrow-keys': Arrow keys - Use
-    hold: Hold
-    'left-mouse-button': left mouse button
-'keyboard-shortcuts-label': Keyboard shortcuts
-'mac-users': If using a MAC keyboard, replace Ctrl with the CMD key
+    'adjust-distance': para ajustar a distância
+    'arrow-keys': Teclas de seta - Usar
+    hold: Espera
+    'left-mouse-button': botão esquerdo do mouse
+'keyboard-shortcuts-label': Atalhos do teclado
+'mac-users': Se estiver usando um teclado MAC, substitua Ctrl pela tecla CMD

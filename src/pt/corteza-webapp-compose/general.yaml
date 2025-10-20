@@ -2,216 +2,156 @@ label:
   app-name:
     namespace:
       list: Namespaces
-      create: Create Namespace
-      edit: 'Edit Namespace - {{label}}'
       view: Namespace
     module:
-      list: 'Modules - {{label}}'
-      create: Create Module
-      edit: 'Edit Module - {{label}}'
-    page:
-      list: 'Pages - {{label}}'
-      builder: 'PageBuilder - {{label}}'
-      edit: 'Edit Page - {{label}}'
-      record: 'Record - {{label}}'
-    chart:
-      list: 'Charts - {{label}}'
-      edit: 'Edit Chart - {{label}}'
-      create: Create Chart
-  actions: Actions
-  active: Active
-  add: Add
-  add-with-plus: + Add
-  addNew: Add new
-  addValue: Add new value
-  ascending: Ascending
-  attachmentFileInfo: '(File size: {{0}}, uploaded {{1}})'
-  attributes: Attributes
-  back: Back
-  backWithoutSave: Back (without saving changes)
-  block: Block
-  browse: Browse
-  buttons: Buttons
-  cancel: Cancel
-  clear: Clear
-  clone: Clone
-  close: Close
-  create: Create
-  delete: Delete
-  default: Default
-  restore: Restore
-  descending: Descending
-  description: Description
+      create: Criar módulo
+  actions: Ações
+  active: Ativo
+  add: Adicionar
+  add-with-plus: + Adicionar
+  addNew: Adicionar novo
+  addValue: Adicionar novo valor
+  ascending: Crescente
+  attachmentFileInfo: '(Tamanho do arquivo {{0}}, enviado {{1}})'
+  attributes: Atributos
+  back: Voltar
+  backWithoutSave: Voltar (sem salvar as alterações)
+  browse: Navegar
+  buttons: Botões
+  cancel: Cancelar
+  clone: Clonar
+  close: Fechar
+  create: Crio
+  delete: Excluir
+  default: Predefinição
+  descending: Decrescente
+  description: Descrição
   download: Download
-  dropFiles: Click or drop files here to upload
-  edit: Edit
-  enabled: Enabled
-  export: Export
-  fileTypeNotAllowed: File type not allowed
-  general: General
-  handle: Handle
-  here: here
-  home: Home
-  import: Import
-  all: All
-  importPlaceholder: Upload files to import
-  loading: Loading
-  makeDefault: Make default
-  moduleName: Module name
-  multi: Multi
-  name: Name
-  next: Next
+  dropFiles: Clique ou solte os arquivos aqui para fazer upload
+  edit: Editar
+  enabled: Habilitado
+  export: Exportar
+  fileTypeNotAllowed: Tipo de arquivo não permitido
+  general: Em geral
+  handle: Identificador
+  here: aqui
+  import: Importar
+  all: Todo
+  importPlaceholder: Carregar arquivos para importar
+  loading: Carregando
+  makeDefault: Tornar padrão
+  moduleName: Nome do módulo
+  name: Nome
+  next: Próximo
   no: No
-  noHandle: No handle
-  none: None
-  now: Now
-  ok: Ok
-  page: Page
-  pageLayout: Page layout
-  pageBuilder: Page builder
-  permissions: Permissions
-  private: Private
-  privacy: Privacy
-  processing: Processing...
-  record: Record
-  recordPage: Record page
-  field: Field
-  remove: Remove
-  removeDefault: Remove default
-  required: Required
-  reset: Reset
-  sensitive: Sensitive
-  save: Save
-  saveAndClose: Save and close
-  saveAsCopy: Save as copy
+  noHandle: Sem alça
+  none: Nenhum
+  ok: OK
+  pageBuilder: Criador de páginas
+  permissions: Permissões
+  private: Privado
+  processing: Em processamento...
+  record: Registro
+  recordPage: Página de registro
+  field: Campo
+  remove: Remover
+  removeDefault: Remover padrão
+  required: Requeridos
+  reset: Redefinir
+  save: Salvar
+  saveAndClose: Salvar e fechar
   status: Status
   timeHour: '{{t}}h'
   timeMinute: '{{t}}min'
-  today: Today
-  title: Title
-  type: Type
-  updatedAt: Updated at
-  uploadError: 'Issue with file upload: "{{message}}"'
-  uploading: Uploading
-  unsavedChanges: Unsaved Changes
-  urlPlaceholder: https://example.tld
-  validation: Validation
-  view: View
+  today: Hoje
+  title: Título
+  type: Tipo
+  updatedAt: Atualizado em
+  uploadError: 'Problema com upload de arquivo "{{message}}"'
+  uploading: Enviando
+  urlPlaceholder: https://exemplo.tld
+  validation: Validação
+  view: Visualizar
   yes: Yes
   chart:
-    single: Chart
-    plural: Charts
+    single: Gráfico
+    plural: Gráficos
   namespace:
     single: Namespace
     plural: Namespaces
   module:
-    single: Module
-    plural: Modules
+    single: Módulo
+    plural: Módulos
 navigation:
-  chart: Charts
+  chart: Gráficos
   namespace: Namespaces
-  module: Modules
-  page: Pages
-  pageLayout: Page Layouts
+  module: Módulos
+  page: Páginas
 placeholder:
-  handle: handle (a - z, 0 - 9, underscore, dash)
-  sample: Sample
+  handle: identificador (a - z, 0 - 9, sublinha, hífen)
+  sample: Amostra
 reminder:
-  add: Add a reminder
-  dismiss: Dismiss
-  dismissed: Dismissed
-  dismissedAt: Dismissed at
-  undismiss: Undismiss
-  delete: Delete reminder
-  recordPageLink: View record
+  dismiss: Dispensar
   edit:
-    label: Edit reminder
-    assigneeLabel: Assignee
-    assigneePlaceholder: Myself (default)
-    notesLabel: Notes
-    notesPlaceholder: Notes
-    remindAtLabel: Remind me at
-    remindAtNone: Never
-    titleLabel: Title
-    titlePlaceholder: Title
-  listLabel: Reminders
-  routesTo: Label for page link
+    assigneeLabel: Cessionário
+    assigneePlaceholder: Eu mesmo (padrão)
+    notesLabel: Notas
+    notesPlaceholder: Notas
+    remindAtNone: Nunca
+    titleLabel: Título
+    titlePlaceholder: Título
+  listLabel: Lembretes
   snooze:
-    label: Snooze
-    count: Snooze count {{count}}
+    label: Soneca
 tooltip:
-  dragAndDrop: Drag and drop to change order
+  dragAndDrop: Arraste e solte para alterar a ordem
 fieldKinds:
   Bool:
-    label: Checkbox (Y/N)
+    label: Caixa de seleção (S/N)
   DateTime:
-    label: Date and time
+    label: Data e hora
   Email:
-    label: Email input
+    label: Entrada de e-mail
   File:
-    label: File upload
+    label: Upload de arquivo
   Number:
-    label: Number input
+    label: Entrada de número
   Record:
-    label: Record selector
+    label: Seletor de registro
   Select:
-    label: Select / dropdown
+    label: Selecione / menu suspenso
   String:
-    label: Text input (string)
+    label: Entrada de texto (string)
   Url:
-    label: URL input
+    label: entrada de URL
   User:
-    label: User selector
-  Geometry:
-    label: Location
+    label: Seletor de usuário
 field:
-  selectAll: Select all
+  selectAll: Selecionar tudo
   tooltip:
-    permissions: Field permissions
-  unselectAll: Unselect all
+    permissions: Permissões de campo
+  unselectAll: Desmarque todos
   kind:
     user:
-      suggestionPlaceholder: Start typing to search for users by email or name
+      suggestionPlaceholder: Comece a digitar para pesquisar usuários por e-mail ou nome
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: Não encontrado
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
-recordNavigation:
-  next: Next record
-  prev: Previous record
+    next: Próximo
+    prev: Anterior
 variants:
-  primary: Primary
-  secondary: Secondary
-  light: Light
-  dark: Dark
-  info: Info
-  success: Success
-  danger: Danger
-  warning: Warning
-editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
+  primary: Primário
+  secondary: Secundário
+  light: Luz
+  dark: Escuro
+  info: Informações
+  success: Sucesso
+  danger: Perigo
+  warning: Aviso
 webcam:
-  title: Webcam
-  tooltip: Open webcam to capture photo
   buttons:
-    cancel: Cancel
-    capture: Capture photo
-    confirm: Upload photo
-  errors:
-    camera: Unable to access the camera. Please make sure you have granted camera permissions.
-record:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to close the record?
+    cancel: Cancelar
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: Luz
+    dark: Escuro

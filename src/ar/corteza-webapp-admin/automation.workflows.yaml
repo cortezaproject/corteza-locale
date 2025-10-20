@@ -1,60 +1,57 @@
 editor:
   info:
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    enabled: Enabled
-    handle: Handle
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+    createdAt: تم انشائه في
+    createdBy: انشأ من قبل
+    delete: حذف
+    deletedAt: محذوف في
+    enabled: مفعل
+    handle: المعرف
     id: ID
-    name: Name *
-    openBuilder: Open builder
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Workflow
-  permissions: Permissions
+    name: اسم *
+    openBuilder: فتح المحرك
+    title: معلومات مبدئية
+    undelete: استعادة
+    updatedAt: تم تحديثه في
+  new: تشغيل سير العمل
+  permissions: الصلاحيات
   title:
-    create: Create workflow
-    edit: Edit workflow
+    create: انشاء سير عمل
+    edit: تحرير سير عمل
   triggers:
-    and: and
+    and: و
     columns:
-      constraints: Constraints
-      eventType: Event
-      resourceType: Resource
-    title: Triggers
+      constraints: قيود
+      eventType: حدث
+      resourceType: الموارد
+    title: مشغل
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  export: Export
+    createdAt: تم انشائه
+    enabled: مفعل
+    handle: المعرف
+    name: اسم
+  delete: حذف
+  undelete: استعادة
+  export: تصدير
   rows:
     filters:
-      deleted: Deleted
+      deleted: محذوف
   filterForm:
     deleted:
-      label: deleted workflows
+      label: سير عمل محذوف
     excluded:
-      label: Without
+      label: بدون
     exclusive:
-      label: Only
+      label: فقط
     inclusive:
-      label: Including
+      label: يشمل
     query:
-      label: Filter workflows list
-      placeholder: Filter workflows by name
-  loading: Loading workflows
-  new: New Workflow
-  numFound: '{{count}} workflow found'
-  numFound_plural: '{{count}} workflows found'
-  permissions: Permissions
-  title: Workflows
+      label: تصفية قائمة سير العمل
+      placeholder: تصفية قائمة سير العمل بالاسم
+  loading: تحميل سير العمل
+  new: تشغيل سير العمل
+  numFound: '{{count}} سير عمل'
+  numFound_plural: '{{count}} سيور عمل'
+  permissions: الصلاحيات
+  title: سيور عمل
   yaml: YAML

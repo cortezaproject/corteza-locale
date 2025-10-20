@@ -1,127 +1,98 @@
 editor:
   external-auth-providers:
-    label: Label
-    title: Manage external auth providers
-    type: Type
+    label: Лейбл
+    type: Тип
   info:
-    confirmEmail: Confirm email address
+    confirmEmail: Подтвердите адрес электронной почты
     id: ID
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
+    createdAt: Создан
+    createdBy: Создан
+    delete: Удалить
+    deletedAt: Удалить
     email: Email *
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Full name
-    revokeAllSession: Revoke all active sessions
-    suspend: Suspend
-    suspendedAt: Suspended at
-    title: Basic information
-    undelete: Undelete
-    unsuspend: Unsuspend
-    updatedAt: Updated at
+    handle: Управлять
+    placeholder-handle: Может включать в себя (а - z, 0 - 9, подчеркивание, тире)
+    name: Имя
+    revokeAllSession: Отменить все активные сессии
+    suspend: Приостановить
+    suspendedAt: Приостановить
+    title: Базовая информация
+    undelete: Восстановить
+    unsuspend: Возобновить 
+    updatedAt: Возобновлять
   avatar:
-    title: Profile avatar
-    preview:
-      label: Avatar
-      title: Avatar
     initial:
-      color: Text color
-      backgroundColor: Background color
-    uploader:
-      instructions: Upload avatar
-      uploading: Uploading user avatar
-    colorPicker: Choose a color
+      color: Цвет текста
+      backgroundColor: Цвет заднего фона
   mfa:
     TOTP:
       disabled:
-        text: User did not configure TOTP protection
+        text: Пользователь не настроил защиту TOTP
       enabled:
-        text: User configured TOTP protection auth mobile app
+        text: Пользовательская защита TOTP  мобильного приложения
       remove:
-        label: Remove
+        label: Удалить
     emailOTP:
       disable:
-        label: Disable
-      disabled:
-        text: |-
-          Email OTP protection is disabled for this user
-          Email with the security code on each login will not be sent
+        label: Отключен
       enable:
-        label: Enable
-      enabled:
-        text: |-
-          Email OTP protection is enabled for this user
-          User will receive email with the security code on each login
-    title: Multi-factor authentication
-  new: New User
+        label: Включено
+    title: Многофакторная аутентификация
   password:
-    confirm: Confirm password
-    length: The passwords must be at least {{length}} characters long!
-    missmatch: The passwords must match
-    new: New password
-    title: Password
-    removePassword: Remove password
-  permissions: Permissions
+    confirm: Подтверждение пароля
+    length: Пароли должны иметь длину не менее {{length}} символов!
+    missmatch: Пароли должны соответствовать
+    new: Новый пароль
+    title: Пароль
+    removePassword: Удалить пароль
+  permissions: Разрешения
   roles:
-    add: Add
-    count: roles
-    remove: Remove
-    title: Role membership
-    unnamed: Unnamed role
+    add: Добавить
+    count: роль
+    remove: Удалить
+    title: Участники роли
+    unnamed: Неизвестная роль
   title:
-    create: Create user
-    edit: Edit user
+    create: Создать пользователя
+    edit: Редактировать пользователя
 list:
   columns:
-    actions: ""
-    createdAt: Created
+    createdAt: Создать
     email: Email
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  suspend: Suspend
-  unsuspend: Unsuspend
-  delete: Delete
-  undelete: Undelete
-  revokeActiveSession: Revoke Session
-  export: Export
+    enabled: Включено
+    handle: Указатель
+    name: Имя
+  suspend: Приостановить
+  unsuspend: Возобновить 
+  delete: Удалить
+  undelete: Восстановить
+  export: Экспорт
   rows:
     filters:
-      deleted: Deleted
-      suspended: Suspended
+      deleted: Удалить
+      suspended: Приостановить
   filterForm:
     deleted:
-      label: deleted users
+      label: удалить пользователя
     excluded:
       label: Without
     exclusive:
-      label: Only
+      label: Единственный
     inclusive:
-      label: Including
+      label: Включая
     query:
-      label: Filter users list
-      placeholder: Filter users by name, email
+      label: Список пользователей фильтров
+      placeholder: Фильтровать пользователей по имени электронной почты
     suspended:
-      label: suspended users
-  loading: Loading users
-  new: New User
-  numFound: '{{count}} user found'
-  numFound_plural: '{{count}} users found'
-  permissions: Permissions
-  title: Users
+      label: Пользователь приостановлен
+  loading: Загрузить пользователей
+  numFound: '{{count}} пользователь найден'
+  numFound_plural: '{{count}} пользователь найден'
+  permissions: Разрешения
+  title: Пользователи
   yaml: YAML
 export:
-  buttonLabel: Export
-  title: Export users
-  inclRoleMembership: Include role membership
-  inclRoles: Include roles
-  membershipRequiredLabel: Roles can only be exported when role membership is selected
-  export: Export
+  buttonLabel: Экспорт
+  export: Экспорт
 import:
-  buttonLabel: Import
-  title: Import users
-  uploadFilePlaceholder: Click or drop files here to import
+  buttonLabel: Импорт

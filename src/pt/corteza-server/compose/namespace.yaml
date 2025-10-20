@@ -1,16 +1,16 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create namespaces
-  notAllowedToDelete: not allowed to delete this namespace
-  notAllowedToRead: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list namespaces
-  notAllowedToUndelete: not allowed to undelete this namespace
-  notAllowedToUpdate: not allowed to update this namespace
-  notFound: namespace does not exist
-  staleData: stale data
-  unsupportedExportFormat: unsupported export format
-  unsupportedImportFormat: unsupported import format
-  importMissingNamespace: the import source does not contain a namespace definition
-  cloneMultiple: not allowed to clone multiple namespaces at once
+  handleNotUnique: identificador não é único
+  invalidHandle: identificador inválido
+  invalidID: ID inválida
+  notAllowedToCreate: não tem permissão para criar namespaces
+  notAllowedToDelete: não tem permissão para excluir este namespace
+  notAllowedToRead: não tem permissão para ler este namespace
+  notAllowedToSearch: não tem permissão para pesquisar ou listar namespaces
+  notAllowedToUndelete: não é permitido recuperar este namespace
+  notAllowedToUpdate: não tem permissão para atualizar este namespace
+  notFound: namespace não existe
+  staleData: dados obsoletos
+  unsupportedExportFormat: formato de exportação não suportado
+  unsupportedImportFormat: formato de importação não suportado
+  importMissingNamespace: a fonte de importação não contém uma definição de namespace
+  cloneMultiple: não é permitido clonar vários namespaces de uma só vez

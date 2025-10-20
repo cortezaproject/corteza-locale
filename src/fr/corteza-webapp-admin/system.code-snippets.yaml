@@ -1,17 +1,12 @@
 editor:
-  title: Code Snippets
   code-snippets:
-    add: Add Code Snippet
-    empty: No snippets yet
-    enabled: Enabled
+    enabled: Activé
     table-headers:
-      name: Name
-      enabled: Enabled
+      name: Nom
+      enabled: Activé
       script: Code
     form:
-      title: Add Code Snippet
       name:
-        label: Name
+        label: Nom
       code:
         label: Code
-        description: Add external script or code snippet. The script must include a valid <script> tag to function.

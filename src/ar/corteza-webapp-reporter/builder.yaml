@@ -1,89 +1,73 @@
 add:
-  datasource: Add datasource
-  display-element: Add display element
-available: Available
+  datasource: أضف مصدر بيانات
+  display-element: أضف عنصر عرض
+available: متوفر
 block:
-  description: Block description
-  save: Save Block
-  title: Block title
-  configuration: Block configuration
+  description: وصف الكتلة
+  save: حفظ الكتلة
+  title: عنوان الكتلة
+  configuration: اعدادات الكتلة
 datasource:
-  label: Datasource
+  label: مصدر بيانات
   types:
     load:
-      label: Load
-      data-from-resource: Loads data from a specified resource, such as Compose records
-    link:
-      label: Link
-      load-datasources: Links two Load datasources with a unique column that links them together, such as a Compose record selector
+      label: تحميل
+      data-from-resource: يقوم بتحميل البيانات من مورد محدد ، مثل إنشاء السجلات
     join:
-      label: Join
-      load-datasources: Joins two datasources with a unique column that joins them together, such as a Compose record selector. The join step produces a single set of rows in contrast to the link step which produces an independent data frame for each local row
+      label: انضمام
     aggregate:
-      label: Aggregate
-      load-datasource: Aggregates data from a load datasource based on a column value and aggregates it, such as counting the number of Accounts with the same status
+      label: تجميع
 datasources:
-  label: Datasources
-  save: Save Datasources
-description: Description
+  label: مصادر بيانات
+  save: حفظ مصادر البيانات
+description: وصف
 display-elements:
   types:
-    text: Text
-    metric: Metric
-    table: Table
-    chart: Chart
-element: Element
-elements: Elements
-filter-expression: Filter expression
-general: General
-joined-datasource-handling: Joined datasource handling
-layout: Layout
+    text: نص
+    metric: مقياس
+    table: جدول
+    chart: رسم بياني
+element: عنصر
+elements: عناصر
+filter-expression: تعبير التصفية
+general: عام
+joined-datasource-handling: انضم إلى التعامل مع مصادر البيانات
+layout: تَخطِيط
 layout-options:
-  horizontal: Horizontal
-  vertical: Vertical
-limit: Limit
-no-blocks-added: No blocks added yet
-or: Or
-pick-scenario: Pick a scenario
-prefilter: Prefilter
-presort-order: Presort order
+  horizontal: افقي
+  vertical: عمودي
+limit: حد
+no-blocks-added: لم تتم إضافة أي كتل حتى الآن
+or: أو
+pick-scenario: اختر سيناريو
+prefilter: التصفية المسبقة
+presort-order: ترتيب مسبق
 report:
-  builder: Report Builder
-  view: View Report
-save-button: Save
+  builder: محرك التقارير
+  view: عرض التقرير
+save-button: حفظ
 scenarios:
-  label: Scenarios
-  save: Save Scenarios
-title: Title
+  label: سيناريو
+  save: حفظ السيناريو
+title: عنوان
 tooltip:
   edit:
-    report: Edit report
-    block: Edit block
+    report: تحرير التقرير
   add:
-    displayElement: Add display element
-  delete:
-    block: Delete block
-  configure-scenarios: Configure scenarios
-  unsavedChanges: Unsaved changes
-available-columns: Available columns
-selected-columns: Selected columns
-no-columns-found: No columns found
-type-to-search: Type here to search among columns
-selected: Selected
-select-all: Select all
-unselect-all: Unselect all
-value: Value
-name: Name
-unsaved-changes: Unsaved changes will be lost. Do you wish to leave the page?
+    displayElement: أضف عنصر عرض
+available-columns: الاعمدة المتوفرة
+selected-columns: الاعمدة المختارية
+type-to-search: اكتب هنا للبحث بين الأعمدة
+selected: مختار
+select-all: تحديد الكل
+unselect-all: الغاء تحديد الكل
+value: قيمة
+name: اسم
 filter:
   operators:
-    like: Like
-    notLike: Not Like
-    contains: Contains
-    notContains: Not contains
-    equal: Equal
-    greaterThan: Greater than
-    greaterThanEqualTo: Greater than or equal to
-    lessThanEqualTo: Less than or equal to
-    lessThan: Less than
-    notEqual: Not equal
+    like: مثل
+    contains: يتضمن
+    equal: يساوي
+    greaterThan: أكثر من
+    lessThan: أقل من
+    notEqual: لا يساوي

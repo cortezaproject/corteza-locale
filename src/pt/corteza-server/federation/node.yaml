@@ -1,10 +1,10 @@
 errors:
-  notAllowedToCreate: not allowed to create nodes
-  notAllowedToManage: not allowed to manage this node
-  notAllowedToPair: not allowed to pair this node
-  notAllowedToSearch: not allowed to search or list nodes
-  notFound: node does not exist
-  pairingTokenInvalid: pairing token invalid
-  pairingURIInvalid: 'pairing URI invalid: {err}'
-  pairingURISourceIDInvalid: pairing URI without source node ID
-  pairingURITokenInvalid: pairing URI with invalid pairing token
+  notAllowedToCreate: não tem permissão para criar nós
+  notAllowedToManage: não tem permissão para gerenciar este nó
+  notAllowedToPair: não é permitido emparelhar este nó
+  notAllowedToSearch: não tem permissão para pesquisar ou listar nós
+  notFound: o nó não existe
+  pairingTokenInvalid: token de pareamento inválido
+  pairingURIInvalid: 'emparelhando URI inválido {err}'
+  pairingURISourceIDInvalid: emparelhamento de URI sem ID do nó de origem
+  pairingURITokenInvalid: emparelhamento URI com token de emparelhamento inválido

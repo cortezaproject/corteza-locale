@@ -1,14 +1,14 @@
 general:
   label:
-    attachmentFileInfo: '(File size: {{0}}, uploaded {{1}})'
-    download: Download
+    attachmentFileInfo: '(Размер файла: {{0}}, загружено {{1}})'
+    download: Загрузка
   tooltip:
-    dragAndDrop: Drag and drop to change order
+    dragAndDrop: Перетащите для изменения порядка
 pdf:
-  clickToRetry: Click to retry
-  downloadForAll: Download to see all pages
-  firstPagePreview: First page preview
-  loading: Loading
-  noPages: This document is empty
-  pageLoadFailed: Page failed to load
-  pageLoading: Loading
+  clickToRetry: Нажмите, чтобы повторить
+  downloadForAll: Скачать, чтобы увидеть все страницы
+  firstPagePreview: Предварительный просмотр первой страницы
+  loading: Загрузка
+  noPages: Этот документ пустой
+  pageLoadFailed: Не удалось загрузить страницу
+  pageLoading: Загрузка

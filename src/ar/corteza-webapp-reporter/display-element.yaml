@@ -1,140 +1,114 @@
 chart:
   configurator:
-    begin-axis-at-zero: Always begin axis scale at zero
-    chart-title: Chart title
-    color-scheme: Color scheme
-    data: Data
-    data-columns: Data columns
-    default: Default
-    default-value: Default value
-    general: General
-    label-column: Label column
-    logarithmic-scale: Logarithmic scale
-    position-description: Values can be set as pixels (20) or as percentages (20%)
-    none: None
-    place-axis-on-right-side: Place axis on the right side
-    skip-missing-values: Skip missing values
-    step-size: Step size
-    animation:
-      enabled: Animation enabled
+    begin-axis-at-zero: ابدأ دائمًا بمقياس المحور عند الصفر
+    chart-title: عنوان الرسم البياني
+    color-scheme: نظام الألوان
+    data: بيانات
+    data-columns: اعمدة البيانات
+    default: افتراضي
+    default-value: القيم الافتراضية
+    general: عام
+    label-column: عمود الوصف
+    logarithmic-scale: وزن لوغارثمي
+    none: لاشيء
+    place-axis-on-right-side: ضع المحور على الجانب الأيمن
+    skip-missing-values: تخطي القيم المفقودة
+    step-size: حجم الخطوة
     metrics:
-      label: Metrics
-      field: Field
-      stack:
-        label: Stack
-        description: Metrics with same value will be stacked
+      label: مقياس
+      field: حقل
       label-field:
-        label: Label
+        label: وصف
     time:
-      label: Time
+      label: وقت
       unit:
-        label: Time unit
+        label: وحدة الوقت
         types:
-          date: Date
-          month: Month
-          quarter: Quarter
-          week: Week
-          year: Year
-    type: Type
+          date: تاريخ
+          month: شهر
+          quarter: ربع
+          week: اسبوع
+          year: سنة
+    type: نوع
     types:
-      bar: Bar
-      doughnut: Doughnut
-      funnel: Funnel
-      line: Line
-      pie: Pie
+      bar: عمود
+      doughnut: دائري
+      funnel: قمع
+      line: خطي
+      pie: دائري
     value:
-      max: Max value
-      min: Min value
+      max: اقصى قيمة
+      min: اقل قيمة
     x-axis:
-      name: X-Axis
-      label: Axis label
-      type: Axis type
-      labelRotation:
-        label: Rotate labels
+      name: محور س
+      label: اسم المحور
+      type: نوع المحور
     y-axis:
-      name: Y-Axis
-      label: Axis label
+      name: محور ص
+      label: اسم المحور
       labelPosition:
-        label: Label position
-        top: Top
-        center: Center
-        bottom: Bottom
-      labelRotation:
-        label: Rotate labels
+        top: اعلى
+        bottom: الأسفل
     legend:
-      name: Legend
-      hide: Hide legend
-      scrollable: Scrollable
       orientation:
-        label: Orientation
-        horizontal: Horizontal
-        vertical: Vertical
+        horizontal: افقي
+        vertical: عمودي
       align:
-        label: Align
-        left: Left
-        right: Right
-        center: Center
+        left: يسار
+        right: يمين
       position:
-        description: Values c
-        default: Default position
-        top: Top
-        right: Right
-        bottom: Bottom
-        left: Left
-    tooltips:
-      name: Tooltips
-      show:
-        always: Always show labels
+        top: اعلى
+        right: يمين
+        bottom: الأسفل
+        left: يسار
     offset:
-      name: Offset
-      default: Default offset
-      top: Top
-      right: Right
-      bottom: Bottom
-      left: Left
+      name: عوض
+      top: اعلى
+      right: يمين
+      bottom: الأسفل
+      left: يسار
 metric:
   configurator:
     color:
-      background: Background color
-      text: Text color
-      picker: Choose a color
-    format: Format
-    label-column: Label column
-    none: None
-    prefix: Prefix
-    suffix: Suffix
+      background: لون الخلفية
+      text: لون النص
+    format: شكل
+    label-column: عمود الوصف
+    none: لاشيء
+    prefix: بادئة
+    suffix: لاحقة
 table:
   configurator:
-    general: General
-    data: Data
-    columns: Columns
-    dark: Dark
-    head-variant: Head Variant
-    joined-datasource-handling: Joined datasource handling
-    light: Light
-    none: None
+    general: عام
+    data: بيانات
+    columns: اعمدة
+    dark: غامق
+    head-variant: متغير الرأس
+    joined-datasource-handling: انضم إلى التعامل مع مصادر البيانات
+    light: فاتح
+    none: لاشيء
     table:
       options:
-        bordered: Bordered
-        borderless: Borderless
-        dark: Dark
-        fixed: Fixed
-        hover: Hover
-        label: Table Options
-        no-collapse: No border collapse
-        responsive: Responsive
-        small: Small
-        striped: Striped
-      variant: Table Variant
+        bordered: بحدود
+        borderless: بدون حدود
+        dark: غامق
+        fixed: ثابت
+        hover: المرور
+        label: خيارات الجدول
+        no-collapse: تجميع بدون حدود
+        responsive: مستجيب
+        small: صغير
+        striped: مخطط
+      variant: متغير الجدول
       variants:
-        danger: Danger
-        dark: Dark
-        info: Info
-        light: Light
-        primary: Primary
-        secondary: Secondary
-        success: Success
-        warning: Warning
+        danger: خطر
+        dark: غامق
+        info: معلومات
+        light: فاتح
+        primary: اساسي
+        secondary: ثانوي
+        success: ناجح
+        warning: انذار
   view:
-    next: Next
-    previous: Previous
+    next: التالي
+    previous: السابق

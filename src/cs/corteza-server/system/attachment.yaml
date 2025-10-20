@@ -1,9 +1,9 @@
 errors:
-  failedToExtractMimeType: could not extract mime type
-  failedToProcessImage: could not process image
-  failedToStoreFile: could not extract store file
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create attachments
-  notAllowedToCreateEmptyAttachment: not allowed to create empty attachments
-  notAllowedToListAttachments: not allowed to list attachments
-  notFound: attachment not found
+  failedToExtractMimeType: nepodařilo se rozpoznat mime type
+  failedToProcessImage: nepodařilo se zpracování obrázku 
+  failedToStoreFile: nepodařilo se extrahovat balík
+  invalidID: nevalidní ID
+  notAllowedToCreate: není povoleno vytvářet přílohy
+  notAllowedToCreateEmptyAttachment: není povoleno vytvářet prázdné přílohy
+  notAllowedToListAttachments: není povoleno procházet přílohy
+  notFound: příloha nenalezena

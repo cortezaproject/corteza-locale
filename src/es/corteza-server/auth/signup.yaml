@@ -1,23 +1,21 @@
 template:
-  title: Sign up
+  title: Registrarse
   form:
     email:
-      label: Email
-      placeholder: email@domain.tld
+      label: Correo electrónico
     password:
-      label: Password
-      placeholder: Password
+      label: Contraseña
+      placeholder: Contraseña
     name:
-      label: Full name
-      placeholder: Your full name
+      label: Nombre completo
+      placeholder: Tu nombre completo
     nickname:
-      label: Short name, nickname or handle
-      placeholder: Short name, nickname or handle
+      label: Nombre corto, apodo o identificador
+      placeholder: Nombre corto, apodo o identificador
     button:
-      sign-up: Submit
-  log-in: Already have an account? <a data-test-id="link-login" href="{{link}}">Log in</a>
+      sign-up: Enviar
 alerts:
-  signup-successful: Sign-up successful
-  email-confirmed-logged-in: Email address confirmed, you're now logged-in.
-  invalid-expired-token: Invalid or expired email confirmation token, please resend confirmation request.
-  signup-disabled: Signup disabled
+  signup-successful: Registro completado con éxito
+  email-confirmed-logged-in: Dirección de correo electrónico confirmada, has iniciado la sesión.
+  invalid-expired-token: Token de confirmación de correo electrónico inválido o caducado, por favor reenvia la solicitud de confirmación.
+  signup-disabled: Registro deshabilitado

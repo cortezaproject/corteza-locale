@@ -1,123 +1,123 @@
-calculate: Field expressions provide a way to calculate field values based on the defined expression
+calculate: توفر تعبيرات الحقول طريقة لحساب قيم الحقول بناءً على التعبير المحدد
 categories:
   dateTime:
-    earliest: Returns earliest DateTime
-    label: Date and Time
-    latest: Returns latest DateTime
-    modTime: Returns modified DateTime string
-    parseDuration: Returns parsed duration
-    parseISOTime: Returns parsed ISO DateTime string
-    strftime: Returns DateTime string for the specified date and format
+    earliest: ترجع أقرب تاريخ للوقت
+    label: التاريخ و الوقت
+    latest: ترجع أخر تاريخ للوقت
+    modTime: إرجاع سلسلة التاريخ والوقت المعدلة
+    parseDuration: إرجاع المدة التي تم تحليلها
+    parseISOTime: إرجاع سلسلة التاريخ والوقت المعدلة
+    strftime: ترجع سلسلة DateTime للتاريخ والصيغة المحددين
   general:
-    description: Returns the first non null value
-    label: General
+    description: إرجاع أول قيمة غير فارغة
+    label: عام
   number:
-    ceil: Rounds number up to the nearest integer
-    floor: Rounds number down to the nearest integer
-    label: Number
-    max: Returns item with the highest value
-    min: Returns item with the lowest value
-    rounds: Rounds a floating point number to the specified number of digits
+    ceil: لتقريب الرقم إلى أقرب عدد صحيح
+    floor: لتقريب الرقم إلى أقرب عدد صحيح
+    label: رقم
+    max: إرجاع العنصر بأعلى قيمة
+    min: إرجاع العنصر بأقل قيمة
+    rounds: لتقريب رقم الفاصلة العائمة إلى عدد الأرقام المحدد
   string:
-    format: Returns the formatted string
-    label: String
-    longest: Returns the longest string
-    shortest: Returns the shortest string
-    toLower: Converts all characters to lowercase
-    toUpper: Converts all characters to uppercase
-    trim: Removes spaces at the beginning and at the end of the string
-    trimLeft: Removes character from the beginning of the string
-    trimRight: Removes character from the end of the string
-example-description: Below are a few examples of different use cases of field expressions.
-examples: Examples
-field: Field Expressions
+    format: ترجع السلسلة المنسقة
+    label: نص
+    longest: تُرجع السلسلة الأطول
+    shortest: تُرجع أقصر سلسلة
+    toLower: يحول كل الأحرف إلى أحرف صغيرة
+    toUpper: يحول كل الأحرف إلى أحرف كبيرة
+    trim: يزيل المسافات في بداية السلسلة ونهايتها
+    trimLeft: يزيل الحرف من بداية السلسلة
+    trimRight: يزيل الحرف من نهاية السلسلة
+example-description: فيما يلي بعض الأمثلة لحالات الاستخدام المختلفة لتعبيرات الحقول.
+examples: امثلة
+field: تعابير المجال
 formatCategories:
   dateTime:
-    A: Returns the full national weekday name
-    B: Returns the full national month name
-    C: Returns year / 100 as a decimal number; single digits are preceded by a zero
-    D: Equivalent to %m/%d/%y
-    F: Equivalent to %Y-%m-%d
-    H: Returns the hour (24-hour clock) as a decimal number (00-23)
-    I: Returns the hour (12-hour clock) as a decimal number (01-12)
-    M: Returns the minute as a decimal number (00-59)
-    R: Equivalent to %H:%M
-    S-middle: Returns the millisecond as a decimal number (000-999)
-    S-second: Returns the second as a decimal number (00-60)
-    T: Equivalent to %H:%M:%S
-    U: Returns the week number of the year (Sunday as the first day of the week) as a decimal number (00-53)
-    V: Returns the week number of the year (Monday as the first day of the week) as a decimal number (01-53)
-    W: Returns the week number of the year (Monday as the first day of the week) as a decimal number (00-53)
-    X: Returns the national representation of the time
-    "Y": Returns the year with century as a decimal number
-    Z: Returns the time zone name
-    a: Returns the abbreviated national weekday name
-    b: Returns the abbreviated national month name
-    c: Returns the national representation of time and date
-    d: Returns the day of the month as a decimal number (01-31)
-    e: Returns the day of the month as a decimal number (1-31)
-    j: Returns the day of the year as a decimal number (001-366)
-    k: Returns the hour (24-hour clock) as a decimal number (0-23)
-    l: Returns the hour (12-hour clock) as a decimal number (1-12)
-    label: Date and Time formatting
-    m: Returns the month as a decimal number (01-12)
+    A: إرجاع اسم يوم الأسبوع الوطني الكامل
+    B: إرجاع اسم الشهر الوطني الكامل
+    C: تُرجع السنة / 100 كرقم عشري ؛ الأرقام الفردية مسبوقة بصفر
+    D: يعادل %m/%d/%y
+    F: يعادل %Y-%m-%d
+    H: إرجاع الساعة (تنسيق 24 ساعة) كرقم عشري (00-23)
+    I: إرجاع الساعة (تنسيق 12 ساعة) كرقم عشري (01-12)
+    M: إرجاع الدقيقة كرقم عشري (00-59)
+    R: يعادل %H:%M
+    S-middle: إرجاع المللي ثانية كرقم عشري (000-999)
+    S-second: إرجاع الثاني كرقم عشري (00-60)
+    T: يعادل %H:%M:%S
+    U: إرجاع رقم الأسبوع من السنة (الأحد كأول يوم في الأسبوع) كرقم عشري (00-53)
+    V: إرجاع رقم الأسبوع من السنة (الاثنين كأول يوم في الأسبوع) كرقم عشري (01-53)
+    W: إرجاع رقم الأسبوع من السنة (الاثنين كأول يوم في الأسبوع) كرقم عشري (00-53)
+    X: إرجاع التمثيل القومي للوقت
+    "Y": ترجع السنة بالقرن كرقم عشري
+    Z: إرجاع اسم المنطقة الزمنية
+    a: إرجاع اسم يوم الأسبوع الوطني المختصر
+    b: إرجاع اسم الشهر الوطني المختصر
+    c: إرجاع التمثيل القومي للوقت والتاريخ
+    d: إرجاع يوم من الشهر كرقم عشري (01-31)
+    e: إرجاع يوم من الشهر كرقم عشري (1-31)
+    j: إرجاع يوم السنة كرقم عشري (001-366)
+    k: إرجاع الساعة (تنسيق 24 ساعة) كرقم عشري (0-23)
+    l: إرجاع الساعة (تنسيق 12 ساعة) كرقم عشري (1-12)
+    label: تنسيق التاريخ والوقت
+    m: إرجاع الشهر كرقم عشري (01-12)
     "n": |-
-      Returns a newline (
+      ترجع سطر جديد (
       )
-    p: Returns the national representation of either "ante meridiem" (a.m.)  or "post meridiem" (p.m.)
-    percent: Returns a %
-    r: Equivalent to %I:%M:%S %p
-    t: Returns a tab
-    u: Returns the weekday (Monday as the first day of the week) as a decimal number (1-7)
-    v: Equivalent to %e-%b-%Y
-    w: Returns the weekday (Sunday as the first day of the week) as a decimal number (0-6)
-    x: Returns the national representation of the date
-    "y": Returns the year without century as a decimal number (00-99)
-    z: Returns the time zone offset from UTC
+    p: لعرض التمثيل الوطني لـ (صباحًا) أو (مساءً)
+    percent: ترجع %
+    r: ما يعادل %I:%M:%S %p
+    t: ترجع مسافةtab
+    u: إرجاع يوم الأسبوع (الاثنين كأول يوم في الأسبوع) كرقم عشري (1-7)
+    v: مايعادل %e-%b-%Y
+    w: إرجاع يوم الأسبوع (الأحد كأول يوم في الأسبوع) كرقم عشري (0-6)
+    x: إرجاع التمثيل الوطني للتاريخ
+    "y": إرجاع السنة بدون قرن كرقم عشري (00-99)
+    z: ترجع إزاحة المنطقة الزمنية من التوقيت العالمي المنسق UTC
   string:
-    E: Returns the floating point number in scientific notation; upper-case E
-    O: Returns the number in base 8 with 0o prefix
-    X: Returns the number in base 16; upper-case A-F
-    b: Returns the number in base 2 (in the binary format)
-    binary: Returns the floating point number in scientific notation with binary exponent
-    d: Returns the number in base 10
-    e: Returns the floating point number in scientific notation; lower-case e
-    f: Returns the floating point number with a decimal point
-    label: String formatting
-    o: Returns the number in base 8
-    t: Returns the boolean value as true/false
-    v: Returns the raw value
-    x: Returns the number in base 16; lower-case a-f
+    E: إرجاع رقم الفاصلة العائمة بالتدوين العلمي ؛ الأحرف الكبيرة E
+    O: إرجاع الرقم في الأساس 8 ببادئة 0o
+    X: إرجاع الرقم في الأساس 16 ؛ الأحرف الكبيرة A-F
+    b: إرجاع الرقم في الأساس 2 (بالتنسيق الثنائي)
+    binary: لعرض رقم الفاصلة العائمة بترميز علمي بأس ثنائي
+    d: تُرجع الرقم في الأساس 10
+    e: إرجاع رقم الفاصلة العائمة بالتدوين العلمي ؛ حرف صغير e
+    f: إرجاع رقم الفاصلة العائمة بعلامة عشرية
+    label: تنسيق السلسلة
+    o: تُرجع الرقم في الأساس 8
+    t: ترجع القيمة المنطقية على أنها صواب / خطأ
+    v: تُرجع القيمة الأولية
+    x: إرجاع الرقم في الأساس 16 ؛ أحرف صغيرة a-f
 formatting-parameters:
-  description: Here is a complete list of available formatting options
-  label: Formatting parameters
+  description: فيما يلي قائمة كاملة بخيارات التنسيق المتاحة
+  label: معلمات التنسيق
 helper-functions:
-  description: We provide a set of helper functions that extend the capabilites of field expressions
-  label: Helper functions
-  note: 'NOTE: Only the "General" functions can be used on all types of fields. The other functions are limited to their respective field type.'
-instructions: 'To write the expression you can use the following operators:'
+  description: نحن نقدم مجموعة من الوظائف المساعدة التي تعمل على توسيع قدرات تعبيرات المجال
+  label: وظائف المساعد
+  note: 'ملاحظة: يمكن استخدام الوظائف "العامة" فقط في جميع أنواع الحقول. تقتصر الوظائف الأخرى على نوع الحقل الخاص بكل منها.'
+instructions: 'لكتابة التعبير يمكنك استخدام العوامل التالية:'
 operators:
-  all-new-values: (all new values)
-  comparators: 'Comparators: '
-  control-order: 'Control order of evaluation: '
-  field-name: field-name
-  location: 'Depending on where the field expression is used it has access to different variables:'
-  logical: 'Logical: '
-  modifiers: 'Modifiers: '
-  more: 'More: '
-  new: new
-  new-value: (new-value)
-  new-value-with-comma: '(new-value), '
-  old: old
-  old-value: oldValue
-  old-value-brackets: '(old value), '
-  record: '(record), '
-  sanitizer: Sanitizer
-  sanitizers: 'Sanitizers: '
-  validator: Validator
-  validators: 'Validators: '
-  value: value
-  value-expression: Value expression
-  value-expressions: 'Value expressions: '
-  values: values
-write: Writing field expressions is like writing an equation. Instead of only using constants, you can pass in the field name, and it will be evaluated as the field value for that record.
+  all-new-values: (قيم جديدة)
+  comparators: 'المقارنات: '
+  control-order: 'أمر مراقبة التقييم: '
+  field-name: اسم الخانة
+  location: 'اعتمادًا على مكان استخدام تعبير الحقل ، يمكنه الوصول إلى متغيرات مختلفة:'
+  logical: 'منطقي: '
+  modifiers: 'مغير: '
+  more: 'مزيد: '
+  new: جديد
+  new-value: (قيمة جديدة)
+  new-value-with-comma: '(قيمة جديدة), '
+  old: قديم
+  old-value: القيمة القديمة
+  old-value-brackets: '(قيمة سابقة), '
+  record: '(سجل), '
+  sanitizer: المطهر
+  sanitizers: 'المطهرات: '
+  validator: المدقق
+  validators: 'المدققون: '
+  value: قيمة
+  value-expression: تعبير القيمة
+  value-expressions: 'تعبيرات القيمة: '
+  values: القيم
+write: كتابة تعابير الحقل مثل كتابة معادلة. بدلاً من استخدام الثوابت فقط ، يمكنك تمرير اسم الحقل ، وسيتم تقييمه كقيمة الحقل لهذا السجل.

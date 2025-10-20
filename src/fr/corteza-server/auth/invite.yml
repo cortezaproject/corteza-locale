@@ -1,14 +1,14 @@
 template:
-  title: Accept Invite
+  title: Accepter invitation
   form:
     email:
-      label: Email
+      label: Courriel
       placeholder: email@domain.tld
     new-password:
-      label: Password
-      placeholder: password
+      label: Mot de passe
+      placeholder: mot de passe
     buttons:
-      password: Set password
+      password: Définir mot de passe
 alert:
-  invalid-expired-invite-token: Invalid or expired user invite token, please request a password reset.
-  success: Password successfully updated
+  invalid-expired-invite-token: Jeton d'invitation utilisateur invalide ou expiré, faite une demande de réinitialisation de mot de passe.
+  success: Mot de passe mis à jour avec succès

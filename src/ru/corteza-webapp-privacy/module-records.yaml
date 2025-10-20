@@ -1,3 +1,2 @@
-module: Module
-namespace: Namespace
-no-records: No records
+module: Модули
+namespace: Пространство имен

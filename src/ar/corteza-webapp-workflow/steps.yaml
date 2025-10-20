@@ -1,121 +1,105 @@
 break:
-  label: Break
-  short: Break
-  tooltip: Stop iterator execution and continue with workflow
+  label: توقف
+  short: توقف
+  tooltip: أوقف تنفيذ المكرر وتابع سير العمل
 content:
-  label: Content
-  short: Content
-  tooltip: Content block used for text annotations
+  label: محتوى
+  short: محتوى
   configurator:
-    ok: Ok
+    ok: موافق
     urlPlaceholder: https://example.tld
 continue:
-  label: Continue
-  short: Continue
-  tooltip: Stop current iteration and continue with the next one
+  label: متابعة
+  short: متابعة
+  tooltip: أوقف التكرار الحالي واستمر في التكرار التالي
 debug:
-  label: Debug
-  short: Debug
-  tooltip: Logs current workflow scope into server logs. If workflow debug is enabled
+  label: تدقيق
+  short: تدقيق
+  tooltip: يسجل نطاق سير العمل الحالي في سجلات الخادم. إذا تم تمكين تصحيح سير العمل
 delay:
-  label: Delay
-  short: Delay
-  tooltip: Delays workflow execution
+  label: تأخر
+  short: تأخر
+  tooltip: تأخير تنفيذ سير العمل
 error:
-  label: Error
-  short: Error
-  tooltip: Throws error and stops workflow execution, also prevents saving of records triggered with before trigger
+  label: خطأ
+  short: خطأ
+  tooltip: يلقي خطأ ويوقف تنفيذ سير العمل ، كما يمنع حفظ السجلات التي تم تشغيلها قبل المشغل
 error-handler:
-  label: Error Handler
-  short: Error Handler
-  tooltip: Continue workflow from this step if an error is triggered
+  label: معالج الأخطاء
+  short: معالج الأخطاء
+  tooltip: تابع سير العمل من هذه الخطوة إذا حدث خطأ
 expressions:
   configurator:
-    add-expression: + Add Expression
-    expression: Expression
-    expression-placeholder: Expression...
-    target: Target
-  label: Expressions
-  short: Expressions
-  tooltip: Define and mutate scope variables
+    add-expression: + وصف
+    expression: وصف
+    expression-placeholder: وصف...
+    target: الهدف
+  label: وصف
+  short: وصف
+  tooltip: تحديد متغيرات النطاق وتغييرها
 function:
   configurator:
-    arguments: Arguments
-    constant: Constant
-    expression: Expression
-    name: Name
-    option-select: Select an option
-    result: Result
-    results: Results
-    target: Target
-    add-result: + Add result
-    search-workflow: Search for a workflow
-    select-function: Select function
-    type: Type
-    type*: Type*
-  label: Function
-  short: Function
-  tooltip: Execute the chosen predefined function
+    arguments: المدخلات
+    constant: ثابت
+    expression: وصف
+    name: اسم
+    option-select: اختيار خيار
+    result: النتيجة
+    results: النتائج
+    target: الهدف
+    select-function: اختيار دالة
+    type: نوع
+    type*: نوع*
+  label: دالة
+  short: دالة
+  tooltip: تنفيذ الوظيفة المحددة مسبقا المختارة
 exec-workflow:
-  label: Execute Workflow
-  short: Workflow
-  tooltip: Execute a workflow and map variables from its scope to the current one
+  short: سيور عمل
 gatewayExclusive:
-  label: Gateway (Exclusive)
-  short: Gateway
-  tooltip: Workflow execution can continue on first path that fits condition
+  label: بوابة (حصريا)
+  tooltip: يمكن أن يستمر تنفيذ سير العمل في المسار الأول الذي يناسب الشرط
 gatewayInclusive:
-  label: Gateway (Inclusive)
-  short: Gateway
-  tooltip: Workflow execution can continue on all paths that fit condition
+  label: بوابة (شاملة)
+  tooltip: يمكن أن يستمر تنفيذ سير العمل على جميع المسارات التي تناسب الشرط
 gatewayParallel:
-  label: Gateway (Fork/Join)
-  short: Gateway
-  tooltip: Splits workflow execution into two parallel paths or merges multiple paths into one
+  label: بوابة (شوكة / انضمام)
+  tooltip: يقسم تنفيذ سير العمل إلى مسارين متوازيين أو يدمج عدة مسارات في مسار واحد
 gateway:
   configurator:
-    condition: Condition
-    two-paths: Gateway must be source of at least two paths
+    condition: شرط
+    two-paths: يجب أن تكون البوابة مصدر مسارين على الأقل
 iterator:
-  label: Iterator
-  short: Iterator
-  tooltip: Iterate over items
+  label: مكرر
+  short: مكرر
+  tooltip: كرر على العناصر
 prompt:
-  label: Prompt
-  short: Prompt
-  tooltip: Prompts user and waits for input
+  label: تنبيه
+  short: تنبيه
+  tooltip: يطالب المستخدم وينتظر الإدخال
 swimlane:
   label: Swimlane
   short: Swimlane
-  tooltip: Visually group steps
+  tooltip: خطوات المجموعة بصريا
 termination:
-  label: Termination (End)
-  short: Termination
-  tooltip: Terminate workflow execution
+  label: الإنهاء (النهاية)
+  tooltip: إنهاء تنفيذ سير العمل
 trigger:
   configurator:
-    add: + Add
-    add-constraints: + Add Constraints
-    constraints: Constraints
-    event*: Event*
-    failed-fetch-event-types: Failed to fetch event types
-    initial-scope: Initial Scope
-    equal: Equal
-    not-equal: Not equal
-    like: Like
-    not-like: Not like
-    operator: Operator
-    resource: Resource
-    resource*: Resource*
-    select-constraint-type: Select constraint type
-    select-operator: Select operator
-    select-event-type: Select event type
-    select-resource-type: Select resource type
-  label: Trigger (Start)
-  short: Trigger
-  tooltip: Trigger the workflow execution based on configuration
-tooltip:
-  configure-step: Configure step
-path:
-  label: Path
-  short: Path
+    add: +أضف
+    add-constraints: +أضافة قيود
+    constraints: قيود
+    event*: حدث*
+    failed-fetch-event-types: فشل سحب أنواع الأحداث
+    initial-scope: النطاق الاولي
+    equal: يساوي
+    not-equal: لا يساوي
+    like: مثل
+    not-like: ليس هكذا
+    operator: معامل
+    resource: الموارد
+    resource*: الموارد*
+    select-constraint-type: حدد نوع القيد
+    select-event-type: حدد نوع الحدث
+    select-resource-type: حدد نوع المورد
+  label: المشغل (بدء)
+  tooltip: بدء تنفيذ سير العمل بناءً على التكوين

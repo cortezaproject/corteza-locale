@@ -1,23 +1,14 @@
 template:
-  title: Sign up
+  title: הרשמה
   form:
-    email:
-      label: Email
-      placeholder: email@domain.tld
     password:
-      label: Password
-      placeholder: Password
+      label: סיסמה
+      placeholder: סיסמה
     name:
-      label: Full name
-      placeholder: Your full name
+      label: שם מלא
+      placeholder: השם המלא שלך
     nickname:
-      label: Short name, nickname or handle
-      placeholder: Short name, nickname or handle
+      label: כינוי
+      placeholder: כינוי
     button:
-      sign-up: Submit
-  log-in: Already have an account? <a data-test-id="link-login" href="{{link}}">Log in</a>
-alerts:
-  signup-successful: Sign-up successful
-  email-confirmed-logged-in: Email address confirmed, you're now logged-in.
-  invalid-expired-token: Invalid or expired email confirmation token, please resend confirmation request.
-  signup-disabled: Signup disabled
+      sign-up: שלח

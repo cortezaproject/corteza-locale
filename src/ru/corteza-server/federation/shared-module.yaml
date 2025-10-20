@@ -1,10 +1,10 @@
 errors:
-  federationSyncStructureChanged: module structure changed
-  invalidID: invalid ID
+  federationSyncStructureChanged: изменена структура модуля
+  invalidID: неверный ID
   nodeNotFound: node does not exist
-  notAllowedToCreate: not allowed to create modules
-  notAllowedToManage: not allowed to manage this module
-  notAllowedToMap: not allowed to map this module
+  notAllowedToCreate: не разрешено создавать модуль
+  notAllowedToManage: Не разрешено управлять модулем
+  notAllowedToMap: Не разрешено отображать модуль
   notFound: module does not exist
-  notUnique: node not unique
-  staleData: stale data
+  notUnique: Узел не уникальный
+  staleData: устаревшие данные

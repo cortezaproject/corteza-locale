@@ -1,87 +1,42 @@
 editor:
-  title: User Interface Settings
+  title: إعدادات واجهة المستخدم
   corteza-studio:
-    title: Theming
-    colorPicker: Choose a color
-    sassNotInstalled: No dart-sass binaries were detected. For guidance on how to set it up, refer to
-    installSassDocs: docs here
-    custom-css: Custom CSS
     mainLogo:
-      title: Main logo
+      title: الشعار الرئيسي
       uploader:
-        instructions: Click or drop main logo here to upload
-        uploading: Uploading main logo
+        instructions: انقر أو أسقط الشعار الرئيسي هنا للتحميل
+        uploading: تحميل الشعار الرئيسي
     iconLogo:
-      title: Icon logo
+      title: أيقونة الشعار
       uploader:
-        instructions: Click or drop icon logo image here to upload
-        uploading: Uploading icon logo
+        instructions: انقر أو أسقط صورة شعار الأيقونة هنا للتحميل
+        uploading: رفع الشعار
     label:
-      default: Default
+      default: افتراضي
     tabs:
-      general: General
-      light: Light
-      dark: Dark
+      general: عام
+      light: فاتح
+      dark: غامق
     theme:
       variables:
-        white:
-          label: White
-          description: Element background color
-        black:
-          label: Black
-          description: Element text color
         primary:
-          label: Primary
-          description: Primary action buttons, links
+          label: اساسي
         secondary:
-          label: Secondary
-          description: Disabled and placeholder text color
+          label: ثانوي
         success:
-          label: Success
-          description: Success notification color
+          label: ناجح
         warning:
-          label: Warning
-          description: Warning notification color
+          label: تنبيه
         danger:
-          label: Danger
-          description: Error notification color
+          label: خطر
         light:
-          label: Light
-          description: Secondary action buttons, table headers
-        extra-light:
-          label: Extra light
-          description: Icon buttons, borders
-        body-bg:
-          label: Body background
-          description: Background color of the application
-        sidebar-bg:
-          label: Sidebar background
-          description: Background color of the sidebar
-        topbar-bg:
-          label: Topbar background
-          description: Background color of the topbar
+          label: فاتح
   topbar:
-    title: Topbar
-    general: General
-    app-selector:
-      hide: Hide app selector
+    general: عام
     help:
-      title: Help
-      hide: Hide help
-      hide-forum-link: Hide forum link
-      hide-documentation-link: Hide documentation link
-      hide-feedback-link: Hide feedback link
+      title: مساعدة
     profile:
-      title: Profile
-      hide: Hide profile
-      hide-profile-link: Hide profile link
-      hide-change-password-link: Hide change password link
-      hide-theme-selector: Hide theme selector
-    notifications:
-      hide: Hide notifications
+      title: الملف الشخصي
     links:
-      title: Custom links
-      handle: Name
-      invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+      handle: اسم
       url: URL
-      new-tab: New tab

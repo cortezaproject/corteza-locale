@@ -1,70 +1,41 @@
 editor:
   info:
-    archive: Archive
-    archivedAt: Archived at
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Role name *
-    title: Basic information
-    unarchive: Unarchive
-    undelete: Undelete
-    updatedAt: Updated at
-    description: Description
+    createdAt: Создан
+    createdBy: Создан
+    delete: Удалить
+    deletedAt: Удалить
+    handle: Управлять
+    placeholder-handle: Может включать в себя (а - z, 0 - 9, подчеркивание, тире)
+    title: Базовая информация
+    undelete: Восстановить
+    updatedAt: Возобновлять
+    description: Описание
     context:
-      label: Contextual role
-      expression-label: Expression
-      resource-types-label: Resource type
+      expression-label: Выражение
+      resource-types-label: Тип ресурса
   members:
-    add: Add
-    count: Members ({{count}})
-    remove: Remove
-    searchUsers: Search users
-    title: Role members
-    unnamed: Unnamed user
-  new: New Role
-  permissions: Permissions
-  title:
-    create: Create role
-    edit: Edit role
+    add: Добавить
+    remove: Удалить
+  permissions: Разрешения
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  archive: Archive
-  unarchive: Unarchive
+    createdAt: Создать
+    enabled: Включено
+    handle: Указатель
+    name: Имя
+  delete: Удалить
+  undelete: Восстановить
   rows:
     filters:
-      archived: Archived
-      deleted: Deleted
+      archived: Архив
+      deleted: Удалить
   filterForm:
-    archived:
-      label: archived roles
-    deleted:
-      label: deleted roles
     excluded:
       label: Without
     exclusive:
-      label: Only
+      label: Единственный
     inclusive:
-      label: Including
-    query:
-      label: Filter roles list
-      placeholder: Filter roles by name
-  loading: Loading roles
-  new: New Role
-  numFound: '{{count}} role found'
-  numFound_plural: '{{count}} roles found'
-  permissions: Permissions
-  title: Roles
+      label: Включая
+  permissions: Разрешения
+  title: Роль
   yaml: YAML

@@ -1,46 +1,31 @@
 label:
-  add: Add
-  and: And
-  all: All
-  ascending: Ascending
-  back: Back
-  clear: Clear
-  cancel: Cancel
-  delete: Delete
-  descending: Descending
-  loading: Loading
-  name: Name
-  none: None
-  now: Now
-  ok: Ok
-  or: Or
-  openLinkInNewTab: Open link in a new tab
-  save: Save
-  saveAndClose: Save and close
-  clone: Save as copy
-  today: Today
-  urlPlaceholder: https://example.tld
-  default: Default
+  add: Adicionar
+  all: Todo
+  ascending: Crescente
+  back: Voltar
+  cancel: Cancelar
+  delete: Excluir
+  descending: Decrescente
+  loading: Carregando
+  name: Nome
+  none: Nenhum
+  ok: OK
+  or: Ou
+  save: Salvar
+  saveAndClose: Salvar e fechar
+  today: Hoje
+  urlPlaceholder: https://exemplo.tld
+  default: Predefinição
   report:
-    single: Report
-    plural: Reports
+    plural: Relatórios
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: Não encontrado
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
-  clone: Clone
+    next: Próximo
+    prev: Anterior
+  clone: Clonar
 themes:
   labels:
-    light: Light
-    dark: Dark
-cloneSuffix: copy
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: Luz
+    dark: Escuro
+cloneSuffix: cópia de

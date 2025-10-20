@@ -1,12 +1,12 @@
-adminPanel: Admin panel
-chart: Charts
-manageNamespaces: Manage namespaces
-module: Modules
-noResults: No results
-page: Pages
-pickNamespace: Select a namespace
-publicPages: Public pages
-editNamespace: Edit namespace
+adminPanel: Administrační panel
+chart: Grafy
+manageNamespaces: Správa jmenných prostorů
+module: Moduly
+noResults: Žádné výsledky
+page: Stránky
+pickNamespace: Vyberte jmenný prostor
+publicPages: Veřejné stránky
+editNamespace: Editovat jmenný prostor
 searchPlaceholder:
-  admin: Search resources...
-  public: Search pages...
+  admin: Prohledávání zdrojů...
+  public: Prohledávání stránek...

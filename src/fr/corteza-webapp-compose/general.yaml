@@ -2,105 +2,105 @@ label:
   app-name:
     namespace:
       list: Namespaces
-      create: Create Namespace
-      edit: 'Edit Namespace - {{label}}'
+      create: Créer un Namespace
+      edit: 'Éditer Namespace - {{label}}'
       view: Namespace
     module:
       list: 'Modules - {{label}}'
-      create: Create Module
-      edit: 'Edit Module - {{label}}'
+      create: Créer un module
+      edit: 'Éditer Module - {{label}}'
     page:
       list: 'Pages - {{label}}'
-      builder: 'PageBuilder - {{label}}'
-      edit: 'Edit Page - {{label}}'
-      record: 'Record - {{label}}'
+      builder: 'Constructeur de page - {{label}}'
+      edit: 'Éditer page - {{label}}'
+      record: 'Élément - {{label}}'
     chart:
-      list: 'Charts - {{label}}'
-      edit: 'Edit Chart - {{label}}'
-      create: Create Chart
+      list: 'Graphiques - {{label}}'
+      edit: 'Éditer graphique - {{label}}'
+      create: Créer Graphique
   actions: Actions
-  active: Active
-  add: Add
-  add-with-plus: + Add
-  addNew: Add new
-  addValue: Add new value
-  ascending: Ascending
-  attachmentFileInfo: '(File size: {{0}}, uploaded {{1}})'
-  attributes: Attributes
-  back: Back
-  backWithoutSave: Back (without saving changes)
-  block: Block
-  browse: Browse
-  buttons: Buttons
-  cancel: Cancel
-  clear: Clear
-  clone: Clone
-  close: Close
-  create: Create
-  delete: Delete
-  default: Default
-  restore: Restore
-  descending: Descending
+  active: Actif
+  add: + Ajouter
+  add-with-plus: + Ajouter
+  addNew: Ajouter nouveau
+  addValue: Ajouter nouvelle valeur
+  ascending: Ascendant
+  attachmentFileInfo: '(Taille de fichier : {{0}}, téléversé {{1}})'
+  attributes: Attributs
+  back: Retour
+  backWithoutSave: Retour (sans enregistrer)
+  block: Bloc
+  browse: Naviguer
+  buttons: Boutons
+  cancel: Annuler
+  clear: Vider
+  clone: Cloner
+  close: Fermer
+  create: Créer
+  delete: Supprimer
+  default: Défaut
+  restore: Restaurer
+  descending: Descendant
   description: Description
-  download: Download
-  dropFiles: Click or drop files here to upload
-  edit: Edit
-  enabled: Enabled
-  export: Export
-  fileTypeNotAllowed: File type not allowed
-  general: General
-  handle: Handle
-  here: here
-  home: Home
-  import: Import
-  all: All
-  importPlaceholder: Upload files to import
-  loading: Loading
-  makeDefault: Make default
-  moduleName: Module name
-  multi: Multi
-  name: Name
-  next: Next
+  download: Télécharger
+  dropFiles: Cliquez ou déposez ici des fichiers pour téléverser
+  edit: Éditer
+  enabled: Activé
+  export: Exporter
+  fileTypeNotAllowed: Type de fichier non autorisé
+  general: Général
+  handle: Identifiant
+  here: ici
+  home: Accueil
+  import: Importer
+  all: Tous
+  importPlaceholder: Téléverser des fichiers pour importer
+  loading: Chargement
+  makeDefault: Rendre par défaut
+  moduleName: Nom de module
+  multi: Valeurs multiples
+  name: Nom
+  next: Suivant
   no: No
-  noHandle: No handle
-  none: None
-  now: Now
+  noHandle: Pas d'identifiant
+  none: Aucun
+  now: Maintenant
   ok: Ok
   page: Page
-  pageLayout: Page layout
-  pageBuilder: Page builder
+  pageLayout: Disposition de page
+  pageBuilder: Constructeur de page
   permissions: Permissions
-  private: Private
-  privacy: Privacy
-  processing: Processing...
-  record: Record
-  recordPage: Record page
-  field: Field
-  remove: Remove
-  removeDefault: Remove default
-  required: Required
-  reset: Reset
-  sensitive: Sensitive
-  save: Save
-  saveAndClose: Save and close
-  saveAsCopy: Save as copy
-  status: Status
+  private: Privé
+  privacy: Confidentialité
+  processing: Traitement...
+  record: Élément
+  recordPage: Page d'élément
+  field: Champ
+  remove: Supprimer
+  removeDefault: Supprimer valeur par défaut
+  required: Obligatoire
+  reset: Réinitialiser
+  sensitive: Sensible
+  save: Enregistrer
+  saveAndClose: Enregistrer et fermer
+  saveAsCopy: Dupliquer
+  status: Statut
   timeHour: '{{t}}h'
   timeMinute: '{{t}}min'
-  today: Today
-  title: Title
+  today: Aujourd'hui
+  title: Titre
   type: Type
-  updatedAt: Updated at
-  uploadError: 'Issue with file upload: "{{message}}"'
-  uploading: Uploading
-  unsavedChanges: Unsaved Changes
+  updatedAt: Mis à jour à
+  uploadError: 'Problème lors de l''import de fichier : "{{message}}"'
+  uploading: Téléversement
+  unsavedChanges: Changements non enregistrés
   urlPlaceholder: https://example.tld
   validation: Validation
-  view: View
+  view: Afficher
   yes: Yes
   chart:
-    single: Chart
-    plural: Charts
+    single: Graphique
+    plural: Graphiques
   namespace:
     single: Namespace
     plural: Namespaces
@@ -108,110 +108,110 @@ label:
     single: Module
     plural: Modules
 navigation:
-  chart: Charts
+  chart: Graphiques
   namespace: Namespaces
   module: Modules
   page: Pages
-  pageLayout: Page Layouts
+  pageLayout: Dispositions de page
 placeholder:
-  handle: handle (a - z, 0 - 9, underscore, dash)
-  sample: Sample
+  handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+  sample: Échantillon
 reminder:
-  add: Add a reminder
-  dismiss: Dismiss
-  dismissed: Dismissed
-  dismissedAt: Dismissed at
-  undismiss: Undismiss
-  delete: Delete reminder
-  recordPageLink: View record
+  add: Ajouter un rappel
+  dismiss: Rejeter
+  dismissed: Rejeté
+  dismissedAt: Rejeté à
+  undismiss: Annuler rejet
+  delete: Supprimer rappel
+  recordPageLink: Afficher élément
   edit:
-    label: Edit reminder
-    assigneeLabel: Assignee
-    assigneePlaceholder: Myself (default)
+    label: Éditer rappel
+    assigneeLabel: Attributaire
+    assigneePlaceholder: Moi-même (par défaut)
     notesLabel: Notes
     notesPlaceholder: Notes
-    remindAtLabel: Remind me at
-    remindAtNone: Never
-    titleLabel: Title
-    titlePlaceholder: Title
-  listLabel: Reminders
-  routesTo: Label for page link
+    remindAtLabel: Me rappeler à
+    remindAtNone: Jamais
+    titleLabel: Titre
+    titlePlaceholder: Titre
+  listLabel: Rappels
+  routesTo: Étiquette pour le lien de page
   snooze:
-    label: Snooze
-    count: Snooze count {{count}}
+    label: Répétition
+    count: Nombre de répétitions {{count}}
 tooltip:
-  dragAndDrop: Drag and drop to change order
+  dragAndDrop: Glisser et déposer pour changer l'ordre
 fieldKinds:
   Bool:
-    label: Checkbox (Y/N)
+    label: Case à cocher (O/N)
   DateTime:
-    label: Date and time
+    label: Date et heure
   Email:
-    label: Email input
+    label: Entrée courriel
   File:
-    label: File upload
+    label: Import de fichier
   Number:
-    label: Number input
+    label: Entrée numérique
   Record:
-    label: Record selector
+    label: Sélecteur d'élément
   Select:
-    label: Select / dropdown
+    label: Liste déroulante
   String:
-    label: Text input (string)
+    label: Entrée textuel
   Url:
-    label: URL input
+    label: Entrée URL
   User:
-    label: User selector
+    label: Sélecteur d'utilisateur
   Geometry:
-    label: Location
+    label: Localisation
 field:
-  selectAll: Select all
+  selectAll: Sélectionner tout
   tooltip:
-    permissions: Field permissions
-  unselectAll: Unselect all
+    permissions: Permissions de champ
+  unselectAll: Désélectionner tout
   kind:
     user:
-      suggestionPlaceholder: Start typing to search for users by email or name
+      suggestionPlaceholder: Commencez à taper pour rechercher des utilisateurs par e-mail ou par nom
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: Introuvable
+  noItems: Aucun élément à afficher
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
+    next: Suivant
+    prev: Précédent
+    showing: '{{from}} - {{to}} sur {{count}} {{data}}'
+    single_one: '1 {{data}}'
     single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
+    recordsPerPage: Par Page
 recordNavigation:
-  next: Next record
-  prev: Previous record
+  next: Élément suivant
+  prev: Élément précédent
 variants:
-  primary: Primary
-  secondary: Secondary
-  light: Light
-  dark: Dark
+  primary: Primaire
+  secondary: Secondaire
+  light: Clair
+  dark: Sombre
   info: Info
-  success: Success
+  success: Succès
   danger: Danger
-  warning: Warning
+  warning: Avertissement
 editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
+  unsavedChanges: Les changements non enregistrés seront perdus. Voulez-vous vraiment quitter la page ?
 webcam:
   title: Webcam
-  tooltip: Open webcam to capture photo
+  tooltip: Ouvrir la webcam pour capturer une photo
   buttons:
-    cancel: Cancel
-    capture: Capture photo
-    confirm: Upload photo
+    cancel: Annuler
+    capture: Capturer une photo
+    confirm: Importé une photo
   errors:
-    camera: Unable to access the camera. Please make sure you have granted camera permissions.
+    camera: Impossible d'accéder à la caméra. Merci d'autorisé à l'accès à la caméra.
 record:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to close the record?
+  unsavedChanges: Les changements non enregistrés seront perdus. Voulez-vous vraiment fermer l'élément ?
 themes:
   labels:
-    light: Light
-    dark: Dark
+    light: Clair
+    dark: Sombre
 extendSession:
   labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    extend: Étendre la session
+    warning: Vous serez déconnecté(e) dans {{ countdownTime }} secondes

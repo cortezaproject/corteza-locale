@@ -1,21 +1,20 @@
 template:
-  title: Log in to continue
   form:
     email:
-      label: Email
+      label: البريد الالكتروني
       placeholder: email@domain.tld
     password:
-      label: Password
-      placeholder: password
+      label: كلمة المرور
+      placeholder: كلمة المرور
     button:
-      login-and-remember: Log in and remember me
-      login: Log in
-      continue: Continue
+      login-and-remember: سجل الدخول و تذكرني
+      login: تسجيل الدخول
+      continue: استمرار
   links:
-    request-password-reset: Forgot your password?
-    signup: Create a new account
+    request-password-reset: نسيت كلمة المرور؟
+    signup: إنشاء حساب جديد
     external:
-      login-with: Login with {{idp}}
+      login-with: تسجيل الدخول بواسطة {{idp}}
 alerts:
-  logged-in: You are now logged-in
-  local-disabled: Local accounts disabled
+  logged-in: أنت الآن مسجل الدخول
+  local-disabled: الحسابات المحلية معطلة

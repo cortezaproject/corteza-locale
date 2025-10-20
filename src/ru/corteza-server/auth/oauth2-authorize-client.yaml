@@ -1,14 +1,10 @@
 template:
-  title: Authorize
+  title: Разрешить
   form:
-    greeting-paragraph: Hello
-    question-for-client: would like to perform actions on this Corteza server on your behalf.
+    greeting-paragraph: Привет
+    question-for-client: хотел бы выполнять действия на этом сервере Corteza от вашего имени.
     buttons:
-      allow: Allow
-      deny: Deny
-  links:
-    mistake: If this is a mistake, please <a data-test-id="link-logout" href="{{link}}">log out</a>.
+      allow: Разрешать
+      deny: Запретить
   errors:
-    invalid-user: Cannot continue with unauthorized email, visit <a data-test-id="link-redirect-to-profile" href="{{link}}">your profile</a> and resolve the issue.
-alerts:
-  denied: 'Failed to authorize {{client}}: insufficient permissions'
+    invalid-user: Невозможно продолжить работу с неподтвержденной электронной почтой, посетите <a data-test-id="link-redirect-to-profile" href="{{link}}">ваш профиль</a> для продолжения.

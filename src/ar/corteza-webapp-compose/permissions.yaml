@@ -1,241 +1,165 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
-  label: Permissions
-  notification:
-    save:
-      success: Permissions saved
-      failed: Failed to save permissions
+  save: حفظ التغييرات
+  cancel: الغاء
+  set-for: ضبط الصلاحيات لـ {{target}}
+  loading: تحميل الصلاحيات
+  label: الصلاحيات
   edit:
-    label: User roles
-    description: Select role to set permissions
-  evaluate:
-    description: Evaluate applied permissions
+    label: أدوار المستخدمين
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: أضف
+    save: حفظ وإغلاق
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: ادوار
     user:
-      label: Users
-      placeholder: Search or select a user
-  tooltip:
-    unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      label: مستخدمين
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: سماح
+    inherit: يرث
+    deny: منع
 resources:
   compose:
     namespace:
       all: all namespaces
       specific: namespace "{{target}}"
-      tooltip: Namespace permissions
       operations:
         read:
-          description: ""
-          specific: Read namespace "{{target}}"
-          title: Read any namespace
+          specific: قراءة مساحة الاسم "{{target}}"
+          title: اقرأ أي مساحة اسم
         update:
-          description: ""
-          specific: Update namespace "{{target}}"
-          title: Update any namespace
+          specific: تحديث مساحة الاسم "{{target}}"
+          title: تحديث أي namespace
         delete:
-          description: ""
-          specific: Delete namespace "{{target}}"
-          title: Delete any namespace
+          specific: حذف مساحة الاسم "{{target}}"
+          title: حذف أي namespace
         manage:
-          description: Allow access to namespace's admin pages
-          specific: Manage namespace "{{target}}"
-          title: Manage any namespace
-        export:
-          description: ""
-          specific: Export namespace "{{target}}"
-          title: Export any namespace
+          description: السماح بالوصول إلى صفحات مسؤول مساحة الاسم
+          specific: إدارة مساحة الاسم "{{target}}"
+          title: تحكم أي namespace
         module.create:
-          description: ""
-          specific: Create modules under namespace "{{target}}"
-          title: Create modules under any namespace
-        modules.export:
-          description: ""
-          specific: Export modules in namespace "{{target}}"
-          title: Export modules in any namespace
+          specific: إنشاء وحدات ضمن مساحة الاسم "{{target}}"
+          title: انشاء رسم بياني تحت أي namespace
         modules.search:
-          description: ""
-          specific: List and search modules under namespace "{{target}}"
-          title: List and search modules under any namespace
+          specific: سرد وحدات البحث النمطية ضمن مساحة الاسم "{{target}}"
+          title: قائمة والبحث عن السجلات تحت أي namespace
         page.create:
-          description: ""
-          specific: Create pages under namespace "{{target}}"
-          title: Create pages under any namespace
+          specific: إنشاء صفحات ضمن مساحة الاسم "{{target}}"
+          title: انشاء رسم بياني تحت أي namespace
         pages.search:
-          description: ""
-          specific: List and search pages under namespace "{{target}}"
-          title: List and search pages under any namespace
-        pages.export:
-          description: ""
-          specific: Export pages in namespace "{{target}}"
-          title: Export pages in any namespace
+          specific: سرد صفحات البحث ضمن مساحة الاسم "{{target}}"
+          title: قائمة والبحث عن السجلات تحت أي namespace
         chart.create:
-          description: ""
-          specific: Create charts under namespace "{{target}}"
-          title: Create charts under any namespace
+          specific: إنشاء مخططات ضمن مساحة الاسم "{{target}}"
+          title: انشاء ريم بياني تحت أي namespace
         charts.search:
-          description: ""
-          specific: List and search charts under namespace "{{target}}"
-          title: List and search charts under any namespace
-        charts.export:
-          description: ""
-          specific: Export charts in namespace "{{target}}"
-          title: Export charts in any namespace
+          specific: قائمة والبحث في المخططات ضمن مساحة الاسم "{{target}}"
+          title: قائمة والبحث عن السجلات تحت أي namespace
     chart:
-      all: all charts
-      specific: chart "{{target}}"
-      tooltip: Chart permissions
+      all: كل الرسوم البيانية
+      specific: مخطط "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete chart "{{target}}"
-          title: Delete any chart
+          description: 'الافتراضي: رفض'
+          specific: حذف الرسم البياني "{{target}}"
+          title: حذف اي رسم
         read:
-          description: 'Default: deny'
-          specific: Read chart "{{target}}"
-          title: Read any chart
+          description: 'الافتراضي: رفض'
+          specific: قراءة الرسم البياني "{{target}}"
+          title: قراءة اي تقرير
         update:
-          description: 'Default: deny'
-          specific: Update chart "{{target}}"
-          title: Update any chart
+          description: 'الافتراضي: رفض'
+          specific: تحديث الرسم البياني "{{target}}"
+          title: تحديث اي رسم
     module:
-      all: all modules
-      specific: module "{{target}}"
-      tooltip: Module permissions
+      all: كل الوحدات
+      specific: وحدة "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete module "{{target}}"
-          title: Delete any module
+          description: 'الافتراضي: رفض'
+          specific: حذف الوحدة "{{target}}"
+          title: حذف اي موديول
         read:
-          description: 'Default: deny'
-          specific: Read module "{{target}}"
-          title: Read any module
+          description: 'الافتراضي: رفض'
+          specific: قراءة الوحدة النمطية "{{target}}"
+          title: اقرأ اي موديول
         record.create:
-          description: 'Default: deny'
-          specific: Create record of module "{{target}}"
-          title: Create record of any module
+          description: 'الافتراضي: رفض'
+          specific: إنشاء سجل للوحدة "{{target}}"
+          title: إنشاء سجل لأي وحدة
         records.search:
-          description: 'Default: deny'
-          specific: List and search records of module "{{target}}"
-          title: List and search records of any module
+          description: 'الافتراضي: رفض'
+          specific: قائمة وسجلات البحث للوحدة "{{target}}"
+          title: قائمة والبحث عن سجلات أي وحدة
         update:
-          description: 'Default: deny'
-          specific: Update module "{{target}}"
-          title: Update any module
+          description: 'الافتراضي: رفض'
+          specific: تحديث الوحدة "{{target}}"
+          title: تحديث أي موديول
         'owned-record.create':
-          description: 'Default: deny'
-          specific: Manage owner when creating record for module "{{target}}"
-          title: Manage owner when creating record for any module
-          all-specific: Manage owner when creating record for module "{{ target }}"
+          description: 'الافتراضي: رفض'
     module-field:
-      all: all module fields
-      specific: field "{{target}}"
-      all-specific: all module fields of module "{{ target }}"
-      tooltip: Module field permissions
+      all: جميع حقول الوحدة
+      specific: الحقل "{{target}}"
+      all-specific: جميع حقول الوحدة النمطية "{{ target }}"
       operations:
         record.value.read:
-          description: 'Default: deny'
-          specific: 'Read "{{target}}" record fields '
-          title: Read record fields of any module
-          all-specific: Read record fields of module "{{ target }}"
+          description: 'الافتراضي: رفض'
+          specific: 'اقرأ حقول التسجيل "{{target}}" '
+          title: قراءة حقول التسجيل لأي وحدة
+          all-specific: قراءة حقول التسجيل للوحدة النمطية "{{ target }}"
         record.value.update:
-          description: 'Default: deny'
-          specific: 'Update "{{target}}" record field values'
-          title: Update record field values of any module
-          all-specific: Update record field values of module "{{ target }}"
+          description: 'الافتراضي: رفض'
     page:
-      all: all pages
-      specific: page "{{target}}"
-      tooltip: Page permissions
+      all: كل الصفحات
+      specific: الصفحة "{{target}}"
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete page "{{target}}"
-          title: Delete any page
+          description: 'الافتراضي: رفض'
+          specific: حذف الصفحة "{{target}}"
+          title: حذف اي صفحة
         read:
-          description: 'Default: deny'
-          specific: Read page "{{target}}"
-          title: Read any page
+          description: 'الافتراضي: رفض'
+          specific: قراءة الصفحة "{{target}}"
+          title: اقرأ اي صفحة
         update:
-          description: 'Default: deny'
-          specific: Update page "{{target}}"
-          title: Update any page
+          description: 'الافتراضي: رفض'
+          specific: تحديث الصفحة "{{target}}"
+          title: تحديث أي صفحة
         page-layout.create:
-          description: 'Default: deny'
-          specific: Create page layouts for page "{{target}}"
-          title: Create page layout
+          description: 'الافتراضي: رفض'
         page-layouts.search:
-          description: 'Default: deny'
-          specific: List page layouts for page "{{target}}"
-          title: List page layout
+          description: 'الافتراضي: رفض'
     page-layout:
-      all: all page layouts
-      specific: page layout "{{target}}"
-      tooltip: Page layout permissions
-      all-specific: all page layouts of page "{{ target }}"
       operations:
         read:
-          description: 'Default: deny'
-          specific: Read page layout "{{target}}"
-          title: Read any page layout
-          all-specific: Read page layouts of page "{{ target }}"
+          description: 'الافتراضي: رفض'
         update:
-          description: 'Default: deny'
-          specific: Update page layout "{{target}}"
-          title: Update any page layout
-          all-specific: Update page layouts of page "{{ target }}"
+          description: 'الافتراضي: رفض'
         delete:
-          description: 'Default: deny'
-          specific: Delete page layout "{{target}}"
-          title: Delete any page layout
-          all-specific: Delete page layouts of page "{{ target }}"
+          description: 'الافتراضي: رفض'
     record:
-      all: all records
-      specific: record "{{target}}"
-      all-specific: all records of module "{{ target }}"
-      tooltip: Record permissions
+      all: كل السجلات
+      specific: سجل "{{target}}"
+      all-specific: كافة سجلات الوحدة "{{ target }}"
+      tooltip: أذونات التسجيل
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete record "{{target}}"
-          title: Delete records of any module
-          all-specific: Delete records of module "{{ target }}"
+          description: 'الافتراضي: رفض'
+          specific: حذف السجل "{{target}}"
+          title: حذف سجلات أي وحدة
+          all-specific: حذف سجلات الوحدة "{{ target }}"
         undelete:
-          description: 'Default: deny'
-          specific: Restore record "{{target}}"
-          title: Restore records of any module
-          all-specific: Restore records of module "{{ target }}"
+          description: 'الافتراضي: رفض'
         read:
-          description: 'Default: deny'
-          specific: Read record "{{target}}"
-          title: Read records of any module
-          all-specific: Read records of module "{{ target }}"
+          description: 'الافتراضي: رفض'
+          specific: قراءة السجل "{{target}}"
+          title: قراءة سجلات أي وحدة
+          all-specific: قراءة سجلات الوحدة "{{ target }}"
         update:
-          description: 'Default: deny'
-          specific: Update record "{{target}}"
-          title: Update records of any module
-          all-specific: Update records of module "{{ target }}"
+          description: 'الافتراضي: رفض'
+          specific: تحديث السجل "{{target}}"
+          title: تحديث سجلات أي وحدة
+          all-specific: تحديث سجلات الوحدة "{{ target }}"
         'owner.manage':
-          description: 'Default: deny'
-          specific: Manage owner of record "{{target}}"
-          title: Manage record owners of any module
-          all-specific: Manage record owners of module "{{ target }}"
+          description: 'الافتراضي: رفض'
         'revisions.search':
-          description: 'Default: deny'
-          specific: Access revisions of record "{{target}}"
-          title: Access record revisions
-          all-specific: Access record revisions
+          description: 'الافتراضي: رفض'

@@ -1,56 +1,37 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
-  label: Permissions
-  notification:
-    save:
-      success: Permissions saved
-      failed: Failed to save permissions
+  save: حفظ التغييرات
+  cancel: الغاء
+  set-for: ضبط الصلاحيات لـ {{target}}
+  loading: تحميل الصلاحيات
+  label: الصلاحيات
   edit:
-    label: User roles
-    description: Select role to set permissions
-  evaluate:
-    description: Evaluate applied permissions
+    label: أدوار المستخدمين
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: أضف
+    save: حفظ وإغلاق
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: ادوار
     user:
-      label: Users
-      placeholder: Search or select a user
-  tooltip:
-    unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      label: مستخدمين
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: سماح
+    inherit: يرث
+    deny: منع
 resources:
   system:
     report:
-      all: all reports
-      specific: report "{{target}}"
-      tooltip: Report permissions
+      all: كل التقارير
+      specific: تقرير "{{target}}"
       operations:
         delete:
-          description: ""
-          specific: Delete report "{{target}}"
-          title: Delete any report
+          specific: حذف تقرير "{{target}}"
+          title: حذف اي تقرير
         read:
-          description: ""
-          specific: Read report "{{target}}"
-          title: Read any report
+          specific: قراءة التقرير "{{target}}"
+          title: اقرأ اي تقرير
         run:
-          description: ""
-          specific: Run report "{{target}}"
-          title: Run any report
+          specific: تشغيل تقرير "{{target}}"
+          title: تشغيل اي تقرير
         update:
-          description: ""
-          specific: Update report "{{target}}"
-          title: Update any report
+          specific: تحديث تقرير "{{target}}"
+          title: تحديث أي تقرير

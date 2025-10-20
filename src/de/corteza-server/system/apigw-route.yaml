@@ -1,13 +1,12 @@
 errors:
-  alreadyExists: route by that endpoint already exists
-  existsEndpoint: route with this endpoint already exists
-  invalidEndpoint: invalid endpoint
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create a route
-  notAllowedToDelete: not allowed to delete this route
-  notAllowedToExec: not allowed to execute this route
-  notAllowedToRead: not allowed to read this route
-  notAllowedToUndelete: not allowed to undelete this route
-  notAllowedToUpdate: not allowed to update this route
-  notAllowedToSearch: not allowed to list or search routes
-  notFound: route not found
+  alreadyExists: Route über diesen Endpunkt bereits vorhanden
+  existsEndpoint: Route mit diesem Endpunkt bereits vorhanden
+  invalidEndpoint: ungültiger Endpunkt
+  invalidID: ungültige ID
+  notAllowedToCreate: Erstellen von Routen ist nicht zulässig
+  notAllowedToDelete: diese Route kann nicht gelöscht werden
+  notAllowedToExec: diese Route kann nicht ausgeführt werden
+  notAllowedToRead: diese Route kann nicht gelesen werden
+  notAllowedToUndelete: diese Route kann nicht wiederhergestellt werden
+  notAllowedToUpdate: diese Route kann nicht aktualisiert werden
+  notFound: Route nicht gefunden

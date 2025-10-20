@@ -1,11 +1,9 @@
 errors:
-  asyncRouteTooManyProcessers: processer already exists for this async route
-  asyncRouteTooManyAfterFilters: no after filters are allowd for this async route
-  invalidID: invalid ID
-  invalidRoute: invalid route
-  notAllowedToCreate: not allowed to create a filter
-  notAllowedToDelete: not allowed to delete this filter
-  notAllowedToRead: not allowed to read this filter
-  notAllowedToUndelete: not allowed to undelete this filter
-  notAllowedToUpdate: not allowed to update this filter
-  notFound: filter not found
+  invalidID: ID inválida
+  invalidRoute: rota inválida
+  notAllowedToCreate: não é permitido criar um filtro
+  notAllowedToDelete: não tem permissão para excluir este filtro
+  notAllowedToRead: não é permitido ler este filtro
+  notAllowedToUndelete: não é permitido recuperar este filtro
+  notAllowedToUpdate: não é permitido atualizar este filtro
+  notFound: filtro não encontrado

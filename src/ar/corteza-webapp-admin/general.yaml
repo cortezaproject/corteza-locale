@@ -1,68 +1,40 @@
 label:
-  add: Add
+  add: أضف
   general:
     yes: Yes
     no: No
   template:
-    single: Template
-    plural: Templates
+    plural: القوالب
   user:
-    single: User
-    plural: Users
+    single: مستخدم
+    plural: مستخدمين
   role:
-    single: Role
-    plural: Roles
+    plural: ادوار
   application:
-    single: Application
-    plural: Applications
+    plural: التطبيقات
   auth_client:
-    single: Auth Client
     plural: Auth Clients
   queue:
-    single: Messaging Queue
-    plural: Messaging Queues
-  route:
-    single: Route
-    plural: Routes
-  connection:
-    single: Database Connection
-    plural: Database Connections
-  sensitivity_level:
-    single: Sensitivity Level
-    plural: Sensitivity Levels
+    plural: قوائم الارسال
   session:
-    single: Session
-    plural: Sessions
+    single: الجلسة
+    plural: جلسات
   workflow:
-    single: Workflow
-    plural: Workflows
-  plus-add: + Add
-  clear: Clear
-  all: All
-  none: None
-  now: Now
-  today: Today
-  routes: Routes
-  requests: Requests
-  refresh: Refresh
-  loadMore: Load more
-  loading: Loading
-  saveAndClose: Save and close
-  cancel: Cancel
-  submit: Submit
-  delete: Delete
-  undelete: Undelete
-  fileTypeNotAllowed: File type not allowed
-editor:
-  unsavedChanges: Unsaved changes will be lost. Do you wish to leave the page?
-resourceList:
-  pagination:
-    recordsPerPage: Per page
+    single: سيور عمل
+    plural: سيور عمل
+  plus-add: +أضف
+  all: الكل
+  none: لايوجد
+  today: اليوم
+  requests: الطلبات
+  loading: تحميل
+  saveAndClose: احفظ وأغلق
+  cancel: الغاء
+  submit: إرسال
+  delete: حذف
+  undelete: استعادة
+  fileTypeNotAllowed: نوع الملف غير مسموح
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: فاتح
+    dark: غامق

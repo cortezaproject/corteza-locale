@@ -1,14 +1,12 @@
 errors:
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create auth clients
-  notAllowedToDelete: not allowed to delete this auth client
-  notAllowedToRead: not allowed to read this auth client
-  notAllowedToSearch: not allowed to search or list auth clients
-  notAllowedToUndelete: not allowed to undelete this auth client
-  notAllowedToUpdate: not allowed to update this auth client
-  notFound: auth client not found
-  unableToChangeDefaultClientHandle: unable to change the handle of the default auth client
-  unableToDeleteDefaultClient: unable to delete the default auth client
-  unableToDisableDefaultClient: unable to disable the default auth client
-  unknownGrantType: unknown grant type
-  unknownScope: unknown scope
+  invalidID: ID inválida
+  notAllowedToCreate: não tem permissão para criar clientes de autenticação
+  notAllowedToDelete: não tem permissão para excluir este cliente de autenticação
+  notAllowedToRead: não tem permissão para ler este cliente de autenticação
+  notAllowedToSearch: não tem permissão para pesquisar ou listar clientes de autenticação
+  notAllowedToUndelete: não é permitido recuperar este cliente de autenticação
+  notAllowedToUpdate: não tem permissão para atualizar este cliente de autenticação
+  notFound: cliente de autenticação não encontrado
+  unableToChangeDefaultClientHandle: incapaz de alterar o identificador do cliente de autenticação padrão
+  unableToDeleteDefaultClient: incapaz de excluir o cliente de autenticação padrão
+  unableToDisableDefaultClient: incapaz de desabilitar o cliente de autenticação padrão

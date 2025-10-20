@@ -1,23 +1,23 @@
-add: Add
-aggregate: Aggregate
+add: Добавить
+aggregate: Суммарный
 compose-records: Compose records
-datasource-name: 'Datasource Name...'
-expression: Expression
-group-by: Group by
-label: Label
-module: Module
-name-required: Name *
-name: Name
-namespace: Namespace
+datasource-name: 'Имя источника данных'
+expression: Выражение
+group-by: Группировать
+label: Надпись
+module: Модули
+name-required: Имя *
+name: Имя
+namespace: Пространство имен
 new:
-  label: New label
-  name: New name
-none: None
-prefilter: Prefilter
+  label: Новая надпись
+  name: Новое имя
+none: Нет
+prefilter: Предварительный фильтр
 primary:
-  column: Primary Column
-  source: Primary Source
+  column: Основной столбец
+  source: Основной источник
 secondary:
   column: Secondary Column
   source: Secondary Source
-source: Source
+source: Источник
