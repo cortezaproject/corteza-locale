@@ -1,140 +1,79 @@
 chart:
   configurator:
-    begin-axis-at-zero: Always begin axis scale at zero
-    chart-title: Chart title
-    color-scheme: Color scheme
-    data: Data
-    data-columns: Data columns
-    default: Default
-    default-value: Default value
-    general: General
-    label-column: Label column
-    logarithmic-scale: Logarithmic scale
-    position-description: Values can be set as pixels (20) or as percentages (20%)
-    none: None
-    place-axis-on-right-side: Place axis on the right side
-    skip-missing-values: Skip missing values
-    step-size: Step size
-    animation:
-      enabled: Animation enabled
+    begin-axis-at-zero: Всегда начинать масштаб оси с нуля
+    color-scheme: Цветовая схема
+    default-value: Значение по умолчанию
+    general: Главный
+    logarithmic-scale: Логарифмическая шкала
+    none: Нет
+    place-axis-on-right-side: Разместите ось с правой стороны
+    skip-missing-values: Пропустить отсутствующие значения
     metrics:
-      label: Metrics
-      field: Field
-      stack:
-        label: Stack
-        description: Metrics with same value will be stacked
+      label: Показатели
+      field: Поле
       label-field:
-        label: Label
+        label: Лейбл
     time:
-      label: Time
       unit:
-        label: Time unit
         types:
-          date: Date
-          month: Month
-          quarter: Quarter
-          week: Week
-          year: Year
-    type: Type
+          month: Месяц
+          week: Неделя
+    type: Тип
     types:
-      bar: Bar
-      doughnut: Doughnut
-      funnel: Funnel
-      line: Line
-      pie: Pie
+      bar: Столбец
+      doughnut: Тор
+      line: Линия
+      pie: Прямоугольник
     value:
-      max: Max value
-      min: Min value
+      max: Максимум
+      min: Минимум
     x-axis:
-      name: X-Axis
-      label: Axis label
-      type: Axis type
-      labelRotation:
-        label: Rotate labels
+      label: Метка оси
     y-axis:
-      name: Y-Axis
-      label: Axis label
+      label: Метка оси
       labelPosition:
-        label: Label position
-        top: Top
-        center: Center
-        bottom: Bottom
-      labelRotation:
-        label: Rotate labels
+        top: Наверх
+        bottom: Вниз
     legend:
-      name: Legend
-      hide: Hide legend
-      scrollable: Scrollable
-      orientation:
-        label: Orientation
-        horizontal: Horizontal
-        vertical: Vertical
       align:
-        label: Align
-        left: Left
-        right: Right
-        center: Center
+        left: Налево
+        right: Направо
       position:
-        description: Values c
-        default: Default position
-        top: Top
-        right: Right
-        bottom: Bottom
-        left: Left
-    tooltips:
-      name: Tooltips
-      show:
-        always: Always show labels
+        top: Наверх
+        right: Направо
+        bottom: Вниз
+        left: Налево
     offset:
-      name: Offset
-      default: Default offset
-      top: Top
-      right: Right
-      bottom: Bottom
-      left: Left
+      top: Наверх
+      right: Направо
+      bottom: Вниз
+      left: Налево
 metric:
   configurator:
     color:
-      background: Background color
-      text: Text color
-      picker: Choose a color
-    format: Format
-    label-column: Label column
-    none: None
-    prefix: Prefix
-    suffix: Suffix
+      background: Цвет заднего фона
+      text: Цвет текста
+    format: Формат
+    none: Нет
+    prefix: Префикс
+    suffix: Суффикс
 table:
   configurator:
-    general: General
-    data: Data
-    columns: Columns
-    dark: Dark
-    head-variant: Head Variant
-    joined-datasource-handling: Joined datasource handling
-    light: Light
-    none: None
+    general: Главный
+    dark: Темная
+    light: Светлая
+    none: Нет
     table:
       options:
-        bordered: Bordered
-        borderless: Borderless
-        dark: Dark
-        fixed: Fixed
-        hover: Hover
-        label: Table Options
-        no-collapse: No border collapse
-        responsive: Responsive
-        small: Small
-        striped: Striped
-      variant: Table Variant
+        dark: Темная
       variants:
-        danger: Danger
-        dark: Dark
-        info: Info
-        light: Light
-        primary: Primary
-        secondary: Secondary
-        success: Success
-        warning: Warning
+        danger: Внимание
+        dark: Темная
+        light: Светлая
+        primary: Начальный
+        secondary: Второй
+        success: Успешно
+        warning: Предупреждение
   view:
-    next: Next
-    previous: Previous
+    next: Следующий
+    previous: предыдущий
