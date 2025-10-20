@@ -1,16 +1,16 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  invalidNamespaceID: invalid or missing namespace ID
+  handleNotUnique: handle  не уникален
+  invalidHandle: Неверный handle
+  invalidID: неверный ID
+  invalidNamespaceID: неверное или отсутствующее пространство имен ID
   moduleNotFound: module does not exist
   namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create charts
-  notAllowedToDelete: not allowed to delete this chart
-  notAllowedToRead: not allowed to read this chart
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list charts
-  notAllowedToUndelete: not allowed to undelete this chart
-  notAllowedToUpdate: not allowed to update this chart
+  notAllowedToCreate: не разрешено создавать отчет
+  notAllowedToDelete: не разрешено удалять этот отчет
+  notAllowedToRead: не разрешено читать этот отчет
+  notAllowedToReadNamespace: не разрешено читать это пространство имен
+  notAllowedToSearch: не разрешено искать или перечислять отчеты
+  notAllowedToUndelete: не разрешено восстанавливать этот отчет
+  notAllowedToUpdate: не разрешено обновлять этот отчет
   notFound: chart does not exist
-  staleData: stale data
+  staleData: устаревшие данные
