@@ -1,16 +1,16 @@
 errors:
-  disabled: disabled workflow or trigger
-  handleNotUnique: workflow handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create workflows
-  notAllowedToDelete: not allowed to delete this workflow
-  notAllowedToExecute: not allowed to execute this workflow
-  notAllowedToExecuteCorredorStep: not allowed to run corredorExec function, corredor is disabled
-  notAllowedToRead: not allowed to read this workflow
-  notAllowedToSearch: not allowed to search or list workflows
-  notAllowedToUndelete: not allowed to undelete this workflow
-  notAllowedToUpdate: not allowed to update this workflow
-  notFound: workflow not found
-  staleData: stale data
-  unknownWorkflowStep: unknown workflow step
+  disabled: отключенный рабочий процесс или триггер
+  handleNotUnique: дескриптор рабочего процесса не уникален
+  invalidHandle: Неверный handle
+  invalidID: неверный ID
+  notAllowedToCreate: не разрешено создавать рабочий процесс
+  notAllowedToDelete: не разрешено удалять  рабочий процесс
+  notAllowedToExecute: не разрешено выполнять рабочий процесс
+  notAllowedToExecuteCorredorStep: не разрешено запускать функцию corredorExec, corredor отключен
+  notAllowedToRead: не разрешено читать рабочий процесс
+  notAllowedToSearch: не разрешено искать или перечислять рабочий процесс
+  notAllowedToUndelete: не разрешено восстанавливать рабочий процесс
+  notAllowedToUpdate: не разрешено обновлять рабочий процесс
+  notFound: ' рабочий процесс не найден'
+  staleData: устаревшие данные
+  unknownWorkflowStep: неизвестный шаг рабочего процесса
