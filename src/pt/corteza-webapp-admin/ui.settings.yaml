@@ -1,87 +1,42 @@
 editor:
-  title: User Interface Settings
+  title: Configurações da interface do usuário
   corteza-studio:
-    title: Theming
-    colorPicker: Choose a color
-    sassNotInstalled: No dart-sass binaries were detected. For guidance on how to set it up, refer to
-    installSassDocs: docs here
-    custom-css: Custom CSS
     mainLogo:
-      title: Main logo
+      title: Logotipo principal
       uploader:
-        instructions: Click or drop main logo here to upload
-        uploading: Uploading main logo
+        instructions: Clique ou solte o logotipo principal aqui para fazer o upload
+        uploading: Enviando logotipo principal
     iconLogo:
-      title: Icon logo
+      title: Logotipo do ícone
       uploader:
-        instructions: Click or drop icon logo image here to upload
-        uploading: Uploading icon logo
+        instructions: Clique ou solte a imagem do logotipo do ícone aqui para fazer o upload
+        uploading: Enviando o logotipo do ícone
     label:
-      default: Default
+      default: Predefinição
     tabs:
-      general: General
-      light: Light
-      dark: Dark
+      general: Em geral
+      light: Luz
+      dark: Escuro
     theme:
       variables:
-        white:
-          label: White
-          description: Element background color
-        black:
-          label: Black
-          description: Element text color
         primary:
-          label: Primary
-          description: Primary action buttons, links
+          label: Primário
         secondary:
-          label: Secondary
-          description: Disabled and placeholder text color
+          label: Secundário
         success:
-          label: Success
-          description: Success notification color
+          label: Sucesso
         warning:
-          label: Warning
-          description: Warning notification color
+          label: Aviso
         danger:
-          label: Danger
-          description: Error notification color
+          label: Perigo
         light:
-          label: Light
-          description: Secondary action buttons, table headers
-        extra-light:
-          label: Extra light
-          description: Icon buttons, borders
-        body-bg:
-          label: Body background
-          description: Background color of the application
-        sidebar-bg:
-          label: Sidebar background
-          description: Background color of the sidebar
-        topbar-bg:
-          label: Topbar background
-          description: Background color of the topbar
+          label: Luz
   topbar:
-    title: Topbar
-    general: General
-    app-selector:
-      hide: Hide app selector
+    general: Em geral
     help:
-      title: Help
-      hide: Hide help
-      hide-forum-link: Hide forum link
-      hide-documentation-link: Hide documentation link
-      hide-feedback-link: Hide feedback link
+      title: Ajuda
     profile:
-      title: Profile
-      hide: Hide profile
-      hide-profile-link: Hide profile link
-      hide-change-password-link: Hide change password link
-      hide-theme-selector: Hide theme selector
-    notifications:
-      hide: Hide notifications
+      title: Perfil
     links:
-      title: Custom links
-      handle: Name
-      invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+      handle: Nome
       url: URL
-      new-tab: New tab
