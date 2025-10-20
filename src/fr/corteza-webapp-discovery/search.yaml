@@ -1,20 +1,20 @@
 notification:
-  search-error: There was problem getting search result
-input-placeholder: Enter search query
+  search-error: Il y a eu un problème lors de la recherche
+input-placeholder: Entrez la requête de recherche
 card:
-  button-text: Show more
+  button-text: Afficher plus
   type: Type
-  handle: Handle
+  handle: Identifiant
   namespace: Namespace
   module: Module
-  user: User
-  email: Email
-  record: Record
-  fields: Fields
-range: Showing {{actual}} of {{all}} results
-discovering: Discovering
-no-results: No results
-show-more: Show more
-loading-more: Loading more
-show-map: Show map
-hide-map: Hide map
+  user: Utilisateur
+  email: Courriel
+  record: Élément
+  fields: Champs
+range: Affiche {{actual}} sur {{all}} résultats
+discovering: Découvrir
+no-results: Aucun résultat
+show-more: Afficher plus
+loading-more: Charger plus
+show-map: Afficher carte
+hide-map: Cacher carte
