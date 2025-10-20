@@ -1,51 +1,38 @@
-'configure-triggers': Make sure all trigger steps are properly configured
-'confirm-unsaved-changes': You have unsaved changes, are you sure you want to exit?
-error: " - ERROR: "
-'event-type-not-found': Event type not found
-'event-type-fetch-failed': Failed to fetch event types
-'failed-fetch-functions': Failed to fetch functions
-'failed-fetch-triggers': Failed to fetch triggers
-'failed-fetch-workflow': Failed to fetch workflow
-'failed-fetch-workflows': Failed to fetch workflows
-'failed-load-file': Failed to load file
-'failed-save': Save failed
-'failed-test': Test failed
-'fetch-types-failed': Failed to fetch types
+'event-type-fetch-failed': Échec de la récupération des types d'évènement
+'failed-fetch-functions': Échec de la récupération des fonctions
+'failed-fetch-triggers': Échec de la récupération des déclencheurs
+'failed-fetch-workflow': Échec de la récupération du processus
+'failed-fetch-workflows': Échec de la récupération des processus
+'fetch-types-failed': Échec de la récupération des types
 general:
-  error: Error
-  success: Success
-  warning: Warning
+  error: Erreur
+  success: Succès
+  warning: Avertissement
   info: Info
 list:
   load:
-    error: Failed to fetch workflows
+    error: Échec de la récupération des processus
   enable:
-    success: Workflow enabled
-    failed: Failed to enable workflow
+    success: Processus activé
+    failed: Échec de l'activation du processus
   disable:
-    success: Workflow disabled
-    failed: Failed to disable workflow
+    success: Processus désactivé
+    failed: Échec de la désactivation du processus
 import:
-  'failed-import': Failed to import
-  'imported-workflows': Workflows imported
-  'skipped-workflows': Skipped workflows
-'imported-workflow': Workflow imported
-'import-failed': Import failed
-'initial-scope-load-failed': Failed to load initial scope
-'resolve-issues': Resolve issues to test workflow
-'save-workflow': Save workflow first to test it
-'started-test': Workflow test started
-'test-completed': Test completed
-'test-in-progress': Test in progress
-'trace-unavailable': Trace not available
-'trigger-paths-changed': Trigger paths changed
-'workflow-test-completed': Workflow test completed
+  'imported-workflows': Processus importés
+  'skipped-workflows': Processus ignorés
+'imported-workflow': Processus importé
+'import-failed': Importation échouée
+'resolve-issues': Corrigez les problèmes pour tester le processus
+'save-workflow': Enregistrez le processus avant de le tester
+'started-test': Test de processus débuté
+'workflow-test-completed': Test de processus terminé
 update:
-  success: Workflow updated
-  failed: Failed to update workflow
+  success: Processus mis à jour
+  failed: Échec de la mise à jour du processus
 delete:
-  success: Workflow deleted
-  failed: Failed to delete workflow
+  success: Processus supprimé
+  failed: Échec de la suppression du processus
 undelete:
-  success: Workflow restored
-  failed: Failed to restore workflow
+  success: Processus restauré
+  failed: Échec de la restauration du processus
