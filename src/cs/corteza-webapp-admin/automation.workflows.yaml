@@ -1,60 +1,59 @@
 editor:
   info:
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    enabled: Enabled
-    handle: Handle
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+    createdAt: Čas vytvoření
+    createdBy: Vytvořeno uživatelem
+    delete: Smazat
+    deletedAt: Čas odstranění
+    enabled: Povoleno
+    handle: Identifikátor
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
     id: ID
-    name: Name *
-    openBuilder: Open builder
-    title: Basic information
-    undelete: Undelete
-    updatedAt: Updated at
-  new: New Workflow
-  permissions: Permissions
+    name: Jméno *
+    openBuilder: Otevřít editor
+    title: Základní informace
+    undelete: Obnovit smazané
+    updatedAt: Čas aktualizace
+  new: Nové workflow
+  permissions: Oprávnění
   title:
-    create: Create workflow
-    edit: Edit workflow
+    create: Vytvořit workflow
+    edit: Editovat workflow
   triggers:
-    and: and
+    and: a
     columns:
-      constraints: Constraints
-      eventType: Event
-      resourceType: Resource
-    title: Triggers
+      constraints: Omezení
+      eventType: Událost
+      resourceType: Zdroj
+    title: Spouštěče
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  delete: Delete
-  undelete: Undelete
+    createdAt: Vytvořeno
+    enabled: Povoleno
+    handle: Identifikátor
+    name: Jméno
+    state: Stav
+  delete: Smazat
+  undelete: Obnovit smazané
   export: Export
   rows:
     filters:
-      deleted: Deleted
+      deleted: Odstraněno
   filterForm:
     deleted:
-      label: deleted workflows
+      label: smazaná workflow
     excluded:
-      label: Without
+      label: Bez
     exclusive:
-      label: Only
+      label: Pouze
     inclusive:
-      label: Including
+      label: Včetně
     query:
-      label: Filter workflows list
-      placeholder: Filter workflows by name
-  loading: Loading workflows
-  new: New Workflow
-  numFound: '{{count}} workflow found'
-  numFound_plural: '{{count}} workflows found'
-  permissions: Permissions
+      label: Filtrovat seznam workflow
+      placeholder: Filtrovat workflow podle jména
+  loading: Načítání workflow
+  new: Nové workflow
+  numFound: 'Nalezeno {{count}} workflow'
+  numFound_plural: 'Nalezeno {{count}} workflow'
+  permissions: Oprávnění
   title: Workflows
   yaml: YAML
