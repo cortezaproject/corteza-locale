@@ -1,9 +1,9 @@
 template:
-  title: Authorized clients
+  title: Clientes autorizados
   list:
-    authorized-on: Authorized on
+    authorized-on: Autorizado em
     buttons:
-      revoke: Revoke access
-    empty: No authorized clients found
+      revoke: Revogar acesso
+    empty: Nenhum cliente autorizado encontrado
 alerts:
-  removed: Client authorization removed
+  removed: Autorização de cliente removida
