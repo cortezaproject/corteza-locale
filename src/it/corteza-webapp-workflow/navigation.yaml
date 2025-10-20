@@ -1,12 +1,10 @@
-appMenu: Menu
 help:
-  documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
+  documentation: Documentazione
+  feedback: Invia feedback
+  forum: Aiuto
+  version: 'Versione:'
 userSettings:
-  changePassword: Change password
-  loggedInAs: Logged in as {{user}}
-  logout: Logout
-  profile: Profile
-  theme: Theme
+  changePassword: Cambia password
+  loggedInAs: Autenticato come {{user}}
+  logout: Esci
+  profile: Profilo
