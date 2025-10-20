@@ -1,19 +1,18 @@
 applications:
-  applications: Application(s)
-  deleted: Deleted
-  title: Active application(s)
-  total: Total
+  applications: Приложения
+  deleted: Удалить
+  title: Активные приложения
+  total: Для всех
 roles:
-  archived: Archived
-  deleted: Deleted
-  roles: Role(s)
-  title: Active role(s)
-  total: Total
-title: Dashboard
+  archived: Архив
+  deleted: Удалить
+  roles: Роль
+  title: Роль активна
+  total: Для всех
+title: Доска отчетов
 users:
-  created: Created users(s)
-  deleted: Deleted
-  suspended: Suspended
-  title: Active user(s)
-  total: Total
-  users: User(s)
+  deleted: Удалить
+  suspended: Приостановить
+  title: Пользователь активен
+  total: Для всех
+  users: Пользователь
