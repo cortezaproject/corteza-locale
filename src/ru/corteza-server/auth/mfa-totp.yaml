@@ -1,25 +1,19 @@
 template:
-  title: Configure two-factor authentication with TOTP
+  title: Настройте двухфакторную аутентификацию с помощью TOTP
   enforced: |
-    TOTP multi factor authentication is enforced by Corteza administrator.
-    Please configure it right away.
+    Многофакторная аутентификация TOTP осуществляется администратором.
+    Пожалуйста, настройте его прямо сейчас.
   instructions: |
-    Corteza uses time based one time passwords (TOTP) as one of the underlying technologies for two-factor authentication. Use one of the applications listed below and type in the secret or scan the QR code.
+    Используются одноразовые пароли на основе времени (TOTP) в качестве одной из базовых технологий двухфакторной аутентификации. Используйте одно из перечисленных ниже приложений и введите секретный код или отсканируйте QR-код.
     <br />
     <br />
-    This will enable additional security for your account.
+    Это обеспечит доболнительный уровень безопасности
     <br />
     <br />
-    You can use one of the following applications:
-  lastpass: <a target="_blank" href="{{ link }}">LastPass Authenticator</a>
-  gauth: Google Authenticator for <a target="_blank" href="{{ android }}">Android</a> or <a target="_blank" href="{{ iphone }}">iPhone</a>
-  authy: <a target="_blank" href="{{ link }}">Authy</a>
+    Используйте одного из следующих поставщиков:
   form:
-    title: "Complete the configuration by entering code from the authenticator application:"
-    button: Submit
+    title: "Завершите настройку, введя код из поставщика аутентификатора:"
+    button: Применить
 alerts:
-  text-MFA-enabled: Two factor authentication with TOTP enabled
-  text-MFA-disabled: Two factor authentication with TOTP disabled
-errors:
-  invalid-code-format: "Invalid code format"
-  invalid-code: "Invalid code"
+  text-MFA-enabled: "43 / 5 000\nДвухфакторная аутентификация с  TOTP включена"
+  text-MFA-disabled: Двухфакторная аутентификация с  TOTP отключена
