@@ -1,25 +1,25 @@
 errors:
-  credentialsLinkedToInvalidUser: credentials {credentials.kind} linked to disabled or deleted user {user}
-  disabledMFAWithEmailOTP: multi factor authentication with email OTP is disabled
-  disabledMFAWithTOTP: multi factor authentication with TOTP is disabled
-  enforcedMFAWithEmailOTP: OTP over email is enforced and cannot be disabled
-  enforcedMFAWithTOTP: TOTP is enforced and cannot be disabled
-  externalDisabledByConfig: external authentication (using external authentication provider) is disabled
-  failedUnconfirmedEmail: system requires confirmed email before logging in
-  internalLoginDisabledByConfig: internal login (username/password) is disabled
-  internalSignupDisabledByConfig: internal sign-up (username/password) is disabled
-  invalidCredentials: invalid username and password combination
-  invalidEmailFormat: invalid email
-  invalidEmailOTP: invalid code
-  invalidHandle: invalid handle
-  invalidTOTP: invalid code
-  invalidToken: invalid token
-  notAllowedToConfigureTOTP: not allowed to configure TOTP
-  notAllowedToImpersonate: not allowed to impersonate this user
-  notAllowedToRemoveTOTP: not allowed to remove TOTP
-  passwodResetFailedOldPasswordCheckFailed: failed to change password, old password does not match
-  passwordChangeFailedForUnknownUser: failed to change password for the unknown user
-  passwordNotSecure: provided password is not secure; use longer password with more special characters
-  passwordResetDisabledByConfig: password reset is disabled
-  profileWithoutValidEmail: external authentication provider returned profile without valid email
-  unconfiguredTOTP: TOTP not configured
+  credentialsLinkedToInvalidUser: Anmeldeinformationen {credentials.kind}mit deaktiviertem oder gelöschtem Benutzer verknüpft  {user}
+  disabledMFAWithEmailOTP: Multi-Faktor-Authentifizierung mit E-Mail-OTP ist deaktiviert
+  disabledMFAWithTOTP: Multi-Faktor-Authentifizierung mit TOTP ist deaktiviert
+  enforcedMFAWithEmailOTP: OTP per E-Mail wird erzwungen und kann nicht deaktiviert werden
+  enforcedMFAWithTOTP: TOTP wird erzwungen und kann nicht deaktiviert werden
+  externalDisabledByConfig: externe Authentifizierung (mittels externem Authentifizierungsanbieter) ist deaktiviert
+  failedUnconfirmedEmail: System erfordert eine bestätigte E-Mail vor dem Anmelden
+  internalLoginDisabledByConfig: internes Anmelden (Benutzername/Passwort) ist deaktiviert
+  internalSignupDisabledByConfig: internes Registrieren (Benutzername/Passwort) ist deaktiviert
+  invalidCredentials: Kombination aus Benutzernamen und Passwort ist ungültig
+  invalidEmailFormat: ungültige E-Mail
+  invalidEmailOTP: ungültiger Code
+  invalidHandle: ungültiger Handle
+  invalidTOTP: ungültiger Code
+  invalidToken: ungültiger Token
+  notAllowedToConfigureTOTP: TOTP kann nicht eingerichtet werden
+  notAllowedToImpersonate: die Identität dieses Benutzers kann nicht angenommen werden
+  notAllowedToRemoveTOTP: TOTP kann nicht entfernt werden
+  passwodResetFailedOldPasswordCheckFailed: Passwort kann nicht geändert werden. Das alte Passwort stimmt nicht überein.
+  passwordChangeFailedForUnknownUser: Passwort für den unbekannten Benutzer konnte nicht geändert werden
+  passwordNotSecure: Das angegebene Passwort ist nicht sicher; verwenden Sie ein längeres Passwort mit mehr nicht alphanumerischen Zeichen.
+  passwordResetDisabledByConfig: die Passwortzurücksetzung ist deaktiviert
+  profileWithoutValidEmail: externer Authentifizierungsanbieter sendet Profil ohne gültige E-Mail zurück
+  unconfiguredTOTP: TOTP nicht eingerichtet
