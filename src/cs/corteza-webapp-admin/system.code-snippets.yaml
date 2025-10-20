@@ -1,17 +1,16 @@
 editor:
-  title: Code Snippets
+  title: Výstřižek kódu
   code-snippets:
-    add: Add Code Snippet
-    empty: No snippets yet
-    enabled: Enabled
+    add: Přidat výstřižek kódu
+    empty: Žádný výstřižek kódu
+    enabled: Povoleno
     table-headers:
-      name: Name
-      enabled: Enabled
-      script: Code
+      name: Jméno
+      enabled: Povoleno
+      script: Kód
     form:
-      title: Add Code Snippet
+      title: Přidat výstřižek kódu
       name:
-        label: Name
+        label: Jméno
       code:
-        label: Code
-        description: Add external script or code snippet. The script must include a valid <script> tag to function.
+        label: Kód
