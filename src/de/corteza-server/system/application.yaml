@@ -1,11 +1,11 @@
 errors:
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create applications
-  notAllowedToDelete: not allowed to delete this application
-  notAllowedToManageFlag: not allowed to manage flags for applications
-  notAllowedToManageFlagGlobal: not allowed to manage global flags for applications
-  notAllowedToRead: not allowed to read this application
-  notAllowedToSearch: not allowed to search or list applications
-  notAllowedToUndelete: not allowed to undelete this application
-  notAllowedToUpdate: not allowed to update this application
-  notFound: application not found
+  invalidID: ungültige ID
+  notAllowedToCreate: Erstellen von Anwendungen ist nicht zulässig
+  notAllowedToDelete: diese Anwendung kann nicht gelöscht werden
+  notAllowedToManageFlag: Flags für Anwendungen können nicht verwaltet werden
+  notAllowedToManageFlagGlobal: globale Flags für Anwendungen können nicht verwaltet werden
+  notAllowedToRead: diese Anwendung kann nicht gelesen werden
+  notAllowedToSearch: Anwendungen können nicht gesucht oder aufgelistet werden
+  notAllowedToUndelete: diese Anwendung kann nicht wiederhergestellt werden
+  notAllowedToUpdate: diese Anwendung kann nicht aktualisiert werden
+  notFound: Anwendung nicht gefunden
