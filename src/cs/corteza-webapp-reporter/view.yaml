@@ -1,7 +1,7 @@
-pick-scenario: Pick a scenario
+pick-scenario: Vybrat scénář
 report:
-  builder: Report Builder
-  view: Report View
+  builder: Vytváření reportů
+  view: Zobrazení reportu
 tooltip:
   edit:
-    report: Edit report
+    report: Editovat report
