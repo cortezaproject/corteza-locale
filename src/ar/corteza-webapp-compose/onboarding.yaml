@@ -1,28 +1,27 @@
 message:
-  noPages: It seems this namespace has no visible pages yet
-  notifyAdministrator: Notify your system administrator
-  startBuilding: Follow these steps to start building
+  noPages: يبدو أن مساحة الاسم هذه لا تحتوي على صفحات مرئية حتى الآن
+  notifyAdministrator: قم بإخطار مسؤول النظام الخاص بك
+  startBuilding: اتبع هذه الخطوات لبدء البناء
 label:
-  pageBuilder: Page builder
-  welcome: Welcome!
+  pageBuilder: منشئ الصفحة
+  welcome: أهلا وسهلا!
 navigation:
-  noPageTitle: No page title
+  noPageTitle: لايوجد عنوان
 notification:
   module:
-    createFailed: Could not create a module
-    saveFailed: Could not save this module
+    createFailed: تعذر إنشاء وحدة
+    saveFailed: تعذر حفظ هذه الوحدة
 step:
   chart:
-    create: Make Chart
-    view: Your Charts
+    create: جعل الرسم البياني
+    view: الرسوم البيانية الخاصة بك
   module:
-    create: Create Module
-    view: Your Modules
-  optional: This step is optional!
+    create: إنشاء وحدة
+    view: الوحدات الخاصة بك
+  optional: هذه الخطوة اختيارية!
   page:
-    create: Build Page
-    view: Your Pages
+    create: بناء الصفحة
+    view: صفحاتك
 tooltip:
   page-configuration:
-    edit: Edit page
-    list: Page translations
+    edit: تعديل الصفحة
