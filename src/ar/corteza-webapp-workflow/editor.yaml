@@ -1,32 +1,31 @@
-'auto-initialize-empty-variable': Variables that can't be loaded will be auto initialized as empty
-back: Back
-'click-to-save': Click here to save
-deferred: Deferred
-delete: Delete
-deleted: Deleted
-'detected-changes': "Changes detected "
-'detected-issues': Issues detected
-disabled: Disabled
-help: Help
-handle: (Handle)
+'auto-initialize-empty-variable': سيتم تهيئة المتغيرات التي لا يمكن تحميلها تلقائيًا على أنها فارغة
+back: عودة
+'click-to-save': انقر هنا للحفظ
+deferred: مؤجل
+delete: حذف
+deleted: محذوف
+'detected-changes': "تم الكشف عن تغييرات "
+'detected-issues': تم اكتشاف مشاكل
+disabled: معطل
+help: مساعدة
+handle: (المعرف)
 id: "ID:"
 'id-parenthesis': " (ID)"
 'initial-scope': Initial scope
-'input-ids-or-handles': The initial scope gets injected into the workflow at execution. To load available variables, input the related IDs/Handles below
-issues: Issues
-'load-and-configure': Load and Configure
-'modify-initial-scope-if-no-variables-are-loaded': If you do not wish to load any variables, click "Configure" to modify the initial scope before running workflow
-'open-webapp-on-prompt-use': "WARNING: If prompts are used in the workflow, make sure that the related webapp is also opened. Otherwise workflow will timeout"
-reset: Reset
-'run-as': "Run as:"
-'run-workflow': Run Workflow
-'required-namespace': Namespace required
-'required-namespace-and-module': Namespace and Module required
-save: Save
-saving: Saving
-spinning: Spinning
-'test-in-progress': "Testing in progress. If your workflow includes Prompt or Delay steps, it may be waiting for them to complete"
-'unsupported-browser': Browser is not supported!
-undelete: Undelete
-'workflow-configuration': Workflow Configuration
-'editor': Editor
+'input-ids-or-handles': يتم حقن النطاق الأولي في سير العمل عند التنفيذ. لتحميل المتغيرات المتاحة ، أدخل المعرفات / المقابض ذات الصلة أدناه
+issues: مشاكل
+'load-and-configure': تحميل وتكوين
+'modify-initial-scope-if-no-variables-are-loaded': إذا كنت لا ترغب في تحميل أي متغيرات ، فانقر فوق "تكوين" لتعديل النطاق الأولي قبل تشغيل سير العمل
+'open-webapp-on-prompt-use': "تحذير: إذا تم استخدام المطالبات في سير العمل ، فتأكد من فتح تطبيق الويب ذي الصلة أيضًا. وإلا فسوف تنتهي مهلة سير العمل"
+reset: اعادة تعيين
+'run-as': "تشغيل كـ:"
+'run-workflow': تشغيل سير العمل
+'required-namespace': الـnamespace مطلوب
+'required-namespace-and-module': Namespace and Module مطلوب
+save: حفظ
+spinning: الدوران
+'test-in-progress': "الاختبار قيد التقدم. إذا تضمن سير العمل الخاص بك خطوات المطالبة أو التأخير ، فقد يكون في انتظار اكتمالها"
+'unsupported-browser': المتصفح غير مدعوم!
+undelete: استعادة
+'workflow-configuration': تكوين سير العمل
+'editor': محرر
