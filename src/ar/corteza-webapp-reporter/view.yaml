@@ -1,7 +1,7 @@
-pick-scenario: Pick a scenario
+pick-scenario: اختر سيناريو
 report:
-  builder: Report Builder
-  view: Report View
+  builder: محرك التقارير
+  view: عرض التقرير
 tooltip:
   edit:
-    report: Edit report
+    report: تحرير التقرير
