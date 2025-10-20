@@ -1,25 +1,19 @@
 template:
-  title: Configure two-factor authentication with TOTP
+  title: Configure a autenticação de 2 fatores com TOTP
   enforced: |
-    TOTP multi factor authentication is enforced by Corteza administrator.
-    Please configure it right away.
+    TOTP é obrigatório pela política do administrador do Corteza.
+    Por favor, configure imediatamente.
   instructions: |
-    Corteza uses time based one time passwords (TOTP) as one of the underlying technologies for two-factor authentication. Use one of the applications listed below and type in the secret or scan the QR code.
+    Corteza utiliza códigos temporários baseados em tempo (TOTP) como uma de suas tecnologias de autenticação de 2 fatores. Utilize uma das aplicações listadas abaixo e informe o código ou escaneie o QR Code.
     <br />
     <br />
-    This will enable additional security for your account.
+    Isto irá habilitar uma segurança adicional à sua conta.
     <br />
     <br />
-    You can use one of the following applications:
-  lastpass: <a target="_blank" href="{{ link }}">LastPass Authenticator</a>
-  gauth: Google Authenticator for <a target="_blank" href="{{ android }}">Android</a> or <a target="_blank" href="{{ iphone }}">iPhone</a>
-  authy: <a target="_blank" href="{{ link }}">Authy</a>
+    Você pode utilizar uma das seguintes aplicações:
   form:
-    title: "Complete the configuration by entering code from the authenticator application:"
-    button: Submit
+    title: "Complete a configuração informando o código exibido no aplicativo de autenticação:"
+    button: Enviar
 alerts:
-  text-MFA-enabled: Two factor authentication with TOTP enabled
-  text-MFA-disabled: Two factor authentication with TOTP disabled
-errors:
-  invalid-code-format: "Invalid code format"
-  invalid-code: "Invalid code"
+  text-MFA-enabled: Autenticação de 2 fatores com TOTP ativado
+  text-MFA-disabled: Autenticação de 2 fatores com TOTP desabilitado
