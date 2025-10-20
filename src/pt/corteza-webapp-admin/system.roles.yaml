@@ -1,70 +1,65 @@
 editor:
   info:
-    archive: Archive
-    archivedAt: Archived at
-    createdAt: Created at
-    createdBy: Created by
-    delete: Delete
-    deletedAt: Deleted at
-    handle: Handle
-    placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
-    name: Role name *
-    title: Basic information
-    unarchive: Unarchive
-    undelete: Undelete
-    updatedAt: Updated at
-    description: Description
+    archive: Arquivo
+    archivedAt: Arquivado em
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    handle: Identificador
+    placeholder-handle: identificador (a - z, 0 - 9, sublinhado, hífen)
+    name: Nome do papel *
+    title: Informação básica
+    unarchive: Desarquivar
+    undelete: Recuperar
+    updatedAt: Atualizado em
+    description: Descrição
     context:
-      label: Contextual role
-      expression-label: Expression
-      resource-types-label: Resource type
+      label: Papel contextual
+      expression-label: Expressão
+      resource-types-label: Tipo de recurso
   members:
-    add: Add
-    count: Members ({{count}})
-    remove: Remove
-    searchUsers: Search users
-    title: Role members
-    unnamed: Unnamed user
-  new: New Role
-  permissions: Permissions
+    add: Adicionar
+    count: Membros ({{count}})
+    remove: Remover
+    searchUsers: Pesquisar usuários
+    title: Membros da função
+    unnamed: Usuário sem nome
+  permissions: Permissões
   title:
-    create: Create role
-    edit: Edit role
+    create: Criar função
+    edit: Editar função
 list:
   columns:
-    actions: ""
-    createdAt: Created
-    enabled: Enabled
-    handle: Handle
-    name: Name
-    state: State
-  delete: Delete
-  undelete: Undelete
-  archive: Archive
-  unarchive: Unarchive
+    createdAt: Criado
+    enabled: Habilitado
+    handle: Identificador
+    name: Nome
+  delete: Excluir
+  undelete: Recuperar
+  archive: Arquivo
+  unarchive: Desarquivar
   rows:
     filters:
-      archived: Archived
-      deleted: Deleted
+      archived: Arquivado
+      deleted: Excluído
   filterForm:
     archived:
-      label: archived roles
+      label: funções arquivadas
     deleted:
-      label: deleted roles
+      label: funções excluídas
     excluded:
-      label: Without
+      label: Sem
     exclusive:
-      label: Only
+      label: Apenas
     inclusive:
-      label: Including
+      label: Incluindo
     query:
-      label: Filter roles list
-      placeholder: Filter roles by name
-  loading: Loading roles
-  new: New Role
-  numFound: '{{count}} role found'
-  numFound_plural: '{{count}} roles found'
-  permissions: Permissions
-  title: Roles
+      label: Filtrar lista de funções
+      placeholder: Filtrar funções por nome
+  loading: Carregando papéis
+  numFound: '{{count}} função encontrada'
+  numFound_plural: '{{count}} funções encontradas'
+  permissions: Permissões
+  title: Funções
   yaml: YAML
