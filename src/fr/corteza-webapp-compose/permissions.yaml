@@ -1,241 +1,228 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
+  save: Enregistrer changements
+  cancel: Annuler
+  set-for: Définir permissions pour {{target}}
+  loading: Chargement des permissions
   label: Permissions
   notification:
     save:
-      success: Permissions saved
-      failed: Failed to save permissions
+      success: Permissions enregistrées
+      failed: Échec de l'enregistrement des permissions
   edit:
-    label: User roles
-    description: Select role to set permissions
+    label: Rôles utilisateur
+    description: Sélectionnez rôle pour définir les permissions
   evaluate:
-    description: Evaluate applied permissions
+    description: Évaluer permissions appliquées
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: + Ajouter
+    title: Évaluer permissions
+    save: Enregistrer et fermer
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: Rôles
+      placeholder: Sélectionnez rôle(s)
     user:
-      label: Users
-      placeholder: Search or select a user
+      label: Utilisateurs
+      placeholder: Cherchez ou sélectionnez un utilisateur
   tooltip:
     unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      user: Impossible d'évaluer les permissions pour un utilisateur avec un rôle contextuel sur une ressource non spécifique
+      role: Impossible d'évaluer les permissions pour un rôle contextuel sur une ressource non spécifique
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: Autoriser
+    inherit: Hériter
+    deny: Interdire
 resources:
   compose:
     namespace:
-      all: all namespaces
+      all: tous les namespaces
       specific: namespace "{{target}}"
-      tooltip: Namespace permissions
+      tooltip: Permissions de namespace
       operations:
         read:
-          description: ""
-          specific: Read namespace "{{target}}"
-          title: Read any namespace
+          specific: Lire namespace "{{target}}"
+          title: Lire n'importe quel namespace
         update:
-          description: ""
-          specific: Update namespace "{{target}}"
-          title: Update any namespace
+          specific: Mettre à jour namespace "{{target}}"
+          title: Mettre à jour n'importe quel namespace
         delete:
-          description: ""
-          specific: Delete namespace "{{target}}"
-          title: Delete any namespace
+          specific: Supprimer namespace "{{target}}"
+          title: Supprimer n'importe quel namespace
         manage:
-          description: Allow access to namespace's admin pages
-          specific: Manage namespace "{{target}}"
-          title: Manage any namespace
+          description: Autoriser l'accès aux pages d'administration du namespace
+          specific: Gérer namespace "{{target}}"
+          title: Gérer n'importe quel namespace
         export:
-          description: ""
-          specific: Export namespace "{{target}}"
-          title: Export any namespace
+          specific: Exporter namespace "{{target}}"
+          title: Exporter n'importe quel namespace
         module.create:
-          description: ""
-          specific: Create modules under namespace "{{target}}"
-          title: Create modules under any namespace
+          specific: Créer modules pour le namespace "{{target}}"
+          title: Créer modules pour n'importe quel namespace
         modules.export:
-          description: ""
-          specific: Export modules in namespace "{{target}}"
-          title: Export modules in any namespace
+          specific: Exporter modules pour le namespace "{{target}}"
+          title: Exporter modules pour n'importe quel namespace
         modules.search:
-          description: ""
-          specific: List and search modules under namespace "{{target}}"
-          title: List and search modules under any namespace
+          specific: Lister et chercher modules dans le namespace "{{target}}"
+          title: Lister et chercher modules pour n'importe quel namespace
         page.create:
-          description: ""
-          specific: Create pages under namespace "{{target}}"
-          title: Create pages under any namespace
+          specific: Créer pages pour le namespace "{{target}}"
+          title: Créer pages pour n'importe quel namespace
         pages.search:
-          description: ""
-          specific: List and search pages under namespace "{{target}}"
-          title: List and search pages under any namespace
+          specific: Lister et chercher pages dans le namespace "{{target}}"
+          title: Lister et chercher pages pour n'importe quel namespace
         pages.export:
-          description: ""
-          specific: Export pages in namespace "{{target}}"
-          title: Export pages in any namespace
+          specific: Exporter pages du namespace "{{target}}"
+          title: Exporter pages pour n'importe quel namespace
         chart.create:
-          description: ""
-          specific: Create charts under namespace "{{target}}"
-          title: Create charts under any namespace
+          specific: Créer graphiques pour le namespace "{{target}}"
+          title: Créer graphiques pour n'importe quel namespace
         charts.search:
-          description: ""
-          specific: List and search charts under namespace "{{target}}"
-          title: List and search charts under any namespace
+          specific: Lister et chercher graphiques dans le namespace "{{target}}"
+          title: Lister et chercher graphiques pour n'importe quel namespace
         charts.export:
-          description: ""
-          specific: Export charts in namespace "{{target}}"
-          title: Export charts in any namespace
+          specific: Exporter graphiques du namespace "{{target}}"
+          title: Exporter graphiques de n'importe quel namespace
     chart:
-      all: all charts
-      specific: chart "{{target}}"
-      tooltip: Chart permissions
+      all: Tous les graphiques
+      specific: graphique "{{target}}"
+      tooltip: Permissions de graphique
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete chart "{{target}}"
-          title: Delete any chart
+          description: 'Défaut : refuser'
+          specific: Supprimer graphique "{{target}}"
+          title: Supprimer n'importe quel graphique
         read:
-          description: 'Default: deny'
-          specific: Read chart "{{target}}"
-          title: Read any chart
+          description: 'Défaut : refuser'
+          specific: Lire graphique "{{target}}"
+          title: Lire n'importe quel graphique
         update:
-          description: 'Default: deny'
-          specific: Update chart "{{target}}"
-          title: Update any chart
+          description: 'Défaut : refuser'
+          specific: Mettre à jour graphique "{{target}}"
+          title: Mettre à jour n'importe quel graphique
     module:
-      all: all modules
+      all: Tous les modules
       specific: module "{{target}}"
-      tooltip: Module permissions
+      tooltip: Permissions de module
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete module "{{target}}"
-          title: Delete any module
+          description: 'Défaut : refuser'
+          specific: Supprimer module "{{target}}"
+          title: Supprimer n'importe quel module
         read:
-          description: 'Default: deny'
-          specific: Read module "{{target}}"
-          title: Read any module
+          description: 'Défaut : refuser'
+          specific: Lire module "{{target}}"
+          title: Lire n'importe quel module
         record.create:
-          description: 'Default: deny'
-          specific: Create record of module "{{target}}"
-          title: Create record of any module
+          description: 'Défaut : refuser'
+          specific: Créer élément du module "{{target}}"
+          title: Créer élément pour n'importe quel module
         records.search:
-          description: 'Default: deny'
-          specific: List and search records of module "{{target}}"
-          title: List and search records of any module
+          description: 'Défaut : refuser'
+          specific: Lister et chercher éléments de n'importe du module "{{target}}"
+          title: Lister et chercher éléments de n'importe quel module
         update:
-          description: 'Default: deny'
-          specific: Update module "{{target}}"
-          title: Update any module
+          description: 'Défaut : refuser'
+          specific: Mettre à jour module "{{target}}"
+          title: Mettre à jour n'importe quel module
         'owned-record.create':
-          description: 'Default: deny'
-          specific: Manage owner when creating record for module "{{target}}"
-          title: Manage owner when creating record for any module
-          all-specific: Manage owner when creating record for module "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: Gérer propriétaire lors de la création d'un élément du module "{{ target }}"
+          title: Gérer propriétaire lors de la création d'un élément de n'importe quel module
+          all-specific: Gérer propriétaire lors de la création d'un élément du module "{{ target }}"
     module-field:
-      all: all module fields
-      specific: field "{{target}}"
-      all-specific: all module fields of module "{{ target }}"
-      tooltip: Module field permissions
+      all: tous les champs de module
+      specific: champ "{{target}}"
+      all-specific: tous les champs pour le module "{{ target }}"
+      tooltip: Permissions de champ de module
       operations:
         record.value.read:
-          description: 'Default: deny'
-          specific: 'Read "{{target}}" record fields '
-          title: Read record fields of any module
-          all-specific: Read record fields of module "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: 'Lire champs "{{target}}"'
+          title: Lire champs de n'importe quel module
+          all-specific: Lire champs d'un élément du module "{{ target }}"
         record.value.update:
-          description: 'Default: deny'
-          specific: 'Update "{{target}}" record field values'
-          title: Update record field values of any module
-          all-specific: Update record field values of module "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: 'Mettre à jour valeurs de champ "{{target}}"'
+          title: Mettre à jour valeurs de champ de n'importe quel module
+          all-specific: Mettre à jour valeurs de champ du module "{{ target }}"
     page:
-      all: all pages
+      all: toutes les pages
       specific: page "{{target}}"
-      tooltip: Page permissions
+      tooltip: Permissions de page
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete page "{{target}}"
-          title: Delete any page
+          description: 'Défaut : refuser'
+          specific: Supprimer page "{{target}}"
+          title: Supprimer n'importe quelle
         read:
-          description: 'Default: deny'
-          specific: Read page "{{target}}"
-          title: Read any page
+          description: 'Défaut : refuser'
+          specific: Lire page "{{target}}"
+          title: Lire n'importe quelle page
         update:
-          description: 'Default: deny'
-          specific: Update page "{{target}}"
-          title: Update any page
+          description: 'Défaut : refuser'
+          specific: Mettre à jour page "{{target}}"
+          title: Mettre à jour n'importe quelle page
         page-layout.create:
-          description: 'Default: deny'
-          specific: Create page layouts for page "{{target}}"
-          title: Create page layout
+          description: 'Défaut : refuser'
+          specific: Créer dispositions pour la page "{{target}}"
+          title: Créer disposition de page
         page-layouts.search:
-          description: 'Default: deny'
-          specific: List page layouts for page "{{target}}"
-          title: List page layout
+          description: 'Défaut : refuser'
+          specific: Lister les dispositions pour la page "{{target}}"
+          title: Lister disposition de page
     page-layout:
-      all: all page layouts
-      specific: page layout "{{target}}"
-      tooltip: Page layout permissions
-      all-specific: all page layouts of page "{{ target }}"
+      all: toutes les dispositions de page
+      specific: disposition de page "{{target}}"
+      tooltip: Permissions de disposition de page
+      all-specific: toutes les dispositions de la page "{{ target }}"
       operations:
         read:
-          description: 'Default: deny'
-          specific: Read page layout "{{target}}"
-          title: Read any page layout
-          all-specific: Read page layouts of page "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: Lire disposition de page "{{target}}"
+          title: Lire n'importe quelle disposition de page
+          all-specific: Lire dispositions de la page "{{ target }}"
         update:
-          description: 'Default: deny'
-          specific: Update page layout "{{target}}"
-          title: Update any page layout
-          all-specific: Update page layouts of page "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: Mettre à jour disposition de page "{{target}}"
+          title: Mettre à jour n'importe quelle disposition de page
+          all-specific: Mettre à jour dispositions de la page "{{ target }}"
         delete:
-          description: 'Default: deny'
-          specific: Delete page layout "{{target}}"
-          title: Delete any page layout
-          all-specific: Delete page layouts of page "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: Supprimer disposition de page "{{target}}"
+          title: Supprimer n'importe quelle disposition de page
+          all-specific: Supprimer dispositions de la page "{{ target }}"
     record:
-      all: all records
-      specific: record "{{target}}"
-      all-specific: all records of module "{{ target }}"
-      tooltip: Record permissions
+      all: tous les éléments
+      specific: élément "{{target}}"
+      all-specific: tous les éléments pour le module "{{ target }}"
+      tooltip: Permissions d'enregistrement
       operations:
         delete:
-          description: 'Default: deny'
-          specific: Delete record "{{target}}"
-          title: Delete records of any module
-          all-specific: Delete records of module "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: Supprimer élément "{{target}}"
+          title: Supprimer éléments de n'importe quel module
+          all-specific: Supprimer éléments du module "{{ target }}"
         undelete:
-          description: 'Default: deny'
-          specific: Restore record "{{target}}"
-          title: Restore records of any module
-          all-specific: Restore records of module "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: Restaurer élément "{{target}}"
+          title: Restaurer éléments de n'importe quel module
+          all-specific: Restaurer éléments du module "{{ target }}"
         read:
-          description: 'Default: deny'
-          specific: Read record "{{target}}"
-          title: Read records of any module
-          all-specific: Read records of module "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: Lire élément "{{target}}"
+          title: Lire éléments de n'importe quel module
+          all-specific: Lire éléments du module "{{ target }}"
         update:
-          description: 'Default: deny'
-          specific: Update record "{{target}}"
-          title: Update records of any module
-          all-specific: Update records of module "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: Mettre à jour élément "{{target}}"
+          title: Mettre à jour éléments de n'importe quel module
+          all-specific: Mettre à jour éléments du module "{{ target }}"
         'owner.manage':
-          description: 'Default: deny'
-          specific: Manage owner of record "{{target}}"
-          title: Manage record owners of any module
-          all-specific: Manage record owners of module "{{ target }}"
+          description: 'Défaut : refuser'
+          specific: Gérer propriétaire de l'élément "{{target}}"
+          title: Gérer propriétaires d'élément de n'importe quel module
+          all-specific: Gérer propriétaires d'élément du module "{{ target }}"
         'revisions.search':
-          description: 'Default: deny'
-          specific: Access revisions of record "{{target}}"
-          title: Access record revisions
-          all-specific: Access record revisions
+          description: 'Défaut : refuser'
+          specific: Accéder aux révisions de l'élément "{{target}}"
+          title: Accéder aux révisions d'élément
+          all-specific: Accéder aux révisions d'élément
