@@ -1,5 +1,189 @@
+available-items: Campos disponíveis
+selected-items: Campos selecionados
+defaultFieldValue: Valor de campo padrão
+defaultValue: Valor padrão
+required-field: Este campo é obrigatório
 kind:
   bool:
+    checkedValueLabel: Valor quando verificado
     checkedValuePlaceholder: Yes
+    label: Caixa de seleção (S/N)
+    uncheckedValueLabel: Valor quando desmarcado
     uncheckedValuePlaceholder: No
+  dateTime:
+    type:
+      options:
+        date: Data
+        time: Tempo
+    constraints:
+      options:
+        pastValuesOnly: Apenas valores passados
+    label: Data e hora
+    outputFormat: Formato de saída
+    outputFormatFootnote: Consulte {{0}} para opções de formatação
+    warning:
+      futureValuesOnly: Apenas datas no futuro serão salvas
+      pastValuesOnly: Apenas datas no passado serão salvas
+  email:
+    label: E-mail
+    preventToLink: Não transforme o e-mail em um link
+  file:
+    label: Arquivo
+    view:
+      gallery: Galeria de imagens
+      grid: Rede
+      list: Lista
+      mimetypesFootnote: 'Tipos MIME, separados por ",". Exemplo "texto/simples, texto/csv"'
+      mimetypesLabel: Lista de permissões de tipo de arquivo
+      modeLabel: Modo de visualização
+      showName: Ocultar nome do arquivo
+      single: Imagem única
+      background: Cor de fundo
+  number:
+    exampleFormat: Formato
+    exampleInput: Entrada
+    exampleResult: Resultado
+    examplesLabel: Exemplos de formato
+    formatPlaceholder: Formato
+    label: Número
+    liveExample: Exemplo instantâneo
+    prefixLabel: Prefixo
+    prefixPlaceholder: Prefixo
+    suffixLabel: Sufixo
+    suffixPlaceholder: Sufixo
+    displayType:
+      number: Número
+    progress:
+      maximumValue: Valor máximo
+      minimumValue: Valor mínimo
+      variants:
+        danger: Perigo
+        dark: Escuro
+        info: Informações
+        light: Luz
+        primary: Primário
+        secondary: Secundário
+        success: Sucesso
+        warning: Aviso
+    presetFormats:
+      label: Formato
+      options:
+        custom: Personalizado
+  record:
+    currentUnnamedModule: (Módulo sem nome atual)
+    label: Registro
+    moduleLabel: Módulo
+    queryFieldsLabel: Campos de consulta na pesquisa
+    moduleField: Campo de rótulo
+    pickField: Escolha o campo
+    suggestionPlaceholder: Comece a digitar para pesquisar registros
+    prefilterLabel: Registros de pré-filtro
+    prefilterPlaceholder: campo1 = 1 E campo2 = 232
+  select:
+    label: Selecionar
+    optionAdd: Adicionar
+    options:
+      value: Valor
+      label: Rótulo
+      style:
+        textColor: Cor do texto
+        backgroundColor: Cor de fundo
+    optionNotSelected: Nenhuma opção selecionada
+    optionRemove: Remover
+    optionType:
+      default: Entrada única
+      each: Entrada para cada valor
+      multiple: Seleção múltipla
+    displayType:
+      text: Texto
+    optionsLabel: Opções para selecionar
+    placeholder: Selecione uma opção clicando aqui
+  string:
+    label: Corda
+    multiLine: Várias linhas
+    richText: Usar Editor de Rich Text
+  url:
+    label: URL
+    preventToLink: Não transforme o URL em um link
+    sshOnly: Permitir apenas URL SSL (https)
+    trimHash: 'Aparar ''#'' do URL'
+    trimQuestionMark: Aparar '?' do URL
+    trimToDomain: Aparar URL apenas para domínio
+  user:
+    label: Do utilizador
+    na: N / D
+    presetWithCurrentUser: Predefinição com o usuário atual
+    suggestionPlaceholder: Comece a digitar para pesquisar usuários por e-mail ou nome
+    roles:
+      label: Funções do usuário
+      placeholder: Filtrar por funções de usuário
+noPermission: Sem permissão para ler o valor do campo
+options:
+  description:
+    label:
+      default: Descrição
+      edit: Editar descrição
+      view: Vista de descrição
+    placeholder:
+      default: Texto descritivo...
+      edit: Descrição ao editar o campo de registro...
+      view: Descrição ao visualizar o campo de registro...
+    same: Mostrar a mesma descrição na visualização e edição
+  hint:
+    label:
+      default: Dica
+      edit: Edição de dica
+      view: Visualização de dicas
+    placeholder:
+      default: Dica de texto...
+      edit: Dica ao editar o campo de registro...
+      view: Dica ao visualizar o campo de registro...
+    same: Mostrar a mesma dica na visualização e edição
+  multiDelimiter:
+    comma: Separados por vírgula
+    custom: Um delimitador personalizado
+    customLabel: Ou use um delimitador personalizado
+    customPlaceholder: Insira um delimitador personalizado
+    label: Delimitador de vários valores
+    newline: Cada valor em uma nova linha
+sanitizers:
+  description: Apare espaços do texto ou faça outros tipos de manipulação de valor antes da validação
+  examples: Exemplos
+  expression:
+    placeholder: trim(valor)
+  label: Sanitização de valor
+selector:
+  search: Digite aqui para pesquisar entre os campos do módulo
+  available: Campos disponíveis
+  selectAll: Selecionar tudo
+  selected: Campos selecionados
+  systemField: (campo do sistema)
+  unselectAll: Desmarque todos
+system:
+  createdAt: Criado em
+  createdBy: Criado por
+  deletedAt: Excluído em
+  deletedBy: Excluído por
+  ownedBy: Propriedade de
+  updatedAt: Atualizado em
+  updatedBy: atualizado por
+validators:
+  description: Conjunto de expressões e pares de erros que testam a validade do valor de entrada
+  disableBuiltIn: Desabilitar validadores integrados
+  error:
+    placeholder: Texto exibido quando a expressão é verdadeira
+  expression:
+    placeholder: valor == ""
+    tooltip: Expressão
+  label: Validação de valor
+valueExpr:
+  description: Insira uma fórmula ou expressão que calcule valores numéricos ou combine e manipule valores de texto
+  label: Expressão de valor de campo
+  placeholder: ((piso(numCampo1) + numCampo2) / 10) + 0,5
+label:
+  required: Requeridos
+  multi: Vários valores
+constraints:
+  none: Nenhum
+  equal: Igual
 
