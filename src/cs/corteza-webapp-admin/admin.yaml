@@ -1,118 +1,116 @@
 automation:
-  add: Add script
+  add: Přidat skript
   edit:
-    asyncHelp: Do not wait for results and ignore errors. Incompatible with critical flag.
-    asyncLabel: Run this script asynchronously
-    codeTabLabel: Code
-    criticalHelp: Wait until this script is executed. In case of errors, abort execution of other scripts and before* trigger
-    criticalLabel: Critical script
-    delete: Delete script
-    enabledHelp: Disabled scripts will be ignored
-    enabledLabel: Enabled
+    asyncHelp: Nečekaný na výsledky a ignorovat chyby. Nekompatibilní s označením kritické.
+    asyncLabel: Spustit tento skript asynchronně
+    codeTabLabel: Kód
+    criticalHelp: Čekat na dokončení skriptu. V případě chyb přerušit běh ostatních skriptů a spouštěče před*
+    criticalLabel: Kritický skript
+    delete: Smazat skript
+    enabledHelp: Vypnutý skript bude ignorován
+    enabledLabel: Povoleno
     mailAutomationTriggers:
-      addMatcher: Add condition
-      addTrigger: Add trigger
-      delete: Delete trigger
-      deleteTrigger: Delete
-      enable: Enable trigger
-      matchAll: Must match all conditions
+      addMatcher: Přidat podmínku
+      addTrigger: Přidat spouštěč
+      delete: Smazat spouštěč
+      deleteTrigger: Smazat
+      enable: Povolit spouštěč
+      matchAll: Musí splnit všechny podmínky
       matcher:
         fields:
-          bcc: BCC
-          cc: CC
-          from: From
-          placeholder: Mail header field
-          replyTo: Reply To
-          subject: Subject
-          to: To
-        match: Value to match
+          bcc: Skrytá kopie
+          cc: Kopie
+          from: Odesílatel
+          placeholder: Pole hlavičky emailu
+          replyTo: Odpovědět na
+          subject: Předmět
+          to: Příjemce
+        match: Hodnota ke shodě 
         operators:
-          equal-ci: Match full
-          placeholder: Operator
-          prefix-ci: Match prefix
+          equal-ci: Plná shoda
+          placeholder: Operátor
+          prefix-ci: Shoda prefixu
           regex: Regex
-          suffix-ci: Match suffix
-          user: Existing user
-      tabLabel: Mail triggers
-    nameLabel: Name
-    namePlaceholder: Automation script name
-    runAsCurrentUser: Run as "{{ user }}"
-    runAsHelp: Script runner
+          suffix-ci: Shoda sufixu
+          user: Existující uživatel
+      tabLabel: Spouštěče emailu
+    nameLabel: Jméno
+    namePlaceholder: Název skriptu automatizace
+    runAsCurrentUser: Spustit jako "{{ user }}"
+    runAsHelp: Kdo spouští skript
     scheduledTriggers:
-      tabLabel: Scheduled
-    securityLabel: Security
-    settingsTabLabel: Settings
-    timeoutHelp: How much time do we wait before aborting the script? Value in milliseconds (1000ms = 1s). It defaults (when 0) to 2s with 30s as maximum. Consult with your administrator for exact numbers and limitations.
-    timeoutLabel: Script execution timeout
+      tabLabel: Naplánováno
+    securityLabel: Bezpečnost
+    settingsTabLabel: Nastavení
+    timeoutHelp: Jak dlouho čekáme před přerušením skriptu? Hodnota v milisekundách (1000ms = 1s). Výchozí hodnota (pro 0) je 2s, maximum je 30s. Přesně hodnoty a limitace konzultujte se svým administrátorem.
+    timeoutLabel: Časové omezení skriptu
     timeoutPlaceholder: "1500"
-    title: Automation script
-    userPickerPlaceholder: Select user
-  import: Import automation script(s)
+    title: Skript automatizace
+    userPickerPlaceholder: Vybrat uživatele
+  import: Importovat skript(y) automatizace
   list:
     column:
       label:
-        async: Async
-        critical: Critical
-        enabled: Enabled
-        runAs: Run As
-        runInUA: In browser
-    unnamed: (Unnamed script)
-  manage: Manage automation scripts ({{count}})
-  manage-id-permissions: Manage permissions for this script
-  manage-wc-permissions: Manage permissions for all scripts
-  newLabel: Create a new script
-  newPlaceholder: Script name
+        async: Asynchronní
+        critical: Kritické
+        enabled: Povoleno
+        runAs: Spustit jako
+        runInUA: V prohlížeči
+    unnamed: (Bezejmenný skript)
+  manage: Spravovat skripty automatizace ({{count}})
+  manage-id-permissions: Spravovat práva pro tento skript
+  manage-wc-permissions: Spravovat práva pro všechny skripty
+  newLabel: Vytvořit nový skript
+  newPlaceholder: Název skriptu
   testing:
-    load: Load
-    parametersHeadline: 'Parameters & payload:'
-    resultsHeadline: 'Results:'
-    testInBrowser: Test in Browser
-    testInCorredor: Test in Corredor
-    warning: ""
-  title: List of automation script
+    load: Načtení
+    parametersHeadline: 'Parametry a data:'
+    resultsHeadline: 'Výsledky:'
+    testInBrowser: Test v prohlížeči
+    testInCorredor: Test v Corredoru
+  title: Seznam skriptů automatizace
 general:
   resource-list:
-    no-items: No matches for your search
-  notFound: 'Not found'
-  loading: Loading
+    no-items: Žádné shody pro vaše hledání
+  notFound: 'Nenalezeno'
+  loading: Načítání
   label:
-    "no": "No"
-    submit: Submit
-    "yes": "Yes"
-    selectOption: "Please select an option"
-  logout: Logout
-  noAccess: You do not have permissions to access Admin panel
+    "no": "Ne"
+    submit: Odeslat
+    "yes": "Ano"
+    selectOption: "Vyberte prosím možnost"
+  logout: Odhlásit
+  noAccess: Nemáte práva pro přístup do administračního panelu
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
+    next: Další
+    prev: Předchozí
+    showing: '{{from}} - {{to}} z {{count}} {{data}}'
+    single_one: '1 {{data}}'
     single_other: '{{count}} {{data}}'
 navigation:
   appMenu: Menu
-  adminPanel: Admin panel
-  automation: Automation
-  chart: Charts
-  configuration: Configuration
+  adminPanel: Administrační panel
+  automation: Automatizace
+  chart: Grafy
+  configuration: Konfigurace
   help:
-    documentation: Documentation
-    feedback: Send feedback
-    forum: Help
-    version: 'Version:'
-  module: Modules
-  more: More
-  namespace: Namespaces
-  noPageTitle: No page title
-  page: Pages
-  publicPages: Public pages
+    documentation: Dokumentace
+    feedback: Odeslat zpětnou vazbu
+    forum: Pomoc
+    version: 'Verze:'
+  module: Moduly
+  more: Více
+  namespace: Jmenný prostor
+  noPageTitle: Žádný nadpis stránky
+  page: Stránky
+  publicPages: Veřejné stránky
   userSettings:
-    changePassword: Change password
-    loggedInAs: Logged in as {{user}}
-    logout: Logout
-    profile: Profile
-    theme: Theme
+    changePassword: Změna hesla
+    loggedInAs: Přihlášený uživatel {{user}}
+    logout: Odhlásit
+    profile: Profil
 picker:
   role:
-    placeholder: Start typing to search for roles
+    placeholder: Vyhledávejte role
   member:
-    placeholder: Start typing to search for users
+    placeholder: Vyhledávejte uživatele
