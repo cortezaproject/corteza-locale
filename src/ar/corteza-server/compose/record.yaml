@@ -1,25 +1,24 @@
 errors:
-  fieldNotFound: no such field {field}
-  importSessionAlreadActive: import session already active
-  invalidID: invalid ID
-  invalidModuleID: invalid or missing module ID
-  invalidNamespaceID: invalid or missing namespace ID
-  invalidReferenceFormat: invalid reference format
-  invalidValueStructure: more than one value for a single-value field {field}
-  moduleNotFoundModule: module not found
-  namespaceNotFound: namespace not found
-  notAllowedToChangeFieldValue: not allowed to change value of field {field}
-  notAllowedToCreate: not allowed to create records
-  notAllowedToDelete: not allowed to delete this record
-  notAllowedToListRecords: not allowed to list records
-  notAllowedToRead: not allowed to read this record
-  notAllowedToReadModule: not allowed to read module
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list records
-  notAllowedToUndelete: not allowed to undelete this record
-  notAllowedToUpdate: not allowed to update this record
-  notFound: record not found
-  staleData: stale data
-  unknownBulkOperation: unknown bulk operation {bulkOperation}
-  valueInput: invalid record value input
-  maxRecordsReached: maximum number of records per namespace reached
+  fieldNotFound: لا يوجد مثل هذا المجال {field}
+  importSessionAlreadActive: جلسة الاستيراد نشطة بالفعل
+  invalidID: معرف خاطئ
+  invalidModuleID: معرف الموديول خاطئ او مفقود
+  invalidNamespaceID: معرف namespace خاطئ او مفقود
+  invalidReferenceFormat: صيغة خاطئة
+  invalidValueStructure: أكثر من قيمة لحقل ذو قيمة واحدة {field}
+  moduleNotFoundModule: الموديول غير موجود
+  namespaceNotFound: الـ namespace غير موجود
+  notAllowedToChangeFieldValue: غير مسموح بتغيير قيمة الحقل {field}
+  notAllowedToCreate: غير مسموح انشاء سجل
+  notAllowedToDelete: غير مسموح حذف هذا السجل
+  notAllowedToListRecords: غير مسموح عرض السجلات
+  notAllowedToRead: غير مسموح قراءة هذا السجل
+  notAllowedToReadModule: غير مسموح قراءة هذا الموديول
+  notAllowedToReadNamespace: غير مسموح قراءة هذا الـ namespace
+  notAllowedToSearch: غير مسموح البحث او عرض السجلات
+  notAllowedToUndelete: غير مسموح اعادة هذا السجل
+  notAllowedToUpdate: غير مسموح تحديث هذا السجل
+  notFound: السجل غير موجود
+  staleData: بيانات تالفة
+  unknownBulkOperation: عملية مجمّعة غير معروفة {bulkOperation}
+  valueInput: إدخال قيمة سجل غير صالح
