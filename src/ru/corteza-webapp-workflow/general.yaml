@@ -1,66 +1,40 @@
-clear: Clear
-description: Description
-enabled: Enabled
-enable: Enable
-disable: Disable
-error: Error
-error-expression: Error message (expression)
-export: Export
-general: General
-handle: Handle
+description: Описание
+enabled: Включено
+enable: Включено
+disable: Отключен
+error: Ошибка
+export: Экспорт
+general: Главный
+handle: Указатель
 import:
-  json: Import JSON
-  label: Import
-  reassign-run-as: "NOTE: the Run as workflow property won't be imported and should be reassigned"
-  upload-files: Browse or drop files to upload...
+  label: Импорт
 label:
-  all: All
-  label: Label
-loading: Loading
-name: Name
-new-workflow: New Workflow
-none: None
-now: Now
-offset: Offset
-offset-expression: Offset (expression)
-permissions: Permissions
-searchPlaceholder: Search workflows
-subworkflow: Subworkflow
-subworkflows: Subworkflows
-deleted: Deleted
-disabled: Disabled
+  all: Все
+  label: Лейбл
+loading: Загрузка
+name: Имя
+none: Нет
+permissions: Разрешения
+deleted: Удалить
 without: Without
-only: Only
-including: Including
-workflow-list: List of Workflows
+only: Единственный
+including: Включая
+workflow-list: Список процессов
 workflow:
-  single: Workflow
-  plural: Workflows
-save: Save
-today: Today
-cancel: Cancel
+  plural: Бизнес-процесс
+save: Сохранить
+today: Сегодня
+cancel: Отменить
 resourceList:
-  notFound: Not found
-  noItems: No items to show
+  notFound: Не найден
   pagination:
-    next: Next
-    prev: Previous
-    showing: '{{from}} - {{to}} of {{count}} {{data}}'
-    single_one: 'One {{data}}'
-    single_other: '{{count}} {{data}}'
-    recordsPerPage: Per Page
-tooltip:
-  permissions: Workflow permissions
+    next: Следующий
+    prev: предыдущий
 columns:
-  name: Name
-  enabled: Enabled
-  steps: Steps
-  changedAt: Last change
+  name: Имя
+  enabled: Включено
+  steps: Шаги
 themes:
   labels:
-    light: Light
-    dark: Dark
-extendSession:
-  labels:
-    extend: Extend Session
-    warning: You will be logged out in {{ countdownTime }} seconds
+    light: Светлая
+    dark: Темная
