@@ -1,56 +1,37 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
-  label: Permissions
-  notification:
-    save:
-      success: Permissions saved
-      failed: Failed to save permissions
+  save: Salvar alterações
+  cancel: Cancelar
+  set-for: Definir permissões para {{target}}
+  loading: Carregando permissões
+  label: Permissões
   edit:
-    label: User roles
-    description: Select role to set permissions
-  evaluate:
-    description: Evaluate applied permissions
+    label: Funções do usuário
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: Adicionar
+    save: Salvar fechar
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: Funções
     user:
-      label: Users
-      placeholder: Search or select a user
-  tooltip:
-    unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      label: Comercial
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
+    allow: Permitir
+    inherit: Herdar
+    deny: Negar
 resources:
   system:
     report:
-      all: all reports
-      specific: report "{{target}}"
-      tooltip: Report permissions
+      all: todos os relatórios
+      specific: relatório "{{target}}"
       operations:
         delete:
-          description: ""
-          specific: Delete report "{{target}}"
-          title: Delete any report
+          specific: Excluir relatório "{{target}}"
+          title: Excluir qualquer relatório
         read:
-          description: ""
-          specific: Read report "{{target}}"
-          title: Read any report
+          specific: Leia o relatório "{{target}}"
+          title: Leia qualquer relatório
         run:
-          description: ""
-          specific: Run report "{{target}}"
-          title: Run any report
+          specific: Executar relatório "{{target}}"
+          title: Execute qualquer relatório
         update:
-          description: ""
-          specific: Update report "{{target}}"
-          title: Update any report
+          specific: Atualizar relatório "{{target}}"
+          title: Atualizar qualquer relatório
