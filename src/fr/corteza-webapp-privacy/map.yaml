@@ -1,4 +1,4 @@
-location: Location
-name: Name
-server-details: Server Details
-unnamed-location: Unnamed location
+location: Localisation
+name: Nom
+server-details: Détails du serveur
+unnamed-location: Localisation sans nom
