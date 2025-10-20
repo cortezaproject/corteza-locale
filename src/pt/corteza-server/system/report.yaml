@@ -1,12 +1,12 @@
 errors:
-  invalidConfiguration: Invalid report configuration
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create reports
-  notAllowedToDelete: not allowed to delete this report
-  notAllowedToListReports: not allowed to list reports
-  notAllowedToRead: not allowed to read this report
-  notAllowedToRun: not allowed to run this report
-  notAllowedToSearch: not allowed to list or search reports
-  notAllowedToUndelete: not allowed to undelete this report
-  notAllowedToUpdate: not allowed to update this report
-  notFound: report not found
+  invalidConfiguration: Configuração de relatório inválida
+  invalidID: ID inválida
+  notAllowedToCreate: não tem permissão para criar relatórios
+  notAllowedToDelete: não tem permissão para excluir este relatório
+  notAllowedToListReports: não tem permissão para listar relatórios
+  notAllowedToRead: não tem permissão para ler este relatório
+  notAllowedToRun: não tem permissão para executar este relatório
+  notAllowedToSearch: não tem permissão para listar ou pesquisar relatórios
+  notAllowedToUndelete: não é permitido recuperar este relatório
+  notAllowedToUpdate: não tem permissão para atualizar este relatório
+  notFound: relatório não encontrado
