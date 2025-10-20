@@ -1,6 +1,6 @@
 general:
-  error: Error
-  success: Success
-  warning: Warning
+  error: Erreur
+  success: Succès
+  warning: Avertissement
 search:
-  failed: Search failed
+  failed: La recherche a échoué
