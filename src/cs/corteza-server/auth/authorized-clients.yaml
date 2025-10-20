@@ -1,9 +1,9 @@
 template:
-  title: Authorized clients
+  title: Autorizovaní klienti
   list:
-    authorized-on: Authorized on
+    authorized-on: Autorizováno
     buttons:
-      revoke: Revoke access
-    empty: No authorized clients found
+      revoke: Odvolat přístup
+    empty: Nebyli nalezení žádní autorizovaní klienti
 alerts:
-  removed: Client authorization removed
+  removed: Autorizace klienta byla odstraněna
