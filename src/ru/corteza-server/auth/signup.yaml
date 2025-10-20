@@ -1,23 +1,22 @@
 template:
-  title: Sign up
+  title: Зарегистрироваться
   form:
     email:
       label: Email
       placeholder: email@domain.tld
     password:
-      label: Password
-      placeholder: Password
+      label: Пароль
+      placeholder: Пароль
     name:
-      label: Full name
-      placeholder: Your full name
+      label: Имя
+      placeholder: Фамилия
     nickname:
-      label: Short name, nickname or handle
-      placeholder: Short name, nickname or handle
+      label: Ник
+      placeholder: Ник
     button:
-      sign-up: Submit
-  log-in: Already have an account? <a data-test-id="link-login" href="{{link}}">Log in</a>
+      sign-up: Применить
 alerts:
-  signup-successful: Sign-up successful
-  email-confirmed-logged-in: Email address confirmed, you're now logged-in.
-  invalid-expired-token: Invalid or expired email confirmation token, please resend confirmation request.
-  signup-disabled: Signup disabled
+  signup-successful: Вы зарегистрированы
+  email-confirmed-logged-in: Адрес электронной почты подтвержден.
+  invalid-expired-token: Токен подтверждения электронной почты недействителен или срок его действия истек. Пожалуйста, отправьте запрос на подтверждение еще раз.
+  signup-disabled: Вы не зарегистрированы
