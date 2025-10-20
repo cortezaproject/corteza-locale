@@ -1,119 +1,105 @@
 general:
-  error: Error
-  success: Success
-  warning: Warning
-notAllowed: Not allowed to access Admin Area. Redirecting
+  error: خطأ
+  success: ناجح
+  warning: تنبيه
+notAllowed: غير مسموح له بالوصول إلى منطقة الإدارة. إعادة توجيه
 list:
   load:
-    error: 'Failed to load resource list'
+    error: 'فشل تحميل قائمة الموارد'
 user:
-  external-auth-providers:
-    error: External auth providers fetch failed
-    success: External auth providers updated
   fetch:
-    error: User fetch failed
+    error: فشل إحضار المستخدم
   roles:
-    error: Role fetch failed
+    error: فشل إحضار الدور
   update:
-    success: User updated
-    error: User update failed
+    success: تم تحديث المستخدم
+    error: فشل تحديث المستخدم
   create:
-    success: User created
-    error: User create failed
+    success: تم انشاء المستخدم
+    error: فشل انشاء المستخدم
   delete:
-    success: User deleted
-    error: User delete failed
+    success: تم حذف المستخدم
+    error: فشل حذف المستخدم
   undelete:
-    success: User restored
-    error: User restore failed
+    success: استعادة المستخدم
+    error: فشل استعادة المستخدم
   membershipUpdate:
-    success: Membership updated
-    error: Membership update failed
+    success: تم تحديث العضويات
+    error: فشل تحديث العضويات
   passwordChange:
-    success: Password changed
-    error: Password change failed
+    success: تم تغيير كلمة المرور
+    error: فشل تغيير كلمة المرور
   sessionsRevoke:
-    success: Sessions revoked
-    error: Session revoke failed
+    success: تم انهاء الجلسة
+    error: فشل انهاء الجلسة
   suspend:
-    success: User suspended
-    error: User suspension failed
+    success: مستخدم موقوف
+    error: فشل ايقاف المستخدم
   unsuspend:
-    success: User unsuspended
-    error: User suspension failed
-  import:
-    success: Users imported successfully
-  avatarUpload:
-    success: Avatar updated
-    error: Avatar upload failed
-  avatarSettings:
-    success: Avatar settings updated
-    error: Avatar settings update failed
-  avatarDelete:
-    success: Avatar deleted
-    error: Avatar delete failed
+    success: تم الغاء ايقاف المستخدم
+    error: فشل ايقاف المستخدم
 role:
   fetch:
-    error: Role fetch failed
+    error: فشل إحضار الدور
   create:
-    success: Role created
-    error: Role create failed
+    success: تم انشاء الدور
+    error: فشل انشاء الدور
   update:
-    success: Role updated
-    error: Role update failed
+    success: تم تحديث الدور
+    error: فشل تحديث الدور
   delete:
-    success: Role deleted
-    error: Role delete failed
+    success: تم حذف الدور
+    error: فشل حذف الدور
   undelete:
-    success: Role restored
-    error: Role restore failed
+    success: تم استعادة الدور
+    error: فشل استعادة الدور
   archive:
-    success: Role archived
-    error: Role archive failed
+    success: تم ارشفة الدور
+    error: فشل ارشفة الدور
   unarchive:
-    success: Role unarchived
-    error: Role unarchive failed
+    success: تم اعادة الدور من الارشفة
+    error: فشل اعادة الدور من الارشفة
   membershipUpdate:
-    success: Membership updated
-    error: Membership update failed
+    success: تم تحديث العضوية
+    error: فشل تحديث العضوية
 application:
   fetch:
-    error: Application fetch failed
+    error: فشل احضار التطبيق
   update:
-    success: Application updated
-    error: Application update failed
+    success: تم تحديث التطبيق
+    error: فشل تحديث التطبيق
   create:
-    success: Application created
-    error: Application create failed
+    success: تم انشاء التطبيق
+    error: فشل انشاء التطبيق
   delete:
-    success: Application deleted
-    error: Application delete failed
+    success: تم حذف التطبيق
+    error: فشل حذف التطبيق
   undelete:
-    success: Application restored
-    error: Application restore failed
+    success: تم استعادة التطبيق
+    error: فشل استعادة التطبيق
   assetsUpload:
-    error: Application assets upload failed
+    error: فشل رفع ملفات التطبيق
 template:
   fetch:
-    error: Template fetch failed
+    error: فشل إحضار القالب
   fetchPartials:
-    error: Partial templates fetch failed
+    error: فشل جزئي لجلب القوالب
   create:
-    success: Template created
-    error: Template create failed
+    success: تم انشاء القالب
+    error: فشل انشاء القالب
   update:
-    success: Template updated
-    error: Template update failed
+    success: تم تحديث القالب
+    error: فشل تحديث القالب
   delete:
-    success: Template deleted
-    error: Template delete failed
+    success: تم حذف القالب
+    error: فشل حذف القالب
   undelete:
-    success: Template restored
-    error: Template restore failed
+    success: تم استعادة القالب
+    error: فشل استعادة القالب
   driver:
-    error: Template render drivers fetch failed
+    error: فشل جلب القالب
   preview:
-    error: Template preview fetch failed
+    error: فشل عرض القالب
 authclient:
   fetch:
     error: Auth Client fetch failed
@@ -131,19 +117,16 @@ authclient:
     error: Auth Client restore failed
 queue:
   fetch:
-    error: Queue fetch failed
+    error: فشل إحضار القائمة
   create:
-    success: Queue created
-    error: Queue create failed
+    success: تم انشاء القائمة
+    error: فشل انشاء القائمة
   update:
-    success: Queue updated
-    error: Queue update failed
+    success: تم تحديث القائمة
+    error: فشل تحديث القائمة
   delete:
-    success: Queue deleted
-    error: Queue delete failed
-  undelete:
-    success: Queue restored
-    error: Queue restore failed
+    success: تم حذف القائمة
+    error: فشل حذف القائمة
 gateway:
   fetch:
     error: Route fetch failed
@@ -155,22 +138,16 @@ gateway:
     error: Route update failed
   filter:
     fetch:
-      error: Filter fetch failed
+      error: فشل إحضار التصفية
     update:
-      success: Filters updated
-      error: Filters update failed
+      success: تم تحديث التصفية
+      error: فشل تحديث التصفية
   delete:
     success: Route deleted
     error: Route delete failed
   undelete:
     success: Route restored
     error: Route restore failed
-  profiler:
-    fetch:
-      error: Requests fetch failed
-    purge:
-      success: Requests purged
-      error: Requests purge failed
 workflow:
   fetch:
     error: Workflow fetch failed
@@ -190,72 +167,43 @@ session:
   fetch:
     error: Session fetch failed
   trigger:
-    error: Trigger fetch failed
-  cancel:
-    success: Session canceled
-    error: Session cancel failed
+    error: فشل إحضار المشغل
 federation:
   fetch:
-    error: Node fetch failed
+    error: فشل إحضار العقدة
   create:
-    success: Node created
-    error: Node create failed
+    success: تم انشاء العقدة
+    error: فشل انشاء العقدة
   update:
-    success: Node updated
-    error: Node update failed
+    success: تم تحديث العقدة
+    error: فشل تحديث العقدة
   delete:
-    success: Node deleted
-    error: Node delete failed
+    success: تم حذف العقدة
+    error: فشل حذف العقدة
   undelete:
-    success: Node restored
-    error: Node restore failed
+    success: تم استعادة العقدة
+    error: فشل استعادة العقدة
   url:
-    error: Generated URL fetch failed
+    error: فشل جلب عنوان URL الذي تم إنشاؤه
   email:
-    success: Email sent
-    error: Failed to send email
+    success: تم ارسال الايميل
+    error: فشل ارسال الايميل
   pair:
-    success: Node paired
-    error: Failed to pair node
+    success: ربط العقدة
+    error: فشل ربط العقدة
   handshake:
     success: Handshake complete paired
     error: Handshake failed
-sensitivityLevel:
-  create:
-    success: Sensitivity level created
-    error: Sensitivity level create failed
-  delete:
-    success: Sensitivity level deleted
-    error: Sensitivity level delete failed
-  fetch:
-    success: Sensitivity level fetched
-    error: Sensitivity level fetch failed
-  undelete:
-    success: Sensitivity level restored
-    error: Sensitivity level restore failed
-  update:
-    success: Sensitivity level updated
-    error: Sensitivity level update failed
 settings:
   system:
     fetch:
-      error: System settings fetch failed
+      error: فشل احصار اعدادات النظام
     auth:
-      success: Auth settings updated
-      error: Auth settings update failed
+      success: تم تحديث اعدادات المصادقة
+      error: فشل تحديث اعدادات المصادقة
     external:
-      success: External settings updated
-      error: External settings update failed
-    bgScreen:
-      style:
-        success: Auth background styles updated
-        error: Auth background styles update failed
-    smtpCheck:
-      success: SMTP configuration check  passed
-      error: SMTP configuration check failed
-    apigw:
-      success: Integration gateway settings saved
-      error: Integration gateway settings update failed
+      success: تم تحديث الاعدادات الخارجية
+      error: فشل تحديث الاعدادات الخارجية
   compose:
     fetch:
       error: Compose settings fetch failed
@@ -264,42 +212,15 @@ settings:
       error: Compose settings update failed
   ui:
     fetch:
-      error: UI settings fetch failed
-    update:
-      success: UI settings updated
-      error: UI settings update failed
-  code-snippet:
-    fetch:
-      error: Code snippets fetch failed
-    update:
-      success: Code snippets updated, refresh the page to see the changes
-      error: Code snippets update failed
-    delete:
-      success: Code snippet deleted, refresh the page to see the changes
-      error: Code snippet delete failed
+      error: فشل احصار واجهة المستخدم
 permissions:
   fetch:
-    error: Permissions fetch failed
+    error: فشل احضار الصلاحيات
   update:
-    success: Permissions updated
-    error: Permissions update failed
+    success: تم تحديث الصلاحيات
+    error: فشل تحديث الصلاحيات
   clone:
-    success: Permissions cloned
-    error: Permissions clone failed
+    success: تم نسخ الصلاحيات
+    error: فشل نسخ الصلاحيات
   role:
-    error: Failed to add role
-connection:
-  fetch:
-    error: Connection fetch failed
-  update:
-    success: Connection updated
-    error: Connection update failed
-  create:
-    success: Connection created
-    error: Connection create failed
-  delete:
-    success: Connection deleted
-    error: Connection delete failed
-  undelete:
-    success: Connection restored
-    error: Connection restore failed
+    error: فشل في اضافة دور
