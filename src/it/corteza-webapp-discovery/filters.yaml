@@ -1,11 +1,3 @@
-title: Filter
-types:
-  title: Types
-  namespace: Namespace
-  module: Module
-  user: User
-  record: Record
 aggregation-groups:
-  modules: Modules
+  modules: Moduli
   namespaces: Namespaces
-reset: Reset
