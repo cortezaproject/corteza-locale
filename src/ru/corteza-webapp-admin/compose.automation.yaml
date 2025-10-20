@@ -1,6 +1,6 @@
 list:
   columns:
-    events: Triggered on events
-    label: Label
-    name: Name
-  title: Compose Automation
+    events: Запуск по событию
+    label: Надпись
+    name: Имя
+  title: Создать автоматизацию
