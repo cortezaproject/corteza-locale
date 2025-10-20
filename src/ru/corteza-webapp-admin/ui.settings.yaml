@@ -1,87 +1,40 @@
 editor:
-  title: User Interface Settings
+  title: Параметры пользовательского интерфейса
   corteza-studio:
-    title: Theming
-    colorPicker: Choose a color
-    sassNotInstalled: No dart-sass binaries were detected. For guidance on how to set it up, refer to
-    installSassDocs: docs here
-    custom-css: Custom CSS
     mainLogo:
-      title: Main logo
+      title: Главный логотип
       uploader:
-        instructions: Click or drop main logo here to upload
-        uploading: Uploading main logo
+        instructions: Нажмите или перетащите файлы логотипа, чтобы загрузить
+        uploading: Загрузка главного логотипа
     iconLogo:
-      title: Icon logo
+      title: Иконка логотипа
       uploader:
-        instructions: Click or drop icon logo image here to upload
-        uploading: Uploading icon logo
-    label:
-      default: Default
+        instructions: Нажмите или перетащите иконку логотипа, чтобы загрузить
+        uploading: Загрузка иконки логотипа
     tabs:
-      general: General
-      light: Light
-      dark: Dark
+      general: Главный
+      light: Светлая
+      dark: Темная
     theme:
       variables:
-        white:
-          label: White
-          description: Element background color
-        black:
-          label: Black
-          description: Element text color
         primary:
-          label: Primary
-          description: Primary action buttons, links
+          label: Начальный
         secondary:
-          label: Secondary
-          description: Disabled and placeholder text color
+          label: Второй
         success:
-          label: Success
-          description: Success notification color
+          label: Успешно
         warning:
-          label: Warning
-          description: Warning notification color
+          label: Предупреждение
         danger:
-          label: Danger
-          description: Error notification color
+          label: Внимание
         light:
-          label: Light
-          description: Secondary action buttons, table headers
-        extra-light:
-          label: Extra light
-          description: Icon buttons, borders
-        body-bg:
-          label: Body background
-          description: Background color of the application
-        sidebar-bg:
-          label: Sidebar background
-          description: Background color of the sidebar
-        topbar-bg:
-          label: Topbar background
-          description: Background color of the topbar
+          label: Светлая
   topbar:
-    title: Topbar
-    general: General
-    app-selector:
-      hide: Hide app selector
+    general: Главный
     help:
-      title: Help
-      hide: Hide help
-      hide-forum-link: Hide forum link
-      hide-documentation-link: Hide documentation link
-      hide-feedback-link: Hide feedback link
+      title: Помощь
     profile:
-      title: Profile
-      hide: Hide profile
-      hide-profile-link: Hide profile link
-      hide-change-password-link: Hide change password link
-      hide-theme-selector: Hide theme selector
-    notifications:
-      hide: Hide notifications
+      title: Профиль
     links:
-      title: Custom links
-      handle: Name
-      invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+      handle: Имя
       url: URL
-      new-tab: New tab
