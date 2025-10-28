@@ -7,7 +7,10 @@ automation:
       deleteTrigger: Supprimer
       matcher:
         fields:
+          bcc: CCI
+          cc: CC
           from: Depuis
+          replyTo: Répondre à
           subject: Sujet
           to: A
         operators:
