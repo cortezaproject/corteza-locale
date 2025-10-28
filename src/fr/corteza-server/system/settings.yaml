@@ -1,8 +1,8 @@
 errors:
-  notAllowedToRead: not allowed to read this setting
-  notAllowedToManage: not allowed to manage this setting
-  invalidPasswordMinLength: password constraint minimum length should be at least 8 characters
-  invalidPasswordMinUpperCase: password constraint minimum upper case count should not be a negative number
-  invalidPasswordMinLowerCase: password constraint minimum lower case count should not be a negative number
-  invalidPasswordMinNumCount: password constraint minimum number count should not be a negative number
-  invalidPasswordMinSpecialCharCount: password constraint minimum special character count should not be a negative number
+  notAllowedToRead: non autorisé pour lire ce paramètre
+  notAllowedToManage: non autorisé à gérer ce paramètre
+  invalidPasswordMinLength: la longueur minimale dans la contrainte de mot de passe doit être d'au moins 8 caractères
+  invalidPasswordMinUpperCase: le nombre minimum de majuscules dans la contrainte de mot de passe ne doit pas être un nombre négatif
+  invalidPasswordMinLowerCase: le nombre minimum de minuscules dans la contrainte de mot de passe ne doit pas être un nombre négatif
+  invalidPasswordMinNumCount: le nombre minimum de nombre dans la contrainte de mot de passe ne doit pas être un nombre négatif
+  invalidPasswordMinSpecialCharCount: le nombre minimum de caractères spéciaux dans la contrainte de mot de passe ne doit pas être un nombre négatif
