@@ -1,33 +1,75 @@
+add:
+  datasource: Ajouter source de données
+  display-element: Ajouter un élément d'affichage
+available: Disponible
 block:
   description: Description de bloc
   save: Enregistrer bloc
   title: Titre de bloc
+  configuration: Configuration de bloc
+datasource:
+  label: Source de données
+  types:
+    load:
+      label: Chargement
+      data-from-resource: Charge des données depuis la ressource spécifiée, par exemple des éléments "Compose"
+    link:
+      label: Liaison
+      load-datasources: Lie deux sources de données de chargement avec une colonne unique qui les relie ensemble, comme un champ sélecteur d'élément
+    join:
+      label: Jointure
+      load-datasources: Lie deux sources de données de chargement avec une colonne unique qui les relie ensemble, comme un champ sélecteur d'élément. La jointure produit un seul ensemble de lignes contrairement à la liaison qui produit une trame de données indépendante pour chaque ligne locale
+    aggregate:
+      label: Agrégat
+      load-datasource: Agrège les données d'une source de données de chargement en fonction d'une valeur de colonne et les agrège, par exemple en comptant le nombre de Demandes ayant le même statut
 datasources:
+  label: Sources de données
   save: Enregistrer sources de données
 description: Description
 display-elements:
   types:
     text: Texte
     metric: Métrique
+    table: Tableaux
     chart: Graphique
+element: Élément
+elements: Éléments
+filter-expression: Expression de filtrage
 general: Général
+joined-datasource-handling: Gestion des sources de données jointes
 layout: Disposition
 layout-options:
   horizontal: Horizontal
   vertical: Vertical
+limit: Limite
+no-blocks-added: Pas de blocs ajoutés pour le moment
+or: Ou
+pick-scenario: Choisir un scénario
 prefilter: Préfiltre
 presort-order: Ordre de pré-tri
+report:
+  builder: Constructeur de rapport
+  view: Afficher rapport
 save-button: Enregistrer
 scenarios:
+  label: Scénarios
   save: Enregistrer scénarios
 title: Titre
 tooltip:
   edit:
+    report: Éditer rapport
     block: Éditer bloc
+  add:
+    displayElement: Ajouter un élément d'affichage
   delete:
     block: Supprimer bloc
+  configure-scenarios: Configurer scénarios
   unsavedChanges: Changements non enregistrés
+available-columns: Colonnes disponibles
+selected-columns: Colonnes sélectionnées
+no-columns-found: Aucune colonne trouvée
 type-to-search: Tapez ici pour rechercher parmi les colonnes
+selected: Sélectionné
 select-all: Sélectionner tout
 unselect-all: Désélectionner tout
 value: Valeur
@@ -35,7 +77,13 @@ name: Nom
 unsaved-changes: Les changements non enregistrés seront perdus. Voulez-vous quitter la page ?
 filter:
   operators:
+    like: Comme
+    notLike: Pas comme
+    contains: Contenant
+    notContains: Ne contenant pas
     equal: Égal
+    greaterThan: Plus grand que
     greaterThanEqualTo: Plus grand que ou égal à
     lessThanEqualTo: Plus petit que ou égal à
+    lessThan: Plus petit que
     notEqual: Différent de
