@@ -13,6 +13,8 @@ label:
   none: Aucun
   now: Maintenant
   ok: Ok
+  or: Ou
+  openLinkInNewTab: Ouvrir lien dans un nouvel onglet
   save: Enregistrer
   saveAndClose: Enregistrer et fermer
   clone: Dupliquer
@@ -38,3 +40,7 @@ themes:
     light: Clair
     dark: Sombre
 cloneSuffix: copier
+extendSession:
+  labels:
+    extend: Étendre la session
+    warning: Vous serez déconnecté(e) dans {{ countdownTime }} secondes
