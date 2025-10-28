@@ -1,2 +1,14 @@
 errors:
   invalidID: ID invalide
+  notAllowedToCreate: non autorisé à créer des clients d'authentification 
+  notAllowedToDelete: non autorisé à supprimer ce client d'authentification 
+  notAllowedToRead: non autorisé pour lire ce client d'authentification 
+  notAllowedToSearch: non autorisé pour rechercher ou lister les clients d'authentification 
+  notAllowedToUndelete: non autorisé à annuler la suppression de ce client d'authentification 
+  notAllowedToUpdate: non autorisé à mettre à jour ce client d'authentification 
+  notFound: client d'authentification introuvable
+  unableToChangeDefaultClientHandle: impossible de changer l'identifiant du client d'authentification par défaut
+  unableToDeleteDefaultClient: impossible de supprimer le client d'authentification par défaut
+  unableToDisableDefaultClient: impossible de désactiver le client d'authentification par défaut
+  unknownGrantType: type d'autorisation
+  unknownScope: périmètre inconnu
