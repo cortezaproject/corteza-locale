@@ -1,3 +1,12 @@
 errors:
+  cannotRenderPartial: impossible de faire le rendu des modèles partiels
   invalidHandle: identifiant invalide
   invalidID: ID invalide
+  notAllowedToCreate: non autorisé à créer des modèles
+  notAllowedToDelete: non autorisé à supprimer ce modèle
+  notAllowedToRead: non autorisé à lire ce modèle
+  notAllowedToRender: non autorisé de faire le rendu de ce modèle
+  notAllowedToSearch: non autorisé pour rechercher ou lister les modèles
+  notAllowedToUndelete: non autorisé à annuler la suppression de ce modèle
+  notAllowedToUpdate: non autorisé à mettre à jour ce modèle
+  notFound: modèle introuvable
