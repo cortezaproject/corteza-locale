@@ -58,12 +58,25 @@ edit:
   systemFields: 'Champs système'
   tooltip:
     name: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+    private: Donnée sensible
+    required: Champ obligatoire
   schemaAlterations:
+    title: Altérations du schéma
+    resolve: Résoudre
+    resolveAuto: Résoudre automatiquement
+    resolved: Résolue
     dismiss: Rejeter
+    waitingFor: 'En attente de {{id}}'
     columns:
+      alteration: Altération
+      change: Changement
       status: Statut
   config:
     dal:
+      title: Magasin de données
+      connection:
+        label: Connexion à une base de données
+        placeholder: Sélectionnez une connexion de base de données
       system-fields:
         grouptypes:
           all: Tous
@@ -80,15 +93,26 @@ edit:
       title: Confidentialité
       sensitivity-level:
         placeholder: Sélectionnez un niveau de sensibilité
+      usage-disclosure:
+        label: Divulgation de l'utilisation des données sensibles (visible sur la console de confidentialité)
+      sensitivity-levels:
+        fetch-failed: Impossible de récupérer les niveaux de sensibilité
     record-revisions:
+      title: Révisions d'élément
+      enabled: Activer les révisions d'élément
       ident:
         label: Identifiant
     validation:
       title: Validation
+      record-duplication:
+        title: Détection de duplication d'élément
     uniqueValues:
+      title: Valeurs uniques
+      duplicationDetection: Détection de duplication
       valueModifiers: Modificateur de valeur
       multiValues: Valeurs multiples
       add: + Ajouter
+      searchFields: Ajouter des champs à la contrainte
       ignoreCase: Ignorer la casse
       fuzzyMatch: Correspondance approximative
       soundsLike: Sonne comme
@@ -98,7 +122,13 @@ edit:
       field: Champ
       type: Type
       none: Aucune
+      addNewConstraint: Ajouter une nouvelle contrainte
+      uniqueValueConstraint: "Contrainte de valeur unique #{{index}}"
+      tooltip:
+        performance: Utiliser la détection de duplication impactera les performances
 federated: Fédéré
+forModule:
+  recordPage: '{{name}} - Page d''élément'
 general:
   fields: Champs de module
   label:
@@ -110,9 +140,11 @@ general:
     type: Type
     saveAndClose: Enregistrer et fermer
   placeholder:
+    name: 'Nom (exemple : "Affaires")'
     handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
     sample: Échantillon
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+import: Import de module
 navigation:
   module: Modules
 noModule: Aucun module
