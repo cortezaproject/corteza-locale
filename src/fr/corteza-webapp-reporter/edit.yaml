@@ -3,6 +3,15 @@ handle-with-star: Identifiant
 invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
 name: Nom
 name-with-star: 'Nom*'
+new-report: Nouveau Rapport
 permissions: Permissions
 unsavedChanges: Les changements non enregistrés seront perdus. Voulez-vous quitter la page ?
+report:
+  create: Créer Rapport
+  builder: Constructeur de rapport
+  description: Description de rapport...
+  edit: Éditer Rapport
 placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+title: Éditer rapport
+tooltip:
+  view-report: Afficher Rapport
