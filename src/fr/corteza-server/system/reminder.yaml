@@ -1,2 +1,6 @@
 errors:
   invalidID: ID invalide
+  notAllowedToAssign: non autorisé à assigner des rappels à d'autres utilisateurs
+  notAllowedToDismiss: non autorisé à ignorer les rappels d'autres utilisateurs
+  notAllowedToRead: non autorisé à lire les rappels d'autres utilisateurs
+  notFound: rappel introuvable
