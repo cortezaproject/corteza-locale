@@ -67,6 +67,7 @@ list:
   new: Nouvel utilisateur
   permissions: Permissions
   title: Utilisateurs
+  yaml: YAML
 export:
   buttonLabel: Exporter
   export: Exporter
