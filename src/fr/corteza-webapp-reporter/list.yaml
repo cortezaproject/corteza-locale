@@ -1,8 +1,15 @@
 permissions: Permissions
 report:
+  builder: Constructeur de rapport
   edit: Éditer
+  list: Liste des rapports
+  new: Nouveau Rapport
   delete: Supprimer
+searchPlaceholder: Rechercher des rapports
 title: Rapports
+tooltip:
+  permissions: Permissions de rapport
+untitledTitle: Rapport sans titre
 columns:
   name: Nom
   handle: Identifiant
