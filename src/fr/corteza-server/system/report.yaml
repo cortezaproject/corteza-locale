@@ -1,2 +1,12 @@
 errors:
+  invalidConfiguration: Configuration de rapport invalide
   invalidID: ID invalide
+  notAllowedToCreate: non autorisé à créer des rapports
+  notAllowedToDelete: non autorisé à supprimer ce rapport
+  notAllowedToListReports: non autorisé à lister les rapports
+  notAllowedToRead: non autorisé à lire ce rapport
+  notAllowedToRun: non autorisé à exécuter ce rapport
+  notAllowedToSearch: non autorisé à lister ou rechercher des rapports
+  notAllowedToUndelete: non autorisé à annuler la suppression de ce rapport
+  notAllowedToUpdate: non autorisé à mettre à jour ce rapport
+  notFound: rapport introuvable
