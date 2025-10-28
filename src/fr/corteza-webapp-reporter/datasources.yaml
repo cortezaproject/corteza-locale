@@ -1,10 +1,23 @@
 add: + Ajouter
+aggregate: Agrégat
+compose-records: Éléments "Compose"
+datasource-name: 'Nom source de donnée...'
 expression: Expression
+group-by: Grouper par
 label: Étiquette
 module: Module
 name-required: Nom *
 name: Nom
 namespace: Namespace
+new:
+  label: Nouvelle étiquette
+  name: Nouveau nom
 none: Aucune
 prefilter: Préfiltre
+primary:
+  column: Colonne primaire
+  source: Source primaire
+secondary:
+  column: Colonne secondaire
+  source: Source secondaire
 source: Source
