@@ -90,13 +90,30 @@ resources:
         update:
           specific: Update report "{{target}}"
     queue:
+      label: File d'attente
+      all: toutes les files d'attente
+      specific: file d'attente "{{target}}"
       operations:
         delete:
+          description: 'Défaut : refuser'
           specific: Delete report "{{target}}"
+          title: Supprimer n'importe quelle file d'attente
+        members.manage:
+          description: 'Défaut : refuser'
         read:
+          description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quelle file d'attente
         update:
+          description: 'Défaut : refuser'
           specific: Update report "{{target}}"
+          title: Mettre à jour n'importe quelle file d'attente
+        queue.read:
+          description: 'Défaut : refuser'
+          specific: Lire des messages de {{target}}
+          title: Lire des messages de n'importe quelle file d'attente
+        queue.write:
+          description: 'Défaut : refuser'
     template:
       operations:
         delete:
