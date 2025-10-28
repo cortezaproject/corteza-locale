@@ -9,12 +9,21 @@ editor:
     undelete: Annuler suppression
     updatedAt: Mis à jour à
   new: Nouvelle queue
+  title:
+    edit: Éditer file d'attente
+    new: Ajouter une file d'attente
 list:
   columns:
     createdBy: Créer par
+    queue: File d'attente
   export: Exporter
   delete: Supprimer
   undelete: Annuler suppression
+  filterForm:
+    deleted:
+      label: files d'attente supprimées
+    handle:
+      label: Filtrer liste de files d'attente
   loading: Chargement des files de messages
   new: Nouvelle queue
   title: Files de messages
