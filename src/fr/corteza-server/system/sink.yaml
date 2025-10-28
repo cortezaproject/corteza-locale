@@ -1,6 +1,17 @@
 errors:
   badSinkParamEncoding: mauvais encodage des paramètres du récepteur
+  contentLengthExceedsMaxAllowedSize: la longueur du contenu dépasse la limite de taille maximale
   failedToCreateEvent: échec de la création d'un événement récepteur à partir de la requête
+  failedToProcess: échec du traitement de la requête
+  failedToRespond: échec de la réponse à la requête
+  failedToSign: 'impossible de signer les paramètres de la requête : {err}'
+  invalidContentType: en-tête content-type invalide
+  invalidHttpMethod: méthode HTTP invalide
+  invalidPath: chemin invalide
+  invalidSignature: signature invalide
+  invalidSignatureParam: paramètre de signature de récepteur incorrect
   invalidSinkRequestUrlParams: paramètres d'URL de demande de récepteur non valides
+  misplacedSignature: signature mal placée
   missingSignature: paramètre de signature de récepteur manquant
   processingError: erreur de processus durant la requête du récepteur
+  signatureExpired: signature expirée
