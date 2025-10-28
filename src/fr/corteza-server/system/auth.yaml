@@ -1,6 +1,10 @@
 errors:
+  disabledMFAWithEmailOTP: l'authentification à multifacteur par courriel est désactivé
+  disabledMFAWithTOTP: l'authentification à multifacteur avec TOTP est désactivée
   invalidEmailFormat: courriel invalide
   invalidEmailOTP: code invalide
   invalidHandle: identifiant invalide
   invalidTOTP: code invalide
   invalidToken: jeton invalide
+  passwordResetDisabledByConfig: la réinitialisation du mot de passe est désactivée
+  unconfiguredTOTP: TOTP non configuré
