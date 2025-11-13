@@ -13,4 +13,3 @@ errors:
   notAllowedToUndelete: není povoleno obnovit tento smazaný graf
   notAllowedToUpdate: není povoleno aktualizovat tento graf
   notFound: graf neexistuje
-  staleData: zastaralá data
