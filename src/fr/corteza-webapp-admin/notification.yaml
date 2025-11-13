@@ -5,6 +5,13 @@ general:
 list:
   load:
     error: 'Échec du chargement de la liste de ressources'
+user:
+  suspend:
+    success: Utilisateur désactivé
+    error: La désactivation de l'utilisateur a échoué
+  unsuspend:
+    success: Utilisateur réactivé
+    error: La réactivation de l'utilisateur a échoué
 workflow:
   fetch:
     error: Échec de la collecte du processus
