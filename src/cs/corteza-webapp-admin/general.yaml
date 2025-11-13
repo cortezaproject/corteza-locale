@@ -15,9 +15,6 @@ label:
   application:
     single: Aplikace
     plural: Aplikace
-  auth_client:
-    single: Autorizovaný klient
-    plural: Autorizovaní klienti
   queue:
     single: Fronta zpráv
     plural: Fronty zpráv
@@ -27,9 +24,6 @@ label:
   connection:
     single: Databázové spojení
     plural: Databázová spojení
-  sensitivity_level:
-    single: Úroveň citlivosti
-    plural: Úrovně citlivosti
   session:
     single: Relace
     plural: Relace
