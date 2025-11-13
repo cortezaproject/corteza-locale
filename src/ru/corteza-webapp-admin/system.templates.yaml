@@ -68,8 +68,6 @@ list:
     inclusive:
       label: Включая
   loading: "Загрузить шаблон\n"
-  numFound: '{{count}} шаблоны найдены'
-  numFound_plural: '{{count}} шаблоны найдены'
   permissions: Разрешения
   title: Шаблоны
   yaml: YAML
