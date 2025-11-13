@@ -2,6 +2,7 @@ general:
   label:
     attachmentFileInfo: 'crwdns174845:0{{0}}crwdnd174845:0{{1}}crwdne174845:0'
     download: crwdns174847:0crwdne174847:0
+    previewUnavailable: crwdns182247:0crwdne182247:0
   tooltip:
     dragAndDrop: crwdns174849:0crwdne174849:0
 pdf:
