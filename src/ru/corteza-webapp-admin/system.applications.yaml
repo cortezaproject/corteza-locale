@@ -55,8 +55,6 @@ list:
       label: Список фильтров приложений
       placeholder: Список имен приложений
   loading: Загрузить приложение
-  numFound: '{{count}} приложение найдена'
-  numFound_plural: '{{count}} приложения найдены'
   permissions: Разрешения
   title: Приложения
   yaml: YAML
