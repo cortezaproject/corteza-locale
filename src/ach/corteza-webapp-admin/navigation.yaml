@@ -3,6 +3,7 @@ system:
   group: crwdns172853:0crwdne172853:0
   items:
     users: crwdns172855:0crwdne172855:0
+    usergroups: crwdns182089:0crwdne182089:0
     actionlog: crwdns172857:0crwdne172857:0
     apigw: crwdns172859:0crwdne172859:0
     applications: crwdns172861:0crwdne172861:0
@@ -38,4 +39,6 @@ federation:
 ui:
   group: crwdns172909:0crwdne172909:0
   items:
-    settings: crwdns172911:0crwdne172911:0
+    theming: crwdns182091:0crwdne182091:0
+    navigation: crwdns182093:0crwdne182093:0
+    location: crwdns182095:0crwdne182095:0
