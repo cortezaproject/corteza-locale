@@ -46,6 +46,4 @@ list:
     suspended:
       label: Приостановить
   loading: Загрузка сессии
-  numFound: '{{count}} сессия найдена'
-  numFound_plural: '{{count}} сессии найдены'
   title: Сессия
