@@ -12,8 +12,6 @@ label:
     plural: Роль
   application:
     plural: Приложения
-  auth_client:
-    plural: Клиенты авторизации
   queue:
     plural: Очередь сообщений
   session:
