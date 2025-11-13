@@ -315,7 +315,6 @@ record:
     action: + Přidat
     placeholder: Kdy se toto pole má zobrazit?
     selectPlaceholder: Vybrat pole
-    help: Příklad
     field: Pole
     condition: Podmínka
     tooltip:
