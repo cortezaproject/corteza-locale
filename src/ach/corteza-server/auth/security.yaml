@@ -6,18 +6,18 @@ template:
   mfa:
     title: crwdns181701:0crwdne181701:0
     totp:
-      title: crwdns181703:0crwdne181703:0
-      enforced: crwdns181705:0crwdne181705:0
+      title: crwdns182033:0crwdne182033:0
+      enforced: crwdns182035:0crwdne182035:0
       configure: crwdns181707:0crwdne181707:0
       enable: crwdns181709:0crwdne181709:0
       disable: crwdns181711:0crwdne181711:0
       enabled: crwdns181713:0crwdne181713:0
-      disabled: crwdns181715:0crwdne181715:0
+      disabled: crwdns182037:0crwdne182037:0
     email:
-      title: crwdns181717:0crwdne181717:0
-      enforced: crwdns181719:0crwdne181719:0
+      title: crwdns182039:0crwdne182039:0
+      enforced: crwdns182041:0crwdne182041:0
       enable: crwdns181721:0crwdne181721:0
       disable: crwdns181723:0crwdne181723:0
-      enabled: crwdns181725:0crwdne181725:0
-      disabled: crwdns181727:0crwdne181727:0
+      enabled: crwdns182043:0crwdne182043:0
+      disabled: crwdns182045:0crwdne182045:0
     all-disabled: crwdns181729:0crwdne181729:0
