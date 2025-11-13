@@ -6,14 +6,10 @@ template:
   mfa:
     title: Vícefaktorové přihlášení 
     totp:
-      title: Zvýšené zabezpečení s mobilní aplikací (časově omezený jednorázový kód)
-      enforced: Nakonfigurováno a vyžadováno při přihlášení
       configure: Konfigurovat
       enable: Zapnout
       disable: Vypnout
     email:
-      title: Zvýšené zabezpečení s jednorázovým kódem v emailu
-      enforced: Nakonfigurováno a vyžadováno při přihlášení 
       enable: Zapnout
       disable: Vypnout
     all-disabled: Všechny metody vícefaktorového přihlášení jsou vypnuté. Požádejte svého administrátora, aby je povolil.
