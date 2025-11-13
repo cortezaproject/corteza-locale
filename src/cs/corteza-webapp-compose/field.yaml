@@ -219,7 +219,6 @@ options:
     newline: Každá hodnota je na novém řádku
 sanitizers:
   description: Oříznutí mezer z textu nebo jiná úprava před validaci
-  examples: Příklady
   expression:
     placeholder: trim(hodnota)
   label: Očištění vstupu
