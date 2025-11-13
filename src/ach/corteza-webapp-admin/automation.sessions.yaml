@@ -52,6 +52,4 @@ list:
     canceled:
       label: crwdns172629:0crwdne172629:0
   loading: crwdns172631:0crwdne172631:0
-  numFound: 'crwdns172633:0{{count}}crwdne172633:0'
-  numFound_plural: 'crwdns172635:0{{count}}crwdne172635:0'
   title: crwdns172637:0crwdne172637:0
