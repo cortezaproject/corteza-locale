@@ -42,8 +42,6 @@ list:
       placeholder: crwdns171645:0crwdne171645:0
   loading: crwdns171647:0crwdne171647:0
   new: crwdns171649:0crwdne171649:0
-  numFound: 'crwdns171651:0{{count}}crwdne171651:0'
-  numFound_plural: 'crwdns171653:0{{count}}crwdne171653:0'
   pair:
     confirm: crwdns171655:0crwdne171655:0
     label: crwdns171657:0crwdne171657:0
