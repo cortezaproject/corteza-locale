@@ -55,8 +55,6 @@ list:
       label: Filtrar lista de aplicativos
       placeholder: Filtrar aplicativos por nome
   loading: Carregando aplicativos
-  numFound: '{{count}} aplicativo encontrado'
-  numFound_plural: '{{count}} aplicativos encontrados'
   permissions: Permissões
   title: Formulários
   yaml: YAML
