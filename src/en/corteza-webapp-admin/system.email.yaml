@@ -6,7 +6,7 @@ editor:
 
     host:
       label: Server
-      description: Server name and port. Port are usually 25 (insecure), 465 or 587 (secure).
+      description: Server name and port. Ports are usually 25 (insecure), 465 or 587 (secure).
 
     user:
       label: User

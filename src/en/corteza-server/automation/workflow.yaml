@@ -12,5 +12,5 @@ errors:
   notAllowedToUndelete: not allowed to undelete this workflow
   notAllowedToUpdate: not allowed to update this workflow
   notFound: workflow not found
-  staleData: stale data
+  staleData: workflow was modified by someone else or by a workflow after you've opened it. Please refresh to see the latest updated version
   unknownWorkflowStep: unknown workflow step

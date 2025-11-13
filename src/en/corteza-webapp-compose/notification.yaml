@@ -141,6 +141,7 @@ page:
     delete:
       success: Layout deleted
       failed: Failed to delete layout
+    listFailed: Could not load page layouts
 record:
   createFailed: Could not create record
   createSuccess: Record created
@@ -171,6 +172,8 @@ record:
   staleDataRefresh: Stale record data, all unsaved changes will be lost. Do you wish to refresh the data now?
   fieldConditions:
     failed: Failed to evaluate record block conditional fields
+  requiredFields:
+    failed: Failed to evaluate record page layout required fields
 record-list:
   corrupted-filter: Corrupted filter
   corrupted-summaries: Corrupted summaries

@@ -28,6 +28,9 @@ editor:
     remove: Remove
     secret: Secret
     security:
+      defaultUserGroup:
+        label: Default user group for new users
+        placeholder: Default user group for new users
       prohibitedRoles:
         description: Roles from this list will be removed from security context when user authorizes this client
         label: Prohibited roles
@@ -95,8 +98,6 @@ list:
       placeholder: Filter clients
   loading: Loading clients
   new: New Auth Client
-  numFound: '{{count}} clients found'
-  numFound_plural: '{{count}} clients found'
   permissions: Permissions
   title: Auth Clients
   yaml: YAML

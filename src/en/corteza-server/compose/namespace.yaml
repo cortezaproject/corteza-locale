@@ -9,7 +9,7 @@ errors:
   notAllowedToUndelete: not allowed to undelete this namespace
   notAllowedToUpdate: not allowed to update this namespace
   notFound: namespace does not exist
-  staleData: stale data
+  staleData: namespace was modified by someone else or by a workflow after you've opened it. Please refresh to see the latest updated version
   unsupportedExportFormat: unsupported export format
   unsupportedImportFormat: unsupported import format
   importMissingNamespace: the import source does not contain a namespace definition

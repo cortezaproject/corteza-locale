@@ -90,3 +90,20 @@ editor:
       invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
       url: URL
       new-tab: New tab
+
+  theming:
+    title: Theming
+
+  navigation:
+    title: Navigation
+
+  location:
+    title: Location
+    geosearch:
+      title: Geosearch
+      provider:
+        label: Provider
+        description: Select the provider to use for location search in maps
+      apiKey:
+        label: API Key
+        placeholder: Enter your API key

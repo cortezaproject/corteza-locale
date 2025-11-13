@@ -80,6 +80,7 @@ label:
   removeDefault: Remove default
   required: Required
   reset: Reset
+  examples: Examples
   sensitive: Sensitive
   save: Save
   saveAndClose: Save and close
@@ -91,7 +92,6 @@ label:
   title: Title
   type: Type
   updatedAt: Updated at
-  uploadError: 'Issue with file upload: "{{message}}"'
   uploading: Uploading
   unsavedChanges: Unsaved Changes
   urlPlaceholder: https://example.tld

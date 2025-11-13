@@ -14,4 +14,4 @@ errors:
   notAllowedToUndelete: not allowed to undelete this page
   notAllowedToUpdate: not allowed to update this page
   notFound: page does not exist
-  staleData: stale data
+  staleData: page was modified by someone else or by a workflow after you've opened it. Please refresh to see the latest updated version

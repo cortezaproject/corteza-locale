@@ -23,12 +23,7 @@ editor:
       resource-types-label: Resource type
 
   members:
-    add: Add
-    count: Members ({{count}})
-    remove: Remove
-    searchUsers: Search users
     title: Role members
-    unnamed: Unnamed user
   new: New Role
   permissions: Permissions
   title:
@@ -66,8 +61,6 @@ list:
       placeholder: Filter roles by name
   loading: Loading roles
   new: New Role
-  numFound: '{{count}} role found'
-  numFound_plural: '{{count}} roles found'
   permissions: Permissions
   title: Roles
   yaml: YAML

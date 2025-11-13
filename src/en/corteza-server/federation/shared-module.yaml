@@ -7,4 +7,4 @@ errors:
   notAllowedToMap: not allowed to map this module
   notFound: module does not exist
   notUnique: node not unique
-  staleData: stale data
+  staleData: module was modified by someone else or by a workflow after you've opened it. Please refresh to see the latest updated version

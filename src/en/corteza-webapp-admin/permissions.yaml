@@ -128,6 +128,10 @@ resources:
           title: Can pin application for everyone
         application.flag.self:
           title: Can pin application for themselves
+        user-groups.search:
+          title: List and search user groups
+        user-group.create:
+          title: Create new user group
         applications.search:
           title: List and search applications
         auth-client.create:
@@ -403,6 +407,28 @@ resources:
           description: 'Default: deny'
           specific: Update {{target}}
           title: Update any user
+
+    user-group:
+      label: User groups
+      all: all user groups
+      specific: user group "{{target}}"
+      operations:
+        read:
+          description: 'Default: deny'
+          specific: Read {{target}}
+          title: Read any user group
+        update:
+          description: 'Default: deny'
+          specific: Update {{target}}
+          title: Update any user group
+        delete:
+          description: 'Default: deny'
+          specific: Delete {{target}}
+          title: Delete any user group
+        members.manage:
+          description: 'Default: deny'
+          specific: Manage members for {{target}}
+          title: Manage members for any user group
 
     data-privacy-request:
       label: Privacy Requests

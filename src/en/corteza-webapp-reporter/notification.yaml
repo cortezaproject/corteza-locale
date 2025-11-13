@@ -4,6 +4,7 @@ general:
   error: Error
   success: Success
   warning: Warning
+  info: Info
 list:
   load:
     error: Failed to load resource list

@@ -7,4 +7,4 @@ errors:
   notAllowedToUndelete: not allowed to undelete this trigger
   notAllowedToUpdate: not allowed to update this trigger
   notFound: trigger not found
-  staleData: stale data
+  staleData: trigger was modified by someone else or by a workflow after you've opened it. Please refresh to see the latest updated version

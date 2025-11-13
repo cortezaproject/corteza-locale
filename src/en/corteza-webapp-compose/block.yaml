@@ -315,9 +315,12 @@ record:
     action: + Add
     placeholder: When should this field be displayed?
     selectPlaceholder: Select field
-    help: Example
     field: Field
     condition: Condition
+    clearOnHide: Clear On Hide
+    clearOnHideTooltip: Automatically clear this field's value when it becomes hidden
+    clearAllOnHide: Clear all conditional fields when hidden
+    clearAllOnHideDescription: When enabled, all conditional fields will be cleared when they become hidden, overriding individual field settings
     tooltip:
       performance: Using conditional fields will impact performance
   recordSelectorCanAddRecord: Can add records via record selector
@@ -813,6 +816,9 @@ navigation:
   add: Add navigation item
   addDropdown: Add dropdown item
   composePage: Compose page
+  pageLayout: Page Layout
+  defaultLayout: Default Layout
+  unnamedLayout: Unnamed Layout
   tabs: Tabs
   pills: Pills
   small: Small

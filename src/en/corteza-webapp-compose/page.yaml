@@ -13,6 +13,7 @@ page-layout:
     builder: Open layout in builder
     performance:
       condition: Using visibility conditions will impact performance
+      requiredFields: Using required fields will impact performance
   condition:
     label: Condition
     placeholder: When will the layout be shown
@@ -57,6 +58,14 @@ page-layout:
       toURL:
         label: Redirect to URL
         placeholder: No URL specified
+  requiredFields:
+    label: Required fields
+    description: Define fields that should be required based on a condition
+    field: Field
+    condition: Condition
+    selectPlaceholder: Select a field
+    conditionPlaceholder: If no condition is set, the field will be required
+    help: "You can use {{0}}, {{1}}, {{2}} inside the expression to define when a field should be required"
 
 block:
   general:
