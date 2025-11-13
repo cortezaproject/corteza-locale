@@ -97,6 +97,7 @@ trigger:
     add: crwdns180157:0crwdne180157:0
     add-constraints: crwdns180159:0crwdne180159:0
     constraints: crwdns180161:0crwdne180161:0
+    no-constraints: crwdns182255:0crwdne182255:0
     event*: crwdns180163:0crwdne180163:0
     failed-fetch-event-types: crwdns180165:0crwdne180165:0
     initial-scope: crwdns180167:0crwdne180167:0
