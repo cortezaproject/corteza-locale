@@ -52,8 +52,6 @@ list:
       placeholder: Filtrovat workflow podle jména
   loading: Načítání workflow
   new: Nové workflow
-  numFound: 'Nalezeno {{count}} workflow'
-  numFound_plural: 'Nalezeno {{count}} workflow'
   permissions: Oprávnění
   title: Workflows
   yaml: YAML
