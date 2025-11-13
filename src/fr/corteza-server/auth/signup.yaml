@@ -18,6 +18,5 @@ template:
   log-in: Avez-vous déjà un compte ? <a data-test-id="link-login" href="{{link}}">Se connecter</a>
 alerts:
   signup-successful: Connecté avec succès
-  email-confirmed-logged-in: Adresse email confirmée, vous êtes maintenant connecté.
   invalid-expired-token: Jeton de confirmation d'email invalide ou expiré, veuillez renvoyer la demande de confirmation.
   signup-disabled: Enregistrement désactivé
