@@ -1,3 +1,5 @@
+break:
+  tooltip: Arrête l'exécution de l'itérateur et continue le processus
 content:
   label: Contenu
   short: Contenu
@@ -36,6 +38,10 @@ exec-workflow:
 gateway:
   configurator:
     condition: Condition
+iterator:
+  label: Itérateur
+  short: Itérateur
+  tooltip: Itérer sur des objets
 termination:
   tooltip: Mettre fin à l'exécution du processus
 trigger:
