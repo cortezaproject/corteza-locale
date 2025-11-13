@@ -1,0 +1,23 @@
+title: Notifications
+empty: Pas de notifications
+emptyDescription: Vous verrez des notifications ici lorsqu'elles arriveront
+markAllAsRead: Marquer tout comme lu
+markAsRead: Marquer comme lu
+delete: Supprimer
+all: Tous
+unread: Non-lu
+read: Lu
+success: Succès
+allMarkedAsRead: Toutes les notifications ont été marquées comme lues
+notificationDeleted: La notification a été supprimée
+loadMore: Charger plus
+recordRedirectError: Erreur lors de la navigation vers l'élément
+mute: Désactiver les notifications
+unmute: Réactiver les notifications
+muted: Notifications désactivées
+unmuted: Notifications réactivées
+markAllAsReadError: Erreur lors du marquage de toutes les notifications comme lues
+notificationDeletedError: Erreur lors de la suppression de la notification
+namespaceNotFound: Namespace introuvable
+pageNotFound: Page introuvable
+recordNotFound: Élément introuvable
