@@ -38,8 +38,6 @@ list:
     query:
       label: Filtrar lista de servidores
       placeholder: Filtrar servidores por nome
-  numFound: '{{count}} servidor encontrado'
-  numFound_plural: '{{count}} servidores encontrados'
   pair:
     confirm: confirme
     networkEstablished: A rede federada será estabelecida após a confirmação final do administrador de outro nó da federação Corteza.
