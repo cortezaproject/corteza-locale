@@ -19,6 +19,5 @@ errors:
   notAllowedToUndelete: não é permitido recuperar este registro
   notAllowedToUpdate: não é permitido atualizar este registro
   notFound: registro não encontrado
-  staleData: dados obsoletos
   unknownBulkOperation: operação em massa desconhecida {bulkOperation}
   valueInput: entrada de valor de registro inválido
