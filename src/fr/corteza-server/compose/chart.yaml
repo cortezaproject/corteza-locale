@@ -13,4 +13,3 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de ce graphique
   notAllowedToUpdate: non autorisé à mettre à jour ce graphique
   notFound: ce graphique n'existe pas
-  staleData: données obsolètes

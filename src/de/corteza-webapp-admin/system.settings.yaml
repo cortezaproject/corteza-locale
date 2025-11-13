@@ -9,9 +9,6 @@ editor:
       validate-email: Please enter valid email address.
     mfa:
       title: Multi-Faktor-Authentifizierung
-      TOTP:
-        issuer:
-          description: Issuer name will be send to authenticator app when user configures it.
       emailOTP:
         expires:
           description: How long will password be valid before it expires.

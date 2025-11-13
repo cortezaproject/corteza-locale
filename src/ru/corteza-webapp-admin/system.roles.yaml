@@ -13,9 +13,6 @@ editor:
     context:
       expression-label: Выражение
       resource-types-label: Тип ресурса
-  members:
-    add: Добавить
-    remove: Удалить
   permissions: Разрешения
 list:
   columns:

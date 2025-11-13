@@ -106,8 +106,6 @@ list:
       label: zablokovaní uživatelé
   loading: Načítání uživatelů
   new: Nový uživatel
-  numFound: 'Nalezen {{count}} uživatel'
-  numFound_plural: 'Nalezeno {{count}} uživatelů'
   permissions: Oprávnění
   title: Uživatelé
   yaml: YAML

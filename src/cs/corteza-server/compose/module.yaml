@@ -15,5 +15,4 @@ errors:
   notAllowedToUndelete: není povoleno obnovit tento smazaný modul
   notAllowedToUpdate: není povoleno aktualizovat tento modul
   notFound: modul neexistuje
-  staleData: zastaralá data
   dedupConfigurationInvalidMissingConstraint: chybějící omezení konfigurace reduplikace

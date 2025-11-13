@@ -7,4 +7,3 @@ errors:
   notAllowedToUndelete: dieser Trigger kann nicht wiederhergestellt werden
   notAllowedToUpdate: dieser Trigger kann nicht aktualisiert werden
   notFound: Trigger nicht gefunden
-  staleData: alte Daten

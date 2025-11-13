@@ -5,21 +5,52 @@
 ui:
   save: Enregistrer changements
   cancel: Annuler
+  set-for: Définir permissions pour {{target}}
+  loading: Chargement des permissions
+  notification:
+    save:
+      success: Permissions enregistrées
+      failed: Échec de l'enregistrement des permissions
   edit:
+    title: Éditer permissions
     label: Rôles utilisateur
+    description: Sélectionnez rôle pour définir les permissions
+  evaluate:
+    description: Évaluer permissions appliquées
   add:
     label: + Ajouter
+    title: Évaluer permissions
+    save: Enregistrer et fermer
     role:
       label: Rôles
+      placeholder: Sélectionnez rôle(s)
+    user:
+      label: Utilisateurs
+      placeholder: Cherchez ou sélectionnez un utilisateur
   access:
     allow: Autoriser
+    inherit: Hériter
     deny: Interdire
+  edit-or-eval: Éditer ou évaluer permissions
+  title:
+    automation: Permissions automatisation
+    system: Permissions système
+    compose: Permissions compose
+    federation: Permissions fédération
   clone:
     clone: Cloner
+    label: Cloner permissions
+    pick-role: Commencez à taper pour rechercher des rôles
+    title: Appliquer permissions à
 resources:
   automation:
     component:
+      label: Composant d'automatisation
       operations:
+        sessions.search:
+          title: Rechercher sessions
+        triggers.search:
+          title: Rechercher déclencheurs
         workflow.create:
           title: Créer nouveau processus
         workflows.search:
@@ -59,6 +90,7 @@ resources:
           title: Mettre à jour n'importe quel processus
   system:
     component:
+      label: Composant système
       operations:
         queue.create:
           title: Créer une nouvelle file de messages
@@ -90,60 +122,161 @@ resources:
         update:
           specific: Update report "{{target}}"
     queue:
+      label: File d'attente
+      all: toutes les files d'attente
+      specific: file d'attente "{{target}}"
       operations:
         delete:
+          description: 'Défaut : refuser'
           specific: Delete report "{{target}}"
+          title: Supprimer n'importe quelle file d'attente
+        members.manage:
+          description: 'Défaut : refuser'
         read:
+          description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quelle file d'attente
         update:
+          description: 'Défaut : refuser'
           specific: Update report "{{target}}"
+          title: Mettre à jour n'importe quelle file d'attente
+        queue.read:
+          description: 'Défaut : refuser'
+          specific: Lire des messages de {{target}}
+          title: Lire des messages de n'importe quelle file d'attente
+        queue.write:
+          description: 'Défaut : refuser'
     template:
       operations:
         delete:
+          description: 'Défaut : refuser'
           specific: Delete report "{{target}}"
         read:
+          description: 'Défaut : refuser'
           specific: Lire {{target}}
+        render:
+          description: 'Défaut : refuser'
         update:
+          description: 'Défaut : refuser'
           specific: Update report "{{target}}"
     report:
       label: Rapports
+      all: tous les rapports
       operations:
         delete:
+          description: 'Défaut : refuser'
           specific: Delete report "{{target}}"
+          title: Supprimer n'importe quel rapport
         read:
+          description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quel rapport
         run:
+          description: 'Défaut : refuser'
           specific: Run report "{{target}}"
+          title: Exécuter n'importe quel rapport
         update:
+          description: 'Défaut : refuser'
           specific: Update report "{{target}}"
+          title: Mettre à jour n'importe quel rapport
     user:
+      label: Utilisateurs
+      all: tous les utilisateurs
+      specific: utilisateur "{{target}}"
       operations:
+        credentials:
+          manage:
+            title: Gérer n'importe quel utilisateur
         delete:
+          description: 'Défaut : refuser'
           specific: Delete report "{{target}}"
+          title: Supprimer n'importe quel utilisateur
+        email.unmask:
+          description: 'Défaut : refuser'
+        name.unmask:
+          description: 'Défaut : refuser'
+        impersonate:
+          description: 'Défaut : refuser'
         read:
+          description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quel utilisateur
+        suspend:
+          description: 'Défaut : refuser'
+          specific: Désactiver {{target}}
+          title: Désactiver n'importe quel utilisateur
+        unsuspend:
+          description: 'Défaut : refuser'
+          specific: Réactiver {{target}}
+          title: Réactiver n'importe quel utilisateur
         update:
+          description: 'Défaut : refuser'
           specific: Update report "{{target}}"
+          title: Mettre à jour n'importe quel utilisateur
     data-privacy-request:
       label: Requêtes de confidentialité
       operations:
         read:
+          description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quelle demande
+        approve:
+          description: 'Défaut : refuser'
+          specific: Approuver {{target}}
+          title: Approuver n'importe quelle demande
   federation:
+    component:
+      operations:
+        node.create:
+          title: Créer des nœuds
+        pair:
+          title: Appairer nœuds
+        settings.manage:
+          title: Gérer tous les paramètres
+    node:
+      label: Nœuds
+      operations:
+        module.create:
+          title: Créer des modules
     exposed-module:
       label: Modules
+      operations:
+        manage:
+          title: Gérer n'importe quel module
     shared-module:
       label: Modules
   compose:
+    component:
+      label: Composant compose
+      operations:
+        namespace.create:
+          title: Créer des namespaces
+        settings.manage:
+          title: Gérer tous les paramètres
+        settings.read:
+          title: Accéder à tous les paramètres
     chart:
       label: Graphiques
+      operations:
+        delete:
+          title: Supprimer n'importe quel graphique
+        read:
+          title: Lire n'importe quel graphique
+        update:
+          title: Mettre à jour n'importe quel graphique
     module:
       label: Modules
       operations:
+        delete:
+          title: Supprimer n'importe quel module
+        read:
+          title: Lire n'importe quel module
         record.create:
           title: Créer élément pour n'importe quel module
         records.search:
           title: Lister et chercher éléments de n'importe quel module
+        update:
+          title: Mettre à jour n'importe quel module
     module-field:
       label: Champs de module
       operations:
@@ -154,11 +287,37 @@ resources:
     namespace:
       label: Namespaces
       operations:
+        chart.create:
+          title: Créer graphiques pour n'importe quel namespace
+        charts.search:
+          title: Lister et chercher graphiques pour n'importe quel namespace
+        delete:
+          title: Supprimer n'importe quel namespace
+        manage:
+          title: Gérer n'importe quel namespace
+        module.create:
+          title: Créer modules pour n'importe quel namespace
+        modules.search:
+          title: Lister et chercher modules pour n'importe quel namespace
+        page.create:
+          title: Créer pages pour n'importe quel namespace
+        pages.search:
+          title: Lister et chercher pages pour n'importe quel namespace
         read:
           title: Accéder à n'importe quel namespace
+        update:
+          title: Mettre à jour n'importe quel namespace
+        export:
+          title: Exporter n'importe quel namespace
     page:
       label: Pages
       operations:
+        delete:
+          title: Supprimer n'importe quelle page
+        read:
+          title: Lire n'importe quelle page
+        update:
+          title: Mettre à jour n'importe quelle page
         page-layout.create:
           title: Créer dispositions de page pour n'importe quelle page
     page-layout:

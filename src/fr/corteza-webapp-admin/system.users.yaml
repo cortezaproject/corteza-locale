@@ -13,7 +13,10 @@ editor:
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     name: Nom complet
     revokeAllSession: Révoquer toutes les sessions actives
+    suspend: Désactiver
+    suspendedAt: Désactivé à
     undelete: Annuler suppression
+    unsuspend: Réactiver
     updatedAt: Mis à jour à
   avatar:
     preview:
@@ -61,12 +64,21 @@ list:
     enabled: Activé
     handle: Identifiant
     name: Nom
+  suspend: Désactiver
+  unsuspend: Réactiver
   delete: Supprimer
   undelete: Annuler suppression
   export: Exporter
+  rows:
+    filters:
+      suspended: Désactivé
+  filterForm:
+    suspended:
+      label: utilisateurs désactivés
   new: Nouvel utilisateur
   permissions: Permissions
   title: Utilisateurs
+  yaml: YAML
 export:
   buttonLabel: Exporter
   export: Exporter

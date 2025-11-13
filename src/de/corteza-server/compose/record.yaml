@@ -19,6 +19,5 @@ errors:
   notAllowedToUndelete: dieser Datensatz kann nicht wiederhergestellt werden
   notAllowedToUpdate: dieser Datensatz kann nicht aktualisiert werden
   notFound: Datensatz nicht gefunden
-  staleData: alte Daten
   unknownBulkOperation: unbekannte Bulk-Operation {bulkOperation}
   valueInput: ungültiger Datensatzeintrag

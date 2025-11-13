@@ -1,4 +1,8 @@
 editor:
+  content:
+    toolbox:
+      snippets:
+        iterator: Itérer sur un ensemble
   info:
     createdAt: Créer à
     createdBy: Créer par

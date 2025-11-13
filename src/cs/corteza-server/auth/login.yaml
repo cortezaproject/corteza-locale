@@ -16,5 +16,4 @@ template:
     external:
       login-with: Přihlásit pomocí {{idp}}
 alerts:
-  logged-in: Nyní jste přihlášeni
   local-disabled: Místní účet zablokován

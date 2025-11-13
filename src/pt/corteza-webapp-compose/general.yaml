@@ -67,7 +67,6 @@ label:
   title: Título
   type: Tipo
   updatedAt: Atualizado em
-  uploadError: 'Problema com upload de arquivo "{{message}}"'
   uploading: Enviando
   urlPlaceholder: https://exemplo.tld
   validation: Validação

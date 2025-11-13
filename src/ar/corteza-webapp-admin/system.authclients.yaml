@@ -79,8 +79,6 @@ list:
       label: تصفية قائمة العملاء
       placeholder: تصفية قائمة العملاء
   loading: تحميل العملاء
-  numFound: '{{count}} عملاء'
-  numFound_plural: '{{count}} عملاء'
   permissions: الصلاحيات
   title: Auth Clients
   yaml: YAML

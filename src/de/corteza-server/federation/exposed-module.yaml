@@ -8,4 +8,3 @@ errors:
   notFound: Modul nicht vorhanden
   notUnique: Knoten nicht eindeutig
   requestParametersInvalid: Anforderungsparameter sind ungültig
-  staleData: alte Daten

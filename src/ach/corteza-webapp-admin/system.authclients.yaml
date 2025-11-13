@@ -28,6 +28,9 @@ editor:
     remove: crwdns171717:0crwdne171717:0
     secret: crwdns171719:0crwdne171719:0
     security:
+      defaultUserGroup:
+        label: crwdns182175:0crwdne182175:0
+        placeholder: crwdns182177:0crwdne182177:0
       prohibitedRoles:
         description: crwdns171721:0crwdne171721:0
         label: crwdns171723:0crwdne171723:0
@@ -95,8 +98,6 @@ list:
       placeholder: crwdns171811:0crwdne171811:0
   loading: crwdns171813:0crwdne171813:0
   new: crwdns171815:0crwdne171815:0
-  numFound: 'crwdns171817:0{{count}}crwdne171817:0'
-  numFound_plural: 'crwdns171819:0{{count}}crwdne171819:0'
   permissions: crwdns171821:0crwdne171821:0
   title: crwdns171823:0crwdne171823:0
   yaml: crwdns171825:0crwdne171825:0

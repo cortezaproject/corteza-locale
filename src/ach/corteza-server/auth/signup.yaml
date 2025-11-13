@@ -18,6 +18,6 @@ template:
   log-in: crwdns181755:0{{link}}crwdne181755:0
 alerts:
   signup-successful: crwdns181757:0crwdne181757:0
-  email-confirmed-logged-in: crwdns181759:0crwdne181759:0
+  email-confirmed-logged-in: crwdns182047:0crwdne182047:0
   invalid-expired-token: crwdns181761:0crwdne181761:0
   signup-disabled: crwdns181763:0crwdne181763:0

@@ -7,6 +7,7 @@ editor:
     enabled: Activé
     handle: Identifiant
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+    id: ID
     name: Nom *
     undelete: Annuler suppression
     updatedAt: Mis à jour à
@@ -17,8 +18,14 @@ editor:
     edit: Éditer processus
   triggers:
     and: et
+    columns:
+      constraints: Contraintes
+      eventType: Évènement
+      resourceType: Ressource
+    title: Déclencheurs
 list:
   columns:
+    createdAt: Créé
     enabled: Activé
     handle: Identifiant
     name: Nom
@@ -33,7 +40,5 @@ list:
       placeholder: Filtrez les processus par leurs noms
   loading: Chargement des processus
   new: Nouveau processus
-  numFound: '{{count}} processus trouvé'
-  numFound_plural: '{{count}} processus trouvés'
   permissions: Permissions
   title: Processus

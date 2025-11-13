@@ -226,7 +226,6 @@ options:
     newline: crwdns176825:0crwdne176825:0
 sanitizers:
   description: crwdns176827:0crwdne176827:0
-  examples: crwdns176829:0crwdne176829:0
   expression:
     placeholder: crwdns176831:0crwdne176831:0
   label: crwdns176833:0crwdne176833:0

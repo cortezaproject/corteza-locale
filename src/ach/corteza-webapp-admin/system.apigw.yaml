@@ -7,8 +7,6 @@ list:
   profiler: crwdns172315:0crwdne172315:0
   yaml: crwdns172317:0crwdne172317:0
   loading: crwdns172319:0crwdne172319:0
-  numFound: 'crwdns172321:0{{count}}crwdne172321:0'
-  numFound_plural: 'crwdns172323:0{{count}}crwdne172323:0'
   filterForm:
     query:
       label: crwdns172325:0crwdne172325:0

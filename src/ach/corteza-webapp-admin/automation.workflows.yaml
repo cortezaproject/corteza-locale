@@ -53,8 +53,6 @@ list:
       placeholder: crwdns171011:0crwdne171011:0
   loading: crwdns171013:0crwdne171013:0
   new: crwdns171015:0crwdne171015:0
-  numFound: 'crwdns171017:0{{count}}crwdne171017:0'
-  numFound_plural: 'crwdns171019:0{{count}}crwdne171019:0'
   permissions: crwdns171021:0crwdne171021:0
   title: crwdns171023:0crwdne171023:0
   yaml: crwdns171025:0crwdne171025:0

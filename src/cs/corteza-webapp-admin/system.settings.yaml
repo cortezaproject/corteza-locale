@@ -44,14 +44,9 @@ editor:
     mfa:
       title: Vícefaktorová autentizace
       TOTP:
-        enabled: Povolit použití TOTP (časově omezené jednorázové kódy z mobilní aplikace)
-        enforced: Vynutit použití TOTP (časově omezené jednorázové kódy z mobilní aplikace)
         issuer:
-          description: Jméno vydavatele se předvyplní v autentizační aplikaci 
           label: Vydavatel
       emailOTP:
-        enabled: Povolit použití OTP (jednorázových kódů) zaslaných přes email
-        enforced: Vynutit použití OTP (jednorázových kódů) zaslaných přes email
         expires:
           description: Jak dlouho bude kód platný
           label: Délka platnosti
@@ -134,7 +129,5 @@ editor:
     image:
       uploader:
         label: Obrázek na pozadí
-        instructions: Nahrajte obrázek pozadí kliknutím nebo přetáhnutím
-        uploading: Nahrávání obrázku pozadí
       editor:
         label: Vlastní CSS

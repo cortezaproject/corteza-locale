@@ -4,7 +4,6 @@ editor:
     title: Servidor SMTP
     host:
       label: Servidor
-      description: Nome do servidor e porta. As portas geralmente são 25 (inseguras), 465 ou 587 (seguras).
     user:
       label: Do utilizador
       description: Credenciais de autenticação opcionais para seu servidor de e-mail.

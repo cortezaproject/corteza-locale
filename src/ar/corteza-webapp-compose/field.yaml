@@ -148,7 +148,6 @@ options:
     newline: كل قيمة في سطر جديد
 sanitizers:
   description: اقتطع المسافات من النص أو نفذ أنواعًا أخرى من التلاعب بالقيمة قبل التحقق من صحتها
-  examples: امثلة
   expression:
     placeholder: تقليم (القيمة)
   label: تعقيم القيمة

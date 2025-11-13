@@ -46,6 +46,4 @@ list:
     suspended:
       label: موقف
   loading: تحميل الجلسات
-  numFound: '{{count}} جلسة'
-  numFound_plural: '{{count}} جلسات'
   title: جلسات

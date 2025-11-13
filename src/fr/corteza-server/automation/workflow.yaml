@@ -12,5 +12,4 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de ce processus
   notAllowedToUpdate: non autorisé à mettre à jour ce processus
   notFound: processus introuvable
-  staleData: données obsolètes
   unknownWorkflowStep: étape de processus inconnue

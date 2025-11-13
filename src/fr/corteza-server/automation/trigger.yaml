@@ -7,4 +7,3 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de ce déclencheur
   notAllowedToUpdate: non autorisé à mettre à jour ce déclencheur
   notFound: déclencheur introuvable
-  staleData: données obsolètes

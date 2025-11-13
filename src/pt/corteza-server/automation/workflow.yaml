@@ -12,5 +12,4 @@ errors:
   notAllowedToUndelete: não tem permissão para recuperar este fluxo de trabalho
   notAllowedToUpdate: não tem permissão para atualizar este fluxo de trabalho
   notFound: fluxo de trabalho não encontrado
-  staleData: dados obsoletos
   unknownWorkflowStep: etapa de fluxo de trabalho desconhecida

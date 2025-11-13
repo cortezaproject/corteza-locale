@@ -7,4 +7,3 @@ errors:
   notAllowedToMap: Не разрешено отображать модуль
   notFound: module does not exist
   notUnique: Узел не уникальный
-  staleData: устаревшие данные

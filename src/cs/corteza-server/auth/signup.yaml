@@ -17,6 +17,5 @@ template:
   log-in: Už máte účet? <a data-test-id="link-login" href="{{link}}">Přihlaste se</a>
 alerts:
   signup-successful: Registrace byla úspěšná
-  email-confirmed-logged-in: Emailová adresa potvrzena, nyní jste přihlášeni.
   invalid-expired-token: Neplatný token pro potvrzení emailu nebo jeho platnost vypršela, pošlete prosím novou žádost o potvrzení.
   signup-disabled: Registrace je vypnutá 

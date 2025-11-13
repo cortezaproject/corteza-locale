@@ -76,6 +76,26 @@ role:
   membershipUpdate:
     success: crwdns174127:0crwdne174127:0
     error: crwdns174129:0crwdne174129:0
+userGroup:
+  fetch:
+    error: crwdns182097:0crwdne182097:0
+  roles:
+    error: crwdns182099:0crwdne182099:0
+  membershipUpdate:
+    success: crwdns182101:0crwdne182101:0
+    error: crwdns182103:0crwdne182103:0
+  create:
+    success: crwdns182105:0crwdne182105:0
+    error: crwdns182107:0crwdne182107:0
+  update:
+    success: crwdns182109:0crwdne182109:0
+    error: crwdns182111:0crwdne182111:0
+  delete:
+    success: crwdns182113:0crwdne182113:0
+    error: crwdns182115:0crwdne182115:0
+  undelete:
+    success: crwdns182117:0crwdne182117:0
+    error: crwdns182119:0crwdne182119:0
 application:
   fetch:
     error: crwdns174131:0crwdne174131:0
@@ -174,6 +194,8 @@ gateway:
 workflow:
   fetch:
     error: crwdns174241:0crwdne174241:0
+  trigger:
+    error: crwdns182121:0crwdne182121:0
   create:
     success: crwdns174243:0crwdne174243:0
     error: crwdns174245:0crwdne174245:0
@@ -268,6 +290,24 @@ settings:
     update:
       success: crwdns174349:0crwdne174349:0
       error: crwdns174351:0crwdne174351:0
+  theming:
+    fetch:
+      error: crwdns182123:0crwdne182123:0
+    update:
+      success: crwdns182125:0crwdne182125:0
+      error: crwdns182127:0crwdne182127:0
+  navigation:
+    fetch:
+      error: crwdns182129:0crwdne182129:0
+    update:
+      success: crwdns182131:0crwdne182131:0
+      error: crwdns182133:0crwdne182133:0
+  location:
+    fetch:
+      error: crwdns182135:0crwdne182135:0
+    update:
+      success: crwdns182137:0crwdne182137:0
+      error: crwdns182139:0crwdne182139:0
   code-snippet:
     fetch:
       error: crwdns174353:0crwdne174353:0

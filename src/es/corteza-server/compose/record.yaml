@@ -13,4 +13,3 @@ errors:
   notAllowedToDelete: no tiene permitido eliminar este registro
   notAllowedToRead: no tiene permitido leer este registro
   notAllowedToReadNamespace: no tiene permitido leer este namespace
-  staleData: datos obsoletos

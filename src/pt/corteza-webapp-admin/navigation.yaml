@@ -33,5 +33,3 @@ federation:
     permissions: Permissões
 ui:
   group: Interface de usuário
-  items:
-    settings: Configurações

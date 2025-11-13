@@ -37,5 +37,3 @@ federation:
     permissions: Oprávnění
 ui:
   group: Uživatelské rozhraní
-  items:
-    settings: Nastavení

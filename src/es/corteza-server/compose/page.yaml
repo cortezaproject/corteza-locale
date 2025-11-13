@@ -14,4 +14,3 @@ errors:
   notAllowedToUndelete: no tiene permitido deshacer la eliminación de esta página
   notAllowedToUpdate: no tiene permitido actualizar esta página
   notFound: la página no existe
-  staleData: datos obsoletos

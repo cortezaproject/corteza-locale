@@ -148,7 +148,6 @@ options:
     newline: Cada valor em uma nova linha
 sanitizers:
   description: Apare espaços do texto ou faça outros tipos de manipulação de valor antes da validação
-  examples: Exemplos
   expression:
     placeholder: trim(valor)
   label: Sanitização de valor

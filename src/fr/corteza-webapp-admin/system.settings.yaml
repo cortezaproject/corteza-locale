@@ -12,9 +12,6 @@ editor:
       validate-email: Merci d'entrer un courriel valide
     mfa:
       title: Authentification multi-facteurs
-      TOTP:
-        issuer:
-          description: Le nom d'émetteur sera transmis à l'application d'authentification à la configuration utilisateur
       emailOTP:
         expires:
           description: Durée de validité du mot de passe avant expiration

@@ -15,4 +15,3 @@ errors:
   notAllowedToUndelete: не разрешено восстанавливать модуль
   notAllowedToUpdate: не разрешено обновлять модуль
   notFound: module does not exist
-  staleData: устаревшие данные

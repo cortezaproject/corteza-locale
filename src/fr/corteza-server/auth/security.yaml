@@ -6,18 +6,11 @@ template:
   mfa:
     title: Authentification multi-facteurs
     totp:
-      title: Sécurité supplémentaire avec application mobile (mot de passe à usage unique basé sur le temps)
-      enforced: Configuré et requis à la connexion
       configure: Configurer
       enable: Activer
       disable: Désactiver
       enabled: Mot de passe à usage unique basé sur le temps activé
-      disabled: Mot de passe à usage unique basé sur le temps désactivé
     email:
-      title: Sécurité supplémentaire grâce à un mot de passe à usage unique par email
-      enforced: Désactivé et requis à la connexion
       enable: Activer
       disable: Désactiver
-      enabled: Authentification à deux facteurs par courriel activé
-      disabled: Authentification à deux facteurs par courriel désactivé
     all-disabled: Toutes les méthodes MFA sont actuellement désactivées. Demandez à votre administrateur de les activer.

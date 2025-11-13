@@ -13,9 +13,6 @@ editor:
     description: '$t(general.label.description)'
     context:
       resource-types-label: Ressourcentyp
-  members:
-    add: Hinzufügen
-    remove: Entfernen
   new: New
   permissions: Berechtigungen
 list:

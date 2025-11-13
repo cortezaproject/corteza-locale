@@ -5,4 +5,3 @@ errors:
   notAllowedToRead: non autorisé pour lire cette session
   notAllowedToSearch: non autorisé pour rechercher ou lister des sessions
   notFound: session non trouvée
-  staleData: données obsolètes

@@ -1,9 +1,22 @@
 chart:
   configurator:
+    begin-axis-at-zero: Toujours débuter l'échelle de l'axe à zéro
+    chart-title: Titre de graphique
+    color-scheme: Palette de couleurs
+    data: Donnée
+    data-columns: Colonnes de donnée
     default: Défaut
     default-value: Valeur par défaut
     general: Général
+    label-column: Colonne d'étiquette
+    logarithmic-scale: Échelle logarithmique
+    position-description: Les valeurs peuvent être définies en pixels (20) ou en pourcentages (20%)
     none: Aucune
+    place-axis-on-right-side: Placer axes sur le côté de droite
+    skip-missing-values: Ignorer valeurs manquantes
+    step-size: Taille de l'incrément
+    animation:
+      enabled: Animation activée
     metrics:
       label: Métriques
       field: Champ
@@ -15,6 +28,7 @@ chart:
     time:
       label: Heure
       unit:
+        label: Unité de temps
         types:
           date: Date
           month: Mois
@@ -22,26 +36,61 @@ chart:
           week: Semaine
           year: Année
     type: Type
+    types:
+      bar: Barre
+      doughnut: Anneau
+      funnel: Entonnoir
+      line: Linéaire
+      pie: Secteur
+    value:
+      max: Valeur maximale
+      min: Valeur minimum
+    x-axis:
+      name: Axe X
+      label: Étiquette de l'axe
+      type: Type d'axe
+      labelRotation:
+        label: Pivoter étiquettes
     y-axis:
+      name: Axe Y
+      label: Étiquette de l'axe
       labelPosition:
+        label: Position de l'étiquette
+        top: Haut
         center: Centre
+        bottom: Bas
+      labelRotation:
+        label: Pivoter étiquettes
     legend:
+      name: Légende
+      hide: Cacher légende
+      scrollable: Défilable
       orientation:
         label: Orientation
         horizontal: Horizontal
         vertical: Vertical
       align:
+        label: Alignement
         left: Gauche
         right: Droite
         center: Centre
       position:
+        description: Valeurs c
+        default: Position par défaut
+        top: Haut
         right: Droite
+        bottom: Bas
         left: Gauche
     tooltips:
+      name: Info-bulles
       show:
         always: Toujours afficher étiquettes
     offset:
+      name: Décalage
+      default: Décalage par défaut
+      top: Haut
       right: Droite
+      bottom: Bas
       left: Gauche
 metric:
   configurator:
@@ -50,19 +99,33 @@ metric:
       text: Couleur de texte
       picker: Choisissez une couleur
     format: Format
+    label-column: Colonne d'étiquette
     none: Aucune
     prefix: Préfixe
     suffix: Suffixe
 table:
   configurator:
     general: Général
+    data: Donnée
+    columns: Colonnes
     dark: Sombre
+    head-variant: Variant d'en-tête
+    joined-datasource-handling: Gestion des sources de données jointes
     light: Clair
     none: Aucune
     table:
       options:
+        bordered: Avec bordure
+        borderless: Sans bordure
         dark: Sombre
+        fixed: Fixe
+        hover: Survol
+        label: Options de tableau
+        no-collapse: Bordure de cellule séparée
+        responsive: Réactif
         small: Petit
+        striped: Rayé
+      variant: Variant de tableau
       variants:
         danger: Danger
         dark: Sombre

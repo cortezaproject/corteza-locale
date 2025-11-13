@@ -7,4 +7,3 @@ errors:
   notAllowedToUndelete: no tiene permitido deshacer la eliminación de este trigger
   notAllowedToUpdate: no tiene permitido actualizar este trigger
   notFound: trigger no encontrado
-  staleData: datos obsoletos

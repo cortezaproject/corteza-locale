@@ -13,5 +13,4 @@ template:
     external:
       login-with: התחבר עם {{idp}}
 alerts:
-  logged-in: אתה מחובר
   local-disabled: חשבון מקומי מושהה

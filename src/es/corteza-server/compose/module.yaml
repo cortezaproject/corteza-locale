@@ -9,4 +9,3 @@ errors:
   notAllowedToSearch: no tiene permitido buscar o listar módulos
   notAllowedToUpdate: no tiene permitido actualizar este módulo
   notFound: el módulo no existe
-  staleData: datos obsoletos

@@ -48,8 +48,6 @@ list:
       label: Фильтр списка процессов
       placeholder: Фильтровать рабочие процессы по имени
   loading: Загрузить процесс
-  numFound: '{{count}} процесс найден'
-  numFound_plural: '{{count}} процессы найдены'
   permissions: Разрешения
   title: Бизнес-процесс
   yaml: YAML

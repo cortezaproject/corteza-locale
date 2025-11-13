@@ -1,20 +1,42 @@
 editor:
   info:
+    consumer: Consommateur
     createdAt: Créer à
     createdBy: Créer par
     delete: Supprimer
     deletedAt: Supprimer à
     name: Nom de la queue *
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+    title: Information de base
     undelete: Annuler suppression
     updatedAt: Mis à jour à
   new: Nouvelle queue
+  title:
+    edit: Éditer file d'attente
+    new: Ajouter une file d'attente
 list:
   columns:
+    consumer: Consommateur
+    createdAt: Créer à
     createdBy: Créer par
+    queue: File d'attente
   export: Exporter
   delete: Supprimer
   undelete: Annuler suppression
+  rows:
+    filters:
+      deleted: Supprimé
+  filterForm:
+    deleted:
+      label: files d'attente supprimées
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    handle:
+      label: Filtrer liste de files d'attente
+    inclusive:
+      label: Comprenant
   loading: Chargement des files de messages
   new: Nouvelle queue
   title: Files de messages

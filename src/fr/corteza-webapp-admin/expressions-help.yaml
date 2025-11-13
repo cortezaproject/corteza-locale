@@ -7,5 +7,6 @@ categories:
     label: Chaine de caractères
 examples: Exemples
 operators:
+  modifiers: 'Modificateurs : '
   more: 'Plus: '
   value: valeur

@@ -1,0 +1,4 @@
+general:
+  error: Fehler
+  success: Erfolgreich
+  warning: Warning

@@ -12,8 +12,6 @@ label:
     plural: Funções
   application:
     plural: Formulários
-  auth_client:
-    plural: Clientes de autenticação
   queue:
     plural: Filas de mensagens
   session:

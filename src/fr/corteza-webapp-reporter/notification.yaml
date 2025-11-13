@@ -1,3 +1,5 @@
+datasource:
+  describe-failed: Échec de la description du rapport
 general:
   error: Erreur
   success: Succès
@@ -10,8 +12,18 @@ module:
 namespace:
   fetch-failed: Échec de la récupération des namespaces
 report:
+  createFailed: Échec de la création du rapport
+  loadFailed: Échec du chargement du rapport
+  created: Rapport créé
+  delete: Rapport supprimé
+  deleteFailed: Échec de la suppression du rapport
   fetchFailed: Échec de la récupération du rapport
   listFetchFailed: Échec de la récupération des rapports
   runFailed: Échec de l'exécution du rapport
+  updateFailed: Échec de la mise à jour du rapport
+  updated: Rapport mis à jour
   notAllowed:
     read: Non autorisé à lire ce rapport
+  datasources:
+    updated: Sources de données mises à jour
+    updateFailed: Échec de la mise à jour des sources de données

@@ -1,4 +1,3 @@
 errors:
   invalidID: ID invalide
   notFound: ce module n'existe pas
-  staleData: données obsolètes

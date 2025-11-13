@@ -14,4 +14,3 @@ errors:
   notAllowedToUndelete: není povoleno obnovit tuto smazanou stránku
   notAllowedToUpdate: není povoleno aktualizovat tuto stránku
   notFound: stránka neexistuje
-  staleData: zastaralá data

@@ -1,0 +1,4 @@
+general:
+  error: Ошибка
+  success: Успешно
+  warning: Предупреждение

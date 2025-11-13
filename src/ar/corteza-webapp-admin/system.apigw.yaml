@@ -4,8 +4,6 @@ list:
   permissions: الصلاحيات
   yaml: YAML
   loading: تحميل الطرق
-  numFound: '{{count}} طريق'
-  numFound_plural: '{{count}} طرق'
   filterForm:
     query:
       label: تصفية قائمة الطرق

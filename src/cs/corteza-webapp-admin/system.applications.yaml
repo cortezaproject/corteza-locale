@@ -58,8 +58,6 @@ list:
       placeholder: Filtrovat aplikace podle názvu
   loading: Načítání aplikací
   new: Nová aplikace
-  numFound: 'Nalezena {{count}} aplikace'
-  numFound_plural: 'Nalezeno {{count}} aplikací'
   permissions: Oprávnění
   title: Aplikace
   yaml: YAML

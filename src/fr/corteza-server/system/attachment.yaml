@@ -6,3 +6,4 @@ errors:
   notAllowedToCreate: non autorisé à créer des pièces jointes
   notAllowedToCreateEmptyAttachment: non autorisé à créer des pièces jointes vides
   notAllowedToListAttachments: non autorisé à lister des pièces jointes
+  notFound: pièce jointe introuvable

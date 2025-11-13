@@ -1,7 +1,6 @@
 template:
   title: אימות רב שלבי
   email:
-    instructions: בדוק את תיבת ה דוא"ל שלך והקש את הקוד שנשלח
     code: קוד
     verify: אימות
     resend: שלח שוב
@@ -9,6 +8,3 @@ template:
     code: קוד
     confirmed: TOTP אושר
     verify: מאומת
-alerts:
-  topt:
-    valid: TOTP תקין

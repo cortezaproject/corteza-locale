@@ -9,7 +9,6 @@ errors:
   notAllowedToUndelete: dieser Namespace kann nicht wiederhergestellt werden
   notAllowedToUpdate: dieser Namespace kann nicht aktualisiert werden
   notFound: Namespace nicht vorhanden
-  staleData: alte Daten
   unsupportedExportFormat: Nicht unterstütztes Export Format
   unsupportedImportFormat: Nicht unterstütztes Import Format
   importMissingNamespace: Die Importquelle enthält keine Namespace Definition

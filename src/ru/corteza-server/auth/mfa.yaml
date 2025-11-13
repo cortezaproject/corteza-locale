@@ -1,18 +1,14 @@
 template:
   title: Multi-factor authentication
   email:
-    instructions: Проверьте свой почтовый ящик и введите полученный код
     code: Код
     verify: Проверить
     resend: Отправить
     confirmed: Подтвердите Email OTP
   totp:
-    instructions: Проверьте свое приложение TOTP и введите полученный код
     code: Код
     confirmed: Подвердить TOTP
     verify: Проверить
 alerts:
   email:
     resent: Email OTP недействительный
-  topt:
-    valid: TOTP действительный

@@ -68,8 +68,6 @@ list:
     inclusive:
       label: Incluindo
   loading: Carregando modelos
-  numFound: '{{count}} modelo encontrado'
-  numFound_plural: '{{count}} modelos encontrados'
   permissions: Permissões
   title: Modelos
   yaml: YAML

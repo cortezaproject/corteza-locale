@@ -5,4 +5,3 @@ errors:
   notAllowedToRead: není povoleno zobrazit tuto relaci
   notAllowedToSearch: není povoleno hledat nebo procházet relace
   notFound: relace nenalezena
-  staleData: zastaralá data

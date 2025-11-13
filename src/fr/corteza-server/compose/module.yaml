@@ -15,5 +15,4 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de ce module
   notAllowedToUpdate: non autorisé à mettre à jour ce module
   notFound: ce module n'existe pas
-  staleData: données obsolètes
   dedupConfigurationInvalidMissingConstraint: contraintes manquantes dans la configuration de déduplication

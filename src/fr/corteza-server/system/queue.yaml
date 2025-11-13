@@ -1,2 +1,13 @@
 errors:
+  alreadyExists: une file d'attente portant ce nom existe déjà
+  invalidConsumer: Consommateur invalide
   invalidID: ID invalide
+  notAllowedToCreate: non autorisé à créer des files d'attentes
+  notAllowedToDelete: non autorisé à supprimer cette file d'attente
+  notAllowedToRead: non autorisé à lire cette file d'attente
+  notAllowedToReadFrom: non autorisé à lire des messages de cette file d'attente
+  notAllowedToSearch: non autorisé pour rechercher ou lister les files d'attente
+  notAllowedToUndelete: non autorisé à annuler la suppression de cette file d'attente
+  notAllowedToUpdate: non autorisé à mettre à jour cette file d'attente
+  notAllowedToWriteTo: non autorisé à ajouter des messages dans cette file d'attente
+  notFound: file d'attente introuvable

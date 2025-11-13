@@ -1,3 +1,5 @@
+datasource: Source de données
 label: Étiquette
 none: Aucune
 prefilter: Préfiltre
+scenario-name: 'Nom de Scénario ...'

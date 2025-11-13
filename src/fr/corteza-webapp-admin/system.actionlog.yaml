@@ -1,16 +1,40 @@
 list:
   columns:
+    action: Action
     actor: Utilisateur
     description: Description
+    requestOrigin: Origine
+    resource: Ressource
+    severity: Sévérité
+    timestamp: Horodatage
+  loading: Chargement des actions
   details:
+    id: ID
+    header: Détails
+    timestamp: Horodatage
+    requestOrigin: Origine de la demande
+    requestID: ID de la demande
+    actorIPAddr: Acteur/Utilisateur
     actor: Utilisateur
+    actorID: ID de l'utilisateur
+    severity: Sévérité
+    resource: Ressource
+    action: Action
     description: Description
     error: Erreur
+    meta: Métadonnée
   severity:
+    alert: Alerte
+    critical: Critique
     error: Erreur
     warning: Avertissement
     notice: Information
     info: Info
   filter:
+    actor: ID de l'utilisateur
+    choose-date: Choisissez une date
+    resource: Ressource
     search: Rechercher
     today: Aujourd'hui
+  loadOlder: Charger actions plus anciennes
+  title: Journaux d'action

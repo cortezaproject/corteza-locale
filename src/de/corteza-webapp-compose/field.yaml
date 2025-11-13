@@ -118,8 +118,6 @@ options:
       default: Hinweistext...
   multiDelimiter:
     comma: Getrennt durch ein Komma
-sanitizers:
-  examples: Beispiele
 selector:
   available: Columns available
   selectAll: Alle auswählen

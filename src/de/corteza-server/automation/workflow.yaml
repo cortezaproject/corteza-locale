@@ -12,5 +12,4 @@ errors:
   notAllowedToUndelete: dieser Workflow kann nicht wiederhergestellt werden
   notAllowedToUpdate: dieser Workflow kann nicht aktualisiert werden
   notFound: Workflow nicht gefunden
-  staleData: alte Daten
   unknownWorkflowStep: unbekannter Workflowschritt

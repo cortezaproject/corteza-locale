@@ -1,3 +1,15 @@
 errors:
+  handleNotUnique: l'identifiant de rôle n'est pas unique
   invalidHandle: identifiant invalide
   invalidID: ID invalide
+  nameNotUnique: le nom de rôle n'est pas unique
+  notAllowedToArchive: non autorisé à archiver ce rôle
+  notAllowedToCreate: non autorisé à créer des rôles
+  notAllowedToDelete: non autorisé à supprimer ce rôle
+  notAllowedToManageMembers: non autorisé à gérer les membres de rôle
+  notAllowedToRead: non autorisé à lire ce rôle
+  notAllowedToSearch: non autorisé pour rechercher ou lister les rôles
+  notAllowedToUnarchive: non autorisé à annuler l'archivage de ce rôle
+  notAllowedToUndelete: non autorisé à annuler la suppression de ce rôle
+  notAllowedToUpdate: non autorisé à mettre à jour ce rôle
+  notFound: rôle introuvable

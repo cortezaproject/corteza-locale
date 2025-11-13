@@ -40,8 +40,6 @@ list:
       placeholder: Server nach Name filtern
   loading: Server werden geladen
   new: Neu
-  numFound: '{{count}} Server gefunden'
-  numFound_plural: '{{count}} Server gefunden'
   pair:
     confirm: Bestätigen
     label: Pair Federation Node

@@ -3,6 +3,7 @@ editor:
     createdAt: Créer à
     delete: Supprimer
     deletedAt: Supprimer à
+    suspendedAt: Désactivé à
     error: Erreur
     status: Statut
     workflowID: WorkflowID
@@ -14,5 +15,7 @@ list:
   filterForm:
     all:
       label: Tous
+    suspended:
+      label: Désactivé
     canceled:
       label: Annulée

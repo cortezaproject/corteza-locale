@@ -86,8 +86,6 @@ list:
     suspended:
       label: المستخدمين المعلقين
   loading: تحميل المستخدمين
-  numFound: '{{count}} مستخدم'
-  numFound_plural: '{{count}} مستخدمين'
   permissions: الصلاحيات
   title: مستخدمين
   yaml: YAML

@@ -1,18 +1,19 @@
 template:
   title: crwdns181477:0crwdne181477:0
   email:
-    instructions: crwdns181479:0crwdne181479:0
+    instructions: crwdns182025:0crwdne182025:0
     code: crwdns181481:0crwdne181481:0
     verify: crwdns181483:0crwdne181483:0
     resend: crwdns181485:0crwdne181485:0
     confirmed: crwdns181487:0crwdne181487:0
   totp:
-    instructions: crwdns181489:0crwdne181489:0
+    instructions: crwdns182027:0crwdne182027:0
     code: crwdns181491:0crwdne181491:0
     confirmed: crwdns181493:0crwdne181493:0
     verify: crwdns181495:0crwdne181495:0
 alerts:
   email:
     resent: crwdns181497:0crwdne181497:0
-  topt:
-    valid: crwdns181499:0crwdne181499:0
+    confirmed: crwdns182029:0crwdne182029:0
+  totp:
+    confirmed: crwdns182031:0crwdne182031:0

@@ -1,20 +1,52 @@
 ui:
   save: Enregistrer changements
   cancel: Annuler
+  set-for: Définir permissions pour {{target}}
+  loading: Chargement des permissions
   label: Permissions
+  notification:
+    save:
+      success: Permissions enregistrées
+      failed: Échec de l'enregistrement des permissions
   edit:
     label: Rôles utilisateur
+    description: Sélectionnez rôle pour définir les permissions
+  evaluate:
+    description: Évaluer permissions appliquées
   add:
     label: + Ajouter
+    title: Évaluer permissions
+    save: Enregistrer et fermer
     role:
       label: Rôles
+      placeholder: Sélectionnez rôle(s)
+    user:
+      label: Utilisateurs
+      placeholder: Cherchez ou sélectionnez un utilisateur
+  tooltip:
+    unknown-context:
+      user: Impossible d'évaluer les permissions pour un utilisateur avec un rôle contextuel sur une ressource non spécifique
+      role: Impossible d'évaluer les permissions pour un rôle contextuel sur une ressource non spécifique
   access:
     allow: Autoriser
+    inherit: Hériter
     deny: Interdire
 resources:
   system:
     report:
+      all: tous les rapports
+      specific: rapport "{{target}}"
+      tooltip: Permissions de rapport
       operations:
+        delete:
+          specific: Supprimer rapport "{{target}}"
+          title: Supprimer n'importe quel rapport
         read:
           specific: Lire rapport "{{target}}"
           title: Lire n'importe quel rapport
+        run:
+          specific: Exécuter rapport "{{target}}"
+          title: Exécuter n'importe quel rapport
+        update:
+          specific: Mettre à jour rapport "{{target}}"
+          title: Mettre à jour n'importe quel rapport

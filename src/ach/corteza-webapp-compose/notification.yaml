@@ -141,6 +141,7 @@ page:
     delete:
       success: crwdns178599:0crwdne178599:0
       failed: crwdns178601:0crwdne178601:0
+    listFailed: crwdns182227:0crwdne182227:0
 record:
   createFailed: crwdns178603:0crwdne178603:0
   createSuccess: crwdns178605:0crwdne178605:0
@@ -171,6 +172,8 @@ record:
   staleDataRefresh: crwdns178655:0crwdne178655:0
   fieldConditions:
     failed: crwdns178657:0crwdne178657:0
+  requiredFields:
+    failed: crwdns182229:0crwdne182229:0
 record-list:
   corrupted-filter: crwdns178659:0crwdne178659:0
   corrupted-summaries: crwdns178661:0crwdne178661:0

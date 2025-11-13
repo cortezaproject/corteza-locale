@@ -13,6 +13,7 @@ page-layout:
     builder: crwdns177771:0crwdne177771:0
     performance:
       condition: crwdns177773:0crwdne177773:0
+      requiredFields: crwdns182231:0crwdne182231:0
   condition:
     label: crwdns177775:0crwdne177775:0
     placeholder: crwdns177777:0crwdne177777:0
@@ -57,6 +58,14 @@ page-layout:
       toURL:
         label: crwdns177837:0crwdne177837:0
         placeholder: crwdns177839:0crwdne177839:0
+  requiredFields:
+    label: crwdns182233:0crwdne182233:0
+    description: crwdns182235:0crwdne182235:0
+    field: crwdns182237:0crwdne182237:0
+    condition: crwdns182239:0crwdne182239:0
+    selectPlaceholder: crwdns182241:0crwdne182241:0
+    conditionPlaceholder: crwdns182243:0crwdne182243:0
+    help: "crwdns182245:0{{0}}crwdnd182245:0{{1}}crwdnd182245:0{{2}}crwdne182245:0"
 block:
   general:
     label:

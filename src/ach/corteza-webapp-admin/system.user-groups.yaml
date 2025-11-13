@@ -1,0 +1,73 @@
+editor:
+  info:
+    id: crwdns181917:0crwdne181917:0
+    createdAt: crwdns181919:0crwdne181919:0
+    createdBy: crwdns181921:0crwdne181921:0
+    delete: crwdns181923:0crwdne181923:0
+    deletedAt: crwdns181925:0crwdne181925:0
+    placeholder-handle: crwdns181927:0crwdne181927:0
+    handle: crwdns181929:0crwdne181929:0
+    invalid-handle-characters: crwdns181931:0crwdne181931:0
+    meta.short: crwdns181933:0crwdne181933:0
+    meta.description: crwdns181935:0crwdne181935:0
+    title: crwdns181937:0crwdne181937:0
+    undelete: crwdns181939:0crwdne181939:0
+    updatedAt: crwdns181941:0crwdne181941:0
+    parents:
+      title: crwdns181943:0crwdne181943:0
+      parent:
+        label: crwdns181945:0crwdne181945:0
+        placeholder: crwdns181947:0crwdne181947:0
+      name:
+        label: crwdns181949:0crwdne181949:0
+        placeholder: crwdns181951:0crwdne181951:0
+  new: crwdns181953:0crwdne181953:0
+  permissions: crwdns181955:0crwdne181955:0
+  members:
+    title: crwdns181957:0crwdne181957:0
+  roles:
+    add: crwdns181959:0crwdne181959:0
+    count: crwdns181961:0crwdne181961:0
+    remove: crwdns181963:0crwdne181963:0
+    title: crwdns181965:0crwdne181965:0
+    unnamed: crwdns181967:0crwdne181967:0
+  title:
+    create: crwdns181969:0crwdne181969:0
+    edit: crwdns181971:0crwdne181971:0
+list:
+  columns:
+    actions: "crwdns181973:0crwdne181973:0"
+    createdAt: crwdns181975:0crwdne181975:0
+    handle: crwdns181977:0crwdne181977:0
+    meta:
+      short: crwdns181979:0crwdne181979:0
+  delete: crwdns181981:0crwdne181981:0
+  undelete: crwdns181983:0crwdne181983:0
+  export: crwdns181985:0crwdne181985:0
+  rows:
+    filters:
+      deleted: crwdns181987:0crwdne181987:0
+  filterForm:
+    deleted:
+      label: crwdns181989:0crwdne181989:0
+    excluded:
+      label: crwdns181991:0crwdne181991:0
+    exclusive:
+      label: crwdns181993:0crwdne181993:0
+    inclusive:
+      label: crwdns181995:0crwdne181995:0
+    query:
+      label: crwdns181997:0crwdne181997:0
+      placeholder: crwdns181999:0crwdne181999:0
+  loading: crwdns182001:0crwdne182001:0
+  new: crwdns182003:0crwdne182003:0
+  permissions: crwdns182005:0crwdne182005:0
+  title: crwdns182007:0crwdne182007:0
+export:
+  buttonLabel: crwdns182009:0crwdne182009:0
+  title: crwdns182011:0crwdne182011:0
+  export: crwdns182013:0crwdne182013:0
+import:
+  buttonLabel: crwdns182015:0crwdne182015:0
+  title: crwdns182017:0crwdne182017:0
+  uploadFilePlaceholder: crwdns182019:0crwdne182019:0

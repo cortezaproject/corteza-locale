@@ -20,12 +20,7 @@ editor:
       expression-label: Výraz
       resource-types-label: Typ zdroje
   members:
-    add: Přidat
-    count: Členové ({{count}})
-    remove: Odebrat
-    searchUsers: Hledat uživatele
     title: Členové role
-    unnamed: Bezejmenný uživatel
   new: Nová role
   permissions: Oprávnění
   title:
@@ -62,8 +57,6 @@ list:
       placeholder: Filtrovat role podle názvu
   loading: Načítání rolí
   new: Nová role
-  numFound: 'Nalezena {{count}} role'
-  numFound_plural: 'Nalezeno {{count}} rolí'
   permissions: Oprávnění
   title: Role
   yaml: YAML

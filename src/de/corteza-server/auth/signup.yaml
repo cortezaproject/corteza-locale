@@ -17,6 +17,5 @@ template:
   log-in: Sie verfügen bereits über einen Account? <a href="{{link}}">Hier anmelden</a>
 alerts:
   signup-successful: Anmeldung erfolgreich.
-  email-confirmed-logged-in: Die E-Mail-Adresse wurde bestätigt, Sie sind jetzt eingeloggt.
   invalid-expired-token: Der Token zum Bestätigen der E-Mail ist ungültig oder abgelaufen. Bitte senden Sie eine erneute Bestätigungsanfrage.
   signup-disabled: Anmeldung ist deaktiviert

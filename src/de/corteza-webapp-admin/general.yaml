@@ -12,8 +12,6 @@ label:
     plural: Roles
   application:
     plural: Applications
-  auth_client:
-    plural: Auth Clients
   queue:
     plural: Message Queues
   route:

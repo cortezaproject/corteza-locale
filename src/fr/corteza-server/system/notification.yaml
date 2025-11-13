@@ -1,0 +1,8 @@
+errors:
+  invalidID: ID invalide
+  notAllowedToRead: non autorisé à lire les notifications d'autres utilisateurs
+  notAllowedToCreate: non autorisé à créer des notifications
+  notAllowedToUpdate: non autorisé à mettre à jour des notifications
+  notAllowedToDelete: non autorisé pour supprimer des notifications
+  notAllowedToAssign: non autorisé à assigner des notifications à d'autres utilisateurs
+  notFound: notification introuvable

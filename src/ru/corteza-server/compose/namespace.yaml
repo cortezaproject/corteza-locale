@@ -9,7 +9,6 @@ errors:
   notAllowedToUndelete: не разрешено восстановить это пространство имен
   notAllowedToUpdate: не разрешено обновлять это пространство имен
   notFound: namespace does not exist
-  staleData: устаревшие данные
   unsupportedExportFormat: неподдерживаемый формат экспорта
   unsupportedImportFormat: неподдерживаемый формат импорта
   importMissingNamespace: источник импорта не содержит определения пространства имен

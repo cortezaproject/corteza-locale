@@ -64,7 +64,6 @@ label:
   title: Titel
   type: Typ
   updatedAt: '$t(field.system.updatedAt)'
-  uploadError: 'Problem mit Datei-Upload: "{{message}}"'
   uploading: Hochladen
   urlPlaceholder: https://beispiel.tld
   validation: Validierung

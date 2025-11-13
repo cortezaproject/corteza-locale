@@ -19,12 +19,7 @@ editor:
       expression-label: وصف
       resource-types-label: نوع المورد
   members:
-    add: أضف
-    count: اعضاء ({{count}})
-    remove: الغاء
-    searchUsers: بحث المستخدمين
     title: أعضاء الدور
-    unnamed: مستخدم بدون اسم
   permissions: الصلاحيات
   title:
     create: أنشئ دور
@@ -58,8 +53,6 @@ list:
       label: قائمة الأدوار تصفية
       placeholder: أدوار تصفية بالاسم
   loading: تحميل الأدوار
-  numFound: '{{count}} دور'
-  numFound_plural: '{{count}} أدوار'
   permissions: الصلاحيات
   title: ادوار
   yaml: YAML

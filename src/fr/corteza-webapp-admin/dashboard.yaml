@@ -1,2 +1,19 @@
+applications:
+  applications: Application(s)
+  deleted: Supprimé
+  title: Application(s) active(s)
+  total: Total
 roles:
+  archived: Archivé
+  deleted: Supprimé
   roles: Rôle(s)
+  title: Rôle(s) actif(s)
+  total: Total
+title: Tableau de bord
+users:
+  created: Utilisateur(s) créé(s)
+  deleted: Supprimé
+  suspended: Désactivé
+  title: Utilisateur(s) actif(s)
+  total: Total
+  users: Utilisateur(s)

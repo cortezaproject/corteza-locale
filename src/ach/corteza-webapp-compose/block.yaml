@@ -315,9 +315,12 @@ record:
     action: crwdns175377:0crwdne175377:0
     placeholder: crwdns175379:0crwdne175379:0
     selectPlaceholder: crwdns175381:0crwdne175381:0
-    help: crwdns175383:0crwdne175383:0
     field: crwdns175385:0crwdne175385:0
     condition: crwdns175387:0crwdne175387:0
+    clearOnHide: crwdns182211:0crwdne182211:0
+    clearOnHideTooltip: crwdns182213:0crwdne182213:0
+    clearAllOnHide: crwdns182215:0crwdne182215:0
+    clearAllOnHideDescription: crwdns182217:0crwdne182217:0
     tooltip:
       performance: crwdns175389:0crwdne175389:0
   recordSelectorCanAddRecord: crwdns175391:0crwdne175391:0
@@ -804,6 +807,9 @@ navigation:
   add: crwdns176131:0crwdne176131:0
   addDropdown: crwdns176133:0crwdne176133:0
   composePage: crwdns176135:0crwdne176135:0
+  pageLayout: crwdns182219:0crwdne182219:0
+  defaultLayout: crwdns182221:0crwdne182221:0
+  unnamedLayout: crwdns182223:0crwdne182223:0
   tabs: crwdns176137:0crwdne176137:0
   pills: crwdns176139:0crwdne176139:0
   small: crwdns176141:0crwdne176141:0

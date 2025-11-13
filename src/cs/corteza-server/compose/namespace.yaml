@@ -9,7 +9,6 @@ errors:
   notAllowedToUndelete: není povoleno obnovit tento smazaný jmenný prostor
   notAllowedToUpdate: není povoleno aktualizovat tento jmenný prostor
   notFound: jmenný prostor neexistuje
-  staleData: zastaralá data
   unsupportedExportFormat: nepodporovaný formát exportu
   unsupportedImportFormat: nepodporovaný formát importu
   importMissingNamespace: importovaný zdroj neobsahuje definici jmenného prostoru 

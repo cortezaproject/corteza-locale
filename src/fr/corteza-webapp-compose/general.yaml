@@ -91,7 +91,6 @@ label:
   title: Titre
   type: Type
   updatedAt: Mis à jour à
-  uploadError: 'Problème lors de l''import de fichier : "{{message}}"'
   uploading: Téléversement
   unsavedChanges: Changements non enregistrés
   urlPlaceholder: https://example.tld

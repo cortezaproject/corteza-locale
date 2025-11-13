@@ -22,6 +22,9 @@ editor:
     undelete: crwdns170793:0crwdne170793:0
     unsuspend: crwdns170795:0crwdne170795:0
     updatedAt: crwdns170797:0crwdne170797:0
+    userGroup:
+      label: crwdns182191:0crwdne182191:0
+      placeholder: crwdns182193:0crwdne182193:0
   avatar:
     title: crwdns170799:0crwdne170799:0
     preview:
@@ -107,8 +110,6 @@ list:
       label: crwdns170903:0crwdne170903:0
   loading: crwdns170905:0crwdne170905:0
   new: crwdns170907:0crwdne170907:0
-  numFound: 'crwdns170909:0{{count}}crwdne170909:0'
-  numFound_plural: 'crwdns170911:0{{count}}crwdne170911:0'
   permissions: crwdns170913:0crwdne170913:0
   title: crwdns170915:0crwdne170915:0
   yaml: crwdns170917:0crwdne170917:0

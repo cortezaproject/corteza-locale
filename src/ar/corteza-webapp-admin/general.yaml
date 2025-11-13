@@ -12,8 +12,6 @@ label:
     plural: ادوار
   application:
     plural: التطبيقات
-  auth_client:
-    plural: Auth Clients
   queue:
     plural: قوائم الارسال
   session:

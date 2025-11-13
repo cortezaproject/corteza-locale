@@ -1,5 +1,20 @@
 errors:
+  emailNotUnique: ce courriel n'est pas unique
   handleNotUnique: l'identifiant n'est pas unique
   invalidEmail: courriel invalide
   invalidHandle: identifiant invalide
   invalidID: ID invalide
+  notAllowedToCreate: non autorisé à créer des utilisateurs
+  notAllowedToCreateSystem: non autorisé à créer des utilisateurs système
+  notAllowedToDelete: non autorisé à supprimer cet utilisateur
+  notAllowedToListUsers: non autorisé à lister les utilisateurs
+  notAllowedToRead: non autorisé à lire cet utilisateur
+  notAllowedToSearch: non autorisé à lister ou rechercher des utilisateurs
+  notAllowedToSuspend: non autorisé à suspendre cet utilisateur
+  notAllowedToUndelete: non autorisé à annuler la suppression de cet utilisateur
+  notAllowedToUnsuspend: non autorisé à annuler la suspension de cet utilisateur
+  notAllowedToUpdate: non autorisé à mettre à jour cet utilisateur
+  notAllowedToUpdateSystem: non autorisé à mettre à jour les utilisateurs système
+  notFound: utilisateur introuvable
+  passwordNotSecure: le mot de passe défini n'est assez fort, utilisez un mot de passe plus long avec plus de caractères spéciaux
+  usernameNotUnique: le nom d'utilisateur n'est pas unique

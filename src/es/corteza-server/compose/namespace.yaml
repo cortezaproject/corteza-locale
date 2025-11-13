@@ -9,7 +9,6 @@ errors:
   notAllowedToUndelete: no tiene permitido deshacer la eliminación de este namespace
   notAllowedToUpdate: no tiene permitido actualizar este namespace
   notFound: el namespace no existe
-  staleData: datos obsoletos
   unsupportedExportFormat: formato de exportación no compatible
   unsupportedImportFormat: formato de importación no compatible
   importMissingNamespace: la fuente de importación no contiene una definición de namespace

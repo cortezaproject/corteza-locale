@@ -7,4 +7,3 @@ errors:
   notAllowedToUndelete: não  tem permissão para recuperar este gatilho
   notAllowedToUpdate: não tem permissão para atualizar este gatilho
   notFound: gatilho não encontrado
-  staleData: dados obsoletos

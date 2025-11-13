@@ -116,6 +116,10 @@ resources:
           title: crwdns173113:0crwdne173113:0
         application.flag.self:
           title: crwdns173115:0crwdne173115:0
+        user-groups.search:
+          title: crwdns182141:0crwdne182141:0
+        user-group.create:
+          title: crwdns182143:0crwdne182143:0
         applications.search:
           title: crwdns173117:0crwdne173117:0
         auth-client.create:
@@ -382,6 +386,27 @@ resources:
           description: 'crwdns173463:0crwdne173463:0'
           specific: crwdns173465:0{{target}}crwdne173465:0
           title: crwdns173467:0crwdne173467:0
+    user-group:
+      label: crwdns182145:0crwdne182145:0
+      all: crwdns182147:0crwdne182147:0
+      specific: crwdns182149:0{{target}}crwdne182149:0
+      operations:
+        read:
+          description: 'crwdns182151:0crwdne182151:0'
+          specific: crwdns182153:0{{target}}crwdne182153:0
+          title: crwdns182155:0crwdne182155:0
+        update:
+          description: 'crwdns182157:0crwdne182157:0'
+          specific: crwdns182159:0{{target}}crwdne182159:0
+          title: crwdns182161:0crwdne182161:0
+        delete:
+          description: 'crwdns182163:0crwdne182163:0'
+          specific: crwdns182165:0{{target}}crwdne182165:0
+          title: crwdns182167:0crwdne182167:0
+        members.manage:
+          description: 'crwdns182169:0crwdne182169:0'
+          specific: crwdns182171:0{{target}}crwdne182171:0
+          title: crwdns182173:0crwdne182173:0
     data-privacy-request:
       label: crwdns173469:0crwdne173469:0
       all: crwdns173471:0crwdne173471:0

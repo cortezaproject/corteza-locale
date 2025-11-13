@@ -1,2 +1,11 @@
 errors:
+  asyncRouteTooManyProcessers: un traitement existe déjà pour cette route asynchrone
+  asyncRouteTooManyAfterFilters: aucun filtre ultérieur n'est autorisé pour cette route asynchrone
   invalidID: ID invalide
+  invalidRoute: route invalide
+  notAllowedToCreate: non autorisé à créer un filtre
+  notAllowedToDelete: non autorisé à supprimer ce filtre
+  notAllowedToRead: non autorisé à lire ce filtre
+  notAllowedToUndelete: non autorisé à annuler la suppression de ce filtre
+  notAllowedToUpdate: non autorisé à mettre à jour ce filtre
+  notFound: filtre introuvable

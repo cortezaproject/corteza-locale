@@ -17,5 +17,5 @@ template:
     external:
       login-with: crwdns181681:0{{idp}}crwdne181681:0
 alerts:
-  logged-in: crwdns181683:0crwdne181683:0
+  logged-in: crwdns182023:0crwdne182023:0
   local-disabled: crwdns181685:0crwdne181685:0

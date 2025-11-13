@@ -50,8 +50,6 @@ list:
       placeholder: Filtrar fluxos de trabalho por nome
   loading: Carregando fluxos de trabalho
   new: Novo fluxo de trabalho
-  numFound: '{{count}} fluxo de trabalho encontrado'
-  numFound_plural: '{{count}} fluxos de trabalho encontrados'
   permissions: Permissões
   title: Fluxos de trabalho
   yaml: YAML

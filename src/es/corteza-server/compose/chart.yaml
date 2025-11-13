@@ -10,4 +10,3 @@ errors:
   notAllowedToUndelete: no tiene permitido deshacer la eliminación de este gráfico
   notAllowedToUpdate: no tiene permitido actualizar este gráfico
   notFound: el gráfico no existe
-  staleData: datos obsoletos

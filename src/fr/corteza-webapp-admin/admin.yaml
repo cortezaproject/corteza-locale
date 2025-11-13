@@ -1,33 +1,61 @@
 automation:
+  add: Ajouter script
   edit:
     asyncLabel: Exécuter ce script de manière asynchrone
     codeTabLabel: Code
+    criticalLabel: Script critique
+    delete: Supprimer script
     enabledLabel: Activé
     mailAutomationTriggers:
+      addTrigger: Ajouter déclencheur
+      delete: Supprimer déclencheur
       deleteTrigger: Supprimer
+      enable: Activer déclencheur
+      matchAll: Doit correspondre à toutes les conditions
       matcher:
         fields:
+          bcc: CCI
+          cc: CC
           from: Depuis
+          replyTo: Répondre à
           subject: Sujet
           to: A
         operators:
           equal-ci: Correspondance complète
+          placeholder: Opérateur
+          regex: Expression régulière
+          user: Utilisateur existant
     nameLabel: Nom
     runAsCurrentUser: Exécuter en tant que "{{ user }}"
     runAsHelp: Exécuteur du script
     securityLabel: Sécurité
+    settingsTabLabel: Paramètres
+    timeoutPlaceholder: "1500"
+    title: Script d'automatisation
+    userPickerPlaceholder: Sélectionnez utilisateur
+  import: Importer script(s) d'automatisation
   list:
     column:
       label:
         async: Asynchrone
+        critical: Critique
         enabled: Activé
         runAs: Exécuter en tant que
+        runInUA: Dans le navigateur
+  newPlaceholder: Nom du script
+  testing:
+    resultsHeadline: 'Résultats :'
+    testInBrowser: Tester dans Navigateur
+    testInCorredor: Tester dans Corredor
 general:
   notFound: 'Introuvable'
   loading: Chargement
   label:
+    "no": "Non"
     submit: Envoyer
+    "yes": "Oui"
   logout: Se déconnecter
+  noAccess: Vous n'avez pas les permissions pour accéder au panneau d'administration
   pagination:
     next: Suivant
     prev: Précédent
@@ -56,3 +84,9 @@ navigation:
     loggedInAs: Connecté en tant que {{user}}
     logout: Se déconnecter
     profile: Profil
+    theme: Thème
+picker:
+  role:
+    placeholder: Commencez à taper pour rechercher des rôles
+  member:
+    placeholder: Commencez à taper pour rechercher des rôles

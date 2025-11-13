@@ -13,5 +13,4 @@ template:
     external:
       login-with: Log in met {{idp}}
 alerts:
-  logged-in: Je bent nu ingelogd
   local-disabled: Lokale accounts uitgeschakeld

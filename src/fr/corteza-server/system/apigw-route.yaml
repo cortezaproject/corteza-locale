@@ -1,2 +1,13 @@
 errors:
+  alreadyExists: une route par ce point de terminaison existe déjà
+  existsEndpoint: une route avec ce point de terminaison existe déjà
+  invalidEndpoint: point de terminaison invalide
   invalidID: ID invalide
+  notAllowedToCreate: non autorisé à créer une route
+  notAllowedToDelete: non autorisé à supprimer cette route
+  notAllowedToExec: non autorisé à exécuter cette route
+  notAllowedToRead: non autorisé à lire cette route
+  notAllowedToUndelete: non autorisé à annuler la suppression de cette route
+  notAllowedToUpdate: non autorisé à mettre à jour cette route
+  notAllowedToSearch: non autorisé à lister ou rechercher des routes
+  notFound: route introuvable
