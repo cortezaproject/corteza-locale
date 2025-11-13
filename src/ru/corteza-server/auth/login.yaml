@@ -16,5 +16,4 @@ template:
     external:
       login-with: Зайдите в учетную запись, используя  {{idp}}
 alerts:
-  logged-in: Вы вошли
   local-disabled: Локальная учетная запись отключена
