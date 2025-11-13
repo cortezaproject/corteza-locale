@@ -315,7 +315,6 @@ record:
     action: + Ajouter
     placeholder: Quand ce champ doit être affiché ?
     selectPlaceholder: Sélectionnez un champ
-    help: Exemple
     field: Champ
     condition: Condition
     tooltip:
