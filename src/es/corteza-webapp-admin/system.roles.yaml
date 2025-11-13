@@ -1,8 +1,6 @@
 editor:
   info:
     handle: Identificador
-  members:
-    remove: Eliminar
 list:
   columns:
     handle: Identificador
