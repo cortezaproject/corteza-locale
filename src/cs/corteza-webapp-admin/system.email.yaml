@@ -4,7 +4,6 @@ editor:
     title: SMTP server
     host:
       label: Server
-      description: Název a port serveru. Port je obvykle 25 (nezabezpečený), 465 nebo 587 (zabezpečené).
     user:
       label: Uživatel
       description: 'Volitelné: přihlašovací údaje k emailovému serveru.'
