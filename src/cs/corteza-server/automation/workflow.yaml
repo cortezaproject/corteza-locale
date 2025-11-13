@@ -12,5 +12,4 @@ errors:
   notAllowedToUndelete: není povoleno obnovit toto smazané workflow
   notAllowedToUpdate: není povoleno aktualizovat toto workflow
   notFound: workflow nenalezeno
-  staleData: zastaralá data
   unknownWorkflowStep: neznámý krok workflow
