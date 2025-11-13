@@ -72,8 +72,6 @@ list:
       label: Včetně
   loading: Načítání šablon
   new: Nová šablona
-  numFound: 'Nalezena {{count}} šablona'
-  numFound_plural: 'Nalezeno {{count}} šablon'
   permissions: Oprávnění
   title: Šablony
   yaml: YAML
