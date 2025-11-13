@@ -33,5 +33,3 @@ federation:
     permissions: Разрешения
 ui:
   group: Пользовательский интерфейс
-  items:
-    settings: Настройки
