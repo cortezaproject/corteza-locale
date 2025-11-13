@@ -40,8 +40,6 @@ list:
       placeholder: Filtrovat servery podle názvu
   loading: Načítání federovaných uzlů
   new: Nový federovaný uzel
-  numFound: 'Nalezen {{count}} server'
-  numFound_plural: 'Nalezeno {{count}} serverů'
   pair:
     confirm: Potvrdit
     label: Párovat federovaný uzel
