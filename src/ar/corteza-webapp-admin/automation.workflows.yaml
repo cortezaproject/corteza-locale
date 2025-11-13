@@ -50,8 +50,6 @@ list:
       placeholder: تصفية قائمة سير العمل بالاسم
   loading: تحميل سير العمل
   new: تشغيل سير العمل
-  numFound: '{{count}} سير عمل'
-  numFound_plural: '{{count}} سيور عمل'
   permissions: الصلاحيات
   title: سيور عمل
   yaml: YAML
