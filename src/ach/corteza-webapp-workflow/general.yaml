@@ -15,7 +15,9 @@ import:
   upload-files: crwdns180289:0crwdne180289:0
 label:
   all: crwdns180291:0crwdne180291:0
+  any: crwdns182251:0crwdne182251:0
   label: crwdns180293:0crwdne180293:0
+  or: crwdns182253:0crwdne182253:0
 loading: crwdns180295:0crwdne180295:0
 name: crwdns180297:0crwdne180297:0
 new-workflow: crwdns180299:0crwdne180299:0
