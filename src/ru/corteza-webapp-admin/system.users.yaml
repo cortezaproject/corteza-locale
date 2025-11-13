@@ -86,8 +86,6 @@ list:
     suspended:
       label: Пользователь приостановлен
   loading: Загрузить пользователей
-  numFound: '{{count}} пользователь найден'
-  numFound_plural: '{{count}} пользователь найден'
   permissions: Разрешения
   title: Пользователи
   yaml: YAML
