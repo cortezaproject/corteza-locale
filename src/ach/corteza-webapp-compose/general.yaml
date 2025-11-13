@@ -80,6 +80,7 @@ label:
   removeDefault: crwdns174647:0crwdne174647:0
   required: crwdns174649:0crwdne174649:0
   reset: crwdns174651:0crwdne174651:0
+  examples: crwdns182225:0crwdne182225:0
   sensitive: crwdns174653:0crwdne174653:0
   save: crwdns174655:0crwdne174655:0
   saveAndClose: crwdns174657:0crwdne174657:0
@@ -91,7 +92,6 @@ label:
   title: crwdns174669:0crwdne174669:0
   type: crwdns174671:0crwdne174671:0
   updatedAt: crwdns174673:0crwdne174673:0
-  uploadError: 'crwdns174675:0{{message}}crwdne174675:0'
   uploading: crwdns174677:0crwdne174677:0
   unsavedChanges: crwdns174679:0crwdne174679:0
   urlPlaceholder: crwdns174681:0crwdne174681:0
