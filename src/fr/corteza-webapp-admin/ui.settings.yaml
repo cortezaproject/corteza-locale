@@ -1,6 +1,13 @@
 editor:
+  title: Paramètres d'interface utilisateur
   corteza-studio:
+    title: Thème
     colorPicker: Choisissez une couleur
+    custom-css: CSS personnalisé
+    mainLogo:
+      title: Logo principal
+    iconLogo:
+      title: Icône de logo
     label:
       default: Défaut
     tabs:
@@ -9,6 +16,12 @@ editor:
       dark: Sombre
     theme:
       variables:
+        white:
+          label: Blanc
+          description: Couleur de fond d'un élément
+        black:
+          label: Noir
+          description: Couleur du texte de l'élément
         primary:
           label: Primaire
         secondary:
@@ -21,13 +34,36 @@ editor:
           label: Danger
         light:
           label: Clair
+        body-bg:
+          label: Fond zone de contenu
+          description: Couleur de fond de la zone de contenu
+        sidebar-bg:
+          label: Fond barre latérale
+          description: Couleur de fond de la barre latérale
+        topbar-bg:
+          label: Fond de barre supérieure
+          description: Couleur de fond de la barre supérieure
   topbar:
+    title: Barre supérieure
     general: Général
+    app-selector:
+      hide: Cacher sélecteur d'application
     help:
       title: Aide
+      hide: Cacher aide
+      hide-forum-link: Cacher lien du forum
+      hide-documentation-link: Cacher lien de la documentation
+      hide-feedback-link: Cacher lien d'évaluation
     profile:
       title: Profil
+      hide: Cacher profil
+      hide-profile-link: Cacher lien vers le profil
+      hide-change-password-link: Cacher lien de changement de mot de passe
+      hide-theme-selector: Cacher sélecteur de thème
+    notifications:
+      hide: Cacher notifications
     links:
+      title: Lien personnalisé
       handle: Nom
       invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
       url: URL
