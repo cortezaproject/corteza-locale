@@ -2,7 +2,9 @@ list:
   columns:
     name: Nom
   filter:
+    incScriptsWithIterator: Itérateur ({{ count }})
     incScriptsWithTriggers: Déclencheurs ({{ count }})
   flags:
+    iterator: Itérateur
     security: Sécurité
     triggers: Déclencheurs
