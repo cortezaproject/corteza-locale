@@ -13,4 +13,3 @@ errors:
   notAllowedToUndelete: dieser Chart kann nicht wiederhergestellt werden
   notAllowedToUpdate: dieser Chart kann nicht aktualisiert werden
   notFound: Chart nicht vorhanden
-  staleData: alte Daten
