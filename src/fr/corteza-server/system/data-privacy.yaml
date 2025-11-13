@@ -1,2 +1,4 @@
 errors:
   invalidID: ID invalide
+  invalidKind: type invalide
+  invalidStatus: statut invalide
