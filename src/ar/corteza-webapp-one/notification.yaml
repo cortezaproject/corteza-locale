@@ -1,0 +1,4 @@
+general:
+  error: خطأ
+  success: ناجح
+  warning: تنبيه
