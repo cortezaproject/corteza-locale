@@ -37,5 +37,3 @@ federation:
     permissions: Permissions
 ui:
   group: Interface utilisateur
-  items:
-    settings: Paramètres
