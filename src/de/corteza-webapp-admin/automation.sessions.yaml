@@ -45,6 +45,4 @@ list:
     suspended:
       label: Gesperrt
   loading: Sitzungen werden geladen
-  numFound: '{{count}} Sitzung gefunden'
-  numFound_plural: '{{count}} Sitzungen gefunden'
   title: Sitzungen
