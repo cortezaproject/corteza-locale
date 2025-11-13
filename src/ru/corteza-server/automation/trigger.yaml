@@ -7,4 +7,3 @@ errors:
   notAllowedToUndelete: не разрешено восстановить этот триггер
   notAllowedToUpdate: не разрешено обновлять этот триггер
   notFound: триггер не найден
-  staleData: устаревшие данные
