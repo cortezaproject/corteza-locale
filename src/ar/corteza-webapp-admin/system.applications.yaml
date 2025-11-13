@@ -55,8 +55,6 @@ list:
       label: قائمة التطبيقات المرشحة
       placeholder: قائمة التطبيقات المرشحة بالاسم
   loading: تحميل التطبيقات
-  numFound: '{{count}} تطبيق'
-  numFound_plural: '{{count}} تطبيقات'
   permissions: الصلاحيات
   title: التطبيقات
   yaml: YAML
