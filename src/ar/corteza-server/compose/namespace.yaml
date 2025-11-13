@@ -9,7 +9,6 @@ errors:
   notAllowedToUndelete: غير مسموح اعادة الـnamespace
   notAllowedToUpdate: غير مسموح تحديث الـ namespace
   notFound: الـ namespace غير موجود
-  staleData: بيانات تالفة
   unsupportedExportFormat: صيغة التصدير غير مدعومة
   unsupportedImportFormat: صيغة الاستيراد غير مدعومة
   importMissingNamespace: مصدر الاستيراد لا يحوي تعريف الـnamespace
