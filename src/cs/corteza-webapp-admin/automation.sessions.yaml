@@ -51,6 +51,4 @@ list:
     canceled:
       label: Stornováno
   loading: Načítání relací
-  numFound: 'Nalezena {{count}} relace'
-  numFound_plural: 'Nalezeno {{count}} relací'
   title: Relace
