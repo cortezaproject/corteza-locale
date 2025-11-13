@@ -7,4 +7,3 @@ errors:
   notAllowedToUndelete: není povoleno obnovit tento smazaný trigger
   notAllowedToUpdate: není povoleno aktualizovat tento trigger
   notFound: trigger nenalezen
-  staleData: zastaralá data
