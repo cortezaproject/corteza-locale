@@ -7,4 +7,3 @@ errors:
   notAllowedToMap: není povoleno mapovat tento modul
   notFound: modul neexistuje
   notUnique: uzel není unikátní
-  staleData: zastaralá data
