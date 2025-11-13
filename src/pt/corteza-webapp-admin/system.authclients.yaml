@@ -79,8 +79,6 @@ list:
       label: Filtrar lista de clientes
       placeholder: Filtrar clientes
   loading: Carregando clientes
-  numFound: '{{count}} clientes encontrados'
-  numFound_plural: '{{count}} clientes encontrados'
   permissions: Permissões
   title: Clientes de autenticação
   yaml: YAML
