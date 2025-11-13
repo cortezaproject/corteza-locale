@@ -13,4 +13,3 @@ errors:
   notAllowedToUndelete: не разрешено восстанавливать этот отчет
   notAllowedToUpdate: не разрешено обновлять этот отчет
   notFound: chart does not exist
-  staleData: устаревшие данные
