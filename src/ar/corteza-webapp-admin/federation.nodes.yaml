@@ -38,8 +38,6 @@ list:
     query:
       label: تصفية قائمة الخوادم
       placeholder: تصفية قائمة الخوادم بالاسم
-  numFound: '{{count}} خادم'
-  numFound_plural: '{{count}} خوادم'
   pair:
     confirm: تاكيد
     networkEstablished: سيتم إنشاء الشبكة الموحدة بعد التأكيد النهائي من المسؤول عن عقدة اتحاد Corteza أخرى.
