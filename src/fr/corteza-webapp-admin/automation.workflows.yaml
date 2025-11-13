@@ -40,7 +40,5 @@ list:
       placeholder: Filtrez les processus par leurs noms
   loading: Chargement des processus
   new: Nouveau processus
-  numFound: '{{count}} processus trouvé'
-  numFound_plural: '{{count}} processus trouvés'
   permissions: Permissions
   title: Processus
