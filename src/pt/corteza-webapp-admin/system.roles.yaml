@@ -19,12 +19,7 @@ editor:
       expression-label: Expressão
       resource-types-label: Tipo de recurso
   members:
-    add: Adicionar
-    count: Membros ({{count}})
-    remove: Remover
-    searchUsers: Pesquisar usuários
     title: Membros da função
-    unnamed: Usuário sem nome
   permissions: Permissões
   title:
     create: Criar função
@@ -58,8 +53,6 @@ list:
       label: Filtrar lista de funções
       placeholder: Filtrar funções por nome
   loading: Carregando papéis
-  numFound: '{{count}} função encontrada'
-  numFound_plural: '{{count}} funções encontradas'
   permissions: Permissões
   title: Funções
   yaml: YAML
