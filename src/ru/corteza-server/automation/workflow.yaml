@@ -12,5 +12,4 @@ errors:
   notAllowedToUndelete: не разрешено восстанавливать рабочий процесс
   notAllowedToUpdate: не разрешено обновлять рабочий процесс
   notFound: ' рабочий процесс не найден'
-  staleData: устаревшие данные
   unknownWorkflowStep: неизвестный шаг рабочего процесса
