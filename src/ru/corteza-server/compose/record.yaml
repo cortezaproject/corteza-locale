@@ -19,6 +19,5 @@ errors:
   notAllowedToUndelete: не разрешено восстанавливать эту запись
   notAllowedToUpdate: не разрешено обновлять эту запись
   notFound: запись не найдена
-  staleData: устаревшие данные
   unknownBulkOperation: неизвестная массовая операция {bulkOperation}
   valueInput: Неверное значение записи
