@@ -19,6 +19,5 @@ errors:
   notAllowedToUndelete: غير مسموح اعادة هذا السجل
   notAllowedToUpdate: غير مسموح تحديث هذا السجل
   notFound: السجل غير موجود
-  staleData: بيانات تالفة
   unknownBulkOperation: عملية مجمّعة غير معروفة {bulkOperation}
   valueInput: إدخال قيمة سجل غير صالح
