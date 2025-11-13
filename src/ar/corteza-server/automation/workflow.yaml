@@ -12,5 +12,4 @@ errors:
   notAllowedToUndelete: غير مسموح اعادة سير العمل
   notAllowedToUpdate: غير مسموح تحديث سير العمل
   notFound: سير العمل غير موجود
-  staleData: بيانات تالفة
   unknownWorkflowStep: خطوة غير معروفة في سير العمل
