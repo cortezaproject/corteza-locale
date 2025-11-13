@@ -5,4 +5,3 @@ errors:
   notAllowedToRead: не разрешено читать эту сессию
   notAllowedToSearch: не разрешено искать или перечислять сеансы
   notFound: сессия не найдена
-  staleData: устаревшие данные
