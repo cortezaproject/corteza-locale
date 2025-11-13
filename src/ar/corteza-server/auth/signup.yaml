@@ -17,6 +17,5 @@ template:
       sign-up: إرسال
 alerts:
   signup-successful: تم التسجيل بنجاح
-  email-confirmed-logged-in: تم تأكيد البريد الالكتروني، تم تسجيل الدخول.
   invalid-expired-token: رمز تأكيد البريد الالكتروني منتهي أو خاطئ، يرجى اعادة محاولة ارسال التأكيد.
   signup-disabled: التسجيل معطل
