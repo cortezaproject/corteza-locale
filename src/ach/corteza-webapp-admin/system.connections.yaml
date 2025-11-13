@@ -40,7 +40,6 @@ editor:
       handle:
         label: crwdns172063:0crwdne172063:0
         placeholder: crwdns172065:0crwdne172065:0
-        description: crwdns172067:0crwdne172067:0
         invalid-characters: crwdns172069:0crwdne172069:0
       location-name:
         label: crwdns172071:0crwdne172071:0
@@ -49,7 +48,6 @@ editor:
       location-geometry:
         label: crwdns172077:0crwdne172077:0
         description: crwdns172079:0crwdne172079:0
-        placeholder: crwdns172081:0crwdne172081:0
       ownership:
         label: crwdns172083:0crwdne172083:0
         placeholder: crwdns172085:0crwdne172085:0
