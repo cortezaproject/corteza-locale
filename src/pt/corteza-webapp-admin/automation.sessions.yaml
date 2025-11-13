@@ -46,6 +46,4 @@ list:
     suspended:
       label: Suspenso
   loading: Carregando sessões
-  numFound: '{{count}} sessão encontrada'
-  numFound_plural: '{{count}} sessões encontradas'
   title: Sessões
