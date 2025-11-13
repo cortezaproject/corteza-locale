@@ -5,4 +5,3 @@ errors:
   notAllowedToRead: auf diese Sitzung kann nicht zugegriffen werden
   notAllowedToSearch: Sitzungen können nicht gesucht oder aufgelistet werden
   notFound: Sitzung nicht gefunden
-  staleData: alte Daten
