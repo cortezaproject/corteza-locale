@@ -64,7 +64,6 @@ label:
   title: Заголовок
   type: Тип
   updatedAt: Обновить
-  uploadError: 'Проблема при загрузке: "{{message}}"'
   uploading: Выгрузка
   urlPlaceholder: https://example.tld
   validation: Проверка
