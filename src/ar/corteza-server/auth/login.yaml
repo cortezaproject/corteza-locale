@@ -16,5 +16,4 @@ template:
     external:
       login-with: تسجيل الدخول بواسطة {{idp}}
 alerts:
-  logged-in: أنت الآن مسجل الدخول
   local-disabled: الحسابات المحلية معطلة
