@@ -6,12 +6,8 @@ template:
   mfa:
     title: Autenticación multi-factor
     totp:
-      title: Seguridad adicional con app móvil (contraseña de un solo uso basada en el tiempo/TOTP)
-      enforced: Configurada y requerida al iniciar sesión
       configure: Configurar
       disable: Deshabilitar
     email:
-      title: Seguridad adicional con contraseña de un solo uso por correo electrónico
-      enforced: Habilitada y requerida al iniciar sesión
       disable: Deshabilitar
     all-disabled: Todos los métodos de autenticación multi-factor están deshabilitados. Pregunta a tu administrador para habilitarlos.
