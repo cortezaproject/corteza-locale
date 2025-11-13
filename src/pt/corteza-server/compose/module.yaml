@@ -15,4 +15,3 @@ errors:
   notAllowedToUndelete: não é permitido recuperar este módulo
   notAllowedToUpdate: não é permitido atualizar este módulo
   notFound: módulo não existe
-  staleData: dados obsoletos
