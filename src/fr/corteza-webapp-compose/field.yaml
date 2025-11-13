@@ -225,7 +225,6 @@ options:
     newline: Chaque valeur dans une nouvelle ligne
 sanitizers:
   description: Retirer les espaces des textes ou réaliser d'autres types de manipulation de valeur avant validation
-  examples: Exemples
   expression:
     placeholder: trim(value)
   label: Assainissement de valeur
