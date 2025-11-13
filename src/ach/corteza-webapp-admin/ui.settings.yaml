@@ -85,3 +85,17 @@ editor:
       invalid-handle-characters: crwdns172005:0crwdne172005:0
       url: crwdns172007:0crwdne172007:0
       new-tab: crwdns172009:0crwdne172009:0
+  theming:
+    title: crwdns182195:0crwdne182195:0
+  navigation:
+    title: crwdns182197:0crwdne182197:0
+  location:
+    title: crwdns182199:0crwdne182199:0
+    geosearch:
+      title: crwdns182201:0crwdne182201:0
+      provider:
+        label: crwdns182203:0crwdne182203:0
+        description: crwdns182205:0crwdne182205:0
+      apiKey:
+        label: crwdns182207:0crwdne182207:0
+        placeholder: crwdns182209:0crwdne182209:0
