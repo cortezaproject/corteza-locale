@@ -15,5 +15,4 @@ template:
     external:
       login-with: Entrar com {{idp}}
 alerts:
-  logged-in: Você está logado
   local-disabled: Contas locais desabilitadas
