@@ -1,18 +1,14 @@
 template:
   title: التحقق الثنائي
   email:
-    instructions: تحقق من بريدك الإلكتروني وادخل الرمز الذي تم ارساله لك
     code: الرمز
     verify: تحقق
     resend: إعادة ارسال
     confirmed: تم تأكيد التحقق بالايميل
   totp:
-    instructions: يرجى ادخال رقم التحقق المستلم في تطبيق التحقق
     code: الرمز
     confirmed: تم تأكيد التحقق
     verify: تحقق
 alerts:
   email:
     resent: تم ارسال رمز التحقق بالبريد
-  topt:
-    valid: رمز صحيح
