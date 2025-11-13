@@ -13,9 +13,6 @@ editor:
     description: Description
     context:
       expression-label: Expression
-  members:
-    add: + Ajouter
-    remove: Supprimer
   new: Nouveau Rôle
   permissions: Permissions
 list:
