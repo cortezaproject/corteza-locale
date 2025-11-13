@@ -14,4 +14,3 @@ errors:
   notAllowedToUndelete: dieses Modul kann nicht wiederhergestellt werden
   notAllowedToUpdate: dieses Modul kann nicht aktualisiert werden
   notFound: Modul nicht vorhanden
-  staleData: alte Daten
