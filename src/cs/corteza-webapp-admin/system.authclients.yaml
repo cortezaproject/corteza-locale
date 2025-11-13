@@ -87,8 +87,6 @@ list:
       placeholder: Filtrovat klienty
   loading: Načítání klientů
   new: Nový klient
-  numFound: 'Nalezen {{count}} klient'
-  numFound_plural: 'Nalezeno {{count}} klientů'
   permissions: Oprávnění
   title: Klienti
   yaml: YAML
