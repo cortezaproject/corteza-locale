@@ -68,8 +68,6 @@ list:
     inclusive:
       label: يشمل
   loading: تحميل القوالب
-  numFound: '{{count}} قالب'
-  numFound_plural: '{{count}} قوالب'
   permissions: الصلاحيات
   title: القوالب
   yaml: YAML
