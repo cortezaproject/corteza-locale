@@ -7,8 +7,6 @@ list:
   profiler: Profilování
   yaml: YAML
   loading: Načítání cest
-  numFound: 'Nalezena {{count}} cesta'
-  numFound_plural: 'Nalezeno {{count}} cest'
   filterForm:
     query:
       label: Filtrování seznamu cest
