@@ -1,6 +1,23 @@
 editor:
+  title: Paramètres de courriel
   server:
+    title: Serveur SMTP
+    host:
+      label: Serveur
     user:
       label: Utilisateur
+      description: 'Facultatif : Identifiants d’authentification pour votre serveur de messagerie.'
     password:
       label: Mot de passe
+      description: 'Facultatif : Identifiants d’authentification pour votre serveur de messagerie.'
+    from:
+      label: Courriel de l'expéditeur
+      description: Courriel de l'expéditeur par défaut (en-tête FROM) utilisée lors de l'envoi d'e-mails.
+    tlsInsecure:
+      label: Autoriser l'utilisation de certificats invalides
+      description: Dissimuler les erreurs si Corteza ne peut pas vérifier le certificat TLS utilisé par le serveur SMTP.
+    tlsServerName:
+      label: Nom du serveur TLS
+      description: 'Facultatif : si le serveur SMTP utilise une valeur différente de celle utilisé pour le nom du serveur.'
+    testSmtpConfigs:
+      button: Tester serveur SMTP
