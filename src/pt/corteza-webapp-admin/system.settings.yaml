@@ -32,14 +32,9 @@ editor:
     mfa:
       title: Autenticação multifator
       TOTP:
-        enabled: Permitir que os usuários utilizem TOTP (pelo aplicativo móvel)
-        enforced: Forçar os usuários a usar TOTP (pelo aplicativo móvel)
         issuer:
-          description: O nome do emissor será enviado ao aplicativo autenticador quando o usuário o configurar
           label: Emissor
       emailOTP:
-        enabled: Permitir que os usuários utilizem uma senha de uso único por e-mail
-        enforced: Forçar os usuários a utilizar uma senha de uso único por e-mail
         expires:
           description: Por quanto tempo a senha será válida antes de expirar
           label: Valido para
