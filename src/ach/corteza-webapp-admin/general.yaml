@@ -12,12 +12,15 @@ label:
   role:
     single: crwdns171499:0crwdne171499:0
     plural: crwdns171501:0crwdne171501:0
+  user-group:
+    single: crwdns182071:0crwdne182071:0
+    plural: crwdns182073:0crwdne182073:0
   application:
     single: crwdns171503:0crwdne171503:0
     plural: crwdns171505:0crwdne171505:0
-  auth_client:
-    single: crwdns171507:0crwdne171507:0
-    plural: crwdns171509:0crwdne171509:0
+  auth-client:
+    single: crwdns182075:0crwdne182075:0
+    plural: crwdns182077:0crwdne182077:0
   queue:
     single: crwdns171511:0crwdne171511:0
     plural: crwdns171513:0crwdne171513:0
@@ -27,9 +30,9 @@ label:
   connection:
     single: crwdns171519:0crwdne171519:0
     plural: crwdns171521:0crwdne171521:0
-  sensitivity_level:
-    single: crwdns171523:0crwdne171523:0
-    plural: crwdns171525:0crwdne171525:0
+  sensitivity-level:
+    single: crwdns182079:0crwdne182079:0
+    plural: crwdns182081:0crwdne182081:0
   session:
     single: crwdns171527:0crwdne171527:0
     plural: crwdns171529:0crwdne171529:0
@@ -41,6 +44,7 @@ label:
   all: crwdns171539:0crwdne171539:0
   none: crwdns171541:0crwdne171541:0
   now: crwdns171543:0crwdne171543:0
+  openMap: crwdns182083:0crwdne182083:0
   today: crwdns171545:0crwdne171545:0
   routes: crwdns171547:0crwdne171547:0
   requests: crwdns171549:0crwdne171549:0
@@ -53,6 +57,8 @@ label:
   delete: crwdns171563:0crwdne171563:0
   undelete: crwdns171565:0crwdne171565:0
   fileTypeNotAllowed: crwdns171567:0crwdne171567:0
+  uploading: crwdns182085:0crwdne182085:0
+  dropFiles: crwdns182087:0crwdne182087:0
 editor:
   unsavedChanges: crwdns171569:0crwdne171569:0
 resourceList:
