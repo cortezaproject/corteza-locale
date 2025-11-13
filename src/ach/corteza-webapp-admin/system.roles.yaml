@@ -20,12 +20,7 @@ editor:
       expression-label: crwdns171297:0crwdne171297:0
       resource-types-label: crwdns171299:0crwdne171299:0
   members:
-    add: crwdns171301:0crwdne171301:0
-    count: crwdns171303:0{{count}}crwdne171303:0
-    remove: crwdns171305:0crwdne171305:0
-    searchUsers: crwdns171307:0crwdne171307:0
     title: crwdns171309:0crwdne171309:0
-    unnamed: crwdns171311:0crwdne171311:0
   new: crwdns171313:0crwdne171313:0
   permissions: crwdns171315:0crwdne171315:0
   title:
@@ -63,8 +58,6 @@ list:
       placeholder: crwdns171357:0crwdne171357:0
   loading: crwdns171359:0crwdne171359:0
   new: crwdns171361:0crwdne171361:0
-  numFound: 'crwdns171363:0{{count}}crwdne171363:0'
-  numFound_plural: 'crwdns171365:0{{count}}crwdne171365:0'
   permissions: crwdns171367:0crwdne171367:0
   title: crwdns171369:0crwdne171369:0
   yaml: crwdns171371:0crwdne171371:0
