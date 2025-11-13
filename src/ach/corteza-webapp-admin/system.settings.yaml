@@ -44,14 +44,14 @@ editor:
     mfa:
       title: crwdns171091:0crwdne171091:0
       TOTP:
-        enabled: crwdns171093:0crwdne171093:0
-        enforced: crwdns171095:0crwdne171095:0
+        enabled: crwdns182181:0crwdne182181:0
+        enforced: crwdns182183:0crwdne182183:0
         issuer:
-          description: crwdns171097:0crwdne171097:0
+          description: crwdns182185:0crwdne182185:0
           label: crwdns171099:0crwdne171099:0
       emailOTP:
-        enabled: crwdns171101:0crwdne171101:0
-        enforced: crwdns171103:0crwdne171103:0
+        enabled: crwdns182187:0crwdne182187:0
+        enforced: crwdns182189:0crwdne182189:0
         expires:
           description: crwdns171105:0crwdne171105:0
           label: crwdns171107:0crwdne171107:0
@@ -139,7 +139,5 @@ editor:
     image:
       uploader:
         label: crwdns171229:0crwdne171229:0
-        instructions: crwdns171231:0crwdne171231:0
-        uploading: crwdns171233:0crwdne171233:0
       editor:
         label: crwdns171235:0crwdne171235:0
