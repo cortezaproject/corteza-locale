@@ -78,7 +78,6 @@ label:
   title: Nadpis
   type: Typ
   updatedAt: Čas aktualizace
-  uploadError: 'Problem s náhradním souboru: "{{message}}"'
   uploading: Nahrávání
   unsavedChanges: Neuložené změny
   urlPlaceholder: https://priklad.tld
