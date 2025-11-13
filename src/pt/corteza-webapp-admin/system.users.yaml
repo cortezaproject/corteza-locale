@@ -86,8 +86,6 @@ list:
     suspended:
       label: usuários suspensos
   loading: Carregando usuários
-  numFound: '{{count}} usuário encontrado'
-  numFound_plural: '{{count}} usuários encontrados'
   permissions: Permissões
   title: Comercial
   yaml: YAML
