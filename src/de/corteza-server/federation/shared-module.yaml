@@ -7,4 +7,3 @@ errors:
   notAllowedToMap: dieses Modul kann nicht zugeordnet werden
   notFound: Modul nicht vorhanden
   notUnique: Knoten nicht eindeutig
-  staleData: alte Daten
