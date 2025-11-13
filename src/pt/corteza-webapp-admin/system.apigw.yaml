@@ -4,8 +4,6 @@ list:
   permissions: Permissões
   yaml: YAML
   loading: Carregando rotas
-  numFound: '{{count}} rota encontrada'
-  numFound_plural: '{{count}} rotas encontradas'
   filterForm:
     query:
       label: Filtrar lista de rotas
