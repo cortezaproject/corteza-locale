@@ -67,7 +67,6 @@ label:
   title: عنوان
   type: نوع
   updatedAt: تم تحديثه في
-  uploadError: 'مشكلة في تحميل الملف: "{{message}}"'
   uploading: تحميل
   urlPlaceholder: https://example.tld
   validation: تصديق
