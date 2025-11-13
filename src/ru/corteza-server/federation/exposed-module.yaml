@@ -8,4 +8,3 @@ errors:
   notFound: module does not exist
   notUnique: Узел не уникальный
   requestParametersInvalid: Параметры запроса недействительны
-  staleData: устаревшие данные
