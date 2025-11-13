@@ -16,6 +16,5 @@ template:
       sign-up: Enviar
 alerts:
   signup-successful: Registro completado con éxito
-  email-confirmed-logged-in: Dirección de correo electrónico confirmada, has iniciado la sesión.
   invalid-expired-token: Token de confirmación de correo electrónico inválido o caducado, por favor reenvia la solicitud de confirmación.
   signup-disabled: Registro deshabilitado
