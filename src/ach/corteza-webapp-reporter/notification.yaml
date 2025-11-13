@@ -4,6 +4,7 @@ general:
   error: crwdns179833:0crwdne179833:0
   success: crwdns179835:0crwdne179835:0
   warning: crwdns179837:0crwdne179837:0
+  info: crwdns182249:0crwdne182249:0
 list:
   load:
     error: crwdns179839:0crwdne179839:0
