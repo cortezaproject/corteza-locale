@@ -9,6 +9,8 @@ editor:
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     id: ID
     name: Nom *
+    openBuilder: Ouvrir constructeur
+    title: Information de base
     undelete: Annuler suppression
     updatedAt: Mis à jour à
   new: Nouveau processus
@@ -29,12 +31,22 @@ list:
     enabled: Activé
     handle: Identifiant
     name: Nom
+    state: État
   delete: Supprimer
   undelete: Annuler suppression
   export: Exporter
+  rows:
+    filters:
+      deleted: Supprimé
   filterForm:
     deleted:
       label: processus supprimés
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    inclusive:
+      label: Comprenant
     query:
       label: Filtrer liste des processus
       placeholder: Filtrez les processus par leurs noms
@@ -42,3 +54,4 @@ list:
   new: Nouveau processus
   permissions: Permissions
   title: Processus
+  yaml: YAML
