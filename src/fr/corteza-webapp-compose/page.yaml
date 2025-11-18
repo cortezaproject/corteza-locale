@@ -13,6 +13,7 @@ page-layout:
     builder: Ouvrir mise en page dans le constructeur
     performance:
       condition: Utiliser des conditions de visibilité impactera les performances
+      requiredFields: Utiliser des champs obligatoires impactera les performances
   condition:
     label: Condition
     placeholder: Quand la disposition de page sera-t-elle visible
@@ -57,6 +58,14 @@ page-layout:
       toURL:
         label: Rediriger vers un URL
         placeholder: Pas d'URL spécifié
+  requiredFields:
+    label: Champs obligatoires
+    description: Définir les champs qui doivent être obligatoires en fonction d'une condition
+    field: Champ
+    condition: Condition
+    selectPlaceholder: Sélectionnez un champ
+    conditionPlaceholder: Si aucune condition n'est définie, le champ sera obligatoire
+    help: "Vous pouvez utiliser {{0}}, {{1}}, {{2}} dans l'expression pour définir quand un champ doit être obligatoire"
 block:
   general:
     label:
