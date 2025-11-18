@@ -12,3 +12,4 @@ template:
 alerts:
   email:
     resent: Courriel OTP renvoyé
+    confirmed: Courriel OTP confirmé
