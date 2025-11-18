@@ -1,26 +1,35 @@
 editor:
   generate:
     hello: Bonjour,
+    sendEmail: Envoyer un courriel
     subject: 'Sujet:'
   info:
     createdAt: Créer à
     createdBy: Créer par
     delete: Supprimer
     deletedAt: Supprimer à
+    email: Courriel administrateur
     enabled: Activé
     name: Nom serveur
     status: Statut
     tags:
       placeholder: +Ajouter
+    title: Information de base
     undelete: Annuler suppression
     updatedAt: Mis à jour à
     url: URL serveur
+  title:
+    edit: Éditer Nœud de Fédération
 list:
   columns:
+    createdAt: Créé
     enabled: Activé
     name: Nom
     status: Statut
   loading: Chargement des nœuds de fédération
   new: Nouveau Nœud de Fédération
   pair:
+    confirm: Confirmer
     label: Appairer Nœud de Fédération
+    note: 'Note :'
+  yaml: YAML
