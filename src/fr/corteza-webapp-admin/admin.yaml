@@ -7,6 +7,7 @@ automation:
     delete: Supprimer script
     enabledLabel: Activé
     mailAutomationTriggers:
+      addMatcher: Ajouter condition
       addTrigger: Ajouter déclencheur
       delete: Supprimer déclencheur
       deleteTrigger: Supprimer
@@ -20,12 +21,14 @@ automation:
           replyTo: Répondre à
           subject: Sujet
           to: A
+        match: Valeur à faire correspondre
         operators:
           equal-ci: Correspondance complète
           placeholder: Opérateur
           regex: Expression régulière
           user: Utilisateur existant
     nameLabel: Nom
+    namePlaceholder: Nom du script d'automatisation
     runAsCurrentUser: Exécuter en tant que "{{ user }}"
     runAsHelp: Exécuteur du script
     securityLabel: Sécurité
@@ -42,8 +45,10 @@ automation:
         enabled: Activé
         runAs: Exécuter en tant que
         runInUA: Dans le navigateur
+    unnamed: (Script sans nom)
   newPlaceholder: Nom du script
   testing:
+    load: Charger
     resultsHeadline: 'Résultats :'
     testInBrowser: Tester dans Navigateur
     testInCorredor: Tester dans Corredor
