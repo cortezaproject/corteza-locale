@@ -8,20 +8,44 @@ editor:
     placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     name: Nom de rôle *
+    title: Information de base
+    unarchive: Annuler l'archivage
     undelete: Annuler suppression
     updatedAt: Mis à jour à
     description: Description
     context:
       expression-label: Expression
+      resource-types-label: Type de ressource
   new: Nouveau Rôle
   permissions: Permissions
+  title:
+    create: Créer rôle
+    edit: Éditer rôle
 list:
   columns:
+    createdAt: Créé
     enabled: Activé
     handle: Identifiant
     name: Nom
+    state: État
   delete: Supprimer
   undelete: Annuler suppression
+  unarchive: Annuler l'archivage
+  rows:
+    filters:
+      deleted: Supprimé
+  filterForm:
+    deleted:
+      label: rôles supprimés
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    inclusive:
+      label: Comprenant
+    query:
+      label: Filtrer liste de rôle
   new: Nouveau Rôle
   permissions: Permissions
   title: Rôles
+  yaml: YAML
