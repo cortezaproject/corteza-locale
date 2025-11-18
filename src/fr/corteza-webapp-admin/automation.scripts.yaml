@@ -1,10 +1,16 @@
 list:
   columns:
     name: Nom
+    updatedAt: Dernière mise à jour
   filter:
+    absoluteTime: Afficher l'heure absolue
+    incScriptsWithErrors: Erreurs ({{ count }})
     incScriptsWithIterator: Itérateur ({{ count }})
+    incScriptsWithSecurity: Sécurité ({{ count }})
     incScriptsWithTriggers: Déclencheurs ({{ count }})
+    searchQuery: Requête de recherche
   flags:
     iterator: Itérateur
     security: Sécurité
     triggers: Déclencheurs
+  title: Scripts Corredor
