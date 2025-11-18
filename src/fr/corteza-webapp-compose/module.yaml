@@ -35,13 +35,28 @@ edit:
       allFields: Tous les champs
       description: 'Faites correspondre les champs de fédération avec les champs existants :'
       title: Carte
+    error:
+      fetch:
+        data: Erreur lors de la récupération des données du serveur
+        exposed: Erreur lors de la récupération des informations du module exposé
+        shared: Erreur lors de la récupération des informations du module partagé
+        mmap: Erreur lors de la récupération des informations de mappage du module
+        node: Erreur lors de la récupération des informations du nœud
+      persist:
+        exposed: Erreur lors de la persistance des informations du module exposé
+        shared: Erreur lors de la persistance des informations du module partagé
+        mmap: Erreur lors de la persistance des informations de mappage du module
     general:
       title: Général
+    noNodes: Aucun serveur fédéré disponible
     pickModule: Choisissez un module de fédération
     pickModuleField: Choisissez un champ de module
     pickServer: Choisissez un serveur de fédération
+    specificTitle: Paramètres de fédération ({{handle}})
+    title: Paramètres de fédération
     upstream:
       allFields: Tous les champs
+      title: Exposer
   discoverySettings:
     title: Paramètre de découverte
     public: Public
@@ -53,6 +68,7 @@ edit:
   newField: Ajouter nouveau champ
   recordPermissions: Permissions d'enregistrement
   reorderFields: Réordonner les champs
+  specificFieldSettings: Paramètres de champ ({{name}})
   steps:
     recordPage: Page d'élément
   systemFields: 'Champs système'
@@ -77,11 +93,27 @@ edit:
       connection:
         label: Connexion à une base de données
         placeholder: Sélectionnez une connexion de base de données
+      ident:
+        label: Nom de la collection ou de la table de base de données
+        placeholder: compose_record
+      connections:
+        fetch-failed: Impossible de récupérer les connexions disponibles
+      module-fields:
+        label: Mappage et encodage des champs du module
+        description: |
+          Configurez la manière dont les champs d'enregistrement sont stockés et lus depuis la base de données.
+          Le comportement par défaut et d'encoder les valeurs dans un JSON et les stocker dans un seul champ.
+          Autrement, vous pouvez utiliser des colonnes portant le même nom que le champ (Colonne),
+          ou utiliser un Alias et stocker la valeur directement dans la colonne.
       system-fields:
+        label: Mappage et encodage des champs système
         grouptypes:
           all: Tous
+          partition: Partition
+          userReference: Référence utilisateur
           timestamps: Horodatages
       encoding-strategy:
+        unavailable: indisponible
         strategies:
           plain:
             label: Colonne
