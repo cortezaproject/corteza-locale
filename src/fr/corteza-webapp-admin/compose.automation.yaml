@@ -1,4 +1,6 @@
 list:
   columns:
+    events: Déclenché lors d'évènements
     label: Étiquette
     name: Nom
+  title: Automatisation Compose
