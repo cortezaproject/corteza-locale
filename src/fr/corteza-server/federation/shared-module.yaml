@@ -1,3 +1,4 @@
 errors:
   invalidID: ID invalide
+  nodeNotFound: ce nœud n'existe pas
   notFound: ce module n'existe pas
