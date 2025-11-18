@@ -5,11 +5,15 @@ editor:
     delete: Supprimer
     deletedAt: Supprimer à
     enabled: Activé
+    id: ID
     name: Nom *
+    title: Information de base
     undelete: Annuler suppression
     updatedAt: Mis à jour à
   new: Nouvelle Application
   permissions: Permissions
+  title:
+    edit: Éditer application
   unify:
     config:
       label: Configuration
@@ -23,10 +27,25 @@ editor:
       label: URL
 list:
   columns:
+    createdAt: Créé
     enabled: Activé
     name: Nom
+    state: État
   export: Exporter
+  rows:
+    filters:
+      deleted: Supprimé
+  filterForm:
+    deleted:
+      label: applications supprimées
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    inclusive:
+      label: Comprenant
   new: Nouvelle Application
   permissions: Permissions
+  yaml: YAML
   delete: Supprimer
   undelete: Annuler suppression
