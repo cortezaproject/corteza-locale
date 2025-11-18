@@ -4,22 +4,42 @@ list:
   title: Routes
   new: Nouvelle route
   permissions: Permissions
+  profiler: Profileur
+  yaml: YAML
   filterForm:
     query:
       label: Filtrer liste de route
+    excluded:
+      label: Sans
+    inclusive:
+      label: Comprenant
+    exclusive:
+      label: Uniquement
     deleted:
       label: routes supprimées
   delete: Supprimer
   undelete: Annuler suppression
   columns:
+    createdAt: Créé
     enabled: Activé
+    method: Méthode
+    state: État
+  rows:
+    filters:
+      deleted: Supprimé
 settings:
+  title: Paramètres
   profiler:
+    label: Profileur
     enabled: Activé
 editor:
+  title: Éditer route
   new: Nouvelle route
   permissions: Permissions
   info:
+    title: Information de base
+    id: ID
+    method: Méthode
     description: Description
     enabled: Activé
     delete: Supprimer
@@ -29,13 +49,21 @@ editor:
     createdAt: Créer à
     createdBy: Créer par
   filters:
+    title: Liste de filtres
     enabled: Activé
     disabled: Désactivé
     add: + Ajouter
+    addFilter: Ajouter filtre
+    addHeader: Ajouter en-tête
+    filterListEmpty: La liste de filtres est vide !
+    modal:
+      ok: Enregistrer et fermer
     step_title:
+      prefilter: Préfiltrage
       processer: Traitement
     list:
       remove: Supprimer
+      filters: Filtres
       status: Statut
       actions: Actions
       active: Actif
@@ -45,20 +73,39 @@ editor:
       workflow: Processus
       jsfunc: Fonction
       input: Entrée
+      header: En-têtes
       name: Nom
       value: Valeur
+    httpStatus:
+      '300': 300 - Choix multiples
+      '301': 301 - Déplacé définitivement
+      '302': 302 - Trouvé
+      '303': 303 - Chercher ailleurs
+      '304': 304 - Non-modifié
     placeholders:
       workflow: Sélectionnez un processus
     help:
       expression:
         link: Documentation
 profiler:
+  label: Profileur
   hit:
     general:
       label: Général
+      id: ID de la demande
+      route: Route de la demande
+      URL: URL de la demande
+      statusCode: Code d'état
+      duration: Durée
       start: Début
       end: Fin
+    headers:
+      label: En-têtes
     body:
       label: Corps
   columns:
+    path: Route
     count: Compte
+    http_method: Méthode
+    http_status_code: Code d'état
+    time_duration: Durée
