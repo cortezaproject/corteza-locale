@@ -1,11 +1,17 @@
 editor:
+  new: Nouveau niveau de sensibilité
+  title:
+    create: Créer niveau de sensibilité
+    edit: Éditer niveau de sensibilité
   info:
+    title: Information de base
     handle:
       label: Identifiant
       placeholder: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
       invalid-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     name: Nom *
     description: Description
+    level: Niveau {{level}}
     createdAt: Créer à
     createdBy: Créer par
     delete: Supprimer
@@ -13,7 +19,25 @@ editor:
     undelete: Annuler suppression
     updatedAt: Mis à jour à
 list:
+  title: Niveaux de sensibilité
+  loading: Chargement des niveaux de sensibilité
+  new: Nouveau niveau de sensibilité
   columns:
     'meta.name': Nom
+    level: Niveau
+    createdAt: Créé
+    state: État
   delete: Supprimer
   undelete: Annuler suppression
+  rows:
+    filters:
+      deleted: Supprimé
+  filterForm:
+    deleted:
+      label: niveaux de sensibilité supprimés
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    inclusive:
+      label: Comprenant
