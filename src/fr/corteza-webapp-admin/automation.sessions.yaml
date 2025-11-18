@@ -1,21 +1,54 @@
 editor:
   info:
+    completedAt: Terminé à
     createdAt: Créer à
+    createdBy: Créer par - ID
+    createdByUserName: Créer par - Nom
     delete: Supprimer
     deletedAt: Supprimer à
     suspendedAt: Désactivé à
     error: Erreur
+    eventType: Type d'évènement
+    id: ID
+    resourceType: Type de ressource
     status: Statut
+    title: Information de base
     workflowID: WorkflowID
     openWorkflow: Ouvrir processus
+    cancel: Annuler la session
+  title: Session
 list:
   columns:
+    createdAt: Créer à
+    eventType: Type d'évènement
+    sessionID: ID de Session
+    state: État
     status: Statut
     workflowID: WorkflowID
   filterForm:
     all:
       label: Tous
+    completed:
+      label: Terminé
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    failed:
+      label: Échoué
+    inProgress:
+      label: sessions terminées
+    inclusive:
+      label: Comprenant
+    prompted:
+      label: Sollicité
+    sessions:
+      label: sessions
+    started:
+      label: Débuté
     suspended:
       label: Désactivé
     canceled:
       label: Annulée
+  loading: Chargement des sessions
+  title: Sessions
