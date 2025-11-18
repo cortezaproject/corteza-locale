@@ -20,21 +20,28 @@ list:
     severity: Sévérité
     resource: Ressource
     action: Action
+    headerAdditional: Information complémentaire
     description: Description
     error: Erreur
     meta: Métadonnée
   severity:
+    emergency: Urgence
     alert: Alerte
     critical: Critique
     error: Erreur
     warning: Avertissement
     notice: Information
     info: Info
+    debug: Déboguer
   filter:
+    action: Action
     actor: ID de l'utilisateur
     choose-date: Choisissez une date
+    from: Débutant à
+    no-time: Aucune heure sélectionnée
     resource: Ressource
     search: Rechercher
+    to: Terminant à
     today: Aujourd'hui
   loadOlder: Charger actions plus anciennes
   title: Journaux d'action
