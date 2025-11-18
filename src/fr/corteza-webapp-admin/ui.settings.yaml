@@ -68,3 +68,14 @@ editor:
       invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
       url: URL
       new-tab: Nouvel onglet
+  theming:
+    title: Thème
+  navigation:
+    title: Navigation
+  location:
+    title: Localisation
+    geosearch:
+      provider:
+        label: Fournisseur
+      apiKey:
+        placeholder: Entrez votre clé d'API
