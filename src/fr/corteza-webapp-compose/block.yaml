@@ -317,6 +317,10 @@ record:
     selectPlaceholder: Sélectionnez un champ
     field: Champ
     condition: Condition
+    clearOnHide: Vider au masquage
+    clearOnHideTooltip: Vide la valeur de ce champ lorsqu'elle est masqué
+    clearAllOnHide: Vider tous les champs conditionnels lorsqu'ils sont masqués
+    clearAllOnHideDescription: Lorsque activé, tous les champs conditionnels sont vidés lorsqu'ils sont masqués, ignorant le paramétrage individuel des champs
     tooltip:
       performance: Utilisé des champs conditionnels impactera les performances
   recordSelectorCanAddRecord: Peut ajouter un élément par le sélecteur d'élément
@@ -803,6 +807,9 @@ navigation:
   add: Ajouter élément de navigation
   addDropdown: Ajouter élément de liste déroulante
   composePage: Page Compose
+  pageLayout: Disposition de page
+  defaultLayout: Disposition par défaut
+  unnamedLayout: Disposition sans nom
   tabs: Onglets
   pills: Pilules
   small: Petit
