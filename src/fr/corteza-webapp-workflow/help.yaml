@@ -2,7 +2,27 @@
   action:
     select: Sélecteur
     'select-multiple': Sélectionnez plusieurs
+    'zoom-in/out': Zoom avant/arrière
+  shortcut:
+    'left-click':
+      background: Clic gauche sur le fond
+      drag: Clic gauche et glisser
+      label: Clic gauche
+    'mouse-wheel': Molette de souris
+    'right-click-drag': Clic droit et glisser
+'basic-controls-label': Contrôles de base
 'keyboard-shortcuts':
   action:
+    'add-selection': Ajouter à la sélection
+    copy: Copier
+    cut: Couper
+    'delete-selected-elements': Supprimer éléments sélectionnés
+    paste: Coller
+    redo: Refaire
     save: Enregistrer
+    'hide-guides': Cacher les guides
+    'show-help': Afficher aide
     'select-all': Sélectionner tout
+    undo: Défaire
+  shortcut:
+    hold: Maintenir

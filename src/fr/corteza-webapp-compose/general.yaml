@@ -80,6 +80,7 @@ label:
   removeDefault: Supprimer valeur par défaut
   required: Obligatoire
   reset: Réinitialiser
+  examples: Exemples
   sensitive: Sensible
   save: Enregistrer
   saveAndClose: Enregistrer et fermer

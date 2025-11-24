@@ -3,6 +3,7 @@ system:
   group: Système
   items:
     users: Utilisateurs
+    usergroups: Groupes d'utilisateurs
     actionlog: Journaux d'action
     apigw: Passerelle d'intégration
     applications: Applications
@@ -37,3 +38,7 @@ federation:
     permissions: Permissions
 ui:
   group: Interface utilisateur
+  items:
+    theming: Thème
+    navigation: Navigation
+    location: Localisation

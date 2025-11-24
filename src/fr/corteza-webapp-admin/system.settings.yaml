@@ -1,12 +1,23 @@
 editor:
+  title: Paramètres système
   auth:
+    title: Authentification
     url: URL
     internal:
+      title: Interne
+      password-reset:
+        enabled: Réinitialisation du mot de passe activée
       password-constraints:
+        title: Contraintes de mot de passe
+        min-length: Longueur minimum
+        min-length-description: Doit faire au moins 8 caractères
         min-num-count: Nombre minimum de chiffres
         min-num-count-description: Le mot de passe doit contenir le nombre de chiffres spécifié (désactivé si défini à 0)
+      signup:
+        enabled: Enregistrement activé
       send-user-invite-email:
         expires:
+          label: Valide pour
           description: Durée de validité du jeton d'invitation avant expiration
     mail:
       validate-email: Merci d'entrer un courriel valide
@@ -15,6 +26,7 @@ editor:
       emailOTP:
         expires:
           description: Durée de validité du mot de passe avant expiration
+          label: Valide pour
     auto-logout:
       enabled:
         label: Activé
@@ -22,15 +34,23 @@ editor:
     table:
       header:
         enabled: Activé
+        provider: Fournisseur
     standard:
       enabled: Activé
+      clientSecret: Secret
     oidc:
+      add: Ajouter un fournisseur OIDC
       enabled: Activé
       handle: Identifiant
+      clientSecret: Secret
       scopePlaceholder: List out supported OAuth scope values, use space delimited string
     saml:
       enabled: Activé
+      title: SAML
+      requests:
+        title: Requêtes
       name: Nom
+      certificate: Certificat
       idp:
         url: URL
     security:
@@ -39,3 +59,9 @@ editor:
         label: Forced roles ({{count}})
       permitted-roles:
         label: Permitted roles ({{count}})
+  bgScreen:
+    image:
+      uploader:
+        label: Image de fond
+      editor:
+        label: CSS personnalisé

@@ -3,6 +3,8 @@ editor:
     label: Étiquette
     type: Type
   info:
+    confirmEmail: Confirmer courriel
+    id: ID
     createdAt: Créer à
     createdBy: Créer par
     delete: Supprimer
@@ -15,9 +17,13 @@ editor:
     revokeAllSession: Révoquer toutes les sessions actives
     suspend: Désactiver
     suspendedAt: Désactivé à
+    title: Information de base
     undelete: Annuler suppression
     unsuspend: Réactiver
     updatedAt: Mis à jour à
+    userGroup:
+      label: Groupe d'utilisateurs
+      placeholder: Groupe d'utilisateurs
   avatar:
     preview:
       label: Avatar
@@ -43,6 +49,8 @@ editor:
         text: |-
           La protection OTP par courriel est désactivé pour cet utilisateur
           Les courriels de code de sécurité à chaque connexion ne seront pas envoyés
+      enable:
+        label: Activer
       enabled:
         text: |-
           La protection OTP par courriel est activé pour cet utilisateur
@@ -50,6 +58,7 @@ editor:
     title: Authentification multi-facteurs
   new: Nouvel utilisateur
   password:
+    confirm: Confirmer mot de passe
     missmatch: Le mot de passe doit correspondre
     new: Nouveau mot de passe
     title: Mot de passe
@@ -58,12 +67,18 @@ editor:
     add: + Ajouter
     count: Roles ({{count}})
     remove: Supprimer
+    unnamed: Rôle sans nom
+  title:
+    create: Créer utilisateur
+    edit: Éditer utilisateur
 list:
   columns:
+    createdAt: Créé
     email: Courriel
     enabled: Activé
     handle: Identifiant
     name: Nom
+    state: État
   suspend: Désactiver
   unsuspend: Réactiver
   delete: Supprimer
@@ -71,8 +86,17 @@ list:
   export: Exporter
   rows:
     filters:
+      deleted: Supprimé
       suspended: Désactivé
   filterForm:
+    deleted:
+      label: utilisateurs supprimés
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    inclusive:
+      label: Comprenant
     suspended:
       label: utilisateurs désactivés
   new: Nouvel utilisateur
@@ -81,6 +105,8 @@ list:
   yaml: YAML
 export:
   buttonLabel: Exporter
+  inclRoles: Comprenant les rôles
   export: Exporter
 import:
   buttonLabel: Importer
+  uploadFilePlaceholder: Cliquez ou déposez ici des fichiers pour importer

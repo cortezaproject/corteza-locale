@@ -5,14 +5,27 @@ primary:
   ownership: Propriétaire
   sensitivity-level: Niveau de sensibilité
 list:
+  filterForm:
+    deleted:
+      label: connexions supprimées
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    inclusive:
+      label: Comprenant
   columns:
     name: Nom
     location: Localisation
     ownership: Propriétaire
+    createdAt: Créé
   delete: Supprimer
   undelete: Annuler suppression
 editor:
+  title:
+    edit: Éditer connexion
   basic:
+    title: Paramètres basiques
     form:
       name:
         label: Nom *
@@ -21,5 +34,6 @@ editor:
         invalid-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
       ownership:
         label: Propriétaire
+        placeholder: ACME ltd.
       sensitivity-level:
         placeholder: Sélectionnez un niveau de sensibilité

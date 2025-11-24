@@ -1,34 +1,69 @@
 editor:
   info:
     add: + Ajouter
+    choose-date: Choisissez une date
     createdAt: Créer à
     createdBy: Créer par
     delete: Supprimer
     deletedAt: Supprimer à
     enabled:
       label: Activé
+    expiresAt:
+      label: Expiré à
     handle:
       label: Identifiant
       placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
       invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     name: Nom *
     remove: Supprimer
+    secret: Secret
     security:
+      defaultUserGroup:
+        label: Groupe par défaut pour les nouveaux utilisateurs
+        placeholder: Groupe par défaut pour les nouveaux utilisateurs
       forcedRoles:
         label: Forced roles ({{count}})
+      impersonateUser:
+        placeholder: Sélectionnez utilisateur
       permittedRoles:
         label: Permitted roles ({{count}})
+    title: Information de base
+    tooltip:
+      show-client-secret: Afficher secret du client
     undelete: Annuler suppression
+    unnamed: Rôle sans nom
     updatedAt: Mis à jour à
+    uri: URI
+    validFrom:
+      label: Valide depuis
+    accessToken: Jeton d'accès
   new: Nouveau client d'auth
   permissions: Permissions
+  title:
+    edit: Éditer client
 list:
   columns:
+    createdAt: Créé
     enabled: Activé
     handle: Identifiant
     meta:
       name: Nom
+    state: État
+  rows:
+    filters:
+      deleted: Supprimé
+  filterForm:
+    deleted:
+      label: clients supprimés
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    inclusive:
+      label: Comprenant
   new: Nouveau client d'auth
   permissions: Permissions
+  title: Clients d'authentification
+  yaml: YAML
   delete: Supprimer
   undelete: Annuler suppression

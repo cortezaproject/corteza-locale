@@ -1,8 +1,15 @@
+'configure-triggers': Assurez-vous que l'ensemble des étapes du déclencheur sont correctement configurées
+'confirm-unsaved-changes': Vous avez des modifications non enregistrées, êtes-vous sûr de vouloir quitter ?
+error: " - ERREUR : "
+'event-type-not-found': Type d'évènement introuvable
 'event-type-fetch-failed': Échec de la récupération des types d'évènement
 'failed-fetch-functions': Échec de la récupération des fonctions
 'failed-fetch-triggers': Échec de la récupération des déclencheurs
 'failed-fetch-workflow': Échec de la récupération du processus
 'failed-fetch-workflows': Échec de la récupération des processus
+'failed-load-file': Échec du chargement du fichier
+'failed-save': Échec de l'enregistrement
+'failed-test': Échec du test
 'fetch-types-failed': Échec de la récupération des types
 general:
   error: Erreur
@@ -19,13 +26,19 @@ list:
     success: Processus désactivé
     failed: Échec de la désactivation du processus
 import:
+  'failed-import': Échec de l'import
   'imported-workflows': Processus importés
   'skipped-workflows': Processus ignorés
 'imported-workflow': Processus importé
 'import-failed': Importation échouée
+'initial-scope-load-failed': Échec du chargement du périmètre initial
 'resolve-issues': Corrigez les problèmes pour tester le processus
 'save-workflow': Enregistrez le processus avant de le tester
 'started-test': Test de processus débuté
+'test-completed': Test terminé
+'test-in-progress': Test en cours
+'trace-unavailable': Trace indisponible
+'trigger-paths-changed': Chemins du déclencheur modifiés
 'workflow-test-completed': Test de processus terminé
 update:
   success: Processus mis à jour

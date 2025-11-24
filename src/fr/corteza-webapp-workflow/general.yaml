@@ -15,17 +15,25 @@ import:
   upload-files: Parcourez ou déposez des fichiers à téléverser...
 label:
   all: Tous
+  any: N'importe lequel
   label: Étiquette
+  or: Ou
 loading: Chargement
 name: Nom
 new-workflow: Nouveau processus
 none: Aucune
 now: Maintenant
+offset: Décalage
+offset-expression: Décalage (expression)
 permissions: Permissions
 searchPlaceholder: Recherchez des processus
 subworkflow: Sous-processus
 subworkflows: Sous-processus
+deleted: Supprimé
 disabled: Désactivé
+without: Sans
+only: Uniquement
+including: Comprenant
 workflow-list: Liste de processus
 workflow:
   single: Processus

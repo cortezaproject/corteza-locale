@@ -1,145 +1,80 @@
 editor:
-  title: System settings
+  title: 系統設定
   auth:
-    title: Authentication
-    url: URL
+    title: 驗證
+    url: 網址
     internal:
-      title: Internal
-      enabled: Internal authentication enabled
+      title: 內部
+      enabled: 已啟用內部驗證
       password-reset:
-        enabled: Password reset enabled
+        enabled: 已啟用密碼重設
       password-constraints:
-        title: Password constraints
-        ignored-security: The system is configured to ignore password security constraints which is insecure on production deployments. If this is a production deployment, please contact your administrator to update the system configuration (the AUTH_PASSWORD_SECURITY .env variable).
-        min-length: Minimum length
-        min-length-description: Must be at least 8 characters
-        min-num-count: Minimum number of digits
-        min-num-count-description: The password must include the specified number of digits (disabled if set to 0)
-        min-special-count: Minimum number of special characters
-        min-special-count-description: The password must include the specified number of special characters (disabled if set to 0)
-        min-upper-case-length: Minimum number of upper case characters
-        min-upper-case-description: The password must include the specified number of upper case characters (disabled if set to 0)
-        min-lower-case-length: Minimum number of lower case characters
-        min-lower-case-description: The password must include the specified number of lower case characters (disabled if set to 0)
+        title: 密碼限制
+        ignored-security: 系統設定為不檢查密碼安全限制，若部署至生產環境會有安全疑慮。如果已部署至生產環境，請聯繫管理員更新系統配置 (the AUTH_PASSWORD_SECURITY .env variable)。
+        min-length: 最短長度
+        min-length-description: 至少須含 8 個字元
+        min-num-count: 最少字元數
+        min-num-count-description: 密碼須包含特定數量之字元（無法為零）
+        min-special-count: 最少特殊字元數
+        min-special-count-description: 密碼須包含特定數量之特殊字元（無法為零）
+        min-upper-case-length: 最少大寫字元數
+        min-upper-case-description: 密碼須包含特定數量之大寫字元（無法為零）
+        min-lower-case-length: 最少小寫字元數
+        min-lower-case-description: 密碼須包含特定數量之小寫字元（無法為零）
       signup:
-        email-confirmation-required: Signup email confirmation required
-        enabled: Signup enabled
+        email-confirmation-required: 需完成註冊信箱驗證
+        enabled: 已啟用註冊
         split-credentials-check:
-          description: 'Split login into two steps: collect the email input first and show the input for the password on the 2nd screen. Automatically forward user to external identity provider when user does not have his password set and there is only one IdP present'
-          label: Enable split-credentials check
+          description: '將登入流程拆分為兩步驟：首先收集輸入之電子郵件，然後在第二個畫面顯示密碼輸入欄位。當使用者未設定密碼且只有一個身份識別提供者（IdP）時，自動將使用者導向外部身份識別提供者'
+          label: 啟用分步驗證資訊之檢查
       profile-avatar:
-        enabled: Profile avatar enabled
+        enabled: 已啟用個人頭像
       send-user-invite-email:
-        title: Invite email
-        enabled: Send invite email on user creation
-        description: When enabled, this configuration sends an invite email to a newly created user via the CLI
+        title: 邀請郵件
+        enabled: 建立帳號後寄送邀請郵件
+        description: 啟用後，此設定會透過 CLI（命令列介面）向新建立的使用者發送一封邀請郵件
         expires:
-          label: Valid for
-          description: How long will the invite token be valid before it expires
+          label: 有效期限
+          description: 邀請代碼會在多久後失效
     mail:
-      title: Authentication email sender mail
-      from-address: Sender's address
-      from-name: Sender's name
-      validate-email: Please enter valid email address
+      title: 驗證郵件之寄件人信箱
+      from-address: 寄件人信箱
+      from-name: 寄件人姓名
+      validate-email: 請輸入有效之電子郵件信箱
     mfa:
-      title: Multi-factor authentication
+      title: 多重要素驗證
       TOTP:
-        enabled: Allow users to use time based one-time-password (using mobile application)
-        enforced: Force users to use time based one-time-password (using mobile application)
+        enabled: 啟用基於時間的一次性密碼
+        enforced: 所有使用者皆需使用基於時間的一次性密碼
         issuer:
-          description: Issuer name will be send to authenticator app when user configures it
-          label: Issuer
+          description: 使用者設定驗證時，發行者名稱將會傳送至驗證器應用程式
+          label: 發行者
       emailOTP:
-        enabled: Allow users to use one-time-password over email
-        enforced: Force users to use one-time-password over email
+        enabled: 啟用透過電子郵件傳送的一次性密碼
+        enforced: 所有使用者皆需使用透過電子郵件傳送的一次性密碼
         expires:
-          description: How long will password be valid before it expires
-          label: Valid for
+          description: 密碼會在多久後失效
+          label: 有效期限
     auto-logout:
-      title: Auto logout
+      title: 自動登出
       enabled:
-        label: Enabled
-        description: Automatically log out users after a certain period of inactivity
+        label: 已啟用
+        description: 使用者閒置超過特定時間後，系統將其自動登出
       timeout:
-        label: Timeout
-        description: The period of inactivity in seconds before a user is logged out
+        label: 逾時
+        description: 系統自動登出使用者前之閒置秒數
   external:
-    title: External Authentication Providers
-    enabled: Enable external authentication
+    title: 外部驗證提供者
+    enabled: 啟用外部驗證
     table:
       header:
-        enabled: Enabled
-        provider: Provider
-        info: Issuer, client ID
+        enabled: 已啟用
+        provider: 提供者
+        info: 發行者，客戶 ID
     standard:
-      enabled: Enabled
-      apiAccess: Api access
-      clientKey: Client key
-      clientSecret: Secret
+      enabled: 已啟用
+      apiAccess: 應用程式介面權限
+      clientKey: 客戶端金鑰
+      clientSecret: 密文
     oidc:
-      add: Add an OIDC provider
-      enabled: Enabled
-      handle: Handle
-      title: OpenID Connect
-      issuer: OIDC Issuer URL
-      issuerHint: Where to find the /.well-known/openid-configuration (without the /.well-known/openid-configuration part)
-      clientKey: Client key
-      clientSecret: Secret
-      scope: Scope
-      scopePlaceholder: List out supported OAuth scope values
-      scopeHint: Use space delimited string
-    saml:
-      enabled: Enabled
-      title: SAML
-      requests:
-        title: Requests
-        sign-requests: Sign requests
-        sign-method: Signature method
-        binding: Binding
-        binding-redirect: HTTP Redirect
-        binding-post: HTTP POST
-      cert:
-        public: Public key
-        private: Private key
-      name: Name
-      certificate: Certificate
-      idp:
-        title: Identity provider
-        ident-handle: Handle field
-        ident-identifier: Identifier field
-        ident-name: Name field
-        url: URL
-      desc:
-        name: IdP name used on the login screen (Login with <name>)
-        cert:
-          public: Content will be minimized
-          private: Content will be minimized
-        requests:
-          sign-requests: Sign AuthNRequest and assertion
-          sign-method: Method to use on signed requests
-          binding: The type of HTTP binding to use on AuthNRequest, defaults to HTTP Redirect (GET)
-        idp:
-          url: Location of IdP metadata
-          ident-handle: Name of the IdP field used for filling Corteza user handle or nickname
-          ident-identifier: Name of the IdP field used for filling and matching Corteza user email
-          ident-name: Name of the IdP field used for filling Corteza user full name
-    security:
-      title: Security
-      prohibited-roles:
-        description: Roles from this list will be removed from security context when authenticates with this provider
-        label: Prohibited roles
-      forced-roles:
-        description: Roles from this list will be always added to security context when authenticates with this provider
-        label: Forced roles
-      permitted-roles:
-        description: Only roles in this list will be added into security context when authenticates with this provider
-        label: Permitted roles
-  bgScreen:
-    title: Auth background screen
-    image:
-      uploader:
-        label: Background image
-        instructions: Click or drop background image here to upload
-        uploading: Uploading auth background image
-      editor:
-        label: Custom CSS
+      enabled: 已啟用

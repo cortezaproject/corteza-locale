@@ -1,7 +1,11 @@
 editor:
   content:
     toolbox:
+      samples:
+        defaultHTML: HTML par défaut
+        label: Échantillons
       snippets:
+        funcCall: Appeler une fonction
         iterator: Itérer sur un ensemble
   info:
     createdAt: Créer à
@@ -14,17 +18,38 @@ editor:
     meta:
       description: Description
       short: Nom court *
+    title: Information de base
     undelete: Annuler suppression
     updatedAt: Mis à jour à
   new: Nouveau modèle
   permissions: Permissions
+  title:
+    create: Créer modèle
+    edit: Éditer modèle
 list:
   columns:
+    createdAt: Créé
     handle: Identifiant
+    language: Langue
     meta:
       short: Nom court *
+    state: État
   delete: Supprimer
   undelete: Annuler suppression
   export: Exporter
+  rows:
+    filters:
+      deleted: Supprimé
+  filterForm:
+    deleted:
+      label: modèles supprimés
+    excluded:
+      label: Sans
+    exclusive:
+      label: Uniquement
+    inclusive:
+      label: Comprenant
   new: Nouveau modèle
   permissions: Permissions
+  title: Modèles
+  yaml: YAML

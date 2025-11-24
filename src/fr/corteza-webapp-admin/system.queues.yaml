@@ -19,6 +19,7 @@ list:
     consumer: Consommateur
     createdAt: Créer à
     createdBy: Créer par
+    state: État
     queue: File d'attente
   export: Exporter
   delete: Supprimer

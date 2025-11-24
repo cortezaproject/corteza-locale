@@ -1,3 +1,4 @@
 errors:
+  notFound: ce nœud n'existe pas
   pairingTokenInvalid: jeton d'appairage invalide
   pairingURITokenInvalid: appairage d'URI avec jeton d'appairage invalide

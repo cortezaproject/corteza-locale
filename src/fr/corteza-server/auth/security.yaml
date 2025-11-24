@@ -6,11 +6,14 @@ template:
   mfa:
     title: Authentification multi-facteurs
     totp:
+      enforced: Activé
       configure: Configurer
       enable: Activer
       disable: Désactiver
       enabled: Mot de passe à usage unique basé sur le temps activé
+      disabled: Désactivé
     email:
+      enforced: Activé
       enable: Activer
       disable: Désactiver
     all-disabled: Toutes les méthodes MFA sont actuellement désactivées. Demandez à votre administrateur de les activer.

@@ -24,3 +24,6 @@ themes:
   labels:
     light: Clair
     dark: Sombre
+extendSession:
+  labels:
+    extend: Étendre la session

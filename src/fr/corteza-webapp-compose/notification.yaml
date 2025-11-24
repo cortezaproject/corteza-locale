@@ -141,6 +141,7 @@ page:
     delete:
       success: Disposition de page supprimée
       failed: Échec de la suppression de disposition de page
+    listFailed: Impossible de charger les dispositions de page
 record:
   createFailed: Impossible de créer l'élément
   createSuccess: Élément créé
@@ -171,6 +172,8 @@ record:
   staleDataRefresh: Données d'élément obsolètes, toutes les modifications non enregistrées seront perdues. Souhaitez-vous rafraichir les données maintenant ?
   fieldConditions:
     failed: Échec de l'évaluation des champs conditionnels du bloc d'élément
+  requiredFields:
+    failed: Échec de l'évaluation des champs obligatoires pour la disposition de page de l'élément
 record-list:
   corrupted-filter: Filtre corrompu
   corrupted-summaries: Sommaires corrompus

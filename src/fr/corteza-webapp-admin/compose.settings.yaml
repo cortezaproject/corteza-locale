@@ -3,3 +3,9 @@ editor:
     attachments:
       type:
         description: 'Types MIME, séparés par des virgules (","). Exemple : "text/plain,text/csv"'
+        whitelist: Liste des types de fichiers en liste blanche
+    title: Basique
+  ui:
+    title: Interface utilisateur
+    sidebar:
+      title: Barre latérale

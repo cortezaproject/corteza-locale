@@ -4,6 +4,7 @@ editor:
     title: Serveur SMTP
     host:
       label: Serveur
+      description: Nom et port du serveur. Les ports sont généralement 25 (peu sûr), 465 ou 587(sûr).
     user:
       label: Utilisateur
       description: 'Facultatif : Identifiants d’authentification pour votre serveur de messagerie.'

@@ -1,11 +1,28 @@
 back: Retour
+'click-to-save': Cliquez ici pour enregistrer
+deferred: Différé
 delete: Supprimer
+deleted: Supprimé
+'detected-changes': "Changements détectés"
+'detected-issues': Problèmes détectés
 disabled: Désactivé
 help: Aide
 handle: (Identifiant)
+id: "ID :"
+'id-parenthesis': "(ID)"
+'initial-scope': Périmètre initial
+issues: Problèmes
+'load-and-configure': Charger et configurer
+'open-webapp-on-prompt-use': "ATTENTION : Si une sollicitation est utilisée dans un processus, assurez-vous que l'application concernée est ouverte. Dans le cas contraire, le processus expirera"
 reset: Réinitialiser
 'run-as': "Exécuter en tant que :"
 'run-workflow': Exécuter Processus
+'required-namespace': Namespace nécessaire
+'required-namespace-and-module': Namespace et Module nécessaires
 save: Enregistrer
+saving: Enregistrement
+'test-in-progress': "Test en cours. Si votre processus comporte des étapes de sollicitation ou de délai, il peut être en attente de leur achèvement"
+'unsupported-browser': Ce navigateur n'est pas supporté !
 undelete: Annuler suppression
 'workflow-configuration': Configuration Processus
+'editor': Éditeur

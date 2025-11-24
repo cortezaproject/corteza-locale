@@ -27,6 +27,10 @@ ui:
     user:
       label: Utilisateurs
       placeholder: Cherchez ou sélectionnez un utilisateur
+  tooltip:
+    unknown-context:
+      user: Impossible d'évaluer les permissions pour un utilisateur avec un rôle contextuel sur une ressource non spécifique
+      role: Impossible d'évaluer les permissions pour un rôle contextuel sur une ressource non spécifique
   access:
     allow: Autoriser
     inherit: Hériter
@@ -92,35 +96,110 @@ resources:
     component:
       label: Composant système
       operations:
+        application.create:
+          title: Créer une nouvelle application
+        user-group.create:
+          title: Créer un nouveau groupe d'utilisateurs
+        auth-client.create:
+          title: Créer un nouveau client d'authentification
+        apigw-route.create:
+          title: Créer une nouvelle route
+        apigw-filter.create:
+          title: Créer un nouveau filtre
         queue.create:
           title: Créer une nouvelle file de messages
         queues.search:
           title: Lister et chercher les files de messages
+        role.create:
+          title: Créer un nouveau rôle
+        settings.manage:
+          title: Gérer tous les paramètres
+        settings.read:
+          title: Accéder à tous les paramètres
+        template.create:
+          title: Créer un nouveau modèle
+        user.create:
+          title: Créer un nouvel utilisateur
+        report.create:
+          title: Créer un nouveau rapport
     application:
+      all: toutes les applications
       operations:
         delete:
+          description: 'Défaut : refuser'
           specific: Delete report "{{target}}"
+          title: Supprimer n'importe quelle application
         read:
+          description: 'Défaut : refuser'
           specific: Lire {{target}}
         update:
+          description: 'Défaut : refuser'
           specific: Update report "{{target}}"
+          title: Mettre à jour n'importe quelle application
     apigw-route:
+      label: Routes de passerelle
+      all: toutes les routes
+      specific: route "{{target}}"
       operations:
         delete:
+          description: 'Défaut : refuser'
           specific: Delete report "{{target}}"
+          title: Supprimer n'importe quelle route
         read:
+          description: 'Défaut : refuser'
           specific: Lire {{target}}
         update:
+          description: 'Défaut : refuser'
           specific: Update report "{{target}}"
+          title: Mettre à jour n'importe quelle route
+    auth-client:
+      label: Clients d'authentification
+      all: tous les clients d'authentification
+      operations:
+        delete:
+          description: 'Défaut : refuser'
+          specific: Supprimer client "{{target}}"
+          title: Supprimer n'importe quel client
+        read:
+          description: 'Défaut : refuser'
+        update:
+          description: 'Défaut : refuser'
+          specific: Mettre à jour client "{{target}}"
+          title: Mettre à jour n'importe quel client
+    dal-connection:
+      label: Connexions
+      all: toutes les connexions
+      operations:
+        read:
+          description: 'Défaut : refuser'
+        update:
+          description: 'Défaut : refuser'
+          specific: Mettre à jour connexion "{{target}}"
+          title: Mettre à jour n'importe quelle connexion
+        delete:
+          description: 'Défaut : refuser'
+          specific: Supprimer connexion "{{target}}"
+          title: Supprimer n'importe quelle connexion
+        dal-config:
+          manage:
+            title: Gérer toutes les connexions
     role:
       label: Rôles
+      all: tous les rôles
       operations:
         delete:
+          description: 'Défaut : refuser'
           specific: Delete report "{{target}}"
+          title: Supprimer n'importe quel rôle
+        members.manage:
+          description: 'Défaut : refuser'
         read:
+          description: 'Défaut : refuser'
           specific: Lire {{target}}
         update:
+          description: 'Défaut : refuser'
           specific: Update report "{{target}}"
+          title: Mettre à jour n'importe quel rôle
     queue:
       label: File d'attente
       all: toutes les files d'attente
@@ -147,10 +226,13 @@ resources:
         queue.write:
           description: 'Défaut : refuser'
     template:
+      label: Modèles
+      all: tous les modèles
       operations:
         delete:
           description: 'Défaut : refuser'
           specific: Delete report "{{target}}"
+          title: Supprimer n'importe quel modèle
         read:
           description: 'Défaut : refuser'
           specific: Lire {{target}}
@@ -159,9 +241,11 @@ resources:
         update:
           description: 'Défaut : refuser'
           specific: Update report "{{target}}"
+          title: Mettre à jour n'importe quel modèle
     report:
       label: Rapports
       all: tous les rapports
+      specific: rapport "{{target}}"
       operations:
         delete:
           description: 'Défaut : refuser'
@@ -213,8 +297,27 @@ resources:
           description: 'Défaut : refuser'
           specific: Update report "{{target}}"
           title: Mettre à jour n'importe quel utilisateur
+    user-group:
+      label: Groupes d'utilisateurs
+      all: tous les groupes d'utilisateurs
+      specific: groupe d'utilisateurs "{{target}}"
+      operations:
+        read:
+          description: 'Défaut : refuser'
+          specific: Lire {{target}}
+        update:
+          description: 'Défaut : refuser'
+          specific: Mettre à jour "{{target}}"
+          title: Mettre à jour n'importe quel groupe d'utilisateurs
+        delete:
+          description: 'Défaut : refuser'
+          specific: Supprimer "{{target}}"
+          title: Supprimer n'importe quel groupe d'utilisateurs
+        members.manage:
+          description: 'Défaut : refuser'
     data-privacy-request:
       label: Requêtes de confidentialité
+      all: toutes les demandes
       operations:
         read:
           description: 'Défaut : refuser'
@@ -233,6 +336,8 @@ resources:
           title: Appairer nœuds
         settings.manage:
           title: Gérer tous les paramètres
+        settings.read:
+          title: Accéder à tous les paramètres
     node:
       label: Nœuds
       operations:
@@ -334,7 +439,11 @@ resources:
       operations:
         delete:
           title: Supprimer n'importe quel élément
+        undelete:
+          title: Annuler suppression de n'importe quel élément
         read:
           title: Lire n'importe quel élément
         update:
           title: Mettre à jour n'importe quel élément
+        revisions.search:
+          title: Accéder aux révisions de n'importe quel élément

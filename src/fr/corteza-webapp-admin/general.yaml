@@ -12,9 +12,15 @@ label:
   role:
     single: Rôle
     plural: Rôles
+  user-group:
+    single: Groupe d'utilisateurs
+    plural: Groupes d'utilisateurs
   application:
     single: Application
     plural: Applications
+  auth-client:
+    single: Client d'authentification
+    plural: Clients d'authentification
   queue:
     single: File de messages
     plural: Files de messages
@@ -24,6 +30,9 @@ label:
   connection:
     single: Connexion à la base de données
     plural: Connexions aux bases de données
+  sensitivity-level:
+    single: Niveau de sensibilité
+    plural: Niveaux de sensibilité
   session:
     single: Session
     plural: Sessions
@@ -35,6 +44,7 @@ label:
   all: Tous
   none: Aucun
   now: Maintenant
+  openMap: Ouvrir Carte
   today: Aujourd'hui
   routes: Routes
   requests: Requêtes
@@ -47,6 +57,8 @@ label:
   delete: Supprimer
   undelete: Annuler suppression
   fileTypeNotAllowed: Type de fichier non autorisé
+  uploading: Téléversement
+  dropFiles: Cliquez ou déposez ici des fichiers pour téléverser
 editor:
   unsavedChanges: Les changements non enregistrés seront perdus. Voulez-vous vraiment quitter la page ?
 resourceList:

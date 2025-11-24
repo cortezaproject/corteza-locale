@@ -6,15 +6,158 @@ list:
   load:
     error: 'Échec du chargement de la liste de ressources'
 user:
+  fetch:
+    error: Échec de la récupération de l'utilisateur
+  roles:
+    error: Échec de la récupération de rôles
+  update:
+    success: Utilisateur mis à jour
+    error: Échec de la mise à jour de l'utilisateur
+  create:
+    success: Utilisateur créé
+    error: Échec de la création de l'utilisateur
+  delete:
+    success: Utilisateur supprimé
+    error: Échec de la suppression de l'utilisateur
+  undelete:
+    success: Utilisateur restauré
+    error: Échec de la restauration de l'utilisateur
+  membershipUpdate:
+    error: Échec de la mise à jour de l'appartenance
+  passwordChange:
+    error: Échec lors du changement de mot de passe
+  sessionsRevoke:
+    success: Sessions révoquées
+    error: Échec de la révocation de la session
   suspend:
     success: Utilisateur désactivé
     error: La désactivation de l'utilisateur a échoué
   unsuspend:
     success: Utilisateur réactivé
     error: La réactivation de l'utilisateur a échoué
+  import:
+    success: Utilisateurs importés avec succès
+  avatarUpload:
+    error: Échec du téléversement de l'avatar
+  avatarSettings:
+    error: Échec de la mise à jour des paramètres de l'avatar
+  avatarDelete:
+    error: Échec de la suppression de l'avatar
+role:
+  fetch:
+    error: Échec de la récupération du rôle
+  create:
+    error: Échec de la création du rôle
+  update:
+    error: Échec de la mise à jour du rôle
+  delete:
+    error: Échec de la suppression du rôle
+  undelete:
+    error: Échec de la restauration du rôle
+  archive:
+    error: Échec de l'archivage du rôle
+  unarchive:
+    error: Échec du désarchivage du rôle
+  membershipUpdate:
+    error: Échec de la mise à jour de l'appartenance
+userGroup:
+  fetch:
+    error: Échec de la récupération du groupe d'utilisateurs
+  roles:
+    error: Échec de la récupération des rôles du groupe d'utilisateurs
+  membershipUpdate:
+    success: Membres du groupe d'utilisateurs mis à jour
+    error: Échec de la mise à jour des membres du groupe d'utilisateurs
+  create:
+    success: Groupe d'utilisateurs créé
+    error: Échec de la création du groupe d'utilisateurs
+  update:
+    success: Groupe d'utilisateurs mis à jour
+    error: Échec de la mise à jour du groupe d'utilisateurs
+  delete:
+    success: Groupe d'utilisateurs supprimé
+    error: Échec de la suppression du groupe d'utilisateurs
+  undelete:
+    success: Groupe d'utilisateurs restauré
+    error: Échec de la restauration du groupe d'utilisateurs
+application:
+  fetch:
+    error: Échec de la récupération de l'application
+  update:
+    error: Échec de la mise à jour de l'application
+  create:
+    error: Échec de la création de l'application
+  delete:
+    error: Échec de la suppression de l'application
+  undelete:
+    error: Échec de la restauration de l'application
+  assetsUpload:
+    error: Échec du téléversement des ressources de l'application
+template:
+  fetch:
+    error: Échec de la récupération du modèle
+  fetchPartials:
+    error: Échec de la récupération du modèle partiel
+  create:
+    error: Échec de la création du modèle
+  update:
+    error: Échec de la mise à jour du modèle
+  delete:
+    error: Échec de la suppression du modèle
+  undelete:
+    error: Échec de la restauration du modèle
+  driver:
+    error: Échec de la collecte du moteur de rendu de modèle
+  preview:
+    error: Échec de la collecte de la prévisualisation du modèle
+authclient:
+  fetch:
+    error: Échec de la récupération du client d'authentification
+  create:
+    error: Échec de la création du client d'authentification
+  update:
+    error: Échec de la mise à jour du client d'authentification
+  delete:
+    error: Échec de la suppression du client d'authentification
+  undelete:
+    error: Échec de la restauration du client d'authentification
+queue:
+  fetch:
+    error: Échec de la récupération de la file d'attente
+  create:
+    error: Échec de la création de la file d'attente
+  update:
+    error: Échec de la mise à jour de la file d'attente
+  delete:
+    error: Échec de la suppression de la file d'attente
+  undelete:
+    error: Échec de la restauration de la file d'attente
+gateway:
+  fetch:
+    error: Échec de la récupération de la route
+  create:
+    error: Échec de la création de la route
+  update:
+    error: Échec de la mise à jour de la route
+  filter:
+    fetch:
+      error: Échec de la récupération du filtre
+    update:
+      error: Échec de la mise à jour des filtres
+  delete:
+    error: Échec de la suppression de la route
+  undelete:
+    error: Échec de la restauration de la route
+  profiler:
+    fetch:
+      error: Échec de la récupération de la requête
+    purge:
+      error: Échec de la purge de la requête
 workflow:
   fetch:
     error: Échec de la collecte du processus
+  trigger:
+    error: Échec de la récupération du déclencheur
   create:
     success: Processus crée
     error: Échec de la création du processus
@@ -27,3 +170,81 @@ workflow:
   undelete:
     success: Processus restauré
     error: Échec de la restauration du processus
+session:
+  fetch:
+    error: Échec de la récupération de la session
+  trigger:
+    error: Échec de la récupération du déclencheur
+  cancel:
+    success: Session annulée
+    error: Échec de l'annulation de la session
+federation:
+  fetch:
+    error: Échec de la récupération du nœud
+  create:
+    error: Échec de la création du nœud
+  update:
+    error: Échec de la mise à jour du nœud
+  delete:
+    error: Échec de la suppression du nœud
+  undelete:
+    error: Échec de la restauration du nœud
+  url:
+    error: Échec de la récupération de l'URL généré
+  email:
+    success: Courriel envoyé
+    error: Échec de l'envoi du courriel
+  pair:
+    error: Échec de l'appairage du nœud
+sensitivityLevel:
+  create:
+    error: Échec de la création du niveau de sensibilité
+  delete:
+    error: Échec de la suppression du niveau de sensibilité
+  fetch:
+    error: Échec de la récupération du niveau de sensibilité
+  undelete:
+    error: Échec de la restauration du niveau de sensibilité
+  update:
+    error: Échec de la mise à jour du niveau de sensibilité
+settings:
+  system:
+    auth:
+      error: Échec de la mise à jour des paramètres d'authentification
+  compose:
+    fetch:
+      error: Échec de la récupération des paramètres "Compose"
+    update:
+      error: Échec de la mise à jour des paramètres "Compose"
+  ui:
+    fetch:
+      error: Échec de la récupération des paramètres de l'interface utilisateur
+    update:
+      error: Échec de la mise à jour des paramètres de l'interface utilisateur
+  code-snippet:
+    fetch:
+      error: Échec de la récupération de l'extrait de code
+    update:
+      error: Échec de la mise à jour de l'extrait de code
+    delete:
+      error: Échec de la suppression de l'extrait de code
+permissions:
+  fetch:
+    error: Échec de la récupération des permissions
+  update:
+    error: Échec de la mise à jour des permissions
+  clone:
+    error: Échec de la duplication des permissions
+  role:
+    error: Échec de l'ajout du rôle
+connection:
+  fetch:
+    error: Échec de la récupération de la connexion
+  update:
+    error: Échec de la mise à jour de la connexion
+  create:
+    error: Échec de la création de la connexion
+  delete:
+    error: Échec de la suppression de la connexion
+  undelete:
+    error: Échec de la restauration de la connexion

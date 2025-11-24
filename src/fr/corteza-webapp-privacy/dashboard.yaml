@@ -1,6 +1,10 @@
 user-options:
+  data-overview:
+    button-label: Afficher vos données
   privacy-requests:
     title: Requêtes de confidentialité
 dc-options:
   privacy-requests:
     title: Requêtes de confidentialité
+  sensitive-data:
+    title: Donnée sensible

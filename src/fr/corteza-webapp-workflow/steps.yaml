@@ -3,52 +3,118 @@ break:
 content:
   label: Contenu
   short: Contenu
+  tooltip: Bloc de contenu utilisé pour des annotations textuelles
   configurator:
     ok: Ok
     urlPlaceholder: https://example.tld
 continue:
   label: Continuer
   short: Continuer
+  tooltip: Arrête l'itération actuelle et passe à la suivante
+debug:
+  label: Déboguer
+  short: Déboguer
+  tooltip: Journalise le périmètre de processus actuel dans les journaux du serveur si le débogage de processus est activé
 delay:
+  label: Délai
+  short: Délai
   tooltip: Retarde l'exécution du processus
 error:
   label: Erreur
   short: Erreur
   tooltip: Génère une erreur et interrompt l'exécution du processus, empêche également l'enregistrement d'éléments avec des déclencheurs 'before'
 error-handler:
+  label: Gestionnaire d'erreur
+  short: Gestionnaire d'erreur
   tooltip: Continue le processus à partir de cette étape si une erreur est déclenchée
 expressions:
   configurator:
+    add-expression: + Ajouter Expression
     expression: Expression
     expression-placeholder: Expression...
+    target: Cible
+  label: Expressions
+  short: Expressions
+  tooltip: Définir et modifier des variables
 function:
   configurator:
+    arguments: Arguments
+    constant: Constante
     expression: Expression
     name: Nom
     option-select: Sélectionnez une option
     result: Résultat
+    results: Résultats
+    target: Cible
+    add-result: + Ajouter résultat
     search-workflow: Recherche d'un processus
+    select-function: Sélectionnez une fonction
     type: Type
     type*: Type*
   label: Fonction
   short: Fonction
+  tooltip: Exécute la fonction prédéfinie choisie
 exec-workflow:
   label: Exécuter Processus
   short: Processus
+  tooltip: Exécute un processus et associe ses variables au processus actuel
+gatewayExclusive:
+  label: Passerelle (Exclusive)
+  short: Passerelle
+  tooltip: L'exécution du processus peut continuer sur le premier chemin qui correspond aux conditions
+gatewayInclusive:
+  label: Passerelle (Inclusive)
+  short: Passerelle
+  tooltip: L'exécution du processus peut continuer sur l'ensemble des chemins qui correspondent aux conditions
+gatewayParallel:
+  label: Passerelle (Branchement/Jointure)
+  short: Passerelle
+  tooltip: Divise l'exécution du processus en deux chemins parallèles ou  regroupe plusieurs chemins en un seul
 gateway:
   configurator:
     condition: Condition
+    two-paths: Une passerelle doit être la source d'au moins deux chemins
 iterator:
   label: Itérateur
   short: Itérateur
   tooltip: Itérer sur des objets
+prompt:
+  label: Sollicitation
+  short: Sollicitation
+  tooltip: Sollicite l'utilisateur et attente une réponse
+swimlane:
+  label: Couloir
+  short: Couloir
+  tooltip: Grouper visuellement les étapes
 termination:
+  label: Terminaison (Fin)
+  short: Terminaison
   tooltip: Mettre fin à l'exécution du processus
 trigger:
   configurator:
     add: + Ajouter
+    add-constraints: + Ajouter Contraintes
+    constraints: Contraintes
+    no-constraints: Pas de contraintes
+    event*: Évènement*
     failed-fetch-event-types: Échec de la récupération des types d'évènement
+    initial-scope: Périmètre initial
     equal: Égal
     not-equal: Différent de
+    like: Comme
+    not-like: Pas comme
+    operator: Opérateur
+    resource: Ressource
+    resource*: Ressource*
+    select-constraint-type: Sélectionnez le type de contrainte
+    select-operator: Sélectionnez l'opérateur
+    select-event-type: Sélectionnez le type d'évènement
+    select-resource-type: Sélectionnez le type de ressource
+  label: Déclencheur (Départ)
   short: Triggers
   tooltip: Déclenche l'exécution du processus selon la configuration
+tooltip:
+  configure-step: Configurer l'étape
+path:
+  label: Chemin
+  short: Chemin
