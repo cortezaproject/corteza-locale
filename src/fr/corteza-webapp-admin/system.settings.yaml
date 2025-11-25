@@ -56,9 +56,9 @@ editor:
     security:
       title: Sécurité
       forced-roles:
-        label: Forced roles ({{count}})
+        label: Rôles imposés
       permitted-roles:
-        label: Permitted roles ({{count}})
+        label: Rôles autorisés
   bgScreen:
     image:
       uploader:
