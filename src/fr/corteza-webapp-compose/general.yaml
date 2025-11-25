@@ -20,7 +20,7 @@ label:
       create: Créer Graphique
   actions: Actions
   active: Actif
-  add: + Ajouter
+  add: Ajouter
   add-with-plus: + Ajouter
   addNew: Ajouter nouveau
   addValue: Ajouter nouvelle valeur
@@ -114,7 +114,7 @@ navigation:
   page: Pages
   pageLayout: Dispositions de page
 placeholder:
-  handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+  handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
   sample: Échantillon
 reminder:
   add: Ajouter un rappel
