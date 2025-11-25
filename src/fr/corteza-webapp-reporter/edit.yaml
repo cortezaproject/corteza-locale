@@ -11,7 +11,7 @@ report:
   builder: Constructeur de rapport
   description: Description de rapport...
   edit: Éditer Rapport
-placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+placeholder-handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
 title: Éditer rapport
 tooltip:
   view-report: Afficher Rapport
