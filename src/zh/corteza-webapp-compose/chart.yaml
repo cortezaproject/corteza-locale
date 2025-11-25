@@ -1,262 +1,261 @@
-colorLabel: '{{count}} colors'
+colorLabel: "{{count}} 種顏色\n"
 colorScheme:
-  label: Color scheme
-  placeholder: Pick a color scheme
-  pickAColor: Pick a color
+  label: 色彩主題
+  placeholder: 選擇色彩主題
+  pickAColor: 選擇顏色
   custom:
-    add: Add color scheme
-    edit: Edit color scheme
+    add: 新增色彩主題
+    edit: 編輯色彩主題
     modal:
       name:
-        label: Name
+        label: "名稱\n"
       colors:
-        label: Colors
+        label: 色彩
 configure:
-  reportsLabel: Reports
+  reportsLabel: 報告
 general:
   label:
-    title: Label
-    add: Add
-    count: Count
-    permissions: Permissions
-  value: Value
+    title: 標籤
+    add: 新增
+    count: 計數
+    permissions: 權限
+  value: 值
   placeholder:
-    name: Name (e.g. "Sales by month")
-    handle: Unique identifier (a - z, 0 - 9, underscore, dash)
-    invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
+    name: 名稱（例：每月銷量）
+    handle: 特定識別碼（a 至 z、0 至 9、底線、破折號）
+    invalid-handle-characters: 長度必須至少為 2 個字元。只能包含字母、數字、底線和點。必須以字母或數字結尾
 edit:
   animation:
-    label: Animation
-    enabled: Animation enabled
+    label: 動畫
+    enabled: 已啟用的動畫
   dimension:
-    calculateLabelCount: Calculate how many labels can be shown
-    defaultValueFootnote: Use this value for missing dimension values
-    defaultValueLabel: Default value
-    fieldLabel: Field *
-    fieldPlaceholder: Select a dimension field
+    calculateLabelCount: 計算可顯示的標籤數量
+    defaultValueFootnote: 將此值用於缺失的維度值
+    defaultValueLabel: 預設值
+    fieldLabel: 欄位*
+    fieldPlaceholder: 選擇維度欄位
     function:
-      placeholder: Select dimension modifier (bucket size)
-      none: No grouping
-      auto: Auto
-      date: Date
-      label: Function
-      month: Month
-      quarter: Quarter
-      week: Week
-      year: Year
-    gaugeSteps: Steps
-    label: Dimensions
-    skipMissingValues: Skip missing values
-    timeLabels: Time labels
+      placeholder: 選擇維度調整工具（組大小）
+      none: 不分組
+      auto: 自動
+      date: 日期
+      label: 功能
+      month: 月
+      quarter: 季度
+      week: 週
+      year: 年
+    gaugeSteps: 步驟
+    label: 維度
+    skipMissingValues: 跳過缺失值
+    timeLabels: 時間標籤
     options:
-      label: Options
+      label: 選項
     optionsPicker:
-      searchPlaceholder: Type here to search among select options
-      availableItems: Available options
-      selectAllItems: Select all
-      selectedItems: Selected options
-      unselectAllItems: Unselect all
-      noItemsFound: No options found
+      searchPlaceholder: 在此處輸入以在選定選項中搜尋
+      availableItems: 可用選項
+      selectAllItems: 全選
+      selectedItems: 已選定選項
+      unselectAllItems: 取消全選
+      noItemsFound: 未找到選項
     rotate:
-      label: Rotate labels
-      description: Labels can be rotated from -90 to 90 degrees.
+      label: 旋轉標籤
+      description: 標籤可以從負 90 度旋轉至 90 度。
   filter:
-    customize: Customize filter
-    label: Filter
-    preset: Preset filters
-    footnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}}, {{2}} and {{3}} are evaluated (when available)
-    placeholder: field1 = 1 AND field2 = 232
-    noFilter: Select a filter
-    recordsCreatedLastMonth: Records created last month
-    recordsCreatedLastQuarter: Records created last quarter
-    recordsCreatedLastYear: Records created last year
-    recordsCreatedThisMonth: Records created this month
-    recordsCreatedThisQuarter: Records created this quarter
-    recordsCreatedThisYear: Records created this year
-  loadData: Load data
+    customize: 自訂篩選器
+    label: 篩選器
+    preset: 預設篩選器
+    footnote: 支援簡化的 SQL 條件語法 （當 ...）。會評估變數如 {{0}}, {{1}}, {{2}} 和 {{3}} （在可用時）
+    placeholder: 欄位 1 等於 1 且 欄位 2 等於 232
+    noFilter: 選擇篩選器
+    recordsCreatedLastMonth: 上個月建立的紀錄
+    recordsCreatedLastQuarter: 上個季度建立的紀錄
+    recordsCreatedLastYear: 去年建立的紀錄
+    recordsCreatedThisMonth: 這個月建立的紀錄
+    recordsCreatedThisQuarter: 這個季度建立的紀錄
+    recordsCreatedThisYear: 今年建立的紀錄
+  loadData: 載入資料
   metric:
-    title: Metrics
-    add: Add metric
-    fieldLabel: Field *
-    fieldPlaceholder: Select metric field
-    fillArea: Fill area below the line
-    fixTooltips: Always show labels
+    title: 指標
+    add: 新增指標
+    fieldLabel: 欄位*
+    fieldPlaceholder: 選擇指標欄位
+    fillArea: 填滿線下區域
+    fixTooltips: 永遠顯示標籤
     options:
-      label: Options
+      label: 選項
     function:
-      avg: AVG
-      label: Function
-      max: MAX
-      min: MIN
-      placeholder: Select metric aggregate function
-      std: STD
-      sum: SUM
+      avg: 平均值
+      label: 功能
+      max: 最大
+      min: 最小
+      placeholder: 選擇指標聚合函數
+      std: 標準差
+      sum: 總和
     fx:
-      description: n - current dataset value, m - previous dataset value
-      label: Post processing function
+      description: n - 目前的資料集數值， m - 上一個資料集數值
+      label: 後處理函數
     stack:
-      label: Stack
-      description: Metrics with same value will be stacked
+      label: 堆疊
+      description: 數值相同的指標將會堆疊
     lineStyle:
-      label: Line style
-      default: Default
-      smooth: Smooth
-      step: Step
+      label: 線條樣式
+      default: 預設
+      smooth: 平滑
+      step: 階梯
     angle:
-      start: Start angle
-      end: End angle
-    rose: Rose
+      start: 起始角度
+      end: 結束角度
+    rose: 玫瑰圖
     radar:
       shape:
-        label: Radar shape
-        polygon: Polygon
-        circle: Circle
-    gaugeColor: Color
-    label: Metric
-    labelColor: Label color
-    labelLabel: Label
-    labelPlaceholder: Total
+        label: 雷達形狀
+        polygon: 多邊形
+        circle: 圓形
+    gaugeColor: 色彩
+    label: 指標
+    labelColor: 標籤色彩
+    labelLabel: 標籤
+    labelPlaceholder: 總計
     symbol:
-      label: Symbol
-      circle: Circle
-      triangle: Triangle
-      diamond: Diamond
-      pin: Pin
-      arrow: Arrow
-      rect: Rectangle
-      roundRect: Rounded Rectangle
+      label: 符號
+      circle: 圓形
+      triangle: 三角形
+      diamond: 菱形
+      pin: 圖釘
+      arrow: 箭頭
+      rect: 矩形
+      roundRect: 圓角矩形
     legend:
-      bottom: Bottom
-      left: Left
-      positionPlaceholder: Legend position
-      right: Right
-      top: Top
+      bottom: "最下方\n"
+      left: 左側
+      positionPlaceholder: 圖例位置
+      right: 右側
+      top: 最上方
     lineTension:
-      curvy: Big curvatures
-      label: Line tension
-      medium: Medium curvatures
-      placeholder: Line tension
-      slight: Small curvatures
-      straight: Straight lines
+      curvy: 大曲率
+      label: 線張力
+      medium: 中曲率
+      placeholder: 線張力
+      slight: 小曲率
+      straight: 直線
     output:
-      bar: Bar
-      doughnut: Doughnut
-      label: Chart type *
-      line: Line
-      pie: Pie
-      scatter: Scatter
-      placeholder: Select metric output
-    relative: Show relative value
-    relativePrecision: 'Precision:'
-    cumulative: Cumulative
+      bar: 條
+      doughnut: 甜甜圈圖
+      label: 圖表類型*
+      line: 線
+      pie: 圓餅圖
+      scatter: 散佈圖
+      placeholder: 選擇輸出指標
+    relative: 顯示相對值
+    relativePrecision: '精確度：'
+    cumulative: 累積
   module:
-    label: Module *
-    placeholder: Pick a module
-    title: Data Source
-  title: Chart builder
-  unconfiguredReport: Unconfigured report
+    label: 模組*
+    placeholder: 選擇模組
+    title: 資料來源
+  title: 圖表建立器
+  unconfiguredReport: 未設置的報告
   yAxis:
-    axisOnRight: Place axis on the right side
-    axisScaleFromZero: Always begin axis scale at zero
-    label: Y-axis
+    axisOnRight: 將座標軸置於右側
+    axisScaleFromZero: 座標軸刻度始終從零開始
+    label: Y 軸
     options:
-      label: Options
+      label: 選項
     rotate:
-      label: Rotate labels
-      description: Labels can be rotated from -90 to 90 degrees
-    labelLabel: Axis label
+      label: 旋轉標籤
+      description: 標籤可以從負 90 度旋轉至 90 度
+    labelLabel: 軸標籤
     labelPosition:
-      label: Label position
-      top: Start
-      center: Center
-      bottom: End
+      label: 標籤位置
+      top: 起始
+      center: 中心
+      bottom: 結尾
     horizontal:
-      label: Horizontal
-    logarithmicScale: Logarithmic scale
-    maxLabel: Max value
-    maxPlaceholder: Maximum value
-    minLabel: Min value
-    minPlaceholder: Minimum value
+      label: 水平
+    logarithmicScale: 對數刻度
+    maxLabel: 最大值
+    maxPlaceholder: 最大值
+    minLabel: 最小值
+    minPlaceholder: 最小值
   additionalConfig:
     legend:
-      label: Legend
-      show: Show legend
+      label: 圖例
+      show: 顯示圖例
       orientation:
-        label: Orientation
-        horizontal: Horizontal
-        vertical: Vertical
+        label: 方向
+        horizontal: 水平
+        vertical: 垂直
       align:
-        label: Align
-        left: Left
-        right: Right
-        center: Center
-      scrollable: Scrollable
+        label: 對齊
+        left: 左側
+        right: 右側
+        center: 中心
+      scrollable: 可捲動
       position:
-        customize: Default position
-        top: Top
-        right: Right
-        bottom: Bottom
-        left: Left
-      valueRange: Values can be set as pixels 20 or as percentages 20%
+        customize: 預設位置
+        top: 最上方
+        right: 右側
+        bottom: "最下方\n"
+        left: 左側
+      valueRange: 數值可以設定為像素 20 或百分比 20%
       options:
-        label: Options
+        label: 選項
     tooltip:
-      label: Tooltip
-      labelNextToChart: Show labels next to chart
+      label: 工具提示
+      labelNextToChart: 在圖表旁邊顯示標籤
       formatting:
-        label: Custom formatting
-        description: '{a} - metrics label, {b} - dimension value, {c} - metric value, {d} - metric value percentage'
-        placeholder: '{a}<br />{b} : {c} ({d}%)'
-        disclaimer: Adding a value to the formatting field will disable the fields number format, prefix, and suffix and vice versa
+        label: 自訂格式
+        description: '{a} - 指標標籤，{b} - 維度值， {c} - 指標值， {d} - 指標值百分比'
+        placeholder: '{a}<br />{b}：{c} （{d}%）'
+        disclaimer: 在格式化欄位中新增數值將會禁用數字格式、前綴和後綴，反之亦然
     offset:
-      label: Offset
-      default: Default offset
+      label: 間距
+      default: 預設間距
       position:
-        top: Top
-        right: Right
-        bottom: Bottom
-        left: Left
-      valueRange: Values can be set as pixels 20 or as percentages 20%
+        top: 最上方
+        right: 右側
+        bottom: "最下方\n"
+        left: 左側
+      valueRange: 數值可以設定為像素 20 或百分比 20%
   toolbox:
-    label: Tools
+    label: 工具
     saveAsImage:
-      label: Show "Save as Image" button
+      label: 顯示「儲存為圖片」按鈕
     timeline:
-      label: Timeline
+      label: 時間線
       options:
-        none: None
-        x: X-Axis
-        y: Y-Axis
-        xy: Both
+        none: 無
+        x: X 軸
+        y: Y 軸
+        xy: 兩者
   formatting:
     format:
-      label: Format
+      label: 格式
       placeholder: '0.00'
     prefix:
-      label: Prefix
+      label: 前綴
       placeholder: '#'
     suffix:
-      label: Suffix
+      label: 後綴
       placeholder: '$'
     presetFormats:
-      label: Format
+      label: 格式
       options:
-        custom: Custom
-        accounting: Accounting number
+        custom: 自訂
+        accounting: 會計編號
       description:
-        custom: ''
-        accounting: Negative numbers are transformed into positive and added in brackets and the value 0 is substituted by a dash
-import: 'Import chart(s):'
-newLabel: 'Create a new chart:'
-name: Chart name *
-handle: Handle
-generalSettings: General settings
+        accounting: 負數將轉換為正數並以括號括住，而數值 0 則以破折號取代
+import: '匯入圖表：'
+newLabel: '建立新圖表：'
+name: 圖表名稱*
+handle: 代號
+generalSettings: 一般設定
 notification:
-  loadFailed: Could not load chart
-  saveFailed: Could not save this chart
-  saved: Chart saved
-  deleteFailed: Could not delete this chart
-  deleted: Chart deleted
-searchPlaceholder: Search charts in this namespace
-title: List of Charts
-undefined: undefined
+  loadFailed: 無法載入圖表
+  saveFailed: "無法儲存此圖表\n"
+  saved: 圖表已儲存
+  deleteFailed: "無法刪除此圖表\n"
+  deleted: 圖表已刪除
+searchPlaceholder: 在此 namespace 搜尋圖表
+title: 圖表清單
+undefined: 未定義
