@@ -22,7 +22,7 @@ automation:
   label: Automatisme
   noDescription: Pas de description
   noLabel: Non étiqueté
-  noScript: Il n'y a pas de script ou flux de travail configuré pour ce bouton
+  noScript: Il n'y a pas de script ou processus configuré pour ce bouton
   noScripts: Il n'y a pas de scripts manuels compatibles avec ce bloc de page
   removeAll: Supprimer tout
   searchPlaceholder: Filtrez les scripts disponibles par étiquette, nom de script et description
@@ -322,7 +322,7 @@ record:
     clearAllOnHide: Vider tous les champs conditionnels lorsqu'ils sont masqués
     clearAllOnHideDescription: Lorsque activé, tous les champs conditionnels sont vidés lorsqu'ils sont masqués, ignorant le paramétrage individuel des champs
     tooltip:
-      performance: Utilisé des champs conditionnels impactera les performances
+      performance: Utiliser des champs conditionnels impactera les performances
   recordSelectorCanAddRecord: Peut ajouter un élément par le sélecteur d'élément
   recordSelectorAddRecordDisplayOption: Lors de l'ajout d'élément par un sélecteur d'élément
 recordList:
@@ -526,7 +526,7 @@ recordList:
   modulePlaceholder: Sélectionnez un module
   moduleFootnote: Les modules sans {{0}} peuvent uniquement être utilisés dans une liste d'éléments comme éditeur en ligne
   moduleFieldsFootnote: Si aucun champ n'est sélectionné, les champs par défaut seront affichés
-  noRecords: Il n'y a aucun d'élément correspondant à votre requête
+  noRecords: Il n'y a aucun élément correspondant à votre requête
   pagination:
     next: Suivant
     prev: Précédent
@@ -631,7 +631,7 @@ recordList:
       label: Sommaires personnalisés
       description: Les utilisateurs seront capables de définir des sommaires personnalisés
       add:
-        label: + Ajouter
+        label: Ajouter
         tooltip: Ajouter un sommaire dédié
     param:
       label:
@@ -831,7 +831,7 @@ navigation:
   sameTab: Même onglet
   selectOpenInType: Sélectionnez type d'ouverture
   newTab: Nouvel onglet
-  dropdownItems: Élements de liste déroulante
+  dropdownItems: Éléments de liste déroulante
   delimiter: Délimiteur
   none: Aucune
   displaySubPages: Afficher sous-page
