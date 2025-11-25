@@ -1,6 +1,6 @@
 editor:
   info:
-    add: + Ajouter
+    add: Ajouter
     choose-date: Choisissez une date
     createdAt: Créer à
     createdBy: Créer par
@@ -12,7 +12,7 @@ editor:
       label: Expiré à
     handle:
       label: Identifiant
-      placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+      placeholder-handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
       invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     name: Nom *
     remove: Supprimer
@@ -22,11 +22,11 @@ editor:
         label: Groupe par défaut pour les nouveaux utilisateurs
         placeholder: Groupe par défaut pour les nouveaux utilisateurs
       forcedRoles:
-        label: Forced roles ({{count}})
+        label: Rôles imposés
       impersonateUser:
         placeholder: Sélectionnez utilisateur
       permittedRoles:
-        label: Permitted roles ({{count}})
+        label: Rôles autorisés
     title: Information de base
     tooltip:
       show-client-secret: Afficher secret du client
