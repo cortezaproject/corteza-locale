@@ -16,11 +16,11 @@ description:
   label: Description de namespace
   placeholder: Entrez la description de namespace
 disabled: Le namespace est désactivé
-edit: Editer un namespace
+edit: Éditer namespace
 clone: Cloner un namespace
 cloneSuffix: copier
 cloneWarning:
-  wfInclusion: Les processus et autres automatismes  ne sont pas clonés. Utiliser l'éditeur de flux de travail pour cloner ceux nécessaires.
+  wfInclusion: Les processus et autres automatismes  ne sont pas clonés. Utiliser l'éditeur de processus pour cloner ceux nécessaires.
 create: Créer un namespace
 export: Exporter
 enabled:
