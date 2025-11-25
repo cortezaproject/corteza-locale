@@ -14,7 +14,7 @@ ui:
   evaluate:
     description: Évaluer permissions appliquées
   add:
-    label: + Ajouter
+    label: Ajouter
     title: Évaluer permissions
     save: Enregistrer et fermer
     role:
