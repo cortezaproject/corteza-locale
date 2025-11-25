@@ -52,7 +52,7 @@ editor:
     title: Liste de filtres
     enabled: Activé
     disabled: Désactivé
-    add: + Ajouter
+    add: Ajouter
     addFilter: Ajouter filtre
     addHeader: Ajouter en-tête
     filterListEmpty: La liste de filtres est vide !
