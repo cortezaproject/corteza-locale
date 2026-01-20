@@ -10,8 +10,6 @@
       background: Clique com o botão esquerdo no fundo
       drag: Clique com o botão esquerdo e arraste
       label: Clique esquerdo
-    'mouse-wheel': Roda do mouse
-    'right-click-drag': Clique com o botão direito e arraste
 'basic-controls-label': Controles básicos
 'keyboard-shortcuts':
   action:
