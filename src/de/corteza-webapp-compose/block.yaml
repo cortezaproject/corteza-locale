@@ -200,7 +200,7 @@ record:
   invalidRecordVar: Kann ${record...}-Variable nicht in Nicht-Datensatz-Seiten verwenden
   label: Datensatz
   listLoadFailed: Datensatzliste konnte nicht geladen werden
-  moduleOrPageNotSet: 'Datensatzlisten-Blockfehler: Modul- oder Seitenoption nicht gesetzt'
+  moduleOrPageNotSet: "Datensatzlisten-Blockfehler: Modul- oder Seitenoption nicht gesetzt"
   moduleMismatch: Modul inkompatibel, Modul nicht übereinstimmend
   preview:
     untitled: Unbenannt
@@ -238,10 +238,10 @@ recordList:
     inRange: Set date range
     includeQuery: Nach Suchanfrage filtern
     json: JSON-Export
-    limitations: 'Einschränkung des CSV-Exports: nur der erste Wert in den mehrwertigen Feldern wird exportiert'
+    limitations: "Einschränkung des CSV-Exports: nur der erste Wert in den mehrwertigen Feldern wird exportiert"
     rangeBy: 'Set range by:'
-    recordCount: '{{count}} Datensätze bereit für den Export'
-    selectFields: 'Wählen Sie die Felder aus, die Sie exportieren möchten:'
+    recordCount: "{{count}} Datensätze bereit für den Export"
+    selectFields: "Wählen Sie die Felder aus, die Sie exportieren möchten:"
     selection: Ausgewählte Datensätze
     specifyTimezone: Export nach Zeitzone
     timezonePlaceholder: Zeitzone auswählen
@@ -278,13 +278,13 @@ recordList:
   hideRecordReminderButton: Schaltfläche Datensatzerinnerung ausblenden
   hideRecordViewButton: Schaltfläche Datensatzansicht ausblenden
   import:
-    dropzoneFileAdded: '{{name}} wurde hochgeladen und ist bereit für den Import ({{count}} Datensatz)'
-    dropzoneFileAdded_plural: '{{name}} wurde hochgeladen und ist bereit für den Import ({{count}} Datensätze)'
+    dropzoneFileAdded: "{{name}} wurde hochgeladen und ist bereit für den Import ({{count}} Datensatz)"
+    dropzoneFileAdded_plural: "{{name}} wurde hochgeladen und ist bereit für den Import ({{count}} Datensätze)"
     dropzoneLabel: Zum Hochladen hier klicken oder Datei ablegen (.csv oder JSON)
-    failed: 'Während des Imports ist etwas schief gelaufen. Bitte versuchen Sie es erneut: {{failReason}}'
+    failed: "Während des Imports ist etwas schief gelaufen. Bitte versuchen Sie es erneut: {{failReason}}"
     fileColumns: Dateispalten
-    hasRequiredFileFields: 'This module has required file upload fields that are not yet supported via the importer'
-    matchFields: 'Match imported columns with existing ones:'
+    hasRequiredFileFields: "This module has required file upload fields that are not yet supported via the importer"
+    matchFields: "Match imported columns with existing ones:"
     moduleFields: Modulfelder
     onError: 'If any record fails to import:'
     onErrorFail: Import abbrechen
@@ -310,7 +310,7 @@ recordList:
   preview:
     resultsCan: Ergebnisse können
     resultsCant: Ergebnisse können nicht
-    resultsPrefiltered: 'Die Ergebnisse werden vorgefiltert:'
+    resultsPrefiltered: "Die Ergebnisse werden vorgefiltert:"
     searchInput: Eingabefeld für die Suche
     sorting: Sortierung
     tableHeader: Tabellenkopf
@@ -392,13 +392,6 @@ recordRevisions:
       columns:
         field:
           label: Feld
-  configurator:
-    fields:
-      columns:
-        label:
-          label: Label
-        kind:
-          label: Typ
 socialFeed:
   label: Twitter-Feed
   noInput: Keine Eingabe für die Anzeige des Social Feeds...
