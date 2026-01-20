@@ -153,7 +153,7 @@ record:
   countFailed: Nepovedlo se získat počet dostupných záznamů
   moduleMismatch: Modul není kompatibilní
   moduleNotDefined: Modul záznamu není definován
-  moduleOrPageNotSet: 'Chyba bloku se seznamem záznamů: modul nebo stránka nejsou nastaveny'
+  moduleOrPageNotSet: "Chyba bloku se seznamem záznamů: modul nebo stránka nejsou nastaveny"
   unexpectedInput: Nečekaný vstup. Byl očekáván seznam objektů s dvojicemi název-hodnota
   unexpectedValue: Nečekaná hodnota pro modul záznamů ({{type}})
   staleDataRefresh: Zastaralá data záznamu, všechny neuložené změny budou ztraceny. Chcete teď data přenačíst?
