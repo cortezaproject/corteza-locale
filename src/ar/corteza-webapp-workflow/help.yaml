@@ -10,8 +10,6 @@
       background: انقر باليسار على الخلفية
       drag: انقر بزر الفأرة الأيسر واسحب
       label: زر الفأرة الأيسر
-    'mouse-wheel': عجلة الفأرة
-    'right-click-drag': انقر بزر الماوس الأيمن واسحب
 'basic-controls-label': الضوابط الأساسية
 'keyboard-shortcuts':
   action:
