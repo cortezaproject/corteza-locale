@@ -193,7 +193,7 @@ record:
   invalidRecordVar: لا يمكن استخدام متغير ${record...} في الصفحات غير المسجلة
   label: سجل
   listLoadFailed: تعذر تحميل قائمة السجلات
-  moduleOrPageNotSet: 'خطأ في حظر قائمة السجل: لم يتم تعيين خيار الوحدة النمطية أو الصفحة'
+  moduleOrPageNotSet: "خطأ في حظر قائمة السجل: لم يتم تعيين خيار الوحدة النمطية أو الصفحة"
   moduleMismatch: الوحدة غير متوافقة ، الوحدة غير متطابقة
   fieldsLayoutMode:
     default: افتراضي
@@ -232,10 +232,10 @@ recordList:
       updatedAt: تم تحديث السجل
     includeQuery: تصفية حسب استعلام البحث
     json: تصدير JSON
-    limitations: 'قيود تصدير CSV: سيتم تصدير القيمة الأولى فقط في الحقول متعددة القيم'
+    limitations: "قيود تصدير CSV: سيتم تصدير القيمة الأولى فقط في الحقول متعددة القيم"
     rangeBy: حدد النطاق حسب
-    recordCount: '{{count}} سجلات جاهزة للتصدير'
-    selectFields: 'حدد الحقول التي تريد تصديرها:'
+    recordCount: "{{count}} سجلات جاهزة للتصدير"
+    selectFields: "حدد الحقول التي تريد تصديرها:"
     selection: السجلات المختارة
     specifyTimezone: تصدير إلى المنطقة الزمنية
     timezonePlaceholder: اختر المجال الزمني
@@ -258,7 +258,7 @@ recordList:
     fieldValuePlaceholder: مرشح مجال الإدخال
     including: يشمل
     label: مرشح
-    note: 'ملاحظة: إذا كانت قيمة الحقل غير محددة ، فسيقوم عامل التصفية بالبحث عن السجلات التي تكون فيها قيمة هذا الحقل غير محددة.'
+    note: "ملاحظة: إذا كانت قيمة الحقل غير محددة ، فسيقوم عامل التصفية بالبحث عن السجلات التي تكون فيها قيمة هذا الحقل غير محددة."
     only: فقط
     operators:
       like: مثل
@@ -283,13 +283,13 @@ recordList:
   hideRecordReminderButton: زر إخفاء سجل التذكير
   hideRecordViewButton: إخفاء زر عرض السجل
   import:
-    dropzoneFileAdded: 'تم تحميل {{name}} وهو جاهز للاستيراد (سجل {{count}})'
-    dropzoneFileAdded_plural: 'تم تحميل {{name}} وهو جاهز للاستيراد ({{count}} السجلات)'
+    dropzoneFileAdded: "تم تحميل {{name}} وهو جاهز للاستيراد (سجل {{count}})"
+    dropzoneFileAdded_plural: "تم تحميل {{name}} وهو جاهز للاستيراد ({{count}} السجلات)"
     dropzoneLabel: انقر أو أفلت الملف هنا للتحميل (.csv أو JSON)
-    failed: 'حدث خطأ ما أثناء الاستيراد. يرجى المحاولة مرة أخرى: {{failReason}}'
+    failed: "حدث خطأ ما أثناء الاستيراد. يرجى المحاولة مرة أخرى: {{failReason}}"
     fileColumns: أعمدة الملف
-    hasRequiredFileFields: 'هذه الوحدة تتطلب حقول تحميل الملف'
-    matchFields: 'مطابقة الأعمدة المستوردة مع الأعمدة الموجودة'
+    hasRequiredFileFields: "هذه الوحدة تتطلب حقول تحميل الملف"
+    matchFields: "مطابقة الأعمدة المستوردة مع الأعمدة الموجودة"
     moduleFields: حقول الموديول
     onError: إذا فشل استيراد أي سجل
     onErrorFail: إلغاء الاستيراد
@@ -317,26 +317,26 @@ recordList:
   pagination:
     next: التالي
     prev: السابق
-    showing: '{{from}} - {{to}} من {{count}} من السجلات'
+    showing: "{{from}} - {{to}} من {{count}} من السجلات"
     single_one: سجل واحد
-    single_other: '{{count}} سجلات'
+    single_other: "{{count}} سجلات"
     selectLabel: اختيار خيار
   positionField:
     footnote: سيتم فرز السجلات بناءً على هذا الحقل
     label: سجل فرز الحقل
   preview:
     addRecordButton: زر إضافة التسجيل
-    bePaged: 'يتم ترحيل {{0}}.'
-    isDisabled: 'تم تعطيل {{0}}.'
-    isEnabled: 'تم تمكين {{0}}.'
-    isHidden: '{{0}} مخفي.'
-    isShown: 'تم عرض {{0}}'
+    bePaged: "يتم ترحيل {{0}}."
+    isDisabled: "تم تعطيل {{0}}."
+    isEnabled: "تم تمكين {{0}}."
+    isHidden: "{{0}} مخفي."
+    isShown: "تم عرض {{0}}"
     moduleNotSelected: منع مع جدول السجلات ، الوحدة النمطية غير محددة.
-    recordFromModule: 'عرض السجلات من وحدة {{0}} مع الأعمدة: {{1}}'
-    recordsPerPage: 'يتم عرض {{0}} من السجلات في كل صفحة.'
+    recordFromModule: "عرض السجلات من وحدة {{0}} مع الأعمدة: {{1}}"
+    recordsPerPage: "يتم عرض {{0}} من السجلات في كل صفحة."
     resultsCan: يمكن النتائج
     resultsCant: لا يمكن النتائج
-    resultsPrefiltered: 'يتم تصفية النتائج مسبقًا:'
+    resultsPrefiltered: "يتم تصفية النتائج مسبقًا:"
     searchInput: مربع إدخال البحث
     sorting: فرز
     tableHeader: رأس الجدول
@@ -364,7 +364,7 @@ recordList:
   refField:
     footnote: الحقل الذي يربط السجلات بالسجل الأصل
     label: Parent field
-  selected: '{{count}} من {{total}} سجلات محددة'
+  selected: "{{count}} من {{total}} سجلات محددة"
   summaries:
     customSummaries:
       add:
@@ -403,7 +403,7 @@ recordOrganizer:
   positionField:
     label: سجل فرز المجال
   preview:
-    label: 'كتلة منظم السجل للوحدة {{0}}. حقل التسمية {{1}} ، حقل الوصف {{2}}. حقل إعداد القيمة: {{3}} ، مرتبة حسب حقل الموضع: {{4}}.'
+    label: "كتلة منظم السجل للوحدة {{0}}. حقل التسمية {{1}} ، حقل الوصف {{2}}. حقل إعداد القيمة: {{3}} ، مرتبة حسب حقل الموضع: {{4}}."
     moduleNotSelected: وحدة منظم السجلات غير محددة
   addNewRecord: +أضف
 recordRevisions:
@@ -420,13 +420,6 @@ recordRevisions:
       columns:
         field:
           label: حقل
-  configurator:
-    fields:
-      columns:
-        label:
-          label: وصف
-        kind:
-          label: نوع
 socialFeed:
   label: مصدر تويتر
   noInput: لا يوجد إدخال لعرض التغذية الاجتماعية...
