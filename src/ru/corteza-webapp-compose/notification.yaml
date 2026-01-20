@@ -83,6 +83,6 @@ record:
   loadFailed: Не удалось загрузить запись
   moduleMismatch: Несовместимый модуль, несоответствие модулей
   moduleNotDefined: Модуль записи не определен
-  moduleOrPageNotSet: 'Ошибка блока RecordList: не задан параметр модуля или страницы'
+  moduleOrPageNotSet: "Ошибка блока RecordList: не задан параметр модуля или страницы"
   unexpectedInput: Неожиданный ввод для свойства values, должен быть массивом с парами объектов "name-value"
   unexpectedValue: Неожиданное значение для модуля записи ({{type}})
