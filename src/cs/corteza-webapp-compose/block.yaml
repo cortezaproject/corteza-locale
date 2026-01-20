@@ -26,7 +26,7 @@ automation:
   noScripts: Žádný manuální skript není kompatibilní s tímto blokem stránky
   removeAll: Odebrat vše
   searchPlaceholder: Filtrování dostupných skriptů podle štítku, názvu a popisu
-  stepID: 'ID počátečního kroku: {{stepID}}'
+  stepID: "ID počátečního kroku: {{stepID}}"
   variants:
     primary: Primární
     secondary: Sekundární
@@ -286,7 +286,7 @@ record:
   invalidRecordVar: Není možné použít proměnou ${record...} na jiných stránkách než jsou stránky záznamu
   label: Záznam
   listLoadFailed: Nepovedlo se najíst seznam záznamů
-  moduleOrPageNotSet: 'Chyba bloku se seznamem záznamů: modul nebo stránka nejsou nastaveny'
+  moduleOrPageNotSet: "Chyba bloku se seznamem záznamů: modul nebo stránka nejsou nastaveny"
   moduleMismatch: Modul není kompatibilní
   horizontalFormLayout: Horizontální rozložení formuláře
   inlineEdit:
@@ -383,10 +383,10 @@ recordList:
     inRange: Rozsah dnů
     includeQuery: Filtrovat pomocí hledání
     json: JSON Export
-    limitations: 'Limitace CSV exportu: z polí s více hodnotami bude exportována pouze první hodnota'
+    limitations: "Limitace CSV exportu: z polí s více hodnotami bude exportována pouze první hodnota"
     rangeBy: Nastavit rozsah
-    recordCount: '{{count}} záznamů připraveno k exportu'
-    selectFields: 'Vyberte pole, která chcete editovat:'
+    recordCount: "{{count}} záznamů připraveno k exportu"
+    selectFields: "Vyberte pole, která chcete editovat:"
     selection: Vybrané záznamy
     specifyTimezone: Exportovat v časové zóně
     timezonePlaceholder: Vybrat časovou zónu
@@ -397,7 +397,7 @@ recordList:
     addField: Přidat nové pole filtru
     byValue: Filtrovat záznamy podle hodnoty pole
     addFilterToPreset: Uložit jako výchozí
-    nil: 'PRÁZDNÉ'
+    nil: "PRÁZDNÉ"
     conditions:
       and: A ZÁROVEŇ
       or: NEBO
@@ -420,7 +420,7 @@ recordList:
     fieldValuePlaceholder: Filtr vstupního pole
     including: Včetně
     label: Filtr
-    note: 'Poznámka: Pokud je hodnota pole nedefinovaná, filtr vyhledá záznamy, kde hodnota pole je nedefinovaná.'
+    note: "Poznámka: Pokud je hodnota pole nedefinovaná, filtr vyhledá záznamy, kde hodnota pole je nedefinovaná."
     only: Pouze
     operators:
       like: Jako
@@ -441,7 +441,7 @@ recordList:
     reset: Resetovat filtr
     filters:
       label: Filtry
-      active: 'Aktivní filtry:'
+      active: "Aktivní filtry:"
     name:
       label: Jméno
       placeholder: Jméno filtru
@@ -456,13 +456,13 @@ recordList:
   hideConfigureFieldsButton: Uživatelé budou moct konfigurovat, která pole zobrazit
   enableRecordPageNavigation: Uživatelé budou moct přejít na předchozí/následující záznam
   import:
-    dropzoneFileAdded: '{{name}} byl nahrán a je připraven pro import ({{count}} záznam)'
-    dropzoneFileAdded_plural: '{{name}} byl nahrán a je připraven pro import ({{count}} záznamů)'
+    dropzoneFileAdded: "{{name}} byl nahrán a je připraven pro import ({{count}} záznam)"
+    dropzoneFileAdded_plural: "{{name}} byl nahrán a je připraven pro import ({{count}} záznamů)"
     dropzoneLabel: Klikněte nebo přetáhněte soubor k nahrání (CSV nebo JSON)
-    failed: 'Neví se nepovedlo při importu. Zkuste to prosím znovu: {{failReason}}'
+    failed: "Neví se nepovedlo při importu. Zkuste to prosím znovu: {{failReason}}"
     fileColumns: Sloupce v souboru
-    hasRequiredFileFields: 'Tento modul má požadovaná pole náhradní souboru '
-    matchFields: 'Přiřaďte importované sloupce k existujícím'
+    hasRequiredFileFields: "Tento modul má požadovaná pole náhradní souboru "
+    matchFields: "Přiřaďte importované sloupce k existujícím"
     moduleFields: Pole modulu
     onError: Pokud se některý modul nepovede importovat
     onErrorFail: Stornovat import
@@ -494,9 +494,9 @@ recordList:
   pagination:
     next: Další
     prev: Předchozí
-    showing: '{{from}} - {{to}} z {{count}} záznamů'
+    showing: "{{from}} - {{to}} z {{count}} záznamů"
     single_one: Jeden záznam
-    single_other: '{{count}} záznamů'
+    single_other: "{{count}} záznamů"
     recordsPerPage: Na stránku
     selectLabel: Vyberte možnost
   positionField:
@@ -505,17 +505,17 @@ recordList:
     label: Pole k řazení záznamů
   preview:
     addRecordButton: Tlačítko přidání záznamu
-    bePaged: '{{0}} bude stránkováno.'
-    isDisabled: '{{0}} je vypnuto.'
-    isEnabled: '{{0}} je zapnuto.'
-    isHidden: '{{0}} je skryto.'
-    isShown: '{{0}} je zobrazeno'
+    bePaged: "{{0}} bude stránkováno."
+    isDisabled: "{{0}} je vypnuto."
+    isEnabled: "{{0}} je zapnuto."
+    isHidden: "{{0}} je skryto."
+    isShown: "{{0}} je zobrazeno"
     moduleNotSelected: Blok s tabulkou záznamů, modul nevybrán.
-    recordFromModule: 'Zobrazeny záznamy z modulu {{0}} se sloupci: {{1}}'
-    recordsPerPage: 'Zobrazeno {{0}} záznamů na stránku.'
+    recordFromModule: "Zobrazeny záznamy z modulu {{0}} se sloupci: {{1}}"
+    recordsPerPage: "Zobrazeno {{0}} záznamů na stránku."
     resultsCan: Výsledky můžou
     resultsCant: Výsledky nemůžou
-    resultsPrefiltered: 'Výsledky jsou předfiltrované:'
+    resultsPrefiltered: "Výsledky jsou předfiltrované:"
     searchInput: Vstup hledání
     sorting: Řazení
     tableHeader: Záhlaví tabulky
@@ -580,8 +580,8 @@ recordList:
     footnote: Pole, které propojuje záznamy s rodičovským záznamem
     label: Rodičovský záznam
   selectable: Uživatelé budou moct vybrat záznamy
-  selected: 'Vybráno {{count}} z celkového počtu {{total}}'
-  selectedFromAllPages: 'Vybráno všech {{count}} záznamů na všech stránkách'
+  selected: "Vybráno {{count}} z celkového počtu {{total}}"
+  selectedFromAllPages: "Vybráno všech {{count}} záznamů na všech stránkách"
   selectAllRecords: Vybrat všechny záznamy na všech stránkách
   unselectAllRecords: Zrušit výběr
   sort:
@@ -638,7 +638,7 @@ recordOrganizer:
     placeholder: Pole, ve kterém bude pozice záznamu
     label: Pole pro řazení záznamů
   preview:
-    label: 'Blok pořadače záznamů pro modul {{0}}. Pole popisku {{1}}, pole popisu {{2}}. Pole nastavení hodnoty: {{3}}. Řazeno podle pole pozice: {{4}}.'
+    label: "Blok pořadače záznamů pro modul {{0}}. Pole popisku {{1}}, pole popisu {{2}}. Pole nastavení hodnoty: {{3}}. Řazeno podle pole pozice: {{4}}."
     moduleNotSelected: Modul pořadače záznamů není vybrán
   addNewRecord: + Přidat
 recordRevisions:
@@ -673,19 +673,6 @@ recordRevisions:
     preload: Načíst revize záznamu předem
     errors:
       invalid-module-id: Pole neobsahuje validní ID modulu.
-    fields:
-      label: Konfigurace polí k zobrazení ve změnách v revizích záznamu
-      show-all:
-        label: Zobrazit změnu pro všechna pole
-      columns:
-        label:
-          label: Popisek
-        kind:
-          label: Typ
-        displayed-fields:
-          label: Zobrazit
-        expanded-references:
-          label: Expandovat odkazy
 socialFeed:
   label: Twitter feed
   noInput: Chybí vstup pro zobrazení feedu...
@@ -865,7 +852,7 @@ geometry:
     topLeft: Horní levý roh ohraničení
     lowerRight: Dolní pravý roh ohraničení
   tooltip:
-      goToCurrentLocation: Přejít na současnou lokaci
+    goToCurrentLocation: Přejít na současnou lokaci
 tabs:
   label: Karty
   alertTitle: Nastavte nadpis pro blok
