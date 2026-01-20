@@ -71,7 +71,7 @@ record:
   loadFailed: Datensatz konnte nicht geladen werden
   moduleMismatch: Modul inkompatibel, Modul nicht übereinstimmend
   moduleNotDefined: Datensatzmodul nicht definiert
-  moduleOrPageNotSet: 'Datensatzlisten-Blockfehler: Modul- oder Seitenoption nicht gesetzt'
+  moduleOrPageNotSet: "Datensatzlisten-Blockfehler: Modul- oder Seitenoption nicht gesetzt"
   unexpectedValue: Unerwarteter Wert für Datensatzmodul ({{type}})
 report:
   listFetchFailed: Fehler beim Abrufen von Berichten
