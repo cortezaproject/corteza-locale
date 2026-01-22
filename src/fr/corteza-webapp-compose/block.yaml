@@ -412,6 +412,8 @@ recordList:
     selection: Éléments sélectionnés
     specifyTimezone: Exporter à un fuseau horaire
     timezonePlaceholder: Sélectionnez un fuseau horaire
+    resolveRefs: Inclure les valeurs de sélecteur d'éléments
+    resolveRefsNote: Lorsque "Inclure les valeurs de sélecteur d'éléments" est coché, tous les champs de type "élément" comprendront l'étiquette de l'élément à côté de son identifiant unique.
     datePresetUndefined: Préréglage de date inconnu
   federated: Fédéré
   fields: Champs de module
@@ -475,6 +477,7 @@ recordList:
   hideRecordPermissionsButton: Cacher bouton permissions d'élément
   hideRecordReminderButton: Cacher bouton de rappel d'élément
   hideRecordViewButton: Cacher bouton d'affichage d'élément
+  hideRecordDeleteButton: Cacher bouton de suppression d'élément
   hideConfigureFieldsButton: Les utilisateurs pourront définir les champs à afficher
   enableRecordPageNavigation: Les utilisateurs pourront naviguer vers l'élément précédent/suivant
   import:
@@ -590,9 +593,13 @@ recordList:
     showRecordPerPageOption: L'utilisateur pourra sélectionner le nombre éléments par page
     showDeletedRecordsOption: Afficher l'option de visualiser les éléments supprimés
     setCustomFilterPresets: Les utilisateurs seront capables de définir des filtres prédéfinis
+    searchableFields: Champs recherchables
+    searchableFieldsFootnote: Si aucun champ n'est sélectionné, la recherche sera effectuée sur tous les champs visibles disponibles
+    configureSearchableFields: Sélectionnez les champs qui seront utilisés pour la recherche
     openInSameTab: Ouvrir élément dans le même onglet
     openInNewTab: Ouvrir élément dans un nouvel onglet
     openInModal: Ouvrir élément dans une fenêtre
+    doNothing: Ne rien faire
     createInSameTab: Créer élément dans le même onglet
     createInNewTab: Créer élément dans un nouvel onglet
     createInModal: Créer élément dans une fenêtre
@@ -725,8 +732,15 @@ recordRevisions:
   configurator:
     label: Révisions d'élément
     preload: Précharger révisions d'élément
+    sortDirection:
+      label: Direction de tri
+      footnote: Tri les révisions par leurs dates de création
+      desc: Plus récent en premier
+      asc: Plus ancien en premier
     errors:
       invalid-module-id: Le champ ne contient pas un ID de module valide.
+    fields:
+      label: Champs à afficher dans les révisions de modification d'élément
 socialFeed:
   label: Fil Twitter
   noInput: Aucune entrée pour afficher le flux social...
@@ -755,6 +769,8 @@ comment:
     footnote: La valeur de ce champ sera utilisé comme réponse
   title:
     placeholder: Titre
+  content:
+    placeholder: Rédigez votre message ici ...
   submit: Envoyer
   noComments: Aucun commentaire pour le moment
   load:
@@ -768,8 +784,15 @@ comment:
   referenceField:
     label: Champ de référence
     footnote: Champ associant les commentaires à l'élément parent
+  attachmentField:
+    label: Champ de pièce jointe
+    footnote: Champ utiliser pour stocker les pièces jointes de commentaire
   today: Aujourd'hui
   yesterday: Hier
+  tooltip:
+    reply: Répondre
+    edit: Éditer
+    attach: Joindre un fichier
 navigation:
   chart: Graphiques
   colorPicker: Choisissez une couleur
