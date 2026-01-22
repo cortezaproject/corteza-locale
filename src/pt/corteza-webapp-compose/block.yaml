@@ -1,3 +1,10 @@
+selector:
+  selectableBlocks:
+    placeholder: Blocos de outros layouts
+  tooltip:
+    clone:
+      ref: Clonar com referências
+      noRef: Clonar sem referências
 automation:
   addPlaceholderLabel: Adicionar espaço reservado (botão fictício)
   availableScriptsAndWorkflow: Scripts e fluxos de trabalho disponíveis ({{count}})
@@ -19,6 +26,7 @@ automation:
   noScripts: Não há scripts manuais compatíveis com este bloco de página
   removeAll: Deletar tudo
   searchPlaceholder: Filtre os scripts disponíveis por rótulo, nome do script e descrição
+  stepID: "ID da etapa inicial: {{stepID}}"
   variants:
     primary: Primário
     secondary: Secundário
@@ -33,20 +41,28 @@ calendar:
   addEventsSource: Adicionar origem de eventos
   calendarHeader: Cabeçalho do calendário
   feedLabel: Configurar fonte de eventos
+  feedPlaceholder: Selecione uma fonte de eventos
+  eventSource: Fonte do evento
   hideHeader: Ocultar cabeçalho do calendário
   hideNavigation: Ocultar botão anterior/próximo
   hideTitle: Ocultar texto do título
   hideToday: Ocultar botão hoje
   label: Calendário
+  colorPicker: Escolha uma cor
   colorLabel: Cor do evento
   recordFeed:
     eventAllDay: Mostrar como eventos de dia inteiro
     eventEndFieldLabel: Fim do evento
+    eventEndFieldPlaceholder: O evento terá duração de 1 hora
     eventStartFieldLabel: Início do evento
+    eventStartFieldPlaceholder: Campo com data de início do evento
     moduleLabel: Módulo
+    modulePlaceholder: Selecione um módulo
     optionLabel: Registros
     prefilterLabel: Eventos de pré-filtro
     prefilterPlaceholder: campo1 = 1 E campo2 = 232
+    titleLabel: Título do evento
+    titlePlaceholder: Campo usado como título do evento
   reminderFeed:
     optionLabel: Lembretes
   today: Hoje
@@ -58,21 +74,33 @@ calendar:
     listMonth: Agenda
     timeGridDay: Dia
     timeGridWeek: Semana
+    onEventClick: No evento click
+    openInSameTab: Abra o registro na mesma aba
+    openInNewTab: Abrir registro em uma nova aba
+    openInModal: Abrir registro em um modal
   viewLabel: Calendário
 chart:
   add: Novo gráfico
   addFunnel: Gráfico de funil
   addGauge: Gráfico de medidor
+  addRadar: Gráfico de radar
   addGeneric: Gráfico genérico
   createFailed: Não foi possível criar um gráfico
+  enableLiveFilter: Ativar filtro ao vivo
   columns:
     name: Nome
     handle: Identificador
+    changedAt: Última alteração
   configure:
     label: Configurar gráfico
     reportLabel: Relatório {{l}}
     reportsLabel: Relatórios
   display: Gráfico para exibir dentro deste bloco
+  drillDown:
+    label: Aprofundar
+    description: Se uma lista de registros for selecionada, ela será usada para exibir os dados detalhados. Caso contrário, os dados detalhados serão exibidos em uma janela modal.
+    openInModal: Abrir em modal
+    configureColumns: Selecione os campos padrão
   edit:
     label: Editar gráfico
     dimension:
@@ -91,6 +119,23 @@ chart:
   preview:
     chartId: Visualização do gráfico (ID {{0}})
   searchPlaceholder: Digite aqui para pesquisar todos os gráficos neste namespace
+  openInBuilder: Abrir no construtor de gráficos
+  openChartList: Lista de gráficos abertos
+  filter:
+    modal:
+      title: Filtro de gráfico
+      originalFilter:
+        label: Filtro original
+      liveFilter:
+        label: Filtro ao vivo
+        placeholder: Selecione um filtro
+      filterPreview:
+        label: Pré-visualização do filtro
+      options:
+        label: Opções de filtro
+        and: Combine filtros com AND
+        or: Combine filtros com OU
+        overwrite: Sobrescrever filtro original
 content:
   ok: OK
   label: Contente
@@ -103,15 +148,46 @@ general:
   descriptionLabel: Descrição
   descriptionPlaceholder: Descrição do bloco
   headerStyle: Estilo do cabeçalho do bloco (cor)
+  magnifyLabel: Ampliação de bloco
+  customID:
+    label: ID personalizado
+    placeholder: customID
+    description: 'Utilizado para referenciar o bloco em CSS personalizado (#customID). Deve ser único na página.'
+    invalid-state: Deve ter no mínimo 2 caracteres. Pode conter apenas letras, números, sublinhados e hífens. Deve terminar com uma letra ou um número
+  customCSSClass:
+    label: Classe CSS personalizada
+    placeholder: custom-class-1   custom-class-2
+    description: Usado para referenciar o bloco em CSS personalizado (.custom-class)
+    invalid-state: Pode conter apenas letras, números, sublinhados e hífens. Deve terminar com uma letra ou um número. Use espaços para separar várias classes
   visibility:
+    label: Visibilidade
     roles:
       label: Funções
+      placeholder: Selecione as funções às quais o bloco será exibido
     condition:
       label: Doença
+      placeholder: Quando o bloco será exibido
+      description:
+        record-page: "Você pode usar {{0}}, {{1}}, {{2}}, {{3}} dentro da expressão, por exemplo: {{4}} ou {{5}}"
+        non-record-page: "Você pode usar {{0}}, {{1}} dentro da expressão, por exemplo: {{2}} ou {{3}}"
+    tooltip:
+      performance:
+        condition: O uso de condições de visibilidade afetará o desempenho
   magnifyOptions:
     disabled: Desabilitado
+    modal: Modal
+    fullscreen: Tela cheia
+  wrap: Exibir bloco como um cartão
   hidden:
     label: Escondido
+  refresh:
+    label: Atualizar
+    auto: Atualização automática
+    show: Mostrar botão de atualização
+    description: Definir o valor para 5 segundos ou mais ativa a atualização automática
+    rate: segundos
+  border:
+    show: Mostrar borda
   label:
     add: Adicionar
     back: Voltar
@@ -126,6 +202,9 @@ general:
     save: Salvar
     cancel: Cancelar
     search: Procurar
+    refresh: Atualizar bloco
+    magnify: Ampliar bloco
+    and: E
   module: Módulo
   style:
     danger: Variante de perigo
@@ -139,6 +218,7 @@ general:
   titlePlaceholder: Título do bloco
   tooltip:
     dragAndDrop: Arraste e solte para alterar a ordem
+    translations: Traduções de campo
 iframe:
   label: IFrame
   pickURLField: Escolha um campo de URL
@@ -147,7 +227,12 @@ iframe:
   srcFieldLabel: Campo (URL) do registro a ser usado para o iframe
   srcLabel: URL para mostrar no iframe
 metric:
+  metricDrillDown: Aprofundar na métrica
   defaultMetricLabel: Métrica sem nome
+  drillDown:
+    label: Aprofundar
+    description: Se uma lista de registros for selecionada, ela será usada para exibir os dados detalhados. Caso contrário, os dados detalhados serão exibidos em uma janela modal.
+    openInModal: Abrir em modal
   edit:
     bucketLabel: Tamanho do balde
     bucketPlaceholder: Selecione um tamanho de bucket
@@ -156,11 +241,15 @@ metric:
     dimensionFieldPlaceholder: Campo de dimensão
     dimensionLabel: Dimensão
     filterLabel: Filtro
+    filterFootnote: A sintaxe simplificada de condição SQL (WHERE ...) é suportada. Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando disponíveis)
+    transformFootnote: Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando disponíveis). Certifique-se de envolver as variáveis ​​com aspas ("")
     labelLabel: Rótulo
     labelPlaceholder: Rótulo
     metricFieldLabel: Campo
     metricFieldPlaceholder: Campo de dimensão
     metricLabel: Métrica
+    metricFieldSelect: Selecione o campo
+    metricSelectAggregate: Selecione a operação de agregação
     metricAggregateLabel: Operação de agregação
     moduleLabel: Módulo
     modulePlaceholder: Escolha um módulo
@@ -181,11 +270,15 @@ metric:
   editStyle:
     backgroundColor: Cor de fundo
     color: Cor do texto
+    colorPicker: Escolha uma cor
     fontSize: Tamanho da fonte em pixels
     labelLabel: Estilo do rótulo
     valueLabel: Estilo de valor
   label: Métrica
 record:
+  referenceRecordField: Referenciar registro
+  referenceRecordFieldPlaceholder: Selecione o campo de registro de referência
+  referenceRecordFieldDescription: Utilizado para exibir detalhes do registro de referência. Campos de seleção de registro com múltiplos valores não estão disponíveis
   confirmDelete: Tem certeza de que deseja excluir este registro?
   deleteFailed: Não foi possível excluir o registro
   deleteRecord: Apagar registro
@@ -195,31 +288,110 @@ record:
   listLoadFailed: Não foi possível carregar a lista de registros
   moduleOrPageNotSet: "Módulo de erro do bloco RecordList ou opção de página não definida"
   moduleMismatch: Módulo incompatível, incompatibilidade de módulo
+  horizontalFormLayout: Layout de formulário horizontal
+  inlineEdit:
+    enabled: Edição de valores em linha ativada
+    allowAddField: Permitir a adição de campos à edição em linha
+    button:
+      title: Editar valor
+    modal:
+      title: Atualizar valores de registro
   fieldsLayoutMode:
+    label: Modo de layout de campos
     default: Predefinição
+    noWrap: Sem quebra de linha
+    wrap: Quebra de linha
   preview:
+    blockNoRecord: Não é possível renderizar este bloco sem um registro
     fieldsFromModule: Bloco de registro único, exibindo campos ({{0}}) do módulo {{1}}
     untitled: Sem título
   recordDeleted: Este registro foi excluído
+  recordSelectorDisplayOptions: Ao clicar no valor do campo de registro
+  openInSameTab: Abra o registro na mesma aba
+  openInNewTab: Abrir registro em uma nova aba
+  openInModal: Abrir registro em um modal
   fieldConditions:
+    label: Campos condicionais
     action: + Adicionar
+    placeholder: Quando esse campo deve ser exibido?
+    selectPlaceholder: Selecione o campo
     field: Campo
     condition: Doença
+    clearOnHide: Limpar ao ocultar
+    clearOnHideTooltip: Limpar automaticamente o valor deste campo quando ele ficar oculto
+    clearAllOnHide: Limpar todos os campos condicionais quando ocultos
+    clearAllOnHideDescription: Quando ativada, essa função limpa todos os campos condicionais ao serem ocultados, anulando as configurações individuais de cada campo
+    tooltip:
+      performance: O uso de campos condicionais afetará o desempenho
+  recordSelectorCanAddRecord: É possível adicionar registros através do seletor de registros
+  recordSelectorAddRecordDisplayOption: Ao adicionar um registro por meio do seletor de registros
 recordList:
+  noModule: Nenhum módulo selecionado
   addRecord: Adicionar
   cancelSelection: Cancelar
+  customFilter: Filtro personalizado
+  prefilter:
+    toggleInputType: Alternar tipo de entrada
+  filterByValue: Filtrar por valor
+  filterPresets:
+    filterName: Nome do filtro
+    saveFilterAsPreset: Salvar filtro como predefinição
+  inlineValueFilter:
+    enabled: Ativar filtragem de valores em linha
+  inlineEdit:
+    enabled: Edição de valores em linha ativada
+    allowAddField: Permitir a adição de campos à edição em linha
+    fields:
+      configure:
+        tooltip: Configure os campos para edição em linha
+    button:
+      title: Editar valor
+    modal:
+      title: Atualizar valores de registro
   bulkRecord:
+    title: Atualizar registros selecionados
+    field:
+      add: Adicionar um campo para atualização
+      addAnother: Adicione outro campo para atualizar
+      remove: Remover campo
     reset: Redefinir
+  drillDown:
+    filter:
+      label: Filtro de detalhamento
+  tooltip:
+    deleteSelected: Excluir registros selecionados
+    performance:
+      impact: O uso deste recurso afetará o desempenho
+      moduleFields: Selecionar um grande número de campos ou exibir campos de registro/usuário afetará o desempenho
+      perPage: Exibir uma grande quantidade de registros por página afetará o desempenho, especialmente se você estiver exibindo campos de registro/usuário
+    restoreSelected: Restaurar registros selecionados
   editFields: Campos de módulo editáveis
   export:
     all: Exportar todos os registros
+    allow: Os usuários poderão exportar registros
     csv: Exportação CSV
     dateRange: Selecionar intervalo de datas
+    multiValueDelimiter:
+      label: Delimitador de vários valores
+      semicolon:
+        label: valor 1; valor 2;...; valor n
+      comma:
+        label: valor 1, valor 2,..., valor n
+      pipe:
+        label: valor 1|valor 2|...|valor n
+      semicolonArray:
+        label: "[valor 1; valor 2;...; valor n]"
+      commaArray:
+        label: "[valor 1, valor 2,..., valor n]"
+      pipeArray:
+        label: "[valor 1|valor 2|...|valor n]"
     query:
       label: Consulta de pesquisa
       placeholder: Procurar...
     filter:
+      label: Filtro de registros
       placeholder: campo1 = 1 E campo2 = 232
+      footnote: A sintaxe simplificada de condição SQL (WHERE ...) é suportada. Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando disponíveis)
       createdAt: Registro criado
       custom: Personalizado
       lastMonth: Mês passado
@@ -230,6 +402,7 @@ recordList:
       from: A partir de
       to: Para
       updatedAt: Registro atualizado
+    inRange: Intervalo de datas
     includeQuery: Filtrar por consulta de pesquisa
     json: Exportação JSON
     limitations: "Limitação de exportação de CSV apenas o primeiro valor nos campos de vários valores será exportado"
@@ -245,12 +418,23 @@ recordList:
   filter:
     addField: Adicionar novo campo de filtro
     byValue: Filtrar registros com base no valor do campo
+    addFilterToPreset: Salvar como predefinição
+    nil: "NULL"
     conditions:
       and: E
       or: OU
     operatorLabels:
+      is: é
+      equal: é igual
+      notEqual: não é igual
       in: contém
+      notIn: não contém
+      greaterThan: é maior que
+      lessThan: é menor que
+      like: é como
       notLike: não parece
+      between: está entre
+      notBetween: não está entre
     deletedRecords: Registros excluídos
     field: Campo de filtro
     fieldPlaceholder: Escolha um campo
@@ -262,26 +446,37 @@ recordList:
     only: Apenas
     operators:
       like: Como
+      notLike: Não como
       contains: Contém
+      notContains: Não contém
       equal: Igual
       greaterThan: Maior que
       lessThan: Menor que
       notEqual: Não igual
+      between: Entre
+      notBetween: Não está entre
     title: Filtro da lista de registros
     update: Atualizar filtro
     where: Onde
     without: Sem
+    presets: Predefinições de filtro
+    reset: Redefinir filtro
     filters:
       label: Filtros
+      active: "Filtros ativos:"
     name:
       label: Nome
+      placeholder: Nome do filtro
     role:
       label: Funções
+      placeholder: Selecione a(s) função(ões) que poderão usar a configuração predefinida
   hideRecordCloneButton: Ocultar botão de registro de clone
   hideRecordEditButton: Ocultar botão de edição de registro
   hideRecordPermissionsButton: Ocultar botão de permissões de gravação
   hideRecordReminderButton: Ocultar botão de lembrete de gravação
   hideRecordViewButton: Ocultar botão de registro de visualização
+  hideConfigureFieldsButton: Os usuários poderão configurar quais campos exibir
+  enableRecordPageNavigation: Os usuários poderão navegar para o registro anterior/seguinte
   import:
     dropzoneFileAdded: "{{name}} foi carregado e está pronto para importação ({{count}} registro)"
     dropzoneFileAdded_plural: "{{name}} foi carregado e está pronto para importação ({{count}} registros)"
@@ -295,9 +490,25 @@ recordList:
     onErrorFail: Cancelar importação
     onErrorSkip: Pular registro
     pickModuleField: Escolha um campo de módulo
+    importing: Importando registros
     success: Importação bem-sucedida
     to: Importar para {{modulename}}
     uploadFile: Faça upload do arquivo que deseja importar (formato .csv ou JSON)
+    idFieldDescription: Os registros com IDs correspondentes serão atualizados.
+    multiValueDelimiter:
+      label: Delimitador de vários valores
+      semicolon:
+        label: valor 1;valor 2;...;valor n
+      comma:
+        label: valor 1,valor 2,...,valor n
+      pipe:
+        label: valor 1|valor 2|...|valor n
+      semicolonArray:
+        label: "[valor 1;valor 2;...;valor n]"
+      commaArray:
+        label: "[valor 1,valor 2,...,valor n]"
+      pipeArray:
+        label: "[valor 1|valor 2|...|valor n]"
     report:
       count: Número de registros
       detectedErrors: Erros detectados
@@ -312,7 +523,9 @@ recordList:
       title: Relatório de erro de importação de registro
       totalRecords: Registros totais
   label: Lista de registros
+  modulePlaceholder: Selecione um módulo
   moduleFootnote: Módulos sem um {{0}} só podem ser usados ​​em uma lista de registros como editor embutido
+  moduleFieldsFootnote: Se nenhum campo for selecionado, os campos padrão serão exibidos
   noRecords: Não há registros correspondentes à sua solicitação
   pagination:
     next: Próximo
@@ -320,9 +533,11 @@ recordList:
     showing: "{{from}} - {{to}} de {{count}} registros"
     single_one: Um registro
     single_other: "{{count}} registros"
+    recordsPerPage: Por página
     selectLabel: Selecione uma opção
   positionField:
     footnote: Os registros serão classificados com base neste campo
+    placeholder: Campo que manterá a posição do registro
     label: Campo de classificação de registro
   preview:
     addRecordButton: Adicionar botão de registro
@@ -342,40 +557,95 @@ recordList:
     tableHeader: Cabeçalho da tabela
     usersSearchThrough: Os usuários pesquisam nos registros
     usersSee: Os usuários veem {{0}}
+    withPresortedRecords: com registro pré-ordenado ({{0}})
   record:
     draggable: Pode arrastar e soltar registros para ordená-los
+    editMode: Abrir registros no modo de edição por padrão
     fullPageNavigation: Navegação de página inteira
+    hideAddButton: Os usuários poderão adicionar novos registros
+    hideImportButton: Os usuários poderão importar registros
+    pagingLabel: Paginação
+    pagingOptions: Opções de paginação
+    moreOptions: Mais opções
+    hidePaging: O usuário poderá navegar pelas páginas
+    inlineEditor: Opções de edição em linha
+    inlineEditorAllow: Editor de registros em linha
     recordsLabel: Registros
     noPermission: Sem permissão para ler o registro
     perPage: Registros por página
+    prefilterFootnote: A sintaxe simplificada de condição SQL (WHERE ...) é suportada. Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando disponíveis)
+    prefilterHideSearch: Os usuários poderão pesquisar a lista de registros
+    filterHide: Os usuários poderão filtrar a lista
+    prefilterLabel: Filtragem
+    generalLabel: Configurações gerais
     prefilterCommand: Pré-filtro
     prefilterPlaceholder: campo1 = 1 E campo2 = 232
     presortFootnote: A sintaxe de condição SQL simplificada (ORDER BY ...) é suportada
+    presortToggleInput: Alternar tipo de entrada
+    presortHideSort: Os usuários poderão classificar a lista
     presortLabel: Ordenação
+    presortInputLabel: Pré-ordenar
     presortPlaceholder: campo1 DESC, campo2 ASC
     showTotalCount: Mostrar contagem total de registros
+    showRecordPerPageOption: O usuário poderá selecionar registros por página
+    showDeletedRecordsOption: Exibir opção para visualizar registros excluídos
+    setCustomFilterPresets: O usuário poderá definir predefinições de filtro personalizadas
+    openInSameTab: Abra o registro na mesma aba
+    openInNewTab: Abrir registro em uma nova aba
+    openInModal: Abrir registro em um modal
+    createInSameTab: Criar registro na mesma aba
+    createInNewTab: Criar registro em uma nova aba
+    createInModal: Criar registro em um modal
+    enableBulkRecordEdit: Habilitar edição em massa de registros
+    buttons: Botões de gravação
     tooltip:
       clone: Clonar
       edit: Editar
       delete: Excluir
+      restore: Restaurar
+      reminder: Lembrete
       view: Visualizar
       permissions: Permissões
+    recordDisplayOptions: Ao clicar no registro
+    recordSelectorDisplayOptions: Ao clicar no valor do registro
+    addRecordOptions: Ao clicar em adicionar registro
+    textStyles: Estilos de texto
+    configureWrappedFields: Selecione os campos que serão agrupados
   recordPage: página de registro
   refField:
     footnote: Campo que vincula registros com o registro pai
     label: Campo pai
+  selectable: Os usuários poderão selecionar registros
   selected: "{{count}} de {{total}} registros selecionados"
+  selectedFromAllPages: "Todos os {{count}} registros de todas as páginas selecionadas"
+  selectAllRecords: Selecione todos os registros em todas as páginas
+  unselectAllRecords: Limpar seleção
+  sort:
+    tooltip: Ordenar coluna
+  showRecords:
+    deleted: Mostrar registros excluídos
+    existing: Exibir registros existentes
   summaries:
+    label: Resumos
     customSummaries:
+      label: Resumos personalizados
+      description: Os usuários poderão definir resumos personalizados
       add:
         label: Adicionar
+        tooltip: Adicionar um resumo personalizado
     param:
       label:
         label: Rótulo
+        placeholder: Rótulo do resumo
       field:
         label: Campo
+        placeholder: Campo do módulo
       metric:
         label: Métrica
+        placeholder: Métrica do resumo
+      role:
+        label: Função
+        placeholder: Funções que poderão visualizar o resumo
     metrics:
       sum:
         label: Soma
@@ -385,11 +655,24 @@ recordList:
         label: Máx.
       avg:
         label: Média
+      emptyCount:
+        label: Contagem vazia
+      notEmptyCount:
+        label: Contagem não vazia
+      uniqueCount:
+        label: Contagem única
 recordOrganizer:
+  onRecordClick: Modo de exibição do registro
+  openInSameTab: Abrir na mesma aba
+  openInNewTab: Abrir em uma nova aba
+  openInModal: Abrir em um modal
+  module:
+    placeholder: Selecione um módulo
   descriptionField:
     footnote: O valor do campo será usado como descrição do registro
     label: Campo de descrição
   group:
+    footnote: Valor que será atribuído ao campo chave. Os registros serão filtrados com base nesse valor, caso esteja definido.
     label: Valor chave
   groupField:
     footnote: Campo cujo valor mudará quando um registro for movido para o organizador de registros
@@ -401,25 +684,49 @@ recordOrganizer:
   noRecords: Não há registros no módulo vinculado ao organizador de registros. Arraste e solte registros aqui.
   notConfigured: O organizador de registros não está configurado corretamente
   positionField:
+    footnote: Os registros serão classificados com base neste campo. O valor desse campo será atualizado de acordo com a posição do registro.
+    placeholder: Campo que manterá a posição do registro
     label: Campo de classificação de registro
   preview:
     label: "Bloco Organizador de Registros para o módulo {{0}}. Campo de etiqueta {{1}}, campo de descrição {{2}}. Campo de configuração de valor {{3}}, classificado por campo de posição {{4}}."
     moduleNotSelected: Módulo do organizador de registros não selecionado
   addNewRecord: + Adicionar
 recordRevisions:
+  label: Revisões do registro
   viewer:
+    errors:
+      no-record: Não foi encontrado nenhum registro para exibir as revisões
+      no-revisions: Nenhuma revisão de registro encontrada
+      disabled-on-module: As revisões de registros estão desativadas neste módulo
+    show-revisions: Exibir revisões de registro ({{ revision }})
+    show-changes: "{{ count }} mudança(s)"
     operations:
       created: Criado
+      updated: Atualizado
+      soft-deleted: Marcado como excluído
+      undeleted: Restaurado
+      hard-deleted: Excluído permanentemente
     revisions:
       columns:
         timestamp:
           label: Carimbo de data e hora
+        operation:
+          label: Operação
         user:
           label: Do utilizador
     changes:
       columns:
         field:
           label: Campo
+        old-value:
+          label: Valor antigo
+        new-value:
+          label: Novo valor
+  configurator:
+    label: Revisões do registro
+    preload: Pré carregar revisões de registro
+    errors:
+      invalid-module-id: O campo não contém um ID de módulo válido.
 socialFeed:
   label: Feed do Twitter
   noInput: Nenhuma entrada para exibir o feed social...
@@ -435,29 +742,63 @@ field:
     systemField: (campo do sistema)
 comment:
   label: Comentários
+  module:
+    placeholder: Selecione um módulo
   titleField:
     label: Campo de título
     footnote: Valor do campo será usado como título do registro
   contentField:
     label: Campo de conteúdo *
     footnote: O valor do campo será usado como conteúdo do registro
+  replyField:
+    label: Campo de resposta
+    footnote: O valor do campo será usado como resposta do registro
   title:
     placeholder: Título
   submit: Enviar
+  noComments: Ainda não há comentários
+  load:
+    older: Carregar comentários antigos
+    newer: Carregar comentários mais recentes
   sortDirection:
     label: Ordenar direção
+    footnote: Ordene os comentários por data de criação
+    asc: Mais recentes primeiro
+    desc: Mais antigo primeiro
   referenceField:
     label: Campo de referência
+    footnote: Campo que vincula os comentários ao registro principal
   today: Hoje
+  yesterday: Ontem
 navigation:
   chart: Gráficos
+  colorPicker: Escolha uma cor
+  noNavigationItems: Nenhum item de navegação configurado
+  label: Navegação
+  displayOptions: Exibir opções
+  appearance: Aparência
+  alignment: Alinhamento
+  justify: Justificar
   fieldLabel: Rótulo
   enabled: Habilitado
+  openIn: Abrir em
+  navigationItems: Itens de navegação
   type: Tipo
   disabled: Desabilitado
   color: Cor
+  background: Fundo
   url: URL
+  drop: Posição do menu suspenso
+  add: Adicionar item de navegação
+  addDropdown: Adicionar item suspenso
+  composePage: Página Compose
+  pageLayout: Layout da página
+  defaultLayout: Layout padrão
+  unnamedLayout: Layout sem nome
+  tabs: Abas
+  pills: Abas
   small: Pequeno
+  center: Centro
   left: Deixou
   right: Certo
   bottom: Inferior
@@ -470,26 +811,63 @@ navigation:
   danger: Perigo
   info: Informações
   text: Texto
+  dropdown: Menu suspenso
+  multi: Multilinhas
+  sameTab: Mesma aba
+  selectOpenInType: Selecione "Abrir em"
+  newTab: Nova aba
+  dropdownItems: Itens da lista suspensa
+  delimiter: Delimitador
   none: Nenhum
+  displaySubPages: Exibir subpáginas
+  selectBackground: Selecione o plano de fundo
   preview:
     preview: Visualizar
     label: Rótulo
+    home: Casa
+    dropdown: menu suspenso
+    about: sobre
+report:
+  label: Relatório
+  scenario:
+    label: Cenário
+  element:
+    label: Exibir elemento
 progress:
   add: + Adicionar
+  count: Contagem
   aggregate:
     label: Operação de agregação
+    select: Selecione a operação de agregação
+  animated: Animado
+  default-variant: Variante padrão
+  display-options: Exibir opções
+  fetch-failed: Falha ao obter o relatório da barra de progresso
   field:
     label: Campo
+    select: Selecione o campo
+  label: Barra de progresso
   module:
     select: Selecionar módulo
     label: Módulo
   preview: Exemplo instantâneo
+  show:
+    value: Mostrar valor
+    relative: Mostrar relativo
+    progress: Mostrar progresso
+  tab:
+    label: Progresso
+  thresholds: Limiares
+  threshold:
+    label: Limiar
+    variant: Defina qual variante será exibida se o valor for igual ou maior que o limite
   value:
     label: Valor
     min: Valor mínimo
     max: Valor máximo
     default:
       label: Valor padrão
+      description: Este valor será usado se a métrica não estiver configurada
   variant:
     default: Escuro
     danger: Perigo
@@ -503,33 +881,91 @@ progress:
 geometry:
   label: Mapa
   viewLabel: Mapa
+  feedLabel: Configurar fontes
   source:
     label: Fonte
+  addSource: Adicionar fonte
+  lock: Trancar
+  mapHelpText: Mova e role o mapa até a posição que será usada como padrão. Você também pode bloquear a posição ou aplicar zoom para impedir que os usuários se afastem demais.
+  onMarkerClick: Ao clicar no marcador
+  openInSameTab: Abrir na mesma aba
+  openInNewTab: Abrir em uma nova aba
+  openInModal: Abrir em um modal
+  hideGeoSearch: Ocultar pesquisa de localização
   recordFeed:
+    colorPicker: Escolha uma cor
     moduleLabel: Módulo*
     modulePlaceholder: (Sem módulo)
     optionLabel: Registros
+    prefilterLabel: Pré filtrar origens
+    colorLabel: Cor do marcador
+    geometryFieldLabel: Campo de localização*
     titleLabel: Título
     titlePlaceholder: Título
+    geometryFieldPlaceholder: Campo de localização
+    displayMarker: Marcador de exibição
+    displayPolygon: Exibir polígono
+  centerLabel: Centro
+  zoom:
+    zoomLabel: Zoom
+    zoomMinLabel: Zoom min
+    zoomMaxLabel: Zoom max
+    zoomStartingLabel: Zoom Iniciando
+  bounds:
+    boundsLabel: Bordas
+    lockBounds: Travar bordas
+    topLeft: Borda superior esquerda
+    lowerRight: Borda superior direita
+  tooltip:
+    goToCurrentLocation: Ir para a localização atual
 tabs:
+  label: Abas
+  alertTitle: Escreva um título para seu bloco
+  title: Abas
+  tab: Aba
+  selectBlock: Escolha um bloco
+  noTabs: Sem abas configuradas
+  noBlock: Nenhum bloco configurado
+  displayTitle: Exibir opções
   preview: Exemplo instantâneo
   newBlockModal: Adicionar novo bloco
+  placeholder:
+    block: Selecione um bloco para a aba
   style:
     appearance:
+      label: Aparência
+      tabs: Abas
+      pills: Abas
       small: Pequeno
     alignment:
+      label: Alinhamento
       left: Deixou
+      center: Centro
       right: Certo
     justify:
+      label: Justificar
+      justify: Justificar
       none: Nenhum
     orientation:
+      label: Orientação
       vertical: Vertical
       horizontal: Horizontal
     position:
+      label: Posição
+      start: Iniciar
       end: Fim
   table:
     columns:
       title:
         label: Título
+      block:
+        label: Bloquear
   tooltip:
+    edit: Editar bloco
+    clone: Clonar bloco e aba
+    copy: Copiar bloco
+    delete: Excluir aba
+    editDisabled: A edição de blocos com abas está desativada até que você salve este bloco
     addBlock: Adicionar novo bloco
+noConfiguration: Bloco não configurado corretamente
+interpolationFootnote: Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando disponíveis)
