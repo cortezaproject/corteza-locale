@@ -21,6 +21,7 @@
     paste: Colar
     redo: Refazer
     save: Salvar
+    'hide-guides': Ocultar guias
     'show-help': Mostre ajuda
     'reset-view-to-start-point': Redefinir a visualização para o ponto de partida
     'select-all': Selecionar tudo
