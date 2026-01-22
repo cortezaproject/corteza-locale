@@ -12,5 +12,7 @@ template:
     today: Hoje
     tomorrow: Em 1 dia
     soon: Em {{days}} dias
+  delete-all: Faça logout de todos os lugares
 alerts:
   session-deleted: Sessão removida
+  delete-sessions-but-current: Todas as sessões de login, exceto a atual, foram excluídas
