@@ -2,13 +2,16 @@ title: Notifications
 empty: Pas de notifications
 emptyDescription: Vous verrez des notifications ici lorsqu'elles arriveront
 markAllAsRead: Marquer tout comme lu
+markAllAsUnread: Marquer tout comme non lu
 markAsRead: Marquer comme lu
+markAsUnread: Marquer comme non lu
 delete: Supprimer
 all: Tous
 unread: Non-lu
 read: Lu
 success: Succès
 allMarkedAsRead: Toutes les notifications ont été marquées comme lues
+allMarkedAsUnread: Toutes les notifications ont été marquées comme non lues
 notificationDeleted: La notification a été supprimée
 loadMore: Charger plus
 recordRedirectError: Erreur lors de la navigation vers l'élément
@@ -17,6 +20,7 @@ unmute: Réactiver les notifications
 muted: Notifications désactivées
 unmuted: Notifications réactivées
 markAllAsReadError: Erreur lors du marquage de toutes les notifications comme lues
+markAllAsUnreadError: Erreur lors du marquage de toutes les notifications comme non lues
 notificationDeletedError: Erreur lors de la suppression de la notification
 namespaceNotFound: Namespace introuvable
 pageNotFound: Page introuvable
