@@ -1,3 +1,9 @@
 errors:
+  alreadyExists: nível de sensibilidade por esse DNS já existe
+  existsEndpoint: já existe um nível de sensibilidade para este DNS
+  generic: a solicitação não pôde ser concluída devido a um erro interno
   invalidEndpoint: ponto final inválido
   invalidID: ID inválida
+  notAllowedToManage: não é permitido gerenciar o nível de sensibilidade
+  notFound: nível de sensibilidade não encontrado
+  deleteInUse: não é possível excluir níveis de sensibilidade em uso
