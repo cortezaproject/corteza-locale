@@ -1,2 +1,3 @@
 template:
   log-out: Sessão encerrada com sucesso
+  log-in: Clique aqui para <a data-test-id="link-login" href="{{link}}">entrar</a>
