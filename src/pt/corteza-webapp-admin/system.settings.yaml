@@ -13,17 +13,29 @@ editor:
         ignored-security: O sistema está configurado para ignorar as restrições de segurança de senha que são inseguras em implementações de produção. Se esta for uma implantação de produção, entre em contato com seu administrador para atualizar a configuração do sistema (a variável AUTH_PASSWORD_SECURITY .env).
         min-length: Comprimento mínimo
         min-length-description: Deve ter pelo menos 8 caracteres
+        min-num-count: Número mínimo de números
+        min-num-count-description: A senha deve incluir a quantidade de números especificado (desativado se definido como 0)
         min-special-count: Número mínimo de caracteres especiais
         min-special-count-description: A senha deve incluir a quantidade de caracteres especiais especificado (desativado se definido como 0)
+        min-upper-case-length: Número mínimo de caracteres maiúsculos
+        min-upper-case-description: A senha deve incluir a quantidade de caracteres maiúsculos (desativado se definido como 0)
+        min-lower-case-length: Número mínimo de caracteres minúsculos
+        min-lower-case-description: A senha deve incluir a quantidade de caracteres minúsculos (desativado se definido como 0)
       signup:
         email-confirmation-required: Confirmação de cadastro por e-mail obrigatória
         enabled: Cadastro habilitado
         split-credentials-check:
           description: 'Divida o login em duas etapas, colete a entrada de e-mail primeiro e mostre a entrada para a senha na segunda tela. Encaminhe automaticamente o usuário para o provedor de identidade externo quando o usuário não tiver sua senha definida e houver apenas um IdP presente'
           label: Ativar verificação de credenciais divididas
+      profile-avatar:
+        enabled: Avatar de perfil habilitado
       send-user-invite-email:
+        title: Convidar email
+        enabled: Enviar email de convite na criação de usuário
+        description: Quando ativada, essa configuração envia um email de convite para um usuário recém-criado por meio da CLI
         expires:
           label: Valido para
+          description: Por quanto tempo o token de convite será válido antes de expirar
     mail:
       title: Email do remetente do e-mail de autenticação
       from-address: Endereço do remetente
@@ -32,15 +44,25 @@ editor:
     mfa:
       title: Autenticação multifator
       TOTP:
+        enabled: Ativar TOTP (senha de uso único baseada em tempo via aplicativo móvel)
+        enforced: Exigir que todos os usuários usem TOTP
         issuer:
+          description: O nome do emissor será enviado ao aplicativo autenticador quando o usuário o configurar
           label: Emissor
       emailOTP:
+        enabled: Ligar email OTP (senha de uso único enviado ao email)
+        enforced: Exigir que todos os usuários usem email OTP
         expires:
           description: Por quanto tempo a senha será válida antes de expirar
           label: Valido para
     auto-logout:
+      title: Logout automático
       enabled:
         label: Habilitado
+        description: Desconectar automaticamente os usuários após um determinado período de inatividade
+      timeout:
+        label: Tempo de expiração
+        description: O período de inatividade em segundos antes de um usuário ser desconectado
   external:
     title: Provedores de autenticação externa
     enabled: Ativar autenticação externa
@@ -51,6 +73,7 @@ editor:
         info: Emissor, ID do cliente
     standard:
       enabled: Habilitado
+      apiAccess: Acesso à API
       clientKey: Chave do cliente
       clientSecret: Segredo
     oidc:
@@ -104,9 +127,17 @@ editor:
       title: Segurança
       prohibited-roles:
         description: As funções desta lista serão removidas do contexto de segurança ao autenticar com este provedor
+        label: Funções proibidas
       forced-roles:
         description: As funções desta lista serão sempre adicionadas ao contexto de segurança ao autenticar com este provedor
         label: Funções forçadas
       permitted-roles:
         description: Somente as funções nesta lista serão adicionadas ao contexto de segurança quando autenticadas com este provedor
         label: Funções permitidas
+  bgScreen:
+    title: Tela de fundo de autenticação
+    image:
+      uploader:
+        label: Imagem de fundo
+      editor:
+        label: CSS customizado
