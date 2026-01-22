@@ -26,6 +26,7 @@ now: Maintenant
 offset: Décalage
 offset-expression: Décalage (expression)
 permissions: Permissions
+reset: Réinitialiser
 searchPlaceholder: Recherchez des processus
 subworkflow: Sous-processus
 subworkflows: Sous-processus
@@ -34,6 +35,17 @@ disabled: Désactivé
 without: Sans
 only: Uniquement
 including: Comprenant
+filter:
+  label: Filtrer
+  title: Filtrer les processus
+  apply: Appliquer filtre
+  namespace:
+    label: Namespace
+    placeholder: Sélectionnez le ou les namespaces
+  module:
+    label: Module
+    placeholder: Sélectionnez le ou les modules
+    template: "{{namespace}} - Modules"
 workflow-list: Liste de processus
 workflow:
   single: Processus
