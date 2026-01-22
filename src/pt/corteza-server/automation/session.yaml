@@ -5,3 +5,4 @@ errors:
   notAllowedToRead: não autorizado a ler esta sessão
   notAllowedToSearch: não autorizado a buscar ou listar sessões
   notFound: sessão não encontrada
+  staleData: A sessão foi modificada por outra pessoa ou por um fluxo de trabalho depois de você tê-la aberto. Atualize a página para ver a versão mais recente
