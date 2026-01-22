@@ -1,4 +1,8 @@
 errors:
+  notAllowedToCreate: non autorisé à créer des nœuds
+  notAllowedToManage: non autorisé à gérer ce nœud
+  notAllowedToPair: non autorisé à appairer ce nœud
+  notAllowedToSearch: non autorisé à créer des nœuds
   notFound: ce nœud n'existe pas
   pairingTokenInvalid: jeton d'appairage invalide
   pairingURITokenInvalid: appairage d'URI avec jeton d'appairage invalide
