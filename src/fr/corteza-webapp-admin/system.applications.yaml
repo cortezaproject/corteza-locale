@@ -13,23 +13,32 @@ editor:
   new: Nouvelle Application
   permissions: Permissions
   title:
+    create: Créer application
     edit: Éditer application
   unify:
     config:
+      description: Configuration d'application (JSON)
       label: Configuration
+    listed: Listé
     logo:
       label: Logo
+      description: Logo utilisé dans le sélecteur d'application
+      placeholder: Choisissez un logo ou déposez-le ici...
       reset: Réinitialiser
     name:
+      description: Nom utilisé dans le sélecteur d'application
       label: Nom
+    pinned: Épinglé
     title: Sélecteur d'application
     url:
+      description: URL de l'application
       label: URL
 list:
   columns:
     createdAt: Créé
     enabled: Activé
     name: Nom
+    appListName: Nom sélecteur d'application
     state: État
   export: Exporter
   rows:
@@ -44,8 +53,13 @@ list:
       label: Uniquement
     inclusive:
       label: Comprenant
+    query:
+      label: Filtrer la liste d'applications
+      placeholder: Filtrez les applications par leurs noms
+  loading: Chargement des applications
   new: Nouvelle Application
   permissions: Permissions
+  title: Applications
   yaml: YAML
   delete: Supprimer
   undelete: Annuler suppression
