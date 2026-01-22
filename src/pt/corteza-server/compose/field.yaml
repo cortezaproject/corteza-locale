@@ -1,4 +1,10 @@
 system:
+  ID: ID do registro
+  moduleID: ID do Módulo
+  namespaceID: ID do Namespace
+  revision: Versão do registro
+  meta: Meta data
+  recordID: ID do registro
   createdAt: Criado em
   createdBy: Criado por
   deletedAt: Excluído em
