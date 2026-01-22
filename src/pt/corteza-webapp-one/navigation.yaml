@@ -13,12 +13,18 @@ namespace: Namespaces
 noPageTitle: Sem título de página
 page: Páginas
 publicPages: Páginas públicas
+appMenu: Menu
 userSettings:
   changePassword: Mudar senha
   loggedInAs: Conectado como {{user}}
   logout: Sair
   profile: Perfil
+  theme: Tema
 themes:
   labels:
     light: Luz
     dark: Escuro
+extendSession:
+  labels:
+    extend: Estender Sessão
+    warning: Você será desconectado em {{ countdownTime }} segundos
