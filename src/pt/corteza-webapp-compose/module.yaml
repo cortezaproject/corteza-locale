@@ -9,6 +9,8 @@ allRecords:
   columns:
     title: Configurar colunas
     description: As colunas escolhidas não serão salvas depois que você atualizar a página
+  tooltip:
+    configureColumns: Selecionar um grande número de campos ou exibir campos de registro/usuário afetará o desempenho
   view:
     title: Ver registro para o módulo "{{name}}"
 block:
@@ -20,6 +22,7 @@ edit:
   create: Criar módulo
   edit: Editar módulo
   fields:
+    label: Campos
     columns:
       name:
         label: Nome
@@ -60,7 +63,10 @@ edit:
       description: Selecione os campos que deseja compartilhar com a rede selecionada
       title: Expor
   discoverySettings:
+    title: Configurações de descoberta
+    public: Público
     private: Privado
+    protected: Protegido
   fieldPermissions: Permissões de campo
   manageRecordFields: Gerenciar campos de registro
   moduleFieldSettings: Configurações de campo do módulo
@@ -72,29 +78,132 @@ edit:
   steps:
     recordList: Página com lista de registros
     recordPage: Página de registro
+  systemFields: 'Campos do sistema'
   tooltip:
     attributes: Selecione se o campo pode conter vários valores, se for um campo obrigatório ou se contiver dados confidenciais
+    name: Deve ter no mínimo 2 caracteres. Pode conter apenas letras, números, sublinhados e hífens. Deve terminar com uma letra ou um número.
     private: Dados sensíveis
     required: Campo obrigatório
     title: O nome exibido nas listas de entrada/dados do formulário
+  issues:
+    label: Problemas ({{count}})
   schemaAlterations:
+    title: Alterações de esquema
+    resolve: Resolver
+    resolveAuto: Resolver automaticamente
+    resolved: Resolvido
     dismiss: Dispensar
+    waitingFor: 'Aguardando {{id}}'
+    noAlterations: Não é necessário resolver nenhuma alteração de esquema
     columns:
+      alteration: Alteração
+      change: Mudar
       status: Status
+    params:
+      attribute:
+        add: Adicionar coluna {{ident}} codificada como {{storeType}} do tipo {{attrType}}
+        delete: Excluir coluna {{ident}} codificada como {{storeType}}
+        reType: Alterar o tipo da coluna {{ident}} para {{toType}}
+        reEncode: Alterando a codificação da coluna {{ident}} para {{toType}}
+      model:
+        add: Adicionar esquema para o modelo {{ident}}
+        delete: Excluir esquema para o modelo {{ident}}
   config:
     dal:
+      title: Armazenamento de dados
+      connection:
+        label: Conexão com o banco de dados
+        placeholder: Selecione uma conexão de banco de dados
+        description: Alterar a conexão irá redefinir a configuração do nível de sensibilidade no módulo e nos campos, caso o nível de sensibilidade seja incompatível com a nova conexão
+      ident:
+        label: Nome da coleção ou tabela do banco de dados
+        placeholder: compose_record
+        description: "Nome da tabela ou coleção do banco de dados onde os registros podem ser acessados ​​e armazenados. Suporta marcadores de particionamento: {{module}} para identificador de módulo e {{namespace}} para identificador de namespace"
+      connections:
+        fetch-failed: Não foi possível obter conexões disponíveis
+      module-fields:
+        label: Mapeamento e codificação de campos do módulo
+        description: |
+          Configure como os campos de registro são armazenados e lidos do banco de dados.
+          O comportamento padrão é codificar os valores em JSON e armazená-los em um único campo.
+          Como alternativa, você pode usar colunas com o mesmo nome do campo (Coluna)
+          ou usar um Alias ​​e armazenar o valor diretamente na coluna.
       system-fields:
+        label: Mapeamento e codificação de campos do sistema
+        description: |
+          Os campos do sistema são usados ​​para armazenar metadados sobre o registro.
+          Configure para ignorá-los ou armazená-los em uma coluna com o mesmo nome (Coluna),
+          em uma coluna diferente (Alias) ou codificá-los em JSON.
         grouptypes:
           all: Todo
+          partition: Partição
+          userReference: Referência do usuário
+          timestamps: Carimbos de data/hora
+          extras: Extras
+      encoding-strategy:
+        unavailable: indisponível
+        ident:
+          placeholder: Nome do campo ou da coluna da tabela do banco de dados
+        strategies:
+          plain:
+            label: Coluna
+          alias:
+            label: Alias
+          json:
+            label: JSON
+    privacy:
+      title: Privacidade
+      sensitivity-level:
+        label: Nível de sensibilidade máximo permitido
+        placeholder: Selecione um nível de sensibilidade
+        description: Nível máximo de sensibilidade permitido para os campos deste módulo. Alterar este valor redefinirá o nível de sensibilidade dos campos caso sejam incompatíveis.
+      usage-disclosure:
+        label: Divulgação do uso de dados sensíveis (visível no console de privacidade de dados)
+      sensitivity-levels:
+        fetch-failed: Não foi possível obter os níveis de sensibilidade
+    record-revisions:
+      title: Revisões de registro
+      enabled: Ativar revisões de registro
+      ident:
+        label: Identificador
+        placeholder: compose_record_revisions
+        description: 'Nome da tabela ou coleção do banco de dados onde os registros de revisões podem ser acessados ​​e armazenados. Suporta marcadores de particionamento: {{module}} para identificador de módulo e {{namespace}} para identificador de namespace'
     validation:
       title: Validação
+      record-duplication:
+        title: Detecção de duplicação de registros
+        strict-fields:
+          label: Validação rigorosa de valores duplicados
+          description: O registro não será salvo se um valor duplicado for detectado nos campos selecionados em qualquer registro existente deste módulo
+        non-strict-fields:
+          label: Validação flexível de valores duplicados
+          description: O registro será salvo e o usuário receberá um aviso quando um valor duplicado for detectado nos campos selecionados em qualquer registro existente deste módulo
     uniqueValues:
+      title: Valores únicos
+      duplicationDetection: Detecção de duplicatas
+      preventRecordsSave: Impedir o salvamento de registros se forem encontrados valores duplicados
+      warningLabel: Aviso ou mensagem de erro exibida quando a restrição for atendida
+      valueModifiers: Modificadores de valor
+      multiValues: Valores de múltiplos campos
       add: Adicionar
+      searchFields: Adicionar campo(s) à restrição
+      ignoreCase: Ignorar maiúsculas e minúsculas
+      fuzzyMatch: Combinação aproximada
+      soundsLike: Parece que
+      caseSensitive: Maiúsculas e minúsculas
+      oneOf: Um dos
       equal: Igual
+      warningMessage: Aviso ou mensagem de erro exibida quando a restrição for atendida
       field: Campo
       type: Tipo
       none: Nenhum
+      addNewConstraint: Adicionar nova restrição
+      uniqueValueConstraint: "Restrição de valor único #{{index}}"
+      tooltip:
+        performance: O uso da detecção de duplicatas afetará o desempenho
 federated: Federado
+forModule:
+  recordPage: '{{name}} - Página de registro'
 general:
   fields: Campos do módulo
   label:
@@ -106,7 +215,10 @@ general:
     type: Tipo
     saveAndClose: Salvar e fechar
   placeholder:
+    name: 'Nome (ex.: "Leads")'
+    handle: Identificador único (a - z, 0 - 9, sublinhado, hífen)
     sample: Amostra
+    invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
 import: Importação de módulo
 navigation:
   module: Módulos
@@ -116,7 +228,16 @@ list:
   columns:
     name: Nome
     handle: Identificador
+    changedAt: Última modificação
   delete: Excluir
 recordPage:
   create: Criar página de registro
+  edit: Editar página de registro
+recordListPage:
+  create: Criar página de lista de registros
+  edit: Página de edição da lista de registros
+related-pages: Páginas relacionadas
+searchPlaceholder: Pesquisar módulos neste espaço de nomes
 title: Lista de Módulos
+tooltip:
+  permissions: Permissões do módulo
