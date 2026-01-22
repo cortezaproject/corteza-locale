@@ -5,9 +5,22 @@ editor:
       max-size: Tamanho máximo (MB)
       page: Anexos de página
       record: Gravar anexos
+      icon: Ícone de anexos
       type:
         description: 'Tipos MIME, separados por ",". Exemplo "texto/simples, texto/csv"'
         whitelist: Lista de permissões de tipo de arquivo
     title: Básico
   ui:
     title: Interface de usuário
+    sidebar:
+      title: Barra lateral
+      hide-namespace-list: Ocultar lista de namespaces
+      hide-namespace-list-link: Ocultar link para todos os namespaces
+    record-toolbar:
+      title: Barra de ferramentas do registro
+      hide-submit: Ocultar botão de envio
+      hide-delete: Ocultar botão de excluir
+      hide-edit: Ocultar botão de edição
+      hide-new: Ocultar botão de novo
+      hide-clone: Ocultar botão de clonagem
+      hide-back: Ocultar link de retorno
