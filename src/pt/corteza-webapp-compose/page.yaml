@@ -1,23 +1,71 @@
 page-layout:
+  layouts: Layouts
   title: Título *
   handle: Identificador
+  add: Adicionar layout
+  configure: 'Configurar layout - "{{title}}"'
+  visibility: Visibilidade
   general: Em geral
+  useTitle: Usar título do layout
+  tooltip:
+    title: Use o título do layout em vez do padrão da página de registro. Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando disponíveis)
+    configure: Configurar layout
+    builder: Abrir layout no construtor
+    performance:
+      condition: O uso de condições de visibilidade afetará o desempenho
+      requiredFields: O uso de campos obrigatórios afetará o desempenho
   condition:
     label: Doença
+    placeholder: Quando o layout será exibido
+    description:
+      record-page: "Você pode usar {{0}}, {{1}}, {{2}}, {{3}} dentro da expressão, por exemplo: {{4}} ou {{5}}"
+      non-record-page: "Você pode usar {{0}}, {{1}} dentro da expressão, por exemplo: {{2}} ou {{3}}"
   roles:
     label: Funções
+    placeholder: Selecione as funções para as quais o layout será exibido
   recordToolbar:
+    label: Barra de ferramentas do registro
     buttons:
       label: Botões
+      showBack: Mostrar botão "Voltar"
+      showDelete: Mostrar botão "Excluir"
+      showClone: Exibir o botão "Salvar como cópia"
+      showNew: Exibir o botão "Adicionar novo"
+      showEdit: Mostrar botão "Editar"
+      showSave: Exibir botão "Salvar"
     actions:
       label: Ações
+      add: Adicionar ação
       buttonLabel: Rótulo
       variant: Variante
       visible: Visível
       kind:
         label: Tipo
+        toLayout: Redirecionar para o layout
+        toURL: Redirecionar para URL
       placement:
+        label: Posição
+        start: Iniciar
+        center: Centro
         end: Fim
+      openIn:
+        label: Abrir em
+        sameTab: Mesma aba
+        newTab: Nova aba
+      toLayout:
+        label: Redirecionar para o layout
+        placeholder: Nenhum layout selecionado
+      toURL:
+        label: Redirecionar para URL
+        placeholder: Nenhuma URL especificada
+  requiredFields:
+    label: Campos obrigatórios
+    description: Defina os campos que devem ser obrigatórios com base em uma condição
+    field: Campo
+    condition: Condição
+    selectPlaceholder: Selecione um campo
+    conditionPlaceholder: Se nenhuma condição for definida, o campo será obrigatório
+    help: "Você pode usar {{0}}, {{1}}, {{2}} dentro da expressão para definir quando um campo deve ser obrigatório"
 block:
   general:
     label:
@@ -26,16 +74,36 @@ block:
       pageBuilder: Criador de páginas
       saveAndClose: Salvar e fechar
     placeholder:
+      handle: Identificador único (a - z, 0 - 9, sublinhado, hífen)
       sample: Amostra
     title: Adicionar novo bloco
+    invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
 changeBlock: Alterar bloco existente
+referencedBlock: Este bloco é usado em outros layouts
+copyOf: "Cópia de {{title}}"
 build:
   addBlock: Adicionar bloco
   selectBlockTitle: Selecione o tipo do novo bloco
+  saveAsCopy:
+    ref: Com referências
+    noRef: Sem referências
 edit:
   create: Criar página
   edit: Editar Página
+  otherOptions: Outras opções
   pageDescription: Descrição da página
+  visible: Visibilidade da página
+  notifications:
+    enabled: Exibir notificações de salvamento de registro
+icon:
+  configure: Ícone de configurar página
+  noIcon: Nenhum ícone
+  page: Ícone de página
+  upload: Enviar ícone
+  list: Ícones enviados
+  delete: Excluir ícone selecionado
+url:
+  label: Ou adicione o URL ao ícone
 import: 'Importar página(s)'
 instructions: Arraste e solte páginas para ajustar a ordem e a hierarquia
 invalid: Configuração inválida
@@ -47,7 +115,10 @@ label:
   pageBuilder: Criador de páginas
   permissions: Permissões
   saveAndClose: Salvar e fechar
+  delete: Excluir bloco
   createPage: Criar página
+placeholder:
+  title: 'Título da página (ex.: "Leads")'
 loading: Carregando
 moduleEdit: Editar módulo
 navigation:
@@ -59,9 +130,32 @@ noPages: Nenhuma página
 notVisible: Escondido
 pageMoveFailed: Não foi possível mover esta página
 reordered: Página reordenada
+showSubPages: Expandir subpáginas na barra lateral
+customTitle: Use um título personalizado
 title: Lista de páginas
 tooltip:
+  view: Ver página
   edit:
     page: Editar Página
+    block: Editar bloco
+  copy:
+    block: Copiar bloco
+  clone:
+    block: Clonar bloco
+  delete:
+    block: Excluir bloco
+  preview-link: Link de pré-visualização
+  saveAsCopy: Não é possível duplicar a página de registro
 view: Visualizar
 visible: Visível
+delete:
+  rebase: Atualizar página pai das subpáginas
+  cascade: Excluir subpáginas
+public:
+  record:
+    create:
+      title: '{{name}} - Criando Registro'
+    edit:
+      title: '{{name}} - Editando Registro'
+    view:
+      title: '{{name}} - Viualizando Registro'
