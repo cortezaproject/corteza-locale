@@ -19,5 +19,7 @@ errors:
   notAllowedToUndelete: não é permitido recuperar este registro
   notAllowedToUpdate: não é permitido atualizar este registro
   notFound: registro não encontrado
+  staleData: O registro foi modificado por outra pessoa ou por um fluxo de trabalho depois que você o abriu. Atualize a página para ver a versão mais recente
   unknownBulkOperation: operação em massa desconhecida {bulkOperation}
   valueInput: entrada de valor de registro inválido
+  maxRecordsReached: número máximo de registros por namespace atingido
