@@ -7,3 +7,4 @@ errors:
   notAllowedToUndelete: não  tem permissão para recuperar este gatilho
   notAllowedToUpdate: não tem permissão para atualizar este gatilho
   notFound: gatilho não encontrado
+  staleData: O gatilho foi modificado por outra pessoa ou por um fluxo de trabalho depois que você o abriu. Atualize a página para ver a versão mais recente
