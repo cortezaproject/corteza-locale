@@ -13,10 +13,15 @@ datasource:
     load:
       label: Carga
       data-from-resource: Carrega dados de um recurso especificado, como Compor registros
+    link:
+      label: Link
+      load-datasources: Vincula duas fontes de dados de carregamento com uma coluna exclusiva que as vincula, como um seletor de registro de composição
     join:
       label: Junte-se
+      load-datasources: Une duas fontes de dados com uma coluna única que as conecta, como um seletor de registro do Compose. A etapa de junção produz um único conjunto de linhas, em contraste com a etapa de vinculação, que produz um dataframe independente para cada linha local
     aggregate:
       label: Agregar
+      load-datasource: Agrega dados de uma fonte de dados de carregamento com base no valor de uma coluna e os agrega, como por exemplo, contando o número de contas com o mesmo status
 datasources:
   label: Fontes de dados
   save: Salvar fontes de dados
@@ -53,21 +58,32 @@ title: Título
 tooltip:
   edit:
     report: Editar relatório
+    block: Editar bloco
   add:
     displayElement: Adicionar elemento de exibição
+  delete:
+    block: Excluir bloco
+  configure-scenarios: Configurar cenários
+  unsavedChanges: Mudanças não salvas
 available-columns: Colunas disponíveis
 selected-columns: Colunas selecionadas
+no-columns-found: Nenhuma coluna encontrada
 type-to-search: Digite aqui para pesquisar entre as colunas
 selected: Selecionado
 select-all: Selecionar tudo
 unselect-all: Desmarque todos
 value: Valor
 name: Nome
+unsaved-changes: As alterações não salvas serão perdidas. Deseja sair da página?
 filter:
   operators:
     like: Como
+    notLike: Não como
     contains: Contém
+    notContains: Não contém
     equal: Igual
     greaterThan: Maior que
+    greaterThanEqualTo: Maior ou igual a
+    lessThanEqualTo: Menor ou igual a
     lessThan: Menor que
     notEqual: Não igual
