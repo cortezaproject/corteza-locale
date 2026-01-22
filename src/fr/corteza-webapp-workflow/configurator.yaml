@@ -1,5 +1,9 @@
 configuration: Configuration
 edge: Bord
+general:
+  label: Général
+labels:
+  label: Étiquettes
 name:
   label: Nom *
   placeholder: Nom de processus
