@@ -1,4 +1,6 @@
 errors:
+  asyncRouteTooManyProcessers: já existe um processador para esta rota assíncrona
+  asyncRouteTooManyAfterFilters: não são permitidos filtros posteriores para esta rota assíncrona
   invalidID: ID inválida
   invalidRoute: rota inválida
   notAllowedToCreate: não é permitido criar um filtro
