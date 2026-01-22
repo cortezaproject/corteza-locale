@@ -2,3 +2,7 @@ errors:
   invalidID: ID invalide
   invalidKind: type invalide
   invalidStatus: statut invalide
+  notAllowedToRead: non autorisé à lire cette demande de confidentialité des données
+  notAllowedToSearch: non autorisé pour rechercher ou lister des demandes de confidentialité des données
+  notAllowedToCreate: non autorisé à créer une demande de confidentialité des données
+  notAllowedToApprove: non autorisé à approuver/rejeter des demandes de confidentialité des données
