@@ -7,15 +7,34 @@ ui:
   cancel: Cancelar
   set-for: Definir permissões para {{target}}
   loading: Carregando permissões
+  notification:
+    save:
+      success: Permissões salvas
+      failed: Falha ao salvar permissões
   edit:
+    title: Editar permissões
     label: Funções do usuário
+    description: Selecione a função para definir as permissões
+  evaluate:
+    description: Avaliar permissões aplicadas
   add:
     label: Adicionar
+    title: Avaliar permissões
     save: Salvar fechar
+    edit:
+      description: Selecione a função para a qual deseja editar as permissões
+    evaluate:
+      description: Selecione uma combinação de funções ou um usuário para avaliar
     role:
       label: Funções
+      placeholder: Selecione a(s) função(ões)
     user:
       label: Comercial
+      placeholder: Pesquise ou selecione um usuário
+  tooltip:
+    unknown-context:
+      user: Não é possível avaliar a permissão para um usuário com função contextual em um recurso não específico
+      role: Não é possível avaliar a permissão para função contextual em um recurso não específico
   access:
     allow: Permitir
     inherit: Herdar
@@ -23,6 +42,7 @@ ui:
   #############################################################################
   # Inline permission table UI:
   click-on-cell-to-allow: Clique na célula de permissão/função para permitir uma operação específica
+  edit-or-eval: Editar ou avaliar permissões
   title:
     automation: Permissões de automação
     system: Permissões do sistema
@@ -31,6 +51,8 @@ ui:
   clone:
     clone: Clonar
     label: Permissões de clonagem
+    pick-role: Comece a digitar para procurar vagas
+    title: Aplicar permissões a
     description: Isso clonará todas as permissões da função atual e as aplicará ao selecionado
 resources:
   automation:
@@ -94,6 +116,10 @@ resources:
           title: Pode fixar o aplicativo para todos
         application.flag.self:
           title: Pode fixar o aplicativo para si
+        user-groups.search:
+          title: Listar e pesquisar grupos de usuários
+        user-group.create:
+          title: Criar novo grupo de usuários
         applications.search:
           title: Listar e pesquisar aplicativos
         auth-client.create:
@@ -116,6 +142,8 @@ resources:
           title: Listar e pesquisar filas de mensagens
         reminder.assign:
           title: Permitir atribuição de lembrete
+        notification.assign:
+          title: Permitir atribuição de notificação
         role.create:
           title: Criar nova função
         roles.search:
@@ -134,10 +162,22 @@ resources:
           title: Listar e pesquisar usuários
         resource-translations.manage:
           title: Gerenciar traduções de recursos
+        dal-schema-alterations.manage:
+          title: Gerenciar alterações de esquema
         report.create:
           title: Criar novo relatório
         reports.search:
           title: Listar e pesquisar relatórios
+        dal-connections.search:
+          title: Buscar conexões
+        dal-connection.create:
+          title: Criar conexões
+        dal-sensitivity-level.manage:
+          title: Gerenciar o nível de sensibilidade da conexão
+        data-privacy-requests.search:
+          title: Solicitações de privacidade de dados de pesquisa
+        data-privacy-request.create:
+          title: Criar solicitações de privacidade de dados
     application:
       label: Formulários
       all: todos os aplicativos
@@ -194,13 +234,25 @@ resources:
           specific: Atualizar cliente "{{target}}
           title: Atualize qualquer cliente
     dal-connection:
+      label: Conexões
+      all: todas as conexões
+      specific: conexão "{{target}}"
       operations:
         read:
           description: 'Padrão: negar'
+          specific: Ler conexão "{{target}}"
+          title: Ler qualquer conexão
         update:
           description: 'Padrão: negar'
+          specific: Atualizar conexão "{{target}}"
+          title: Atualizar qualquer conexão
         delete:
           description: 'Padrão: negar'
+          specific: Deletar conexão "{{target}}
+          title: Deletar qualquer conexão
+        dal-config:
+          manage:
+            title: Gerencie todas as conexões
     role:
       label: Funções
       all: todos os papéis
@@ -298,6 +350,10 @@ resources:
       all: todos os usuários
       specific: usuário "{{target}}"
       operations:
+        credentials:
+          manage:
+            specific: Gerenciar credenciais de {{target}}
+            title: Gerenciar qualquer usuário
         delete:
           description: 'Negação padrão'
           specific: Excluir {{target}}
@@ -330,13 +386,40 @@ resources:
           description: 'Negação padrão'
           specific: Atualizar {{target}}
           title: Atualizar qualquer usuário
+    user-group:
+      label: Grupo de usuário
+      all: todos os grupos de usuários
+      specific: grupo de usuário "{{target}}"
+      operations:
+        read:
+          description: 'Padrão: negar'
+          specific: Ler {{target}}
+          title: Ler qualquer grupo de usuário
+        update:
+          description: 'Padrão: negar'
+          specific: Atualizar {{target}}
+          title: Atualizar qualquer grupo de usuário
+        delete:
+          description: 'Padrão: negar'
+          specific: Excluir {{target}}
+          title: Deletar qualquer grupo de usuário
+        members.manage:
+          description: 'Padrão: negar'
+          specific: Gerenciar membros para {{target}}
+          title: Gerencie os membros de qualquer grupo de usuários
     data-privacy-request:
+      label: Solicitações de privacidade
+      all: todas as solicitações
+      specific: solicitar "{{target}}"
       operations:
         read:
           description: 'Padrão: negar'
           specific: Leia {{target}}
+          title: Ler qualquer solicitação
         approve:
           description: 'Padrão: negar'
+          specific: Aprovar {{target}}
+          title: Aprovar qualquer solicitação
   federation:
     component:
       label: Componente de federação
@@ -345,6 +428,8 @@ resources:
           title: Conceder permissões no componente de federação
         node.create:
           title: Criar nós
+        nodes.search:
+          title: Listar ou buscar nós
         pair:
           title: Emparelhar nós
         settings.manage:
@@ -398,6 +483,8 @@ resources:
       operations:
         delete:
           title: Excluir qualquer módulo
+        owned-record.create:
+          title: Gerenciar dono ao criar registros para qualquer módulo
         read:
           title: Leia qualquer módulo
         record.create:
@@ -420,6 +507,8 @@ resources:
           title: Crie gráficos em qualquer namespace
         charts.search:
           title: Liste e pesquise gráficos em qualquer namespace
+        charts.export:
+          title: Exportar gráficos em qualquer namespace
         delete:
           title: Excluir qualquer namespace
         manage:
@@ -428,6 +517,8 @@ resources:
           title: Crie módulos em qualquer namespace
         modules.search:
           title: Listar e pesquisar módulos em qualquer namespace
+        modules.export:
+          title: Exportar módulos em qualquer namespace
         page.create:
           title: Crie páginas em qualquer namespace
         pages.search:
@@ -436,6 +527,8 @@ resources:
           title: Acesse qualquer namespace
         update:
           title: Atualizar qualquer namespace
+        export:
+          title: Exportar qualquer namespace
     page:
       label: Páginas
       operations:
@@ -445,12 +538,31 @@ resources:
           title: Leia qualquer página
         update:
           title: Atualizar qualquer página
+        page-layout.create:
+          title: Crie layouts de página em qualquer página
+        page-layouts.search:
+          title: Liste e pesquise layouts de página em qualquer página
+    page-layout:
+      label: Layouts de página
+      operations:
+        delete:
+          title: Exclua qualquer layout de página
+        read:
+          title: Leia qualquer layout de página
+        update:
+          title: Atualize o layout de qualquer página
     record:
       label: Registros
       operations:
         delete:
           title: Excluir qualquer registro
+        undelete:
+          title: Recuperar qualquer registro excluído
         read:
           title: Leia qualquer registro
         update:
           title: Atualizar qualquer registro
+        owner.manage:
+          title: Gerenciar a propriedade de qualquer registro
+        revisions.search:
+          title: Aceder às revisões de qualquer registo
