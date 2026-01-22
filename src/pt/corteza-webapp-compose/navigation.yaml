@@ -12,9 +12,11 @@ more: Mais
 namespace: Namespaces
 noPageTitle: Sem título de página
 page: Páginas
+appMenu: Menu
 userSettings:
   changePassword: Mudar senha
   loggedInAs: Conectado como {{user}}
   logout: Sair
   profile: Perfil
+  theme: Tema
 viewPage: Ver pagina
