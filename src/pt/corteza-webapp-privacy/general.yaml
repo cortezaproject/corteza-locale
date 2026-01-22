@@ -1,15 +1,30 @@
 label:
   back: Voltar
   all: Todo
+  privacy_request:
+    single: Solicitação de privacidade
+    plural: Solicitações de privacidade
+  sensitive_module:
+    single: Módulo Sensível
+    plural: Módulos sensíveis
 resourceList:
   loading: Carregando
+  noItems: Nenhum item
   notFound: Não encontrado
   search:
     placeholder: Procurar
   pagination:
     next: Próximo
     prev: Anterior
+    showing: '{{from}} - {{to}} de {{count}} {{data}}'
+    single_one: 'Um {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: Por página
 themes:
   labels:
     light: Luz
     dark: Escuro
+extendSession:
+  labels:
+    extend: Estender Sessão
+    warning: Você será desconectado em {{ countdownTime }} segundos
