@@ -12,4 +12,5 @@ errors:
   notAllowedToUndelete: não tem permissão para recuperar este fluxo de trabalho
   notAllowedToUpdate: não tem permissão para atualizar este fluxo de trabalho
   notFound: fluxo de trabalho não encontrado
+  staleData: O fluxo de trabalho foi modificado por outra pessoa ou por um fluxo de trabalho posterior à sua abertura. Atualize a página para ver a versão mais recente
   unknownWorkflowStep: etapa de fluxo de trabalho desconhecida
