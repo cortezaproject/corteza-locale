@@ -22,11 +22,11 @@ automation:
   label: Automatisme
   noDescription: Pas de description
   noLabel: Non étiqueté
-  noScript: Il n'y a pas de script ou flux de travail configuré pour ce bouton
+  noScript: Il n'y a pas de script ou processus configuré pour ce bouton
   noScripts: Il n'y a pas de scripts manuels compatibles avec ce bloc de page
   removeAll: Supprimer tout
   searchPlaceholder: Filtrez les scripts disponibles par étiquette, nom de script et description
-  stepID: 'ID d''étape de début : {{stepID}}'
+  stepID: "ID d'étape de début : {{stepID}}"
   variants:
     primary: Primaire
     secondary: Secondaire
@@ -286,7 +286,7 @@ record:
   invalidRecordVar: Impossible d'utiliser la variable ${record...} dans les pages sans élément
   label: Élément
   listLoadFailed: Impossible de charger la liste des éléments
-  moduleOrPageNotSet: 'Erreur de bloc RecordList : le module ou les options de page n''ont pas été définis'
+  moduleOrPageNotSet: "Erreur de bloc RecordList : le module ou les options de page n'ont pas été définis"
   moduleMismatch: Module incompatible, module incohérent
   horizontalFormLayout: Disposition horizontale du formulaire
   inlineEdit:
@@ -322,7 +322,7 @@ record:
     clearAllOnHide: Vider tous les champs conditionnels lorsqu'ils sont masqués
     clearAllOnHideDescription: Lorsque activé, tous les champs conditionnels sont vidés lorsqu'ils sont masqués, ignorant le paramétrage individuel des champs
     tooltip:
-      performance: Utilisé des champs conditionnels impactera les performances
+      performance: Utiliser des champs conditionnels impactera les performances
   recordSelectorCanAddRecord: Peut ajouter un élément par le sélecteur d'élément
   recordSelectorAddRecordDisplayOption: Lors de l'ajout d'élément par un sélecteur d'élément
 recordList:
@@ -405,10 +405,10 @@ recordList:
     inRange: Plage de date
     includeQuery: Filtrer par requête de recherche
     json: Export JSON
-    limitations: 'Limitation export CSV : Seule la première valeur d''un champ à multiples valeurs sera exportée'
+    limitations: "Limitation export CSV : Seule la première valeur d'un champ à multiples valeurs sera exportée"
     rangeBy: Définir plage par
-    recordCount: '{{count}} éléments prêts à être exportés'
-    selectFields: 'Sélectionnez les champs à exporter :'
+    recordCount: "{{count}} éléments prêts à être exportés"
+    selectFields: "Sélectionnez les champs à exporter :"
     selection: Éléments sélectionnés
     specifyTimezone: Exporter à un fuseau horaire
     timezonePlaceholder: Sélectionnez un fuseau horaire
@@ -419,7 +419,7 @@ recordList:
     addField: Ajouter nouveau champ de filtrage
     byValue: Filtrer élément selon la valeur de champ
     addFilterToPreset: Enregistrer comme préréglage
-    nil: 'NULL'
+    nil: "NULL"
     conditions:
       and: AND
       or: OR
@@ -442,7 +442,7 @@ recordList:
     fieldValuePlaceholder: Saisissez champ de filtrage
     including: Comprenant
     label: Filtrer
-    note: 'Note : Si la valeur de champ n''est pas définie, le filtre cherchera des éléments dont la valeur de champ n''est également pas définie.'
+    note: "Note : Si la valeur de champ n'est pas définie, le filtre cherchera des éléments dont la valeur de champ n'est également pas définie."
     only: Uniquement
     operators:
       like: Comme
@@ -463,7 +463,7 @@ recordList:
     reset: Réinitialiser filtre
     filters:
       label: Filtres
-      active: 'Filtres actifs :'
+      active: "Filtres actifs :"
     name:
       label: Nom
       placeholder: Nom de filtre
@@ -478,13 +478,13 @@ recordList:
   hideConfigureFieldsButton: Les utilisateurs pourront définir les champs à afficher
   enableRecordPageNavigation: Les utilisateurs pourront naviguer vers l'élément précédent/suivant
   import:
-    dropzoneFileAdded: '{{name}} a été téléversé et est prêt pour l''import ({{count}} élément)'
-    dropzoneFileAdded_plural: '{{name}} a été téléversé et est prêt pour l''import ({{count}} éléments)'
+    dropzoneFileAdded: "{{name}} a été téléversé et est prêt pour l'import ({{count}} élément)"
+    dropzoneFileAdded_plural: "{{name}} a été téléversé et est prêt pour l'import ({{count}} éléments)"
     dropzoneLabel: Cliquer ou déposer un fichier pour téléverser (format .csv ou .zip)
-    failed: 'Une erreur s''est produite lors de l''import. Veuillez réessayer : {{failReason}}'
+    failed: "Une erreur s'est produite lors de l'import. Veuillez réessayer : {{failReason}}"
     fileColumns: Colonnes du fichier
-    hasRequiredFileFields: 'Ce module à des champs de type "import de fichier" obligatoire'
-    matchFields: 'Faites correspondre les champs importés avec les champs existants'
+    hasRequiredFileFields: "Ce module à des champs de type \"import de fichier\" obligatoire"
+    matchFields: "Faites correspondre les champs importés avec les champs existants"
     moduleFields: Champs de module
     onError: Si un élément ne parvient pas à être importé
     onErrorFail: Annuler import
@@ -526,13 +526,13 @@ recordList:
   modulePlaceholder: Sélectionnez un module
   moduleFootnote: Les modules sans {{0}} peuvent uniquement être utilisés dans une liste d'éléments comme éditeur en ligne
   moduleFieldsFootnote: Si aucun champ n'est sélectionné, les champs par défaut seront affichés
-  noRecords: Il n'y a aucun d'élément correspondant à votre requête
+  noRecords: Il n'y a aucun élément correspondant à votre requête
   pagination:
     next: Suivant
     prev: Précédent
-    showing: '{{from}} - {{to}} sur {{count}} éléments'
+    showing: "{{from}} - {{to}} sur {{count}} éléments"
     single_one: Un élément
-    single_other: '{{count}} éléments'
+    single_other: "{{count}} éléments"
     recordsPerPage: Par Page
     selectLabel: Sélectionnez une option
   positionField:
@@ -541,17 +541,17 @@ recordList:
     label: Champ de tri d'élément
   preview:
     addRecordButton: Bouton d'ajout d'élément
-    bePaged: '{{0}} est paginé.'
-    isDisabled: '{{0}} est désactivé.'
-    isEnabled: '{{0}} est activé.'
-    isHidden: '{{0}} est caché.'
-    isShown: '{{0}} est affiché.'
+    bePaged: "{{0}} est paginé."
+    isDisabled: "{{0}} est désactivé."
+    isEnabled: "{{0}} est activé."
+    isHidden: "{{0}} est caché."
+    isShown: "{{0}} est affiché."
     moduleNotSelected: Bloc avec un tableau d'éléments, aucun module sélectionné.
-    recordFromModule: 'Affichage les éléments du module {{0}} avec les colonnes : {{1}}'
-    recordsPerPage: '{{0}} éléments seront visibles par page.'
+    recordFromModule: "Affichage les éléments du module {{0}} avec les colonnes : {{1}}"
+    recordsPerPage: "{{0}} éléments seront visibles par page."
     resultsCan: Les résultats peuvent
     resultsCant: Les résultats ne peuvent pas
-    resultsPrefiltered: 'Les résultats sont préfiltrés :'
+    resultsPrefiltered: "Les résultats sont préfiltrés :"
     searchInput: Zone de saisie de recherche
     sorting: Tri
     tableHeader: En-tête de tableau
@@ -616,8 +616,8 @@ recordList:
     footnote: Champ associant les éléments à un élément parent
     label: Champ parent
   selectable: Les utilisateurs pourront sélectionner des éléments
-  selected: '{{count}} sur {{total}} éléments sélectionnés'
-  selectedFromAllPages: 'Tous les {{count}} éléments sur l''ensemble des pages ont été sélectionnés'
+  selected: "{{count}} sur {{total}} éléments sélectionnés"
+  selectedFromAllPages: "Tous les {{count}} éléments sur l'ensemble des pages ont été sélectionnés"
   selectAllRecords: Sélectionner tous les éléments sur l'ensemble des pages
   unselectAllRecords: Annuler la sélection
   sort:
@@ -631,7 +631,7 @@ recordList:
       label: Sommaires personnalisés
       description: Les utilisateurs seront capables de définir des sommaires personnalisés
       add:
-        label: + Ajouter
+        label: Ajouter
         tooltip: Ajouter un sommaire dédié
     param:
       label:
@@ -688,7 +688,7 @@ recordOrganizer:
     placeholder: Champ qui contiendra la position de l'élément
     label: Champ de tri d'élément
   preview:
-    label: 'Bloc organisateur d''éléments pour le module {{0}}. Champ d''étiquette {{1}}, champ description {{2}}. Champ de définition de valeur : {{3}}, trié par champ de position : {{4}}.'
+    label: "Bloc organisateur d'éléments pour le module {{0}}. Champ d'étiquette {{1}}, champ description {{2}}. Champ de définition de valeur : {{3}}, trié par champ de position : {{4}}."
     moduleNotSelected: Le module de l'organisateur d'élément n'est pas sélectionné
   addNewRecord: + Ajouter
 recordRevisions:
@@ -727,19 +727,6 @@ recordRevisions:
     preload: Précharger révisions d'élément
     errors:
       invalid-module-id: Le champ ne contient pas un ID de module valide.
-    fields:
-      label: Configurer champs à afficher dans les révisions de modification d'élément
-      show-all:
-        label: Afficher modification pour tous les champs
-      columns:
-        label:
-          label: Étiquette
-        kind:
-          label: Type
-        displayed-fields:
-          label: Afficher
-        expanded-references:
-          label: Étendre les références
 socialFeed:
   label: Fil Twitter
   noInput: Aucune entrée pour afficher le flux social...
@@ -768,8 +755,6 @@ comment:
     footnote: La valeur de ce champ sera utilisé comme réponse
   title:
     placeholder: Titre
-  content:
-    placeholder: Commentez ici...
   submit: Envoyer
   noComments: Aucun commentaire pour le moment
   load:
@@ -831,7 +816,7 @@ navigation:
   sameTab: Même onglet
   selectOpenInType: Sélectionnez type d'ouverture
   newTab: Nouvel onglet
-  dropdownItems: Élements de liste déroulante
+  dropdownItems: Éléments de liste déroulante
   delimiter: Délimiteur
   none: Aucune
   displaySubPages: Afficher sous-page
@@ -932,7 +917,7 @@ geometry:
     topLeft: Limites en haut à gauche
     lowerRight: Limites en bas à droite
   tooltip:
-      goToCurrentLocation: Aller à la localisation actuelle
+    goToCurrentLocation: Aller à la localisation actuelle
 tabs:
   label: Onglets
   alertTitle: Définissez un titre pour votre bloc

@@ -164,11 +164,11 @@ record:
   countFailed: Échec du chargement d'une partie des éléments
   moduleMismatch: Module incompatible, module incohérent
   moduleNotDefined: Module de l'élément non défini
-  moduleOrPageNotSet: 'Erreur de bloc RecordList : le module ou les options de page n''ont pas été définis'
+  moduleOrPageNotSet: "Erreur de bloc RecordList : le module ou les options de page n'ont pas été définis"
   unexpectedInput: Entrée inattendue pour la propriété values, doit être un tableau avec des paires d'objets nom-valeur
   unexpectedValue: Valeur inattendue pour ce module d'élément ({{type}})
-  validationErrors: 'Vérifiez le(s) messages d''erreur de(s) champ(s) : {{fields}}'
-  validationWarnings: 'Vérifiez le(s) messages d''alerte de(s) champ(s) : {{fields}}'
+  validationErrors: "Vérifiez le(s) messages d'erreur de(s) champ(s) : {{fields}}"
+  validationWarnings: "Vérifiez le(s) messages d'alerte de(s) champ(s) : {{fields}}"
   staleDataRefresh: Données d'élément obsolètes, toutes les modifications non enregistrées seront perdues. Souhaitez-vous rafraichir les données maintenant ?
   fieldConditions:
     failed: Échec de l'évaluation des champs conditionnels du bloc d'élément

@@ -14,7 +14,7 @@ ui:
   evaluate:
     description: Évaluer permissions appliquées
   add:
-    label: + Ajouter
+    label: Ajouter
     title: Évaluer permissions
     save: Enregistrer et fermer
     role:
@@ -82,7 +82,7 @@ resources:
           specific: Exporter graphiques du namespace "{{target}}"
           title: Exporter graphiques de n'importe quel namespace
     chart:
-      all: Tous les graphiques
+      all: tous les graphiques
       specific: graphique "{{target}}"
       tooltip: Permissions de graphique
       operations:
@@ -99,7 +99,7 @@ resources:
           specific: Mettre à jour graphique "{{target}}"
           title: Mettre à jour n'importe quel graphique
     module:
-      all: Tous les modules
+      all: tous les modules
       specific: module "{{target}}"
       tooltip: Permissions de module
       operations:
@@ -113,11 +113,11 @@ resources:
           title: Lire n'importe quel module
         record.create:
           description: 'Défaut : refuser'
-          specific: Créer élément du module "{{target}}"
+          specific: Créer élément pour module "{{target}}"
           title: Créer élément pour n'importe quel module
         records.search:
           description: 'Défaut : refuser'
-          specific: Lister et chercher éléments de n'importe du module "{{target}}"
+          specific: Lister et chercher éléments du module "{{target}}"
           title: Lister et chercher éléments de n'importe quel module
         update:
           description: 'Défaut : refuser'
@@ -129,7 +129,7 @@ resources:
           title: Gérer propriétaire lors de la création d'un élément de n'importe quel module
           all-specific: Gérer propriétaire lors de la création d'un élément du module "{{ target }}"
     module-field:
-      all: tous les champs de module
+      all: tous les champs de tous les modules
       specific: champ "{{target}}"
       all-specific: tous les champs pour le module "{{ target }}"
       tooltip: Permissions de champ de module
@@ -152,7 +152,7 @@ resources:
         delete:
           description: 'Défaut : refuser'
           specific: Supprimer page "{{target}}"
-          title: Supprimer n'importe quelle
+          title: Supprimer n'importe quelle page
         read:
           description: 'Défaut : refuser'
           specific: Lire page "{{target}}"

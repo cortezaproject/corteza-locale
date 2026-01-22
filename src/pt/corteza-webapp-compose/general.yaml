@@ -12,7 +12,7 @@ label:
   addNew: Adicionar novo
   addValue: Adicionar novo valor
   ascending: Crescente
-  attachmentFileInfo: '(Tamanho do arquivo {{0}}, enviado {{1}})'
+  attachmentFileInfo: "(Tamanho do arquivo {{0}}, enviado {{1}})"
   attributes: Atributos
   back: Voltar
   backWithoutSave: Voltar (sem salvar as alterações)
@@ -61,8 +61,8 @@ label:
   save: Salvar
   saveAndClose: Salvar e fechar
   status: Status
-  timeHour: '{{t}}h'
-  timeMinute: '{{t}}min'
+  timeHour: "{{t}}h"
+  timeMinute: "{{t}}min"
   today: Hoje
   title: Título
   type: Tipo

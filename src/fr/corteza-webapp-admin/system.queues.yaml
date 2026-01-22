@@ -5,12 +5,12 @@ editor:
     createdBy: Créer par
     delete: Supprimer
     deletedAt: Supprimer à
-    name: Nom de la queue *
+    name: Nom de la file d'attente *
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     title: Information de base
     undelete: Annuler suppression
     updatedAt: Mis à jour à
-  new: Nouvelle queue
+  new: Nouvelle file d'attente
   title:
     edit: Éditer file d'attente
     new: Ajouter une file d'attente

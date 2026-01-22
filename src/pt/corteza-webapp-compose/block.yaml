@@ -193,7 +193,7 @@ record:
   invalidRecordVar: Não é possível usar a variável ${record...} em páginas sem registro
   label: Registro
   listLoadFailed: Não foi possível carregar a lista de registros
-  moduleOrPageNotSet: 'Módulo de erro do bloco RecordList ou opção de página não definida'
+  moduleOrPageNotSet: "Módulo de erro do bloco RecordList ou opção de página não definida"
   moduleMismatch: Módulo incompatível, incompatibilidade de módulo
   fieldsLayoutMode:
     default: Predefinição
@@ -232,10 +232,10 @@ recordList:
       updatedAt: Registro atualizado
     includeQuery: Filtrar por consulta de pesquisa
     json: Exportação JSON
-    limitations: 'Limitação de exportação de CSV apenas o primeiro valor nos campos de vários valores será exportado'
+    limitations: "Limitação de exportação de CSV apenas o primeiro valor nos campos de vários valores será exportado"
     rangeBy: Definir intervalo por
-    recordCount: '{{count}} registros prontos para exportação'
-    selectFields: 'Selecione os campos que deseja exportar:'
+    recordCount: "{{count}} registros prontos para exportação"
+    selectFields: "Selecione os campos que deseja exportar:"
     selection: Registros selecionados
     specifyTimezone: Exportar para fuso horário
     timezonePlaceholder: Selecionar fuso horário
@@ -258,7 +258,7 @@ recordList:
     fieldValuePlaceholder: Filtro de campo de entrada
     including: Incluindo
     label: Filtro
-    note: 'Observação Se o valor do campo for indefinido, o filtro procurará registros em que o valor do campo seja indefinido.'
+    note: "Observação Se o valor do campo for indefinido, o filtro procurará registros em que o valor do campo seja indefinido."
     only: Apenas
     operators:
       like: Como
@@ -283,13 +283,13 @@ recordList:
   hideRecordReminderButton: Ocultar botão de lembrete de gravação
   hideRecordViewButton: Ocultar botão de registro de visualização
   import:
-    dropzoneFileAdded: '{{name}} foi carregado e está pronto para importação ({{count}} registro)'
-    dropzoneFileAdded_plural: '{{name}} foi carregado e está pronto para importação ({{count}} registros)'
+    dropzoneFileAdded: "{{name}} foi carregado e está pronto para importação ({{count}} registro)"
+    dropzoneFileAdded_plural: "{{name}} foi carregado e está pronto para importação ({{count}} registros)"
     dropzoneLabel: Clique ou solte o arquivo aqui para fazer upload (.csv ou JSON)
-    failed: 'Algo deu errado durante a importação. Por favor, tente novamente {{failReason}}'
+    failed: "Algo deu errado durante a importação. Por favor, tente novamente {{failReason}}"
     fileColumns: Colunas de arquivo
-    hasRequiredFileFields: 'Este módulo tem campos de upload de arquivo obrigatórios'
-    matchFields: 'Combinar colunas importadas com as existentes'
+    hasRequiredFileFields: "Este módulo tem campos de upload de arquivo obrigatórios"
+    matchFields: "Combinar colunas importadas com as existentes"
     moduleFields: Campos do módulo
     onError: Se algum registro falhar na importação
     onErrorFail: Cancelar importação
@@ -317,26 +317,26 @@ recordList:
   pagination:
     next: Próximo
     prev: Anterior
-    showing: '{{from}} - {{to}} de {{count}} registros'
+    showing: "{{from}} - {{to}} de {{count}} registros"
     single_one: Um registro
-    single_other: '{{count}} registros'
+    single_other: "{{count}} registros"
     selectLabel: Selecione uma opção
   positionField:
     footnote: Os registros serão classificados com base neste campo
     label: Campo de classificação de registro
   preview:
     addRecordButton: Adicionar botão de registro
-    bePaged: '{{0}} ser paginado.'
-    isDisabled: '{{0}} está desativado.'
-    isEnabled: '{{0}} está ativado.'
-    isHidden: '{{0}} está oculto.'
-    isShown: '{{0}} é exibido'
+    bePaged: "{{0}} ser paginado."
+    isDisabled: "{{0}} está desativado."
+    isEnabled: "{{0}} está ativado."
+    isHidden: "{{0}} está oculto."
+    isShown: "{{0}} é exibido"
     moduleNotSelected: Bloco com tabela de registros, módulo não selecionado.
-    recordFromModule: 'Mostrando registros do módulo {{0}} com colunas {{1}}'
-    recordsPerPage: '{{0}} registros são mostrados por página.'
+    recordFromModule: "Mostrando registros do módulo {{0}} com colunas {{1}}"
+    recordsPerPage: "{{0}} registros são mostrados por página."
     resultsCan: Os resultados podem
     resultsCant: Os resultados não podem
-    resultsPrefiltered: 'Os resultados são pré-filtrados:'
+    resultsPrefiltered: "Os resultados são pré-filtrados:"
     searchInput: Caixa de entrada de pesquisa
     sorting: Ordenação
     tableHeader: Cabeçalho da tabela
@@ -364,7 +364,7 @@ recordList:
   refField:
     footnote: Campo que vincula registros com o registro pai
     label: Campo pai
-  selected: '{{count}} de {{total}} registros selecionados'
+  selected: "{{count}} de {{total}} registros selecionados"
   summaries:
     customSummaries:
       add:
@@ -403,7 +403,7 @@ recordOrganizer:
   positionField:
     label: Campo de classificação de registro
   preview:
-    label: 'Bloco Organizador de Registros para o módulo {{0}}. Campo de etiqueta {{1}}, campo de descrição {{2}}. Campo de configuração de valor {{3}}, classificado por campo de posição {{4}}.'
+    label: "Bloco Organizador de Registros para o módulo {{0}}. Campo de etiqueta {{1}}, campo de descrição {{2}}. Campo de configuração de valor {{3}}, classificado por campo de posição {{4}}."
     moduleNotSelected: Módulo do organizador de registros não selecionado
   addNewRecord: + Adicionar
 recordRevisions:
@@ -420,13 +420,6 @@ recordRevisions:
       columns:
         field:
           label: Campo
-  configurator:
-    fields:
-      columns:
-        label:
-          label: Rótulo
-        kind:
-          label: Tipo
 socialFeed:
   label: Feed do Twitter
   noInput: Nenhuma entrada para exibir o feed social...

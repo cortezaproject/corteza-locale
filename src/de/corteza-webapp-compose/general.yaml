@@ -10,7 +10,7 @@ label:
   add-with-plus: + Hinzufügen
   addNew: Neu hinzufügen
   addValue: Neue Variable hinzufügen
-  attachmentFileInfo: '(Dateigöße {{0}}, hochgeladen am {{1}})'
+  attachmentFileInfo: "(Dateigöße {{0}}, hochgeladen am {{1}})"
   attributes: Eigenschaften
   back: Hinzufügen
   backWithoutSave: Zurück (ohne zu Speichern)
@@ -58,8 +58,8 @@ label:
   save: Speichern
   saveAndClose: Speichern und schließen
   status: Status
-  timeHour: '{{t}}Std'
-  timeMinute: '{{t}}min'
+  timeHour: "{{t}}Std"
+  timeMinute: "{{t}}min"
   today: Heute
   title: Titel
   type: Typ

@@ -6,7 +6,7 @@ noResults: Aucun résultat
 page: Pages
 pickNamespace: Sélectionner un namespace
 publicPages: Pages publiques
-editNamespace: Éditer un namespace
+editNamespace: Éditer namespace
 searchPlaceholder:
   admin: Recherchez des ressources...
   public: Rerchercher une page...

@@ -10,9 +10,9 @@ errors:
   notAllowedToListUsers: non autorisé à lister les utilisateurs
   notAllowedToRead: non autorisé à lire cet utilisateur
   notAllowedToSearch: non autorisé à lister ou rechercher des utilisateurs
-  notAllowedToSuspend: non autorisé à suspendre cet utilisateur
+  notAllowedToSuspend: non autorisé à désactiver cet utilisateur
   notAllowedToUndelete: non autorisé à annuler la suppression de cet utilisateur
-  notAllowedToUnsuspend: non autorisé à annuler la suspension de cet utilisateur
+  notAllowedToUnsuspend: non autorisé à réactiver de cet utilisateur
   notAllowedToUpdate: non autorisé à mettre à jour cet utilisateur
   notAllowedToUpdateSystem: non autorisé à mettre à jour les utilisateurs système
   notFound: utilisateur introuvable

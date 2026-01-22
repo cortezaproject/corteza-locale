@@ -1,5 +1,9 @@
 configuration: crwdns180483:0crwdne180483:0
 edge: crwdns180485:0crwdne180485:0
+general:
+  label: crwdns182409:0crwdne182409:0
+labels:
+  label: crwdns182411:0crwdne182411:0
 name:
   label: crwdns180487:0crwdne180487:0
   placeholder: crwdns180489:0crwdne180489:0

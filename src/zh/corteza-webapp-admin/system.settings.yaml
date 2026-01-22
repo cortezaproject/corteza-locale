@@ -77,4 +77,67 @@ editor:
       clientKey: 客戶端金鑰
       clientSecret: 密文
     oidc:
+      add: 新增 OIDC 身份提供者
       enabled: 已啟用
+      handle: 代號
+      title: OpenID Connect
+      issuer: OIDC 發行者網址
+      issuerHint: 在此可見 /.well-known/openid-configuration 之網址（不含 /.well-known/openid-configuration 部分）
+      clientKey: 客戶金鑰
+      clientSecret: 密文
+      scope: 授權範圍
+      scopePlaceholder: 列出支援的授權範圍
+      scopeHint: 請使用空格分隔字串
+    saml:
+      enabled: 已啟用
+      title: SAML 
+      requests:
+        title: 請求設定
+        sign-requests: 簽署請求
+        sign-method: 簽署方式
+        binding: 綁定
+        binding-redirect: HTTP 重新導向
+        binding-post: HTTP POST
+      cert:
+        public: 公開金鑰
+        private: 私密金鑰
+      name: 名稱
+      certificate: 憑證
+      idp:
+        title: 身分提供者
+        ident-handle: 代號欄位
+        ident-identifier: 識別碼欄位
+        ident-name: 名稱欄位
+        url: 網址
+      desc:
+        name: 登入畫面顯示之身份提供者名稱 （以 <name> 登入）
+        cert:
+          public: 內容將以最小化顯示
+          private: 內容將以最小化顯示
+        requests:
+          sign-requests: 簽署身分驗證請求與聲明
+          sign-method: 用於簽署請求的簽署方法
+          binding: 身份驗證請求所使用的 HTTP 綁定方式，預設為 HTTP 重新導向（GET）
+        idp:
+          url: 身分提供者中繼資料之存放位置
+          ident-handle: 於 Corteza 使用者代號或暱稱上填寫之身分提供者名稱
+          ident-identifier: 於 Corteza 使用者電子郵件上填寫之身分提供者名稱
+          ident-name: 於 Corteza 使用者全名上填寫之身分提供者名稱
+    security:
+      title: 安全設定
+      prohibited-roles:
+        description: 當使用者透過此提供者進行身分驗證時，系統將會移除清單中指定的角色權限
+        label: 禁用角色
+      forced-roles:
+        description: 當使用者透過此提供者進行身分驗證時，系統將會增添清單中指定的角色權限
+        label: 強制角色
+      permitted-roles:
+        description: 當使用者透過此提供者進行身分驗證時，系統僅會增添清單中指定的角色權限
+        label: 允許角色
+  bgScreen:
+    title: 驗證背景畫面
+    image:
+      uploader:
+        label: 背景圖片
+      editor:
+        label: 自訂 CSS

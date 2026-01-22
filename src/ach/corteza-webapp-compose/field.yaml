@@ -82,6 +82,9 @@ kind:
     prefixPlaceholder: crwdns176595:0crwdne176595:0
     suffixLabel: crwdns176597:0crwdne176597:0
     suffixPlaceholder: crwdns176599:0crwdne176599:0
+    step:
+      label: crwdns182343:0crwdne182343:0
+      description: crwdns182345:0crwdne182345:0
     displayType:
       label: crwdns176601:0crwdne176601:0
       number: crwdns176603:0crwdne176603:0

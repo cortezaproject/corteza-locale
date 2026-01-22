@@ -11,7 +11,7 @@ label:
   add-with-plus: + Добавить
   addNew: Добавить
   addValue: Добавить значение
-  attachmentFileInfo: '(Размер файла: {{0}}, загружено {{1}})'
+  attachmentFileInfo: "(Размер файла: {{0}}, загружено {{1}})"
   attributes: Атрибуты
   back: Назад
   backWithoutSave: ' Назад без сохранения изменений'
@@ -58,8 +58,8 @@ label:
   save: Сохранить
   saveAndClose: Сохранить и закрыть
   status: Статус
-  timeHour: '{{t}}h'
-  timeMinute: '{{t}}min'
+  timeHour: "{{t}}h"
+  timeMinute: "{{t}}min"
   today: Сегодня
   title: Заголовок
   type: Тип

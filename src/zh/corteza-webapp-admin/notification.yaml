@@ -2,6 +2,344 @@ general:
   error: 錯誤
   success: 成功
   warning: 警告
+notAllowed: 權限不足，無法進入。重新載入中
+list:
+  load:
+    error: '資源列表載入失敗'
 user:
+  external-auth-providers:
+    error: 無法載入第三方登入服務
+    success: 第三方登入服務已更新
+  fetch:
+    error: 用戶載入失敗
+  roles:
+    error: 角色載入失敗
   update:
     success: 用戶更新成功
+    error: 用戶更新失敗
+  create:
+    success: 用戶建立成功
+    error: 用戶建立失敗
+  delete:
+    success: 用戶已刪除
+    error: 用戶刪除失敗
+  undelete:
+    success: 用戶資料已還原
+    error: 用戶資料還原失敗
+  membershipUpdate:
+    success: 會員更新成功
+    error: 會員更新失敗
+  passwordChange:
+    success: 密碼更新成功
+    error: 密碼更新失敗
+  sessionsRevoke:
+    success: 該時段已終止
+    error: 終止時段操作失敗
+  suspend:
+    success: 用戶已被停用
+    error: 用戶停用失敗
+  unsuspend:
+    success: 用戶已恢復使用
+    error: 用戶停用失敗
+  import:
+    success: 用戶匯入成功
+  avatarUpload:
+    success: 頭像更新成功
+    error: 頭像更新失敗
+  avatarSettings:
+    success: 頭像設定已更新
+    error: 頭像設定更新失敗
+  avatarDelete:
+    success: 頭像已刪除
+    error: 頭像刪除失敗
+role:
+  fetch:
+    error: 角色載入失敗
+  create:
+    success: 角色創建成功
+    error: 角色創建失敗
+  update:
+    success: 角色更新成功
+    error: 角色更新失敗
+  delete:
+    success: 角色已刪除
+    error: 角色刪除失敗
+  undelete:
+    success:
+    error: 角色還原失敗
+  archive:
+    success: 角色存檔成功
+    error: 角色存檔失敗
+  unarchive:
+    success: 角色取消存檔
+    error: 角色取消存檔失敗
+  membershipUpdate:
+    success: 會員更新成功
+    error: 會員更新失敗
+userGroup:
+  fetch:
+    error: 用戶群組載入失敗
+  roles:
+    error: 用戶群組角色載入失敗
+  membershipUpdate:
+    success: 用戶群組會員更新成功
+    error: 用戶群組會員更新失敗
+  create:
+    success: 用戶群組已建立
+    error: 用戶群組創建失敗
+  update:
+    success: 用戶群組已更新
+    error: 用戶群組更新失敗
+  delete:
+    success: 用戶群組已刪除
+    error: 用戶群組刪除失敗
+  undelete:
+    success: 用戶群組已還原
+    error: 用戶群組還原失敗
+application:
+  fetch:
+    error: 應用程式載入失敗
+  update:
+    success: 應用程式已更新
+    error: 應用程式更新失敗
+  create:
+    success: 應用程式已建立
+    error: 應用程式建立失敗
+  delete:
+    success: 應用程式已刪除
+    error: 應用程式刪除失敗
+  undelete:
+    success: 應用程式已還原
+    error: 應用程式還原失敗
+  assetsUpload:
+    error: 應用程式資源上傳失敗
+template:
+  fetch:
+    error: 模板載入失敗
+  fetchPartials:
+    error: 部分模板載入失敗
+  create:
+    success: 模板建立成功
+    error: 模板創建失敗
+  update:
+    success: 模板已更新
+    error: 模板更新失敗
+  delete:
+    success: 模板已刪除
+    error: 模板刪除失敗
+  undelete:
+    success: 模板已還原
+    error: 模板還原失敗
+  driver:
+    error: 範本渲染驅動程式載入失敗
+  preview:
+    error: 模板預覽載入失敗
+authclient:
+  fetch:
+    error: 用戶身份驗證載入失敗
+  create:
+    success: 用戶身份驗證成立
+    error: 用戶身份驗證失敗
+  update:
+    success: 用戶身份驗證已更新
+    error: 用戶身份驗證更新失敗
+  delete:
+    success: 用戶身份已刪除
+    error: 用戶身份刪除失敗
+  undelete:
+    success: 用戶身份已還原
+    error: 用戶身份還原失敗
+queue:
+  fetch:
+    error: 佇列載入失敗
+  create:
+    success: 佇列已建立
+    error: 佇列創建失敗
+  update:
+    success: 佇列已更新
+    error: 佇列更新失敗
+  delete:
+    success: 佇列已刪除
+    error: 佇列刪除失敗
+  undelete:
+    success: 佇列已還原
+    error: 佇列還原失敗
+gateway:
+  fetch:
+    error: 路由載入失敗
+  create:
+    success: 路由已創建
+    error: 路由創建失敗
+  update:
+    success: 路由已更新
+    error: 路由更新失敗
+  filter:
+    fetch:
+      error: 篩選器載入失敗
+    update:
+      success: 篩選器已更新
+      error: 篩選器更新失敗
+  delete:
+    success: 路由已刪除
+    error: 路由刪除失敗
+  undelete:
+    success: 路由已還原
+    error: 路由還原失敗
+  profiler:
+    fetch:
+      error: 請求載入失敗
+    purge:
+      success: 請求已清除
+      error: 請求清除失敗
+workflow:
+  fetch:
+    error: 工作流程載入失敗
+  trigger:
+    error: 觸發器載入失敗
+  create:
+    success: "工作流程已創建\n"
+    error: 工作流程創建失敗
+  update:
+    success: 工作流程已更新
+    error: 工作流程更新失敗
+  delete:
+    success: 工作流程已刪除
+    error: 工作流程刪除失敗
+  undelete:
+    success: 工作流程已還原
+    error: 工作流程還原失敗
+session:
+  fetch:
+    error: 該時段載入失敗
+  trigger:
+    error: 觸發器載入失敗
+  cancel:
+    success: 工作時段已取消
+    error: 工作時段取消失敗
+federation:
+  fetch:
+    error: 節點載入失敗
+  create:
+    success: 節點已創建
+    error: 節點創建失敗
+  update:
+    success: 節點已更新
+    error: 節點更新失敗
+  delete:
+    success: 節點已刪除
+    error: 節點刪除失敗
+  undelete:
+    success: 節點已還原
+    error: 節點還原失敗
+  url:
+    error: 已產生網址載入失敗
+  email:
+    success: 郵件成功發送
+    error: 郵件發送失敗
+  pair:
+    success: 節點配對成功
+    error: 節點配對失敗
+  handshake:
+    success: 握手完成，配對成功
+    error: 握手失敗
+sensitivityLevel:
+  create:
+    success: 敏感度等級已建立
+    error: 敏感度等級建立失敗
+  delete:
+    success: 敏感度等級已刪除
+    error: 敏感度等級刪除失敗
+  fetch:
+    success: 敏感度等級已載入
+    error: 敏感度等級載入失敗
+  undelete:
+    success: 敏感度等級已還原
+    error: 敏感度等級還原失敗
+  update:
+    success: 敏感度等級更新成功
+    error: 敏感度等級更新失敗
+settings:
+  system:
+    fetch:
+      error: 系統設定載入失敗
+    auth:
+      success: 身份驗證設定更新成功
+      error: 身份驗證設定更新失敗
+    external:
+      success: 外部設定更新成功
+      error: 外部設定更新失敗
+    bgScreen:
+      style:
+        success: 身份驗證背景樣式更新成功
+        error: 身份驗證背景樣式更新失敗
+    smtpCheck:
+      success: SMTP 配置檢查通過
+      error: "SMTP 配置檢查失敗\n"
+    apigw:
+      success: 整合閘道器設定儲存成功
+      error: 整合閘道器設定更新失敗
+  compose:
+    fetch:
+      error: 撰寫設定載入失敗
+    update:
+      success: 撰寫設定更新成功
+      error: 撰寫設定更新失敗
+  ui:
+    fetch:
+      error: UI 設定載入失敗
+    update:
+      success: UI 設定更新成功
+      error: UI 設定更新失敗
+  theming:
+    fetch:
+      error: 佈景主題設定載入失敗
+    update:
+      success: 佈景主題設定更新成功
+      error: 佈景主題設定更新失敗
+  navigation:
+    fetch:
+      error: 導航設定載入失敗
+    update:
+      success: 導航設定更新成功
+      error: 導航設定更新失敗
+  location:
+    fetch:
+      error: 目的地設定載入失敗
+    update:
+      success: 目的地設定已更新
+      error: 目的地設定更新失敗
+  code-snippet:
+    fetch:
+      error: 程式碼片段載入失敗
+    update:
+      success: 程式碼片段更新成功，請重新整理頁面以查看變更
+      error: 程式碼片段更新失敗
+    delete:
+      success: 程式碼片段刪除成功，請重新整理頁面以查看變更
+      error: 程式碼片段刪除失敗
+permissions:
+  fetch:
+    error: 權限載入失敗
+  update:
+    success: 權限更新成功
+    error: 權限更新失敗
+  clone:
+    success: 權限已複製
+    error: 權限複製失敗
+  role:
+    error: 角色新增不成功
+connection:
+  fetch:
+    error: 連線讀取失敗
+  update:
+    success: 連線更新成功
+    error: 連線更新失敗
+  create:
+    success: 連線已成功創立
+    error: 連線創立失敗
+  delete:
+    success: 連線已刪除
+    error: 連線刪除失敗
+  undelete:
+    success: 連線已還原
+    error: 連線還原失敗

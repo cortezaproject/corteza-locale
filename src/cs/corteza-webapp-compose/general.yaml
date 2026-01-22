@@ -12,7 +12,7 @@ label:
   addNew: Přidat nové
   addValue: Přidat novou hodnotu
   ascending: Vzrůstající
-  attachmentFileInfo: '(Velikost souboru: {{0}}, nahráno {{1}})'
+  attachmentFileInfo: "(Velikost souboru: {{0}}, nahráno {{1}})"
   attributes: Atributy
   back: Zpět
   backWithoutSave: Zpět (bez uložení změn)
@@ -72,8 +72,8 @@ label:
   saveAndClose: Uložit a zavřít
   saveAsCopy: Uložit kopii
   status: Status
-  timeHour: '{{t}} h'
-  timeMinute: '{{t}} min'
+  timeHour: "{{t}} h"
+  timeMinute: "{{t}} min"
   today: Dnes
   title: Nadpis
   type: Typ
@@ -124,7 +124,6 @@ reminder:
   routesTo: Popisek odkazu na stránku
   snooze:
     label: Odložit
-    count: Počítadlo odložení {{count}}
 tooltip:
   dragAndDrop: Přetáhněte pro změnu pořadí
 fieldKinds:
@@ -164,9 +163,9 @@ resourceList:
   pagination:
     next: Další
     prev: Předchozí
-    showing: '{{from}} - {{to}} z {{count}} {{data}}'
-    single_one: '1 {{data}}'
-    single_other: '{{count}} {{data}}'
+    showing: "{{from}} - {{to}} z {{count}} {{data}}"
+    single_one: "1 {{data}}"
+    single_other: "{{count}} {{data}}"
     recordsPerPage: Na stránku
 recordNavigation:
   next: Další záznam
@@ -185,8 +184,6 @@ editor:
 webcam:
   buttons:
     cancel: Storno
-record:
-  unsavedChanges: Neuložené změny budou ztraceny. Chcete záznam zavřít?
 themes:
   labels:
     light: Světlé

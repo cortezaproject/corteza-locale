@@ -10,8 +10,8 @@
       background: crwdns180213:0crwdne180213:0
       drag: crwdns180215:0crwdne180215:0
       label: crwdns180217:0crwdne180217:0
-    'mouse-wheel': crwdns180219:0crwdne180219:0
-    'right-click-drag': crwdns180221:0crwdne180221:0
+    pan: crwdns182431:0crwdne182431:0
+    zoom: crwdns182433:0crwdne182433:0
 'basic-controls-label': crwdns180223:0crwdne180223:0
 'keyboard-shortcuts':
   action:

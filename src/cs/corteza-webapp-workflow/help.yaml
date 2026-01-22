@@ -10,8 +10,6 @@
       background: Kliknout levým na pozadí
       drag: Kliknout levým a táhnout
       label: Kliknout levým
-    'mouse-wheel': Kolečko myši
-    'right-click-drag': Kliknout pravým a táhnout
 'basic-controls-label': Základní ovládání
 'keyboard-shortcuts':
   action:

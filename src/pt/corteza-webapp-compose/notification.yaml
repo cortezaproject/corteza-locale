@@ -84,7 +84,7 @@ record:
   loadFailed: Não foi possível carregar o registro
   moduleMismatch: Módulo incompatível, incompatibilidade de módulo
   moduleNotDefined: Módulo de registro não definido
-  moduleOrPageNotSet: 'Módulo de erro do bloco RecordList ou opção de página não definida'
+  moduleOrPageNotSet: "Módulo de erro do bloco RecordList ou opção de página não definida"
   unexpectedInput: Entrada inesperada para a propriedade de valores, deve ser uma matriz com pares de objetos nome-valor
   unexpectedValue: Valor não experado para registro de módulo ({{type}})
 report:

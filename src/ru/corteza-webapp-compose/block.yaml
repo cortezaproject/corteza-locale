@@ -189,7 +189,7 @@ record:
   invalidRecordVar: Не может использовать переменную ${record...} на страницах, не являющихся variable
   label: Запись
   listLoadFailed: Не удалось загрузить список записей
-  moduleOrPageNotSet: 'Ошибка блока RecordList: не задан параметр модуля или страницы'
+  moduleOrPageNotSet: "Ошибка блока RecordList: не задан параметр модуля или страницы"
   moduleMismatch: Несовместимый модуль, несоответствие модулей
   preview:
     fieldsFromModule: Одиночный блок записи, отображающие поля ({{0}}) из модуля {{1}}
@@ -224,9 +224,9 @@ recordList:
       updatedAt: Обновить запись
     includeQuery: Фильтровать по поисковому запросу
     json: JSON Экспорт
-    limitations: 'Ограничение экспорта CSV: экспортируется только первое значение в многозначных полях'
-    recordCount: '{{count}} Все записи готовы к экспорту'
-    selectFields: 'Выберите поля для экспорта:'
+    limitations: "Ограничение экспорта CSV: экспортируется только первое значение в многозначных полях"
+    recordCount: "{{count}} Все записи готовы к экспорту"
+    selectFields: "Выберите поля для экспорта:"
     selection: Выбранные записи
     specifyTimezone: Экпорт to timezone
     timezonePlaceholder: Выберете timezone
@@ -248,7 +248,7 @@ recordList:
     fieldValuePlaceholder: Фильтр поля ввода
     including: Включая
     label: Фильтр
-    note: 'Примечание: Если значение поля не определено, фильтр будет искать записи, в которых значение этого поля не определено.'
+    note: "Примечание: Если значение поля не определено, фильтр будет искать записи, в которых значение этого поля не определено."
     only: Единственный
     operators:
       contains: Содержит
@@ -272,13 +272,13 @@ recordList:
   hideRecordReminderButton: Скрыть кнопку напоминания записи
   hideRecordViewButton: Скрывать кнопку записи просмотра
   import:
-    dropzoneFileAdded: '{{name}}загружен и готов для импорта({{count}} запись)'
-    dropzoneFileAdded_plural: '{{name}} загружен и готов для импорта ({{count}} запись)'
+    dropzoneFileAdded: "{{name}}загружен и готов для импорта({{count}} запись)"
+    dropzoneFileAdded_plural: "{{name}} загружен и готов для импорта ({{count}} запись)"
     dropzoneLabel: Нажмите или опустить файл здесь, чтобы загрузить (.csv or JSON)
-    failed: 'Что-то пошло не так во время импорта. Пожалуйста, попробуйте еще раз:: {{failReason}}'
+    failed: "Что-то пошло не так во время импорта. Пожалуйста, попробуйте еще раз:: {{failReason}}"
     fileColumns: Столбцы файла
-    hasRequiredFileFields: 'Этот модуль имеет необходимые поля загрузки файлов'
-    matchFields: 'Соответствие импортированных столбцов существующим'
+    hasRequiredFileFields: "Этот модуль имеет необходимые поля загрузки файлов"
+    matchFields: "Соответствие импортированных столбцов существующим"
     moduleFields: ' Поля модуля'
     onError: Если какая-либо запись не импортируется
     onErrorFail: Отмена импорта
@@ -306,25 +306,25 @@ recordList:
   pagination:
     next: Следующий
     prev: предыдущий
-    showing: '{{from}} - {{to}} из {{count}} записей'
+    showing: "{{from}} - {{to}} из {{count}} записей"
     single_one: Одна запись
-    single_other: '{{count}} записей'
+    single_other: "{{count}} записей"
   positionField:
     footnote: Записи будут отсортированы по этому полю
     label: Поле сортировки записи
   preview:
     addRecordButton: Добавлять кнопку записи
-    bePaged: '{{0}} на страницы.'
-    isDisabled: '{{0}} отключен.'
-    isEnabled: '{{0}} включен.'
-    isHidden: '{{0}} скрыт.'
-    isShown: '{{0}} показано'
+    bePaged: "{{0}} на страницы."
+    isDisabled: "{{0}} отключен."
+    isEnabled: "{{0}} включен."
+    isHidden: "{{0}} скрыт."
+    isShown: "{{0}} показано"
     moduleNotSelected: Блок с таблицей записей, модуль не выбран.
-    recordFromModule: 'Отображение записей из модуля {{0}} со столбцами: {{1}}'
-    recordsPerPage: '{{0}} записей отображается на странице.'
+    recordFromModule: "Отображение записей из модуля {{0}} со столбцами: {{1}}"
+    recordsPerPage: "{{0}} записей отображается на странице."
     resultsCan: Результаты могут
     resultsCant: Результаты не могут
-    resultsPrefiltered: 'Результаты предварительно фильтруются:'
+    resultsPrefiltered: "Результаты предварительно фильтруются:"
     searchInput: Поле ввода поиска
     sorting: Сортировка
     tableHeader: Заголовок таблицы
@@ -351,7 +351,7 @@ recordList:
   refField:
     footnote: Поле, которое связывает записи с родительской записью
     label: Родительское поле
-  selected: 'Выбрано {{count}} из {{total}} записей'
+  selected: "Выбрано {{count}} из {{total}} записей"
   summaries:
     customSummaries:
       add:
@@ -390,7 +390,7 @@ recordOrganizer:
   positionField:
     label: Поле сортировки записи
   preview:
-    label: 'Блок «Организатор записей» для модуля {{0}}. Поле метки {{1}}, поле описания {{2}}. Поле установки значения: {{3}}, поле сортировки по положению: {{4}}.'
+    label: "Блок «Организатор записей» для модуля {{0}}. Поле метки {{1}}, поле описания {{2}}. Поле установки значения: {{3}}, поле сортировки по положению: {{4}}."
     moduleNotSelected: Модуль Организатор записи не выбран
   addNewRecord: + Добавить
 recordRevisions:
@@ -405,13 +405,6 @@ recordRevisions:
       columns:
         field:
           label: Поле
-  configurator:
-    fields:
-      columns:
-        label:
-          label: Лейбл
-        kind:
-          label: Тип
 socialFeed:
   label: Twitter поле
   noInput: Нет ввода для отображения социальной ленты...

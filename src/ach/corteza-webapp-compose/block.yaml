@@ -26,7 +26,7 @@ automation:
   noScripts: crwdns174901:0crwdne174901:0
   removeAll: crwdns174903:0crwdne174903:0
   searchPlaceholder: crwdns174905:0crwdne174905:0
-  stepID: 'crwdns174907:0{{stepID}}crwdne174907:0'
+  stepID: "crwdns174907:0{{stepID}}crwdne174907:0"
   variants:
     primary: crwdns174909:0crwdne174909:0
     secondary: crwdns174911:0crwdne174911:0
@@ -286,7 +286,7 @@ record:
   invalidRecordVar: crwdns175331:0${record...}crwdne175331:0
   label: crwdns175333:0crwdne175333:0
   listLoadFailed: crwdns175335:0crwdne175335:0
-  moduleOrPageNotSet: 'crwdns175337:0crwdne175337:0'
+  moduleOrPageNotSet: "crwdns175337:0crwdne175337:0"
   moduleMismatch: crwdns175339:0crwdne175339:0
   horizontalFormLayout: crwdns175341:0crwdne175341:0
   inlineEdit:
@@ -405,13 +405,15 @@ recordList:
     inRange: crwdns175499:0crwdne175499:0
     includeQuery: crwdns175501:0crwdne175501:0
     json: crwdns175503:0crwdne175503:0
-    limitations: 'crwdns175505:0crwdne175505:0'
+    limitations: "crwdns175505:0crwdne175505:0"
     rangeBy: crwdns175507:0crwdne175507:0
-    recordCount: 'crwdns175509:0{{count}}crwdne175509:0'
-    selectFields: 'crwdns175511:0crwdne175511:0'
+    recordCount: "crwdns175509:0{{count}}crwdne175509:0"
+    selectFields: "crwdns175511:0crwdne175511:0"
     selection: crwdns175513:0crwdne175513:0
     specifyTimezone: crwdns175515:0crwdne175515:0
     timezonePlaceholder: crwdns175517:0crwdne175517:0
+    resolveRefs: crwdns182307:0crwdne182307:0
+    resolveRefsNote: crwdns182309:0crwdne182309:0
     datePresetUndefined: crwdns175519:0crwdne175519:0
   federated: crwdns175521:0crwdne175521:0
   fields: crwdns175523:0crwdne175523:0
@@ -419,7 +421,7 @@ recordList:
     addField: crwdns175525:0crwdne175525:0
     byValue: crwdns175527:0crwdne175527:0
     addFilterToPreset: crwdns175529:0crwdne175529:0
-    nil: 'crwdns175531:0crwdne175531:0'
+    nil: "crwdns175531:0crwdne175531:0"
     conditions:
       and: crwdns175533:0crwdne175533:0
       or: crwdns175535:0crwdne175535:0
@@ -442,7 +444,7 @@ recordList:
     fieldValuePlaceholder: crwdns175567:0crwdne175567:0
     including: crwdns175569:0crwdne175569:0
     label: crwdns175571:0crwdne175571:0
-    note: 'crwdns175573:0crwdne175573:0'
+    note: "crwdns175573:0crwdne175573:0"
     only: crwdns175575:0crwdne175575:0
     operators:
       like: crwdns175577:0crwdne175577:0
@@ -463,7 +465,7 @@ recordList:
     reset: crwdns175607:0crwdne175607:0
     filters:
       label: crwdns175609:0crwdne175609:0
-      active: 'crwdns175611:0crwdne175611:0'
+      active: "crwdns175611:0crwdne175611:0"
     name:
       label: crwdns175613:0crwdne175613:0
       placeholder: crwdns175615:0crwdne175615:0
@@ -475,16 +477,17 @@ recordList:
   hideRecordPermissionsButton: crwdns175625:0crwdne175625:0
   hideRecordReminderButton: crwdns175627:0crwdne175627:0
   hideRecordViewButton: crwdns175629:0crwdne175629:0
+  hideRecordDeleteButton: crwdns182311:0crwdne182311:0
   hideConfigureFieldsButton: crwdns175631:0crwdne175631:0
   enableRecordPageNavigation: crwdns175633:0crwdne175633:0
   import:
-    dropzoneFileAdded: 'crwdns175635:0{{name}}crwdnd175635:0{{count}}crwdne175635:0'
-    dropzoneFileAdded_plural: 'crwdns175637:0{{name}}crwdnd175637:0{{count}}crwdne175637:0'
+    dropzoneFileAdded: "crwdns175635:0{{name}}crwdnd175635:0{{count}}crwdne175635:0"
+    dropzoneFileAdded_plural: "crwdns175637:0{{name}}crwdnd175637:0{{count}}crwdne175637:0"
     dropzoneLabel: crwdns175639:0crwdne175639:0
-    failed: 'crwdns175641:0{{failReason}}crwdne175641:0'
+    failed: "crwdns175641:0{{failReason}}crwdne175641:0"
     fileColumns: crwdns175643:0crwdne175643:0
-    hasRequiredFileFields: 'crwdns175645:0crwdne175645:0'
-    matchFields: 'crwdns175647:0crwdne175647:0'
+    hasRequiredFileFields: "crwdns175645:0crwdne175645:0"
+    matchFields: "crwdns175647:0crwdne175647:0"
     moduleFields: crwdns175649:0crwdne175649:0
     onError: crwdns175651:0crwdne175651:0
     onErrorFail: crwdns175653:0crwdne175653:0
@@ -530,9 +533,9 @@ recordList:
   pagination:
     next: crwdns175717:0crwdne175717:0
     prev: crwdns175719:0crwdne175719:0
-    showing: 'crwdns175721:0{{from}}crwdnd175721:0{{to}}crwdnd175721:0{{count}}crwdne175721:0'
+    showing: "crwdns175721:0{{from}}crwdnd175721:0{{to}}crwdnd175721:0{{count}}crwdne175721:0"
     single_one: crwdns175723:0crwdne175723:0
-    single_other: 'crwdns175725:0{{count}}crwdne175725:0'
+    single_other: "crwdns175725:0{{count}}crwdne175725:0"
     recordsPerPage: crwdns175727:0crwdne175727:0
     selectLabel: crwdns175729:0crwdne175729:0
   positionField:
@@ -541,17 +544,17 @@ recordList:
     label: crwdns175735:0crwdne175735:0
   preview:
     addRecordButton: crwdns175737:0crwdne175737:0
-    bePaged: 'crwdns175739:0{{0}}crwdne175739:0'
-    isDisabled: 'crwdns175741:0{{0}}crwdne175741:0'
-    isEnabled: 'crwdns175743:0{{0}}crwdne175743:0'
-    isHidden: 'crwdns175745:0{{0}}crwdne175745:0'
-    isShown: 'crwdns175747:0{{0}}crwdne175747:0'
+    bePaged: "crwdns175739:0{{0}}crwdne175739:0"
+    isDisabled: "crwdns175741:0{{0}}crwdne175741:0"
+    isEnabled: "crwdns175743:0{{0}}crwdne175743:0"
+    isHidden: "crwdns175745:0{{0}}crwdne175745:0"
+    isShown: "crwdns175747:0{{0}}crwdne175747:0"
     moduleNotSelected: crwdns175749:0crwdne175749:0
-    recordFromModule: 'crwdns175751:0{{0}}crwdnd175751:0{{1}}crwdne175751:0'
-    recordsPerPage: 'crwdns175753:0{{0}}crwdne175753:0'
+    recordFromModule: "crwdns175751:0{{0}}crwdnd175751:0{{1}}crwdne175751:0"
+    recordsPerPage: "crwdns175753:0{{0}}crwdne175753:0"
     resultsCan: crwdns175755:0crwdne175755:0
     resultsCant: crwdns175757:0crwdne175757:0
-    resultsPrefiltered: 'crwdns175759:0crwdne175759:0'
+    resultsPrefiltered: "crwdns175759:0crwdne175759:0"
     searchInput: crwdns175761:0crwdne175761:0
     sorting: crwdns175763:0crwdne175763:0
     tableHeader: crwdns175765:0crwdne175765:0
@@ -590,9 +593,13 @@ recordList:
     showRecordPerPageOption: crwdns175829:0crwdne175829:0
     showDeletedRecordsOption: crwdns175831:0crwdne175831:0
     setCustomFilterPresets: crwdns175833:0crwdne175833:0
+    searchableFields: crwdns182313:0crwdne182313:0
+    searchableFieldsFootnote: crwdns182315:0crwdne182315:0
+    configureSearchableFields: crwdns182317:0crwdne182317:0
     openInSameTab: crwdns175835:0crwdne175835:0
     openInNewTab: crwdns175837:0crwdne175837:0
     openInModal: crwdns175839:0crwdne175839:0
+    doNothing: crwdns182319:0crwdne182319:0
     createInSameTab: crwdns175841:0crwdne175841:0
     createInNewTab: crwdns175843:0crwdne175843:0
     createInModal: crwdns175845:0crwdne175845:0
@@ -616,8 +623,8 @@ recordList:
     footnote: crwdns175877:0crwdne175877:0
     label: crwdns175879:0crwdne175879:0
   selectable: crwdns175881:0crwdne175881:0
-  selected: 'crwdns175883:0{{count}}crwdnd175883:0{{total}}crwdne175883:0'
-  selectedFromAllPages: 'crwdns175885:0{{count}}crwdne175885:0'
+  selected: "crwdns175883:0{{count}}crwdnd175883:0{{total}}crwdne175883:0"
+  selectedFromAllPages: "crwdns175885:0{{count}}crwdne175885:0"
   selectAllRecords: crwdns175887:0crwdne175887:0
   unselectAllRecords: crwdns175889:0crwdne175889:0
   sort:
@@ -688,7 +695,7 @@ recordOrganizer:
     placeholder: crwdns175971:0crwdne175971:0
     label: crwdns175973:0crwdne175973:0
   preview:
-    label: 'crwdns175975:0{{0}}crwdnd175975:0{{1}}crwdnd175975:0{{2}}crwdnd175975:0{{3}}crwdnd175975:0{{4}}crwdne175975:0'
+    label: "crwdns175975:0{{0}}crwdnd175975:0{{1}}crwdnd175975:0{{2}}crwdnd175975:0{{3}}crwdnd175975:0{{4}}crwdne175975:0"
     moduleNotSelected: crwdns175977:0crwdne175977:0
   addNewRecord: crwdns175979:0crwdne175979:0
 recordRevisions:
@@ -725,21 +732,15 @@ recordRevisions:
   configurator:
     label: crwdns176015:0crwdne176015:0
     preload: crwdns176017:0crwdne176017:0
+    sortDirection:
+      label: crwdns182321:0crwdne182321:0
+      footnote: crwdns182323:0crwdne182323:0
+      desc: crwdns182325:0crwdne182325:0
+      asc: crwdns182327:0crwdne182327:0
     errors:
       invalid-module-id: crwdns176019:0crwdne176019:0
     fields:
-      label: crwdns176021:0crwdne176021:0
-      show-all:
-        label: crwdns176023:0crwdne176023:0
-      columns:
-        label:
-          label: crwdns176025:0crwdne176025:0
-        kind:
-          label: crwdns176027:0crwdne176027:0
-        displayed-fields:
-          label: crwdns176029:0crwdne176029:0
-        expanded-references:
-          label: crwdns176031:0crwdne176031:0
+      label: crwdns182329:0crwdne182329:0
 socialFeed:
   label: crwdns176033:0crwdne176033:0
   noInput: crwdns176035:0crwdne176035:0
@@ -769,7 +770,7 @@ comment:
   title:
     placeholder: crwdns176067:0crwdne176067:0
   content:
-    placeholder: crwdns176069:0crwdne176069:0
+    placeholder: crwdns182331:0crwdne182331:0
   submit: crwdns176071:0crwdne176071:0
   noComments: crwdns176073:0crwdne176073:0
   load:
@@ -783,8 +784,15 @@ comment:
   referenceField:
     label: crwdns176087:0crwdne176087:0
     footnote: crwdns176089:0crwdne176089:0
+  attachmentField:
+    label: crwdns182333:0crwdne182333:0
+    footnote: crwdns182335:0crwdne182335:0
   today: crwdns176091:0crwdne176091:0
   yesterday: crwdns176093:0crwdne176093:0
+  tooltip:
+    reply: crwdns182337:0crwdne182337:0
+    edit: crwdns182339:0crwdne182339:0
+    attach: crwdns182341:0crwdne182341:0
 navigation:
   chart: crwdns176095:0crwdne176095:0
   colorPicker: crwdns176097:0crwdne176097:0
@@ -932,7 +940,7 @@ geometry:
     topLeft: crwdns176337:0crwdne176337:0
     lowerRight: crwdns176339:0crwdne176339:0
   tooltip:
-      goToCurrentLocation: crwdns176341:0crwdne176341:0
+    goToCurrentLocation: crwdns176341:0crwdne176341:0
 tabs:
   label: crwdns176343:0crwdne176343:0
   alertTitle: crwdns176345:0crwdne176345:0

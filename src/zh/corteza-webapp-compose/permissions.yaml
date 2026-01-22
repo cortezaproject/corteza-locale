@@ -3,11 +3,226 @@ ui:
   cancel: 取消
   set-for: 為{{target}}設定權限
   loading: 正在載入權限
+  label: 權限管理
+  notification:
+    save:
+      success: 權限已儲存
+      failed: 權限儲存失敗
+  edit:
+    label: 用戶身分
+    description: 選取身分以設定權限
+  evaluate:
+    description: 評估已套用的權限
   add:
     label: 添加
+    title: 評估權限
     save: 儲存並關閉
+    role:
+      label: 身分
+      placeholder: 選取身分
+    user:
+      label: 用戶
+      placeholder: 查找或選取用戶
+  tooltip:
+    unknown-context:
+      user: 無法評估非特定資源下具情境身分之用戶的權限
+      role: 無法評估非特定資源下情境身分的權限
+  access:
+    allow: 允許
+    inherit: 接續
+    deny: 拒絕
 resources:
   compose:
     namespace:
+      all: Namespaces 總覽
       specific: Namespace "{{target}}"
       tooltip: Namespace 權限
+      operations:
+        read:
+          specific: 讀取 Namespace "{{target}}"
+          title: 讀取任一 Namespace
+        update:
+          specific: 更新 Namespace "{{target}}"
+          title: 更新任一 Namespace
+        delete:
+          specific: 刪除 Namespace "{{target}}"
+          title: 刪除任一 Namespace
+        manage:
+          description: 允許 Namespace 的管理員頁面存取權
+          specific: 管理 Namespace "{{target}}"
+          title: 管理任一 Namespace
+        export:
+          specific: 匯出 Namespace "{{target}}"
+          title: 匯出任一 Namespace
+        module.create:
+          specific: 在 Namespace "{{target}}" 中建立模組
+          title: 在任一 Namespace 中建立模組
+        modules.export:
+          specific: 匯出 Namespace "{{target}}" 中的模組
+          title: 匯出任一 Namespace 中的模組
+        modules.search:
+          specific: 列出並查找 Namespace "{{target}}" 中的模組
+          title: 列出並查找任一 Namespace 中的模組
+        page.create:
+          specific: 在 Namespace "{{target}}" 中創建頁面
+          title: 在任一 Namespace 中創建頁面
+        pages.search:
+          specific: 列出並查找 Namespace "{{target}}" 中的頁面
+          title: 列出並查找任一 Namespace 中的頁面
+        pages.export:
+          specific: 匯出 Namespace "{{target}}" 中的頁面
+          title: 匯出任一 Namespace 中的頁面
+        chart.create:
+          specific: 在 Namespace "{{target}}" 中創建表格
+          title: 在任一 Namespace 中創建表格
+        charts.search:
+          specific: 列出並查找 Namespace "{{target}}" 中的表格
+          title: 列出並查找任一 Namespace 中的表格
+        charts.export:
+          specific: 匯出 Namespace "{{target}}" 中的表格
+          title: 匯出任一 Namespace 中的表格
+    chart:
+      all: 表格總覽
+      specific: 表格 "{{target}}"
+      tooltip: 表格權限
+      operations:
+        delete:
+          description: '預設：拒絕'
+          specific: 刪除表格 "{{target}}"
+          title: 刪除任一表格
+        read:
+          description: '預設：拒絕'
+          specific: 讀取表格 "{{target}}"
+          title: 讀取任一表格
+        update:
+          description: '預設：拒絕'
+          specific: 更新表格 "{{target}}"
+          title: 更新任一表格
+    module:
+      all: 模組總覽
+      specific: 模組 "{{target}}"
+      tooltip: 模組權限
+      operations:
+        delete:
+          description: '預設：拒絕'
+          specific: 刪除模組 "{{target}}"
+          title: 刪除任一模組
+        read:
+          description: '預設：拒絕'
+          specific: 讀取模組 "{{target}}"
+          title: 讀取任一模組
+        record.create:
+          description: '預設：拒絕'
+          specific: 創建模組 "{{target}}" 的記錄
+          title: 創建任一模組的記錄
+        records.search:
+          description: '預設：拒絕'
+          specific: 列出並查找模組 "{{target}}" 的記錄
+          title: 列出並查找任一模組的記錄
+        update:
+          description: '預設：拒絕'
+          specific: 更新模組 "{{target}}"
+          title: 更新任一模組
+        'owned-record.create':
+          description: '預設：拒絕'
+          specific: 創建模組 "{{target}}" 的記錄時一併管理擁有者
+          title: 創建任一模組的記錄時一併管理擁有者
+          all-specific: 創建模組 "{{ target }}" 的記錄時一併管理擁有者
+    module-field:
+      all: 模組欄位總覽
+      specific: 欄位 "{{target}}"
+      all-specific: 模組 "{{ target }}" 的模組欄位總覽
+      tooltip: 模組欄位權限
+      operations:
+        record.value.read:
+          description: '預設：拒絕'
+          specific: '讀取 "{{target}}" 記錄欄位'
+          title: 讀取任一模組的記錄欄位
+          all-specific: 讀取模組 "{{ target }}" 的記錄欄位
+        record.value.update:
+          description: '預設：拒絕'
+          specific: '更新 "{{target}}" 記錄欄位值'
+          title: 更新任一模組的記錄欄位值
+          all-specific: 更新模組 "{{ target }}" 的記錄欄位值
+    page:
+      all: 頁面總覽
+      specific: 頁面 "{{target}}"
+      tooltip: 頁面權限
+      operations:
+        delete:
+          description: '預設：拒絕'
+          specific: 刪除頁面 "{{target}}"
+          title: 刪除任一頁面
+        read:
+          description: '預設：拒絕'
+          specific: 讀取頁面 "{{target}}"
+          title: 讀取任一頁面
+        update:
+          description: '預設：拒絕'
+          specific: 更新頁面 "{{target}}"
+          title: 更新任一頁面
+        page-layout.create:
+          description: '預設：拒絕'
+          specific: 創建頁面 "{{target}}" 的頁面配置
+          title: 創建頁面配置
+        page-layouts.search:
+          description: '預設：拒絕'
+          specific: 列出頁面 "{{target}}" 的頁面配置
+          title: 列出頁面配置
+    page-layout:
+      all: 頁面配置總覽
+      specific: 頁面配置 "{{target}}"
+      tooltip: 頁面配置權限
+      all-specific: 頁面 "{{ target }}" 的頁面配置總覽
+      operations:
+        read:
+          description: '預設：拒絕'
+          specific: 讀取頁面配置 "{{target}}"
+          title: 讀取任一頁面配置
+          all-specific: 讀取頁面 "{{ target }}" 的頁面配置
+        update:
+          description: '預設：拒絕'
+          specific: 更新頁面配置 "{{target}}"
+          title: 更新任一頁面配置
+          all-specific: 更新頁面 "{{ target }}" 的頁面配置
+        delete:
+          description: '預設：拒絕'
+          specific: 刪除頁面配置 "{{target}}"
+          title: 刪除任一頁面配置
+          all-specific: 刪除頁面 "{{ target }}" 的頁面配置
+    record:
+      all: 記錄總覽
+      specific: 記錄 "{{target}}"
+      all-specific: 模組 "{{ target }}" 的記錄總覽
+      tooltip: 記錄權限
+      operations:
+        delete:
+          description: '預設：拒絕'
+          specific: 刪除記錄 "{{target}}"
+          title: 刪除任一模組的記錄
+          all-specific: 刪除模組 "{{ target }}" 的記錄
+        undelete:
+          description: '預設：拒絕'
+          specific: 恢復記錄 "{{target}}"
+          title: 恢復任一模組的記錄
+          all-specific: 恢復模組 "{{ target }}" 的記錄
+        read:
+          description: '預設：拒絕'
+          specific: 讀取記錄 "{{target}}"
+          title: 讀取任一模組的記錄
+          all-specific: 讀取模組 "{{ target }}" 的記錄
+        update:
+          description: '預設：拒絕'
+          specific: 更新記錄 "{{target}}"
+          title: 更新任一模組的記錄
+          all-specific: 更新模組 "{{ target }}" 的記錄
+        'owner.manage':
+          description: '預設：拒絕'
+          specific: 管理記錄 "{{target}}" 的擁有者
+          title: 管理任一模組的記錄擁有者
+          all-specific: 管理模組 "{{ target }}" 的記錄擁有者
+        'revisions.search':
+          description: '預設：拒絕'
+          specific: 存取記錄 "{{target}}" 的修訂
+          title: 存取記錄修訂
+          all-specific: 存取記錄修訂

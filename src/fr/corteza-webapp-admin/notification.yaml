@@ -31,10 +31,10 @@ user:
     error: Échec de la révocation de la session
   suspend:
     success: Utilisateur désactivé
-    error: La désactivation de l'utilisateur a échoué
+    error: Échec de la désactivation de l'utilisateur
   unsuspend:
     success: Utilisateur réactivé
-    error: La réactivation de l'utilisateur a échoué
+    error: Échec de la réactivation de l'utilisateur
   import:
     success: Utilisateurs importés avec succès
   avatarUpload:
@@ -155,7 +155,7 @@ gateway:
       error: Échec de la purge de la requête
 workflow:
   fetch:
-    error: Échec de la collecte du processus
+    error: Échec de la récupération du processus
   trigger:
     error: Échec de la récupération du déclencheur
   create:

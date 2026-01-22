@@ -11,7 +11,7 @@ datasource:
   label: Source de données
   types:
     load:
-      label: Chargement
+      label: Charger
       data-from-resource: Charge des données depuis la ressource spécifiée, par exemple des éléments "Compose"
     link:
       label: Liaison

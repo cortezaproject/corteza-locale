@@ -2,13 +2,16 @@ title: crwdns179023:0crwdne179023:0
 empty: crwdns179025:0crwdne179025:0
 emptyDescription: crwdns179027:0crwdne179027:0
 markAllAsRead: crwdns179029:0crwdne179029:0
+markAllAsUnread: crwdns182393:0crwdne182393:0
 markAsRead: crwdns179031:0crwdne179031:0
+markAsUnread: crwdns182395:0crwdne182395:0
 delete: crwdns179033:0crwdne179033:0
 all: crwdns179035:0crwdne179035:0
 unread: crwdns179037:0crwdne179037:0
 read: crwdns179039:0crwdne179039:0
 success: crwdns179041:0crwdne179041:0
 allMarkedAsRead: crwdns179043:0crwdne179043:0
+allMarkedAsUnread: crwdns182397:0crwdne182397:0
 notificationDeleted: crwdns179045:0crwdne179045:0
 loadMore: crwdns179047:0crwdne179047:0
 recordRedirectError: crwdns179049:0crwdne179049:0
@@ -17,6 +20,7 @@ unmute: crwdns179053:0crwdne179053:0
 muted: crwdns179055:0crwdne179055:0
 unmuted: crwdns179057:0crwdne179057:0
 markAllAsReadError: crwdns179059:0crwdne179059:0
+markAllAsUnreadError: crwdns182399:0crwdne182399:0
 notificationDeletedError: crwdns179061:0crwdne179061:0
 namespaceNotFound: crwdns179063:0crwdne179063:0
 pageNotFound: crwdns179065:0crwdne179065:0

@@ -28,7 +28,7 @@ automation:
   group: Automatisme
   items:
     permissions: Permissions
-    scripts: Scripts Corredor 
+    scripts: Scripts Corredor
     sessions: Sessions
     workflows: Processus
 federation:

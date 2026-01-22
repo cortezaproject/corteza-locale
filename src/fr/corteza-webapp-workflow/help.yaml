@@ -8,8 +8,6 @@
       background: Clic gauche sur le fond
       drag: Clic gauche et glisser
       label: Clic gauche
-    'mouse-wheel': Molette de souris
-    'right-click-drag': Clic droit et glisser
 'basic-controls-label': Contrôles de base
 'keyboard-shortcuts':
   action:

@@ -11,7 +11,7 @@ editor:
     deletedAt: Supprimer à
     email: Courriel *
     handle: Identifiant
-    placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+    placeholder-handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     name: Nom complet
     revokeAllSession: Révoquer toutes les sessions actives
@@ -64,7 +64,7 @@ editor:
     title: Mot de passe
   permissions: Permissions
   roles:
-    add: + Ajouter
+    add: Ajouter
     count: Roles ({{count}})
     remove: Supprimer
     unnamed: Rôle sans nom

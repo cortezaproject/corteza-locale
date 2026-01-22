@@ -3,29 +3,29 @@ label:
     namespace:
       list: Namespaces
       create: Créer un Namespace
-      edit: 'Éditer Namespace - {{label}}'
+      edit: "Éditer Namespace - {{label}}"
       view: Namespace
     module:
-      list: 'Modules - {{label}}'
+      list: "Modules - {{label}}"
       create: Créer un module
-      edit: 'Éditer Module - {{label}}'
+      edit: "Éditer Module - {{label}}"
     page:
-      list: 'Pages - {{label}}'
-      builder: 'Constructeur de page - {{label}}'
-      edit: 'Éditer page - {{label}}'
-      record: 'Élément - {{label}}'
+      list: "Pages - {{label}}"
+      builder: "Constructeur de page - {{label}}"
+      edit: "Éditer page - {{label}}"
+      record: "Élément - {{label}}"
     chart:
-      list: 'Graphiques - {{label}}'
-      edit: 'Éditer graphique - {{label}}'
+      list: "Graphiques - {{label}}"
+      edit: "Éditer graphique - {{label}}"
       create: Créer Graphique
   actions: Actions
   active: Actif
-  add: + Ajouter
+  add: Ajouter
   add-with-plus: + Ajouter
   addNew: Ajouter nouveau
   addValue: Ajouter nouvelle valeur
   ascending: Ascendant
-  attachmentFileInfo: '(Taille de fichier : {{0}}, téléversé {{1}})'
+  attachmentFileInfo: "(Taille de fichier : {{0}}, téléversé {{1}})"
   attributes: Attributs
   back: Retour
   backWithoutSave: Retour (sans enregistrer)
@@ -86,8 +86,8 @@ label:
   saveAndClose: Enregistrer et fermer
   saveAsCopy: Dupliquer
   status: Statut
-  timeHour: '{{t}}h'
-  timeMinute: '{{t}}min'
+  timeHour: "{{t}}h"
+  timeMinute: "{{t}}min"
   today: Aujourd'hui
   title: Titre
   type: Type
@@ -114,7 +114,7 @@ navigation:
   page: Pages
   pageLayout: Dispositions de page
 placeholder:
-  handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+  handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
   sample: Échantillon
 reminder:
   add: Ajouter un rappel
@@ -138,7 +138,6 @@ reminder:
   routesTo: Étiquette pour le lien de page
   snooze:
     label: Répétition
-    count: Nombre de répétitions {{count}}
 tooltip:
   dragAndDrop: Glisser et déposer pour changer l'ordre
 fieldKinds:
@@ -178,9 +177,9 @@ resourceList:
   pagination:
     next: Suivant
     prev: Précédent
-    showing: '{{from}} - {{to}} sur {{count}} {{data}}'
-    single_one: '1 {{data}}'
-    single_other: '{{count}} {{data}}'
+    showing: "{{from}} - {{to}} sur {{count}} {{data}}"
+    single_one: "1 {{data}}"
+    single_other: "{{count}} {{data}}"
     recordsPerPage: Par Page
 recordNavigation:
   next: Élément suivant
@@ -205,8 +204,6 @@ webcam:
     confirm: Importé une photo
   errors:
     camera: Impossible d'accéder à la caméra. Merci d'autorisé à l'accès à la caméra.
-record:
-  unsavedChanges: Les changements non enregistrés seront perdus. Voulez-vous vraiment fermer l'élément ?
 themes:
   labels:
     light: Clair

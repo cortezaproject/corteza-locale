@@ -125,7 +125,7 @@ navigation:
   page: Pages
   viewPage: Afficher Page
   editModule: Éditer module
-noBlock: Pas de bloc ajouter pour le moment
+noBlock: Pas de bloc ajouté pour le moment
 noPages: Pas de pages
 notVisible: Caché
 pageMoveFailed: Impossible de déplacer cette page

@@ -13,7 +13,7 @@ editor:
     delete: Supprimer
     deletedAt: Supprimer à
     handle: Identifiant
-    placeholder-handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
+    placeholder-handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     meta:
       description: Description

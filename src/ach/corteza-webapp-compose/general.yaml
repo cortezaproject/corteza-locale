@@ -3,20 +3,20 @@ label:
     namespace:
       list: crwdns174503:0crwdne174503:0
       create: crwdns174505:0crwdne174505:0
-      edit: 'crwdns174507:0{{label}}crwdne174507:0'
+      edit: "crwdns174507:0{{label}}crwdne174507:0"
       view: crwdns174509:0crwdne174509:0
     module:
-      list: 'crwdns174511:0{{label}}crwdne174511:0'
+      list: "crwdns174511:0{{label}}crwdne174511:0"
       create: crwdns174513:0crwdne174513:0
-      edit: 'crwdns174515:0{{label}}crwdne174515:0'
+      edit: "crwdns174515:0{{label}}crwdne174515:0"
     page:
-      list: 'crwdns174517:0{{label}}crwdne174517:0'
-      builder: 'crwdns174519:0{{label}}crwdne174519:0'
-      edit: 'crwdns174521:0{{label}}crwdne174521:0'
-      record: 'crwdns174523:0{{label}}crwdne174523:0'
+      list: "crwdns174517:0{{label}}crwdne174517:0"
+      builder: "crwdns174519:0{{label}}crwdne174519:0"
+      edit: "crwdns174521:0{{label}}crwdne174521:0"
+      record: "crwdns174523:0{{label}}crwdne174523:0"
     chart:
-      list: 'crwdns174525:0{{label}}crwdne174525:0'
-      edit: 'crwdns174527:0{{label}}crwdne174527:0'
+      list: "crwdns174525:0{{label}}crwdne174525:0"
+      edit: "crwdns174527:0{{label}}crwdne174527:0"
       create: crwdns174529:0crwdne174529:0
   actions: crwdns174531:0crwdne174531:0
   active: crwdns174533:0crwdne174533:0
@@ -25,7 +25,7 @@ label:
   addNew: crwdns174539:0crwdne174539:0
   addValue: crwdns174541:0crwdne174541:0
   ascending: crwdns174543:0crwdne174543:0
-  attachmentFileInfo: 'crwdns174545:0{{0}}crwdnd174545:0{{1}}crwdne174545:0'
+  attachmentFileInfo: "crwdns174545:0{{0}}crwdnd174545:0{{1}}crwdne174545:0"
   attributes: crwdns174547:0crwdne174547:0
   back: crwdns174549:0crwdne174549:0
   backWithoutSave: crwdns174551:0crwdne174551:0
@@ -37,9 +37,11 @@ label:
   clone: crwdns174563:0crwdne174563:0
   close: crwdns174565:0crwdne174565:0
   create: crwdns174567:0crwdne174567:0
+  createRecordFromDraft: crwdns182347:0crwdne182347:0
   delete: crwdns174569:0crwdne174569:0
   default: crwdns174571:0crwdne174571:0
   restore: crwdns174573:0crwdne174573:0
+  discard: crwdns182349:0crwdne182349:0
   descending: crwdns174575:0crwdne174575:0
   description: crwdns174577:0crwdne174577:0
   download: crwdns174579:0crwdne174579:0
@@ -60,6 +62,7 @@ label:
   moduleName: crwdns174609:0crwdne174609:0
   multi: crwdns174611:0crwdne174611:0
   name: crwdns174613:0crwdne174613:0
+  newRecord: crwdns182351:0crwdne182351:0
   next: crwdns174615:0crwdne174615:0
   no: No
   noHandle: crwdns174617:0crwdne174617:0
@@ -84,10 +87,12 @@ label:
   sensitive: crwdns174653:0crwdne174653:0
   save: crwdns174655:0crwdne174655:0
   saveAndClose: crwdns174657:0crwdne174657:0
+  saveAs: crwdns182353:0crwdne182353:0
   saveAsCopy: crwdns174659:0crwdne174659:0
+  search: crwdns182355:0crwdne182355:0
   status: crwdns174661:0crwdne174661:0
-  timeHour: 'crwdns174663:0{{t}}crwdne174663:0'
-  timeMinute: 'crwdns174665:0{{t}}crwdne174665:0'
+  timeHour: "crwdns174663:0{{t}}crwdne174663:0"
+  timeMinute: "crwdns174665:0{{t}}crwdne174665:0"
   today: crwdns174667:0crwdne174667:0
   title: crwdns174669:0crwdne174669:0
   type: crwdns174671:0crwdne174671:0
@@ -138,7 +143,7 @@ reminder:
   routesTo: crwdns174747:0crwdne174747:0
   snooze:
     label: crwdns174749:0crwdne174749:0
-    count: crwdns174751:0{{count}}crwdne174751:0
+    count: crwdns182357:0crwdne182357:0
 tooltip:
   dragAndDrop: crwdns174753:0crwdne174753:0
 fieldKinds:
@@ -178,9 +183,9 @@ resourceList:
   pagination:
     next: crwdns174789:0crwdne174789:0
     prev: crwdns174791:0crwdne174791:0
-    showing: 'crwdns174793:0{{from}}crwdnd174793:0{{to}}crwdnd174793:0{{count}}crwdnd174793:0{{data}}crwdne174793:0'
-    single_one: 'crwdns174795:0{{data}}crwdne174795:0'
-    single_other: 'crwdns174797:0{{count}}crwdnd174797:0{{data}}crwdne174797:0'
+    showing: "crwdns174793:0{{from}}crwdnd174793:0{{to}}crwdnd174793:0{{count}}crwdnd174793:0{{data}}crwdne174793:0"
+    single_one: "crwdns174795:0{{data}}crwdne174795:0"
+    single_other: "crwdns174797:0{{count}}crwdnd174797:0{{data}}crwdne174797:0"
     recordsPerPage: crwdns174799:0crwdne174799:0
 recordNavigation:
   next: crwdns174801:0crwdne174801:0
@@ -206,7 +211,8 @@ webcam:
   errors:
     camera: crwdns174833:0crwdne174833:0
 record:
-  unsavedChanges: crwdns174835:0crwdne174835:0
+  unsavedChanges: crwdns182359:0crwdne182359:0
+  unsavedChangesDraft: crwdns182361:0crwdne182361:0
 themes:
   labels:
     light: crwdns174837:0crwdne174837:0
@@ -215,3 +221,5 @@ extendSession:
   labels:
     extend: crwdns174841:0crwdne174841:0
     warning: crwdns174843:0{{ countdownTime }}crwdne174843:0
+changes_one: "crwdns182363:0{{count}}crwdne182363:0"
+changes_other: "crwdns182365:0{{count}}crwdne182365:0"

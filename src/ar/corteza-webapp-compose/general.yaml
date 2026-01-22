@@ -12,7 +12,7 @@ label:
   addNew: اضف جديد
   addValue: أضف قيمة جديدة
   ascending: تصاعدي
-  attachmentFileInfo: '(حجم الملف: {{0}}, تم رفع {{1}})'
+  attachmentFileInfo: "(حجم الملف: {{0}}, تم رفع {{1}})"
   attributes: صفات
   back: عودة
   backWithoutSave: رجوع (بدون حفظ التغييرات)
@@ -61,8 +61,8 @@ label:
   save: حفظ
   saveAndClose: احفظ وأغلق
   status: الحالة
-  timeHour: '{{t}}h'
-  timeMinute: '{{t}}min'
+  timeHour: "{{t}}h"
+  timeMinute: "{{t}}min"
   today: اليوم
   title: عنوان
   type: نوع

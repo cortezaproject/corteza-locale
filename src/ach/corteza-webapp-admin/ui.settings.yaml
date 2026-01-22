@@ -79,6 +79,8 @@ editor:
       hide-theme-selector: crwdns171997:0crwdne171997:0
     notifications:
       hide: crwdns171999:0crwdne171999:0
+    drafts:
+      hide: crwdns182305:0crwdne182305:0
     links:
       title: crwdns172001:0crwdne172001:0
       handle: crwdns172003:0crwdne172003:0
