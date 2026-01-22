@@ -1,3 +1,13 @@
 errors:
+  notFound: conexão não encontrada
   invalidID: ID inválida
   invalidEndpoint: ponto final inválido
+  existsEndpoint: já existe uma conexão com este DNS
+  alreadyExists: a conexão por esse DNS já existe
+  notAllowedToCreate: não é permitido criar uma conexão
+  notAllowedToRead: não é permitido ler esta conexão
+  notAllowedToSearch: não é permitido listar ou pesquisar conexões
+  notAllowedToUpdate: não é permitido atualizar esta conexão
+  notAllowedToDelete: não é permitido excluir esta conexão
+  notAllowedToUndelete: não é permitido recuperar esta conexão
+  notAllowedToExec: não é permitido executar esta conexão
