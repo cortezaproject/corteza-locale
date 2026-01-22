@@ -8,3 +8,4 @@ errors:
   notFound: módulo não existe
   notUnique: nó não único
   requestParametersInvalid: parâmetros de solicitação inválidos
+  staleData: o módulo foi modificado por outra pessoa ou por um fluxo de trabalho após você tê-lo aberto. Atualize a página para ver a versão mais recente
