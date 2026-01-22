@@ -3,13 +3,18 @@ system:
   group: Sistema
   items:
     users: Comercial
+    usergroups: Grupos de usuários
     actionlog: Registro de ações
     apigw: Gateway de integração
     applications: Formulários
     authclients: Clientes de autenticação
+    connections: Conexões
+    code-snippets: Trechos de código
+    sensitivityLevel: Níveis de sigilo
     permissions: Permissões
     queues: Filas de mensagens
     roles: Funções
+    settings: Configurações de autenticação
     email: Configurações de e-mail
     stats: Estatísticas
     templates: Modelos
@@ -33,3 +38,7 @@ federation:
     permissions: Permissões
 ui:
   group: Interface de usuário
+  items:
+    theming: Tema
+    navigation: Navegação
+    location: Localização
