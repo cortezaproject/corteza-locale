@@ -7,7 +7,10 @@ report:
   delete: Excluir
 searchPlaceholder: Pesquisar relatórios
 title: Relatórios
+tooltip:
+  permissions: Permissões de relatório
 untitledTitle: Relatório sem título
 columns:
   name: Nome
   handle: Identificador
+  changedAt: Última modificação
