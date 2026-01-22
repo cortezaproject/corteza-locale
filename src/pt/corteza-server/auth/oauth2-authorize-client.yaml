@@ -6,5 +6,9 @@ template:
     buttons:
       allow: Permitir
       deny: Negar
+  links:
+    mistake: Se foi um engano, por favor <a data-test-id="link-logout" href="{{link}}">encerre a sessão</a>.
   errors:
     invalid-user: Não é possível continuar com um e-mail não autorizado, acesse <a data-test-id="link-redirect-to-profile" href="{{link}}">seu perfil</a> e regularize o problema
+alerts:
+  denied: 'Falha ao autorizar {{client}}: permissões insuficientes'
