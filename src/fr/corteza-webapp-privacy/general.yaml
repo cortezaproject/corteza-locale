@@ -27,3 +27,4 @@ themes:
 extendSession:
   labels:
     extend: Étendre la session
+    warning: Vous serez déconnecté(e) dans {{ countdownTime }} secondes
