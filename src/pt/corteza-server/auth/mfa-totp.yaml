@@ -11,9 +11,15 @@ template:
     <br />
     <br />
     Você pode utilizar uma das seguintes aplicações:
+  lastpass: <a target="_blank" href="{{ link }}">Autenticaor LastPass</a>
+  gauth: Google Authenticator para <a target="_blank" href="{{ android }}">Android</a> ou <a target="_blank" href="{{ iphone }}">iPhone</a>
+  authy: <a target="_blank" href="{{ link }}">Authy</a>
   form:
     title: "Complete a configuração informando o código exibido no aplicativo de autenticação:"
     button: Enviar
 alerts:
   text-MFA-enabled: Autenticação de 2 fatores com TOTP ativado
   text-MFA-disabled: Autenticação de 2 fatores com TOTP desabilitado
+errors:
+  invalid-code-format: "Formato de código inválido"
+  invalid-code: "Código inválido"
