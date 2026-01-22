@@ -6,10 +6,18 @@ template:
   mfa:
     title: Autenticação de múltiplos fatores
     totp:
+      title: TOTP (senha de uso único baseada em tempo via aplicativo móvel)
+      enforced: Habilitado
       configure: Configurar
       enable: Habilitar
       disable: Desabilitar
+      enabled: Senha única baseada em tempo habilitada
+      disabled: Desabilitado
     email:
+      title: E-mail OTP (senha de uso único enviada por e-mail)
+      enforced: Habilitado
       enable: Habilitar
       disable: Desabilitar
+      enabled: Autenticação de dois fatores por e-mail ativada
+      disabled: Autenticação de dois fatores por e-mail desativada
     all-disabled: Todos os métodos de autenticação de múltiplos fatores estão desabilitados. Contate o administrador para habilitá-los.
