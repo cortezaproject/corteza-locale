@@ -1,12 +1,17 @@
 editor:
+  title: Trechos de código
   code-snippets:
+    add: Adicionar trecho de código
+    empty: Ainda não há trechos de código
     enabled: Habilitado
     table-headers:
       name: Nome
       enabled: Habilitado
       script: Código
     form:
+      title: Adicionar trecho de código
       name:
         label: Nome
       code:
         label: Código
+        description: Adicione um script externo ou um trecho de código. O script deve incluir uma tag <script> válida para funcionar.
