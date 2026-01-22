@@ -82,6 +82,9 @@ kind:
     prefixPlaceholder: Préfixe
     suffixLabel: Suffixe
     suffixPlaceholder: Suffixe
+    step:
+      label: Pas
+      description: Définissez le pas du champ numérique
     displayType:
       label: Type d'affichage
       number: Nombre
