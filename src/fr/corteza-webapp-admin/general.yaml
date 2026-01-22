@@ -43,6 +43,7 @@ label:
   clear: Vider
   all: Tous
   none: Aucun
+  experimental: Expérimental
   now: Maintenant
   openMap: Ouvrir Carte
   today: Aujourd'hui
