@@ -1,4 +1,6 @@
 break:
+  label: Interruption
+  short: Interruption
   tooltip: Arrête l'exécution de l'itérateur et continue le processus
 content:
   label: Contenu
