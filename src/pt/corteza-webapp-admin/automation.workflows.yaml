@@ -6,6 +6,7 @@ editor:
     deletedAt: Excluído em
     enabled: Habilitado
     handle: Identificador
+    invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
     id: IDENTIFICAÇÃO
     name: Nome *
     openBuilder: Abrir construtor
@@ -30,6 +31,7 @@ list:
     enabled: Habilitado
     handle: Identificador
     name: Nome
+    state: Estado
   delete: Excluir
   undelete: Recuperar
   export: Exportar
