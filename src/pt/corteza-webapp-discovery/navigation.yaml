@@ -1,10 +1,13 @@
+discovery: Descoberta
 help:
   documentation: Documentação
   feedback: Enviar comentário
   forum: Ajuda
   version: 'Versão:'
+appMenu: Menu
 userSettings:
   changePassword: Mudar senha
   loggedInAs: Conectado como {{user}}
   logout: Sair
   profile: Perfil
+  theme: Tema
