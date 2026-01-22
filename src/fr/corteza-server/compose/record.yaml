@@ -19,6 +19,7 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de cet élément
   notAllowedToUpdate: non autorisé à mettre à jour cet élément
   notFound: élément introuvable
+  staleData: l'élément a été modifié par quelqu'un d'autre ou par un autre processus après votre ouverture. Veuillez actualiser pour voir la dernière version mise à jour
   unknownBulkOperation: opération en masse inconnue {bulkOperation}
   valueInput: valeur de saisie d'élément invalide
   maxRecordsReached: nombre max d'élément par namespace atteint
