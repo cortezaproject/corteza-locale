@@ -4,6 +4,7 @@ general:
   error: Erro
   success: Sucesso
   warning: Aviso
+  info: Informações
 list:
   load:
     error: Falha ao carregar a lista de recursos
@@ -13,6 +14,7 @@ namespace:
   fetch-failed: Falha ao buscar namespaces
 report:
   createFailed: Falha ao criar relatório
+  loadFailed: Falha ao carregar o relatório
   created: Relatório criado
   delete: Relatório excluído
   deleteFailed: Falha ao excluir relatório
@@ -23,3 +25,6 @@ report:
   updated: Relatório atualizado
   notAllowed:
     read: Não é permitido ler o relatório
+  datasources:
+    updated: Fontes de dados atualizadas
+    updateFailed: Falha ao atualizar as fontes de dados
