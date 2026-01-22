@@ -2,19 +2,32 @@ colorLabel: '{{count}} cores'
 colorScheme:
   label: Esquema de cores
   placeholder: Escolha um esquema de cores
+  pickAColor: Escolha uma cor
   custom:
+    add: Adicionar esquema de cores
+    edit: Editar esquema de cores
     modal:
       name:
         label: Nome
+      colors:
+        label: Cores
 configure:
   reportsLabel: Relatórios
 general:
   label:
     title: Rótulo
     add: Adicionar
+    count: Contar
     permissions: Permissões
   value: Valor
+  placeholder:
+    name: 'Nome (ex.: "Vendas por mês")'
+    handle: Identificador único (a - z, 0 - 9, sublinhado, hífen)
+    invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
 edit:
+  animation:
+    label: Animação
+    enabled: Animação ativada
   dimension:
     calculateLabelCount: Calcular quantos rótulos podem ser mostrados
     defaultValueFootnote: Use este valor para valores de dimensão ausentes
@@ -23,6 +36,8 @@ edit:
     fieldPlaceholder: Selecione um campo de dimensão
     function:
       placeholder: Selecione o modificador de dimensão (tamanho do bucket)
+      none: Sem agrupamento
+      auto: Auto
       date: Data
       label: Função
       month: Mês
@@ -32,6 +47,9 @@ edit:
     gaugeSteps: Degraus
     label: Dimensões
     skipMissingValues: Pular valores ausentes
+    timeLabels: Etiquetas de tempo
+    options:
+      label: Opções
     optionsPicker:
       searchPlaceholder: Escreva aqui para procurar entre as opções selecionadas
       availableItems: Opções disponíveis
@@ -39,10 +57,16 @@ edit:
       selectedItems: Opções selecionadas
       unselectAllItems: Desmarque todos
       noItemsFound: Nenhuma opção encontrada
+    rotate:
+      label: Girar rótulos
+      description: Os rótulos podem ser girados de -90 a 90 graus.
   filter:
     customize: Personalizar filtro
     label: Filtro
+    preset: Filtros predefinidos
+    footnote: A sintaxe simplificada de condição SQL (WHERE ...) é suportada. Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando disponíveis)
     placeholder: campo1 = 1 E campo2 = 232
+    noFilter: Selecione um filtro
     recordsCreatedLastMonth: Registros criados no mês passado
     recordsCreatedLastQuarter: Registros criados no último trimestre
     recordsCreatedLastYear: Registros criados no ano passado
@@ -56,6 +80,9 @@ edit:
     fieldLabel: Campo *
     fieldPlaceholder: Selecionar campo de métrica
     fillArea: Preencha a área abaixo da linha
+    fixTooltips: Sempre mostrar rótulos
+    options:
+      label: Opções
     function:
       avg: MED
       label: Função
@@ -67,13 +94,37 @@ edit:
     fx:
       description: n - valor do conjunto de dados atual, m - valor do conjunto de dados anterior
       label: Função de pós-processamento
+    stack:
+      label: Pilha
+      description: As métricas com o mesmo valor serão empilhadas
     lineStyle:
+      label: Estilo de linha
       default: Predefinição
+      smooth: Suave
+      step: Etapa
+    angle:
+      start: Ângulo inicial
+      end: Ângulo final
+    rose: Rosa
+    radar:
+      shape:
+        label: Formato do radar
+        polygon: Polígono
+        circle: Círculo
     gaugeColor: Cor
     label: Métrica
     labelColor: Cor do rótulo
     labelLabel: Rótulo
     labelPlaceholder: Total
+    symbol:
+      label: Símbolo
+      circle: Círculo
+      triangle: Triângulo
+      diamond: Diamante
+      pin: Alfinetar
+      arrow: Seta
+      rect: Retângulo
+      roundRect: Retângulo arredondado
     legend:
       bottom: Inferior
       left: Deixou
@@ -90,22 +141,34 @@ edit:
     output:
       bar: Barra
       doughnut: Rosquinha
+      label: Tipo de gráfico *
       line: Linha
       pie: Torta
+      scatter: Dispersar
       placeholder: Selecionar saída de métrica
     relative: Mostrar valor relativo
     relativePrecision: 'Precisão:'
+    cumulative: Cumulativo
   module:
     label: Módulo *
     placeholder: Escolha um módulo
+    title: Fonte de dados
   title: Criador de gráficos
   unconfiguredReport: Relatório não configurado
   yAxis:
     axisOnRight: Coloque o eixo no lado direito
     axisScaleFromZero: Sempre comece a escala do eixo em zero
     label: Eixo Y
+    options:
+      label: Opções
+    rotate:
+      label: Girar rótulos
+      description: Os rótulos podem ser girados de -90 a 90 graus
     labelLabel: Etiqueta do eixo
     labelPosition:
+      label: Posição da etiqueta
+      top: Iniciar
+      center: Centro
       bottom: Fim
     horizontal:
       label: Horizontal
@@ -116,51 +179,83 @@ edit:
     minPlaceholder: Valor mínimo
   additionalConfig:
     legend:
+      label: Lenda
       show: Mostrar legenda
       orientation:
+        label: Orientação
         horizontal: Horizontal
         vertical: Vertical
       align:
+        label: Alinhar
         left: Deixou
         right: Certo
+        center: Centro
+      scrollable: Rolável
       position:
+        customize: Posição padrão
         top: Topo
         right: Certo
         bottom: Inferior
         left: Deixou
+      valueRange: Os valores podem ser definidos como pixels (20) ou como porcentagens (20%)
+      options:
+        label: Opções
+    tooltip:
+      label: Dica de ferramenta
+      labelNextToChart: Exibir rótulos ao lado do gráfico
+      formatting:
+        label: Formatação personalizada
+        description: '{a} - rótulo da métrica, {b} - valor da dimensão, {c} - valor da métrica, {d} - porcentagem do valor da métrica'
+        placeholder: '{a}<br />{b} : {c} ({d}%)'
+        disclaimer: Adicionar um valor ao campo de formatação desativará os campos de formatação de número, prefixo e sufixo, e vice-versa
     offset:
       label: Desvio
+      default: Deslocamento padrão
       position:
         top: Topo
         right: Certo
         bottom: Inferior
         left: Deixou
+      valueRange: Os valores podem ser definidos como pixels (20) ou como porcentagens (20%)
   toolbox:
+    label: Ferramentas
+    saveAsImage:
+      label: Exibir o botão "Salvar imagem"
     timeline:
+      label: Linha do tempo
       options:
         none: Nenhum
         x: Eixo X
         y: Eixo Y
+        xy: Ambos
   formatting:
     format:
       label: Formato
+      placeholder: '0,00'
     prefix:
       label: Prefixo
+      placeholder: '#'
     suffix:
       label: Sufixo
+      placeholder: '$'
     presetFormats:
       label: Formato
       options:
         custom: Personalizado
+        accounting: Número contábil
+      description:
+        accounting: Os números negativos são transformados em positivos e somados entre parênteses, sendo o valor 0 substituído por um hífen
 import: 'Importar gráfico(s):'
 newLabel: 'Criar um novo gráfico:'
 name: Nome do gráfico *
 handle: Identificador
+generalSettings: Configurações gerais
 notification:
   loadFailed: Não foi possível carregar o gráfico
   saveFailed: Não foi possível salvar este gráfico
   saved: Gráfico salvo
   deleteFailed: Não foi possível excluir este gráfico
   deleted: Gráfico excluído
+searchPlaceholder: Pesquisar gráficos neste namespace
 title: Lista de gráficos
 undefined: indefinido
