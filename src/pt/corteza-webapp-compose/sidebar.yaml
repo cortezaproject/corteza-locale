@@ -1,9 +1,12 @@
 adminPanel: Painel de administração
 chart: Gráficos
+manageNamespaces: Gerenciar namespaces
 module: Módulos
+noResults: Sem resultados
 page: Páginas
 pickNamespace: Selecione um namespace
 publicPages: Páginas públicas
 editNamespace: Editar namespace
 searchPlaceholder:
+  admin: Buscar recursos...
   public: Procurar páginas...
