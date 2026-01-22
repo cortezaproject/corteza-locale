@@ -1,12 +1,14 @@
 automation:
   scriptFailed: Não foi possível executar a automação
 chart:
+  created: Gráfico criado
   createFailed: Não foi possível criar um gráfico
   deleteFailed: Não foi possível excluir este gráfico
   deleted: Gráfico excluído
   invalidConfig:
     missingDimensionsField: Campo de dimensões não definido
     missingDimensionsModifier: Modificador de dimensões não definido
+    missingDimensionsSteps: As dimensões dos passos não estão definidas
     missingMetricsAggregate: Agregado de métricas não definido
     missingMetricsField: Campo de métricas não definido
     missingMetricsType: Tipo de gráfico de métricas não definido
@@ -14,7 +16,21 @@ chart:
     missingReports: Relatórios não definidos
   loadFailed: Não foi possível carregar o gráfico
   optionsBuildFailed: Não foi possível criar opções de gráfico
+  updateFailed: Não foi possível atualizar este gráfico
+  updated: Gráfico atualizado
   unsupportedRenderer: Renderizador não compatível
+  colorScheme:
+    fetch:
+      failed: Não foi possível obter os esquemas de cores personalizados
+    create:
+      success: Esquema de cores criado
+      failed: Falha ao criar esquema de cores
+    update:
+      success: Esquema de cores atualizado
+      failed: Falha ao atualizar o esquema de cores
+    delete:
+      success: Esquema de cores excluído
+      failed: Falha ao excluir o esquema de cores
 color:
   RGBA:
     invalid: Formato de cor RGBA inválido
@@ -25,6 +41,15 @@ field:
 field-datetime:
   valueNotFuture: Valor passado no campo somente futuro
   valueNotPast: Valor futuro no campo somente passado
+field-geometry:
+  geolocationErrors:
+    permissionDenied: O usuário negou a solicitação de geolocalização
+    positionUnavailable: Informações de localização indisponíveis
+    timeout: A solicitação para obter a localização do usuário expirou
+    unknownError: Ocorreu um erro desconhecido
+    notSupported: A geolocalização não é suportada neste navegador
+    errorOccurred: Ocorreu um erro ao obter a localização do usuário
+    locationSearchFailed: A busca de localização falhou
 general:
   composeAccessNotAllowed: Não tem permissão para acessar o Compose
   error: Erro
@@ -40,8 +65,11 @@ list:
   load:
     error: Falha ao carregar a lista de recursos
 module:
+  created: Módulo criado
+  createFailed: Não foi possível criar o módulo
   deleteFailed: Não foi possível excluir este módulo
   deleted: Módulo excluído
+  loadFailed: Não foi possível carregar o módulo
   saveFailed: Não foi possível salvar este módulo
   saved: Módulo salvo
   columns:
@@ -49,6 +77,15 @@ module:
     saveFailed: Não foi possível salvar as colunas
   recordPage:
     createFailed: Não foi possível criar a página de registro do módulo
+  schemaAlterations:
+    load:
+      error: Não foi possível obter as alterações
+    resolve:
+      success: Alteração(ões) resolvida(s)
+      error: Não foi possível resolver a(s) alteração(ões)
+    dismiss:
+      success: Alteração rejeitada
+      error: Não foi possível descartar a alteração
 namespace:
   application:
     createFailed: Não foi possível criar o aplicativo de namespace
@@ -56,38 +93,102 @@ namespace:
     saveFailed: Não foi possível salvar o aplicativo de namespace
   assetUploadFailed: Não foi possível fazer upload de recursos anexados
   createFailed: Não foi possível criar namespace
+  deleted: Namespace deletado
   deleteFailed: Não foi possível excluir este namespace
   disabled: Namespace desabilitado - redirecionando
   saveFailed: Não foi possível salvar este namespace
   saved: Namespace salvo
+  cloned: Namespace clonado
   cloneFailed: Não foi possível clonar este namespace
   imported: Namespace importado
   importFailed: Falha ao importar namespace
+  loadFailed: Não foi possível carregar o namespace
 page:
+  block:
+    calendar:
+      eventFetchFailed: Não foi possível obter a lista de eventos
+  notFound: Página não encontrada
   createFailed: Não foi possível criar uma página
+  cloneFailed: Não foi possível clonar esta página
   deleteFailed: Não foi possível excluir esta página
+  iconFetchFailed: Não foi possível obter a lista de ícones
+  iconDeleteFailed: Não foi possível excluir o ícone selecionado
+  iconDeleteSuccess: Ícone excluído
+  loadFailed: Não foi possível carregar a página
+  listFailed: Não foi possível carregar a lista de páginas
   noPages: Nenhuma página encontrada
   saveFailed: Não foi possível salvar esta página
   saveFailedRequired: Não foi possível salvar esta página, todos os campos obrigatórios do módulo devem estar presentes
   saved: Página salva
+  deleted: Página excluída
+  copySuccess: O bloco foi copiado com sucesso
+  cloneSuccess: O bloco foi clonado para a parte inferior da página
+  pasteSuccess: O bloco foi colado na parte inferior da página
+  duplicateFailed: Não foi possível duplicar o bloco
+  blockWaiting: Há um bloco de página aguardando
+  copyFailed: Não foi possível copiar o bloco de página {{reason}}
+  invalidBlock: Bloco de página inválido
+  page-layout:
+    notFound:
+      edit: Nenhum layout de página encontrado
+      view: Nenhum layout de página encontrado
+    save:
+      success: Layout salvo
+      failed: Falha ao salvar o layout
+    clone:
+      success: Layout clonado e selecionado
+      failed: Falha ao clonar o layout
+    delete:
+      success: Layout excluído
+      failed: Falha ao excluir o layout
+    listFailed: Não foi possível carregar os layouts de página
 record:
   createFailed: Não foi possível criar registro
   createSuccess: Registro criado
   updateFailed: Não foi possível atualizar o registro
   updateSuccess: Registro atualizado
   deleteFailed: Não foi possível excluir o registro
+  deleteSuccess: Registro excluído
+  restoreFailed: Não foi possível restaurar o registro
+  restoreSuccess: Registro restaurado
   deleteBulkFailed: Não foi possível excluir os registros selecionados
+  deleteBulkRecordUpdateFailed: Não foi possível atualizar os registros selecionados
   deleteBulkSuccess: Registros selecionados excluídos com sucesso
+  bulkRecordUpdateSuccess: Registros selecionados atualizados com sucesso
+  restoreBulkFailed: Não foi possível restaurar os registros selecionados
+  restoreBulkSuccess: Registros selecionados foram restaurados com sucesso
   invalidOwnerVar: Não é possível usar a variável ${ownerID} em páginas não registradas
   invalidRecordVar: Não é possível usar a variável ${record...} em páginas sem registro
   listLoadFailed: Não foi possível carregar a lista de registros
   loadFailed: Não foi possível carregar o registro
+  countFailed: Não foi possível obter o número de registros disponíveis
   moduleMismatch: Módulo incompatível, incompatibilidade de módulo
   moduleNotDefined: Módulo de registro não definido
   moduleOrPageNotSet: "Módulo de erro do bloco RecordList ou opção de página não definida"
   unexpectedInput: Entrada inesperada para a propriedade de valores, deve ser uma matriz com pares de objetos nome-valor
   unexpectedValue: Valor não experado para registro de módulo ({{type}})
+  validationErrors: "verificar mensagens de erro no(s) campo(s): {{fields}}"
+  validationWarnings: "Verifique as mensagens de aviso no(s) campo(s): {{fields}}"
+  staleDataRefresh: Dados de registro desatualizados; todas as alterações não salvas serão perdidas. Deseja atualizar os dados agora?
+  fieldConditions:
+    failed: Falha ao avaliar os campos condicionais do bloco de registro
+  requiredFields:
+    failed: Falha na avaliação dos campos obrigatórios do layout da página de registro
+record-list:
+  corrupted-filter: Filtro corrompido
+  corrupted-summaries: Resumos corrompidos
+  corrupted-configured-fields: Colunas configuradas corrompidas
+  incorrect-filter-structure: Estrutura incorreta do filtro {{filterID}}
 report:
   listFetchFailed: Falha ao buscar relatórios
   fetchFailed: Falha ao buscar relatório
   runFailed: Falha ao gerar relatório
+translations:
+  saved: Traduções salvas
+  saveFailed: Não foi possível salvar as traduções
+connection:
+  read-failed: Falha ao ler a conexão
+sensitivity-level:
+  fetch-failed: Falha ao obter os níveis de sensibilidade
+evaluate:
+  failed: Falha na avaliação da expressão
