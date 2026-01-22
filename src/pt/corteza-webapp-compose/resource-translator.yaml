@@ -3,13 +3,26 @@ translator:
   add-language: Adicionar idioma
   missing-translation: Tradução ausente
 resources:
+  chart:
+    title: Gráfico "{{ handle }}"
+    tooltip: Traduções de gráficos
   namespace:
     title: Namespace "{{ handle }}"
+    tooltip: Traduções de namespace
   module:
     title: Módulo "{{ handle }}"
+    tooltip: Traduções de módulos
     field:
       title: Campo do módulo "{{ name }}"
+      tooltip: Traduções de campo
   page:
     title: Página "{{ handle }}"
+    tooltip: Traduções da página
     block:
       title: "Bloco de página #{{ blockID }}"
+      tooltip: Traduções de bloco
+    layout:
+      title: Layout da página "{{ handle }}"
+  page-layout:
+    title: Layout da página "{{ handle }}"
+    tooltip: Traduções de layout de página
