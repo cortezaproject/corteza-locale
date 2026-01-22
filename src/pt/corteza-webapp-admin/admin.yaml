@@ -51,6 +51,7 @@ automation:
   list:
     column:
       label:
+        async: Async
         critical: Crítico
         enabled: Habilitado
         runAs: Executar como
@@ -69,6 +70,8 @@ automation:
     testInCorredor: Teste no Corredor
   title: Lista de script de automação
 general:
+  resource-list:
+    no-items: Nenhum resultado encontrado na sua pesquisa
   notFound: 'Não encontrado'
   loading: Carregando
   label:
@@ -81,7 +84,11 @@ general:
   pagination:
     next: Próximo
     prev: Anterior
+    showing: '{{from}} - {{to}} de {{count}} {{data}}'
+    single_one: 'Um {{data}}'
+    single_other: '{{count}} {{data}}'
 navigation:
+  appMenu: Menu
   adminPanel: Painel de administração
   automation: Automação
   chart: Gráficos
@@ -102,3 +109,10 @@ navigation:
     loggedInAs: Conectado como {{user}}
     logout: Sair
     profile: Perfil
+    theme: Tema
+picker:
+  unnamed: Sem nome
+  role:
+    placeholder: Comece a digitar para pesquisar funções
+  member:
+    placeholder: Comece a digitar para pesquisar usuários
