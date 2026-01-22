@@ -29,6 +29,7 @@ editor:
     deletedAt: Excluído em
     handle: Identificador
     placeholder-handle: identificador (a - z, 0 - 9, sublinhado, hífen)
+    invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
     meta:
       description: Descrição
       short: Nome curto *
@@ -38,6 +39,7 @@ editor:
     type: Tipo de modelo
     undelete: Recuperar
     updatedAt: Atualizado em
+  new: Novo modelo
   permissions: Permissões
   title:
     create: Criar modelo
@@ -49,6 +51,7 @@ list:
     language: Linguagem
     meta:
       short: Nome curto
+    state: Estado
   delete: Excluir
   undelete: Recuperar
   export: Exportar
@@ -68,6 +71,7 @@ list:
     inclusive:
       label: Incluindo
   loading: Carregando modelos
+  new: Novo modelo
   permissions: Permissões
   title: Modelos
   yaml: YAML
