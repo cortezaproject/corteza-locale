@@ -7,6 +7,7 @@ list:
     resource: Recurso
     severity: Gravidade
     timestamp: Carimbo de data e hora
+  loading: Carregando ações
   details:
     id: IDENTIFICAÇÃO
     header: Detalhes
@@ -22,6 +23,7 @@ list:
     headerAdditional: Informações adicionais
     description: Descrição
     error: Erro
+    meta: Meta
   severity:
     emergency: Emergência
     alert: Alerta
