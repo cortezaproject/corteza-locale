@@ -1,8 +1,10 @@
+clear: Limpar
 description: Descrição
 enabled: Habilitado
 enable: Habilitar
 disable: Desabilitar
 error: Erro
+error-expression: Mensagem de erro (expressão)
 export: Exportar
 general: Em geral
 handle: Identificador
@@ -13,14 +15,20 @@ import:
   upload-files: Procure ou solte arquivos para fazer upload...
 label:
   all: Todo
+  any: Qualquer
   label: Rótulo
+  or: Ou
 loading: Carregando
 name: Nome
 new-workflow: Novo fluxo de trabalho
 none: Nenhum
+now: Agora
 offset: Desvio
+offset-expression: Deslocamento (expressão)
 permissions: Permissões
 searchPlaceholder: Fluxos de trabalho de pesquisa
+subworkflow: Sub fluxo de trabalho
+subworkflows: Sub fluxos de trabalhos
 deleted: Excluído
 disabled: Desabilitado
 without: Sem
@@ -35,14 +43,26 @@ today: Hoje
 cancel: Cancelar
 resourceList:
   notFound: Não encontrado
+  noItems: Nenhum item para exibir
   pagination:
     next: Próximo
     prev: Anterior
+    showing: '{{from}} - {{to}} de {{count}} {{data}}'
+    single_one: 'Um {{data}}'
+    single_other: '{{count}} {{data}}'
+    recordsPerPage: Por página
+tooltip:
+  permissions: Permissões de fluxo de trabalho
 columns:
   name: Nome
   enabled: Habilitado
   steps: Degraus
+  changedAt: Última modificação
 themes:
   labels:
     light: Luz
     dark: Escuro
+extendSession:
+  labels:
+    extend: Estender Sessão
+    warning: Você será desconectado em {{ countdownTime }} segundos
