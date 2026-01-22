@@ -1,31 +1,31 @@
-title: Data Privacy Console
-connection-location: Connection Location
+title: Console de privacidade de dados
+connection-location: Localização da conexão
 description:
-  first: The Data Privacy Console enables you to access the overview of your personal data, request data deletion or data export.
-  second: These actions are subject to validation by the DC (Data Controller) of your organization
+  first: O Console de Privacidade de Dados permite que você acesse uma visão geral dos seus dados pessoais, solicite a exclusão ou a exportação dos seus dados.
+  second: Essas ações estão sujeitas à validação pelo Controlador de Dados (CD) da sua organização
 user-options:
   data-overview:
-    title: Data Overview
-    description: Review your profile information and your personal data stored in Corteza applications
-    button-label: View your data
+    title: Visão geral dos dados
+    description: Analise as informações do seu perfil e os seus dados pessoais armazenados nas aplicações Corteza
+    button-label: Veja seus dados
   privacy-requests:
-    title: Privacy Requests
-    description: Access, manage or export a list of all your privacy-related (deletion, export, correction) requests
-    button-label: Your privacy requests
+    title: Solicitações de privacidade
+    description: Acesse, gerencie ou exporte uma lista de todas as suas solicitações relacionadas à privacidade (exclusão, exportação, correção)
+    button-label: Suas solicitações de privacidade
   export:
-    title: Data Export
-    description: Open a new data export request by selecting the data type, date range and outcome file format
-    button-label: Request data export
+    title: Exportação de dados
+    description: Abra uma nova solicitação de exportação de dados selecionando o tipo de dados, o intervalo de datas e o formato do arquivo de resultado
+    button-label: Solicitar exportação de dados
   delete:
-    title: Data Deletion
-    description: Request for your selected personal data to be deleted from the system
-    button-label: Request data deletion
+    title: Exclusão de dados
+    description: Solicite a exclusão dos seus dados pessoais selecionados do sistema
+    button-label: Solicitar exclusão de dados
 dc-options:
   privacy-requests:
-    title: Privacy Requests
-    description: Access, manage or export a list of all privacy-related (deletion, export, correction) requests
-    button-label: Incoming privacy requests
+    title: Solicitações de privacidade
+    description: Aceda, gerir ou exportar uma lista de todos os pedidos relacionados com a privacidade (exclusão, exportação, correção)
+    button-label: Solicitações de privacidade recebidas
   sensitive-data:
-    title: Sensitive Data
-    description: Overview of all modules with sensitive data fields
-    button-label: List of sensitive data
+    title: Dados sensíveis
+    description: Visão geral de todos os módulos com campos de dados sensíveis
+    button-label: Lista de dados sensíveis
