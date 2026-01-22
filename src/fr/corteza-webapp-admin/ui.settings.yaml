@@ -28,12 +28,17 @@ editor:
           label: Secondaire
         success:
           label: Succès
+          description: Couleur des notifications de succès
         warning:
           label: Avertissement
+          description: Couleur des notifications d'avertissement
         danger:
           label: Danger
+          description: Couleur des notifications d'erreur
         light:
           label: Clair
+        extra-light:
+          label: Très clair
         body-bg:
           label: Fond zone de contenu
           description: Couleur de fond de la zone de contenu
@@ -62,6 +67,8 @@ editor:
       hide-theme-selector: Cacher sélecteur de thème
     notifications:
       hide: Cacher notifications
+    drafts:
+      hide: Cacher les brouillons
     links:
       title: Lien personnalisé
       handle: Nom
@@ -75,7 +82,10 @@ editor:
   location:
     title: Localisation
     geosearch:
+      title: Recherche géographique
       provider:
         label: Fournisseur
+        description: Sélectionner le fournisseur à utiliser pour la recherche de localisation dans les cartes
       apiKey:
+        label: Clé d'API
         placeholder: Entrez votre clé d'API
