@@ -350,6 +350,9 @@ resources:
           title: Gérer n'importe quel module
     shared-module:
       label: Modules
+      operations:
+        map:
+          title: Mapper n'importe quel module
   compose:
     component:
       label: Composant compose
