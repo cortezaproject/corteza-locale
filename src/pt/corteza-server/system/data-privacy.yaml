@@ -1,2 +1,9 @@
 errors:
+  notFound: solicitação de privacidade de dados não encontrada
   invalidID: ID inválida
+  invalidKind: tipo inválido
+  invalidStatus: status inválido
+  notAllowedToRead: não é permitido ler esta solicitação de privacidade de dados
+  notAllowedToSearch: não é permitido pesquisar ou listar solicitações de privacidade de dados
+  notAllowedToCreate: não é permitido criar uma solicitação de privacidade de dados
+  notAllowedToApprove: não é permitido aprovar/rejeitar solicitações de privacidade de dados
