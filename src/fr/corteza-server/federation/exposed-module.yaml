@@ -1,4 +1,6 @@
 errors:
   invalidID: ID invalide
   nodeNotFound: ce nœud n'existe pas
+  notAllowedToCreate: non autorisé à créer des modules
+  notAllowedToManage: non autorisé à gérer ce module
   notFound: ce module n'existe pas
