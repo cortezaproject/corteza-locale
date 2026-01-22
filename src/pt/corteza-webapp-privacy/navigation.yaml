@@ -1,3 +1,4 @@
+appMenu: Menu
 help:
   documentation: Documentação
   feedback: Enviar comentário
@@ -8,3 +9,4 @@ userSettings:
   loggedInAs: Conectado como {{user}}
   logout: Sair
   profile: Perfil
+  theme: Tema
