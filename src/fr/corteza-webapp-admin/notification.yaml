@@ -2,6 +2,7 @@ general:
   error: Erreur
   success: Succès
   warning: Avertissement
+notAllowed: Non autorisé à accéder à l'espace administrateur. Redirection
 list:
   load:
     error: 'Échec du chargement de la liste de ressources'
