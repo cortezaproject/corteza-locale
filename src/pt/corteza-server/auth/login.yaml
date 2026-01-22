@@ -1,7 +1,9 @@
 template:
+  title: Faça login para continuar
   form:
     email:
       label: E-mail
+      placeholder: email@domain.tld
     password:
       label: Senha
       placeholder: senha
@@ -15,4 +17,5 @@ template:
     external:
       login-with: Entrar com {{idp}}
 alerts:
+  logged-in: Você agora está conectado
   local-disabled: Contas locais desabilitadas
