@@ -1,8 +1,11 @@
+title: Aperçu des données
 data-types:
   profile-information:
     title: Information du profil
+    description: Vos coordonnées, nom, prénom, surnom et photo de profil
   application-data:
     title: Données d'application
+    description: Vos informations personnelles stockées sur Corteza
 application:
   title: Données d'application
   connection:
@@ -10,3 +13,5 @@ application:
     placeholder: Sélectionnez une connexion
   no-data-available: Aucune donnée disponible
   private-fields: Champs privés
+  request-correction: Demander Correction
+  request-deletion: Demander Suppression
