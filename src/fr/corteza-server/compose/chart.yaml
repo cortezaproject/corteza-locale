@@ -13,3 +13,4 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de ce graphique
   notAllowedToUpdate: non autorisé à mettre à jour ce graphique
   notFound: ce graphique n'existe pas
+  staleData: le graphique a été modifié par quelqu'un d'autre ou par un autre processus après votre ouverture. Veuillez actualiser pour voir la dernière version mise à jour
