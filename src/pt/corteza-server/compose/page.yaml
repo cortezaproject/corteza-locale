@@ -14,3 +14,4 @@ errors:
   notAllowedToUndelete: não é permitido recuperar esta página
   notAllowedToUpdate: não é permitido atualizar esta página
   notFound: a página não existe
+  staleData: A página foi modificada por outra pessoa ou por um fluxo de trabalho depois que você o abriu. Atualize a página para ver a versão mais recente
