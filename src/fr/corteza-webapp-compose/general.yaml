@@ -37,9 +37,11 @@ label:
   clone: Cloner
   close: Fermer
   create: Créer
+  createRecordFromDraft: Créer Élément depuis Brouillon
   delete: Supprimer
   default: Défaut
   restore: Restaurer
+  discard: Abandonner
   descending: Descendant
   description: Description
   download: Télécharger
@@ -60,6 +62,7 @@ label:
   moduleName: Nom de module
   multi: Valeurs multiples
   name: Nom
+  newRecord: Nouvel Élément
   next: Suivant
   no: No
   noHandle: Pas d'identifiant
@@ -84,7 +87,9 @@ label:
   sensitive: Sensible
   save: Enregistrer
   saveAndClose: Enregistrer et fermer
+  saveAs: Enregistrer comme
   saveAsCopy: Dupliquer
+  search: Rechercher
   status: Statut
   timeHour: "{{t}}h"
   timeMinute: "{{t}}min"
@@ -138,6 +143,7 @@ reminder:
   routesTo: Étiquette pour le lien de page
   snooze:
     label: Répétition
+    count: Nombre de répétitions
 tooltip:
   dragAndDrop: Glisser et déposer pour changer l'ordre
 fieldKinds:
@@ -204,6 +210,9 @@ webcam:
     confirm: Importé une photo
   errors:
     camera: Impossible d'accéder à la caméra. Merci d'autorisé à l'accès à la caméra.
+record:
+  unsavedChanges: Les changements non enregistrés seront perdus. Voulez-vous quitter ?
+  unsavedChangesDraft: Les changements non enregistrés seront abandonnés mais resterons accessibles en brouillons. Voulez-vous quitter ?
 themes:
   labels:
     light: Clair
@@ -212,3 +221,5 @@ extendSession:
   labels:
     extend: Étendre la session
     warning: Vous serez déconnecté(e) dans {{ countdownTime }} secondes
+changes_one: "{{count}} changement"
+changes_other: "{{count}} changements"
