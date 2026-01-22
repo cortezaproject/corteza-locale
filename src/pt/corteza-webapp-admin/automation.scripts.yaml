@@ -13,4 +13,5 @@ list:
     iterator: Iterador
     security: Segurança
     triggers: Gatilhos
+  labelMissing: <label missing>
   title: Scripts Corredor
