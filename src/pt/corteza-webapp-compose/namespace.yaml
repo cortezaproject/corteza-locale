@@ -1,3 +1,5 @@
+manage-view:
+  label: Gerenciar namespaces
 application:
   label: Ativar na lista de aplicativos
 clickOpen: Clique para abrir
@@ -19,6 +21,7 @@ clone: Clonar namespace
 cloneSuffix: cópia de
 cloneWarning:
   wfInclusion: Fluxos de trabalho e outras automatizações não são clonados. Use a interface do editor de fluxo de trabalho para clonar os que você precisa.
+create: Criar namespace
 export: Exportar
 enabled:
   label: Ativar namespace
@@ -37,23 +40,36 @@ name:
   label: Nome completo do namespace *
   placeholder: Digite o nome do namespace
 noResults: Nenhum namespace encontrado
+searchPlaceholder: Buscar namespaces
 setPermissions: Definir permissões de namespace
 slug:
   description: O nome curto será usado no URL
   label: Nome curto
   placeholder: Insira um nome curto para o namespace
+  invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
 subtitle:
   label: Legenda
   placeholder: Insira a legenda do namespace
 title: Namespaces
+tooltip:
+  translations: Traduções de namespace
+visit: Visualizar o namespace
+configure: Configurar namespace
 manage:
+  title: Gerenciar namespaces
+  list-view: Voltar para lista de namespaces
   delete: Excluir
   disabled: Desabilitado
   toolbar:
     buttons:
+      create: Novo Namespace
       permissions: Permissões
   table:
     columns:
       enabled: Habilitado
       name: Nome
       slug: Nome curto
+      changedAt: Última modificação
+sidebar:
+  configure: Páginas do Namespace
+  hide: Esconder barra lateral em páginas públicas do namespace
