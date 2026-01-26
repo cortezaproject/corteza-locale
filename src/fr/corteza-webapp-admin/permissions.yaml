@@ -59,6 +59,8 @@ resources:
           title: Créer nouveau processus
         workflows.search:
           title: Rechercher des processus
+        resource-translations.manage:
+          title: Gérer les traductions de ressource
     workflow:
       label: Processus
       all: tous les processus
@@ -98,32 +100,56 @@ resources:
       operations:
         application.create:
           title: Créer une nouvelle application
+        user-groups.search:
+          title: Lister ou rechercher des groupes d'utilisateurs
         user-group.create:
           title: Créer un nouveau groupe d'utilisateurs
+        applications.search:
+          title: Lister ou rechercher des applications
         auth-client.create:
           title: Créer un nouveau client d'authentification
+        auth-clients.search:
+          title: Lister ou rechercher des clients d'authentification
         apigw-route.create:
           title: Créer une nouvelle route
+        apigw-routes.search:
+          title: Lister ou rechercher des routes
         apigw-filter.create:
           title: Créer un nouveau filtre
+        apigw-filters.search:
+          title: Lister ou rechercher des filtres
         queue.create:
           title: Créer une nouvelle file de messages
         queues.search:
           title: Lister et chercher les files de messages
         role.create:
           title: Créer un nouveau rôle
+        roles.search:
+          title: Lister ou rechercher des rôles
         settings.manage:
           title: Gérer tous les paramètres
         settings.read:
           title: Accéder à tous les paramètres
         template.create:
           title: Créer un nouveau modèle
+        templates.search:
+          title: Lister ou rechercher des modèles
         user.create:
           title: Créer un nouvel utilisateur
+        users.search:
+          title: Lister ou rechercher des utilisateurs
+        resource-translations.manage:
+          title: Gérer les traductions de ressource
         report.create:
           title: Créer un nouveau rapport
+        reports.search:
+          title: Lister ou rechercher des rapports
+        dal-sensitivity-level.manage:
+          title: Gérer le niveau de sensibilité d'une connexion
     application:
+      label: Applications
       all: toutes les applications
+      specific: application "{{target}}"
       operations:
         delete:
           description: 'Défaut : refuser'
@@ -132,6 +158,7 @@ resources:
         read:
           description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quelle application
         update:
           description: 'Défaut : refuser'
           specific: Mettre à jour "{{target}}"
@@ -148,6 +175,7 @@ resources:
         read:
           description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quelle route
         update:
           description: 'Défaut : refuser'
           specific: Mettre à jour "{{target}}"
@@ -155,6 +183,7 @@ resources:
     auth-client:
       label: Clients d'authentification
       all: tous les clients d'authentification
+      specific: client d'authentification "{{target}}"
       operations:
         delete:
           description: 'Défaut : refuser'
@@ -162,6 +191,8 @@ resources:
           title: Supprimer n'importe quel client
         read:
           description: 'Défaut : refuser'
+          specific: Lire client "{{target}}"
+          title: Lire n'importe quel client
         update:
           description: 'Défaut : refuser'
           specific: Mettre à jour client "{{target}}"
@@ -169,9 +200,12 @@ resources:
     dal-connection:
       label: Connexions
       all: toutes les connexions
+      specific: connexion "{{target}}"
       operations:
         read:
           description: 'Défaut : refuser'
+          specific: Lire connexion "{{target}}"
+          title: Lire n'importe quelle connexion
         update:
           description: 'Défaut : refuser'
           specific: Mettre à jour connexion "{{target}}"
@@ -186,6 +220,7 @@ resources:
     role:
       label: Rôles
       all: tous les rôles
+      specific: rôle "{{target}}"
       operations:
         delete:
           description: 'Défaut : refuser'
@@ -193,9 +228,12 @@ resources:
           title: Supprimer n'importe quel rôle
         members.manage:
           description: 'Défaut : refuser'
+          specific: Gérer les membres de {{target}}
+          title: Gérer les membres pour n'importe quel rôle
         read:
           description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quel rôle
         update:
           description: 'Défaut : refuser'
           specific: Mettre à jour "{{target}}"
@@ -211,6 +249,8 @@ resources:
           title: Supprimer n'importe quelle file d'attente
         members.manage:
           description: 'Défaut : refuser'
+          specific: Gérer les membres de {{target}}
+          title: Gérer les membres pour n'importe quelle file d'attente
         read:
           description: 'Défaut : refuser'
           specific: Lire {{target}}
@@ -225,9 +265,12 @@ resources:
           title: Lire des messages de n'importe quelle file d'attente
         queue.write:
           description: 'Défaut : refuser'
+          specific: Écrire des messages pour {{target}}
+          title: Écrire des messages pour n'importe quel file d'attente
     template:
       label: Modèles
       all: tous les modèles
+      specific: modèle "{{target}}"
       operations:
         delete:
           description: 'Défaut : refuser'
@@ -236,6 +279,7 @@ resources:
         read:
           description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quel modèle
         render:
           description: 'Défaut : refuser'
         update:
@@ -281,6 +325,8 @@ resources:
           description: 'Défaut : refuser'
         impersonate:
           description: 'Défaut : refuser'
+          specific: Usurper cet utilisateur {{target}}
+          title: Usurper n'importe quel utilisateur
         read:
           description: 'Défaut : refuser'
           specific: Lire {{target}}
@@ -305,6 +351,7 @@ resources:
         read:
           description: 'Défaut : refuser'
           specific: Lire {{target}}
+          title: Lire n'importe quel groupe d'utilisateurs
         update:
           description: 'Défaut : refuser'
           specific: Mettre à jour "{{target}}"
@@ -315,6 +362,8 @@ resources:
           title: Supprimer n'importe quel groupe d'utilisateurs
         members.manage:
           description: 'Défaut : refuser'
+          specific: Gérer les membres de {{target}}
+          title: Gérer les membres pour n'importe quel groupe d'utilisateurs
     data-privacy-request:
       label: Requêtes de confidentialité
       all: toutes les demandes
@@ -332,6 +381,8 @@ resources:
       operations:
         node.create:
           title: Créer des nœuds
+        nodes.search:
+          title: Lister ou rechercher des nœuds
         pair:
           title: Appairer nœuds
         settings.manage:
@@ -341,6 +392,8 @@ resources:
     node:
       label: Nœuds
       operations:
+        manage:
+          title: Gérer n'importe quel nœud
         module.create:
           title: Créer des modules
     exposed-module:
@@ -359,10 +412,14 @@ resources:
       operations:
         namespace.create:
           title: Créer des namespaces
+        namespaces.search:
+          title: Lister ou rechercher des namespaces
         settings.manage:
           title: Gérer tous les paramètres
         settings.read:
           title: Accéder à tous les paramètres
+        resource-translations.manage:
+          title: Gérer les traductions de ressource
     chart:
       label: Graphiques
       operations:
@@ -377,6 +434,8 @@ resources:
       operations:
         delete:
           title: Supprimer n'importe quel module
+        owned-record.create:
+          title: Gérer le propriétaire lors de la création d'éléments pour n'importe quel module
         read:
           title: Lire n'importe quel module
         record.create:
@@ -428,6 +487,8 @@ resources:
           title: Mettre à jour n'importe quelle page
         page-layout.create:
           title: Créer dispositions de page pour n'importe quelle page
+        page-layouts.search:
+          title: Lister ou rechercher des mises en pages pour n'importe quelle page
     page-layout:
       label: Dispositions de page
       operations:
@@ -448,5 +509,7 @@ resources:
           title: Lire n'importe quel élément
         update:
           title: Mettre à jour n'importe quel élément
+        owner.manage:
+          title: Gérer le propriétaire de n'importe quel élément
         revisions.search:
           title: Accéder aux révisions de n'importe quel élément
