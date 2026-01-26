@@ -1,5 +1,11 @@
 editor:
   content:
+    partial: Modèle partiel
+    preview:
+      html: Prévisualiser HTML
+      pdf: Prévisualiser PDF
+      title: Prévisualiser sortie
+    title: Contenu du modèle
     toolbox:
       samples:
         defaultHTML: HTML par défaut
@@ -8,6 +14,9 @@ editor:
         funcCall: Appeler une fonction
         iterator: Itérer sur un ensemble
   info:
+    contentType:
+      text_html: HTML
+      text_plain: Texte brut
     createdAt: Créer à
     createdBy: Créer par
     delete: Supprimer
@@ -18,7 +27,9 @@ editor:
     meta:
       description: Description
       short: Nom court *
+    partial: Modèle partiel
     title: Information de base
+    type: Type de modèle
     undelete: Annuler suppression
     updatedAt: Mis à jour à
   new: Nouveau modèle
@@ -49,6 +60,7 @@ list:
       label: Uniquement
     inclusive:
       label: Comprenant
+  loading: Chargement des modèles
   new: Nouveau modèle
   permissions: Permissions
   title: Modèles
