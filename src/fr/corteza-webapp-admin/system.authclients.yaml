@@ -15,6 +15,7 @@ editor:
       placeholder-handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
       invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     name: Nom *
+    no-time: Aucune heure sélectionnée
     remove: Supprimer
     secret: Secret
     security:
@@ -25,6 +26,7 @@ editor:
         label: Rôles imposés
       impersonateUser:
         placeholder: Sélectionnez utilisateur
+        label: Usurper utilisateur
       permittedRoles:
         label: Rôles autorisés
     title: Information de base
@@ -62,6 +64,7 @@ list:
       label: Uniquement
     inclusive:
       label: Comprenant
+  loading: Chargement des clients
   new: Nouveau client d'auth
   permissions: Permissions
   title: Clients d'authentification
