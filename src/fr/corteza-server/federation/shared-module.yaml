@@ -5,3 +5,4 @@ errors:
   notAllowedToManage: non autorisé à gérer ce module
   notAllowedToMap: non autorisé à mapper ce module
   notFound: ce module n'existe pas
+  notUnique: le nœud n'est pas unique
