@@ -266,7 +266,7 @@ validators:
     placeholder: Texte affiché quand l'expression est vrai
     tooltip: Texte d'avertissement
   expression:
-    placeholder: valeur == ""
+    placeholder: value == ""
     tooltip: Expression
   label: Validation de valeur
 valueExpr:
