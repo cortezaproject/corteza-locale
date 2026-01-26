@@ -5,6 +5,7 @@ editor:
     url: URL
     internal:
       title: Interne
+      enabled: Authentification interne active
       password-reset:
         enabled: Réinitialisation du mot de passe activée
       password-constraints:
@@ -13,9 +14,16 @@ editor:
         min-length-description: Doit faire au moins 8 caractères
         min-num-count: Nombre minimum de chiffres
         min-num-count-description: Le mot de passe doit contenir le nombre de chiffres spécifié (désactivé si défini à 0)
+        min-special-count: Nombre minimum de caractères spéciaux
+        min-special-count-description: Le mot de passe doit contenir le nombre de caractères spéciaux(désactivé si défini à 0)
+        min-upper-case-length: Nombre minimum de majuscules
+        min-upper-case-description: Le mot de passe doit contenir le nombre de majuscules (désactivé si défini à 0)
+        min-lower-case-length: Nombre minimum de minuscules
+        min-lower-case-description: Le mot de passe doit contenir le nombre de minuscules (désactivé si défini à 0)
       signup:
         enabled: Enregistrement activé
       send-user-invite-email:
+        title: Courriel d'invitation
         expires:
           label: Valide pour
           description: Durée de validité du jeton d'invitation avant expiration
@@ -30,6 +38,8 @@ editor:
     auto-logout:
       enabled:
         label: Activé
+      timeout:
+        label: Expiration
   external:
     table:
       header:
@@ -37,21 +47,28 @@ editor:
         provider: Fournisseur
     standard:
       enabled: Activé
+      apiAccess: Accès API
       clientSecret: Secret
     oidc:
       add: Ajouter un fournisseur OIDC
       enabled: Activé
       handle: Identifiant
+      title: OpenID Connect
       clientSecret: Secret
+      scope: Périmètre
       scopePlaceholder: List out supported OAuth scope values, use space delimited string
     saml:
       enabled: Activé
       title: SAML
       requests:
         title: Requêtes
+      cert:
+        public: Clé publique
+        private: Clé privée
       name: Nom
       certificate: Certificat
       idp:
+        ident-name: Champ nom
         url: URL
     security:
       title: Sécurité
