@@ -63,6 +63,8 @@ editor:
   topbar:
     title: crwdns171973:0crwdne171973:0
     general: crwdns171975:0crwdne171975:0
+    search:
+      hide: crwdns182474:0crwdne182474:0
     app-selector:
       hide: crwdns171977:0crwdne171977:0
     help:
