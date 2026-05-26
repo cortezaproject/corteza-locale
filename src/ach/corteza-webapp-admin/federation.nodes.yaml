@@ -10,10 +10,7 @@ editor:
     subject: 'crwdns171595:0crwdne171595:0'
   generateUri: crwdns171597:0crwdne171597:0
   info:
-    createdAt: crwdns171599:0crwdne171599:0
-    createdBy: crwdns171601:0crwdne171601:0
     delete: crwdns171603:0crwdne171603:0
-    deletedAt: crwdns171605:0crwdne171605:0
     email: crwdns171607:0crwdne171607:0
     enabled: crwdns171609:0crwdne171609:0
     name: crwdns171611:0crwdne171611:0
@@ -23,7 +20,6 @@ editor:
       placeholder: crwdns171617:0crwdne171617:0
     title: crwdns171619:0crwdne171619:0
     undelete: crwdns171621:0crwdne171621:0
-    updatedAt: crwdns171623:0crwdne171623:0
     url: crwdns171625:0crwdne171625:0
   title:
     create: crwdns171627:0crwdne171627:0
