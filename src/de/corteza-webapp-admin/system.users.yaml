@@ -4,10 +4,7 @@ editor:
     type: Typ
   info:
     id: ID
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
     delete: Löschen
-    deletedAt: Gelöscht am
     email: Email
     handle: Alias
     placeholder-handle: Bezeichnung (a - z, 0 - 9, Unterstrich, Bindestrich)
@@ -15,7 +12,6 @@ editor:
     revokeAllSession: Revoke all active session
     title: Grundlegende Informationen
     undelete: Wiederherstellen
-    updatedAt: Aktualisiert am
   avatar:
     initial:
       color: Textfarbe
