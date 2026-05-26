@@ -23,10 +23,7 @@ editor:
     contentType:
       text_html: HTML
       text_plain: Plain text
-    createdAt: Created at
-    createdBy: Created by
     delete: Delete
-    deletedAt: Deleted at
     handle: Handle
     placeholder-handle: handle (a - z, 0 - 9, underscore, dash)
     invalid-handle-characters: Should be at least 2 characters long. Can contain only letters, numbers, underscores and dots. Must end with letter or number
@@ -38,7 +35,6 @@ editor:
     title: Basic information
     type: Template type
     undelete: Undelete
-    updatedAt: Updated at
   new: New Template
   permissions: Permissions
   title:

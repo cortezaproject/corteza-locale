@@ -140,6 +140,12 @@ content:
   ok: Ok
   label: Content
   urlPlaceholder: https://example.tld
+  emojiPicker:
+    search: Search
+    searchResults: Search Results
+    frequentlyUsed: Frequently Used
+    noResults: No emojis found
+    quickReactions: Quick Reactions
 file:
   label: File
   preview:
@@ -359,6 +365,8 @@ recordList:
     filter:
       label: Drill down filter
   tooltip:
+    saveChanges: Save changes
+    discardChanges: Discard changes
     deleteSelected: Delete selected records
     performance:
       impact: Using this feature will impact performance
@@ -413,8 +421,7 @@ recordList:
     selection: Selected records
     specifyTimezone: Export to timezone
     timezonePlaceholder: Select timezone
-    resolveRefs: Include record selector values
-    resolveRefsNote: When include record selector values is checked, all record fields include the record label next to the identifier.
+    includeRefID: Include reference ID in a separate column
     datePresetUndefined: Unknown date preset
   federated: Federated
   fields: Module fields
@@ -495,6 +502,7 @@ recordList:
     onErrorSkip: Skip record
     pickModuleField: Pick a module field
     importing: Importing records
+    startFailed: Failed to start import
     success: Import successful
     to: Import to {{modulename}}
     uploadFile: Upload the file you want to import (.csv or JSON format)
@@ -598,6 +606,9 @@ recordList:
     searchableFields: Searchable fields
     searchableFieldsFootnote: If no fields are selected, the search will be performed on all available visible fields
     configureSearchableFields: Select fields that will be used for search
+    searchSubmitMode: Search submit
+    searchOnSubmit: On submit (Enter or button click)
+    searchOnType: After typing
     openInSameTab: Open record in the same tab
     openInNewTab: Open record in a new tab
     openInModal: Open record in a modal
@@ -796,12 +807,21 @@ comment:
   attachmentField:
     label: Attachment field
     footnote: Field used to store comment attachments
+  reactionsField:
+    label: Reactions field
+    footnote: Field used to store comment reactions
   today: Today
   yesterday: Yesterday
   tooltip:
     reply: Reply
     edit: Edit
     attach: Attach file
+  emojiPicker:
+    search: Search
+    searchResults: Search Results
+    frequentlyUsed: Frequently Used
+    noResults: No emojis found
+    quickReactions: Quick Reactions
 navigation:
   chart: Charts
   colorPicker: Choose a color
@@ -995,6 +1015,9 @@ tabs:
         label: Title
       block:
         label: Block
+      lazy:
+        label: Lazy load
+        tooltip: When enabled, the tab content will only be rendered when the tab is first activated
   tooltip:
     edit: Edit block
     clone: Clone block & tab

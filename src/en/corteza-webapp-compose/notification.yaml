@@ -148,6 +148,8 @@ record:
   createSuccess: Record created
   updateFailed: Could not update record
   updateSuccess: Record updated
+  saveFailed: Could not save records
+  saveSuccess: Records saved
   deleteFailed: Could not delete record
   deleteSuccess: Record deleted
   restoreFailed: Could not restore record
@@ -162,6 +164,7 @@ record:
   invalidRecordVar: Can not use ${record...} variable in non-record pages
   listLoadFailed: Could not load record list
   loadFailed: Could not load record
+  exportFailed: Could not export records
   countFailed: Failed to fetch number of avaiable records
   moduleMismatch: Module incompatible, module mismatch
   moduleNotDefined: Record module not defined
