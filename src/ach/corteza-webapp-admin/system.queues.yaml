@@ -1,10 +1,7 @@
 editor:
   info:
     consumer: crwdns172777:0crwdne172777:0
-    createdAt: crwdns172779:0crwdne172779:0
-    createdBy: crwdns172781:0crwdne172781:0
     delete: crwdns172783:0crwdne172783:0
-    deletedAt: crwdns172785:0crwdne172785:0
     dispatch_events: crwdns172787:0crwdne172787:0
     dispatch_events_desc: crwdns172789:0crwdne172789:0
     name: crwdns172791:0crwdne172791:0
@@ -14,7 +11,6 @@ editor:
     poll_delay_set: crwdns172799:0crwdne172799:0
     title: crwdns172801:0crwdne172801:0
     undelete: crwdns172803:0crwdne172803:0
-    updatedAt: crwdns172805:0crwdne172805:0
   new: crwdns172807:0crwdne172807:0
   title:
     edit: crwdns172809:0crwdne172809:0
