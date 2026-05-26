@@ -10,10 +10,7 @@ editor:
     subject: 'الموضوع:'
   generateUri: انشاء رابط Federation
   info:
-    createdAt: تم انشائه في
-    createdBy: انشأ من قبل
     delete: حذف
-    deletedAt: محذوف في
     email: ايميل مدير النظام
     enabled: مفعل
     name: اسم الخادم *
@@ -23,7 +20,6 @@ editor:
       placeholder: +أضف
     title: معلومات مبدئية
     undelete: استعادة
-    updatedAt: تم تحديثه في
     url: رابط الخادم *
   title:
     create: انشاء عقدة Federated
