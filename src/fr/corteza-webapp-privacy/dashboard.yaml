@@ -1,6 +1,7 @@
 title: Console de confidentialité des données
 connection-location: Localisation de la connexion
 description:
+  first: La console de confidentialité des données vous permet d'accéder à un aperçu de vos données personnelles, de demander leur suppression ou leur exportation.
   second: Ces actions sont soumises à la validation du responsable du traitement des données de votre organisation
 user-options:
   data-overview:
@@ -9,9 +10,11 @@ user-options:
     button-label: Afficher vos données
   privacy-requests:
     title: Requêtes de confidentialité
+    description: Accédez, modifiez ou exportez la liste de toutes vos demandes relatives à la confidentialité (suppression, exportation, correction)
     button-label: Vos demandes de confidentialité
   export:
     title: Export de données
+    description: Ouvrez une nouvelle demande d'export de données en sélectionnant le type, la temporalité et le format de sortie attendu
     button-label: Demander export de données
   delete:
     title: Suppression de données
@@ -20,6 +23,7 @@ user-options:
 dc-options:
   privacy-requests:
     title: Requêtes de confidentialité
+    description: Accédez, modifiez ou exportez la liste de toutes les demandes relatives à la confidentialité (suppression, exportation, correction)
     button-label: Demandes de confidentialité entrantes
   sensitive-data:
     title: Donnée sensible
