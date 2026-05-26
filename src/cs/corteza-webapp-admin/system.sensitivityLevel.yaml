@@ -12,12 +12,8 @@ editor:
     name: Jméno *
     description: Popis
     level: Úroveň {{level}}
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
     delete: Smazat
-    deletedAt: Čas odstranění
     undelete: Obnovit smazané
-    updatedAt: Čas aktualizace
 list:
   title: Úrovně citlivosti
   loading: Načítání úrovní citlivosti
