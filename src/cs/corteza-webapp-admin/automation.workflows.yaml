@@ -1,9 +1,6 @@
 editor:
   info:
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
     delete: Smazat
-    deletedAt: Čas odstranění
     enabled: Povoleno
     handle: Identifikátor
     invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
@@ -12,7 +9,6 @@ editor:
     openBuilder: Otevřít editor
     title: Základní informace
     undelete: Obnovit smazané
-    updatedAt: Čas aktualizace
   new: Nové workflow
   permissions: Oprávnění
   title:
