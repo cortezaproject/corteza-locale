@@ -1,12 +1,7 @@
 editor:
   info:
-    completedAt: Завершено
-    createdAt: Создан
-    createdBy: Создан по - ID
     createdByUserName: Создан по - Имени
     delete: Удалить
-    deletedAt: Удалить
-    suspendedAt: Приостановить
     error: Error
     eventType: Тип события
     id: ID
