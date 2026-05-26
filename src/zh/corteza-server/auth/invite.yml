@@ -1,14 +1,14 @@
 template:
-  title: Accept Invite
+  title: 接受邀请
   form:
     email:
-      label: Email
+      label: 电子邮箱
       placeholder: email@domain.tld
     new-password:
-      label: Password
+      label: 密码
       placeholder: password
     buttons:
-      password: Set password
+      password: 设置密码
 alert:
-  invalid-expired-invite-token: Invalid or expired user invite token, please request a password reset.
-  success: Password successfully updated
+  invalid-expired-invite-token: 用户邀请令牌无效或已过期，请申请重置密码。
+  success: 密码成功更新
