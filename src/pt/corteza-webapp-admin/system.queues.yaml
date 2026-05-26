@@ -1,10 +1,7 @@
 editor:
   info:
     consumer: Consumidor
-    createdAt: Criado em
-    createdBy: Criado por
     delete: Excluir
-    deletedAt: Excluído em
     dispatch_events: Eventos de despacho
     dispatch_events_desc: Os eventos de despacho notificam o eventbus sobre as alterações nas mensagens da fila (novas, processadas, ...)
     name: Nome da fila *
@@ -14,7 +11,6 @@ editor:
     poll_delay_set: O atraso da votação será usado; se estiver vazio, não será usado.
     title: Informação básica
     undelete: Recuperar
-    updatedAt: Atualizado em
   new: Nova fila
   title:
     edit: Editar fila
