@@ -23,10 +23,7 @@ editor:
     contentType:
       text_html: HTML
       text_plain: Простой текст
-    createdAt: Создан
-    createdBy: Создан
     delete: Удалить
-    deletedAt: Удалить
     handle: Управлять
     placeholder-handle: Может включать в себя (а - z, 0 - 9, подчеркивание, тире)
     meta:
@@ -37,7 +34,6 @@ editor:
     title: Базовая информация
     type: ' Тип шаблона '
     undelete: Восстановить
-    updatedAt: Возобновлять
   permissions: Разрешения
   title:
     create: Создание шаблона
