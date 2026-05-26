@@ -1,23 +1,23 @@
 template:
-  title: Security
+  title: 安全
   password:
-    title: Password
-    change-link: Change your password
+    title: 密码
+    change-link: 更改密码
   mfa:
-    title: Multi-factor authentication
+    title: 多因素身份验证
     totp:
-      title: Additional security with mobile app (time-based one-time-password)
-      enforced: Configured and required on login
-      configure: Configure
-      enable: Enable
-      disable: Disable
-      enabled: Time-based one-time-password enabled
-      disabled: Time-based one-time-password disabled
+      title: TOTP（基于时间的移动应用一次性密码）
+      enforced: 已启用
+      configure: 配置
+      enable: 启用
+      disable: 停用
+      enabled: 已启用基于时间的一次性密码
+      disabled: 已停用
     email:
-      title: Additional security with one-time-password over email
-      enforced: Enabled and required on login
-      enable: Enable
-      disable: Disable
-      enabled: Two factor authentication with over email enabled
-      disabled: Two factor authentication with over email disabled
-    all-disabled: All MFA methods are currently disabled. Ask your administrator to enable them.
+      title: 电子邮件 OTP（发送到邮箱的一次性密码）
+      enforced: 已启用
+      enable: 启用
+      disable: 停用
+      enabled: 已启用电子邮件双因素身份验证
+      disabled: 已停用电子邮件双因素身份验证
+    all-disabled: 目前所有多因素身份验证方法均已停用。请联系管理员启用。
