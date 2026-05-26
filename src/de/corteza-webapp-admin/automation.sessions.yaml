@@ -1,11 +1,7 @@
 editor:
   info:
-    completedAt: Abgeschlossen am
-    createdAt: Erstellt am
-    createdBy: Erstellt bei - ID
     createdByUserName: Erstellt bei - Name
     delete: Löschen
-    deletedAt: Gelöscht am
     error: Fehler
     eventType: Ereignistyp
     id: ID
