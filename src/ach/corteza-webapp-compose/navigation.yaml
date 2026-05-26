@@ -6,7 +6,7 @@ help:
   documentation: crwdns177369:0crwdne177369:0
   feedback: crwdns177371:0crwdne177371:0
   forum: crwdns177373:0crwdne177373:0
-  version: 'crwdns177375:0crwdne177375:0'
+  version: "crwdns177375:0crwdne177375:0"
 module: crwdns177377:0crwdne177377:0
 more: crwdns177379:0crwdne177379:0
 namespace: crwdns177381:0crwdne177381:0
@@ -20,3 +20,19 @@ userSettings:
   profile: crwdns177395:0crwdne177395:0
   theme: crwdns177397:0crwdne177397:0
 viewPage: crwdns177399:0crwdne177399:0
+search:
+  label: crwdns182518:0crwdne182518:0
+  placeholder: crwdns182520:0crwdne182520:0
+  noResults: crwdns182522:0crwdne182522:0
+  navigate: crwdns182524:0crwdne182524:0
+  select: crwdns182526:0crwdne182526:0
+  close: crwdns182528:0crwdne182528:0
+  notFoundNamespace: crwdns182530:0crwdne182530:0
+  notFoundPage: crwdns182532:0crwdne182532:0
+  recordRedirectError: crwdns182534:0crwdne182534:0
+  untitledRecord: crwdns182536:0crwdne182536:0
+  recentSearches: crwdns182538:0crwdne182538:0
+  clearHistory: crwdns182540:0crwdne182540:0
+  openInNewTab: crwdns182542:0crwdne182542:0
+  numberOfResults_one: "crwdns182544:0{{count}}crwdne182544:0"
+  numberOfResults_other: "crwdns182546:0{{count}}crwdne182546:0"
