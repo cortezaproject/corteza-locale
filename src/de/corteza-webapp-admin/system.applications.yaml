@@ -1,15 +1,11 @@
 editor:
   info:
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
     delete: Löschen
-    deletedAt: Gelöscht am
     enabled: Aktiviert
     id: ID
     name: Name
     title: Grundlegende Informationen
     undelete: Wiederherstellen
-    updatedAt: Aktualisiert am
   new: New
   permissions: Berechtigungen
   unify:
