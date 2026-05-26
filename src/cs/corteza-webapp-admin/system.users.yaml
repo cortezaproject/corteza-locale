@@ -6,10 +6,7 @@ editor:
   info:
     confirmEmail: Potvrdit emailovou adresu
     id: ID
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
     delete: Smazat
-    deletedAt: Čas odstranění
     email: E-mail *
     handle: Identifikátor
     placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
@@ -17,11 +14,9 @@ editor:
     name: Celé jméno
     revokeAllSession: Ukončit všechny aktivní relace
     suspend: Zablokovat
-    suspendedAt: Zablokovat vše
     title: Základní informace
     undelete: Obnovit smazané
     unsuspend: Odblokovat
-    updatedAt: Čas aktualizace
   avatar:
     title: Profilový obrázek
     preview:
