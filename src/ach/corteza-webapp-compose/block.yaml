@@ -140,6 +140,12 @@ content:
   ok: crwdns175087:0crwdne175087:0
   label: crwdns175089:0crwdne175089:0
   urlPlaceholder: crwdns175091:0crwdne175091:0
+  emojiPicker:
+    search: crwdns182476:0crwdne182476:0
+    searchResults: crwdns182478:0crwdne182478:0
+    frequentlyUsed: crwdns182480:0crwdne182480:0
+    noResults: crwdns182482:0crwdne182482:0
+    quickReactions: crwdns182484:0crwdne182484:0
 file:
   label: crwdns175093:0crwdne175093:0
   preview:
@@ -359,6 +365,8 @@ recordList:
     filter:
       label: crwdns175433:0crwdne175433:0
   tooltip:
+    saveChanges: crwdns182486:0crwdne182486:0
+    discardChanges: crwdns182488:0crwdne182488:0
     deleteSelected: crwdns175435:0crwdne175435:0
     performance:
       impact: crwdns175437:0crwdne175437:0
@@ -412,8 +420,7 @@ recordList:
     selection: crwdns175513:0crwdne175513:0
     specifyTimezone: crwdns175515:0crwdne175515:0
     timezonePlaceholder: crwdns175517:0crwdne175517:0
-    resolveRefs: crwdns182307:0crwdne182307:0
-    resolveRefsNote: crwdns182309:0crwdne182309:0
+    includeRefID: crwdns182490:0crwdne182490:0
     datePresetUndefined: crwdns175519:0crwdne175519:0
   federated: crwdns175521:0crwdne175521:0
   fields: crwdns175523:0crwdne175523:0
@@ -494,6 +501,7 @@ recordList:
     onErrorSkip: crwdns175655:0crwdne175655:0
     pickModuleField: crwdns175657:0crwdne175657:0
     importing: crwdns175659:0crwdne175659:0
+    startFailed: crwdns182492:0crwdne182492:0
     success: crwdns175661:0crwdne175661:0
     to: crwdns175663:0{{modulename}}crwdne175663:0
     uploadFile: crwdns175665:0crwdne175665:0
@@ -596,6 +604,9 @@ recordList:
     searchableFields: crwdns182313:0crwdne182313:0
     searchableFieldsFootnote: crwdns182315:0crwdne182315:0
     configureSearchableFields: crwdns182317:0crwdne182317:0
+    searchSubmitMode: crwdns182494:0crwdne182494:0
+    searchOnSubmit: crwdns182496:0crwdne182496:0
+    searchOnType: crwdns182498:0crwdne182498:0
     openInSameTab: crwdns175835:0crwdne175835:0
     openInNewTab: crwdns175837:0crwdne175837:0
     openInModal: crwdns175839:0crwdne175839:0
@@ -787,12 +798,21 @@ comment:
   attachmentField:
     label: crwdns182333:0crwdne182333:0
     footnote: crwdns182335:0crwdne182335:0
+  reactionsField:
+    label: crwdns182500:0crwdne182500:0
+    footnote: crwdns182502:0crwdne182502:0
   today: crwdns176091:0crwdne176091:0
   yesterday: crwdns176093:0crwdne176093:0
   tooltip:
     reply: crwdns182337:0crwdne182337:0
     edit: crwdns182339:0crwdne182339:0
     attach: crwdns182341:0crwdne182341:0
+  emojiPicker:
+    search: crwdns182504:0crwdne182504:0
+    searchResults: crwdns182506:0crwdne182506:0
+    frequentlyUsed: crwdns182508:0crwdne182508:0
+    noResults: crwdns182510:0crwdne182510:0
+    quickReactions: crwdns182512:0crwdne182512:0
 navigation:
   chart: crwdns176095:0crwdne176095:0
   colorPicker: crwdns176097:0crwdne176097:0
@@ -983,6 +1003,9 @@ tabs:
         label: crwdns176399:0crwdne176399:0
       block:
         label: crwdns176401:0crwdne176401:0
+      lazy:
+        label: crwdns182514:0crwdne182514:0
+        tooltip: crwdns182516:0crwdne182516:0
   tooltip:
     edit: crwdns176403:0crwdne176403:0
     clone: crwdns176405:0crwdne176405:0
