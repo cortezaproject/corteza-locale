@@ -1,10 +1,7 @@
 editor:
   info:
     id: ID
-    createdAt: Criado em
-    createdBy: Criado por
     delete: Excluir
-    deletedAt: Excluído em
     placeholder-handle: identificador único (a — z, 0 – 9, sublinhado, hífen)
     handle: Identificador
     invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
@@ -12,7 +9,6 @@ editor:
     meta.description: Descrição
     title: Informação básica
     undelete: Recuperar
-    updatedAt: Atualizado em
     parents:
       title: Este grupo de usuário reporta a
       parent:
