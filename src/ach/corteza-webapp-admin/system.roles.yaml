@@ -1,11 +1,7 @@
 editor:
   info:
     archive: crwdns171265:0crwdne171265:0
-    archivedAt: crwdns171267:0crwdne171267:0
-    createdAt: crwdns171269:0crwdne171269:0
-    createdBy: crwdns171271:0crwdne171271:0
     delete: crwdns171273:0crwdne171273:0
-    deletedAt: crwdns171275:0crwdne171275:0
     handle: crwdns171277:0crwdne171277:0
     placeholder-handle: crwdns171279:0crwdne171279:0
     invalid-handle-characters: crwdns171281:0crwdne171281:0
@@ -13,7 +9,6 @@ editor:
     title: crwdns171285:0crwdne171285:0
     unarchive: crwdns171287:0crwdne171287:0
     undelete: crwdns171289:0crwdne171289:0
-    updatedAt: crwdns171291:0crwdne171291:0
     description: crwdns171293:0crwdne171293:0
     context:
       label: crwdns171295:0crwdne171295:0
