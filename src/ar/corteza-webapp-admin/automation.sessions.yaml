@@ -1,12 +1,7 @@
 editor:
   info:
-    completedAt: تم اكماله في
-    createdAt: تم انشائه في
-    createdBy: منشئ بواسطة - المعرف
     createdByUserName: منشئ بواسطة - الاسم
     delete: حذف
-    deletedAt: محذوف في
-    suspendedAt: موقف
     error: خطأ
     eventType: نوع الحدث
     id: ID
