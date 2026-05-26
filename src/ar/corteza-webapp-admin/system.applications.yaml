@@ -1,15 +1,11 @@
 editor:
   info:
-    createdAt: تم انشائه في
-    createdBy: انشأ من قبل
     delete: حذف
-    deletedAt: محذوف في
     enabled: مفعل
     id: ID
     name: اسم *
     title: معلومات مبدئية
     undelete: استعادة
-    updatedAt: تم تحديثه في
   permissions: الصلاحيات
   title:
     create: إنشاء تطبيق جديد
