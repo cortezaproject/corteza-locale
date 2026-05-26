@@ -1,18 +1,13 @@
 editor:
   info:
     archive: مؤرشف
-    archivedAt: مؤرشف في
-    createdAt: تم انشائه في
-    createdBy: انشأ من قبل
     delete: حذف
-    deletedAt: محذوف في
     handle: المعرف
     placeholder-handle: المعرف (a - z, 0 - 9, _, -)
     name: اسم الدور *
     title: معلومات مبدئية
     unarchive: الغاء الأرشفة
     undelete: استعادة
-    updatedAt: تم تحديثه في
     description: وصف
     context:
       label: الدور السياقي
