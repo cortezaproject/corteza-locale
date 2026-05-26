@@ -23,10 +23,7 @@ editor:
     contentType:
       text_html: HTML
       text_plain: نص عادي
-    createdAt: تم انشائه في
-    createdBy: انشأ من قبل
     delete: حذف
-    deletedAt: محذوف في
     handle: المعرف
     placeholder-handle: المعرف (a - z, 0 - 9, _, -)
     meta:
@@ -37,7 +34,6 @@ editor:
     title: معلومات مبدئية
     type: نوع القالب
     undelete: استعادة
-    updatedAt: تم تحديثه في
   permissions: الصلاحيات
   title:
     create: أنشئ قالب
