@@ -6,10 +6,7 @@ editor:
   info:
     confirmEmail: Confirmer courriel
     id: ID
-    createdAt: Créer à
-    createdBy: Créer par
     delete: Supprimer
-    deletedAt: Supprimer à
     email: Courriel *
     handle: Identifiant
     placeholder-handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
@@ -17,11 +14,9 @@ editor:
     name: Nom complet
     revokeAllSession: Révoquer toutes les sessions actives
     suspend: Désactiver
-    suspendedAt: Désactivé à
     title: Information de base
     undelete: Annuler suppression
     unsuspend: Réactiver
-    updatedAt: Mis à jour à
     userGroup:
       label: Groupe d'utilisateurs
       placeholder: Groupe d'utilisateurs
