@@ -6,7 +6,7 @@ help:
   documentation: Dokumentace
   feedback: Odeslat zpětnou vazbu
   forum: Pomoc
-  version: 'Verze:'
+  version: "Verze:"
 module: Moduly
 more: Více
 namespace: Jmenný prostor
