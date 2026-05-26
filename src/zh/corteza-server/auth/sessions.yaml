@@ -1,18 +1,18 @@
 template:
-  title: Your session
+  title: 你的会话
   list:
-    current: Current session
-    authorized-on: Authorized on
-    same-machine: This machine
-    ip-address: IP Address
-    same-browser: This browser
-    browser: Browser
-    expires: Expires
-    expired: Expired
-    today: Today
-    tomorrow: In 1 day
-    soon: In {{days}} days
-  delete-all: Logout from everywhere
+    current: 当前会话
+    authorized-on: 授权在
+    same-machine: 这台设备
+    ip-address: IP 地址
+    same-browser: 此浏览器
+    browser: 浏览器
+    expires: 过期
+    expired: 已过期
+    today: 今天
+    tomorrow: 于 1 天后
+    soon: 于 {{days}} 天后
+  delete-all: 从所有设备退出登录
 alerts:
-  session-deleted: Session deleted
-  delete-sessions-but-current: All but current login sessions deleted
+  session-deleted: 会话已删除
+  delete-sessions-but-current: 除当前登录会话外，所有会话均已删除
