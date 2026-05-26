@@ -1,11 +1,7 @@
 editor:
   info:
     archive: Arquivo
-    archivedAt: Arquivado em
-    createdAt: Criado em
-    createdBy: Criado por
     delete: Excluir
-    deletedAt: Excluído em
     handle: Identificador
     placeholder-handle: identificador (a - z, 0 - 9, sublinhado, hífen)
     invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
@@ -13,7 +9,6 @@ editor:
     title: Informação básica
     unarchive: Desarquivar
     undelete: Recuperar
-    updatedAt: Atualizado em
     description: Descrição
     context:
       label: Papel contextual
