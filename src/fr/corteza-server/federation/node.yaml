@@ -5,4 +5,6 @@ errors:
   notAllowedToSearch: non autorisé à créer des nœuds
   notFound: ce nœud n'existe pas
   pairingTokenInvalid: jeton d'appairage invalide
+  pairingURIInvalid: 'URI d''appairage invalide : {err}'
+  pairingURISourceIDInvalid: URI d'appairage sans ID de nœud source
   pairingURITokenInvalid: appairage d'URI avec jeton d'appairage invalide
