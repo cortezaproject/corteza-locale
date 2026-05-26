@@ -10,10 +10,7 @@ editor:
     subject: 'Assunto:'
   generateUri: Gerar link de federação
   info:
-    createdAt: Criado em
-    createdBy: Criado por
     delete: Excluir
-    deletedAt: Excluído em
     email: E-mail do administrador
     enabled: Habilitado
     name: Nome do servidor *
@@ -23,7 +20,6 @@ editor:
       placeholder: +Acrescentar
     title: Informação básica
     undelete: Recuperar
-    updatedAt: Atualizado em
     url: URL do servidor *
   title:
     create: Criar nó federado
