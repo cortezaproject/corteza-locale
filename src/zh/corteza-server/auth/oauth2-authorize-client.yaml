@@ -1,14 +1,14 @@
 template:
-  title: Authorize
+  title: 授权
   form:
-    greeting-paragraph: Hello
-    question-for-client: would like to perform actions on this Corteza server on your behalf.
+    greeting-paragraph: 你好
+    question-for-client: 希望代表您在此 Corteza 服务器上执行操作。
     buttons:
-      allow: Allow
-      deny: Deny
+      allow: 允许
+      deny: 拒绝
   links:
-    mistake: If this is a mistake, please <a data-test-id="link-logout" href="{{link}}">log out</a>.
+    mistake: 如果这是个错误，请<a data-test-id="link-logout" href="{{link}}">退出登录</a>。
   errors:
-    invalid-user: Cannot continue with unauthorized email, visit <a data-test-id="link-redirect-to-profile" href="{{link}}">your profile</a> and resolve the issue.
+    invalid-user: 无法继续使用未经授权的电子邮箱，请访问<a data-test-id="link-redirect-to-profile" href="{{link}}">您的个人资料</a>并解决此问题。
 alerts:
-  denied: 'Failed to authorize {{client}}: insufficient permissions'
+  denied: '无法授权 {{client}}：缺少权限'
