@@ -31,10 +31,6 @@ editor:
     enabled: Включено
     delete: Удалить
     undelete: Восстановить
-    deletedAt: Удалить
-    updatedAt: Возобновлять
-    createdAt: Создан
-    createdBy: Создан
   filters:
     enabled: Включено
     add: Добавить
