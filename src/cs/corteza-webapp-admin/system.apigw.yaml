@@ -54,10 +54,6 @@ editor:
     enabled: Povoleno
     delete: Smazat
     undelete: Obnovit smazané
-    deletedAt: Čas odstranění
-    updatedAt: Čas aktualizace
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
     tooltip: Koncový bod musí začínat lomítkem "/" a nesmí obsahovat speciální znaky kromě podtržítka "_" a pomlčky "-"
     validation:
       slash: Koncový bod musí začínat lomítkem "/"
