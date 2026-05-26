@@ -5,12 +5,8 @@ editor:
       placeholder: Bezeichnung (a - z, 0 - 9, Unterstrich, Bindestrich)
     name: Name
     description: '$t(general.label.description)'
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
     delete: Löschen
-    deletedAt: Gelöscht am
     undelete: Wiederherstellen
-    updatedAt: Aktualisiert am
 list:
   columns:
     'meta.name': Name
