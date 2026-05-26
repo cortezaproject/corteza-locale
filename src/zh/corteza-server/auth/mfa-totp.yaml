@@ -1,25 +1,25 @@
 template:
-  title: Configure two-factor authentication with TOTP
+  title: 配置使用 TOTP 的双因素身份验证
   enforced: |
-    TOTP multi factor authentication is enforced by Corteza administrator.
-    Please configure it right away.
+    Corteza 管理员强制执行 TOTP 多因素身份验证。
+    请立即配置。
   instructions: |
-    Corteza uses time based one time passwords (TOTP) as one of the underlying technologies for two-factor authentication. Use one of the applications listed below and type in the secret or scan the QR code.
+    Corteza 使用基于时间的一次性密码 (TOTP) 作为双因素身份验证的底层技术之一。请使用下方列出的应用之一，输入密码或扫描二维码。
     <br />
     <br />
-    This will enable additional security for your account.
+    这将为您的账户提供额外的安全保障。
     <br />
     <br />
-    You can use one of the following applications:
+    您可以使用以下应用之一：
   lastpass: <a target="_blank" href="{{ link }}">LastPass Authenticator</a>
-  gauth: Google Authenticator for <a target="_blank" href="{{ android }}">Android</a> or <a target="_blank" href="{{ iphone }}">iPhone</a>
+  gauth: 适用于 <a target="_blank" href="{{ android }}">Android</a> 或 <a target="_blank" href="{{ iphone }}">iPhone</a> 的 Google 身份验证器
   authy: <a target="_blank" href="{{ link }}">Authy</a>
   form:
-    title: "Complete the configuration by entering code from the authenticator application:"
-    button: Submit
+    title: "请输入身份验证器应用中的代码以完成配置："
+    button: 提交
 alerts:
-  text-MFA-enabled: Two factor authentication with TOTP enabled
-  text-MFA-disabled: Two factor authentication with TOTP disabled
+  text-MFA-enabled: 已启用 TOTP 的双因素身份验证
+  text-MFA-disabled: 已停用 TOTP 的双因素身份验证
 errors:
-  invalid-code-format: "Invalid code format"
-  invalid-code: "Invalid code"
+  invalid-code-format: "无效的代码格式"
+  invalid-code: "无效的验证码"
