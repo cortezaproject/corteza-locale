@@ -12,12 +12,8 @@ editor:
     name: Nome *
     description: Descrição
     level: Nível {{level}}
-    createdAt: Criado em
-    createdBy: Criado por
     delete: Excluir
-    deletedAt: Excluído em
     undelete: Recuperar
-    updatedAt: Atualizado em
 list:
   title: Níveis de sigilo
   loading: Carregando níveis de sigilo
