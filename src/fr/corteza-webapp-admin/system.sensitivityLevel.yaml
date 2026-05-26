@@ -12,12 +12,8 @@ editor:
     name: Nom *
     description: Description
     level: Niveau {{level}}
-    createdAt: Créer à
-    createdBy: Créer par
     delete: Supprimer
-    deletedAt: Supprimer à
     undelete: Annuler suppression
-    updatedAt: Mis à jour à
 list:
   title: Niveaux de sensibilité
   loading: Chargement des niveaux de sensibilité
