@@ -3,10 +3,7 @@ editor:
     add: crwdns171675:0crwdne171675:0
     api: crwdns171677:0crwdne171677:0
     choose-date: crwdns171679:0crwdne171679:0
-    createdAt: crwdns171681:0crwdne171681:0
-    createdBy: crwdns171683:0crwdne171683:0
     delete: crwdns171685:0crwdne171685:0
-    deletedAt: crwdns171687:0crwdne171687:0
     enabled:
       disabledFootnote: crwdns171689:0crwdne171689:0
       label: crwdns171691:0crwdne171691:0
@@ -57,7 +54,6 @@ editor:
       label: crwdns171755:0crwdne171755:0
     undelete: crwdns171757:0crwdne171757:0
     unnamed: crwdns171759:0crwdne171759:0
-    updatedAt: crwdns171761:0crwdne171761:0
     uri: crwdns171763:0crwdne171763:0
     validFrom:
       description: crwdns171765:0crwdne171765:0
