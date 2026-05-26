@@ -1,9 +1,6 @@
 editor:
   info:
-    createdAt: تم انشائه في
-    createdBy: انشأ من قبل
     delete: حذف
-    deletedAt: محذوف في
     enabled: مفعل
     handle: المعرف
     id: ID
@@ -11,7 +8,6 @@ editor:
     openBuilder: فتح المحرك
     title: معلومات مبدئية
     undelete: استعادة
-    updatedAt: تم تحديثه في
   new: تشغيل سير العمل
   permissions: الصلاحيات
   title:
