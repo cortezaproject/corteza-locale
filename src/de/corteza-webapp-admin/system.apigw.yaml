@@ -42,10 +42,6 @@ editor:
     enabled: Aktiviert
     delete: Löschen
     undelete: Wiederherstellen
-    deletedAt: Gelöscht am
-    updatedAt: Aktualisiert am
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
   filters:
     enabled: Aktiviert
     disabled: Deaktivieren
