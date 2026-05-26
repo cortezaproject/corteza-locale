@@ -6,7 +6,7 @@ help:
   documentation: المراجع
   feedback: ارسال افادة
   forum: مساعدة
-  version: 'النسخة:'
+  version: "النسخة:"
 module: الموديولز
 more: مزيد
 namespace: Namespaces
