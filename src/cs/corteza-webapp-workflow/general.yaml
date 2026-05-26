@@ -22,7 +22,6 @@ new-workflow: Nové workflow
 none: Nic
 now: Nyní
 offset: Offset
-offset-expression: Offset (výraz)
 permissions: Oprávnění
 searchPlaceholder: Hledání workflow
 subworkflow: Subworkflow
