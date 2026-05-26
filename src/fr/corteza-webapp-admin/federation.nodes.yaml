@@ -4,10 +4,7 @@ editor:
     sendEmail: Envoyer un courriel
     subject: 'Sujet:'
   info:
-    createdAt: Créer à
-    createdBy: Créer par
     delete: Supprimer
-    deletedAt: Supprimer à
     email: Courriel administrateur
     enabled: Activé
     name: Nom serveur
@@ -16,7 +13,6 @@ editor:
       placeholder: +Ajouter
     title: Information de base
     undelete: Annuler suppression
-    updatedAt: Mis à jour à
     url: URL serveur
   title:
     edit: Éditer Nœud de Fédération
