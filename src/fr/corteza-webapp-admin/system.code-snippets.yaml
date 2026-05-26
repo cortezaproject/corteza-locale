@@ -1,12 +1,17 @@
 editor:
+  title: Extraits de code
   code-snippets:
+    add: Ajouter extrait de code
+    empty: Aucun extrait pour le moment
     enabled: Activé
     table-headers:
       name: Nom
       enabled: Activé
       script: Code
     form:
+      title: Ajouter extrait de code
       name:
         label: Nom
       code:
         label: Code
+        description: Ajouter un script externe ou un extrait de code. Le script doit inclure une balise <script> valide pour fonctionner.

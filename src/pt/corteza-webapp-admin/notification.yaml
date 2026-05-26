@@ -7,6 +7,9 @@ list:
   load:
     error: 'Falha ao carregar a lista de recursos'
 user:
+  external-auth-providers:
+    error: A busca por provedores de autenticação externos falhou
+    success: Provedores de autenticação externos atualizados
   fetch:
     error: Falha na busca do usuário
   roles:
@@ -38,6 +41,17 @@ user:
   unsuspend:
     success: Usuário cancelado
     error: Falha na suspensão do usuário
+  import:
+    success: Usuários importados com sucesso
+  avatarUpload:
+    success: Avatar atualizado
+    error: Falha ao enviar o avatar
+  avatarSettings:
+    success: Configurações de avatar atualizadas
+    error: A atualização das configurações do avatar falhou
+  avatarDelete:
+    success: Avatar deletado
+    error: Falha ao deletar o avatar
 role:
   fetch:
     error: Falha na busca de função
@@ -62,6 +76,26 @@ role:
   membershipUpdate:
     success: Associação atualizada
     error: Falha na atualização da associação
+userGroup:
+  fetch:
+    error: Falha na busca do grupo
+  roles:
+    error: Falha na busca de funções do grupo de usuário
+  membershipUpdate:
+    success: A adesão ao grupo de usuários foi atualizada
+    error: A atualização da associação ao grupo de usuários falhou
+  create:
+    success: Grupo de usuário criado
+    error: A criação do grupo de usuários falhou
+  update:
+    success: Grupo de usuário atualizado
+    error: A atualização do grupo de usuário falhou
+  delete:
+    success: Grupo de usuário deletado
+    error: Falhou ao deletar grupo de usuário
+  undelete:
+    success: Grupo de usuário restaurado
+    error: Falhou ao restaurar grupo de usuário
 application:
   fetch:
     error: Falha na busca do aplicativo
@@ -127,6 +161,9 @@ queue:
   delete:
     success: Fila excluída
     error: Falha na exclusão da fila
+  undelete:
+    success: Fila restaurada
+    error: Falhou ao restaurar fila
 gateway:
   fetch:
     error: Falha na busca de rota
@@ -148,9 +185,17 @@ gateway:
   undelete:
     success: Rota restaurada
     error: Falha na restauração da rota
+  profiler:
+    fetch:
+      error: Falha ao buscar solicitações
+    purge:
+      success: Solicitações excluídas
+      error: A exclusão de solicitações falhou
 workflow:
   fetch:
     error: Falha na busca do fluxo de trabalho
+  trigger:
+    error: Falha na busca do gatilho
   create:
     success: Fluxo de trabalho criado
     error: Falha na criação do fluxo de trabalho
@@ -168,6 +213,9 @@ session:
     error: Falha na busca de sessão
   trigger:
     error: Falha na busca do gatilho
+  cancel:
+    success: Sessão cancelada
+    error: Falha ao cancelar a sessão
 federation:
   fetch:
     error: Falha na busca do nó
@@ -194,6 +242,22 @@ federation:
   handshake:
     success: Aperto de mão completo emparelhado
     error: Falha no aperto de mão
+sensitivityLevel:
+  create:
+    success: Nível de sensibilidade criado
+    error: A criação do nível de sensibilidade falhou
+  delete:
+    success: Nível de sensibilidade excluído
+    error: A exclusão do nível de sensibilidade falhou
+  fetch:
+    success: Nível de sensibilidade obtido
+    error: Falha ao buscar o nível de sensibilidade
+  undelete:
+    success: Nível de sensibilidade restaurado
+    error: A restauração do nível de sensibilidade falhou
+  update:
+    success: Nível de sensibilidade atualizado
+    error: A atualização do nível de sensibilidade falhou
 settings:
   system:
     fetch:
@@ -204,6 +268,16 @@ settings:
     external:
       success: Configurações externas atualizadas
       error: Falha na atualização das configurações externas
+    bgScreen:
+      style:
+        success: Estilos de fundo de autenticação atualizados
+        error: A atualização dos estilos de fundo de autenticação falhou
+    smtpCheck:
+      success: A verificação de configuração SMTP foi aprovada
+      error: A verificação da configuração SMTP falhou
+    apigw:
+      success: Configurações do gateway de integração salvas
+      error: A atualização das configurações do gateway de integração falhou
   compose:
     fetch:
       error: Falha na busca das configurações de composição
@@ -213,6 +287,36 @@ settings:
   ui:
     fetch:
       error: Falha na busca das configurações da interface do usuário
+    update:
+      success: Configurações da interface do usuário atualizadas
+      error: A atualização das configurações da interface do usuário falhou
+  theming:
+    fetch:
+      error: A busca das configurações de tema falhou
+    update:
+      success: Configurações de tema atualizadas
+      error: A atualização das configurações de tema falhou
+  navigation:
+    fetch:
+      error: Falha ao buscar as configurações de navegação
+    update:
+      success: Configurações de navegação atualizadas
+      error: A atualização das configurações de navegação falhou
+  location:
+    fetch:
+      error: A obtenção das configurações de localização falhou
+    update:
+      success: Configurações de localização atualizadas
+      error: A atualização das configurações de localização falhou
+  code-snippet:
+    fetch:
+      error: A obtenção dos trechos de código falhou
+    update:
+      success: Trechos de código atualizados. Atualize a página para ver as alterações
+      error: A atualização dos trechos de código falhou
+    delete:
+      success: Trecho de código removido. Atualize a página para ver as alterações
+      error: A exclusão do trecho de código falhou
 permissions:
   fetch:
     error: Falha na busca de permissões
@@ -224,3 +328,18 @@ permissions:
     error: Falha na clonagem de permissões
   role:
     error: Falha ao adicionar função
+connection:
+  fetch:
+    error: Falha ao buscar conexão
+  update:
+    success: Conexão atualizada
+    error: Falha na atualização da conexão
+  create:
+    success: Conexão criada
+    error: Falha na criação da conexão
+  delete:
+    success: Conexão deletada
+    error: Falha ao deletar conexão
+  undelete:
+    success: Conexão restaurada
+    error: Falha ao restaurar conexão

@@ -1,10 +1,14 @@
 primary:
+  title: Base de données primaire
   name: Nom
   handle: Identifiant
   location: Localisation
   ownership: Propriétaire
   sensitivity-level: Niveau de sensibilité
 list:
+  title: Liste de connexion de base de données
+  add-button: Nouvelle Connexion
+  loading: Chargement des connexions
   filterForm:
     deleted:
       label: connexions supprimées
@@ -24,6 +28,7 @@ list:
 editor:
   title:
     edit: Éditer connexion
+    create: Nouvelle connexion
   basic:
     title: Paramètres basiques
     form:
@@ -37,3 +42,12 @@ editor:
         placeholder: ACME ltd.
       sensitivity-level:
         placeholder: Sélectionnez un niveau de sensibilité
+  properties:
+    title: Propriétés de connexion et base de données
+  dal:
+    form:
+      params:
+        label: Paramètres de connexion
+        placeholder: postgres://user:pass@host:port/dbname
+        description: 'Paramètres de connexion (exemple : {"dsn": "postgres://user:pass@host:port/dbname"})'
+    connectivity-issues: Problèmes de connexion

@@ -1,5 +1,7 @@
 editor:
   info:
+    archive: Archive
+    archivedAt: Archivé à
     createdAt: Créer à
     createdBy: Créer par
     delete: Supprimer
@@ -14,8 +16,11 @@ editor:
     updatedAt: Mis à jour à
     description: Description
     context:
+      label: Rôle contextuel
       expression-label: Expression
       resource-types-label: Type de ressource
+  members:
+    title: Membres du rôle
   new: Nouveau Rôle
   permissions: Permissions
   title:
@@ -30,11 +35,15 @@ list:
     state: État
   delete: Supprimer
   undelete: Annuler suppression
+  archive: Archive
   unarchive: Annuler l'archivage
   rows:
     filters:
+      archived: Archivé
       deleted: Supprimé
   filterForm:
+    archived:
+      label: rôles archivés
     deleted:
       label: rôles supprimés
     excluded:
@@ -45,6 +54,8 @@ list:
       label: Comprenant
     query:
       label: Filtrer liste de rôle
+      placeholder: Filtrez les rôles par leurs noms
+  loading: Chargement des rôles
   new: Nouveau Rôle
   permissions: Permissions
   title: Rôles

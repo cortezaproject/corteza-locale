@@ -1,8 +1,17 @@
 primary:
+  title: Banco de dados primário
   name: Nome
   handle: Identificador
+  location: Localização
+  ownership: Propriedade
+  sensitivity-level: Nível de sigilo
 list:
+  title: Lista de conexões de banco de dados
+  add-button: Nova conexão
+  loading: Carregando conexões
   filterForm:
+    deleted:
+      label: conexões deletadas
     excluded:
       label: Sem
     exclusive:
@@ -11,13 +20,83 @@ list:
       label: Incluindo
   columns:
     name: Nome
+    location: Localização
+    ownership: Propriedade
     createdAt: Criado
   delete: Excluir
   undelete: Recuperar
 editor:
+  title:
+    edit: Editar conexão
+    create: Nova conexão
   basic:
+    title: Configurações básicas
     form:
       name:
         label: Nome *
+        placeholder: Lago de dados
       handle:
         label: Identificador
+        placeholder: nome_de_conexão_simplificada
+        invalid-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
+      location-name:
+        label: Nome do local
+        placeholder: Nome do local onde os dados estão armazenados
+        description: Nome da cidade, país, continente, etc.
+      location-geometry:
+        label: Coordenadas de localização
+        description: Coordenadas do local onde os dados estão armazenados
+      ownership:
+        label: Propriedade
+        placeholder: ACME ltd.
+        description: Nome da empresa ou pessoa proprietária dos dados
+      sensitivity-level:
+        label: Nível de sensibilidade máximo permitido
+        placeholder: Selecione um nível de sensibilidade
+        description: Nível máximo de sensibilidade permitido para os dados armazenados (conforme definido nos campos do módulo que utiliza esta conexão)
+  properties:
+    title: Propriedades de conexão e banco de dados
+    form:
+      data-at-rest-encryption:
+        checkbox:
+          label: Criptografar dados em repouso ativado
+        notes:
+          label: Notas sobre criptografia
+          description: Notas internas sobre criptografia de dados em repouso (criptografia de disco)
+      data-at-rest-protection:
+        checkbox:
+          label: Proteção de dados em repouso fornecida
+        notes:
+          label: Notas sobre a proteção de dados em repouso
+          description: Notas internas sobre proteção de dados em repouso (proteção física)
+      data-at-transit-encryption:
+        checkbox:
+          label: Criptografar dados em trânsito ativado
+        notes:
+          label: Notas sobre criptografia de dados em trânsito (criptografia de rede)
+          description: Notas internas sobre criptografia de dados em trânsito (criptografia de rede)
+      data-restoration:
+        checkbox:
+          label: Implementado backup e restauração de dados em repouso
+        notes:
+          label: Notas sobre restauração de dados
+          description: Notas internas sobre restauração de dados
+  dal:
+    title: Configuração da camada de acesso a dados e parâmetros de conexão
+    form:
+      model-ident:
+        label: Nome padrão da tabela ou do contêiner
+        placeholder: compose_record
+        description: |
+          Identificadores podem conter espaços reservados como {{module}} (substituído por identificador de módulo) e/ou {{namespace}} (substituir pelo identificador do namespace).
+          Quando definido, ele é usado como padrão para módulos sem identificador de configuração.
+      type:
+        label: Tipo de conexão e parâmetro
+        placeholder: corteza::dal:connection:dsn
+        description: 'Tipo da conexão e parâmetro, ex: corteza::dal:connection:dsn'
+      params:
+        label: Parâmetros de conexão
+        placeholder: postgres://usuario:senha@host:porta/nomedb
+        description: 'Parâmetros da conexão, ex: {"dsn": "postgres://usuario:senha@host:porta/nomedb"}'
+    connectivity-issues: Problemas de conexão
+    no-access-warning: Não há permissões para gerenciar a configuração da camada de acesso a dados e os parâmetros de conexão para esta conexão

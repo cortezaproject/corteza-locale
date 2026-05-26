@@ -1,3 +1,5 @@
 errors:
   invalidEndpoint: point de terminaison invalide
   invalidID: ID invalide
+  notAllowedToManage: non autorisé à gérer le niveau de sensibilité
+  notFound: niveau de sensibilité introuvable

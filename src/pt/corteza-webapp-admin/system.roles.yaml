@@ -8,6 +8,7 @@ editor:
     deletedAt: Excluído em
     handle: Identificador
     placeholder-handle: identificador (a - z, 0 - 9, sublinhado, hífen)
+    invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
     name: Nome do papel *
     title: Informação básica
     unarchive: Desarquivar
@@ -20,6 +21,7 @@ editor:
       resource-types-label: Tipo de recurso
   members:
     title: Membros da função
+  new: Novo Cargo
   permissions: Permissões
   title:
     create: Criar função
@@ -30,6 +32,7 @@ list:
     enabled: Habilitado
     handle: Identificador
     name: Nome
+    state: Estado
   delete: Excluir
   undelete: Recuperar
   archive: Arquivo
@@ -53,6 +56,7 @@ list:
       label: Filtrar lista de funções
       placeholder: Filtrar funções por nome
   loading: Carregando papéis
+  new: Novo Cargo
   permissions: Permissões
   title: Funções
   yaml: YAML

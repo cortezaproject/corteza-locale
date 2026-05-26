@@ -7,3 +7,4 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de ce déclencheur
   notAllowedToUpdate: non autorisé à mettre à jour ce déclencheur
   notFound: déclencheur introuvable
+  staleData: le déclencheur a été modifié par quelqu'un d'autre ou par un autre processus après votre ouverture. Veuillez actualiser pour voir la dernière version mise à jour

@@ -64,18 +64,24 @@ edit:
     protected: Protégé
   fieldPermissions: Permissions de champ
   manageRecordFields: Gérer les champs d'enregistrement
+  moduleFieldSettings: Paramètres de champ du module
   moduleInfo: Information du module
   newField: Ajouter nouveau champ
   recordPermissions: Permissions d'enregistrement
   reorderFields: Réordonner les champs
   specificFieldSettings: Paramètres de champ ({{name}})
   steps:
+    recordList: Page avec liste d'éléments
     recordPage: Page d'élément
   systemFields: 'Champs système'
   tooltip:
+    attributes: Indiquez si le champ peut contenir plusieurs valeurs, s'il est obligatoire ou s'il contient des données sensibles
     name: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
     private: Donnée sensible
     required: Champ obligatoire
+    title: Le nom affiché dans les zones de saisie ou listes de données
+  issues:
+    label: Problèmes ({{count}})
   schemaAlterations:
     title: Altérations du schéma
     resolve: Résoudre
@@ -83,6 +89,7 @@ edit:
     resolved: Résolue
     dismiss: Rejeter
     waitingFor: 'En attente de {{id}}'
+    noAlterations: Aucune altération du schéma ne nécessite de correction
     columns:
       alteration: Altération
       change: Changement
@@ -93,9 +100,11 @@ edit:
       connection:
         label: Connexion à une base de données
         placeholder: Sélectionnez une connexion de base de données
+        description: Changer la connexion réinitialisera le niveau de sensibilité du module et des champs s'ils ne sont plus compatibles avec la nouvelle connexion
       ident:
         label: Nom de la collection ou de la table de base de données
         placeholder: compose_record
+        description: "Nom de la table ou de la collection de base de données ou les éléments sont accessibles et stockés. Prend en charge les variables de partitionnement : {{module}} pour l'identifiant du module et {{namespace}} pour l'identifiant du namespace"
       connections:
         fetch-failed: Impossible de récupérer les connexions disponibles
       module-fields:
@@ -107,6 +116,9 @@ edit:
           ou utiliser un Alias et stocker la valeur directement dans la colonne.
       system-fields:
         label: Mappage et encodage des champs système
+        description: |
+          Les champs systèmes sont utilisés pour stocker les métadonnées d'un élément.
+          Configurez-les pour les ignorer ou les stocker dans une colonne du même nom (Colonne), une colonne différente (Alias) ou les encodez au format JSON.
         grouptypes:
           all: Tous
           partition: Partition
@@ -114,6 +126,8 @@ edit:
           timestamps: Horodatages
       encoding-strategy:
         unavailable: indisponible
+        ident:
+          placeholder: Nom de champ ou de colonne de table de base de données
         strategies:
           plain:
             label: Colonne
@@ -124,7 +138,9 @@ edit:
     privacy:
       title: Confidentialité
       sensitivity-level:
+        label: Plus haut niveau de sensibilité autorisé
         placeholder: Sélectionnez un niveau de sensibilité
+        description: Plus haut niveau de sensibilité autorisé pour les champs de ce module, changer cette valeur réinitialisera le niveau de sensibilité des champs s'ils ne sont plus compatibles.
       usage-disclosure:
         label: Divulgation de l'utilisation des données sensibles (visible sur la console de confidentialité)
       sensitivity-levels:
@@ -134,13 +150,23 @@ edit:
       enabled: Activer les révisions d'élément
       ident:
         label: Identifiant
+        placeholder: compose_record_revisions
+        description: 'Nom de la table ou de la collection de base de données ou les révisions d''élément sont accessibles et stockés. Prend en charge les variables de partitionnement : {{module}} pour l''identifiant du module et {{namespace}} pour l''identifiant du namespace'
     validation:
       title: Validation
       record-duplication:
         title: Détection de duplication d'élément
+        strict-fields:
+          label: Validation stricte de valeurs dupliquées
+          description: L'élément ne sera pas sauvegardé si une valeur dupliquée est détectée pour les champs sélectionnés des éléments existants de ce module
+        non-strict-fields:
+          label: Validation souple de valeurs dupliquées
+          description: L'élément sera sauvegardé et un avertissement sera affiché à l'utilisateur lorsqu'une valeur dupliquée est détectée pour les champs sélectionnés des éléments existants de ce module
     uniqueValues:
       title: Valeurs uniques
       duplicationDetection: Détection de duplication
+      preventRecordsSave: Empêcher la sauvegarde d'un élément si des valeurs dupliquées existent
+      warningLabel: Message d'alerte ou d'erreur s'affichant lorsque la contrainte correspond
       valueModifiers: Modificateur de valeur
       multiValues: Valeurs multiples
       add: Ajouter
@@ -151,6 +177,7 @@ edit:
       caseSensitive: Sensible à la casse
       oneOf: L'une de
       equal: Égal
+      warningMessage: Message d'alerte ou d'erreur s'affichant lorsque la contrainte correspond
       field: Champ
       type: Type
       none: Aucune

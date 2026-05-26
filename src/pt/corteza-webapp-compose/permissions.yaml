@@ -4,15 +4,29 @@ ui:
   set-for: Definir permissões para {{target}}
   loading: Carregando permissões
   label: Permissões
+  notification:
+    save:
+      success: Permissões salvas
+      failed: Falha ao salvar permissões
   edit:
     label: Funções do usuário
+    description: Selecione a função para definir as permissões
+  evaluate:
+    description: Avaliar permissões aplicadas
   add:
     label: Adicionar
+    title: Avaliar permissões
     save: Salvar fechar
     role:
       label: Funções
+      placeholder: Selecione a(s) função(ões)
     user:
       label: Comercial
+      placeholder: Pesquise ou selecione um usuário
+  tooltip:
+    unknown-context:
+      user: Não é possível avaliar a permissão para um usuário com função contextual em um recurso não específico
+      role: Não é possível avaliar a permissão para função contextual em um recurso não específico
   access:
     allow: Permitir
     inherit: Herdar
@@ -22,6 +36,7 @@ resources:
     namespace:
       all: todos os namespaces
       specific: namespace "{{target}}"
+      tooltip: Permissões do Namespace
       operations:
         read:
           specific: Leia o namespace "{{target}}"
@@ -36,9 +51,15 @@ resources:
           description: Permitir acesso às páginas de administração do namespace
           specific: Gerenciar namespace "{{target}}"
           title: Gerencie qualquer namespace
+        export:
+          specific: Exportar namespace "{{target}}"
+          title: Exportar qualquer namespace
         module.create:
           specific: Crie módulos no namespace "{{target}}"
           title: Crie módulos em qualquer namespace
+        modules.export:
+          specific: Exportar módulos no namespace "{{target}}"
+          title: Exportar módulos em qualquer namespace
         modules.search:
           specific: Listar e pesquisar módulos no namespace "{{target}}"
           title: Listar e pesquisar módulos em qualquer namespace
@@ -48,15 +69,22 @@ resources:
         pages.search:
           specific: Listar e pesquisar páginas no namespace "{{target}}"
           title: Listar e pesquisar páginas em qualquer namespace
+        pages.export:
+          specific: Exportar páginas no namespace "{{target}}"
+          title: Exportar páginas em qualquer namespace
         chart.create:
           specific: Crie gráficos no namespace "{{target}}"
           title: Crie gráficos em qualquer namespace
         charts.search:
           specific: Liste e pesquise gráficos no namespace "{{target}}"
           title: Liste e pesquise gráficos em qualquer namespace
+        charts.export:
+          specific: Exportar gráficos no namespace "{{target}}"
+          title: Exportar gráficos em qualquer namespace
     chart:
       all: todos os gráficos
       specific: gráfico "{{target}}"
+      tooltip: Permissões do gráfico
       operations:
         delete:
           description: 'Negação padrão'
@@ -73,6 +101,7 @@ resources:
     module:
       all: todos os módulos
       specific: módulo "{{target}}"
+      tooltip: Permissões do módulo
       operations:
         delete:
           description: 'Negação padrão'
@@ -96,10 +125,14 @@ resources:
           title: Atualize qualquer módulo
         'owned-record.create':
           description: 'Padrão: negar'
+          specific: Gerencie dono ao criar o registro para o módulo "{{target}}"
+          title: Gerenciar dono ao criar um registro para qualquer módulo
+          all-specific: Gerencie o dono ao criar o registro para o módulo "{{ target }}"
     module-field:
       all: todos os campos do módulo
       specific: campo "{{target}}"
       all-specific: todos os campos de módulo do módulo "{{ target }}"
+      tooltip: Permissões de campo do módulo
       operations:
         record.value.read:
           description: 'Negação padrão'
@@ -108,9 +141,13 @@ resources:
           all-specific: Ler campos de registro do módulo "{{ target }}"
         record.value.update:
           description: 'Negação padrão'
+          specific: 'Atualizar os valores dos campos do registro "{{target}}"'
+          title: Atualizar os valores dos campos de registro de qualquer módulo
+          all-specific: Atualizar valores dos campos de registro do módulo "{{ target }}"
     page:
       all: todas as páginas
       specific: página "{{target}}"
+      tooltip: Permissões da página
       operations:
         delete:
           description: 'Negação padrão'
@@ -126,16 +163,33 @@ resources:
           title: Atualizar qualquer página
         page-layout.create:
           description: 'Padrão: negar'
+          specific: Criar layouts de página para a página "{{target}}"
+          title: Criar layout de página
         page-layouts.search:
           description: 'Padrão: negar'
+          specific: Listar layouts de página para a página "{{target}}"
+          title: Listar layout de página
     page-layout:
+      all: todos os layouts de página
+      specific: layout da página "{{target}}"
+      tooltip: Permissões de layout de página
+      all-specific: todos os layouts de página da página "{{ target }}"
       operations:
         read:
           description: 'Padrão: negar'
+          specific: Leia o layout da página "{{target}}"
+          title: Leia qualquer layout de página
+          all-specific: Leia os layouts de página da página "{{ target }}"
         update:
           description: 'Padrão: negar'
+          specific: Atualizar layout da página "{{target}}"
+          title: Atualize o layout de qualquer página
+          all-specific: Atualizar layouts de página da página "{{ target }}"
         delete:
           description: 'Padrão: negar'
+          specific: Excluir layout de página "{{target}}"
+          title: Exclua qualquer layout de página
+          all-specific: Excluir layouts de página da página "{{ target }}"
     record:
       all: todos os registros
       specific: registro "{{target}}"
@@ -149,6 +203,9 @@ resources:
           all-specific: Excluir registros do módulo "{{ target }}"
         undelete:
           description: 'Padrão: negar'
+          specific: Restaurar registro "{{target}}"
+          title: Restaurar registros de qualquer módulo
+          all-specific: Restaurar registros do módulo "{{ target }}"
         read:
           description: 'Negação padrão'
           specific: Ler registro "{{target}}"
@@ -161,5 +218,11 @@ resources:
           all-specific: Atualizar registros do módulo "{{ target }}"
         'owner.manage':
           description: 'Padrão: negar'
+          specific: Gerenciar dono do registro "{{target}}"
+          title: Gerencie os donos de registros de qualquer módulo
+          all-specific: Gerenciar proprietários de registros do módulo "{{ target }}"
         'revisions.search':
           description: 'Padrão: negar'
+          specific: Acesse as revisões do registro "{{target}}"
+          title: Acessar revisões do registro
+          all-specific: Acessar revisões do registro

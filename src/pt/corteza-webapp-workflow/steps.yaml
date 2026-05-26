@@ -5,6 +5,7 @@ break:
 content:
   label: Contente
   short: Contente
+  tooltip: Bloco de conteúdo usado para anotações de texto
   configurator:
     ok: OK
     urlPlaceholder: https://exemplo.tld
@@ -47,6 +48,8 @@ function:
     result: Resultado
     results: Resultados
     target: Alvo
+    add-result: + Adicionar resultado
+    search-workflow: Procurar um fluxo de trabalho
     select-function: Selecionar função
     type: Tipo
     type*: Tipo*
@@ -54,15 +57,20 @@ function:
   short: Função
   tooltip: Execute a função predefinida escolhida
 exec-workflow:
+  label: Executar fluxo de trabalho
   short: Fluxo de trabalho
+  tooltip: Execute um fluxo de trabalho e mapeie as variáveis ​​do seu escopo para o escopo atual
 gatewayExclusive:
   label: Portão (Exclusivo)
+  short: Gateway
   tooltip: A execução do fluxo de trabalho pode continuar no primeiro caminho que se encaixa na condição
 gatewayInclusive:
   label: Portão (Incluso)
+  short: Gateway
   tooltip: A execução do fluxo de trabalho pode continuar em todos os caminhos que se ajustem à condição
 gatewayParallel:
   label: Gateway (Fork/Join)
+  short: Gateway
   tooltip: Divide a execução do fluxo de trabalho em dois caminhos paralelos ou mescla vários caminhos em um
 gateway:
   configurator:
@@ -82,12 +90,14 @@ swimlane:
   tooltip: Etapas de grupo visualmente
 termination:
   label: Rescisão (Fim)
+  short: Encerramento
   tooltip: Encerrar a execução do fluxo de trabalho
 trigger:
   configurator:
     add: acrescentar
     add-constraints: + Adicionar restrições
     constraints: Restrições
+    no-constraints: Sem restrições
     event*: Evento*
     failed-fetch-event-types: Falha ao buscar tipos de eventos
     initial-scope: Escopo inicial
@@ -99,7 +109,14 @@ trigger:
     resource: Recurso
     resource*: Recurso*
     select-constraint-type: Selecione o tipo de restrição
+    select-operator: Selecione o operador
     select-event-type: Selecione o tipo de evento
     select-resource-type: Selecione o tipo de recurso
   label: Acionador (Iniciar)
+  short: Gatilho
   tooltip: Acionar a execução do fluxo de trabalho com base na configuração
+tooltip:
+  configure-step: Configurar passo
+path:
+  label: Caminho
+  short: Caminho

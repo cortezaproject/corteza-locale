@@ -15,4 +15,5 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de ce module
   notAllowedToUpdate: non autorisé à mettre à jour ce module
   notFound: ce module n'existe pas
+  staleData: le module a été modifié par quelqu'un d'autre ou par un autre processus après votre ouverture. Veuillez actualiser pour voir la dernière version mise à jour
   dedupConfigurationInvalidMissingConstraint: contraintes manquantes dans la configuration de déduplication

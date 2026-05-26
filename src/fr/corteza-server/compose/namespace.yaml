@@ -9,6 +9,7 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de ce namespace
   notAllowedToUpdate: non autorisé à mettre à jour ce namespace
   notFound: ce namespace n'existe pas
+  staleData: le namespace a été modifié par quelqu'un d'autre ou par un autre processus après votre ouverture. Veuillez actualiser pour voir la dernière version mise à jour
   unsupportedExportFormat: format d'export non supporté
   unsupportedImportFormat: format d'import non supporté
   importMissingNamespace: l'import source ne contient pas de définition de namespace

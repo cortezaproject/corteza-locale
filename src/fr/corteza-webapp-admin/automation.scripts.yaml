@@ -13,4 +13,5 @@ list:
     iterator: Itérateur
     security: Sécurité
     triggers: Déclencheurs
+  labelMissing: <label missing>
   title: Scripts Corredor

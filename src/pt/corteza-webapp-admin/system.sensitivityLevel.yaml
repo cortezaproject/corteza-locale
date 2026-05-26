@@ -1,10 +1,17 @@
 editor:
+  new: Novo nível de sigilo
+  title:
+    create: Criar nível de sigilo
+    edit: Editar nível de sigilo
   info:
+    title: Informação básica
     handle:
       label: Identificador
       placeholder: identificador (a - z, 0 - 9, sublinha, hífen)
+      invalid-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
     name: Nome *
     description: Descrição
+    level: Nível {{level}}
     createdAt: Criado em
     createdBy: Criado por
     delete: Excluir
@@ -12,15 +19,22 @@ editor:
     undelete: Recuperar
     updatedAt: Atualizado em
 list:
+  title: Níveis de sigilo
+  loading: Carregando níveis de sigilo
+  new: Novo nível de sigilo
   columns:
     'meta.name': Nome
+    level: Nível
     createdAt: Criado
+    state: Estado
   delete: Excluir
   undelete: Recuperar
   rows:
     filters:
       deleted: Excluído
   filterForm:
+    deleted:
+      label: deletado níveis de sigilos
     excluded:
       label: Sem
     exclusive:

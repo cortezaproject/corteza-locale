@@ -1,6 +1,7 @@
 editor:
   external-auth-providers:
     label: Rótulo
+    title: Gerenciar provedores de autenticação externos
     type: Tipo
   info:
     confirmEmail: Confirme o endereço de e-mail
@@ -12,6 +13,7 @@ editor:
     email: E-mail *
     handle: Identificador
     placeholder-handle: identificador (a - z, 0 - 9, sublinhado, hífen)
+    invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
     name: Nome completo
     revokeAllSession: Revogar todas as sessões ativas
     suspend: Suspender
@@ -20,10 +22,21 @@ editor:
     undelete: Recuperar
     unsuspend: Cancelar suspensão
     updatedAt: Atualizado em
+    userGroup:
+      label: Grupo de usuário
+      placeholder: Grupo de usuário
   avatar:
+    title: Avatar de perfil
+    preview:
+      label: Avatar
+      title: Avatar
     initial:
       color: Cor do texto
       backgroundColor: Cor de fundo
+    uploader:
+      instructions: Enviar avatar
+      uploading: Enviando avatar de usuário
+    colorPicker: Escolha uma cor
   mfa:
     TOTP:
       disabled:
@@ -35,9 +48,18 @@ editor:
     emailOTP:
       disable:
         label: Desabilitar
+      disabled:
+        text: |-
+          OTP por email está desabilitado para este usuário.
+          Email com código de segurança para cada login não será enviado
       enable:
         label: Habilitar
+      enabled:
+        text: |-
+          OTP por email está ativado para este usuário.
+          Usuário receberá um email com código de segurança para cada login realizado
     title: Autenticação multifator
+  new: Novo usuário
   password:
     confirm: Confirme a Senha
     length: As senhas devem ter pelo menos {{length}} caracteres!
@@ -62,10 +84,12 @@ list:
     enabled: Habilitado
     handle: Identificador
     name: Nome
+    state: Estado
   suspend: Suspender
   unsuspend: Cancelar suspensão
   delete: Excluir
   undelete: Recuperar
+  revokeActiveSession: Revogar Sessão
   export: Exportar
   rows:
     filters:
@@ -86,11 +110,18 @@ list:
     suspended:
       label: usuários suspensos
   loading: Carregando usuários
+  new: Novo usuário
   permissions: Permissões
   title: Comercial
   yaml: YAML
 export:
   buttonLabel: Exportar
+  title: Exportar usuários
+  inclRoleMembership: Incluir associação de função 
+  inclRoles: Incluir funções
+  membershipRequiredLabel: As funções só podem ser exportadas quando a associação à função estiver selecionada
   export: Exportar
 import:
   buttonLabel: Importar
+  title: Importar usuários
+  uploadFilePlaceholder: Clique ou solte os arquivos aqui para importar

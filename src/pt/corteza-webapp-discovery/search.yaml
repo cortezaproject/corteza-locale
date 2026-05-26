@@ -1,4 +1,8 @@
+notification:
+  search-error: Houve um problema ao obter os resultados da busca
+input-placeholder: Digite o termo de pesquisa
 card:
+  button-text: Mostrar mais
   type: Tipo
   handle: Identificador
   namespace: Namespace
@@ -6,3 +10,11 @@ card:
   user: Do utilizador
   email: E-mail
   record: Registro
+  fields: Campos
+range: Exibindo {{actual}} de {{all}} resultados
+discovering: Descobrindo
+no-results: Sem resultados
+show-more: Mostrar mais
+loading-more: Carregar mais
+show-map: Mostrar mapa
+hide-map: Esconder mapa

@@ -10,13 +10,19 @@ chart:
     general: Em geral
     label-column: Coluna de rótulo
     logarithmic-scale: Escala logarítmica
+    position-description: Os valores podem ser definidos como pixels (20) ou como porcentagens (20%)
     none: Nenhum
     place-axis-on-right-side: Coloque o eixo no lado direito
     skip-missing-values: Pular valores ausentes
     step-size: Tamanho do passo
+    animation:
+      enabled: Animação ativada
     metrics:
       label: Métricas
       field: Campo
+      stack:
+        label: Pilha
+        description: As métricas com o mesmo valor serão empilhadas
       label-field:
         label: Rótulo
     time:
@@ -43,26 +49,45 @@ chart:
       name: Eixo X
       label: Etiqueta do eixo
       type: Tipo de eixo
+      labelRotation:
+        label: Girar rótulos
     y-axis:
       name: Eixo Y
       label: Etiqueta do eixo
       labelPosition:
+        label: Posição da etiqueta
         top: Topo
+        center: Centro
         bottom: Inferior
+      labelRotation:
+        label: Girar rótulos
     legend:
+      name: Lenda
+      hide: Ocultar legenda
+      scrollable: Rolável
       orientation:
+        label: Orientação
         horizontal: Horizontal
         vertical: Vertical
       align:
+        label: Alinhar
         left: Deixou
         right: Certo
+        center: Centro
       position:
+        description: Valores c
+        default: Posição padrão
         top: Topo
         right: Certo
         bottom: Inferior
         left: Deixou
+    tooltips:
+      name: Dicas de ferramentas
+      show:
+        always: Sempre mostrar rótulos
     offset:
       name: Desvio
+      default: Deslocamento padrão
       top: Topo
       right: Certo
       bottom: Inferior
@@ -72,6 +97,7 @@ metric:
     color:
       background: Cor de fundo
       text: Cor do texto
+      picker: Escolha uma cor
     format: Formato
     label-column: Coluna de rótulo
     none: Nenhum

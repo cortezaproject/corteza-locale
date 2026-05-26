@@ -19,6 +19,12 @@ general:
 list:
   load:
     error: Falha ao buscar fluxos de trabalho
+  enable:
+    success: Fluxo de trabalho ativado
+    failed: Falha ao ativar o fluxo de trabalho
+  disable:
+    success: Fluxo de trabalho desativado
+    failed: Falha ao desativar o fluxo de trabalho
 import:
   'failed-import': Falha ao importar
   'imported-workflows': Fluxos de trabalho importados
@@ -36,8 +42,10 @@ import:
 'workflow-test-completed': Teste de fluxo de trabalho concluído
 update:
   success: Fluxo de trabalho atualizado
+  failed: Falha ao atualizar o fluxo de trabalho
 delete:
   success: Fluxo de trabalho excluído
   failed: Falha ao excluir fluxo de trabalho
 undelete:
   success: Fluxo de trabalho restaurado
+  failed: Falha ao restaurar o fluxo de trabalho

@@ -1,6 +1,11 @@
 editor:
+  title: Paramètres Compose
   basic:
     attachments:
+      max-size: Taille maximale (Mo)
+      page: Pièces jointes de page
+      record: Pièces jointes d'élément
+      icon: Pièces jointes d'icônes
       type:
         description: 'Types MIME, séparés par des virgules (","). Exemple : "text/plain,text/csv"'
         whitelist: Liste des types de fichiers en liste blanche
@@ -9,3 +14,13 @@ editor:
     title: Interface utilisateur
     sidebar:
       title: Barre latérale
+      hide-namespace-list: Cacher la liste des namespaces
+      hide-namespace-list-link: Cacher lien vers la liste des namespaces
+    record-toolbar:
+      title: Barre à outil d'élément
+      hide-submit: Cacher le bouton d'envoi
+      hide-delete: Cacher le bouton de suppression
+      hide-edit: Cacher bouton d'édition
+      hide-new: Cacher bouton de création
+      hide-clone: Cacher bouton de duplication
+      hide-back: Cacher le lien de retour

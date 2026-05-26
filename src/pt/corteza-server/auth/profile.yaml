@@ -3,6 +3,8 @@ template:
   form:
     email:
       label: E-mail
+      placeholder: email@domain.tld
+      resend-confirmation-link: O e-mail não foi verificado. <a data-test-id="link-resend-confirmation" href="{{link}}?resend">reenviar link de confirmação.</a>
     name:
       label: Nome completo
       placeholder: Seu nome completo
@@ -10,7 +12,13 @@ template:
       label: Tratamento
       placeholder: Nome, apelido ou tratamento
     avatar:
+      label: Avatar
       delete: Excluir
+      upload: Carregar avatar
+    avatar-initial:
+      label: Avatar inicial
+      color: Cor do texto do avatar
+      background-color: Cor de fundo do avatar
     preferred-language:
       label: Idioma preferencial
     buttons:
@@ -18,3 +26,5 @@ template:
 alerts:
   profile-updated: Perfil atualizado com sucesso
   profile-update-fail: Não foi possível atualizar o perfil devido a erros no preenchimento
+  profile-avatar-uploaded: Avatar do perfil carregado com sucesso
+  profile-avatar-deleted: Avatar do perfil excluído com sucesso

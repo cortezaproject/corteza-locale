@@ -15,3 +15,5 @@ errors:
   notAllowedToUndelete: não é permitido recuperar este módulo
   notAllowedToUpdate: não é permitido atualizar este módulo
   notFound: módulo não existe
+  staleData: O módulo foi modificado por outra pessoa ou por um fluxo de trabalho depois que você o abriu. Atualize a página para ver a versão mais recente
+  dedupConfigurationInvalidMissingConstraint: restrições ausentes na configuração de deduplicação

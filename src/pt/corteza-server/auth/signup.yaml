@@ -3,6 +3,7 @@ template:
   form:
     email:
       label: E-mail
+      placeholder: email@domain.tld
     password:
       label: Senha
       placeholder: Senha
@@ -14,7 +15,9 @@ template:
       placeholder: Nome, apelido ou identificador
     button:
       sign-up: Enviar
+  log-in: Já possui uma conta? <a data-test-id="link-login" href="{{link}}">Entrar</a>
 alerts:
   signup-successful: Registro efetuado com sucesso
+  email-confirmed-logged-in: Endereço de email confirmado, você agora está logado.
   invalid-expired-token: Código de confirmação de email expirado ou inválido. Por favor, solicite o envio de uma nova confirmação.
   signup-disabled: Registro desabilitado

@@ -1,0 +1,72 @@
+editor:
+  info:
+    id: ID
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    placeholder-handle: identificador único (a — z, 0 – 9, sublinhado, hífen)
+    handle: Identificador
+    invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
+    meta.short: Nome *
+    meta.description: Descrição
+    title: Informação básica
+    undelete: Recuperar
+    updatedAt: Atualizado em
+    parents:
+      title: Este grupo de usuário reporta a
+      parent:
+        label: Grupo de usuário pai
+        placeholder: Selecione o grupo de usuário pai
+      name:
+        label: Nome do relacionamento
+        placeholder: Insira o nome do relacionamento
+  new: Novo grupo de usuário
+  permissions: Permissões
+  members:
+    title: Membros do grupo de usuários
+  roles:
+    add: Adicionar
+    count: papéis
+    remove: Remover
+    title: Associação da função
+    unnamed: Função sem nome
+  title:
+    create: Criar grupo de usuário
+    edit: Editar grupo de usuário
+list:
+  columns:
+    createdAt: Criado
+    handle: Identificador
+    meta:
+      short: Nome
+  delete: Excluir
+  undelete: Recuperar
+  export: Exportar
+  rows:
+    filters:
+      deleted: Excluído
+  filterForm:
+    deleted:
+      label: usuários excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+    query:
+      label: Filtrar lista de grupos de usuário
+      placeholder: Filtrar grupos de usuário por identificador
+  loading: Carregando grupos de usuários
+  new: Novo grupo de usuário
+  permissions: Permissões
+  title: Grupos de usuários
+export:
+  buttonLabel: Exportar
+  title: Exportar grupos de usuários
+  export: Exportar
+import:
+  buttonLabel: Importar
+  title: Importar grupos de usuários
+  uploadFilePlaceholder: Clique ou solte os arquivos aqui para importar

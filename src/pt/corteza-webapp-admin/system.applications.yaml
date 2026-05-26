@@ -10,6 +10,7 @@ editor:
     title: Informação básica
     undelete: Recuperar
     updatedAt: Atualizado em
+  new: Nova aplicação
   permissions: Permissões
   title:
     create: Criar aplicativo
@@ -38,6 +39,7 @@ list:
     enabled: Habilitado
     name: Nome
     appListName: Nome do seletor de aplicativos
+    state: Estado
   export: Exportar
   rows:
     filters:
@@ -55,6 +57,7 @@ list:
       label: Filtrar lista de aplicativos
       placeholder: Filtrar aplicativos por nome
   loading: Carregando aplicativos
+  new: Nova aplicação
   permissions: Permissões
   title: Formulários
   yaml: YAML

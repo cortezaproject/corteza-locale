@@ -1,5 +1,6 @@
 title: Filtro
 types:
+  title: Tipos
   namespace: Namespace
   module: Módulo
   user: Do utilizador

@@ -1,4 +1,9 @@
 errors:
+  composeModuleNotFound: module "compose" introuvable
+  composeNamespaceNotFound: namespace "compose" introuvable
   invalidID: ID invalide
   nodeNotFound: ce nœud n'existe pas
+  notAllowedToCreate: non autorisé à créer des modules
+  notAllowedToManage: non autorisé à gérer ce module
   notFound: ce module n'existe pas
+  notUnique: le nœud n'est pas unique

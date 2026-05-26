@@ -1,10 +1,27 @@
+title: Console de confidentialité des données
+connection-location: Localisation de la connexion
+description:
+  second: Ces actions sont soumises à la validation du responsable du traitement des données de votre organisation
 user-options:
   data-overview:
+    title: Aperçu des données
+    description: Vérifiez les informations de votre profil et vos données personnelles stockées dans les applications Corteza
     button-label: Afficher vos données
   privacy-requests:
     title: Requêtes de confidentialité
+    button-label: Vos demandes de confidentialité
+  export:
+    title: Export de données
+    button-label: Demander export de données
+  delete:
+    title: Suppression de données
+    description: Demander la suppression de vos données personnelles sélectionnées du système
+    button-label: Demander suppression de données
 dc-options:
   privacy-requests:
     title: Requêtes de confidentialité
+    button-label: Demandes de confidentialité entrantes
   sensitive-data:
     title: Donnée sensible
+    description: Aperçu de tous les modules contenant des champs de données sensibles
+    button-label: Liste de données sensibles

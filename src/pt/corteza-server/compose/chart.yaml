@@ -13,3 +13,4 @@ errors:
   notAllowedToUndelete: não é permitido recuperar este gráfico
   notAllowedToUpdate: não é permitido atualizar este gráfico
   notFound: gráfico não existe
+  staleData: O gráfico foi modificado por outra pessoa ou por um fluxo de trabalho depois que você o abriu. Atualize a página para ver a versão mais recente

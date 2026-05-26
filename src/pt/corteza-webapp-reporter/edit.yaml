@@ -1,9 +1,11 @@
 description: Descrição
 handle-with-star: Identificador
+invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
 name: Nome
 name-with-star: 'Nome*'
 new-report: Novo relatório
 permissions: Permissões
+unsavedChanges: As alterações não salvas serão perdidas. Deseja sair da página?
 report:
   create: Criar relatório
   builder: Criador de relatórios
@@ -11,3 +13,5 @@ report:
   edit: Editar relatório
 placeholder-handle: identificador (a - z, 0 - 9, sublinha, hífen)
 title: Editar relatório
+tooltip:
+  view-report: Ver relatório

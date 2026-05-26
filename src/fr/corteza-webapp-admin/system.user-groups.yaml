@@ -13,6 +13,14 @@ editor:
     title: Information de base
     undelete: Annuler suppression
     updatedAt: Mis à jour à
+    parents:
+      title: Ce groupe d'utilisateurs relève de
+      parent:
+        label: Groupe d'utilisateurs parent
+        placeholder: Sélectionnez le groupe d'utilisateurs parent
+      name:
+        label: Nom de la relation
+        placeholder: Entrez un nom pour la relation
   new: Nouveau groupe d'utilisateurs
   permissions: Permissions
   members:
@@ -46,6 +54,10 @@ list:
       label: Uniquement
     inclusive:
       label: Comprenant
+    query:
+      label: Filtrer la liste de groupes d'utilisateurs
+      placeholder: Filtrez la liste de groupes d'utilisateurs par l'identifiant
+  loading: Chargement des groupes d'utilisateurs
   new: Nouveau groupe d'utilisateurs
   permissions: Permissions
   title: Groupes d'utilisateurs

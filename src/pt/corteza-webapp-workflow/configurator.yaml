@@ -2,12 +2,22 @@ configuration: Configuração
 edge: Borda
 name:
   label: Nome *
+  placeholder: Nome do fluxo de trabalho
 handle:
   label: Identificador
   placeholder: identificador (a - z, 0 - 9, sublinha, hífen)
+  invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
 description:
   label: Descrição
+  placeholder: Descreva o que este fluxo de trabalho faz
 target: Alvo
+tooltip:
+  run-workflow: Executar fluxo de trabalho
+  configure-step: Configurar passo
 run-as:
   label: Correr como
+  placeholder: Usuário que irá executar este fluxo de trabalho
   description: Quando não definido explicitamente, o fluxo de trabalho será executado pelo usuário que o invocou
+sub-workflow:
+  label: Sub fluxo de trabalho
+  description: Sub fluxos de trabalhos não pode haver gatilhos

@@ -9,4 +9,5 @@ errors:
   notAllowedToRead: não é permitido ler esta rota
   notAllowedToUndelete: não é permitido recuperar esta rota
   notAllowedToUpdate: não tem permissão para atualizar esta rota
+  notAllowedToSearch: não é permitido listar ou pesquisar rotas
   notFound: rota não encontrada

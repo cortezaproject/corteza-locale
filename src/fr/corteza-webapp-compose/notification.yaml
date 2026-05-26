@@ -143,6 +143,7 @@ page:
       failed: Échec de la suppression de disposition de page
     listFailed: Impossible de charger les dispositions de page
 record:
+  uploadFailed: Impossible de téléverser le fichier
   createFailed: Impossible de créer l'élément
   createSuccess: Élément créé
   updateFailed: Impossible de mettre à jour l'élément

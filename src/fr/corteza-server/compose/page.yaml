@@ -14,3 +14,4 @@ errors:
   notAllowedToUndelete: non autorisé à annuler la suppression de cette page
   notAllowedToUpdate: non autorisé à mettre à jour cette page
   notFound: cette page n'existe pas
+  staleData: la page a été modifiée par quelqu'un d'autre ou par un autre processus après votre ouverture. Veuillez actualiser pour voir la dernière version mise à jour

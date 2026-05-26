@@ -2,6 +2,7 @@ general:
   label:
     attachmentFileInfo: '(Tamanho do arquivo {{0}}, enviado {{1}})'
     download: Download
+    previewUnavailable: Pré-visualização indisponível
   tooltip:
     dragAndDrop: Arraste e solte para alterar a ordem
 pdf:

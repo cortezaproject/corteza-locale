@@ -1,9 +1,10 @@
+'auto-initialize-empty-variable': Les variables ne pouvant être chargées seront initialisées vides
 back: Retour
 'click-to-save': Cliquez ici pour enregistrer
 deferred: Différé
 delete: Supprimer
 deleted: Supprimé
-'detected-changes': "Changements détectés"
+'detected-changes': "Changements détectés "
 'detected-issues': Problèmes détectés
 disabled: Désactivé
 help: Aide
@@ -11,8 +12,10 @@ handle: (Identifiant)
 id: "ID :"
 'id-parenthesis': "(ID)"
 'initial-scope': Périmètre initial
+'input-ids-or-handles': Le périmètre initial est injecté dans le processus lors de l'exécution. Pour charger les variables disponibles, saisissez les ID ou identifiants ci-dessous
 issues: Problèmes
 'load-and-configure': Charger et configurer
+'modify-initial-scope-if-no-variables-are-loaded': Si vous ne souhaitez pas charger des variables, cliquez sur "Configurer" pour modifier le périmètre initial avant de lancer le processus
 'open-webapp-on-prompt-use': "ATTENTION : Si une sollicitation est utilisée dans un processus, assurez-vous que l'application concernée est ouverte. Dans le cas contraire, le processus expirera"
 reset: Réinitialiser
 'run-as': "Exécuter en tant que :"
@@ -21,6 +24,7 @@ reset: Réinitialiser
 'required-namespace-and-module': Namespace et Module nécessaires
 save: Enregistrer
 saving: Enregistrement
+spinning: Tournant
 'test-in-progress': "Test en cours. Si votre processus comporte des étapes de sollicitation ou de délai, il peut être en attente de leur achèvement"
 'unsupported-browser': Ce navigateur n'est pas supporté !
 undelete: Annuler suppression

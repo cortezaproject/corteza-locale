@@ -2,6 +2,10 @@ general:
   error: Erro
   success: Sucesso
   warning: Aviso
+search:
+  failed: A pesquisa falhou
 list:
   load:
     error: Falha ao carregar a lista de recursos
+connection-load-failed: Falha ao carregar conexões
+sensitive-data-fetch-failed: Falhou ao buscar dados sensíveis

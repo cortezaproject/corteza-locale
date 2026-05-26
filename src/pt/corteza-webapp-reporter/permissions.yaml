@@ -4,15 +4,29 @@ ui:
   set-for: Definir permissões para {{target}}
   loading: Carregando permissões
   label: Permissões
+  notification:
+    save:
+      success: Permissões salvas
+      failed: Falha ao salvar permissões
   edit:
     label: Funções do usuário
+    description: Selecione a função para definir as permissões
+  evaluate:
+    description: Avaliar permissões aplicadas
   add:
     label: Adicionar
+    title: Avaliar permissões
     save: Salvar fechar
     role:
       label: Funções
+      placeholder: Selecione a(s) função(ões)
     user:
       label: Comercial
+      placeholder: Pesquise ou selecione um usuário
+  tooltip:
+    unknown-context:
+      user: Não é possível avaliar a permissão para um usuário com função contextual em um recurso não específico
+      role: Não é possível avaliar a permissão para função contextual em um recurso não específico
   access:
     allow: Permitir
     inherit: Herdar
@@ -22,6 +36,7 @@ resources:
     report:
       all: todos os relatórios
       specific: relatório "{{target}}"
+      tooltip: Permissões de relatório
       operations:
         delete:
           specific: Excluir relatório "{{target}}"

@@ -23,6 +23,7 @@ reset: Redefinir
 'required-namespace': Namespace obrigatório
 'required-namespace-and-module': Namespace e módulo necessários
 save: Salvar
+saving: Salvando
 spinning: Fiação
 'test-in-progress': "Teste em andamento. Se seu fluxo de trabalho inclui etapas de prompt ou atraso, pode estar aguardando a conclusão delas"
 'unsupported-browser': O navegador não é suportado!

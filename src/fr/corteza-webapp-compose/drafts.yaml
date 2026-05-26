@@ -1,0 +1,19 @@
+title: Brouillons
+single: Brouillon
+plural: Brouillons
+empty: Aucun brouillon trouvé
+saved: Le brouillon a été enregistré
+deleted: Le brouillon a été supprimé
+allDeleted: Tous les brouillons ont été supprimés
+deleteError: Erreur lors de la suppression du brouillon
+activeDraft: Ceci est un brouillon - L'élément n'a pas été enregistré
+openRecord: Ouvrir élément
+deleteDraft: Supprimer Brouillon
+saveAsNewDraft: Dupliquer Brouillon
+applyDraft: Appliquer brouillon à l'élément
+viewRecord: Afficher Élément
+deleteAllDrafts: Supprimer tous les brouillons
+newestFirst: Plus récent en premier
+oldestFirst: Plus ancien en premier
+count_one: "{{count}} brouillon"
+count_other: "{{count}} brouillons"

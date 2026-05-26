@@ -1,8 +1,19 @@
 federated: Federado
+no-values: Sem valores
 label:
   all: Todo
+resourceList:
+  pagination:
+    recordsPerPage: Por página
 themes:
   labels:
     light: Luz
     dark: Escuro
+extendSession:
+  labels:
+    extend: Estender Sessão
+    warning: Você será desconectado em {{ countdownTime }} segundos
+recordID: ID do registro
+createdBy: Criado Por
 createdAt: Criado em
+updatedAt: Atualizado em

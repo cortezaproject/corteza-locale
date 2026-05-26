@@ -27,6 +27,7 @@ automation:
           placeholder: Opérateur
           regex: Expression régulière
           user: Utilisateur existant
+      tabLabel: Déclencheurs courriel
     nameLabel: Nom
     namePlaceholder: Nom du script d'automatisation
     runAsCurrentUser: Exécuter en tant que "{{ user }}"
@@ -46,12 +47,15 @@ automation:
         runAs: Exécuter en tant que
         runInUA: Dans le navigateur
     unnamed: (Script sans nom)
+  manage-id-permissions: Gérer les permissions pour ce script
+  manage-wc-permissions: Gérer les permissions pour tous les scripts
   newPlaceholder: Nom du script
   testing:
     load: Charger
     resultsHeadline: 'Résultats :'
     testInBrowser: Tester dans Navigateur
     testInCorredor: Tester dans Corredor
+  title: Liste de scripts d'automatisme
 general:
   notFound: 'Introuvable'
   loading: Chargement

@@ -1,6 +1,11 @@
 editor:
   title: Configurações da interface do usuário
   corteza-studio:
+    title: Tema
+    colorPicker: Escolha uma cor
+    sassNotInstalled: Nenhum binário dart-sass foi detectado. Para obter instruções sobre como configurá-lo, consulte
+    installSassDocs: documentação aqui
+    custom-css: CSS customizado
     mainLogo:
       title: Logotipo principal
       uploader:
@@ -19,24 +24,78 @@ editor:
       dark: Escuro
     theme:
       variables:
+        white:
+          label: Branco
+          description: Cor de fundo do elemento
+        black:
+          label: Preto
+          description: Cor de texto do elemento
         primary:
           label: Primário
+          description: Botões de ação principais, links
         secondary:
           label: Secundário
+          description: Cor do texto desativado e de espaço reservado
         success:
           label: Sucesso
+          description: Cor de notificação de sucesso
         warning:
           label: Aviso
+          description: Cor de notificação de aviso
         danger:
           label: Perigo
+          description: Cor de notificação de erro
         light:
           label: Luz
+          description: Botões de ação secundários, cabeçalhos de tabela
+        extra-light:
+          label: Extra leve
+          description: Botões de ícones, bordas
+        body-bg:
+          label: Fundo do corpo
+          description: Cor de fundo do aplicativo
+        sidebar-bg:
+          label: Fundo da barra lateral
+          description: Cor de fundo da barra lateral
+        topbar-bg:
+          label: Fundo da barra superior
+          description: Cor de fundo da barra superior
   topbar:
+    title: Barra superior
     general: Em geral
+    app-selector:
+      hide: Ocultar seletor de aplicativos
     help:
       title: Ajuda
+      hide: Esconder ajuda
+      hide-forum-link: Esconder link do fórum
+      hide-documentation-link: Esconder link da documentação
+      hide-feedback-link: Esconder link de feedback
     profile:
       title: Perfil
+      hide: Esconder perfil
+      hide-profile-link: Esconder link de perfil
+      hide-change-password-link: Esconder link para alterar senha
+      hide-theme-selector: Esconder seletor de temas
+    notifications:
+      hide: Esconder notificações
     links:
+      title: Links customizados
       handle: Nome
+      invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
       url: URL
+      new-tab: Nova aba
+  theming:
+    title: Tema
+  navigation:
+    title: Navegação
+  location:
+    title: Localização
+    geosearch:
+      title: Pesquisa geográfica
+      provider:
+        label: Provedor
+        description: Selecione o provedor a ser usado para pesquisa de localização nos mapas
+      apiKey:
+        label: Chave da API
+        placeholder: Insira sua chave da API

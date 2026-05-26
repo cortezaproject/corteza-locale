@@ -7,3 +7,4 @@ errors:
   notAllowedToMap: não permitido mapear este módulo
   notFound: módulo não existe
   notUnique: nó não único
+  staleData: o módulo foi modificado por outra pessoa ou por um fluxo de trabalho após você tê-lo aberto. Atualize a página para ver a versão mais recente

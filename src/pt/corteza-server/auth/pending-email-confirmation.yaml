@@ -1,3 +1,4 @@
 template:
   title: Confirme seu e-mail
   instructions: Você receberá um link para confirmação de e-mail em sua caixa em instantes
+  links: <a data-test-id="link-signup" href="{{signup}}">Criar nova conta</a> ou <a data-test-id="link-login" href="{{login}}">Entrar</a>

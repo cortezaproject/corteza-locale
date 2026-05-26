@@ -1,3 +1,12 @@
 errors:
+  notFound: connexion introuvable
   invalidID: ID invalide
   invalidEndpoint: point de terminaison invalide
+  existsEndpoint: une connexion à ce DSN existe déjà
+  notAllowedToCreate: non autorisé à créer une connexion
+  notAllowedToRead: non autorisé à lire cette connexion
+  notAllowedToSearch: non autorisé à lister ou rechercher des connexions
+  notAllowedToUpdate: non autorisé à mettre à jour cette connexion
+  notAllowedToDelete: non autorisé à supprimer cette connexion
+  notAllowedToUndelete: non autorisé à annuler la suppression de cette connexion
+  notAllowedToExec: non autorisé à exécuter cette connexion

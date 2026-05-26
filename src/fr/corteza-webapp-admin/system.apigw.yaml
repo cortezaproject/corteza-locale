@@ -6,6 +6,7 @@ list:
   permissions: Permissions
   profiler: Profileur
   yaml: YAML
+  loading: Chargement des routes
   filterForm:
     query:
       label: Filtrer liste de route
@@ -20,6 +21,7 @@ list:
   delete: Supprimer
   undelete: Annuler suppression
   columns:
+    endpoint: Point de terminaison
     createdAt: Créé
     enabled: Activé
     method: Méthode
@@ -39,6 +41,7 @@ editor:
   info:
     title: Information de base
     id: ID
+    endpoint: Point de terminaison
     method: Méthode
     description: Description
     enabled: Activé
@@ -67,6 +70,7 @@ editor:
       status: Statut
       actions: Actions
       active: Actif
+      noFilters: Aucun filtre
     labels:
       expr: Expression
       location: URL
@@ -82,6 +86,8 @@ editor:
       '302': 302 - Trouvé
       '303': 303 - Chercher ailleurs
       '304': 304 - Non-modifié
+      '307': 307 - Redirection temporaire
+      '308': 308 - Redirection permanente
     placeholders:
       workflow: Sélectionnez un processus
     help:
@@ -108,4 +114,7 @@ profiler:
     count: Compte
     http_method: Méthode
     http_status_code: Code d'état
+    size_min: Taille (min)
+    size_max: Taille (max)
+    size_avg: Taille (moy)
     time_duration: Durée

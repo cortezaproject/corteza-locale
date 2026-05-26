@@ -1,6 +1,7 @@
 editor:
   external-auth-providers:
     label: Étiquette
+    title: Gérer les fournisseurs d'authentification externes
     type: Type
   info:
     confirmEmail: Confirmer courriel
@@ -25,6 +26,7 @@ editor:
       label: Groupe d'utilisateurs
       placeholder: Groupe d'utilisateurs
   avatar:
+    title: Avatar de profil
     preview:
       label: Avatar
       title: Avatar
@@ -59,6 +61,7 @@ editor:
   new: Nouvel utilisateur
   password:
     confirm: Confirmer mot de passe
+    length: Le mot de passe doit contenir au moins {{length}} caractères !
     missmatch: Le mot de passe doit correspondre
     new: Nouveau mot de passe
     title: Mot de passe
@@ -97,16 +100,22 @@ list:
       label: Uniquement
     inclusive:
       label: Comprenant
+    query:
+      label: Filtrer liste d'utilisateurs
+      placeholder: Filtrer les utilisateurs par nom ou courriel
     suspended:
       label: utilisateurs désactivés
+  loading: Chargement des utilisateurs
   new: Nouvel utilisateur
   permissions: Permissions
   title: Utilisateurs
   yaml: YAML
 export:
   buttonLabel: Exporter
+  title: Export des utilisateurs
   inclRoles: Comprenant les rôles
   export: Exporter
 import:
   buttonLabel: Importer
+  title: Import des utilisateurs
   uploadFilePlaceholder: Cliquez ou déposez ici des fichiers pour importer

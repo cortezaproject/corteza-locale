@@ -11,6 +11,7 @@ roles:
   total: Total
 title: Painel
 users:
+  created: Usuário(s) criados
   deleted: Excluído
   suspended: Suspenso
   title: Usuários ativos

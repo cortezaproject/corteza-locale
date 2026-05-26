@@ -8,12 +8,14 @@ editor:
     dispatch_events: Eventos de despacho
     dispatch_events_desc: Os eventos de despacho notificam o eventbus sobre as alterações nas mensagens da fila (novas, processadas, ...)
     name: Nome da fila *
+    invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
     poll_delay: Atraso nas alterações de sondagem
     poll_delay_empty: 'O atraso da votação não será usado; para ativar, use o formato de duração (ou seja, 1h / 1m15s / 1h90s)'
     poll_delay_set: O atraso da votação será usado; se estiver vazio, não será usado.
     title: Informação básica
     undelete: Recuperar
     updatedAt: Atualizado em
+  new: Nova fila
   title:
     edit: Editar fila
     new: Adicionar uma fila
@@ -22,6 +24,7 @@ list:
     consumer: Consumidor
     createdAt: Criado em
     createdBy: Criado por
+    state: Estado
     queue: Fila
   export: Exportar
   delete: Excluir
@@ -42,4 +45,5 @@ list:
     inclusive:
       label: Incluindo
   loading: Carregando filas de mensagens
+  new: Nova fila
   title: Filas de mensagens

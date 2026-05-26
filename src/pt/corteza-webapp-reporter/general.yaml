@@ -1,31 +1,46 @@
 label:
   add: Adicionar
+  and: E
   all: Todo
   ascending: Crescente
   back: Voltar
+  clear: Limpar
   cancel: Cancelar
   delete: Excluir
   descending: Decrescente
   loading: Carregando
   name: Nome
   none: Nenhum
+  now: Agora
   ok: OK
   or: Ou
+  openLinkInNewTab: Abrir link em uma nova aba
   save: Salvar
   saveAndClose: Salvar e fechar
+  clone: Salvar como cópia
   today: Hoje
   urlPlaceholder: https://exemplo.tld
   default: Predefinição
   report:
+    single: Relatório
     plural: Relatórios
 resourceList:
   notFound: Não encontrado
+  noItems: Nenhum item para exibir
   pagination:
     next: Próximo
     prev: Anterior
+    showing: '{{from}} - {{to}} de {{count}} {{data}}'
+    single_one: 'Um {{data}}'
+    single_other: '{{count}} {{data}}'
+    recordsPerPage: Por página
   clone: Clonar
 themes:
   labels:
     light: Luz
     dark: Escuro
 cloneSuffix: cópia de
+extendSession:
+  labels:
+    extend: Estender Sessão
+    warning: Você será desconectado em {{ countdownTime }} segundos

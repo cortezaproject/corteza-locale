@@ -82,6 +82,9 @@ kind:
     prefixPlaceholder: Préfixe
     suffixLabel: Suffixe
     suffixPlaceholder: Suffixe
+    step:
+      label: Pas
+      description: Définissez le pas du champ numérique
     displayType:
       label: Type d'affichage
       number: Nombre
@@ -263,7 +266,7 @@ validators:
     placeholder: Texte affiché quand l'expression est vrai
     tooltip: Texte d'avertissement
   expression:
-    placeholder: valeur == ""
+    placeholder: value == ""
     tooltip: Expression
   label: Validation de valeur
 valueExpr:

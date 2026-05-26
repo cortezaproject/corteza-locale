@@ -14,12 +14,15 @@ editor:
     status: Status
     title: Informação básica
     workflowID: Código do fluxo de trabalho
+    openWorkflow: Abrir fluxo de trabalho
+    cancel: Cancelar sessão
   title: Sessão
 list:
   columns:
     createdAt: Criado em
     eventType: Tipo de evento
     sessionID: Identificação de sessão
+    state: Estado
     status: Status
     workflowID: Código do fluxo de trabalho
   filterForm:
@@ -45,5 +48,7 @@ list:
       label: Iniciado
     suspended:
       label: Suspenso
+    canceled:
+      label: Cancelado
   loading: Carregando sessões
   title: Sessões

@@ -10,3 +10,5 @@ errors:
   unableToChangeDefaultClientHandle: incapaz de alterar o identificador do cliente de autenticação padrão
   unableToDeleteDefaultClient: incapaz de excluir o cliente de autenticação padrão
   unableToDisableDefaultClient: incapaz de desabilitar o cliente de autenticação padrão
+  unknownGrantType: tipo de concessão desconhecido
+  unknownScope: escopo desconhecido

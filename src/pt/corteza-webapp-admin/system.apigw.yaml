@@ -1,7 +1,10 @@
 title: Gateway de integração
 list:
   export: Exportar
+  title: Rotas
+  new: Nova Rota
   permissions: Permissões
+  profiler: Perfilador
   yaml: YAML
   loading: Carregando rotas
   filterForm:
@@ -16,6 +19,8 @@ list:
       label: Apenas
     deleted:
       label: rotas excluídas
+    handle:
+      placeholder: Filtrar endpoints por caminho
   delete: Excluir
   undelete: Recuperar
   columns:
@@ -23,15 +28,22 @@ list:
     createdAt: Criado
     enabled: Habilitado
     method: Método
+    state: Estado
   rows:
     filters:
       deleted: Excluído
 settings:
   title: Configurações
   profiler:
+    label: Perfilador
     enabled: Habilitado
+    global: Habilitado globalmente
+  proxy:
+    label: Proxy
+    follow: Seguir redirecionamentos
 editor:
   title: Editar rota
+  new: Nova Rota
   permissions: Permissões
   info:
     title: Informação básica
@@ -57,6 +69,7 @@ editor:
     disabled: Desabilitado
     add: Adicionar
     addFilter: Adicionar filtro
+    addHeader: Adicionar cabeçalho
     params: Param
     filterListEmpty: A lista de filtros está vazia!
     modal:
@@ -80,6 +93,7 @@ editor:
       status: Estado HTTP
       jsfunc: Função
       input: Entrada
+      header: Cabeçalhos
       name: Nome
       value: Valor
     httpStatus:
@@ -98,10 +112,46 @@ editor:
         example: Exemplo == "match string" && match(SecondParam, "^foo\\s.*$")
         link: Documentação
 profiler:
+  label: Perfilador
+  title: Perfilador de Gateway de Integração
+  refreshingIn: Atualizando em {{seconds}}s
+  description:
+    globalEnabled: Exibindo rotas para todas as solicitações recebidas
+    globalDisabled: Exibindo apenas rotas registradas com pré-filtro do perfilador
+  purge:
+    all: Remover solicitações para todas as rotas
+    this: Remover solicitações para esta rota
   hit:
+    title: Detalhes da solicitação
     general:
       label: Em geral
       id: Identificação do Pedido
+      route: Rota de solicitação
+      URL: URL da solicitação
+      method: Método da solicitação
+      statusCode: Código de status
+      headers: Cabeçalhos da solicitação
+      remoteAddress: Endereço remoto
+      duration: Duração
+      start: Iniciar
       end: Fim
+      openRoute: Rota aberta
+    headers:
+      label: Cabeçalhos
+    body:
+      label: Corpo
   columns:
+    path: Rota
+    count: Contar
+    content_length: Tamanho do conteúdo
     http_method: Método
+    http_status_code: Código de status
+    size_min: Tamanho (min)
+    size_max: Tamanho (max)
+    size_avg: Tamanho (avg)
+    time_min: Tempo (min)
+    time_max: Tempo (max)
+    time_avg: Tempo (avg)
+    time_start: Tempo de início
+    time_finish: Tempo de término
+    time_duration: Duração
