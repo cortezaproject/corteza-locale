@@ -1,23 +1,23 @@
 template:
-  title: Sign up
+  title: 注册
   form:
     email:
-      label: Email
+      label: 电子邮箱
       placeholder: email@domain.tld
     password:
-      label: Password
-      placeholder: Password
+      label: 密码
+      placeholder: 密码
     name:
-      label: Full name
-      placeholder: Your full name
+      label: 姓名
+      placeholder: 你的全名
     nickname:
-      label: Short name, nickname or handle
-      placeholder: Short name, nickname or handle
+      label: 简称、昵称或网名
+      placeholder: 简称、昵称或网名
     button:
-      sign-up: Submit
-  log-in: Already have an account? <a data-test-id="link-login" href="{{link}}">Log in</a>
+      sign-up: 提交
+  log-in: 已有账户了？<a data-test-id="link-login" href="{{link}}">登录</a>
 alerts:
-  signup-successful: Sign-up successful
-  email-confirmed-logged-in: Email address confirmed, you're now logged-in.
-  invalid-expired-token: Invalid or expired email confirmation token, please resend confirmation request.
-  signup-disabled: Signup disabled
+  signup-successful: 注册成功
+  email-confirmed-logged-in: 邮箱地址已确认，您已登录。
+  invalid-expired-token: 电子邮件确认令牌无效或已过期，请重新发送确认请求。
+  signup-disabled: 注册已停用
