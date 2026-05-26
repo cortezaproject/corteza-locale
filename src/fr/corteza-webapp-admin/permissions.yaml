@@ -21,6 +21,8 @@ ui:
     label: Ajouter
     title: Évaluer permissions
     save: Enregistrer et fermer
+    edit:
+      description: Sélectionnez un rôle pour lequel vous souhaitez éditer les permissions
     role:
       label: Rôles
       placeholder: Sélectionnez rôle(s)
@@ -35,6 +37,9 @@ ui:
     allow: Autoriser
     inherit: Hériter
     deny: Interdire
+  #############################################################################
+  # Inline permission table UI:
+  click-on-cell-to-allow: Cliquez sur les cellules de permissions/rôles pour autoriser une opération spécifique
   edit-or-eval: Éditer ou évaluer permissions
   title:
     automation: Permissions automatisation
@@ -98,8 +103,14 @@ resources:
     component:
       label: Composant système
       operations:
+        action-log.read:
+          title: Accéder aux journaux d'action
         application.create:
           title: Créer une nouvelle application
+        application.flag.global:
+          title: Peut épingler des applications pour tous
+        application.flag.self:
+          title: Peut épingler des applications pour soi-même
         user-groups.search:
           title: Lister ou rechercher des groupes d'utilisateurs
         user-group.create:
@@ -118,10 +129,16 @@ resources:
           title: Créer un nouveau filtre
         apigw-filters.search:
           title: Lister ou rechercher des filtres
+        grant:
+          title: Affecter des permissions sur les composants système
         queue.create:
           title: Créer une nouvelle file de messages
         queues.search:
           title: Lister et chercher les files de messages
+        reminder.assign:
+          title: Autoriser l'assignation de rappels
+        notification.assign:
+          title: Autoriser l'assignation de notifications
         role.create:
           title: Créer un nouveau rôle
         roles.search:
@@ -140,12 +157,22 @@ resources:
           title: Lister ou rechercher des utilisateurs
         resource-translations.manage:
           title: Gérer les traductions de ressource
+        dal-schema-alterations.manage:
+          title: Gérer les altérations de schéma
         report.create:
           title: Créer un nouveau rapport
         reports.search:
           title: Lister ou rechercher des rapports
+        dal-connections.search:
+          title: Rechercher des connexions
+        dal-connection.create:
+          title: Créer des connexions
         dal-sensitivity-level.manage:
           title: Gérer le niveau de sensibilité d'une connexion
+        data-privacy-requests.search:
+          title: Rechercher les demandes de confidentialité de données
+        data-privacy-request.create:
+          title: Créer des demandes de confidentialité de données
     application:
       label: Applications
       all: toutes les applications
@@ -185,6 +212,8 @@ resources:
       all: tous les clients d'authentification
       specific: client d'authentification "{{target}}"
       operations:
+        authorize:
+          title: Autoriser n'importe quel client
         delete:
           description: 'Défaut : refuser'
           specific: Supprimer client "{{target}}"
@@ -282,6 +311,7 @@ resources:
           title: Lire n'importe quel modèle
         render:
           description: 'Défaut : refuser'
+          title: Générer n'importe quel modèle
         update:
           description: 'Défaut : refuser'
           specific: Mettre à jour "{{target}}"
@@ -321,8 +351,10 @@ resources:
           title: Supprimer n'importe quel utilisateur
         email.unmask:
           description: 'Défaut : refuser'
+          title: Afficher les informations de courriels de tous les utilisateurs
         name.unmask:
           description: 'Défaut : refuser'
+          title: Afficher les noms de tous les utilisateurs
         impersonate:
           description: 'Défaut : refuser'
           specific: Usurper cet utilisateur {{target}}
@@ -458,6 +490,8 @@ resources:
           title: Créer graphiques pour n'importe quel namespace
         charts.search:
           title: Lister et chercher graphiques pour n'importe quel namespace
+        charts.export:
+          title: Exporter graphiques depuis n'importe quel namespace
         delete:
           title: Supprimer n'importe quel namespace
         manage:
@@ -466,6 +500,8 @@ resources:
           title: Créer modules pour n'importe quel namespace
         modules.search:
           title: Lister et chercher modules pour n'importe quel namespace
+        modules.export:
+          title: Exporter modules depuis n'importe quel namespace
         page.create:
           title: Créer pages pour n'importe quel namespace
         pages.search:
