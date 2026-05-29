@@ -7,3 +7,5 @@ errors:
   notAllowedToManage: non autorisé à gérer ce module
   notFound: ce module n'existe pas
   notUnique: le nœud n'est pas unique
+  requestParametersInvalid: paramètres de requête invalide
+  staleData: le module a été modifié par quelqu'un d'autre ou par un processus après que vous l'ayez ouvert. Veuillez actualiser la page pour voir la dernière version mise à jour

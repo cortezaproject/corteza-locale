@@ -1,6 +1,13 @@
 errors:
+  credentialsLinkedToInvalidUser: identifiants {credentials.kind} liés à l'utilisateur {user} qui est désactivé ou supprimé
   disabledMFAWithEmailOTP: l'authentification à multifacteur par courriel est désactivé
   disabledMFAWithTOTP: l'authentification à multifacteur avec TOTP est désactivée
+  enforcedMFAWithEmailOTP: l'OTP par courriel est obligatoire et ne peut pas être désactivé
+  enforcedMFAWithTOTP: le TOTP est obligatoire et ne peut pas être désactivé
+  externalDisabledByConfig: l'authentification externe (en utilisant des fournisseurs d'authentification externes) est désactivée
+  failedUnconfirmedEmail: le système nécessite une confirmation par courriel avant connexion
+  internalLoginDisabledByConfig: la connexion interne (nom d'utilisateur/ mot de passe) est désactivée
+  internalSignupDisabledByConfig: l'inscription interne (nom d'utilisateur/ mot de passe) est désactivée
   invalidCredentials: combinaison de nom d'utilisateur et mot de passe invalide
   invalidEmailFormat: courriel invalide
   invalidEmailOTP: code invalide
@@ -10,5 +17,9 @@ errors:
   notAllowedToConfigureTOTP: non autorisé à configurer le TOTP
   notAllowedToImpersonate: non autorisé à usurper cet utilisateur
   notAllowedToRemoveTOTP: non autorisé à retirer le TOTP
+  passwodResetFailedOldPasswordCheckFailed: échec du changement de mot de passe, l'ancien mot de passe ne correspond pas
+  passwordChangeFailedForUnknownUser: échec du changement de mot de passe pour l'utilisateur inconnu
+  passwordNotSecure: le mot de passe défini n'est assez fort, utilisez un mot de passe plus long avec plus de caractères spéciaux
   passwordResetDisabledByConfig: la réinitialisation du mot de passe est désactivée
+  profileWithoutValidEmail: le fournisseur d'authentification externe a renvoyé un profil sans adresse courriel valide
   unconfiguredTOTP: TOTP non configuré

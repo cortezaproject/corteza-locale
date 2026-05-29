@@ -55,10 +55,6 @@ editor:
     enabled: crwdns172385:0crwdne172385:0
     delete: crwdns172387:0crwdne172387:0
     undelete: crwdns172389:0crwdne172389:0
-    deletedAt: crwdns172391:0crwdne172391:0
-    updatedAt: crwdns172393:0crwdne172393:0
-    createdAt: crwdns172395:0crwdne172395:0
-    createdBy: crwdns172397:0crwdne172397:0
     tooltip: crwdns172399:0crwdne172399:0
     validation:
       slash: crwdns172401:0crwdne172401:0

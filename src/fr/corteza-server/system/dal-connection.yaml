@@ -3,6 +3,7 @@ errors:
   invalidID: ID invalide
   invalidEndpoint: point de terminaison invalide
   existsEndpoint: une connexion à ce DSN existe déjà
+  alreadyExists: une connexion via ce DSN existe déjà
   notAllowedToCreate: non autorisé à créer une connexion
   notAllowedToRead: non autorisé à lire cette connexion
   notAllowedToSearch: non autorisé à lister ou rechercher des connexions

@@ -5,12 +5,8 @@ editor:
       placeholder: Может включать в себя (а - z, 0 - 9, подчеркивание, тире)
     name: Имя *
     description: Описание
-    createdAt: Создан
-    createdBy: Создан
     delete: Удалить
-    deletedAt: Удалить
     undelete: Восстановить
-    updatedAt: Возобновлять
 list:
   columns:
     'meta.name': Имя

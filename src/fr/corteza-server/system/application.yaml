@@ -2,6 +2,8 @@ errors:
   invalidID: ID invalide
   notAllowedToCreate: non autorisé à créer des applications
   notAllowedToDelete: non autorisé à supprimer cette application
+  notAllowedToManageFlag: non autorisé à gérer les indicateurs des applications
+  notAllowedToManageFlagGlobal: non autorisé à gérer les indicateurs globaux des applications
   notAllowedToRead: non autorisé à lire cette application
   notAllowedToSearch: non autorisé pour rechercher ou lister les applications
   notAllowedToUndelete: non autorisé à annuler la suppression de cette application

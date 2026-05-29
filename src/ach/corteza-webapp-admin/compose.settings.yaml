@@ -6,6 +6,7 @@ editor:
       page: crwdns172743:0crwdne172743:0
       record: crwdns172745:0crwdne172745:0
       icon: crwdns172747:0crwdne172747:0
+      namespace: crwdns182446:0crwdne182446:0
       type:
         description: 'crwdns172749:0crwdne172749:0'
         whitelist: crwdns172751:0crwdne172751:0

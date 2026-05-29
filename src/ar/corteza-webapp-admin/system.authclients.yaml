@@ -3,10 +3,7 @@ editor:
     add: أضف
     api: السماح بوصول العميل إلى Corteza API نيابة عن المستخدم
     choose-date: اختر التاريخ
-    createdAt: تم انشائه في
-    createdBy: انشأ من قبل
     delete: حذف
-    deletedAt: محذوف في
     enabled:
       disabledFootnote: لايمكن تعطيل العميل الافتراضي
       label: مفعل
@@ -45,7 +42,6 @@ editor:
       label: موثوق به
     undelete: استعادة
     unnamed: دور بدون اسم
-    updatedAt: تم تحديثه في
     uri: URI
     validFrom:
       description: إذا لم يتم تعريفه ، يكون العميل صالحًا حتى انتهاء الصلاحية

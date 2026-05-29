@@ -31,6 +31,11 @@ editor:
       validate-email: Merci d'entrer un courriel valide
     mfa:
       title: Authentification multi-facteurs
+      TOTP:
+        enforced: Exiger le TOTP pour tous les utilisateurs
+        issuer:
+          description: Le nom d'émetteur sera transmis à l'application d'authentification à la configuration utilisateur
+          label: Émetteur
       emailOTP:
         expires:
           description: Durée de validité du mot de passe avant expiration
@@ -41,6 +46,8 @@ editor:
       timeout:
         label: Expiration
   external:
+    title: Fournisseurs d'authentification externes
+    enabled: Activer authentification externe
     table:
       header:
         enabled: Activé
@@ -54,6 +61,8 @@ editor:
       enabled: Activé
       handle: Identifiant
       title: OpenID Connect
+      issuer: URL de l'émetteur OIDC
+      issuerHint: Ou trouver /.well-known/openid-configuration (sans la partie /.well-known/openid-configuration) 
       clientSecret: Secret
       scope: Périmètre
       scopePlaceholder: List out supported OAuth scope values, use space delimited string

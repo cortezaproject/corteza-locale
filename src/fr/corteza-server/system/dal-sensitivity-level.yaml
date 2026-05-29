@@ -1,5 +1,9 @@
 errors:
+  alreadyExists: niveau de sensibilité via ce DSN existe déjà
+  existsEndpoint: niveau de sensibilité avec ce DSN existe déjà
+  generic: échec du traitement de la demande en raison d'une erreur interne
   invalidEndpoint: point de terminaison invalide
   invalidID: ID invalide
   notAllowedToManage: non autorisé à gérer le niveau de sensibilité
   notFound: niveau de sensibilité introuvable
+  deleteInUse: impossible de supprimer des niveaux de sensibilité en cours d'utilisation

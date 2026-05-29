@@ -1,9 +1,6 @@
 editor:
   info:
-    createdAt: Créer à
-    createdBy: Créer par
     delete: Supprimer
-    deletedAt: Supprimer à
     enabled: Activé
     handle: Identifiant
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
@@ -12,7 +9,6 @@ editor:
     openBuilder: Ouvrir constructeur
     title: Information de base
     undelete: Annuler suppression
-    updatedAt: Mis à jour à
   new: Nouveau processus
   permissions: Permissions
   title:

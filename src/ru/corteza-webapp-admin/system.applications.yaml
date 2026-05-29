@@ -1,15 +1,11 @@
 editor:
   info:
-    createdAt: Создан
-    createdBy: Создан
     delete: Удалить
-    deletedAt: Удалить
     enabled: Включено
     id: ID
     name: Имя *
     title: Базовая информация
     undelete: Восстановить
-    updatedAt: Возобновлять
   permissions: Разрешения
   title:
     create: Создать приложение

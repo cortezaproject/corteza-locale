@@ -10,10 +10,7 @@ editor:
     subject: 'Betreff:'
   generateUri: Verbundlink generieren
   info:
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
     delete: Löschen
-    deletedAt: Gelöscht am
     email: Admin Email
     enabled: Aktiviert
     name: Servername
@@ -23,7 +20,6 @@ editor:
       placeholder: +Hinzufügen
     title: Grundlegende Informationen
     undelete: Wiederherstellen
-    updatedAt: Aktualisiert am
     url: Server-URL
   title:
     create: Create Federated Node

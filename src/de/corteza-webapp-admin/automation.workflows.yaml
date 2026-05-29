@@ -1,9 +1,6 @@
 editor:
   info:
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
     delete: Löschen
-    deletedAt: Gelöscht am
     enabled: Aktiviert
     handle: Alias
     id: ID
@@ -11,7 +8,6 @@ editor:
     openBuilder: Builder öffnen
     title: Grundlegende Informationen
     undelete: Wiederherstellen
-    updatedAt: Aktualisiert am
   new: Neu
   permissions: Berechtigungen
   title:

@@ -5,21 +5,16 @@ editor:
   info:
     confirmEmail: Подтвердите адрес электронной почты
     id: ID
-    createdAt: Создан
-    createdBy: Создан
     delete: Удалить
-    deletedAt: Удалить
     email: Email *
     handle: Управлять
     placeholder-handle: Может включать в себя (а - z, 0 - 9, подчеркивание, тире)
     name: Имя
     revokeAllSession: Отменить все активные сессии
     suspend: Приостановить
-    suspendedAt: Приостановить
     title: Базовая информация
     undelete: Восстановить
     unsuspend: Возобновить 
-    updatedAt: Возобновлять
   avatar:
     initial:
       color: Цвет текста

@@ -5,12 +5,8 @@ editor:
       placeholder: المعرف (a - z, 0 - 9, _, -)
     name: اسم *
     description: وصف
-    createdAt: تم انشائه في
-    createdBy: انشأ من قبل
     delete: حذف
-    deletedAt: محذوف في
     undelete: استعادة
-    updatedAt: تم تحديثه في
 list:
   columns:
     'meta.name': اسم

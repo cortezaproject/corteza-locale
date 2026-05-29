@@ -23,10 +23,7 @@ editor:
     contentType:
       text_html: crwdns171401:0crwdne171401:0
       text_plain: crwdns171403:0crwdne171403:0
-    createdAt: crwdns171405:0crwdne171405:0
-    createdBy: crwdns171407:0crwdne171407:0
     delete: crwdns171409:0crwdne171409:0
-    deletedAt: crwdns171411:0crwdne171411:0
     handle: crwdns171413:0crwdne171413:0
     placeholder-handle: crwdns171415:0crwdne171415:0
     invalid-handle-characters: crwdns171417:0crwdne171417:0
@@ -38,7 +35,6 @@ editor:
     title: crwdns171427:0crwdne171427:0
     type: crwdns171429:0crwdne171429:0
     undelete: crwdns171431:0crwdne171431:0
-    updatedAt: crwdns171433:0crwdne171433:0
   new: crwdns171435:0crwdne171435:0
   permissions: crwdns171437:0crwdne171437:0
   title:

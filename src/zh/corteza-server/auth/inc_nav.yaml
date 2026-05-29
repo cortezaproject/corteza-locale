@@ -1,7 +1,7 @@
 template:
-  authorize-client: Finalize the authorization of
+  authorize-client: 完成授权自
   class:
-    your-profile: Your profile
-    security: Security
-    login-session: Login sessions
-    authorized-clients: Authorized clients
+    your-profile: 你的个人资料
+    security: 安全
+    login-session: 登录会话
+    authorized-clients: 授权的客户端

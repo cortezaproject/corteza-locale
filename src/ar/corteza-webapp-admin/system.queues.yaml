@@ -1,10 +1,7 @@
 editor:
   info:
     consumer: Consumer
-    createdAt: تم انشائه في
-    createdBy: انشأ من قبل
     delete: حذف
-    deletedAt: محذوف في
     dispatch_events: أحداث الإرسال
     dispatch_events_desc: تقوم أحداث الإرسال بإعلام ناقل الحدث بتغييرات رسالة قائمة الانتظار (جديد ، معالج ، ...)
     name: اسم قائمة الانتظار *
@@ -13,7 +10,6 @@ editor:
     poll_delay_set: سيتم استخدام تأخير الاستطلاع ؛ إذا كانت فارغة ، فلن يتم استخدامها.
     title: معلومات مبدئية
     undelete: استعادة
-    updatedAt: تم تحديثه في
   title:
     edit: تحرير قائمة الانتظار
     new: أضف قائمة انتظار

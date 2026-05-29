@@ -5,21 +5,16 @@ editor:
   info:
     confirmEmail: تأكيد عنوان البريد
     id: ID
-    createdAt: تم انشائه في
-    createdBy: انشأ من قبل
     delete: حذف
-    deletedAt: محذوف في
     email: البريد الالكتروني *
     handle: المعرف
     placeholder-handle: المعرف (a - z, 0 - 9, _, -)
     name: الأسم كامل
     revokeAllSession: إبطال جميع الجلسات النشطة
     suspend: موقف
-    suspendedAt: موقف
     title: معلومات مبدئية
     undelete: استعادة
     unsuspend: الغاء تعليق
-    updatedAt: تم تحديثه في
   avatar:
     initial:
       color: لون النص

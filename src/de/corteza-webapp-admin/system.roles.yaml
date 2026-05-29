@@ -1,15 +1,11 @@
 editor:
   info:
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
     delete: Löschen
-    deletedAt: Gelöscht am
     handle: Alias
     placeholder-handle: Bezeichnung (a - z, 0 - 9, Unterstrich, Bindestrich)
     name: Role name
     title: Grundlegende Informationen
     undelete: Wiederherstellen
-    updatedAt: Aktualisiert am
     description: '$t(general.label.description)'
     context:
       resource-types-label: Ressourcentyp

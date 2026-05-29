@@ -1,14 +1,10 @@
 editor:
   info:
-    createdAt: Создан
-    createdBy: Создан
     delete: Удалить
-    deletedAt: Удалить
     handle: Управлять
     placeholder-handle: Может включать в себя (а - z, 0 - 9, подчеркивание, тире)
     title: Базовая информация
     undelete: Восстановить
-    updatedAt: Возобновлять
     description: Описание
     context:
       expression-label: Выражение

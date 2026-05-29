@@ -47,10 +47,6 @@ editor:
     enabled: Activé
     delete: Supprimer
     undelete: Annuler suppression
-    deletedAt: Supprimer à
-    updatedAt: Mis à jour à
-    createdAt: Créer à
-    createdBy: Créer par
   filters:
     title: Liste de filtres
     enabled: Activé

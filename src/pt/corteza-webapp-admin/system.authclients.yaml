@@ -3,10 +3,7 @@ editor:
     add: Adicionar
     api: Permitir acesso do cliente à API do Corteza em nome do usuário
     choose-date: Escolha uma data
-    createdAt: Criado em
-    createdBy: Criado por
     delete: Excluir
-    deletedAt: Excluído em
     enabled:
       disabledFootnote: Não foi possível desabilitar o cliente padrão
       label: Habilitado
@@ -57,7 +54,6 @@ editor:
       label: Confiável
     undelete: Recuperar
     unnamed: Função sem nome
-    updatedAt: Atualizado em
     uri: URI
     validFrom:
       description: Se não for definido o cliente é válido até a expiração

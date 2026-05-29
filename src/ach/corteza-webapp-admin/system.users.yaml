@@ -6,10 +6,7 @@ editor:
   info:
     confirmEmail: crwdns170763:0crwdne170763:0
     id: crwdns170765:0crwdne170765:0
-    createdAt: crwdns170767:0crwdne170767:0
-    createdBy: crwdns170769:0crwdne170769:0
     delete: crwdns170771:0crwdne170771:0
-    deletedAt: crwdns170773:0crwdne170773:0
     email: crwdns170775:0crwdne170775:0
     handle: crwdns170777:0crwdne170777:0
     placeholder-handle: crwdns170779:0crwdne170779:0
@@ -17,11 +14,9 @@ editor:
     name: crwdns170783:0crwdne170783:0
     revokeAllSession: crwdns170785:0crwdne170785:0
     suspend: crwdns170787:0crwdne170787:0
-    suspendedAt: crwdns170789:0crwdne170789:0
     title: crwdns170791:0crwdne170791:0
     undelete: crwdns170793:0crwdne170793:0
     unsuspend: crwdns170795:0crwdne170795:0
-    updatedAt: crwdns170797:0crwdne170797:0
     userGroup:
       label: crwdns182191:0crwdne182191:0
       placeholder: crwdns182193:0crwdne182193:0

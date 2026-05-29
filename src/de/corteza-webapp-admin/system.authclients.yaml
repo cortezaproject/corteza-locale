@@ -2,10 +2,7 @@ editor:
   info:
     add: Hinzufügen
     choose-date: Choose a date
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
     delete: Löschen
-    deletedAt: Gelöscht am
     enabled:
       label: Aktiviert
     handle:
@@ -23,7 +20,6 @@ editor:
         label: Permitted roles ({{count}})
     title: Grundlegende Informationen
     undelete: Wiederherstellen
-    updatedAt: Aktualisiert am
   new: New
   permissions: Berechtigungen
 list:

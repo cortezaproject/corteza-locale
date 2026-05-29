@@ -47,15 +47,20 @@ edit:
         shared: Erreur lors de la persistance des informations du module partagé
         mmap: Erreur lors de la persistance des informations de mappage du module
     general:
+      receive: Recevoir de nouveaux éléments depuis une autre organisation (en aval)
+      send: Envoyer de nouveau éléments au réseau fédéré (en amont)
       title: Général
     noNodes: Aucun serveur fédéré disponible
+    noPermission: Aucune permission pour gérer le module exposé
     pickModule: Choisissez un module de fédération
     pickModuleField: Choisissez un champ de module
     pickServer: Choisissez un serveur de fédération
     specificTitle: Paramètres de fédération ({{handle}})
     title: Paramètres de fédération
     upstream:
+      copyFrom: Copier paramètre depuis
       allFields: Tous les champs
+      description: Sélectionnez les champs que vous souhaitez partager avec le réseau sélectionné
       title: Exposer
   discoverySettings:
     title: Paramètre de découverte
@@ -94,6 +99,15 @@ edit:
       alteration: Altération
       change: Changement
       status: Statut
+    params:
+      attribute:
+        add: Ajout de la colonne {{ident}} encodée comme {{storeType}} de type {{attrType}}
+        delete: Suppression de la colonne {{ident}} encodée comme {{storeType}}
+        reType: Changement du type de la colonne {{ident}} vers {{toType}}
+        reEncode: Changement de l'encodage de la colonne {{ident}} vers {{toType}}
+      model:
+        add: Ajout d'un schéma pour le modèle {{ident}}
+        delete: Suppression d'un schéma pour le modèle {{ident}}
   config:
     dal:
       title: Magasin de données
@@ -124,6 +138,7 @@ edit:
           partition: Partition
           userReference: Référence utilisateur
           timestamps: Horodatages
+          extras: Compléments
       encoding-strategy:
         unavailable: indisponible
         ident:

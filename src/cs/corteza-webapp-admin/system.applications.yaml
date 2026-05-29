@@ -1,15 +1,11 @@
 editor:
   info:
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
     delete: Smazat
-    deletedAt: Čas odstranění
     enabled: Povoleno
     id: ID
     name: Jméno *
     title: Základní informace
     undelete: Obnovit smazané
-    updatedAt: Čas aktualizace
   new: Nová aplikace
   permissions: Oprávnění
   title:

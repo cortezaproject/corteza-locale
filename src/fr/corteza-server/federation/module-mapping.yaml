@@ -1,6 +1,7 @@
 errors:
   composeModuleNotFound: module "compose" introuvable
   composeNamespaceNotFound: namespace "compose" introuvable
+  federationModuleNotFound: module de fédération introuvable
   moduleMappingExists: ce mappage de module existe déjà
   nodeNotFound: ce nœud n'existe pas
   notAllowedToMap: non autorisé à mapper ce module

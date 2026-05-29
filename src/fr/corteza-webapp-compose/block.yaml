@@ -412,8 +412,6 @@ recordList:
     selection: Éléments sélectionnés
     specifyTimezone: Exporter à un fuseau horaire
     timezonePlaceholder: Sélectionnez un fuseau horaire
-    resolveRefs: Inclure les valeurs de sélecteur d'éléments
-    resolveRefsNote: Lorsque "Inclure les valeurs de sélecteur d'éléments" est coché, tous les champs de type "élément" comprendront l'étiquette de l'élément à côté de son identifiant unique.
     datePresetUndefined: Préréglage de date inconnu
   federated: Fédéré
   fields: Champs de module

@@ -1,10 +1,7 @@
 editor:
   info:
     id: ID
-    createdAt: Créer à
-    createdBy: Créer par
     delete: Supprimer
-    deletedAt: Supprimer à
     placeholder-handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
     handle: Identifiant
     invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
@@ -12,7 +9,6 @@ editor:
     meta.description: Description
     title: Information de base
     undelete: Annuler suppression
-    updatedAt: Mis à jour à
     parents:
       title: Ce groupe d'utilisateurs relève de
       parent:
@@ -29,6 +25,7 @@ editor:
     add: Ajouter
     count: rôles
     remove: Supprimer
+    title: Appartenance aux rôles
     unnamed: Rôle sans nom
   title:
     create: Créer groupe d'utilisateurs

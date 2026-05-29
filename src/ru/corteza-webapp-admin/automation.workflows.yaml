@@ -1,9 +1,6 @@
 editor:
   info:
-    createdAt: Создан
-    createdBy: Создан
     delete: Удалить
-    deletedAt: Удалить
     enabled: Включено
     handle: Управлять
     id: ID
@@ -11,7 +8,6 @@ editor:
     openBuilder: Открыть конструктор
     title: Базовая информация
     undelete: Восстановить
-    updatedAt: Возобновлять
   permissions: Разрешения
   title:
     create: Создать процесс

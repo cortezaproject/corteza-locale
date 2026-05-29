@@ -1,12 +1,8 @@
 editor:
   info:
-    createdAt: Создан
-    createdBy: Создан
     delete: Удалить
-    deletedAt: Удалить
     title: Базовая информация
     undelete: Восстановить
-    updatedAt: Возобновлять
 list:
   columns:
     createdAt: Создан

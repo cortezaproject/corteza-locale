@@ -24,7 +24,6 @@ new-workflow: crwdns180299:0crwdne180299:0
 none: crwdns180301:0crwdne180301:0
 now: crwdns180303:0crwdne180303:0
 offset: crwdns180305:0crwdne180305:0
-offset-expression: crwdns180307:0crwdne180307:0
 permissions: crwdns180309:0crwdne180309:0
 reset: crwdns182413:0crwdne182413:0
 searchPlaceholder: crwdns180311:0crwdne180311:0

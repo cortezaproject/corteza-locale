@@ -1,9 +1,6 @@
 editor:
   info:
-    createdAt: crwdns170937:0crwdne170937:0
-    createdBy: crwdns170939:0crwdne170939:0
     delete: crwdns170941:0crwdne170941:0
-    deletedAt: crwdns170943:0crwdne170943:0
     enabled: crwdns170945:0crwdne170945:0
     handle: crwdns170947:0crwdne170947:0
     invalid-handle-characters: crwdns170949:0crwdne170949:0
@@ -12,7 +9,6 @@ editor:
     openBuilder: crwdns170955:0crwdne170955:0
     title: crwdns170957:0crwdne170957:0
     undelete: crwdns170959:0crwdne170959:0
-    updatedAt: crwdns170961:0crwdne170961:0
   new: crwdns170963:0crwdne170963:0
   permissions: crwdns170965:0crwdne170965:0
   title:

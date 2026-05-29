@@ -12,12 +12,8 @@ editor:
     name: crwdns171845:0crwdne171845:0
     description: crwdns171847:0crwdne171847:0
     level: crwdns171849:0{{level}}crwdne171849:0
-    createdAt: crwdns171851:0crwdne171851:0
-    createdBy: crwdns171853:0crwdne171853:0
     delete: crwdns171855:0crwdne171855:0
-    deletedAt: crwdns171857:0crwdne171857:0
     undelete: crwdns171859:0crwdne171859:0
-    updatedAt: crwdns171861:0crwdne171861:0
 list:
   title: crwdns171863:0crwdne171863:0
   loading: crwdns171865:0crwdne171865:0

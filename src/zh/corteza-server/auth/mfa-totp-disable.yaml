@@ -1,5 +1,5 @@
 template:
-  title: Disable two-factor authentication with TOTP
-  instructions: Disable by entering existing code
+  title: 停用使用 TOTP 的双因素身份验证
+  instructions: 输入现有代码来停用
   button:
-    remove: Remove
+    remove: 移除

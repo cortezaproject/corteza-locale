@@ -1,10 +1,7 @@
 editor:
   info:
     consumer: Spotřebitel
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
     delete: Smazat
-    deletedAt: Čas odstranění
     dispatch_events: Vypravit události
     dispatch_events_desc: Vypravení události notifikujte sběrnici událostí o změnách zpráv ve frontě (nové, zpracované, ...)
     name: Název fronty *
@@ -14,7 +11,6 @@ editor:
     poll_delay_set: Zpoždění se použije; nepoužilo by se, kdyby hodnota byla prázdná.
     title: Základní informace
     undelete: Obnovit smazané
-    updatedAt: Čas aktualizace
   new: Nová fronta
   title:
     edit: Upravit frontu

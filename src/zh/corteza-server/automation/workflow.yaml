@@ -1,16 +1,16 @@
 errors:
-  disabled: disabled workflow or trigger
-  handleNotUnique: workflow handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  notAllowedToCreate: not allowed to create workflows
-  notAllowedToDelete: not allowed to delete this workflow
-  notAllowedToExecute: not allowed to execute this workflow
-  notAllowedToExecuteCorredorStep: not allowed to run corredorExec function, corredor is disabled
-  notAllowedToRead: not allowed to read this workflow
-  notAllowedToSearch: not allowed to search or list workflows
-  notAllowedToUndelete: not allowed to undelete this workflow
-  notAllowedToUpdate: not allowed to update this workflow
-  notFound: workflow not found
-  staleData: stale data
-  unknownWorkflowStep: unknown workflow step
+  disabled: 已停用的工作流或触发器
+  handleNotUnique: 工作流句柄不唯一
+  invalidHandle: 无效的句柄
+  invalidID: 无效的 ID
+  notAllowedToCreate: 不允许创建工作流
+  notAllowedToDelete: 不允许删除此工作流
+  notAllowedToExecute: 不允许执行此工作流
+  notAllowedToExecuteCorredorStep: 不允许运行 corredorExec 函数，corredor 已停用
+  notAllowedToRead: 不允许读取此工作流
+  notAllowedToSearch: 不允许搜索或列出工作流
+  notAllowedToUndelete: 不允许撤销删除此工作流
+  notAllowedToUpdate: 不允许更新此工作流
+  notFound: 未找到工作流
+  staleData: 您打开的工作流已被他人或工作流修改。请刷新页面以查看最新更新版本
+  unknownWorkflowStep: 未知的工作流步骤

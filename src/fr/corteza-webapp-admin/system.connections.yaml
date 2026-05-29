@@ -34,14 +34,25 @@ editor:
     form:
       name:
         label: Nom *
+        placeholder: Lac de données
       handle:
         label: Identifiant
+        placeholder: nom_de_connexion_simplifie
         invalid-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
+      location-name:
+        placeholder: Nom du lieu où les données sont stockées
+        description: Nom de la ville, du pays, du continent, etc.
+      location-geometry:
+        label: Coordonnées du lieu
+        description: Coordonnées du lieu où les données sont stockées
       ownership:
         label: Propriétaire
         placeholder: ACME ltd.
+        description: Nom de l'entreprise ou de la personne propriétaire des données
       sensitivity-level:
+        label: Niveau de sensibilité maximal autorisé
         placeholder: Sélectionnez un niveau de sensibilité
+        description: Niveau de sensibilité maximal autorisé pour les données stockées (tel que défini dans les champs du module qui utilise cette connexion)
   properties:
     title: Propriétés de connexion et base de données
   dal:

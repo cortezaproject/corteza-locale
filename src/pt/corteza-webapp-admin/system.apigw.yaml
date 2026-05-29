@@ -54,10 +54,6 @@ editor:
     enabled: Habilitado
     delete: Excluir
     undelete: Recuperar
-    deletedAt: Excluído em
-    updatedAt: Atualizado em
-    createdAt: Criado em
-    createdBy: Criado por
     tooltip: O endpoint deve começar com uma barra "/" e não pode conter nenhum caractere especial, exceto a sublinha "_" e o hífen "-"
     validation:
       slash: O endpoint deve começar com uma barra "/"

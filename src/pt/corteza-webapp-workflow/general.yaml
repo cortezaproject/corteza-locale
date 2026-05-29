@@ -24,7 +24,6 @@ new-workflow: Novo fluxo de trabalho
 none: Nenhum
 now: Agora
 offset: Desvio
-offset-expression: Deslocamento (expressão)
 permissions: Permissões
 searchPlaceholder: Fluxos de trabalho de pesquisa
 subworkflow: Sub fluxo de trabalho

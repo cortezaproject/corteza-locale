@@ -1,12 +1,7 @@
 editor:
   info:
-    completedAt: Dokončeno v
-    createdAt: Čas vytvoření
-    createdBy: Vytvořil - ID
     createdByUserName: Vytvořil - jméno
     delete: Smazat
-    deletedAt: Čas odstranění
-    suspendedAt: Zablokovat vše
     error: Chyba
     eventType: Typ události
     id: ID

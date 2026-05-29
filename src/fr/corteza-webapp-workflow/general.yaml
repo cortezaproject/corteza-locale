@@ -24,7 +24,6 @@ new-workflow: Nouveau processus
 none: Aucune
 now: Maintenant
 offset: Décalage
-offset-expression: Décalage (expression)
 permissions: Permissions
 reset: Réinitialiser
 searchPlaceholder: Recherchez des processus

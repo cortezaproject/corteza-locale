@@ -1,13 +1,9 @@
 editor:
   info:
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
     delete: Löschen
-    deletedAt: Gelöscht am
     name: Queue name
     title: Grundlegende Informationen
     undelete: Wiederherstellen
-    updatedAt: Aktualisiert am
   new: New
 list:
   columns:

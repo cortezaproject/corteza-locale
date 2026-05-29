@@ -25,3 +25,7 @@ run-as:
 sub-workflow:
   label: crwdns180513:0crwdne180513:0
   description: crwdns180515:0crwdne180515:0
+delay:
+  duration:
+    label: crwdns182562:0crwdne182562:0
+    description: 'crwdns182564:0crwdne182564:0'

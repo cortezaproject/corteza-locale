@@ -10,10 +10,7 @@ editor:
     subject: 'Předmět:'
   generateUri: Generovat federační odkaz
   info:
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
     delete: Smazat
-    deletedAt: Čas odstranění
     email: Admin Email
     enabled: Povoleno
     name: Název serveru *
@@ -23,7 +20,6 @@ editor:
       placeholder: +Přidat
     title: Základní informace
     undelete: Obnovit smazané
-    updatedAt: Čas aktualizace
     url: URL serveru *
   title:
     create: Vytvořit federovaný uzel

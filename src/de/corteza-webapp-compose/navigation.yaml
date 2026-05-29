@@ -6,7 +6,7 @@ help:
   documentation: Dokumentation
   feedback: Feedback senden
   forum: Hilfe
-  version: 'Version:'
+  version: "Version:"
 module: Module
 more: Mehr
 namespace: Namensräume

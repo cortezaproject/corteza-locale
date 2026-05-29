@@ -3,10 +3,7 @@ editor:
     add: Přidat
     api: Povolit klientským aplikacím přístup ke Corteza API jménem uživatele
     choose-date: Vybrat datum
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
     delete: Smazat
-    deletedAt: Čas odstranění
     enabled:
       disabledFootnote: Není možné zakázat výchozího klienta
       label: Povoleno
@@ -50,7 +47,6 @@ editor:
       label: Důvěryhodný
     undelete: Obnovit smazané
     unnamed: Bezejmenná role
-    updatedAt: Čas aktualizace
     uri: URI
     validFrom:
       description: Pokud není definováno, klient je validní do expirace

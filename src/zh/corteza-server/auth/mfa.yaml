@@ -1,18 +1,19 @@
 template:
-  title: Multi-factor authentication
+  title: 多因素身份验证
   email:
-    instructions: Check your inbox and enter the received code
-    code: Code
-    verify: Verify
-    resend: Resend
-    confirmed: Email OTP confirmed
+    instructions: 请查看您的收件箱并输入验证码
+    code: 验证码
+    verify: 验证
+    resend: 重新发送
+    confirmed: 电子邮件验证码已确认
   totp:
-    instructions: Check your TOTP application and enter the code you received
-    code: Code
-    confirmed: TOTP confirmed
-    verify: Verify
+    instructions: 请查看您的 TOTP 应用并输入验证码
+    code: 验证码
+    confirmed: TOTP 已确认
+    verify: 验证
 alerts:
   email:
-    resent: Email OTP resent
-  topt:
-    valid: TOTP valid
+    resent: 电子邮件验证码已重新发送
+    confirmed: 电子邮件验证码已确认
+  totp:
+    confirmed: TOTP 已确认

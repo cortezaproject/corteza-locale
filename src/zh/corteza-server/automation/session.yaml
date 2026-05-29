@@ -1,8 +1,8 @@
 errors:
-  invalidID: invalid ID
-  notAllowedToDelete: not allowed to delete this session
-  notAllowedToManage: not allowed to manage session's workflow
-  notAllowedToRead: not allowed to read this session
-  notAllowedToSearch: not allowed to search or list sessions
-  notFound: session not found
-  staleData: stale data
+  invalidID: 无效的 ID
+  notAllowedToDelete: 不允许删除此会话
+  notAllowedToManage: 不允许管理会话工作流
+  notAllowedToRead: 不允许读取此会话
+  notAllowedToSearch: 不允许搜索或列出会话
+  notFound: 未找到会话
+  staleData: 您打开的会话已被他人或工作流修改。请刷新页面以查看最新更新版本

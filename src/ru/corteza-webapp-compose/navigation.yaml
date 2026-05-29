@@ -6,7 +6,7 @@ help:
   documentation: Документация
   feedback: Обратная связь
   forum: Помощь
-  version: 'Версия:'
+  version: "Версия:"
 module: Модули
 more: Подробнее
 namespace: Пространство имен

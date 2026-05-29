@@ -1,12 +1,12 @@
-adminPanel: Admin panel
-chart: Charts
-manageNamespaces: Manage namespaces
-module: Modules
-noResults: No results
-page: Pages
-pickNamespace: Select a namespace
-publicPages: Public pages
-editNamespace: Edit namespace
+adminPanel: 管理面板
+chart: 图表
+manageNamespaces: 管理命名空间
+module: 模块
+noResults: 无结果
+page: 页面
+pickNamespace: 选择命名空间
+publicPages: 公共页面
+editNamespace: 编辑命名空间
 searchPlaceholder:
-  admin: Search resources...
-  public: Search pages...
+  admin: 搜索资源……
+  public: 搜索页面……

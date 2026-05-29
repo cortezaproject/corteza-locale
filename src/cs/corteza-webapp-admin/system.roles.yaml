@@ -1,11 +1,7 @@
 editor:
   info:
     archive: Archivovat
-    archivedAt: Čas archivace
-    createdAt: Čas vytvoření
-    createdBy: Vytvořeno uživatelem
     delete: Smazat
-    deletedAt: Čas odstranění
     handle: Identifikátor
     placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
     invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
@@ -13,7 +9,6 @@ editor:
     title: Základní informace
     unarchive: Obnovit z archivu
     undelete: Obnovit smazané
-    updatedAt: Čas aktualizace
     description: Popis
     context:
       label: Role v kontextu

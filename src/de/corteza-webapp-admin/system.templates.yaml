@@ -1,9 +1,6 @@
 editor:
   info:
-    createdAt: Erstellt am
-    createdBy: Erstellt bei
     delete: Löschen
-    deletedAt: Gelöscht am
     handle: Alias
     placeholder-handle: Bezeichnung (a - z, 0 - 9, Unterstrich, Bindestrich)
     meta:
@@ -11,7 +8,6 @@ editor:
       short: Short name
     title: Grundlegende Informationen
     undelete: Wiederherstellen
-    updatedAt: Aktualisiert am
   new: New
   permissions: Berechtigungen
 list:

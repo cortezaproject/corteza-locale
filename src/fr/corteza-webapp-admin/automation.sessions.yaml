@@ -1,12 +1,7 @@
 editor:
   info:
-    completedAt: Terminé à
-    createdAt: Créer à
-    createdBy: Créer par - ID
     createdByUserName: Créer par - Nom
     delete: Supprimer
-    deletedAt: Supprimer à
-    suspendedAt: Désactivé à
     error: Erreur
     eventType: Type d'évènement
     id: ID

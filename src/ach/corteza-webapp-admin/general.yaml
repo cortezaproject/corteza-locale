@@ -62,6 +62,20 @@ label:
   dropFiles: crwdns182087:0crwdne182087:0
 editor:
   unsavedChanges: crwdns171569:0crwdne171569:0
+system:
+  field:
+    createdAt: crwdns182448:0crwdne182448:0
+    createdBy: crwdns182450:0crwdne182450:0
+    updatedAt: crwdns182452:0crwdne182452:0
+    updatedBy: crwdns182454:0crwdne182454:0
+    deletedAt: crwdns182456:0crwdne182456:0
+    deletedBy: crwdns182458:0crwdne182458:0
+    archivedAt: crwdns182460:0crwdne182460:0
+    suspendedAt: crwdns182462:0crwdne182462:0
+    lastUsedAt: crwdns182464:0crwdne182464:0
+    completedAt: crwdns182466:0crwdne182466:0
+    ownedBy: crwdns182468:0crwdne182468:0
+    runAs: crwdns182470:0crwdne182470:0
 resourceList:
   pagination:
     recordsPerPage: crwdns171571:0crwdne171571:0

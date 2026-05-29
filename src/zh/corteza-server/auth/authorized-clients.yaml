@@ -1,9 +1,9 @@
 template:
-  title: Authorized clients
+  title: 授权的客户端
   list:
-    authorized-on: Authorized on
+    authorized-on: 授权在
     buttons:
-      revoke: Revoke access
-    empty: No authorized clients found
+      revoke: 撤销访问权限
+    empty: 未找到授权的客户端
 alerts:
-  removed: Client authorization removed
+  removed: 客户端授权已移除

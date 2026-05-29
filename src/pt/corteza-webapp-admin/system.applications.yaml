@@ -1,15 +1,11 @@
 editor:
   info:
-    createdAt: Criado em
-    createdBy: Criado por
     delete: Excluir
-    deletedAt: Excluído em
     enabled: Habilitado
     id: IDENTIFICAÇÃO
     name: Nome *
     title: Informação básica
     undelete: Recuperar
-    updatedAt: Atualizado em
   new: Nova aplicação
   permissions: Permissões
   title:

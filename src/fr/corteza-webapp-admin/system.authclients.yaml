@@ -2,10 +2,7 @@ editor:
   info:
     add: Ajouter
     choose-date: Choisissez une date
-    createdAt: Créer à
-    createdBy: Créer par
     delete: Supprimer
-    deletedAt: Supprimer à
     enabled:
       label: Activé
     expiresAt:
@@ -35,7 +32,6 @@ editor:
       hide-client-secret: Cacher secret du client
     undelete: Annuler suppression
     unnamed: Rôle sans nom
-    updatedAt: Mis à jour à
     uri: URI
     validFrom:
       label: Valide depuis

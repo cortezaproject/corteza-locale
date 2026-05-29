@@ -6,10 +6,7 @@ editor:
   info:
     confirmEmail: Confirmer courriel
     id: ID
-    createdAt: Créer à
-    createdBy: Créer par
     delete: Supprimer
-    deletedAt: Supprimer à
     email: Courriel *
     handle: Identifiant
     placeholder-handle: identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
@@ -17,11 +14,9 @@ editor:
     name: Nom complet
     revokeAllSession: Révoquer toutes les sessions actives
     suspend: Désactiver
-    suspendedAt: Désactivé à
     title: Information de base
     undelete: Annuler suppression
     unsuspend: Réactiver
-    updatedAt: Mis à jour à
     userGroup:
       label: Groupe d'utilisateurs
       placeholder: Groupe d'utilisateurs
@@ -35,6 +30,7 @@ editor:
       backgroundColor: Couleur de fond
     uploader:
       instructions: Téléverser avatar
+      uploading: Téléversement de l'avatar utilisateur
     colorPicker: Choisissez une couleur
   mfa:
     TOTP:
@@ -65,11 +61,13 @@ editor:
     missmatch: Le mot de passe doit correspondre
     new: Nouveau mot de passe
     title: Mot de passe
+    removePassword: Supprimer mot de passe
   permissions: Permissions
   roles:
     add: Ajouter
     count: Roles ({{count}})
     remove: Supprimer
+    title: Appartenance aux rôles
     unnamed: Rôle sans nom
   title:
     create: Créer utilisateur
@@ -86,6 +84,7 @@ list:
   unsuspend: Réactiver
   delete: Supprimer
   undelete: Annuler suppression
+  revokeActiveSession: Révoquer Session
   export: Exporter
   rows:
     filters:
@@ -113,7 +112,9 @@ list:
 export:
   buttonLabel: Exporter
   title: Export des utilisateurs
+  inclRoleMembership: Inclure l'appartenance aux rôles
   inclRoles: Comprenant les rôles
+  membershipRequiredLabel: Les rôles peuvent être exportés uniquement lorsque l'appartenance aux rôles est sélectionnée
   export: Exporter
 import:
   buttonLabel: Importer

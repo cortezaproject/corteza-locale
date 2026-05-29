@@ -9,9 +9,11 @@ ui:
       success: crwdns179767:0crwdne179767:0
       failed: crwdns179769:0crwdne179769:0
   edit:
+    title: crwdns182558:0crwdne182558:0
     label: crwdns179771:0crwdne179771:0
     description: crwdns179773:0crwdne179773:0
   evaluate:
+    title: crwdns182560:0crwdne182560:0
     description: crwdns179775:0crwdne179775:0
   add:
     label: crwdns179777:0crwdne179777:0

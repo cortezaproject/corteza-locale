@@ -1,4 +1,4 @@
 template:
-  title: Confirm your email
-  instructions: You should receive email confirmation link to your inbox in a few moments
-  links: <a data-test-id="link-signup" href="{{signup}}">Create new account</a> or <a data-test-id="link-login" href="{{login}}">log in</a>
+  title: 确认你的邮箱
+  instructions: 您稍后应该会收到一封包含确认链接的电子邮件。
+  links: <a data-test-id="link-signup" href="{{signup}}">创建新账户</a>或<a data-test-id="link-login" href="{{login}}">登录</a>
