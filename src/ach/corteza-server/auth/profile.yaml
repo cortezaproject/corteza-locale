@@ -1,30 +1,30 @@
 template:
-  title: crwdns181557:0crwdne181557:0
+  title: crwdns182774:0crwdne182774:0
   form:
     email:
-      label: crwdns181559:0crwdne181559:0
-      placeholder: crwdns181561:0crwdne181561:0
-      resend-confirmation-link: crwdns181563:0{{link}}crwdne181563:0
+      label: crwdns182776:0crwdne182776:0
+      placeholder: crwdns182778:0crwdne182778:0
+      resend-confirmation-link: crwdns182780:0{{link}}crwdne182780:0
     name:
-      label: crwdns181565:0crwdne181565:0
-      placeholder: crwdns181567:0crwdne181567:0
+      label: crwdns182782:0crwdne182782:0
+      placeholder: crwdns182784:0crwdne182784:0
     handle:
-      label: crwdns181569:0crwdne181569:0
-      placeholder: crwdns181571:0crwdne181571:0
+      label: crwdns182786:0crwdne182786:0
+      placeholder: crwdns182788:0crwdne182788:0
     avatar:
-      label: crwdns181573:0crwdne181573:0
-      delete: crwdns181575:0crwdne181575:0
-      upload: crwdns181577:0crwdne181577:0
+      label: crwdns182790:0crwdne182790:0
+      delete: crwdns182792:0crwdne182792:0
+      upload: crwdns182794:0crwdne182794:0
     avatar-initial:
-      label: crwdns181579:0crwdne181579:0
-      color: crwdns181581:0crwdne181581:0
-      background-color: crwdns181583:0crwdne181583:0
+      label: crwdns182796:0crwdne182796:0
+      color: crwdns182798:0crwdne182798:0
+      background-color: crwdns182800:0crwdne182800:0
     preferred-language:
-      label: crwdns181585:0crwdne181585:0
+      label: crwdns182802:0crwdne182802:0
     buttons:
-      submit: crwdns181587:0crwdne181587:0
+      submit: crwdns182804:0crwdne182804:0
 alerts:
-  profile-updated: crwdns181589:0crwdne181589:0
-  profile-update-fail: crwdns181591:0crwdne181591:0
-  profile-avatar-uploaded: crwdns181593:0crwdne181593:0
-  profile-avatar-deleted: crwdns181595:0crwdne181595:0
+  profile-updated: crwdns182806:0crwdne182806:0
+  profile-update-fail: crwdns182808:0crwdne182808:0
+  profile-avatar-uploaded: crwdns182810:0crwdne182810:0
+  profile-avatar-deleted: crwdns182812:0crwdne182812:0
