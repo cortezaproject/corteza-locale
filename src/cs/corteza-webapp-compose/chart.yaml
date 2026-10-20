@@ -234,8 +234,10 @@ edit:
       placeholder: '0,00'
     prefix:
       label: Předpona
+      placeholder: '#'
     suffix:
       label: Přípona
+      placeholder: '$'
     presetFormats:
       label: Formát
       options:
