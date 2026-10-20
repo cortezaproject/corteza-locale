@@ -1,5 +1,6 @@
 errors:
-  failedToDownloadAttachment: 'crwdns180813:0{attachmentURL}crwdnd180813:0{err}crwdne180813:0'
-  failedToLoadUser: crwdns180815:0{recipient}crwdne180815:0
-  invalidReceipientFormat: crwdns180817:0{recipient}crwdne180817:0
-  noRecipients: crwdns180819:0crwdne180819:0
+  failedToDownloadAttachment: 'crwdns183188:0{attachmentURL}crwdnd183188:0{err}crwdne183188:0'
+  failedToLoadUser: crwdns183190:0{recipient}crwdne183190:0
+  invalidReceipientFormat: crwdns183192:0{recipient}crwdne183192:0
+  noRecipients: crwdns183194:0crwdne183194:0
+  notAllowedToSend: crwdns183196:0crwdne183196:0
