@@ -5,7 +5,7 @@ comments:
     first:
       newest: Plus récent en premier
       oldest: Plus ancien en premier
-  submit: Envoyer
+  submit: Soumettre
   unknown:
     date: Date inconnue
     user: Utilisateur inconnu
@@ -19,7 +19,7 @@ status:
   rejected: Rejetée
   approved: Approuvée
 list:
-  title: Requêtes de confidentialité
+  title: Demandes de confidentialité
   export: Exporter
   columns:
     kind: Type
@@ -41,12 +41,12 @@ edit:
   delete:
     private-fields: Champs privés
     no-data-available: Aucune donnée disponible
-    submit: Supprimer donnée sélectionnée
+    submit: Supprimer données sélectionnées
     connection:
       label: Connexion
       placeholder: Sélectionnez une connexion
   export:
-    submit: Exporter donnée sélectionnée
+    submit: Exporter données sélectionnées
     data-type:
       label: Type de donnée à exporter
       profile-information: Information du profil

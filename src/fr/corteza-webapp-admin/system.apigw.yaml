@@ -9,7 +9,7 @@ list:
   loading: Chargement des routes
   filterForm:
     query:
-      label: Filtrer liste de route
+      label: Filtrer liste de routes
     excluded:
       label: Sans
     inclusive:

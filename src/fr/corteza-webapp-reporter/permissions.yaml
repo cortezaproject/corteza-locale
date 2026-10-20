@@ -9,9 +9,11 @@ ui:
       success: Permissions enregistrées
       failed: Échec de l'enregistrement des permissions
   edit:
+    title: Éditer permissions
     label: Rôles utilisateur
     description: Sélectionnez rôle pour définir les permissions
   evaluate:
+    title: Évaluer permissions
     description: Évaluer permissions appliquées
   add:
     label: Ajouter

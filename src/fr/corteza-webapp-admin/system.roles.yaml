@@ -48,7 +48,7 @@ list:
     inclusive:
       label: Comprenant
     query:
-      label: Filtrer liste de rôle
+      label: Filtrer liste de rôles
       placeholder: Filtrez les rôles par leurs noms
   loading: Chargement des rôles
   new: Nouveau Rôle

@@ -148,6 +148,8 @@ record:
   createSuccess: Élément créé
   updateFailed: Impossible de mettre à jour l'élément
   updateSuccess: Élément mis à jour
+  saveFailed: Impossible d'enregistrer les éléments
+  saveSuccess: Éléments enregistrés
   deleteFailed: Impossible de supprimer l'élément
   deleteSuccess: Élément supprimé
   restoreFailed: Impossible de restaurer l'élément
@@ -162,6 +164,7 @@ record:
   invalidRecordVar: Impossible d'utiliser la variable ${record...} dans les pages sans élément
   listLoadFailed: Impossible de charger la liste des éléments
   loadFailed: Impossible de charger l'élément
+  exportFailed: Impossible d'exporter les éléments
   countFailed: Échec du chargement d'une partie des éléments
   moduleMismatch: Module incompatible, module incohérent
   moduleNotDefined: Module de l'élément non défini

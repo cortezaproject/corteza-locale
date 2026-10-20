@@ -54,7 +54,7 @@ label:
   loading: Chargement
   saveAndClose: Enregistrer et fermer
   cancel: Annuler
-  submit: Envoyer
+  submit: Soumettre
   delete: Supprimer
   undelete: Annuler suppression
   fileTypeNotAllowed: Type de fichier non autorisé
@@ -62,6 +62,20 @@ label:
   dropFiles: Cliquez ou déposez ici des fichiers pour téléverser
 editor:
   unsavedChanges: Les changements non enregistrés seront perdus. Voulez-vous vraiment quitter la page ?
+system:
+  field:
+    createdAt: Créer à
+    createdBy: Créer par
+    updatedAt: Mis à jour à
+    updatedBy: Mis à jour par
+    deletedAt: Supprimer à
+    deletedBy: Supprimer par
+    archivedAt: Archivé à
+    suspendedAt: Désactivé à
+    lastUsedAt: Dernière utilisation à
+    completedAt: Terminé à
+    ownedBy: Appartient à
+    runAs: Exécuter en tant que
 resourceList:
   pagination:
     recordsPerPage: Par Page

@@ -35,5 +35,5 @@ list:
     inclusive:
       label: Comprenant
   loading: Chargement des files de messages
-  new: Nouvelle queue
+  new: Nouvelle file d'attente
   title: Files de messages
