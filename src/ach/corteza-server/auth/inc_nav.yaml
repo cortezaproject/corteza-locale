@@ -1,7 +1,7 @@
 template:
-  authorize-client: crwdns181651:0crwdne181651:0
+  authorize-client: crwdns182628:0crwdne182628:0
   class:
-    your-profile: crwdns181653:0crwdne181653:0
-    security: crwdns181655:0crwdne181655:0
-    login-session: crwdns181657:0crwdne181657:0
-    authorized-clients: crwdns181659:0crwdne181659:0
+    your-profile: crwdns182630:0crwdne182630:0
+    security: crwdns182632:0crwdne182632:0
+    login-session: crwdns182634:0crwdne182634:0
+    authorized-clients: crwdns182636:0crwdne182636:0
