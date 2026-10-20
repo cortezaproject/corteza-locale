@@ -1,57 +1,57 @@
 editor:
   generate:
-    body: 'crwdns171581:0{{ userLabel }}crwdne171581:0'
-    description: crwdns171583:0crwdne171583:0
-    hello: crwdns171585:0crwdne171585:0
-    invitation: crwdns171587:0crwdne171587:0
-    kindRegards: crwdns171589:0crwdne171589:0
-    notGenerated: crwdns171591:0crwdne171591:0
-    sendEmail: crwdns171593:0crwdne171593:0
-    subject: 'crwdns171595:0crwdne171595:0'
-  generateUri: crwdns171597:0crwdne171597:0
+    body: 'crwdns184248:0{{ userLabel }}crwdne184248:0'
+    description: crwdns184250:0crwdne184250:0
+    hello: crwdns184252:0crwdne184252:0
+    invitation: crwdns184254:0crwdne184254:0
+    kindRegards: crwdns184256:0crwdne184256:0
+    notGenerated: crwdns184258:0crwdne184258:0
+    sendEmail: crwdns184260:0crwdne184260:0
+    subject: 'crwdns184262:0crwdne184262:0'
+  generateUri: crwdns184264:0crwdne184264:0
   info:
-    delete: crwdns171603:0crwdne171603:0
-    email: crwdns171607:0crwdne171607:0
-    enabled: crwdns171609:0crwdne171609:0
-    name: crwdns171611:0crwdne171611:0
-    status: crwdns171613:0crwdne171613:0
+    delete: crwdns184266:0crwdne184266:0
+    email: crwdns184268:0crwdne184268:0
+    enabled: crwdns184270:0crwdne184270:0
+    name: crwdns184272:0crwdne184272:0
+    status: crwdns184274:0crwdne184274:0
     tags:
-      label: crwdns171615:0crwdne171615:0
-      placeholder: crwdns171617:0crwdne171617:0
-    title: crwdns171619:0crwdne171619:0
-    undelete: crwdns171621:0crwdne171621:0
-    url: crwdns171625:0crwdne171625:0
+      label: crwdns184276:0crwdne184276:0
+      placeholder: crwdns184278:0crwdne184278:0
+    title: crwdns184280:0crwdne184280:0
+    undelete: crwdns184282:0crwdne184282:0
+    url: crwdns184284:0crwdne184284:0
   title:
-    create: crwdns171627:0crwdne171627:0
-    edit: crwdns171629:0crwdne171629:0
+    create: crwdns184286:0crwdne184286:0
+    edit: crwdns184288:0crwdne184288:0
 list:
   columns:
-    actions: "crwdns171631:0crwdne171631:0"
-    createdAt: crwdns171633:0crwdne171633:0
-    enabled: crwdns171635:0crwdne171635:0
-    name: crwdns171637:0crwdne171637:0
-    status: crwdns171639:0crwdne171639:0
-    tags: "crwdns171641:0crwdne171641:0"
+    actions: "crwdns184290:0crwdne184290:0"
+    createdAt: crwdns184292:0crwdne184292:0
+    enabled: crwdns184294:0crwdne184294:0
+    name: crwdns184296:0crwdne184296:0
+    status: crwdns184298:0crwdne184298:0
+    tags: "crwdns184300:0crwdne184300:0"
   filterForm:
     query:
-      label: crwdns171643:0crwdne171643:0
-      placeholder: crwdns171645:0crwdne171645:0
-  loading: crwdns171647:0crwdne171647:0
-  new: crwdns171649:0crwdne171649:0
+      label: crwdns184302:0crwdne184302:0
+      placeholder: crwdns184304:0crwdne184304:0
+  loading: crwdns184306:0crwdne184306:0
+  new: crwdns184308:0crwdne184308:0
   pair:
-    confirm: crwdns171655:0crwdne171655:0
-    label: crwdns171657:0crwdne171657:0
-    networkEstablished: crwdns171659:0crwdne171659:0
-    note: 'crwdns171661:0crwdne171661:0'
+    confirm: crwdns184310:0crwdne184310:0
+    label: crwdns184312:0crwdne184312:0
+    networkEstablished: crwdns184314:0crwdne184314:0
+    note: 'crwdns184316:0crwdne184316:0'
     status:
       confirmPending:
         description: |-
-          crwdns171663:0{{ email }}crwdnd171663:0{{ name }}crwdne171663:0
+          crwdns184318:0{{ email }}crwdnd184318:0{{ name }}crwdne184318:0
         descriptionNoMail: |-
-          crwdns171665:0{{ name }}crwdne171665:0
+          crwdns184320:0{{ name }}crwdne184320:0
       none:
-        description: crwdns171667:0crwdne171667:0
+        description: crwdns184322:0crwdne184322:0
       pending:
-        description: crwdns171669:0crwdne171669:0
-  title: crwdns171671:0crwdne171671:0
-  yaml: crwdns171673:0crwdne171673:0
+        description: crwdns184324:0crwdne184324:0
+  title: crwdns184326:0crwdne184326:0
+  yaml: crwdns184328:0crwdne184328:0
