@@ -181,7 +181,7 @@ kind:
     suggestionPlaceholder: Commencez à taper pour rechercher des utilisateurs par e-mail ou par nom
     roles:
       label: Rôles utilisateur
-      placeholder: Filtrer par rôles utilisateur
+      placeholder: Filtrez par rôles utilisateur
   geometry:
     label: Localisation
     latitude: Latitude
