@@ -1,37 +1,4 @@
 label:
-  add: Добавить
   general:
     yes: Yes
     no: No
-  template:
-    plural: Шаблоны
-  user:
-    single: Пользователь
-    plural: Пользователи
-  role:
-    plural: Роль
-  application:
-    plural: Приложения
-  queue:
-    plural: Очередь сообщений
-  session:
-    single: Сессия
-    plural: Сессия
-  workflow:
-    plural: Бизнес-процесс
-  plus-add: + Добавить
-  all: Все
-  none: Нет
-  today: Сегодня
-  requests: Запросы
-  loading: Загрузка
-  saveAndClose: Сохранить и закрыть
-  cancel: Отменить
-  submit: Применить
-  delete: Удалить
-  undelete: Восстановить
-  fileTypeNotAllowed: Недопустимый тип файла
-themes:
-  labels:
-    light: Светлая
-    dark: Темная
