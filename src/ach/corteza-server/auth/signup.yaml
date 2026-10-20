@@ -1,23 +1,23 @@
 template:
-  title: crwdns181735:0crwdne181735:0
+  title: crwdns182902:0crwdne182902:0
   form:
     email:
-      label: crwdns181737:0crwdne181737:0
-      placeholder: crwdns181739:0crwdne181739:0
+      label: crwdns182904:0crwdne182904:0
+      placeholder: crwdns182906:0crwdne182906:0
     password:
-      label: crwdns181741:0crwdne181741:0
-      placeholder: crwdns181743:0crwdne181743:0
+      label: crwdns182908:0crwdne182908:0
+      placeholder: crwdns182910:0crwdne182910:0
     name:
-      label: crwdns181745:0crwdne181745:0
-      placeholder: crwdns181747:0crwdne181747:0
+      label: crwdns182912:0crwdne182912:0
+      placeholder: crwdns182914:0crwdne182914:0
     nickname:
-      label: crwdns181749:0crwdne181749:0
-      placeholder: crwdns181751:0crwdne181751:0
+      label: crwdns182916:0crwdne182916:0
+      placeholder: crwdns182918:0crwdne182918:0
     button:
-      sign-up: crwdns181753:0crwdne181753:0
-  log-in: crwdns181755:0{{link}}crwdne181755:0
+      sign-up: crwdns182920:0crwdne182920:0
+  log-in: crwdns182922:0{{link}}crwdne182922:0
 alerts:
-  signup-successful: crwdns181757:0crwdne181757:0
-  email-confirmed-logged-in: crwdns182047:0crwdne182047:0
-  invalid-expired-token: crwdns181761:0crwdne181761:0
-  signup-disabled: crwdns181763:0crwdne181763:0
+  signup-successful: crwdns182924:0crwdne182924:0
+  email-confirmed-logged-in: crwdns182926:0crwdne182926:0
+  invalid-expired-token: crwdns182928:0crwdne182928:0
+  signup-disabled: crwdns182930:0crwdne182930:0
