@@ -1,10 +1,10 @@
 errors:
-  notAllowedToCreate: crwdns181817:0crwdne181817:0
-  notAllowedToManage: crwdns181819:0crwdne181819:0
-  notAllowedToPair: crwdns181821:0crwdne181821:0
-  notAllowedToSearch: crwdns181823:0crwdne181823:0
-  notFound: crwdns181825:0crwdne181825:0
-  pairingTokenInvalid: crwdns181827:0crwdne181827:0
-  pairingURIInvalid: 'crwdns181829:0{err}crwdne181829:0'
-  pairingURISourceIDInvalid: crwdns181831:0crwdne181831:0
-  pairingURITokenInvalid: crwdns181833:0crwdne181833:0
+  notAllowedToCreate: crwdns183330:0crwdne183330:0
+  notAllowedToManage: crwdns183332:0crwdne183332:0
+  notAllowedToPair: crwdns183334:0crwdne183334:0
+  notAllowedToSearch: crwdns183336:0crwdne183336:0
+  notFound: crwdns183338:0crwdne183338:0
+  pairingTokenInvalid: crwdns183340:0crwdne183340:0
+  pairingURIInvalid: 'crwdns183342:0{err}crwdne183342:0'
+  pairingURISourceIDInvalid: crwdns183344:0crwdne183344:0
+  pairingURITokenInvalid: crwdns183346:0crwdne183346:0
