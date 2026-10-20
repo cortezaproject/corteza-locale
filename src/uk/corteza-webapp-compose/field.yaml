@@ -2,4 +2,26 @@ kind:
   bool:
     checkedValuePlaceholder: Yes
     uncheckedValuePlaceholder: No
+  dateTime:
+    outputFormat: 'Output format:'
+  file:
+    view:
+      mimetypesFootnote: 'MIME types, sepparated with ",". Example: "text/plain,text/csv"'
+      modeFootnote: How files are represented in record page blocks
+  number:
+    examplesLabel: 'Format examples:'
+    formatLabel: Format
+    precisionLabel: Precision
+  record:
+    moduleLabel: Module name
+    modulePlaceholder: Pick module
+    prefilterFootnote: Simplified SQL condition (WHERE ...) syntax is supported. Variables like {{0}}, {{1}} and {{2}} are evaluated (when available)
+  select:
+    optionType:
+      label: Multiple value input type
+selector:
+  available: Columns available
+  selected: Columns selected
+validators:
+  description: Set of expressions and error pairs that test validity of the input value.
 
