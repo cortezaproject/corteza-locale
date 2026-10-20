@@ -1,140 +1,140 @@
 chart:
   configurator:
-    begin-axis-at-zero: crwdns179541:0crwdne179541:0
-    chart-title: crwdns179543:0crwdne179543:0
-    color-scheme: crwdns179545:0crwdne179545:0
-    data: crwdns179547:0crwdne179547:0
-    data-columns: crwdns179549:0crwdne179549:0
-    default: crwdns179551:0crwdne179551:0
-    default-value: crwdns179553:0crwdne179553:0
-    general: crwdns179555:0crwdne179555:0
-    label-column: crwdns179557:0crwdne179557:0
-    logarithmic-scale: crwdns179559:0crwdne179559:0
-    position-description: crwdns179561:0crwdne179561:0
-    none: crwdns179563:0crwdne179563:0
-    place-axis-on-right-side: crwdns179565:0crwdne179565:0
-    skip-missing-values: crwdns179567:0crwdne179567:0
-    step-size: crwdns179569:0crwdne179569:0
+    begin-axis-at-zero: crwdns192644:0crwdne192644:0
+    chart-title: crwdns192646:0crwdne192646:0
+    color-scheme: crwdns192648:0crwdne192648:0
+    data: crwdns192650:0crwdne192650:0
+    data-columns: crwdns192652:0crwdne192652:0
+    default: crwdns192654:0crwdne192654:0
+    default-value: crwdns192656:0crwdne192656:0
+    general: crwdns192658:0crwdne192658:0
+    label-column: crwdns192660:0crwdne192660:0
+    logarithmic-scale: crwdns192662:0crwdne192662:0
+    position-description: crwdns192664:0crwdne192664:0
+    none: crwdns192666:0crwdne192666:0
+    place-axis-on-right-side: crwdns192668:0crwdne192668:0
+    skip-missing-values: crwdns192670:0crwdne192670:0
+    step-size: crwdns192672:0crwdne192672:0
     animation:
-      enabled: crwdns179571:0crwdne179571:0
+      enabled: crwdns192674:0crwdne192674:0
     metrics:
-      label: crwdns179573:0crwdne179573:0
-      field: crwdns179575:0crwdne179575:0
+      label: crwdns192676:0crwdne192676:0
+      field: crwdns192678:0crwdne192678:0
       stack:
-        label: crwdns179577:0crwdne179577:0
-        description: crwdns179579:0crwdne179579:0
+        label: crwdns192680:0crwdne192680:0
+        description: crwdns192682:0crwdne192682:0
       label-field:
-        label: crwdns179581:0crwdne179581:0
+        label: crwdns192684:0crwdne192684:0
     time:
-      label: crwdns179583:0crwdne179583:0
+      label: crwdns192686:0crwdne192686:0
       unit:
-        label: crwdns179585:0crwdne179585:0
+        label: crwdns192688:0crwdne192688:0
         types:
-          date: crwdns179587:0crwdne179587:0
-          month: crwdns179589:0crwdne179589:0
-          quarter: crwdns179591:0crwdne179591:0
-          week: crwdns179593:0crwdne179593:0
-          year: crwdns179595:0crwdne179595:0
-    type: crwdns179597:0crwdne179597:0
+          date: crwdns192690:0crwdne192690:0
+          month: crwdns192692:0crwdne192692:0
+          quarter: crwdns192694:0crwdne192694:0
+          week: crwdns192696:0crwdne192696:0
+          year: crwdns192698:0crwdne192698:0
+    type: crwdns192700:0crwdne192700:0
     types:
-      bar: crwdns179599:0crwdne179599:0
-      doughnut: crwdns179601:0crwdne179601:0
-      funnel: crwdns179603:0crwdne179603:0
-      line: crwdns179605:0crwdne179605:0
-      pie: crwdns179607:0crwdne179607:0
+      bar: crwdns192702:0crwdne192702:0
+      doughnut: crwdns192704:0crwdne192704:0
+      funnel: crwdns192706:0crwdne192706:0
+      line: crwdns192708:0crwdne192708:0
+      pie: crwdns192710:0crwdne192710:0
     value:
-      max: crwdns179609:0crwdne179609:0
-      min: crwdns179611:0crwdne179611:0
+      max: crwdns192712:0crwdne192712:0
+      min: crwdns192714:0crwdne192714:0
     x-axis:
-      name: crwdns179613:0crwdne179613:0
-      label: crwdns179615:0crwdne179615:0
-      type: crwdns179617:0crwdne179617:0
+      name: crwdns192716:0crwdne192716:0
+      label: crwdns192718:0crwdne192718:0
+      type: crwdns192720:0crwdne192720:0
       labelRotation:
-        label: crwdns179619:0crwdne179619:0
+        label: crwdns192722:0crwdne192722:0
     y-axis:
-      name: crwdns179621:0crwdne179621:0
-      label: crwdns179623:0crwdne179623:0
+      name: crwdns192724:0crwdne192724:0
+      label: crwdns192726:0crwdne192726:0
       labelPosition:
-        label: crwdns179625:0crwdne179625:0
-        top: crwdns179627:0crwdne179627:0
-        center: crwdns179629:0crwdne179629:0
-        bottom: crwdns179631:0crwdne179631:0
+        label: crwdns192728:0crwdne192728:0
+        top: crwdns192730:0crwdne192730:0
+        center: crwdns192732:0crwdne192732:0
+        bottom: crwdns192734:0crwdne192734:0
       labelRotation:
-        label: crwdns179633:0crwdne179633:0
+        label: crwdns192736:0crwdne192736:0
     legend:
-      name: crwdns179635:0crwdne179635:0
-      hide: crwdns179637:0crwdne179637:0
-      scrollable: crwdns179639:0crwdne179639:0
+      name: crwdns192738:0crwdne192738:0
+      hide: crwdns192740:0crwdne192740:0
+      scrollable: crwdns192742:0crwdne192742:0
       orientation:
-        label: crwdns179641:0crwdne179641:0
-        horizontal: crwdns179643:0crwdne179643:0
-        vertical: crwdns179645:0crwdne179645:0
+        label: crwdns192744:0crwdne192744:0
+        horizontal: crwdns192746:0crwdne192746:0
+        vertical: crwdns192748:0crwdne192748:0
       align:
-        label: crwdns179647:0crwdne179647:0
-        left: crwdns179649:0crwdne179649:0
-        right: crwdns179651:0crwdne179651:0
-        center: crwdns179653:0crwdne179653:0
+        label: crwdns192750:0crwdne192750:0
+        left: crwdns192752:0crwdne192752:0
+        right: crwdns192754:0crwdne192754:0
+        center: crwdns192756:0crwdne192756:0
       position:
-        description: crwdns179655:0crwdne179655:0
-        default: crwdns179657:0crwdne179657:0
-        top: crwdns179659:0crwdne179659:0
-        right: crwdns179661:0crwdne179661:0
-        bottom: crwdns179663:0crwdne179663:0
-        left: crwdns179665:0crwdne179665:0
+        description: crwdns192758:0crwdne192758:0
+        default: crwdns192760:0crwdne192760:0
+        top: crwdns192762:0crwdne192762:0
+        right: crwdns192764:0crwdne192764:0
+        bottom: crwdns192766:0crwdne192766:0
+        left: crwdns192768:0crwdne192768:0
     tooltips:
-      name: crwdns179667:0crwdne179667:0
+      name: crwdns192770:0crwdne192770:0
       show:
-        always: crwdns179669:0crwdne179669:0
+        always: crwdns192772:0crwdne192772:0
     offset:
-      name: crwdns179671:0crwdne179671:0
-      default: crwdns179673:0crwdne179673:0
-      top: crwdns179675:0crwdne179675:0
-      right: crwdns179677:0crwdne179677:0
-      bottom: crwdns179679:0crwdne179679:0
-      left: crwdns179681:0crwdne179681:0
+      name: crwdns192774:0crwdne192774:0
+      default: crwdns192776:0crwdne192776:0
+      top: crwdns192778:0crwdne192778:0
+      right: crwdns192780:0crwdne192780:0
+      bottom: crwdns192782:0crwdne192782:0
+      left: crwdns192784:0crwdne192784:0
 metric:
   configurator:
     color:
-      background: crwdns179683:0crwdne179683:0
-      text: crwdns179685:0crwdne179685:0
-      picker: crwdns179687:0crwdne179687:0
-    format: crwdns179689:0crwdne179689:0
-    label-column: crwdns179691:0crwdne179691:0
-    none: crwdns179693:0crwdne179693:0
-    prefix: crwdns179695:0crwdne179695:0
-    suffix: crwdns179697:0crwdne179697:0
+      background: crwdns192786:0crwdne192786:0
+      text: crwdns192788:0crwdne192788:0
+      picker: crwdns192790:0crwdne192790:0
+    format: crwdns192792:0crwdne192792:0
+    label-column: crwdns192794:0crwdne192794:0
+    none: crwdns192796:0crwdne192796:0
+    prefix: crwdns192798:0crwdne192798:0
+    suffix: crwdns192800:0crwdne192800:0
 table:
   configurator:
-    general: crwdns179699:0crwdne179699:0
-    data: crwdns179701:0crwdne179701:0
-    columns: crwdns179703:0crwdne179703:0
-    dark: crwdns179705:0crwdne179705:0
-    head-variant: crwdns179707:0crwdne179707:0
-    joined-datasource-handling: crwdns179709:0crwdne179709:0
-    light: crwdns179711:0crwdne179711:0
-    none: crwdns179713:0crwdne179713:0
+    general: crwdns192802:0crwdne192802:0
+    data: crwdns192804:0crwdne192804:0
+    columns: crwdns192806:0crwdne192806:0
+    dark: crwdns192808:0crwdne192808:0
+    head-variant: crwdns192810:0crwdne192810:0
+    joined-datasource-handling: crwdns192812:0crwdne192812:0
+    light: crwdns192814:0crwdne192814:0
+    none: crwdns192816:0crwdne192816:0
     table:
       options:
-        bordered: crwdns179715:0crwdne179715:0
-        borderless: crwdns179717:0crwdne179717:0
-        dark: crwdns179719:0crwdne179719:0
-        fixed: crwdns179721:0crwdne179721:0
-        hover: crwdns179723:0crwdne179723:0
-        label: crwdns179725:0crwdne179725:0
-        no-collapse: crwdns179727:0crwdne179727:0
-        responsive: crwdns179729:0crwdne179729:0
-        small: crwdns179731:0crwdne179731:0
-        striped: crwdns179733:0crwdne179733:0
-      variant: crwdns179735:0crwdne179735:0
+        bordered: crwdns192818:0crwdne192818:0
+        borderless: crwdns192820:0crwdne192820:0
+        dark: crwdns192822:0crwdne192822:0
+        fixed: crwdns192824:0crwdne192824:0
+        hover: crwdns192826:0crwdne192826:0
+        label: crwdns192828:0crwdne192828:0
+        no-collapse: crwdns192830:0crwdne192830:0
+        responsive: crwdns192832:0crwdne192832:0
+        small: crwdns192834:0crwdne192834:0
+        striped: crwdns192836:0crwdne192836:0
+      variant: crwdns192838:0crwdne192838:0
       variants:
-        danger: crwdns179737:0crwdne179737:0
-        dark: crwdns179739:0crwdne179739:0
-        info: crwdns179741:0crwdne179741:0
-        light: crwdns179743:0crwdne179743:0
-        primary: crwdns179745:0crwdne179745:0
-        secondary: crwdns179747:0crwdne179747:0
-        success: crwdns179749:0crwdne179749:0
-        warning: crwdns179751:0crwdne179751:0
+        danger: crwdns192840:0crwdne192840:0
+        dark: crwdns192842:0crwdne192842:0
+        info: crwdns192844:0crwdne192844:0
+        light: crwdns192846:0crwdne192846:0
+        primary: crwdns192848:0crwdne192848:0
+        secondary: crwdns192850:0crwdne192850:0
+        success: crwdns192852:0crwdne192852:0
+        warning: crwdns192854:0crwdne192854:0
   view:
-    next: crwdns179753:0crwdne179753:0
-    previous: crwdns179755:0crwdne179755:0
+    next: crwdns192856:0crwdne192856:0
+    previous: crwdns192858:0crwdne192858:0
