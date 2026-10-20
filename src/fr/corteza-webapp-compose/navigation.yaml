@@ -20,3 +20,19 @@ userSettings:
   profile: Profil
   theme: Thème
 viewPage: Afficher Page
+search:
+  label: Rechercher
+  placeholder: Recherchez des éléments
+  noResults: Aucun résultat trouvé
+  navigate: Naviguer
+  select: Sélectionner
+  close: Fermer
+  notFoundNamespace: Namespace introuvable
+  notFoundPage: Page introuvable
+  recordRedirectError: Erreur lors de la navigation vers l'élément
+  untitledRecord: Élément sans titre
+  recentSearches: Recherches récentes
+  clearHistory: Vider
+  openInNewTab: Ouvrir dans un nouvel onglet
+  numberOfResults_one: "{{count}} élément"
+  numberOfResults_other: "{{count}} éléments"
