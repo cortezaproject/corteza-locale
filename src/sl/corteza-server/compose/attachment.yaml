@@ -1,7 +1,0 @@
-errors:
-  failedToProcessImage: napaka pri procesiranju datoteke
-  invalidID: neveljaven ID
-  invalidModuleID: neveljaven modul ID
-  invalidNamespaceID: neveljaven namespace ID
-  pageNotFound: strani ni mogoče najti
-  recordNotFound: vnosa ni mogoče najti

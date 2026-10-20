@@ -1,5 +1,0 @@
-errors:
-  invalidID: не валідний ID
-  invalidNamespaceID: не валідний або відсутній ID простору імен
-  namespaceNotFound: простір імен не знайдений
-  notAllowedToReadNamespace: не дозволено читати цей простір імен

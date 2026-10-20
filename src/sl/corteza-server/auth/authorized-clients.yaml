@@ -1,6 +1,0 @@
-template:
-  title: Avtorizirani klienti
-  list:
-    authorized-on: Avtoriziran
-    buttons:
-      revoke: Odvzemi dostop

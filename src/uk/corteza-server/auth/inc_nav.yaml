@@ -1,7 +1,0 @@
-template:
-  authorize-client: Завершити авторизацію
-  class:
-    your-profile: Ваш профіль
-    security: Безпека
-    login-session: Сеанси входу
-    authorized-clients: Авторизовані клієнти

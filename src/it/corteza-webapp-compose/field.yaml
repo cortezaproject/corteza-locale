@@ -1,9 +1,0 @@
-kind:
-  bool:
-    checkedValuePlaceholder: Yes
-    uncheckedValuePlaceholder: No
-  number:
-    label: Numero
-    displayType:
-      number: Numero
-

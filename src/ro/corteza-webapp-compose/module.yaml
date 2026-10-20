@@ -1,9 +1,0 @@
-edit:
-  systemFields: 'System fields:'
-  tooltip:
-    name: Must be a-z/A-Z, 0-9 or underscore
-list:
-  columns:
-    handle: Name
-recordPage:
-  edit: Page builder

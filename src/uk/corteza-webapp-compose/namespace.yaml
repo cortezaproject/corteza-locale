@@ -1,7 +1,0 @@
-create: Create new namespace
-enabled:
-  label: Enable on namespace list
-slug:
-  label: Short name *
-title: Low Code Namespaces
-visit: Visit namespace

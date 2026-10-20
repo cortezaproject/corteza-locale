@@ -1,7 +1,0 @@
-editor:
-  roles:
-    count: Roles ({{count}})
-    remove: Odstrani
-list:
-  columns:
-    handle: Name

@@ -1,6 +1,0 @@
-editor:
-  roles:
-    count: Roles ({{count}})
-list:
-  columns:
-    handle: Name

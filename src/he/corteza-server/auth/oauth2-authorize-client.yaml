@@ -1,6 +1,0 @@
-template:
-  form:
-    greeting-paragraph: שלום
-    buttons:
-      allow: אשר
-      deny: דחה

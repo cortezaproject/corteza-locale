@@ -1,8 +1,0 @@
-# Admin "permissions" translation namespace
-# Holds mix of translations for two ui component types:
-#  - inline permission table (admin interface only)
-#  - modal permission table (common perm. interface)
-ui:
-  access:
-    allow: אשר
-    deny: דחה

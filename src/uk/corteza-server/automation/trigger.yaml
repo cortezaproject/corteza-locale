@@ -1,9 +1,0 @@
-errors:
-  invalidID: не валідний ID
-  notAllowedToCreate: не дозволено створювати тригери
-  notAllowedToDelete: не дозволено видаляти цей тригер
-  notAllowedToRead: не дозволено читати цей тригер
-  notAllowedToSearch: не дозволено шукати або читати тригери
-  notAllowedToUndelete: не дозволено відновити цей тригер
-  notAllowedToUpdate: не дозволено оновлювати цей тригер
-  notFound: тригер не знайдений

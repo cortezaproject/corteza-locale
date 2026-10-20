@@ -1,7 +1,0 @@
-editor:
-  code-snippets:
-    table-headers:
-      script: Codice
-    form:
-      code:
-        label: Codice

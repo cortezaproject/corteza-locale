@@ -1,8 +1,0 @@
-errors:
-  handleNotUnique: дескриптор не унікальний
-  invalidHandle: не валідний дескриптор
-  invalidID: не валідний ID
-  invalidNamespaceID: не валідний або відсутній ID простору імен
-  moduleNotFound: модуль не існує
-  namespaceNotFound: простір імен не існує
-  notAllowedToReadNamespace: не дозволено читати цей простір імен

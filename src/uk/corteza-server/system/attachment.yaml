@@ -1,9 +1,0 @@
-errors:
-  failedToExtractMimeType: неможливо витягнути тип mime
-  failedToProcessImage: не вдалося обробити зображення
-  failedToStoreFile: неможливо витягнути файл сховища
-  invalidID: не валідний ID
-  notAllowedToCreate: не дозволено створювати вкладення
-  notAllowedToCreateEmptyAttachment: не дозволено створювати пусті вкладення
-  notAllowedToListAttachments: не дозволено читати список вкладень
-  notFound: вкладення не знайдене

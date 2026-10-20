@@ -1,5 +1,0 @@
-template:
-  title: Вимкніть двофакторну аутентифікацію за допомогою TOTP
-  instructions: Disable by entering existing code.
-  button:
-    remove: Видалити

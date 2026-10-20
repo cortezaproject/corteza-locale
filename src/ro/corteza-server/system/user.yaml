@@ -1,4 +1,0 @@
-errors:
-  invalidEmail: Invalid email! {{resource}}
-  invalidHandle: identificator invalid
-  invalidID: ID invalid

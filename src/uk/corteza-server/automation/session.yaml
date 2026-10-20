@@ -1,7 +1,0 @@
-errors:
-  invalidID: не валідний ID
-  notAllowedToDelete: не дозволено видаляти цю сесію
-  notAllowedToManage: не дозволено управляти робочим процесом сесії
-  notAllowedToRead: не дозволено читати цю сесію
-  notAllowedToSearch: не дозволено шукати або читати список сесій
-  notFound: сесія не знайдена

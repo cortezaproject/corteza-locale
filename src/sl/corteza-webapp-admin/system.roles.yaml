@@ -1,8 +1,0 @@
-editor:
-  info:
-    name: Role name
-  new: New
-list:
-  columns:
-    handle: Name
-  new: New

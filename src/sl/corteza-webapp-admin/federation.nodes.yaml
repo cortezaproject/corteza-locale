@@ -1,9 +1,0 @@
-editor:
-  info:
-    name: Server name
-    url: Server URL
-list:
-  loading: Loading servers
-  new: New
-  pair:
-    label: Pair Federation Node

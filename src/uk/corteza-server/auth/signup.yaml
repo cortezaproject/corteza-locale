@@ -1,7 +1,0 @@
-template:
-  form:
-    password:
-      label: Пароль
-  log-in: Already have an account? <a href="{{link}}">Log in</a>
-alerts:
-  signup-successful: Sign-up successful.

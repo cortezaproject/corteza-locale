@@ -1,8 +1,0 @@
-template:
-  title: הפרופיל שלך
-  form:
-    name:
-      label: שם מלא
-      placeholder: השם המלא שלך
-    handle:
-      placeholder: כינוי

@@ -1,9 +1,0 @@
-editor:
-  info:
-    meta:
-      short: Short name
-  new: New
-list:
-  columns:
-    handle: Name
-  new: New

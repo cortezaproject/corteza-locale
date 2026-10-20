@@ -1,5 +1,0 @@
-errors:
-  handleNotUnique: дескриптор не унікальний
-  invalidEmail: Invalid email! {{resource}}
-  invalidHandle: не валідний дескриптор
-  invalidID: не валідний ID

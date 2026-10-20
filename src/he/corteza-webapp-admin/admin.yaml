@@ -1,7 +1,0 @@
-automation:
-  edit:
-    codeTabLabel: קוד
-    securityLabel: אבטחה
-general:
-  label:
-    submit: שלח

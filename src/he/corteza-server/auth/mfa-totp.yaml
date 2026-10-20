@@ -1,6 +1,0 @@
-template:
-  form:
-    button: שלח
-alerts:
-  text-MFA-enabled: אימות דו שלבי עם TOTP
-  text-MFA-disabled: אימות דו שלבי ללא TOTP

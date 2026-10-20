@@ -1,5 +1,0 @@
-template:
-  form:
-    password:
-      label: Hasło
-      placeholder: Hasło

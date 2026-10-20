@@ -1,6 +1,0 @@
-template:
-  form:
-    email:
-      resend-confirmation-link: Email is not verified, <a href="{{link}}?resend">resend confirmation link.</a>
-alerts:
-  profile-updated: Profile successfully updated.

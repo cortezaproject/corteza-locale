@@ -1,5 +1,0 @@
-template:
-  form:
-    password:
-      label: Wachtwoord
-      placeholder: Wachtwoord

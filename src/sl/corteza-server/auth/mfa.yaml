@@ -1,6 +1,0 @@
-template:
-  email:
-    verify: Potrdi
-    resend: Pošlji ponovno
-  totp:
-    code: Koda

@@ -1,7 +1,0 @@
-kind:
-  bool:
-    checkedValuePlaceholder: Yes
-    uncheckedValuePlaceholder: No
-  select:
-    optionRemove: Weghalen
-

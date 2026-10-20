@@ -1,3 +1,0 @@
-template:
-  log-out: Odjava uspešna.
-  log-in: Klikni tukaj za <a href="{{link}}">prijavo</a>.

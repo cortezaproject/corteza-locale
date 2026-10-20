@@ -1,7 +1,0 @@
-editor:
-  auth:
-    mfa:
-      title: אימות רב שלבי
-  external:
-    security:
-      title: אבטחה

@@ -1,9 +1,0 @@
-calendar:
-  today: היום
-recordList:
-  export:
-    filter:
-      today: היום
-comment:
-  submit: שלח
-  today: היום
