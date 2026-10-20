@@ -1,40 +1,40 @@
 editor:
-  new: crwdns171831:0crwdne171831:0
+  new: crwdns186560:0crwdne186560:0
   title:
-    create: crwdns171833:0crwdne171833:0
-    edit: crwdns171835:0crwdne171835:0
+    create: crwdns186562:0crwdne186562:0
+    edit: crwdns186564:0crwdne186564:0
   info:
-    title: crwdns171837:0crwdne171837:0
+    title: crwdns186566:0crwdne186566:0
     handle:
-      label: crwdns171839:0crwdne171839:0
-      placeholder: crwdns171841:0crwdne171841:0
-      invalid-characters: crwdns171843:0crwdne171843:0
-    name: crwdns171845:0crwdne171845:0
-    description: crwdns171847:0crwdne171847:0
-    level: crwdns171849:0{{level}}crwdne171849:0
-    delete: crwdns171855:0crwdne171855:0
-    undelete: crwdns171859:0crwdne171859:0
+      label: crwdns186568:0crwdne186568:0
+      placeholder: crwdns186570:0crwdne186570:0
+      invalid-characters: crwdns186572:0crwdne186572:0
+    name: crwdns186574:0crwdne186574:0
+    description: crwdns186576:0crwdne186576:0
+    level: crwdns186578:0{{level}}crwdne186578:0
+    delete: crwdns186580:0crwdne186580:0
+    undelete: crwdns186582:0crwdne186582:0
 list:
-  title: crwdns171863:0crwdne171863:0
-  loading: crwdns171865:0crwdne171865:0
-  new: crwdns171867:0crwdne171867:0
+  title: crwdns186584:0crwdne186584:0
+  loading: crwdns186586:0crwdne186586:0
+  new: crwdns186588:0crwdne186588:0
   columns:
-    actions: 'crwdns171869:0crwdne171869:0'
-    'meta.name': crwdns171871:0crwdne171871:0
-    level: crwdns171873:0crwdne171873:0
-    createdAt: crwdns171875:0crwdne171875:0
-    state: crwdns171877:0crwdne171877:0
-  delete: crwdns171879:0crwdne171879:0
-  undelete: crwdns171881:0crwdne171881:0
+    actions: 'crwdns186590:0crwdne186590:0'
+    'meta.name': crwdns186592:0crwdne186592:0
+    level: crwdns186594:0crwdne186594:0
+    createdAt: crwdns186596:0crwdne186596:0
+    state: crwdns186598:0crwdne186598:0
+  delete: crwdns186600:0crwdne186600:0
+  undelete: crwdns186602:0crwdne186602:0
   rows:
     filters:
-      deleted: crwdns171883:0crwdne171883:0
+      deleted: crwdns186604:0crwdne186604:0
   filterForm:
     deleted:
-      label: crwdns171885:0crwdne171885:0
+      label: crwdns186606:0crwdne186606:0
     excluded:
-      label: crwdns171887:0crwdne171887:0
+      label: crwdns186608:0crwdne186608:0
     exclusive:
-      label: crwdns171889:0crwdne171889:0
+      label: crwdns186610:0crwdne186610:0
     inclusive:
-      label: crwdns171891:0crwdne171891:0
+      label: crwdns186612:0crwdne186612:0
