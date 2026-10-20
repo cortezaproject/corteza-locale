@@ -140,6 +140,12 @@ content:
   ok: Ok
   label: Contenu
   urlPlaceholder: https://example.tld
+  emojiPicker:
+    search: Rechercher
+    searchResults: Résultats de recherche
+    frequentlyUsed: Utilisés fréquemment
+    noResults: Aucun émoji trouvé
+    quickReactions: Réactions rapides
 file:
   label: Fichier
   preview:
@@ -359,6 +365,8 @@ recordList:
     filter:
       label: Filtre de données détaillées
   tooltip:
+    saveChanges: Enregistrer changements
+    discardChanges: Abandonner changements
     deleteSelected: Supprimer l'élément sélectionné
     performance:
       impact: Cette fonction impactera les performances
@@ -412,6 +420,7 @@ recordList:
     selection: Éléments sélectionnés
     specifyTimezone: Exporter à un fuseau horaire
     timezonePlaceholder: Sélectionnez un fuseau horaire
+    includeRefID: Inclure l'ID de référence dans une colonne séparée
     datePresetUndefined: Préréglage de date inconnu
   federated: Fédéré
   fields: Champs de module
@@ -421,8 +430,8 @@ recordList:
     addFilterToPreset: Enregistrer comme préréglage
     nil: "NULL"
     conditions:
-      and: AND
-      or: OR
+      and: ET
+      or: OU
     operatorLabels:
       is: est
       equal: est égal
@@ -492,6 +501,7 @@ recordList:
     onErrorSkip: Ignorer élément
     pickModuleField: Choisissez un champ de module
     importing: Importation d'éléments
+    startFailed: Échec du démarrage de l'import
     success: Importation réussie
     to: Import dans {{modulename}}
     uploadFile: Téléverser le fichier à importer (format .csv ou .zip)
@@ -594,6 +604,9 @@ recordList:
     searchableFields: Champs recherchables
     searchableFieldsFootnote: Si aucun champ n'est sélectionné, la recherche sera effectuée sur tous les champs visibles disponibles
     configureSearchableFields: Sélectionnez les champs qui seront utilisés pour la recherche
+    searchSubmitMode: Soumission de la recherche
+    searchOnSubmit: À la soumission (Entrer ou clique)
+    searchOnType: Après la frappe
     openInSameTab: Ouvrir élément dans le même onglet
     openInNewTab: Ouvrir élément dans un nouvel onglet
     openInModal: Ouvrir élément dans une fenêtre
@@ -769,7 +782,7 @@ comment:
     placeholder: Titre
   content:
     placeholder: Rédigez votre message ici ...
-  submit: Envoyer
+  submit: Soumettre
   noComments: Aucun commentaire pour le moment
   load:
     older: Charger anciens commentaires
@@ -785,12 +798,21 @@ comment:
   attachmentField:
     label: Champ de pièce jointe
     footnote: Champ utiliser pour stocker les pièces jointes de commentaire
+  reactionsField:
+    label: Champ de réactions
+    footnote: Champ utilisé pour stocker les réactions de commentaire
   today: Aujourd'hui
   yesterday: Hier
   tooltip:
     reply: Répondre
     edit: Éditer
     attach: Joindre un fichier
+  emojiPicker:
+    search: Rechercher
+    searchResults: Résultats de recherche
+    frequentlyUsed: Utilisés fréquemment
+    noResults: Aucun émoji trouvé
+    quickReactions: Réactions rapides
 navigation:
   chart: Graphiques
   colorPicker: Choisissez une couleur
@@ -981,6 +1003,9 @@ tabs:
         label: Titre
       block:
         label: Bloc
+      lazy:
+        label: Chargement paresseux
+        tooltip: "Lorsque activé, l'onglet ne sera affiché que lors de sa première activation.\n"
   tooltip:
     edit: Éditer bloc
     clone: Cloner bloc et onglet
