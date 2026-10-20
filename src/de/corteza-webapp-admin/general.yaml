@@ -1,40 +1,4 @@
 label:
-  add: + Hinzufügen
   general:
     yes: Yes
     no: No
-  template:
-    plural: Templates
-  user:
-    single: User
-    plural: Users
-  role:
-    plural: Roles
-  application:
-    plural: Applications
-  queue:
-    plural: Message Queues
-  route:
-    plural: API Gateway
-  session:
-    single: Sitzung
-    plural: Sitzungen
-  workflow:
-    single: Workflow
-    plural: Workflows
-  plus-add: + Hinzufügen
-  all: Alle
-  none: Kein
-  today: Heute
-  routes: API Gateway
-  loading: Lade
-  saveAndClose: Speichern und schließen
-  cancel: Abbrechen
-  submit: Absenden
-  delete: Löschen
-  undelete: Wiederherstellen
-  fileTypeNotAllowed: Dateityp nicht erlaubt
-themes:
-  labels:
-    light: Hell
-    dark: Dunkel
