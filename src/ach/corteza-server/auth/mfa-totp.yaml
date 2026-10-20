@@ -1,18 +1,18 @@
 template:
-  title: crwdns181513:0crwdne181513:0
+  title: crwdns182690:0crwdne182690:0
   enforced: |
-    crwdns181515:0crwdne181515:0
+    crwdns182692:0crwdne182692:0
   instructions: |
-    crwdns181517:0crwdne181517:0
-  lastpass: crwdns181519:0{{ link }}crwdne181519:0
-  gauth: crwdns181521:0{{ android }}crwdnd181521:0{{ iphone }}crwdne181521:0
-  authy: crwdns181523:0{{ link }}crwdne181523:0
+    crwdns182694:0crwdne182694:0
+  lastpass: crwdns182696:0{{ link }}crwdne182696:0
+  gauth: crwdns182698:0{{ android }}crwdnd182698:0{{ iphone }}crwdne182698:0
+  authy: crwdns182700:0{{ link }}crwdne182700:0
   form:
-    title: "crwdns181525:0crwdne181525:0"
-    button: crwdns181527:0crwdne181527:0
+    title: "crwdns182702:0crwdne182702:0"
+    button: crwdns182704:0crwdne182704:0
 alerts:
-  text-MFA-enabled: crwdns181529:0crwdne181529:0
-  text-MFA-disabled: crwdns181531:0crwdne181531:0
+  text-MFA-enabled: crwdns182706:0crwdne182706:0
+  text-MFA-disabled: crwdns182708:0crwdne182708:0
 errors:
-  invalid-code-format: "crwdns181533:0crwdne181533:0"
-  invalid-code: "crwdns181535:0crwdne181535:0"
+  invalid-code-format: "crwdns182710:0crwdne182710:0"
+  invalid-code: "crwdns182712:0crwdne182712:0"
