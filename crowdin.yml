@@ -9,3 +9,4 @@ files:
     preserve_hierarchy: true
     export_only_approved: true
     skip_untranslated_files: true
+    excluded_target_languages: [ach]
