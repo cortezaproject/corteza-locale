@@ -1,0 +1,39 @@
+editor:
+  info:
+    id: ID
+    delete: حذف
+    placeholder-handle: المعرف (a - z, 0 - 9, _, -)
+    handle: المعرف
+    title: معلومات مبدئية
+    undelete: استعادة
+  permissions: الصلاحيات
+  roles:
+    add: أضف
+    count: ادوار
+    remove: الغاء
+    unnamed: دور بدون اسم
+list:
+  columns:
+    createdAt: تم انشائه
+    handle: المعرف
+  delete: حذف
+  undelete: استعادة
+  export: تصدير
+  rows:
+    filters:
+      deleted: محذوف
+  filterForm:
+    deleted:
+      label: المستخدمين المحذوفين
+    excluded:
+      label: بدون
+    exclusive:
+      label: فقط
+    inclusive:
+      label: يشمل
+  permissions: الصلاحيات
+export:
+  buttonLabel: تصدير
+  export: تصدير
+import:
+  buttonLabel: استيراد
