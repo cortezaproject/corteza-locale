@@ -1,19 +1,19 @@
-federated: crwdns178683:0crwdne178683:0
-no-values: crwdns178685:0crwdne178685:0
+federated: crwdns191864:0crwdne191864:0
+no-values: crwdns191866:0crwdne191866:0
 label:
-  all: crwdns178687:0crwdne178687:0
+  all: crwdns191868:0crwdne191868:0
 resourceList:
   pagination:
-    recordsPerPage: crwdns178689:0crwdne178689:0
+    recordsPerPage: crwdns191870:0crwdne191870:0
 themes:
   labels:
-    light: crwdns178691:0crwdne178691:0
-    dark: crwdns178693:0crwdne178693:0
+    light: crwdns191872:0crwdne191872:0
+    dark: crwdns191874:0crwdne191874:0
 extendSession:
   labels:
-    extend: crwdns178695:0crwdne178695:0
-    warning: crwdns178697:0{{ countdownTime }}crwdne178697:0
-recordID: crwdns178699:0crwdne178699:0
-createdBy: crwdns178701:0crwdne178701:0
-createdAt: crwdns178703:0crwdne178703:0
-updatedAt: crwdns178705:0crwdne178705:0
+    extend: crwdns191876:0crwdne191876:0
+    warning: crwdns191878:0{{ countdownTime }}crwdne191878:0
+recordID: crwdns191880:0crwdne191880:0
+createdBy: crwdns191882:0crwdne191882:0
+createdAt: crwdns191884:0crwdne191884:0
+updatedAt: crwdns191886:0crwdne191886:0
