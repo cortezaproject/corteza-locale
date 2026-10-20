@@ -9,6 +9,7 @@ ui:
       success: Oprávnění uložena
       failed: Uložení oprávnění selhalo
   edit:
+    title: Editace oprávnění
     label: Role uživatelů
     description: Vyberte role k nastavení oprávnění
   evaluate:
