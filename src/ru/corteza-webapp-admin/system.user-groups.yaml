@@ -1,0 +1,39 @@
+editor:
+  info:
+    id: ID
+    delete: Удалить
+    placeholder-handle: Может включать в себя (а - z, 0 - 9, подчеркивание, тире)
+    handle: Управлять
+    title: Базовая информация
+    undelete: Восстановить
+  permissions: Разрешения
+  roles:
+    add: Добавить
+    count: роль
+    remove: Удалить
+    unnamed: Неизвестная роль
+list:
+  columns:
+    createdAt: Создать
+    handle: Указатель
+  delete: Удалить
+  undelete: Восстановить
+  export: Экспорт
+  rows:
+    filters:
+      deleted: Удалить
+  filterForm:
+    deleted:
+      label: удалить пользователя
+    excluded:
+      label: Without
+    exclusive:
+      label: Единственный
+    inclusive:
+      label: Включая
+  permissions: Разрешения
+export:
+  buttonLabel: Экспорт
+  export: Экспорт
+import:
+  buttonLabel: Импорт
