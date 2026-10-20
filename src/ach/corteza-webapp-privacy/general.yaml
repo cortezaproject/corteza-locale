@@ -1,30 +1,30 @@
 label:
-  back: crwdns178959:0crwdne178959:0
-  all: crwdns178961:0crwdne178961:0
+  back: crwdns192200:0crwdne192200:0
+  all: crwdns192202:0crwdne192202:0
   privacy_request:
-    single: crwdns178963:0crwdne178963:0
-    plural: crwdns178965:0crwdne178965:0
+    single: crwdns192204:0crwdne192204:0
+    plural: crwdns192206:0crwdne192206:0
   sensitive_module:
-    single: crwdns178967:0crwdne178967:0
-    plural: crwdns178969:0crwdne178969:0
+    single: crwdns192208:0crwdne192208:0
+    plural: crwdns192210:0crwdne192210:0
 resourceList:
-  loading: crwdns178971:0crwdne178971:0
-  noItems: crwdns178973:0crwdne178973:0
-  notFound: crwdns178975:0crwdne178975:0
+  loading: crwdns192212:0crwdne192212:0
+  noItems: crwdns192214:0crwdne192214:0
+  notFound: crwdns192216:0crwdne192216:0
   search:
-    placeholder: crwdns178977:0crwdne178977:0
+    placeholder: crwdns192218:0crwdne192218:0
   pagination:
-    next: crwdns178979:0crwdne178979:0
-    prev: crwdns178981:0crwdne178981:0
-    showing: 'crwdns178983:0{{from}}crwdnd178983:0{{to}}crwdnd178983:0{{count}}crwdnd178983:0{{data}}crwdne178983:0'
-    single_one: 'crwdns178985:0{{data}}crwdne178985:0'
-    single_plural: 'crwdns178987:0{{count}}crwdnd178987:0{{data}}crwdne178987:0'
-    recordsPerPage: crwdns178989:0crwdne178989:0
+    next: crwdns192220:0crwdne192220:0
+    prev: crwdns192222:0crwdne192222:0
+    showing: 'crwdns192224:0{{from}}crwdnd192224:0{{to}}crwdnd192224:0{{count}}crwdnd192224:0{{data}}crwdne192224:0'
+    single_one: 'crwdns192226:0{{data}}crwdne192226:0'
+    single_plural: 'crwdns192228:0{{count}}crwdnd192228:0{{data}}crwdne192228:0'
+    recordsPerPage: crwdns192230:0crwdne192230:0
 themes:
   labels:
-    light: crwdns178991:0crwdne178991:0
-    dark: crwdns178993:0crwdne178993:0
+    light: crwdns192232:0crwdne192232:0
+    dark: crwdns192234:0crwdne192234:0
 extendSession:
   labels:
-    extend: crwdns178995:0crwdne178995:0
-    warning: crwdns178997:0{{ countdownTime }}crwdne178997:0
+    extend: crwdns192236:0crwdne192236:0
+    warning: crwdns192238:0{{ countdownTime }}crwdne192238:0
