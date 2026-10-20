@@ -1,12 +1,10 @@
-appMenu: Menu
 help:
-  documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
+  documentation: Documentație
+  feedback: Trimite părere
+  forum: Ajutor
+  version: 'Versiune:'
 userSettings:
-  changePassword: Change password
-  loggedInAs: Logged in as {{user}}
-  logout: Logout
-  profile: Profile
-  theme: Theme
+  changePassword: Modificare parolă
+  loggedInAs: Conectat ca și {{user}}
+  logout: Deconectare
+  profile: Profil
