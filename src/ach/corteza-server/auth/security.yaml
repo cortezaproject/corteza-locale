@@ -1,23 +1,23 @@
 template:
-  title: crwdns181695:0crwdne181695:0
+  title: crwdns182836:0crwdne182836:0
   password:
-    title: crwdns181697:0crwdne181697:0
-    change-link: crwdns181699:0crwdne181699:0
+    title: crwdns182838:0crwdne182838:0
+    change-link: crwdns182840:0crwdne182840:0
   mfa:
-    title: crwdns181701:0crwdne181701:0
+    title: crwdns182842:0crwdne182842:0
     totp:
-      title: crwdns182033:0crwdne182033:0
-      enforced: crwdns182035:0crwdne182035:0
-      configure: crwdns181707:0crwdne181707:0
-      enable: crwdns181709:0crwdne181709:0
-      disable: crwdns181711:0crwdne181711:0
-      enabled: crwdns181713:0crwdne181713:0
-      disabled: crwdns182037:0crwdne182037:0
+      title: crwdns182844:0crwdne182844:0
+      enforced: crwdns182846:0crwdne182846:0
+      configure: crwdns182848:0crwdne182848:0
+      enable: crwdns182850:0crwdne182850:0
+      disable: crwdns182852:0crwdne182852:0
+      enabled: crwdns182854:0crwdne182854:0
+      disabled: crwdns182856:0crwdne182856:0
     email:
-      title: crwdns182039:0crwdne182039:0
-      enforced: crwdns182041:0crwdne182041:0
-      enable: crwdns181721:0crwdne181721:0
-      disable: crwdns181723:0crwdne181723:0
-      enabled: crwdns182043:0crwdne182043:0
-      disabled: crwdns182045:0crwdne182045:0
-    all-disabled: crwdns181729:0crwdne181729:0
+      title: crwdns182858:0crwdne182858:0
+      enforced: crwdns182860:0crwdne182860:0
+      enable: crwdns182862:0crwdne182862:0
+      disable: crwdns182864:0crwdne182864:0
+      enabled: crwdns182866:0crwdne182866:0
+      disabled: crwdns182868:0crwdne182868:0
+    all-disabled: crwdns182870:0crwdne182870:0
