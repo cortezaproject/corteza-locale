@@ -1,105 +1,105 @@
 editor:
-  title: crwdns171893:0crwdne171893:0
+  title: crwdns187198:0crwdne187198:0
   corteza-studio:
-    title: crwdns171895:0crwdne171895:0
-    colorPicker: crwdns171897:0crwdne171897:0
-    sassNotInstalled: crwdns171899:0crwdne171899:0
-    installSassDocs: crwdns171901:0crwdne171901:0
-    custom-css: crwdns171903:0crwdne171903:0
+    title: crwdns187200:0crwdne187200:0
+    colorPicker: crwdns187202:0crwdne187202:0
+    sassNotInstalled: crwdns187204:0crwdne187204:0
+    installSassDocs: crwdns187206:0crwdne187206:0
+    custom-css: crwdns187208:0crwdne187208:0
     mainLogo:
-      title: crwdns171905:0crwdne171905:0
+      title: crwdns187210:0crwdne187210:0
       uploader:
-        instructions: crwdns171907:0crwdne171907:0
-        uploading: crwdns171909:0crwdne171909:0
+        instructions: crwdns187212:0crwdne187212:0
+        uploading: crwdns187214:0crwdne187214:0
     iconLogo:
-      title: crwdns171911:0crwdne171911:0
+      title: crwdns187216:0crwdne187216:0
       uploader:
-        instructions: crwdns171913:0crwdne171913:0
-        uploading: crwdns171915:0crwdne171915:0
+        instructions: crwdns187218:0crwdne187218:0
+        uploading: crwdns187220:0crwdne187220:0
     label:
-      default: crwdns171917:0crwdne171917:0
+      default: crwdns187222:0crwdne187222:0
     tabs:
-      general: crwdns171919:0crwdne171919:0
-      light: crwdns171921:0crwdne171921:0
-      dark: crwdns171923:0crwdne171923:0
+      general: crwdns187224:0crwdne187224:0
+      light: crwdns187226:0crwdne187226:0
+      dark: crwdns187228:0crwdne187228:0
     theme:
       variables:
         white:
-          label: crwdns171925:0crwdne171925:0
-          description: crwdns171927:0crwdne171927:0
+          label: crwdns187230:0crwdne187230:0
+          description: crwdns187232:0crwdne187232:0
         black:
-          label: crwdns171929:0crwdne171929:0
-          description: crwdns171931:0crwdne171931:0
+          label: crwdns187234:0crwdne187234:0
+          description: crwdns187236:0crwdne187236:0
         primary:
-          label: crwdns171933:0crwdne171933:0
-          description: crwdns171935:0crwdne171935:0
+          label: crwdns187238:0crwdne187238:0
+          description: crwdns187240:0crwdne187240:0
         secondary:
-          label: crwdns171937:0crwdne171937:0
-          description: crwdns171939:0crwdne171939:0
+          label: crwdns187242:0crwdne187242:0
+          description: crwdns187244:0crwdne187244:0
         success:
-          label: crwdns171941:0crwdne171941:0
-          description: crwdns171943:0crwdne171943:0
+          label: crwdns187246:0crwdne187246:0
+          description: crwdns187248:0crwdne187248:0
         warning:
-          label: crwdns171945:0crwdne171945:0
-          description: crwdns171947:0crwdne171947:0
+          label: crwdns187250:0crwdne187250:0
+          description: crwdns187252:0crwdne187252:0
         danger:
-          label: crwdns171949:0crwdne171949:0
-          description: crwdns171951:0crwdne171951:0
+          label: crwdns187254:0crwdne187254:0
+          description: crwdns187256:0crwdne187256:0
         light:
-          label: crwdns171953:0crwdne171953:0
-          description: crwdns171955:0crwdne171955:0
+          label: crwdns187258:0crwdne187258:0
+          description: crwdns187260:0crwdne187260:0
         extra-light:
-          label: crwdns171957:0crwdne171957:0
-          description: crwdns171959:0crwdne171959:0
+          label: crwdns187262:0crwdne187262:0
+          description: crwdns187264:0crwdne187264:0
         body-bg:
-          label: crwdns171961:0crwdne171961:0
-          description: crwdns171963:0crwdne171963:0
+          label: crwdns187266:0crwdne187266:0
+          description: crwdns187268:0crwdne187268:0
         sidebar-bg:
-          label: crwdns171965:0crwdne171965:0
-          description: crwdns171967:0crwdne171967:0
+          label: crwdns187270:0crwdne187270:0
+          description: crwdns187272:0crwdne187272:0
         topbar-bg:
-          label: crwdns171969:0crwdne171969:0
-          description: crwdns171971:0crwdne171971:0
+          label: crwdns187274:0crwdne187274:0
+          description: crwdns187276:0crwdne187276:0
   topbar:
-    title: crwdns171973:0crwdne171973:0
-    general: crwdns171975:0crwdne171975:0
+    title: crwdns187278:0crwdne187278:0
+    general: crwdns187280:0crwdne187280:0
     search:
-      hide: crwdns182474:0crwdne182474:0
+      hide: crwdns187282:0crwdne187282:0
     app-selector:
-      hide: crwdns171977:0crwdne171977:0
+      hide: crwdns187284:0crwdne187284:0
     help:
-      title: crwdns171979:0crwdne171979:0
-      hide: crwdns171981:0crwdne171981:0
-      hide-forum-link: crwdns171983:0crwdne171983:0
-      hide-documentation-link: crwdns171985:0crwdne171985:0
-      hide-feedback-link: crwdns171987:0crwdne171987:0
+      title: crwdns187286:0crwdne187286:0
+      hide: crwdns187288:0crwdne187288:0
+      hide-forum-link: crwdns187290:0crwdne187290:0
+      hide-documentation-link: crwdns187292:0crwdne187292:0
+      hide-feedback-link: crwdns187294:0crwdne187294:0
     profile:
-      title: crwdns171989:0crwdne171989:0
-      hide: crwdns171991:0crwdne171991:0
-      hide-profile-link: crwdns171993:0crwdne171993:0
-      hide-change-password-link: crwdns171995:0crwdne171995:0
-      hide-theme-selector: crwdns171997:0crwdne171997:0
+      title: crwdns187296:0crwdne187296:0
+      hide: crwdns187298:0crwdne187298:0
+      hide-profile-link: crwdns187300:0crwdne187300:0
+      hide-change-password-link: crwdns187302:0crwdne187302:0
+      hide-theme-selector: crwdns187304:0crwdne187304:0
     notifications:
-      hide: crwdns171999:0crwdne171999:0
+      hide: crwdns187306:0crwdne187306:0
     drafts:
-      hide: crwdns182305:0crwdne182305:0
+      hide: crwdns187308:0crwdne187308:0
     links:
-      title: crwdns172001:0crwdne172001:0
-      handle: crwdns172003:0crwdne172003:0
-      invalid-handle-characters: crwdns172005:0crwdne172005:0
-      url: crwdns172007:0crwdne172007:0
-      new-tab: crwdns172009:0crwdne172009:0
+      title: crwdns187310:0crwdne187310:0
+      handle: crwdns187312:0crwdne187312:0
+      invalid-handle-characters: crwdns187314:0crwdne187314:0
+      url: crwdns187316:0crwdne187316:0
+      new-tab: crwdns187318:0crwdne187318:0
   theming:
-    title: crwdns182195:0crwdne182195:0
+    title: crwdns187320:0crwdne187320:0
   navigation:
-    title: crwdns182197:0crwdne182197:0
+    title: crwdns187322:0crwdne187322:0
   location:
-    title: crwdns182199:0crwdne182199:0
+    title: crwdns187324:0crwdne187324:0
     geosearch:
-      title: crwdns182201:0crwdne182201:0
+      title: crwdns187326:0crwdne187326:0
       provider:
-        label: crwdns182203:0crwdne182203:0
-        description: crwdns182205:0crwdne182205:0
+        label: crwdns187328:0crwdne187328:0
+        description: crwdns187330:0crwdne187330:0
       apiKey:
-        label: crwdns182207:0crwdne182207:0
-        placeholder: crwdns182209:0crwdne182209:0
+        label: crwdns187332:0crwdne187332:0
+        placeholder: crwdns187334:0crwdne187334:0
