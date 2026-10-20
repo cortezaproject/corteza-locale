@@ -16,6 +16,7 @@ import:
 label:
   all: Vše
   label: Popisek
+  or: Nebo
 loading: Načítání
 name: Jméno
 new-workflow: Nové workflow
@@ -23,6 +24,7 @@ none: Nic
 now: Nyní
 offset: Offset
 permissions: Oprávnění
+reset: Resetovat
 searchPlaceholder: Hledání workflow
 subworkflow: Subworkflow
 subworkflows: Subworkflows

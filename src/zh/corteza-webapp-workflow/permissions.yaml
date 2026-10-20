@@ -1,68 +1,33 @@
 ui:
-  save: Save changes
-  cancel: Cancel
-  set-for: Set permissions for {{target}}
-  loading: Loading permissions
-  label: Permissions
+  save: 儲存變更
+  cancel: 取消
+  set-for: 為{{target}}設定權限
+  loading: 正在載入權限
+  label: 權限管理
   notification:
     save:
-      success: Permissions saved
-      failed: Failed to save permissions
+      success: 權限已儲存
+      failed: 權限儲存失敗
   edit:
-    label: User roles
-    description: Select role to set permissions
+    label: 用戶身分
+    description: 選取身分以設定權限
   evaluate:
-    description: Evaluate applied permissions
+    description: 評估已套用的權限
   add:
-    label: Add
-    title: Evaluate permissions
-    save: Save & Close
+    label: 添加
+    title: 評估權限
+    save: 儲存並關閉
     role:
-      label: Roles
-      placeholder: Select role(s)
+      label: 身分
+      placeholder: 選取身分
     user:
-      label: Users
-      placeholder: Search or select a user
+      label: 用戶
+      placeholder: 查找或選取用戶
   tooltip:
     unknown-context:
-      user: Can not evaluate permission for a user with contextual role on a non-specific resource
-      role: Can not evaluate permission for contextual role on a non-specific resource
+      user: 無法評估非特定資源下具情境身分之用戶的權限
+      role: 無法評估非特定資源下情境身分的權限
   access:
-    allow: Allow
-    inherit: Inherit
-    deny: Deny
-resources:
-  automation:
-    workflow:
-      all: all workflows
-      specific: workflow "{{target}}"
-      tooltip: Workflow permissions
-      operations:
-        delete:
-          description: 'Default: deny'
-          specific: Delete this workflow
-          title: Delete any workflow
-        execute:
-          description: 'Default: deny'
-          specific: Execute this workflow
-          title: Execute any workflow
-        read:
-          description: 'Default: deny'
-          specific: Read this workflow
-          title: Read any workflow
-        sessions.manage:
-          description: 'Default: deny'
-          specific: Manage sessions for this workflow
-          title: Manage all sessions
-        triggers.manage:
-          description: 'Default: deny'
-          specific: Manage triggers for this workflow
-          title: Manage all triggers
-        undelete:
-          description: 'Default: deny'
-          specific: Undelete this workflow
-          title: Undelete any workflow
-        update:
-          description: 'Default: deny'
-          specific: Update this workflow
-          title: Update any workflow
+    allow: 允許
+    inherit: 接續
+    deny: 拒絕

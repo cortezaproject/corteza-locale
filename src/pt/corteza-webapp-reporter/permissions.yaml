@@ -9,6 +9,7 @@ ui:
       success: Permissões salvas
       failed: Falha ao salvar permissões
   edit:
+    title: Editar permissões
     label: Funções do usuário
     description: Selecione a função para definir as permissões
   evaluate:

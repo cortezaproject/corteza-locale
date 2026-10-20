@@ -31,6 +31,8 @@ label:
   delete: Удалить
   undelete: Восстановить
   fileTypeNotAllowed: Недопустимый тип файла
+  uploading: Выгрузка
+  dropFiles: Нажмите или перетащите файлы, чтобы загрузить
 themes:
   labels:
     light: Светлая

@@ -65,7 +65,6 @@ role:
     success: 角色已刪除
     error: 角色刪除失敗
   undelete:
-    success:
     error: 角色還原失敗
   archive:
     success: 角色存檔成功

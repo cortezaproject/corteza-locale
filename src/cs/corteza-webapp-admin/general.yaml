@@ -47,6 +47,8 @@ label:
   delete: Smazat
   undelete: Obnovit smazané
   fileTypeNotAllowed: Nepovolený typ souboru
+  uploading: Nahrávání
+  dropFiles: Přetáhněte sem soubory k nahrání
 editor:
   unsavedChanges: Neuložené změny budou ztraceny. Přejete si odejít z této stránky?
 resourceList:

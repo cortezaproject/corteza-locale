@@ -14,12 +14,14 @@ import:
 label:
   all: الكل
   label: وصف
+  or: أو
 loading: تحميل
 name: اسم
 new-workflow: تشغيل سير العمل
 none: لايوجد
 offset: عوض
 permissions: الصلاحيات
+reset: اعادة تعيين
 searchPlaceholder: بحث سير العمل
 deleted: محذوف
 disabled: معطل

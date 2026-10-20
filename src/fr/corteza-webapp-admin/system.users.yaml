@@ -65,7 +65,7 @@ editor:
   permissions: Permissions
   roles:
     add: Ajouter
-    count: Roles ({{count}})
+    count: rôles
     remove: Supprimer
     title: Appartenance aux rôles
     unnamed: Rôle sans nom

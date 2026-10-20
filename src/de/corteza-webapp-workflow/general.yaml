@@ -15,6 +15,7 @@ name: Name
 new-workflow: Neu
 none: Kein
 permissions: Berechtigungen
+reset: Reset
 searchPlaceholder: Search workflows
 deleted: Gelöscht
 disabled: Deaktivieren

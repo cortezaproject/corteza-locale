@@ -4,7 +4,7 @@ editor:
     enabled: Habilitado
     handle: Identificador
     invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
-    id: IDENTIFICAÇÃO
+    id: ID
     name: Nome *
     openBuilder: Abrir construtor
     title: Informação básica

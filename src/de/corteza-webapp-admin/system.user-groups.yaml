@@ -1,0 +1,36 @@
+editor:
+  info:
+    id: ID
+    delete: Löschen
+    placeholder-handle: Bezeichnung (a - z, 0 - 9, Unterstrich, Bindestrich)
+    handle: Alias
+    title: Grundlegende Informationen
+    undelete: Wiederherstellen
+  permissions: Berechtigungen
+  roles:
+    add: Hinzufügen
+    count: Roles ({{count}})
+    remove: Entfernen
+list:
+  columns:
+    createdAt: Erstellt
+    handle: Name
+  delete: Löschen
+  undelete: Wiederherstellen
+  export: Exportieren
+  rows:
+    filters:
+      deleted: Gelöscht
+  filterForm:
+    excluded:
+      label: Ohne
+    exclusive:
+      label: Nur
+    inclusive:
+      label: Einschließlich
+  permissions: Berechtigungen
+export:
+  buttonLabel: Exportieren
+  export: Exportieren
+import:
+  buttonLabel: Importieren

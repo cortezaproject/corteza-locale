@@ -5,11 +5,11 @@ editor:
     type: Tipo
   info:
     confirmEmail: Confirme o endereço de e-mail
-    id: IDENTIFICAÇÃO
+    id: ID
     delete: Excluir
     email: E-mail *
     handle: Identificador
-    placeholder-handle: identificador (a - z, 0 - 9, sublinhado, hífen)
+    placeholder-handle: identificador único (a — z, 0 – 9, sublinhado, hífen)
     invalid-handle-characters: Deve conter ao menos 2 caracteres. Pode conter apenas letras, números, sublinhado e pontos. Precisa terminar com uma letra ou número
     name: Nome completo
     revokeAllSession: Revogar todas as sessões ativas

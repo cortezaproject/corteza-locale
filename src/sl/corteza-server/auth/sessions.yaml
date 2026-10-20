@@ -1,18 +1,14 @@
 template:
-  title: Your session
+  title: Tvoja seja
   list:
-    current: Current session
-    authorized-on: Authorized on
-    same-machine: This machine
-    ip-address: IP Address
-    same-browser: This browser
-    browser: Browser
-    expires: Expires
-    expired: Expired
-    today: Today
-    tomorrow: In 1 day
-    soon: In {{days}} days
-  delete-all: Logout from everywhere
-alerts:
-  session-deleted: Session deleted
-  delete-sessions-but-current: All but current login sessions deleted
+    current: Trenutna seja
+    authorized-on: Avtoriziran
+    ip-address: IP naslov
+    same-browser: Ta brskalnik
+    browser: Brskalnik
+    expires: Poteče
+    expired: Poteklo
+    today: Danes
+    tomorrow: Čez 1 dan
+    soon: Čez {{days}} dni
+  delete-all: Izbriši vse seje

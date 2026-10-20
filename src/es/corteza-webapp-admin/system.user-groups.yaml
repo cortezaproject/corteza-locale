@@ -1,0 +1,9 @@
+editor:
+  info:
+    id: ID
+    handle: Identificador
+  roles:
+    remove: Eliminar
+list:
+  columns:
+    handle: Identificador

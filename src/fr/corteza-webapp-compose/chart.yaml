@@ -23,7 +23,7 @@ general:
   placeholder:
     name: 'Nom (exemple : "Ventes par mois")'
     handle: Identifiant unique (a - z, 0 - 9, tiret du bas, tiret)
-    invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre
+    invalid-handle-characters: Doit contenir au moins 2 caractères. Ne peut contenir que des lettres, nombres, tirets bas et tirets. Doit se terminer avec une lettre ou un nombre.
 edit:
   animation:
     label: Animation

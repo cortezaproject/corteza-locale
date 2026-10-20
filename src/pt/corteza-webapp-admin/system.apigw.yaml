@@ -47,7 +47,7 @@ editor:
   permissions: Permissões
   info:
     title: Informação básica
-    id: IDENTIFICAÇÃO
+    id: ID
     endpoint: Ponto de extremidade
     method: Método
     description: Descrição

@@ -1,12 +1,10 @@
-appMenu: Menu
 help:
-  documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
+  documentation: Dokumentacija
+  feedback: Pošlji povratno informacijo
+  forum: Pomoč
+  version: 'Verzija:'
 userSettings:
-  changePassword: Change password
-  loggedInAs: Logged in as {{user}}
-  logout: Logout
-  profile: Profile
-  theme: Theme
+  changePassword: Spremeni geslo
+  loggedInAs: Prijavljen kot {{user}}
+  logout: Odjavi
+  profile: Profil

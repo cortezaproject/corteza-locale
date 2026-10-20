@@ -13,4 +13,5 @@ list:
     iterator: مكرر
     security: الأمان
     triggers: مشغل
+  labelMissing: <label missing>
   title: Corredor Scripts

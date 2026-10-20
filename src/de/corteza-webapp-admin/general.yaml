@@ -34,6 +34,8 @@ label:
   delete: Löschen
   undelete: Wiederherstellen
   fileTypeNotAllowed: Dateityp nicht erlaubt
+  uploading: Hochladen
+  dropFiles: Zum Hochladen hier klicken oder Dateien ablegen
 themes:
   labels:
     light: Hell

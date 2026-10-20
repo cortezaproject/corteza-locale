@@ -10,6 +10,9 @@ template:
     <br />
     <br />
     Puedes usar una de las siguientes aplicaciones:
+  lastpass: <a target="_blank" href="{{ link }}">LastPass Authenticator</a>
+  gauth: Google Authenticator para <a target="_blank" href="{{ android }}">Android</a> o <a target="_blank" href="{{ iphone }}">iPhone</a>
+  authy: <a target="_blank" href="{{ link }}">Authy</a>
   form:
     title: "Completa la configuración introduciendo el código de la aplicación de autenticación:"
     button: Enviar

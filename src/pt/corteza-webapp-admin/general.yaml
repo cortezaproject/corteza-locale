@@ -60,7 +60,7 @@ label:
   uploading: Enviando
   dropFiles: Clique ou solte os arquivos aqui para fazer upload
 editor:
-  unsavedChanges: Alterações não salvas serão perdidas. Deseja sair da página?
+  unsavedChanges: As alterações não salvas serão perdidas. Deseja sair da página?
 resourceList:
   pagination:
     recordsPerPage: Por página

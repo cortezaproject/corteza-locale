@@ -1,5 +1,5 @@
 title: Notificações
-empty: Sem notificações
+empty: Nenhuma notificação
 emptyDescription: Você verá notificações aqui quando elas chegarem
 markAllAsRead: Marcar todas como lidas
 markAsRead: Marcar como lido
@@ -17,7 +17,7 @@ unmute: Ativar notificações
 muted: Notificações silenciadas
 unmuted: Notificações ativadas
 markAllAsReadError: Erro ao marcar todas as notificações como lidas
-notificationDeletedError: Erro ao deletar notificação
+notificationDeletedError: Erro ao excluir notificação
 namespaceNotFound: Namespace não encontrado
 pageNotFound: Página não encontrada
 recordNotFound: Registro não encontrado

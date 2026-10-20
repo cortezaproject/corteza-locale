@@ -1,4 +1,6 @@
 label:
+  add: + Adăugare
   general:
     yes: Yes
     no: No
+  delete: Șterge

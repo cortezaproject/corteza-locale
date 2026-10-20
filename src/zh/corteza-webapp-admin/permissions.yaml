@@ -5,5 +5,88 @@
 ui:
   save: 儲存變更
   cancel: 取消
+  set-for: 為{{target}}設定權限
+  loading: 正在載入權限
+  notification:
+    save:
+      success: 權限已儲存
+      failed: 權限儲存失敗
+  edit:
+    label: 用戶身分
+    description: 選取身分以設定權限
+  evaluate:
+    description: 評估已套用的權限
   add:
+    label: 添加
+    title: 評估權限
     save: 儲存並關閉
+    role:
+      label: 身分
+      placeholder: 選取身分
+    user:
+      label: 用戶
+      placeholder: 查找或選取用戶
+  tooltip:
+    unknown-context:
+      user: 無法評估非特定資源下具情境身分之用戶的權限
+      role: 無法評估非特定資源下情境身分的權限
+  access:
+    allow: 允許
+    inherit: 接續
+    deny: 拒絕
+resources:
+  compose:
+    chart:
+      operations:
+        delete:
+          title: 刪除任一表格
+        read:
+          title: 讀取任一表格
+        update:
+          title: 更新任一表格
+    module:
+      operations:
+        delete:
+          title: 刪除任一模組
+        read:
+          title: 讀取任一模組
+        update:
+          title: 更新任一模組
+    namespace:
+      operations:
+        chart.create:
+          title: 在任一 Namespace 中創建表格
+        charts.search:
+          title: 列出並查找任一 Namespace 中的表格
+        delete:
+          title: 刪除任一 Namespace
+        manage:
+          title: 管理任一 Namespace
+        module.create:
+          title: 在任一 Namespace 中建立模組
+        modules.search:
+          title: 列出並查找任一 Namespace 中的模組
+        page.create:
+          title: 在任一 Namespace 中創建頁面
+        pages.search:
+          title: 列出並查找任一 Namespace 中的頁面
+        update:
+          title: 更新任一 Namespace
+        export:
+          title: 匯出任一 Namespace
+    page:
+      operations:
+        delete:
+          title: 刪除任一頁面
+        read:
+          title: 讀取任一頁面
+        update:
+          title: 更新任一頁面
+    page-layout:
+      operations:
+        delete:
+          title: 刪除任一頁面配置
+        read:
+          title: 讀取任一頁面配置
+        update:
+          title: 更新任一頁面配置

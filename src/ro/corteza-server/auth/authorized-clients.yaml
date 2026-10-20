@@ -1,9 +1,9 @@
 template:
-  title: Authorized clients
+  title: Clienți autorizati
   list:
-    authorized-on: Authorized on
+    authorized-on: Autorizat în
     buttons:
-      revoke: Revoke access
-    empty: No authorized clients found
+      revoke: Revocare acces
+    empty: Nici un client autorizat
 alerts:
-  removed: Client authorization removed
+  removed: Autorizarea clientului a fost revocata
