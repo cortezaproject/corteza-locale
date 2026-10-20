@@ -6,6 +6,7 @@ editor:
       page: Pièces jointes de page
       record: Pièces jointes d'élément
       icon: Pièces jointes d'icônes
+      namespace: Pièces jointes du namespace
       type:
         description: 'Types MIME, séparés par des virgules (","). Exemple : "text/plain,text/csv"'
         whitelist: Liste des types de fichiers en liste blanche
@@ -18,7 +19,7 @@ editor:
       hide-namespace-list-link: Cacher lien vers la liste des namespaces
     record-toolbar:
       title: Barre à outil d'élément
-      hide-submit: Cacher le bouton d'envoi
+      hide-submit: Cacher le bouton soumettre
       hide-delete: Cacher le bouton de suppression
       hide-edit: Cacher bouton d'édition
       hide-new: Cacher bouton de création
