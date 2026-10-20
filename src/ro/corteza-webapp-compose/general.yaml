@@ -1,3 +1,17 @@
 label:
+  add: + Adăugare
+  back: Înapoi
+  delete: Șterge
+  multi: Multi value
   no: No
+  save: Salvare
+  updatedAt: '$t(field.system.updatedAt)'
   yes: Yes
+reminder:
+  add: Add a new reminder
+  edit:
+    remindAtLabel: Notify me
+  routesTo: 'Includes link to:'
+fieldKinds:
+  Geometry:
+    label: Geometry
