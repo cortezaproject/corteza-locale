@@ -1,16 +1,15 @@
 errors:
-  handleNotUnique: handle not unique
-  invalidHandle: invalid handle
-  invalidID: invalid ID
-  invalidNamespaceID: invalid or missing namespace ID
-  moduleNotFound: module does not exist
-  namespaceNotFound: namespace does not exist
-  notAllowedToCreate: not allowed to create charts
-  notAllowedToDelete: not allowed to delete this chart
-  notAllowedToRead: not allowed to read this chart
-  notAllowedToReadNamespace: not allowed to read this namespace
-  notAllowedToSearch: not allowed to search or list charts
-  notAllowedToUndelete: not allowed to undelete this chart
-  notAllowedToUpdate: not allowed to update this chart
-  notFound: chart does not exist
-  staleData: stale data
+  handleNotUnique: дескриптор не унікальний
+  invalidHandle: не валідний дескриптор
+  invalidID: не валідний ID
+  invalidNamespaceID: не валідний або відсутній ID простору імен
+  moduleNotFound: модуль не існує
+  namespaceNotFound: простір імен не існує
+  notAllowedToCreate: не дозволено створювати діаграми
+  notAllowedToDelete: не дозволено видаляти цю діаграму
+  notAllowedToRead: не дозволено читати цю діагруму
+  notAllowedToReadNamespace: не дозволено читати цей простір імен
+  notAllowedToSearch: не дозволено шукати або читати список діаграм
+  notAllowedToUndelete: не дозволено відновити цю діаграму
+  notAllowedToUpdate: не дозволено оновлювати цю діаграму
+  notFound: діаграма не існує
