@@ -10,6 +10,9 @@ template:
     سيؤدي هذا إلى تمكين أمان إضافي لحسابك.<br />
     <br />
     يمكنك استخدام أحد التطبيقات التالية:
+  lastpass: <a target="_blank" href="{{ link }}">LastPass تحقق</a>
+  gauth: تحقق قوقل <a target="_blank" href="{{ android }}">أندرويد</a> or <a target="_blank" href="{{ iphone }}">آيفون</a>
+  authy: <a target="_blank" href="{{ link }}">أوثي</a>
   form:
     title: "أكمل الاعداد عن طريق إدخال رمز من تطبيق المصادقة:"
     button: إرسال
