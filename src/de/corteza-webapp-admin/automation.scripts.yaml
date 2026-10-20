@@ -13,4 +13,5 @@ list:
     iterator: Iterator
     security: Sicherheit
     triggers: Trigger
+  labelMissing: <label missing>
   title: Corredor Scripts
