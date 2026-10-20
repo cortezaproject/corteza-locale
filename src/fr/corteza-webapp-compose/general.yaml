@@ -20,7 +20,7 @@ label:
       create: Créer Graphique
   actions: Actions
   active: Actif
-  add: Ajouter
+  add: + Ajouter
   add-with-plus: + Ajouter
   addNew: Ajouter nouveau
   addValue: Ajouter nouvelle valeur
