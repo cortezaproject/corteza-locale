@@ -1,0 +1,41 @@
+editor:
+  info:
+    id: ID
+    delete: Smazat
+    placeholder-handle: identifikátor (a - z, 0 - 9, podtržítko, pomlčka)
+    handle: Identifikátor
+    invalid-handle-characters: Minimální délka je 2 znaky. Může obsahovat pouze písmena, číslice, podtržítka a tečky. Musí končit písmenem nebo číslicí
+    title: Základní informace
+    undelete: Obnovit smazané
+  permissions: Oprávnění
+  roles:
+    add: Přidat
+    count: role
+    remove: Odebrat
+    unnamed: Bezejmenná role
+list:
+  columns:
+    createdAt: Vytvořeno
+    handle: Identifikátor
+  delete: Smazat
+  undelete: Obnovit smazané
+  export: Export
+  rows:
+    filters:
+      deleted: Odstraněno
+  filterForm:
+    deleted:
+      label: smazaní uživatelé
+    excluded:
+      label: Bez
+    exclusive:
+      label: Pouze
+    inclusive:
+      label: Včetně
+  permissions: Oprávnění
+export:
+  buttonLabel: Export
+  export: Export
+import:
+  buttonLabel: Import
+  uploadFilePlaceholder: Pro import klikněte zde nebo přetáhněte soubory
