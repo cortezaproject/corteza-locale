@@ -11,6 +11,9 @@ template:
     <br />
     <br />
     Используйте одного из следующих поставщиков:
+  lastpass: <a target="_blank" href="{{ link }}">LastPass Аутентификация</a>
+  gauth: Google Authenticator для <a target="_blank" href="{{ android }}">Android</a> или <a target="_blank" href="{{ iphone }}">iPhone</a>
+  authy: <a target="_blank" href="{{ link }}">Authy</a>
   form:
     title: "Завершите настройку, введя код из поставщика аутентификатора:"
     button: Применить
