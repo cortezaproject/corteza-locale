@@ -3,6 +3,9 @@ api_token_env: CROWDIN_PERSONAL_TOKEN
 
 base_path: /src/
 
+ignore:
+  - /en/config.yaml
+
 files:
   - source: /en/**/*
     translation: /%two_letters_code%/**/%original_file_name%
