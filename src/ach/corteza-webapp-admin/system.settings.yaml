@@ -1,143 +1,143 @@
 editor:
-  title: crwdns171027:0crwdne171027:0
+  title: crwdns186614:0crwdne186614:0
   auth:
-    title: crwdns171029:0crwdne171029:0
-    url: crwdns171031:0crwdne171031:0
+    title: crwdns186616:0crwdne186616:0
+    url: crwdns186618:0crwdne186618:0
     internal:
-      title: crwdns171033:0crwdne171033:0
-      enabled: crwdns171035:0crwdne171035:0
+      title: crwdns186620:0crwdne186620:0
+      enabled: crwdns186622:0crwdne186622:0
       password-reset:
-        enabled: crwdns171037:0crwdne171037:0
+        enabled: crwdns186624:0crwdne186624:0
       password-constraints:
-        title: crwdns171039:0crwdne171039:0
-        ignored-security: crwdns171041:0crwdne171041:0
-        min-length: crwdns171043:0crwdne171043:0
-        min-length-description: crwdns171045:0crwdne171045:0
-        min-num-count: crwdns171047:0crwdne171047:0
-        min-num-count-description: crwdns171049:0crwdne171049:0
-        min-special-count: crwdns171051:0crwdne171051:0
-        min-special-count-description: crwdns171053:0crwdne171053:0
-        min-upper-case-length: crwdns171055:0crwdne171055:0
-        min-upper-case-description: crwdns171057:0crwdne171057:0
-        min-lower-case-length: crwdns171059:0crwdne171059:0
-        min-lower-case-description: crwdns171061:0crwdne171061:0
+        title: crwdns186626:0crwdne186626:0
+        ignored-security: crwdns186628:0crwdne186628:0
+        min-length: crwdns186630:0crwdne186630:0
+        min-length-description: crwdns186632:0crwdne186632:0
+        min-num-count: crwdns186634:0crwdne186634:0
+        min-num-count-description: crwdns186636:0crwdne186636:0
+        min-special-count: crwdns186638:0crwdne186638:0
+        min-special-count-description: crwdns186640:0crwdne186640:0
+        min-upper-case-length: crwdns186642:0crwdne186642:0
+        min-upper-case-description: crwdns186644:0crwdne186644:0
+        min-lower-case-length: crwdns186646:0crwdne186646:0
+        min-lower-case-description: crwdns186648:0crwdne186648:0
       signup:
-        email-confirmation-required: crwdns171063:0crwdne171063:0
-        enabled: crwdns171065:0crwdne171065:0
+        email-confirmation-required: crwdns186650:0crwdne186650:0
+        enabled: crwdns186652:0crwdne186652:0
         split-credentials-check:
-          description: 'crwdns171067:0crwdne171067:0'
-          label: crwdns171069:0crwdne171069:0
+          description: 'crwdns186654:0crwdne186654:0'
+          label: crwdns186656:0crwdne186656:0
       profile-avatar:
-        enabled: crwdns171071:0crwdne171071:0
+        enabled: crwdns186658:0crwdne186658:0
       send-user-invite-email:
-        title: crwdns171073:0crwdne171073:0
-        enabled: crwdns171075:0crwdne171075:0
-        description: crwdns171077:0crwdne171077:0
+        title: crwdns186660:0crwdne186660:0
+        enabled: crwdns186662:0crwdne186662:0
+        description: crwdns186664:0crwdne186664:0
         expires:
-          label: crwdns171079:0crwdne171079:0
-          description: crwdns171081:0crwdne171081:0
+          label: crwdns186666:0crwdne186666:0
+          description: crwdns186668:0crwdne186668:0
     mail:
-      title: crwdns171083:0crwdne171083:0
-      from-address: crwdns171085:0crwdne171085:0
-      from-name: crwdns171087:0crwdne171087:0
-      validate-email: crwdns171089:0crwdne171089:0
+      title: crwdns186670:0crwdne186670:0
+      from-address: crwdns186672:0crwdne186672:0
+      from-name: crwdns186674:0crwdne186674:0
+      validate-email: crwdns186676:0crwdne186676:0
     mfa:
-      title: crwdns171091:0crwdne171091:0
+      title: crwdns186678:0crwdne186678:0
       TOTP:
-        enabled: crwdns182181:0crwdne182181:0
-        enforced: crwdns182183:0crwdne182183:0
+        enabled: crwdns186680:0crwdne186680:0
+        enforced: crwdns186682:0crwdne186682:0
         issuer:
-          description: crwdns182185:0crwdne182185:0
-          label: crwdns171099:0crwdne171099:0
+          description: crwdns186684:0crwdne186684:0
+          label: crwdns186686:0crwdne186686:0
       emailOTP:
-        enabled: crwdns182187:0crwdne182187:0
-        enforced: crwdns182189:0crwdne182189:0
+        enabled: crwdns186688:0crwdne186688:0
+        enforced: crwdns186690:0crwdne186690:0
         expires:
-          description: crwdns171105:0crwdne171105:0
-          label: crwdns171107:0crwdne171107:0
+          description: crwdns186692:0crwdne186692:0
+          label: crwdns186694:0crwdne186694:0
     auto-logout:
-      title: crwdns171109:0crwdne171109:0
+      title: crwdns186696:0crwdne186696:0
       enabled:
-        label: crwdns171111:0crwdne171111:0
-        description: crwdns171113:0crwdne171113:0
+        label: crwdns186698:0crwdne186698:0
+        description: crwdns186700:0crwdne186700:0
       timeout:
-        label: crwdns171115:0crwdne171115:0
-        description: crwdns171117:0crwdne171117:0
+        label: crwdns186702:0crwdne186702:0
+        description: crwdns186704:0crwdne186704:0
   external:
-    title: crwdns171119:0crwdne171119:0
-    enabled: crwdns171121:0crwdne171121:0
+    title: crwdns186706:0crwdne186706:0
+    enabled: crwdns186708:0crwdne186708:0
     table:
       header:
-        enabled: crwdns171123:0crwdne171123:0
-        provider: crwdns171125:0crwdne171125:0
-        info: crwdns171127:0crwdne171127:0
+        enabled: crwdns186710:0crwdne186710:0
+        provider: crwdns186712:0crwdne186712:0
+        info: crwdns186714:0crwdne186714:0
     standard:
-      enabled: crwdns171129:0crwdne171129:0
-      apiAccess: crwdns171131:0crwdne171131:0
-      clientKey: crwdns171133:0crwdne171133:0
-      clientSecret: crwdns171135:0crwdne171135:0
+      enabled: crwdns186716:0crwdne186716:0
+      apiAccess: crwdns186718:0crwdne186718:0
+      clientKey: crwdns186720:0crwdne186720:0
+      clientSecret: crwdns186722:0crwdne186722:0
     oidc:
-      add: crwdns171137:0crwdne171137:0
-      enabled: crwdns171139:0crwdne171139:0
-      handle: crwdns171141:0crwdne171141:0
-      title: crwdns171143:0crwdne171143:0
-      issuer: crwdns171145:0crwdne171145:0
-      issuerHint: crwdns171147:0crwdne171147:0
-      clientKey: crwdns171149:0crwdne171149:0
-      clientSecret: crwdns171151:0crwdne171151:0
-      scope: crwdns171153:0crwdne171153:0
-      scopePlaceholder: crwdns171155:0crwdne171155:0
-      scopeHint: crwdns171157:0crwdne171157:0
+      add: crwdns186724:0crwdne186724:0
+      enabled: crwdns186726:0crwdne186726:0
+      handle: crwdns186728:0crwdne186728:0
+      title: crwdns186730:0crwdne186730:0
+      issuer: crwdns186732:0crwdne186732:0
+      issuerHint: crwdns186734:0crwdne186734:0
+      clientKey: crwdns186736:0crwdne186736:0
+      clientSecret: crwdns186738:0crwdne186738:0
+      scope: crwdns186740:0crwdne186740:0
+      scopePlaceholder: crwdns186742:0crwdne186742:0
+      scopeHint: crwdns186744:0crwdne186744:0
     saml:
-      enabled: crwdns171159:0crwdne171159:0
-      title: crwdns171161:0crwdne171161:0
+      enabled: crwdns186746:0crwdne186746:0
+      title: crwdns186748:0crwdne186748:0
       requests:
-        title: crwdns171163:0crwdne171163:0
-        sign-requests: crwdns171165:0crwdne171165:0
-        sign-method: crwdns171167:0crwdne171167:0
-        binding: crwdns171169:0crwdne171169:0
-        binding-redirect: crwdns171171:0crwdne171171:0
-        binding-post: crwdns171173:0crwdne171173:0
+        title: crwdns186750:0crwdne186750:0
+        sign-requests: crwdns186752:0crwdne186752:0
+        sign-method: crwdns186754:0crwdne186754:0
+        binding: crwdns186756:0crwdne186756:0
+        binding-redirect: crwdns186758:0crwdne186758:0
+        binding-post: crwdns186760:0crwdne186760:0
       cert:
-        public: crwdns171175:0crwdne171175:0
-        private: crwdns171177:0crwdne171177:0
-      name: crwdns171179:0crwdne171179:0
-      certificate: crwdns171181:0crwdne171181:0
+        public: crwdns186762:0crwdne186762:0
+        private: crwdns186764:0crwdne186764:0
+      name: crwdns186766:0crwdne186766:0
+      certificate: crwdns186768:0crwdne186768:0
       idp:
-        title: crwdns171183:0crwdne171183:0
-        ident-handle: crwdns171185:0crwdne171185:0
-        ident-identifier: crwdns171187:0crwdne171187:0
-        ident-name: crwdns171189:0crwdne171189:0
-        url: crwdns171191:0crwdne171191:0
+        title: crwdns186770:0crwdne186770:0
+        ident-handle: crwdns186772:0crwdne186772:0
+        ident-identifier: crwdns186774:0crwdne186774:0
+        ident-name: crwdns186776:0crwdne186776:0
+        url: crwdns186778:0crwdne186778:0
       desc:
-        name: crwdns171193:0crwdne171193:0
+        name: crwdns186780:0crwdne186780:0
         cert:
-          public: crwdns171195:0crwdne171195:0
-          private: crwdns171197:0crwdne171197:0
+          public: crwdns186782:0crwdne186782:0
+          private: crwdns186784:0crwdne186784:0
         requests:
-          sign-requests: crwdns171199:0crwdne171199:0
-          sign-method: crwdns171201:0crwdne171201:0
-          binding: crwdns171203:0crwdne171203:0
+          sign-requests: crwdns186786:0crwdne186786:0
+          sign-method: crwdns186788:0crwdne186788:0
+          binding: crwdns186790:0crwdne186790:0
         idp:
-          url: crwdns171205:0crwdne171205:0
-          ident-handle: crwdns171207:0crwdne171207:0
-          ident-identifier: crwdns171209:0crwdne171209:0
-          ident-name: crwdns171211:0crwdne171211:0
+          url: crwdns186792:0crwdne186792:0
+          ident-handle: crwdns186794:0crwdne186794:0
+          ident-identifier: crwdns186796:0crwdne186796:0
+          ident-name: crwdns186798:0crwdne186798:0
     security:
-      title: crwdns171213:0crwdne171213:0
+      title: crwdns186800:0crwdne186800:0
       prohibited-roles:
-        description: crwdns171215:0crwdne171215:0
-        label: crwdns171217:0crwdne171217:0
+        description: crwdns186802:0crwdne186802:0
+        label: crwdns186804:0crwdne186804:0
       forced-roles:
-        description: crwdns171219:0crwdne171219:0
-        label: crwdns171221:0crwdne171221:0
+        description: crwdns186806:0crwdne186806:0
+        label: crwdns186808:0crwdne186808:0
       permitted-roles:
-        description: crwdns171223:0crwdne171223:0
-        label: crwdns171225:0crwdne171225:0
+        description: crwdns186810:0crwdne186810:0
+        label: crwdns186812:0crwdne186812:0
   bgScreen:
-    title: crwdns171227:0crwdne171227:0
+    title: crwdns186814:0crwdne186814:0
     image:
       uploader:
-        label: crwdns171229:0crwdne171229:0
+        label: crwdns186816:0crwdne186816:0
       editor:
-        label: crwdns171235:0crwdne171235:0
+        label: crwdns186818:0crwdne186818:0
