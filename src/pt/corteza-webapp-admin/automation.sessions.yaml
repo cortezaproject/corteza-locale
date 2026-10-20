@@ -4,7 +4,7 @@ editor:
     delete: Excluir
     error: Erro
     eventType: Tipo de evento
-    id: IDENTIFICAÇÃO
+    id: ID
     resourceType: Tipo de recurso
     status: Status
     title: Informação básica
