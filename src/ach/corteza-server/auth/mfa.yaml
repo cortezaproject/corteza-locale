@@ -1,19 +1,19 @@
 template:
-  title: crwdns181477:0crwdne181477:0
+  title: crwdns182714:0crwdne182714:0
   email:
-    instructions: crwdns182025:0crwdne182025:0
-    code: crwdns181481:0crwdne181481:0
-    verify: crwdns181483:0crwdne181483:0
-    resend: crwdns181485:0crwdne181485:0
-    confirmed: crwdns181487:0crwdne181487:0
+    instructions: crwdns182716:0crwdne182716:0
+    code: crwdns182718:0crwdne182718:0
+    verify: crwdns182720:0crwdne182720:0
+    resend: crwdns182722:0crwdne182722:0
+    confirmed: crwdns182724:0crwdne182724:0
   totp:
-    instructions: crwdns182027:0crwdne182027:0
-    code: crwdns181491:0crwdne181491:0
-    confirmed: crwdns181493:0crwdne181493:0
-    verify: crwdns181495:0crwdne181495:0
+    instructions: crwdns182726:0crwdne182726:0
+    code: crwdns182728:0crwdne182728:0
+    confirmed: crwdns182730:0crwdne182730:0
+    verify: crwdns182732:0crwdne182732:0
 alerts:
   email:
-    resent: crwdns181497:0crwdne181497:0
-    confirmed: crwdns182029:0crwdne182029:0
+    resent: crwdns182734:0crwdne182734:0
+    confirmed: crwdns182736:0crwdne182736:0
   totp:
-    confirmed: crwdns182031:0crwdne182031:0
+    confirmed: crwdns182738:0crwdne182738:0
