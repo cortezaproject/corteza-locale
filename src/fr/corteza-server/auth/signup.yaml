@@ -14,7 +14,7 @@ template:
       label: Surnom ou identifiant
       placeholder: Surnom ou identifiant
     button:
-      sign-up: Envoyer
+      sign-up: Soumettre
   log-in: Avez-vous déjà un compte ? <a data-test-id="link-login" href="{{link}}">Se connecter</a>
 alerts:
   signup-successful: Connecté avec succès
