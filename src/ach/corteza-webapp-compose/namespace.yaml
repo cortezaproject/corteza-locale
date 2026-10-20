@@ -1,75 +1,75 @@
 manage-view:
-  label: crwdns174393:0crwdne174393:0
+  label: crwdns190592:0crwdne190592:0
 application:
-  label: crwdns174395:0crwdne174395:0
-clickOpen: crwdns174397:0crwdne174397:0
+  label: crwdns190594:0crwdne190594:0
+clickOpen: crwdns190596:0crwdne190596:0
 import:
-  buttonLabel: crwdns174399:0crwdne174399:0
-  title: crwdns174401:0crwdne174401:0
-  uploadFileLabel: crwdns174403:0crwdne174403:0
-  uploadFilePlaceholder: crwdns174405:0crwdne174405:0
-  back: crwdns174407:0crwdne174407:0
-  import: crwdns174409:0crwdne174409:0
+  buttonLabel: crwdns190598:0crwdne190598:0
+  title: crwdns190600:0crwdne190600:0
+  uploadFileLabel: crwdns190602:0crwdne190602:0
+  uploadFilePlaceholder: crwdns190604:0crwdne190604:0
+  back: crwdns190606:0crwdne190606:0
+  import: crwdns190608:0crwdne190608:0
   slug:
-    label: crwdns174411:0crwdne174411:0
+    label: crwdns190610:0crwdne190610:0
 description:
-  label: crwdns174413:0crwdne174413:0
-  placeholder: crwdns174415:0crwdne174415:0
-disabled: crwdns174417:0crwdne174417:0
-edit: crwdns174419:0crwdne174419:0
-clone: crwdns174421:0crwdne174421:0
-cloneSuffix: crwdns174423:0crwdne174423:0
+  label: crwdns190612:0crwdne190612:0
+  placeholder: crwdns190614:0crwdne190614:0
+disabled: crwdns190616:0crwdne190616:0
+edit: crwdns190618:0crwdne190618:0
+clone: crwdns190620:0crwdne190620:0
+cloneSuffix: crwdns190622:0crwdne190622:0
 cloneWarning:
-  wfInclusion: crwdns174425:0crwdne174425:0
-create: crwdns174427:0crwdne174427:0
-export: crwdns174429:0crwdne174429:0
+  wfInclusion: crwdns190624:0crwdne190624:0
+create: crwdns190626:0crwdne190626:0
+export: crwdns190628:0crwdne190628:0
 enabled:
-  label: crwdns174431:0crwdne174431:0
+  label: crwdns190630:0crwdne190630:0
 icon:
-  label: crwdns174433:0crwdne174433:0
-  placeholder: crwdns174435:0crwdne174435:0
+  label: crwdns190632:0crwdne190632:0
+  placeholder: crwdns190634:0crwdne190634:0
 label:
-  permissions: crwdns174437:0crwdne174437:0
+  permissions: crwdns190636:0crwdne190636:0
 logo:
-  label: crwdns174439:0crwdne174439:0
-  placeholder: crwdns174441:0crwdne174441:0
-  show: crwdns174443:0crwdne174443:0
-  preview: crwdns174445:0crwdne174445:0
-  reset: crwdns174447:0crwdne174447:0
+  label: crwdns190638:0crwdne190638:0
+  placeholder: crwdns190640:0crwdne190640:0
+  show: crwdns190642:0crwdne190642:0
+  preview: crwdns190644:0crwdne190644:0
+  reset: crwdns190646:0crwdne190646:0
 name:
-  label: crwdns174449:0crwdne174449:0
-  placeholder: crwdns174451:0crwdne174451:0
-noResults: crwdns174453:0crwdne174453:0
-searchPlaceholder: crwdns174455:0crwdne174455:0
-setPermissions: crwdns174457:0crwdne174457:0
+  label: crwdns190648:0crwdne190648:0
+  placeholder: crwdns190650:0crwdne190650:0
+noResults: crwdns190652:0crwdne190652:0
+searchPlaceholder: crwdns190654:0crwdne190654:0
+setPermissions: crwdns190656:0crwdne190656:0
 slug:
-  description: crwdns174459:0crwdne174459:0
-  label: crwdns174461:0crwdne174461:0
-  placeholder: crwdns174463:0crwdne174463:0
-  invalid-handle-characters: crwdns174465:0crwdne174465:0
+  description: crwdns190658:0crwdne190658:0
+  label: crwdns190660:0crwdne190660:0
+  placeholder: crwdns190662:0crwdne190662:0
+  invalid-handle-characters: crwdns190664:0crwdne190664:0
 subtitle:
-  label: crwdns174467:0crwdne174467:0
-  placeholder: crwdns174469:0crwdne174469:0
-title: crwdns174471:0crwdne174471:0
+  label: crwdns190666:0crwdne190666:0
+  placeholder: crwdns190668:0crwdne190668:0
+title: crwdns190670:0crwdne190670:0
 tooltip:
-  translations: crwdns174473:0crwdne174473:0
-visit: crwdns174475:0crwdne174475:0
-configure: crwdns174477:0crwdne174477:0
+  translations: crwdns190672:0crwdne190672:0
+visit: crwdns190674:0crwdne190674:0
+configure: crwdns190676:0crwdne190676:0
 manage:
-  title: crwdns174479:0crwdne174479:0
-  list-view: crwdns174481:0crwdne174481:0
-  delete: crwdns174483:0crwdne174483:0
-  disabled: crwdns174485:0crwdne174485:0
+  title: crwdns190678:0crwdne190678:0
+  list-view: crwdns190680:0crwdne190680:0
+  delete: crwdns190682:0crwdne190682:0
+  disabled: crwdns190684:0crwdne190684:0
   toolbar:
     buttons:
-      create: crwdns174487:0crwdne174487:0
-      permissions: crwdns174489:0crwdne174489:0
+      create: crwdns190686:0crwdne190686:0
+      permissions: crwdns190688:0crwdne190688:0
   table:
     columns:
-      enabled: crwdns174491:0crwdne174491:0
-      name: crwdns174493:0crwdne174493:0
-      slug: crwdns174495:0crwdne174495:0
-      changedAt: crwdns174497:0crwdne174497:0
+      enabled: crwdns190690:0crwdne190690:0
+      name: crwdns190692:0crwdne190692:0
+      slug: crwdns190694:0crwdne190694:0
+      changedAt: crwdns190696:0crwdne190696:0
 sidebar:
-  configure: crwdns174499:0crwdne174499:0
-  hide: crwdns174501:0crwdne174501:0
+  configure: crwdns190698:0crwdne190698:0
+  hide: crwdns190700:0crwdne190700:0
