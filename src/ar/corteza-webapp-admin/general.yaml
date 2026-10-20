@@ -1,38 +1,4 @@
 label:
-  add: أضف
   general:
     yes: Yes
     no: No
-  template:
-    plural: القوالب
-  user:
-    single: مستخدم
-    plural: مستخدمين
-  role:
-    plural: ادوار
-  application:
-    plural: التطبيقات
-  queue:
-    plural: قوائم الارسال
-  session:
-    single: الجلسة
-    plural: جلسات
-  workflow:
-    single: سيور عمل
-    plural: سيور عمل
-  plus-add: +أضف
-  all: الكل
-  none: لايوجد
-  today: اليوم
-  requests: الطلبات
-  loading: تحميل
-  saveAndClose: احفظ وأغلق
-  cancel: الغاء
-  submit: إرسال
-  delete: حذف
-  undelete: استعادة
-  fileTypeNotAllowed: نوع الملف غير مسموح
-themes:
-  labels:
-    light: فاتح
-    dark: غامق
