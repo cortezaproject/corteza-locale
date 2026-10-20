@@ -1,37 +1,37 @@
 'basic-controls':
   action:
-    deselect: crwdns180203:0crwdne180203:0
-    pan: crwdns180205:0crwdne180205:0
-    select: crwdns180207:0crwdne180207:0
-    'select-multiple': crwdns180209:0crwdne180209:0
-    'zoom-in/out': crwdns180211:0crwdne180211:0
+    deselect: crwdns193450:0crwdne193450:0
+    pan: crwdns193452:0crwdne193452:0
+    select: crwdns193454:0crwdne193454:0
+    'select-multiple': crwdns193456:0crwdne193456:0
+    'zoom-in/out': crwdns193458:0crwdne193458:0
   shortcut:
     'left-click':
-      background: crwdns180213:0crwdne180213:0
-      drag: crwdns180215:0crwdne180215:0
-      label: crwdns180217:0crwdne180217:0
-    pan: crwdns182431:0crwdne182431:0
-    zoom: crwdns182433:0crwdne182433:0
-'basic-controls-label': crwdns180223:0crwdne180223:0
+      background: crwdns193460:0crwdne193460:0
+      drag: crwdns193462:0crwdne193462:0
+      label: crwdns193464:0crwdne193464:0
+    pan: crwdns193466:0crwdne193466:0
+    zoom: crwdns193468:0crwdne193468:0
+'basic-controls-label': crwdns193470:0crwdne193470:0
 'keyboard-shortcuts':
   action:
-    'add-selection': crwdns180225:0crwdne180225:0
-    copy: crwdns180227:0crwdne180227:0
-    cut: crwdns180229:0crwdne180229:0
-    'delete-selected-elements': crwdns180231:0crwdne180231:0
-    nudge: crwdns180233:0crwdne180233:0
-    paste: crwdns180235:0crwdne180235:0
-    redo: crwdns180237:0crwdne180237:0
-    save: crwdns180239:0crwdne180239:0
-    'hide-guides': crwdns180241:0crwdne180241:0
-    'show-help': crwdns180243:0crwdne180243:0
-    'reset-view-to-start-point': crwdns180245:0crwdne180245:0
-    'select-all': crwdns180247:0crwdne180247:0
-    undo: crwdns180249:0crwdne180249:0
+    'add-selection': crwdns193472:0crwdne193472:0
+    copy: crwdns193474:0crwdne193474:0
+    cut: crwdns193476:0crwdne193476:0
+    'delete-selected-elements': crwdns193478:0crwdne193478:0
+    nudge: crwdns193480:0crwdne193480:0
+    paste: crwdns193482:0crwdne193482:0
+    redo: crwdns193484:0crwdne193484:0
+    save: crwdns193486:0crwdne193486:0
+    'hide-guides': crwdns193488:0crwdne193488:0
+    'show-help': crwdns193490:0crwdne193490:0
+    'reset-view-to-start-point': crwdns193492:0crwdne193492:0
+    'select-all': crwdns193494:0crwdne193494:0
+    undo: crwdns193496:0crwdne193496:0
   shortcut:
-    'adjust-distance': crwdns180251:0crwdne180251:0
-    'arrow-keys': crwdns180253:0crwdne180253:0
-    hold: crwdns180255:0crwdne180255:0
-    'left-mouse-button': crwdns180257:0crwdne180257:0
-'keyboard-shortcuts-label': crwdns180259:0crwdne180259:0
-'mac-users': crwdns180261:0crwdne180261:0
+    'adjust-distance': crwdns193498:0crwdne193498:0
+    'arrow-keys': crwdns193500:0crwdne193500:0
+    hold: crwdns193502:0crwdne193502:0
+    'left-mouse-button': crwdns193504:0crwdne193504:0
+'keyboard-shortcuts-label': crwdns193506:0crwdne193506:0
+'mac-users': crwdns193508:0crwdne193508:0
