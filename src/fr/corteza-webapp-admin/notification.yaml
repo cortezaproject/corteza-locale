@@ -44,7 +44,7 @@ user:
     success: Avatar mis à jour
     error: Échec du téléversement de l'avatar
   avatarSettings:
-    success: Paramètres d'avatar mises à jour
+    success: Paramètres d'avatar mis à jour
     error: Échec de la mise à jour des paramètres de l'avatar
   avatarDelete:
     success: Avatar supprimé
@@ -174,6 +174,7 @@ gateway:
     fetch:
       error: Échec de la récupération du filtre
     update:
+      success: Filtres mis à jour
       error: Échec de la mise à jour des filtres
   delete:
     success: Route supprimée
@@ -185,6 +186,7 @@ gateway:
     fetch:
       error: Échec de la récupération de la requête
     purge:
+      success: Requêtes purgées
       error: Échec de la purge de la requête
 workflow:
   fetch:
@@ -252,7 +254,10 @@ sensitivityLevel:
     error: Échec de la mise à jour du niveau de sensibilité
 settings:
   system:
+    fetch:
+      error: Échec de la récupération des paramètres système
     auth:
+      success: Paramètres d'authentification mise à jour
       error: Échec de la mise à jour des paramètres d'authentification
   compose:
     fetch:
@@ -264,10 +269,26 @@ settings:
     fetch:
       error: Échec de la récupération des paramètres de l'interface utilisateur
     update:
+      success: Paramètres d'interface utilisateur mises à jour
       error: Échec de la mise à jour des paramètres de l'interface utilisateur
+  theming:
+    fetch:
+      error: Échec de la récupération des paramètres de thème
+    update:
+      success: Paramètres de thème mises à jour
+      error: Échec de la mise à jour des paramètres de thème
   navigation:
+    fetch:
+      error: Échec de la récupération des paramètres de navigation
     update:
       success: Paramètres de navigation mis à jour
+      error: Échec de la mise à jour des paramètres de navigation
+  location:
+    fetch:
+      error: Échec de la récupération des paramètres de localisation
+    update:
+      success: Paramètres de localisation mis à jour
+      error: Échec de la mise à jour des paramètres de localisation
   code-snippet:
     fetch:
       error: Échec de la récupération de l'extrait de code
