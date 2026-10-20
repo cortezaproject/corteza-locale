@@ -44,7 +44,7 @@ editor:
   permissions: Berechtigungen
   roles:
     add: Hinzufügen
-    count:
+    count: Roles ({{count}})
     remove: Entfernen
 list:
   columns:
