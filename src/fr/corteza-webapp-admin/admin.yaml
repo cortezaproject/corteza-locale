@@ -61,7 +61,7 @@ general:
   loading: Chargement
   label:
     "no": "Non"
-    submit: Envoyer
+    submit: Soumettre
     "yes": "Oui"
   logout: Se déconnecter
   noAccess: Vous n'avez pas les permissions pour accéder au panneau d'administration
