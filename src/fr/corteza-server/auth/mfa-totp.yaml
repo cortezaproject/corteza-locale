@@ -18,7 +18,7 @@ template:
   authy: <a target="_blank" href="{{ link }}">Authy</a>
   form:
     title: "Terminez la configuration en saisissant le code de l'application d'authentification :"
-    button: Envoyer
+    button: Soumettre
 alerts:
   text-MFA-enabled: Authentification à 2 facteurs avec TOTP activée
   text-MFA-disabled: Authentification à 2 facteurs avec TOTP désactivée
