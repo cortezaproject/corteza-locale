@@ -1,10 +1,14 @@
 errors:
-  invalidID: crwdns181869:0crwdne181869:0
-  notAllowedToCreate: crwdns181871:0crwdne181871:0
-  notAllowedToDelete: crwdns181873:0crwdne181873:0
-  notAllowedToRead: crwdns181875:0crwdne181875:0
-  notAllowedToSearch: crwdns181877:0crwdne181877:0
-  notAllowedToUndelete: crwdns181879:0crwdne181879:0
-  notAllowedToUpdate: crwdns181881:0crwdne181881:0
-  notFound: crwdns181883:0crwdne181883:0
-  staleData: crwdns182051:0crwdne182051:0
+  invalidConstraint: "crwdns182948:0crwdne182948:0"
+  invalidID: crwdns182950:0crwdne182950:0
+  invalidTimestamp: "crwdns182952:0crwdne182952:0"
+  invalidInterval: "crwdns182954:0crwdne182954:0"
+  notAllowedToCreate: crwdns182956:0crwdne182956:0
+  notAllowedToDelete: crwdns182958:0crwdne182958:0
+  notAllowedToRead: crwdns182960:0crwdne182960:0
+  notAllowedToSearch: crwdns182962:0crwdne182962:0
+  notAllowedToUndelete: crwdns182964:0crwdne182964:0
+  notAllowedToUpdate: crwdns182966:0crwdne182966:0
+  notFound: crwdns182968:0crwdne182968:0
+  valueRequired: "crwdns182970:0crwdne182970:0"
+  staleData: crwdns182972:0crwdne182972:0
