@@ -13,4 +13,5 @@ list:
     iterator: Iterátor
     security: Bezpečnost
     triggers: Spouštěče
+  labelMissing: <popisek chybí>
   title: Corredor skripty
