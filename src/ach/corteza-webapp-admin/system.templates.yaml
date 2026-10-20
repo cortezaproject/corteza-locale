@@ -1,74 +1,78 @@
 editor:
   content:
     editor:
-      unsupported: crwdns171373:0crwdne171373:0
-    partial: crwdns171375:0crwdne171375:0
+      unsupported: crwdns186820:0crwdne186820:0
+    footerTemplate: crwdns186822:0crwdne186822:0
+    footerTemplateDescription: crwdns186824:0crwdne186824:0
+    headerTemplate: crwdns186826:0crwdne186826:0
+    headerTemplateDescription: crwdns186828:0crwdne186828:0
+    partial: crwdns186830:0crwdne186830:0
     preview:
-      html: crwdns171377:0crwdne171377:0
-      pdf: crwdns171379:0crwdne171379:0
-      title: crwdns171381:0crwdne171381:0
-    title: crwdns171383:0crwdne171383:0
+      html: crwdns186832:0crwdne186832:0
+      pdf: crwdns186834:0crwdne186834:0
+      title: crwdns186836:0crwdne186836:0
+    title: crwdns186838:0crwdne186838:0
     toolbox:
-      partials: crwdns171385:0crwdne171385:0
+      partials: crwdns186840:0crwdne186840:0
       samples:
-        defaultHTML: crwdns171387:0crwdne171387:0
-        label: crwdns171389:0crwdne171389:0
+        defaultHTML: crwdns186842:0crwdne186842:0
+        label: crwdns186844:0crwdne186844:0
       snippets:
-        funcCall: crwdns171391:0crwdne171391:0
-        interpolate: crwdns171393:0crwdne171393:0
-        iterator: crwdns171395:0crwdne171395:0
-        label: crwdns171397:0crwdne171397:0
-      title: crwdns171399:0crwdne171399:0
+        funcCall: crwdns186846:0crwdne186846:0
+        interpolate: crwdns186848:0crwdne186848:0
+        iterator: crwdns186850:0crwdne186850:0
+        label: crwdns186852:0crwdne186852:0
+      title: crwdns186854:0crwdne186854:0
   info:
     contentType:
-      text_html: crwdns171401:0crwdne171401:0
-      text_plain: crwdns171403:0crwdne171403:0
-    delete: crwdns171409:0crwdne171409:0
-    handle: crwdns171413:0crwdne171413:0
-    placeholder-handle: crwdns171415:0crwdne171415:0
-    invalid-handle-characters: crwdns171417:0crwdne171417:0
+      text_html: crwdns186856:0crwdne186856:0
+      text_plain: crwdns186858:0crwdne186858:0
+    delete: crwdns186860:0crwdne186860:0
+    handle: crwdns186862:0crwdne186862:0
+    placeholder-handle: crwdns186864:0crwdne186864:0
+    invalid-handle-characters: crwdns186866:0crwdne186866:0
     meta:
-      description: crwdns171419:0crwdne171419:0
-      short: crwdns171421:0crwdne171421:0
-    partial: crwdns171423:0crwdne171423:0
-    partialDescription: crwdns171425:0crwdne171425:0
-    title: crwdns171427:0crwdne171427:0
-    type: crwdns171429:0crwdne171429:0
-    undelete: crwdns171431:0crwdne171431:0
-  new: crwdns171435:0crwdne171435:0
-  permissions: crwdns171437:0crwdne171437:0
+      description: crwdns186868:0crwdne186868:0
+      short: crwdns186870:0crwdne186870:0
+    partial: crwdns186872:0crwdne186872:0
+    partialDescription: crwdns186874:0crwdne186874:0
+    title: crwdns186876:0crwdne186876:0
+    type: crwdns186878:0crwdne186878:0
+    undelete: crwdns186880:0crwdne186880:0
+  new: crwdns186882:0crwdne186882:0
+  permissions: crwdns186884:0crwdne186884:0
   title:
-    create: crwdns171439:0crwdne171439:0
-    edit: crwdns171441:0crwdne171441:0
+    create: crwdns186886:0crwdne186886:0
+    edit: crwdns186888:0crwdne186888:0
 list:
   columns:
-    actions: "crwdns171443:0crwdne171443:0"
-    createdAt: crwdns171445:0crwdne171445:0
-    handle: crwdns171447:0crwdne171447:0
-    language: crwdns171449:0crwdne171449:0
+    actions: "crwdns186890:0crwdne186890:0"
+    createdAt: crwdns186892:0crwdne186892:0
+    handle: crwdns186894:0crwdne186894:0
+    language: crwdns186896:0crwdne186896:0
     meta:
-      short: crwdns171451:0crwdne171451:0
-    state: crwdns171453:0crwdne171453:0
-  delete: crwdns171455:0crwdne171455:0
-  undelete: crwdns171457:0crwdne171457:0
-  export: crwdns171459:0crwdne171459:0
+      short: crwdns186898:0crwdne186898:0
+    state: crwdns186900:0crwdne186900:0
+  delete: crwdns186902:0crwdne186902:0
+  undelete: crwdns186904:0crwdne186904:0
+  export: crwdns186906:0crwdne186906:0
   rows:
     filters:
-      deleted: crwdns171461:0crwdne171461:0
+      deleted: crwdns186908:0crwdne186908:0
   filterForm:
     deleted:
-      label: crwdns171463:0crwdne171463:0
+      label: crwdns186910:0crwdne186910:0
     excluded:
-      label: crwdns171465:0crwdne171465:0
+      label: crwdns186912:0crwdne186912:0
     exclusive:
-      label: crwdns171467:0crwdne171467:0
+      label: crwdns186914:0crwdne186914:0
     handle:
-      label: crwdns171469:0crwdne171469:0
-      placeholder: crwdns171471:0crwdne171471:0
+      label: crwdns186916:0crwdne186916:0
+      placeholder: crwdns186918:0crwdne186918:0
     inclusive:
-      label: crwdns171473:0crwdne171473:0
-  loading: crwdns171475:0crwdne171475:0
-  new: crwdns171477:0crwdne171477:0
-  permissions: crwdns171483:0crwdne171483:0
-  title: crwdns171485:0crwdne171485:0
-  yaml: crwdns171487:0crwdne171487:0
+      label: crwdns186920:0crwdne186920:0
+  loading: crwdns186922:0crwdne186922:0
+  new: crwdns186924:0crwdne186924:0
+  permissions: crwdns186926:0crwdne186926:0
+  title: crwdns186928:0crwdne186928:0
+  yaml: crwdns186930:0crwdne186930:0
