@@ -1,9 +1,9 @@
 errors:
-  alreadyExists: crwdns181117:0crwdne181117:0
-  existsEndpoint: crwdns181119:0crwdne181119:0
-  generic: crwdns181121:0crwdne181121:0
-  invalidEndpoint: crwdns181123:0crwdne181123:0
-  invalidID: crwdns181125:0crwdne181125:0
-  notAllowedToManage: crwdns181127:0crwdne181127:0
-  notFound: crwdns181129:0crwdne181129:0
-  deleteInUse: crwdns181131:0crwdne181131:0
+  alreadyExists: crwdns183562:0crwdne183562:0
+  existsEndpoint: crwdns183564:0crwdne183564:0
+  generic: crwdns183566:0crwdne183566:0
+  invalidEndpoint: crwdns183568:0crwdne183568:0
+  invalidID: crwdns183570:0crwdne183570:0
+  notAllowedToManage: crwdns183572:0crwdne183572:0
+  notFound: crwdns183574:0crwdne183574:0
+  deleteInUse: crwdns183576:0crwdne183576:0
