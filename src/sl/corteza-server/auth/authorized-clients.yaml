@@ -1,9 +1,6 @@
 template:
-  title: Authorized clients
+  title: Avtorizirani klienti
   list:
-    authorized-on: Authorized on
+    authorized-on: Avtoriziran
     buttons:
-      revoke: Revoke access
-    empty: No authorized clients found
-alerts:
-  removed: Client authorization removed
+      revoke: Odvzemi dostop
