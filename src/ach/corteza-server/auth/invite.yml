@@ -1,14 +1,14 @@
 template:
-  title: crwdns181597:0crwdne181597:0
+  title: crwdns182638:0crwdne182638:0
   form:
     email:
-      label: crwdns181599:0crwdne181599:0
-      placeholder: crwdns181601:0crwdne181601:0
+      label: crwdns182640:0crwdne182640:0
+      placeholder: crwdns182642:0crwdne182642:0
     new-password:
-      label: crwdns181603:0crwdne181603:0
-      placeholder: crwdns181605:0crwdne181605:0
+      label: crwdns182644:0crwdne182644:0
+      placeholder: crwdns182646:0crwdne182646:0
     buttons:
-      password: crwdns181607:0crwdne181607:0
+      password: crwdns182648:0crwdne182648:0
 alert:
-  invalid-expired-invite-token: crwdns181609:0crwdne181609:0
-  success: crwdns181611:0crwdne181611:0
+  invalid-expired-invite-token: crwdns182650:0crwdne182650:0
+  success: crwdns182652:0crwdne182652:0
