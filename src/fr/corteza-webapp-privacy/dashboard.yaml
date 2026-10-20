@@ -22,7 +22,7 @@ user-options:
     button-label: Demander suppression de données
 dc-options:
   privacy-requests:
-    title: Requêtes de confidentialité
+    title: Demandes de confidentialité
     description: Accédez, modifiez ou exportez la liste de toutes les demandes relatives à la confidentialité (suppression, exportation, correction)
     button-label: Demandes de confidentialité entrantes
   sensitive-data:
