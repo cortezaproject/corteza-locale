@@ -13,4 +13,5 @@ list:
     iterator: Итератор
     security: Безопасность
     triggers: Триггер
+  labelMissing: <метка отсутствует>
   title: Corredor Scripts
