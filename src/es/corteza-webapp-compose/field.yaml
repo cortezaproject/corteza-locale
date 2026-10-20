@@ -2,8 +2,4 @@ kind:
   bool:
     checkedValuePlaceholder: Yes
     uncheckedValuePlaceholder: No
-  email:
-    label: Correo electrónico
-  select:
-    optionRemove: Eliminar
 
