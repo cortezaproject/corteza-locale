@@ -32,6 +32,8 @@ label:
   delete: حذف
   undelete: استعادة
   fileTypeNotAllowed: نوع الملف غير مسموح
+  uploading: تحميل
+  dropFiles: انقر أو أسقط الملفات هنا للتحميل
 themes:
   labels:
     light: فاتح
