@@ -2,7 +2,7 @@ editor:
   info:
     delete: Excluir
     enabled: Habilitado
-    id: IDENTIFICAÇÃO
+    id: ID
     name: Nome *
     title: Informação básica
     undelete: Recuperar
