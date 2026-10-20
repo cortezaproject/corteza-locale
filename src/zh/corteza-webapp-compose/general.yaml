@@ -1,11 +1,3 @@
 label:
-  cancel: 取消
-  description: 描述
-  handle: 句柄
   no: No
-  pageBuilder: 页面构建器
-  permissions: 权限
-  saveAndClose: 保存并关闭
   yes: Yes
-navigation:
-  page: 页面
