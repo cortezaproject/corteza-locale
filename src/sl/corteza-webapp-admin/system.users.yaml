@@ -1,15 +1,36 @@
 editor:
   info:
+    email: Email
     name: Ime in Priimek
+    revokeAllSession: Revoke all active session
   mfa:
     TOTP:
+      disabled:
+        text: User did not configure TOTP protection.
+      enabled:
+        text: User configured TOTP protection auth mobile app.
       remove:
         label: Odstrani
     emailOTP:
       disable:
         label: Onemogoči
+      disabled:
+        text: |-
+          Email OTP protection is disabled for this user.
+          Email with the security code on each login will not be sent.
+      enabled:
+        text: |-
+          Email OTP protection is enabled for this user.
+          User will receive email with the security code on each login.
+  new: New
   password:
+    missmatch: The passwords must match!
     new: Novo geslo
     title: Geslo
   roles:
+    count: Roles ({{count}})
     remove: Odstrani
+list:
+  columns:
+    handle: Name
+  new: New
