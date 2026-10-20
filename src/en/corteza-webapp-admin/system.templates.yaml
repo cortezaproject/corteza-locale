@@ -2,6 +2,10 @@ editor:
   content:
     editor:
       unsupported: Unsupported editor
+    footerTemplate: Footer template
+    footerTemplateDescription: Partial template rendered below the main content when this template is rendered.
+    headerTemplate: Header template
+    headerTemplateDescription: Partial template rendered above the main content when this template is rendered.
     partial: Partial template
     preview:
       html: Preview HTML
