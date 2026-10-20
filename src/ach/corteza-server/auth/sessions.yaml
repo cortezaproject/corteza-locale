@@ -1,18 +1,18 @@
 template:
-  title: crwdns181419:0crwdne181419:0
+  title: crwdns182872:0crwdne182872:0
   list:
-    current: crwdns181421:0crwdne181421:0
-    authorized-on: crwdns181423:0crwdne181423:0
-    same-machine: crwdns181425:0crwdne181425:0
-    ip-address: crwdns181427:0crwdne181427:0
-    same-browser: crwdns181429:0crwdne181429:0
-    browser: crwdns181431:0crwdne181431:0
-    expires: crwdns181433:0crwdne181433:0
-    expired: crwdns181435:0crwdne181435:0
-    today: crwdns181437:0crwdne181437:0
-    tomorrow: crwdns181439:0crwdne181439:0
-    soon: crwdns181441:0{{days}}crwdne181441:0
-  delete-all: crwdns181443:0crwdne181443:0
+    current: crwdns182874:0crwdne182874:0
+    authorized-on: crwdns182876:0crwdne182876:0
+    same-machine: crwdns182878:0crwdne182878:0
+    ip-address: crwdns182880:0crwdne182880:0
+    same-browser: crwdns182882:0crwdne182882:0
+    browser: crwdns182884:0crwdne182884:0
+    expires: crwdns182886:0crwdne182886:0
+    expired: crwdns182888:0crwdne182888:0
+    today: crwdns182890:0crwdne182890:0
+    tomorrow: crwdns182892:0crwdne182892:0
+    soon: crwdns182894:0{{days}}crwdne182894:0
+  delete-all: crwdns182896:0crwdne182896:0
 alerts:
-  session-deleted: crwdns181445:0crwdne181445:0
-  delete-sessions-but-current: crwdns181447:0crwdne181447:0
+  session-deleted: crwdns182898:0crwdne182898:0
+  delete-sessions-but-current: crwdns182900:0crwdne182900:0
