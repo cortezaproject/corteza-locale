@@ -1,7 +1,18 @@
+list:
+  title: API Gateway
+  new: New
+  filterForm:
+    query:
+      label: Filter API Gateway list
+    deleted:
+      label: Deleted routes
 editor:
+  new: New
   filters:
     list:
       remove: Odstrani
+    labels:
+      location: Location
     help:
       expression:
         link: Dokumentacija
