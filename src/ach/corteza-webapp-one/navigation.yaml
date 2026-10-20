@@ -1,30 +1,30 @@
-adminPanel: crwdns178883:0crwdne178883:0
-automation: crwdns178885:0crwdne178885:0
-chart: crwdns178887:0crwdne178887:0
-configuration: crwdns178889:0crwdne178889:0
+adminPanel: crwdns192024:0crwdne192024:0
+automation: crwdns192026:0crwdne192026:0
+chart: crwdns192028:0crwdne192028:0
+configuration: crwdns192030:0crwdne192030:0
 help:
-  documentation: crwdns178891:0crwdne178891:0
-  feedback: crwdns178893:0crwdne178893:0
-  forum: crwdns178895:0crwdne178895:0
-  version: 'crwdns178897:0crwdne178897:0'
-module: crwdns178899:0crwdne178899:0
-more: crwdns178901:0crwdne178901:0
-namespace: crwdns178903:0crwdne178903:0
-noPageTitle: crwdns178905:0crwdne178905:0
-page: crwdns178907:0crwdne178907:0
-publicPages: crwdns178909:0crwdne178909:0
-appMenu: crwdns178911:0crwdne178911:0
+  documentation: crwdns192032:0crwdne192032:0
+  feedback: crwdns192034:0crwdne192034:0
+  forum: crwdns192036:0crwdne192036:0
+  version: 'crwdns192038:0crwdne192038:0'
+module: crwdns192040:0crwdne192040:0
+more: crwdns192042:0crwdne192042:0
+namespace: crwdns192044:0crwdne192044:0
+noPageTitle: crwdns192046:0crwdne192046:0
+page: crwdns192048:0crwdne192048:0
+publicPages: crwdns192050:0crwdne192050:0
+appMenu: crwdns192052:0crwdne192052:0
 userSettings:
-  changePassword: crwdns178913:0crwdne178913:0
-  loggedInAs: crwdns178915:0{{user}}crwdne178915:0
-  logout: crwdns178917:0crwdne178917:0
-  profile: crwdns178919:0crwdne178919:0
-  theme: crwdns178921:0crwdne178921:0
+  changePassword: crwdns192054:0crwdne192054:0
+  loggedInAs: crwdns192056:0{{user}}crwdne192056:0
+  logout: crwdns192058:0crwdne192058:0
+  profile: crwdns192060:0crwdne192060:0
+  theme: crwdns192062:0crwdne192062:0
 themes:
   labels:
-    light: crwdns178923:0crwdne178923:0
-    dark: crwdns178925:0crwdne178925:0
+    light: crwdns192064:0crwdne192064:0
+    dark: crwdns192066:0crwdne192066:0
 extendSession:
   labels:
-    extend: crwdns178927:0crwdne178927:0
-    warning: crwdns178929:0{{ countdownTime }}crwdne178929:0
+    extend: crwdns192068:0crwdne192068:0
+    warning: crwdns192070:0{{ countdownTime }}crwdne192070:0
