@@ -1,7 +1,0 @@
-errors:
-  empty: crwdns180803:0crwdne180803:0
-  invalidValue: crwdns180805:0crwdne180805:0
-  invalidRef: crwdns180807:0crwdne180807:0
-  duplicateValueInSet: crwdns180809:0{{value}}crwdne180809:0
-  duplicateValue: crwdns180811:0{{value}}crwdne180811:0
-  updateDenied: crwdns182444:0crwdne182444:0
