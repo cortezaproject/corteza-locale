@@ -1,14 +1,14 @@
 template:
-  title: crwdns181613:0crwdne181613:0
+  title: crwdns182740:0crwdne182740:0
   form:
-    greeting-paragraph: crwdns181615:0crwdne181615:0
-    question-for-client: crwdns181617:0crwdne181617:0
+    greeting-paragraph: crwdns182742:0crwdne182742:0
+    question-for-client: crwdns182744:0crwdne182744:0
     buttons:
-      allow: crwdns181619:0crwdne181619:0
-      deny: crwdns181621:0crwdne181621:0
+      allow: crwdns182746:0crwdne182746:0
+      deny: crwdns182748:0crwdne182748:0
   links:
-    mistake: crwdns181623:0{{link}}crwdne181623:0
+    mistake: crwdns182750:0{{link}}crwdne182750:0
   errors:
-    invalid-user: crwdns181625:0{{link}}crwdne181625:0
+    invalid-user: crwdns182752:0{{link}}crwdne182752:0
 alerts:
-  denied: 'crwdns181627:0{{client}}crwdne181627:0'
+  denied: 'crwdns182754:0{{client}}crwdne182754:0'
