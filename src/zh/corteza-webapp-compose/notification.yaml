@@ -1,4 +1,7 @@
 general:
-  error: 错误
+  error: 錯誤
   success: 成功
   warning: 警告
+list:
+  load:
+    error: 資源列表載入失敗
