@@ -16,6 +16,7 @@ ui:
     label: Rôles utilisateur
     description: Sélectionnez rôle pour définir les permissions
   evaluate:
+    title: Évaluer permissions
     description: Évaluer permissions appliquées
   add:
     label: Ajouter
@@ -311,6 +312,7 @@ resources:
           title: Lire n'importe quel modèle
         render:
           description: 'Défaut : refuser'
+          specific: Faire le rendu {{target}}
           title: Générer n'importe quel modèle
         update:
           description: 'Défaut : refuser'
@@ -397,7 +399,7 @@ resources:
           specific: Gérer les membres de {{target}}
           title: Gérer les membres pour n'importe quel groupe d'utilisateurs
     data-privacy-request:
-      label: Requêtes de confidentialité
+      label: Demandes de confidentialité
       all: toutes les demandes
       operations:
         read:
@@ -410,6 +412,7 @@ resources:
           title: Approuver n'importe quelle demande
   federation:
     component:
+      label: Composant de fédération
       operations:
         node.create:
           title: Créer des nœuds
