@@ -57,6 +57,7 @@ label:
   reset: Reset
   save: Speichern
   saveAndClose: Speichern und schließen
+  search: Suchen
   status: Status
   timeHour: "{{t}}Std"
   timeMinute: "{{t}}min"
