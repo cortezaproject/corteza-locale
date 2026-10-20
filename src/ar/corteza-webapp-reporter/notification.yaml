@@ -4,6 +4,7 @@ general:
   error: خطأ
   success: ناجح
   warning: تنبيه
+  info: معلومات
 list:
   load:
     error: فشل تحميل قائمة الموارد
