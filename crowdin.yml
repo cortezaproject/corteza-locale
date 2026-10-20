@@ -9,3 +9,6 @@ files:
     preserve_hierarchy: true
     export_only_approved: true
     skip_untranslated_files: true
+    languages_mapping:
+      two_letters_code:
+        pt-BR: pt-BR
