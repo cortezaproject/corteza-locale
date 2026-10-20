@@ -1,20 +1,20 @@
 notification:
-  search-error: crwdns178753:0crwdne178753:0
-input-placeholder: crwdns178755:0crwdne178755:0
+  search-error: crwdns191972:0crwdne191972:0
+input-placeholder: crwdns191974:0crwdne191974:0
 card:
-  button-text: crwdns178757:0crwdne178757:0
-  type: crwdns178759:0crwdne178759:0
-  handle: crwdns178761:0crwdne178761:0
-  namespace: crwdns178763:0crwdne178763:0
-  module: crwdns178765:0crwdne178765:0
-  user: crwdns178767:0crwdne178767:0
-  email: crwdns178769:0crwdne178769:0
-  record: crwdns178771:0crwdne178771:0
-  fields: crwdns178773:0crwdne178773:0
-range: crwdns178775:0{{actual}}crwdnd178775:0{{all}}crwdne178775:0
-discovering: crwdns178777:0crwdne178777:0
-no-results: crwdns178779:0crwdne178779:0
-show-more: crwdns178781:0crwdne178781:0
-loading-more: crwdns178783:0crwdne178783:0
-show-map: crwdns178785:0crwdne178785:0
-hide-map: crwdns178787:0crwdne178787:0
+  button-text: crwdns191976:0crwdne191976:0
+  type: crwdns191978:0crwdne191978:0
+  handle: crwdns191980:0crwdne191980:0
+  namespace: crwdns191982:0crwdne191982:0
+  module: crwdns191984:0crwdne191984:0
+  user: crwdns191986:0crwdne191986:0
+  email: crwdns191988:0crwdne191988:0
+  record: crwdns191990:0crwdne191990:0
+  fields: crwdns191992:0crwdne191992:0
+range: crwdns191994:0{{actual}}crwdnd191994:0{{all}}crwdne191994:0
+discovering: crwdns191996:0crwdne191996:0
+no-results: crwdns191998:0crwdne191998:0
+show-more: crwdns192000:0crwdne192000:0
+loading-more: crwdns192002:0crwdne192002:0
+show-map: crwdns192004:0crwdne192004:0
+hide-map: crwdns192006:0crwdne192006:0
