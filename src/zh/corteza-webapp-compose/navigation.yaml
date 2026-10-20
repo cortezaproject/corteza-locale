@@ -1,22 +1,3 @@
-automation: Automation
-chart: Charts
-configuration: Configuration
-editPage: Edit Page
-help:
-  documentation: Documentation
-  feedback: Send feedback
-  forum: Help
-  version: 'Version:'
-module: Modules
-more: More
-namespace: Namespaces
-noPageTitle: No page title
-page: Pages
-appMenu: Menu
-userSettings:
-  changePassword: Change password
-  loggedInAs: Logged in as {{user}}
-  logout: Logout
-  profile: Profile
-  theme: Theme
-viewPage: View Page
+chart: 图表
+module: 模块
+page: 页面
