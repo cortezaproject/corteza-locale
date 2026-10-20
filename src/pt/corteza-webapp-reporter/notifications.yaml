@@ -17,7 +17,7 @@ unmute: Ativar notificações
 muted: Notificações silenciadas
 unmuted: Notificações ativadas
 markAllAsReadError: Erro ao marcar todas as notificações como lidas
-notificationDeletedError: Erro ao deletar notificação
+notificationDeletedError: Erro ao excluir notificação
 namespaceNotFound: Namespace não encontrado
 pageNotFound: Página não encontrada
 recordNotFound: Registro não encontrado
