@@ -1,101 +1,101 @@
 editor:
   info:
-    add: crwdns171675:0crwdne171675:0
-    api: crwdns171677:0crwdne171677:0
-    choose-date: crwdns171679:0crwdne171679:0
-    delete: crwdns171685:0crwdne171685:0
+    add: crwdns186080:0crwdne186080:0
+    api: crwdns186082:0crwdne186082:0
+    choose-date: crwdns186084:0crwdne186084:0
+    delete: crwdns186086:0crwdne186086:0
     enabled:
-      disabledFootnote: crwdns171689:0crwdne171689:0
-      label: crwdns171691:0crwdne171691:0
+      disabledFootnote: crwdns186088:0crwdne186088:0
+      label: crwdns186090:0crwdne186090:0
     expiresAt:
-      description: crwdns171693:0crwdne171693:0
-      label: crwdns171695:0crwdne171695:0
+      description: crwdns186092:0crwdne186092:0
+      label: crwdns186094:0crwdne186094:0
     grant:
-      authorization_code: crwdns171697:0crwdne171697:0
-      client_credentials: crwdns171699:0crwdne171699:0
+      authorization_code: crwdns186096:0crwdne186096:0
+      client_credentials: crwdns186098:0crwdne186098:0
     handle:
-      disabledFootnote: crwdns171701:0crwdne171701:0
-      label: crwdns171703:0crwdne171703:0
-      placeholder-handle: crwdns171705:0crwdne171705:0
-      invalid-handle-characters: crwdns171707:0crwdne171707:0
-    name: crwdns171709:0crwdne171709:0
-    no-time: crwdns171711:0crwdne171711:0
-    profile: crwdns171713:0crwdne171713:0
-    redirectURI: crwdns171715:0crwdne171715:0
-    remove: crwdns171717:0crwdne171717:0
-    secret: crwdns171719:0crwdne171719:0
+      disabledFootnote: crwdns186100:0crwdne186100:0
+      label: crwdns186102:0crwdne186102:0
+      placeholder-handle: crwdns186104:0crwdne186104:0
+      invalid-handle-characters: crwdns186106:0crwdne186106:0
+    name: crwdns186108:0crwdne186108:0
+    no-time: crwdns186110:0crwdne186110:0
+    profile: crwdns186112:0crwdne186112:0
+    redirectURI: crwdns186114:0crwdne186114:0
+    remove: crwdns186116:0crwdne186116:0
+    secret: crwdns186118:0crwdne186118:0
     security:
       defaultUserGroup:
-        label: crwdns182175:0crwdne182175:0
-        placeholder: crwdns182177:0crwdne182177:0
+        label: crwdns186120:0crwdne186120:0
+        placeholder: crwdns186122:0crwdne186122:0
       prohibitedRoles:
-        description: crwdns171721:0crwdne171721:0
-        label: crwdns171723:0crwdne171723:0
+        description: crwdns186124:0crwdne186124:0
+        label: crwdns186126:0crwdne186126:0
       forcedRoles:
-        description: crwdns171725:0crwdne171725:0
-        label: crwdns171727:0crwdne171727:0
+        description: crwdns186128:0crwdne186128:0
+        label: crwdns186130:0crwdne186130:0
       impersonateUser:
-        description: crwdns171729:0crwdne171729:0
-        placeholder: crwdns171731:0crwdne171731:0
-        label: crwdns171733:0crwdne171733:0
+        description: crwdns186132:0crwdne186132:0
+        placeholder: crwdns186134:0crwdne186134:0
+        label: crwdns186136:0crwdne186136:0
       permittedRoles:
-        description: crwdns171735:0crwdne171735:0
-        label: crwdns171737:0crwdne171737:0
-    title: crwdns171739:0crwdne171739:0
+        description: crwdns186138:0crwdne186138:0
+        label: crwdns186140:0crwdne186140:0
+    title: crwdns186142:0crwdne186142:0
     tooltip:
-      regenerate-secret: crwdns171741:0crwdne171741:0
-      reset-value: crwdns171743:0crwdne171743:0
-      show-client-secret: crwdns171745:0crwdne171745:0
-      hide-client-secret: crwdns171747:0crwdne171747:0
-      copy-access-token: crwdns171749:0crwdne171749:0
-      copy-cURL: crwdns171751:0crwdne171751:0
+      regenerate-secret: crwdns186144:0crwdne186144:0
+      reset-value: crwdns186146:0crwdne186146:0
+      show-client-secret: crwdns186148:0crwdne186148:0
+      hide-client-secret: crwdns186150:0crwdne186150:0
+      copy-access-token: crwdns186152:0crwdne186152:0
+      copy-cURL: crwdns186154:0crwdne186154:0
     trusted:
-      description: crwdns171753:0crwdne171753:0
-      label: crwdns171755:0crwdne171755:0
-    undelete: crwdns171757:0crwdne171757:0
-    unnamed: crwdns171759:0crwdne171759:0
-    uri: crwdns171763:0crwdne171763:0
+      description: crwdns186156:0crwdne186156:0
+      label: crwdns186158:0crwdne186158:0
+    undelete: crwdns186160:0crwdne186160:0
+    unnamed: crwdns186162:0crwdne186162:0
+    uri: crwdns186164:0crwdne186164:0
     validFrom:
-      description: crwdns171765:0crwdne171765:0
-      label: crwdns171767:0crwdne171767:0
-    cUrl: crwdns171769:0crwdne171769:0
-    accessToken: crwdns171771:0crwdne171771:0
-    generateAccessToken: crwdns171773:0crwdne171773:0
-    discovery: crwdns171775:0crwdne171775:0
-    openid: crwdns171777:0crwdne171777:0
-  new: crwdns171779:0crwdne171779:0
-  permissions: crwdns171781:0crwdne171781:0
+      description: crwdns186166:0crwdne186166:0
+      label: crwdns186168:0crwdne186168:0
+    cUrl: crwdns186170:0crwdne186170:0
+    accessToken: crwdns186172:0crwdne186172:0
+    generateAccessToken: crwdns186174:0crwdne186174:0
+    discovery: crwdns186176:0crwdne186176:0
+    openid: crwdns186178:0crwdne186178:0
+  new: crwdns186180:0crwdne186180:0
+  permissions: crwdns186182:0crwdne186182:0
   title:
-    create: crwdns171783:0crwdne171783:0
-    edit: crwdns171785:0crwdne171785:0
+    create: crwdns186184:0crwdne186184:0
+    edit: crwdns186186:0crwdne186186:0
 list:
   columns:
-    actions: "crwdns171787:0crwdne171787:0"
-    createdAt: crwdns171789:0crwdne171789:0
-    enabled: crwdns171791:0crwdne171791:0
-    handle: crwdns171793:0crwdne171793:0
+    actions: "crwdns186188:0crwdne186188:0"
+    createdAt: crwdns186190:0crwdne186190:0
+    enabled: crwdns186192:0crwdne186192:0
+    handle: crwdns186194:0crwdne186194:0
     meta:
-      name: crwdns171795:0crwdne171795:0
-    state: crwdns171797:0crwdne171797:0
+      name: crwdns186196:0crwdne186196:0
+    state: crwdns186198:0crwdne186198:0
   rows:
     filters:
-      deleted: crwdns171799:0crwdne171799:0
+      deleted: crwdns186200:0crwdne186200:0
   filterForm:
     deleted:
-      label: crwdns171801:0crwdne171801:0
+      label: crwdns186202:0crwdne186202:0
     excluded:
-      label: crwdns171803:0crwdne171803:0
+      label: crwdns186204:0crwdne186204:0
     exclusive:
-      label: crwdns171805:0crwdne171805:0
+      label: crwdns186206:0crwdne186206:0
     inclusive:
-      label: crwdns171807:0crwdne171807:0
+      label: crwdns186208:0crwdne186208:0
     query:
-      label: crwdns171809:0crwdne171809:0
-      placeholder: crwdns171811:0crwdne171811:0
-  loading: crwdns171813:0crwdne171813:0
-  new: crwdns171815:0crwdne171815:0
-  permissions: crwdns171821:0crwdne171821:0
-  title: crwdns171823:0crwdne171823:0
-  yaml: crwdns171825:0crwdne171825:0
-  delete: crwdns171827:0crwdne171827:0
-  undelete: crwdns171829:0crwdne171829:0
+      label: crwdns186210:0crwdne186210:0
+      placeholder: crwdns186212:0crwdne186212:0
+  loading: crwdns186214:0crwdne186214:0
+  new: crwdns186216:0crwdne186216:0
+  permissions: crwdns186218:0crwdne186218:0
+  title: crwdns186220:0crwdne186220:0
+  yaml: crwdns186222:0crwdne186222:0
+  delete: crwdns186224:0crwdne186224:0
+  undelete: crwdns186226:0crwdne186226:0
