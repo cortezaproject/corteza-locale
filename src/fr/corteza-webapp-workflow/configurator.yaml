@@ -25,3 +25,7 @@ run-as:
 sub-workflow:
   label: Sous processus
   description: Les sous-processus ne peuvent pas avoir de déclencheurs
+delay:
+  duration:
+    label: Durée
+    description: 'Entrez une durée (exemples : "5s", "10m", "1h30m") ou une expression'
