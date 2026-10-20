@@ -2,7 +2,7 @@ system:
   ID: ID do registro
   moduleID: ID do Módulo
   namespaceID: ID do Namespace
-  revision: Versão do registro
+  revision: Revisão de registro
   meta: Meta data
   recordID: ID do registro
   createdAt: Criado em
