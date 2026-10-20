@@ -1,9 +1,9 @@
 template:
-  title: crwdns181537:0crwdne181537:0
+  title: crwdns182572:0crwdne182572:0
   list:
-    authorized-on: crwdns181539:0crwdne181539:0
+    authorized-on: crwdns182574:0crwdne182574:0
     buttons:
-      revoke: crwdns181541:0crwdne181541:0
-    empty: crwdns181543:0crwdne181543:0
+      revoke: crwdns182576:0crwdne182576:0
+    empty: crwdns182578:0crwdne182578:0
 alerts:
-  removed: crwdns181545:0crwdne181545:0
+  removed: crwdns182580:0crwdne182580:0
