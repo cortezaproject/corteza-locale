@@ -1,0 +1,5 @@
+template:
+  form:
+    new-password:
+      label: סיסמה
+      placeholder: סיסמה
