@@ -1,0 +1,16 @@
+template:
+  form:
+    password:
+      label: Wachtwoord
+      placeholder: wachtwoord
+    button:
+      login-and-remember: Log in en onthoud mij
+      login: Log in
+      continue: Ga verder
+  links:
+    request-password-reset: Wachtwoord vergeten?
+    signup: Maak een nieuw account
+    external:
+      login-with: Log in met {{idp}}
+alerts:
+  local-disabled: Lokale accounts uitgeschakeld

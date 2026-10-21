@@ -1,0 +1,12 @@
+template:
+  form:
+    password:
+      label: Hasło
+      placeholder: hasło
+    button:
+      login-and-remember: Zaloguj i zapamiętaj mnie
+      login: Zaloguj się
+      continue: Kontynuuj
+  links:
+    request-password-reset: Zapomniałeś hasła?
+    signup: Utwórz nowe hasło

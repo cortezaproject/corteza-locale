@@ -1,0 +1,5 @@
+template:
+  email:
+    code: Codice
+  totp:
+    code: Codice
