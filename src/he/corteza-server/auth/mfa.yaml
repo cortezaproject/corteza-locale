@@ -1,0 +1,10 @@
+template:
+  title: אימות רב שלבי
+  email:
+    code: קוד
+    verify: אימות
+    resend: שלח שוב
+  totp:
+    code: קוד
+    confirmed: TOTP אושר
+    verify: מאומת

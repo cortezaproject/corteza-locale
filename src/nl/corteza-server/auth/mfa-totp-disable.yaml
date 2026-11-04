@@ -1,0 +1,5 @@
+template:
+  title: Schakel tweevoudige verificatie uit met TOTP
+  instructions: Uitschakelen door bestaande code in te voeren
+  button:
+    remove: Weghalen

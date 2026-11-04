@@ -1,0 +1,6 @@
+template:
+  title: משתמש מאושר
+  list:
+    buttons:
+      revoke: בטל גישה
+    empty: לא נמצא משתמש מורשה

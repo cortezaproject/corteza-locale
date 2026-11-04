@@ -1,0 +1,15 @@
+template:
+  title: Conectare
+  form:
+    password:
+      label: Parolă
+      placeholder: parolă
+    button:
+      login-and-remember: Conectează-mă și ține-mă minte
+      login: Conectare
+      continue: Continuare
+  links:
+    request-password-reset: Parolă uitată?
+    signup: Înregistrare cont nou
+alerts:
+  local-disabled: Conturile locale sunt dezactivate

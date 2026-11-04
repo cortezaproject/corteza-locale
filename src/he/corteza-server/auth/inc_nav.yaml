@@ -1,0 +1,5 @@
+template:
+  class:
+    your-profile: הפרופיל שלך
+    security: אבטחה
+    authorized-clients: משתמש מאושר

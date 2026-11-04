@@ -1,0 +1,16 @@
+template:
+  form:
+    password:
+      label: סיסמה
+      placeholder: סיסמה
+    button:
+      login-and-remember: זכור אותי
+      login: התחברות
+      continue: המשך
+  links:
+    request-password-reset: שכחת סיסמא?
+    signup: צור חשבון חדש
+    external:
+      login-with: התחבר עם {{idp}}
+alerts:
+  local-disabled: חשבון מקומי מושהה
